@@ -111,36 +111,6 @@ hash = "401e6f8ea3922a0fc69dd8fd126280133fa4e94e7f6558ad916bdef0d6e68bdd"
 metafile = true
 
 [[files]]
-file = "mods/apotheosis.pw.toml"
-hash = "d750b10acf51335d79f3eea7c2dac74b704317cf47ce201b242a31b7ed2fa025"
-metafile = true
-
-[[files]]
-file = "mods/apothic-attributes.pw.toml"
-hash = "fcccc51e8b07c72266caf8b74dea149635d6ff810174db0d8a6b6f1669fa7253"
-metafile = true
-
-[[files]]
-file = "mods/apothic-combat.pw.toml"
-hash = "1b48a649e684ae1b73f49676450ab123ad28c02459cf28b2bb231b9c1112ca3b"
-metafile = true
-
-[[files]]
-file = "mods/apothic-compats.pw.toml"
-hash = "9d60c05b7cda360b83cb169fae39e6e151d276f1f25b8a990a55f3eed7f3238a"
-metafile = true
-
-[[files]]
-file = "mods/apothic-enchanting.pw.toml"
-hash = "1d074fd1f4dc714386ceb00d72eac43b394790fa18fb7454ec109bda5f3b550e"
-metafile = true
-
-[[files]]
-file = "mods/apothic-spawners.pw.toml"
-hash = "ca299f47588fee2bc81626e04146efa3f188da6f9e4b11bbac04502b9cdbc9dd"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5724ca10bd6d37de46834ab762a46f9ce09175f0a4fa0e2ab633846067940c03"
 metafile = true
