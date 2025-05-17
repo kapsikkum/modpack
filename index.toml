@@ -1469,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-farmers-delight-compat.pw.toml"
-hash = "1b9625747845eac9c4a92135ec74201039b9f7677abbf42bc8b61f51986b5a1a"
+hash = "5e4f45b6e1f2ce9ae540301225913e7c5d2f3babfc801b3bc20b496ca62b0a4e"
 metafile = true
 
 [[files]]
@@ -1479,7 +1479,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-friends-and-foes-compat.pw.toml"
-hash = "0491d8a170f8b3ac49de6dfb4228f07909a31d36b876658b53ad5c0963d947a2"
+hash = "2691aff80ad480ea61e60a1169869d5ad091e28bdbeb228c01bc74f0af061468"
 metafile = true
 
 [[files]]
@@ -1634,7 +1634,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "7b94f0b60ec6eb8507c78bcc88b6e51e6f9c37963bf388fa501acaf56b3714e0"
+hash = "1ffa82e434ff0aefc180df037344053396b336b2c6bc7abc3e550ae6cd337292"
 metafile = true
 
 [[files]]
