@@ -1,6 +1,6 @@
 name = "oωo (owo-lib)"
 filename = "owo-lib-neoforge-0.12.15.1-beta.3+1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/ccKDOlHs/versions/HD3e3YKK/owo-lib-neoforge-0.12.15.1-beta.3%2B1.21.jar"

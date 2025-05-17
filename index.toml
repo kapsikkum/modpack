@@ -1332,7 +1332,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
+hash = "993e99a026aa41b75ae60baceb7dce6ffcad449b83b5410433b45a3b1ea57ee3"
 metafile = true
 
 [[files]]
