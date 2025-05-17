@@ -1021,11 +1021,6 @@ hash = "251a00bff7cd8c52b987df1768c57a78e997e913514e8701f2e38eaed3e05656"
 metafile = true
 
 [[files]]
-file = "mods/just-another-witchery-remake.pw.toml"
-hash = "44bc8befd5bf8817543c823bf43a65da33a7028c672c231d4a8f33554f2f1aaa"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-archaeology.pw.toml"
 hash = "76a2d3da63cca1c74822e2cd9d366db071a382782c75f3b214e50e94dd36fd0a"
 metafile = true
