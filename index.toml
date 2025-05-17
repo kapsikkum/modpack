@@ -151,11 +151,6 @@ hash = "3b54c67c1da77c1228c3e29d07ac323c033cdfb348cd8a3980866cf638ac476c"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2.pw.toml"
-hash = "c4023b300f64b7033e4388dec2847959a2970bc3e4a58c50d6fd057b3899ed02"
-metafile = true
-
-[[files]]
 file = "mods/applied-mekanistics.pw.toml"
 hash = "bf08364748ebf327e51620921fe105fd91eb742f8b9dbc1b980bcfb2cff0cd06"
 metafile = true
