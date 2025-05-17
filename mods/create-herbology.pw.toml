@@ -1,0 +1,13 @@
+name = "Create: Herbology"
+filename = "createherbology-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb73682f33d2a0b85dbfbf6886e5d3baf48fb584"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6362051
+project-id = 1181686

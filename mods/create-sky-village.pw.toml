@@ -1,0 +1,13 @@
+name = "Create: Sky Village Forge & Fabric"
+filename = "create_sky_village-0.0.31F-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf935cef9964ca46451bdc432353ca47eee3c30d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6321512
+project-id = 1104939

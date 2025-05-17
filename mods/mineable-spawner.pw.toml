@@ -1,0 +1,13 @@
+name = "Mineable Spawner"
+filename = "mineable-spawner-v.2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vj1HfksH/versions/Ily08INY/mineable-spawner-v.2.1.1.jar"
+hash-format = "sha512"
+hash = "6eec26b94410131ea52c26eb44724aa951a385acf16ec0740ee72f779d73c7d4eeb3d23ab476a237e96093bccc039b3510014bfc22a94f7ceafe2a17a06cbeeb"
+
+[update]
+[update.modrinth]
+mod-id = "vj1HfksH"
+version = "Ily08INY"

@@ -1,0 +1,13 @@
+name = "Apothic Combat"
+filename = "apothiccombat-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N29BujGY/versions/8gwHTe22/apothiccombat-1.2.1.jar"
+hash-format = "sha512"
+hash = "8176ec8107465aa02a46548b74d391657358888bee01e76708d5ab679b10dad3dad80f7d030a3ba5c5fe730601087081a167ade4a6cef8238967188a998a667d"
+
+[update]
+[update.modrinth]
+mod-id = "N29BujGY"
+version = "8gwHTe22"

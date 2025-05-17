@@ -1,0 +1,13 @@
+name = "Torch hit!"
+filename = "torch-hit-neoforge-1.21.1-7.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/zTOq9jEI/versions/7h1hbqFn/torch-hit-neoforge-1.21.1-7.0.0.jar"
+hash-format = "sha512"
+hash = "28c66a59997986e7c2bcf03877bc74e5cacc108b516338269cc63d3a3b6371688e10b91865d22c84841f5e4a377d9b420fd730d329d52ea1d50282538c384af1"
+
+[update]
+[update.modrinth]
+mod-id = "zTOq9jEI"
+version = "7h1hbqFn"

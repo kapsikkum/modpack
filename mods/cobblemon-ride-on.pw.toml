@@ -1,0 +1,13 @@
+name = "Cobblemon: Ride On!"
+filename = "cobbleride-neoforge-0.2.5+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vXREhDPP/versions/ikbuQWgt/cobbleride-neoforge-0.2.5%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "8d7d66deea44dc5038328eda097a803982c44ea877fb8657c3ed0b99a9a0680bc248bf2f78ccf7033b71e8319f5c02e5dd62901e42f7248e2b883dde42525acd"
+
+[update]
+[update.modrinth]
+mod-id = "vXREhDPP"
+version = "ikbuQWgt"

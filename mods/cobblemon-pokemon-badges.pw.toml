@@ -1,0 +1,13 @@
+name = "Cobblemon Pokemon Badges"
+filename = "cobblemonpokemonbadges-neoforge-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pPldOOeY/versions/xCPOrDQJ/cobblemonpokemonbadges-neoforge-0.1.1.jar"
+hash-format = "sha512"
+hash = "d5f1697282ce4a2334b3a3975ac25c5d26b00d93736b78fa70c8ab5f780dcc870fff7405d238a74298f9420f28f11d26529cdddb9ece8f341a1043b6880d9741"
+
+[update]
+[update.modrinth]
+mod-id = "pPldOOeY"
+version = "xCPOrDQJ"

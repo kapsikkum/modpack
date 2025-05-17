@@ -1,0 +1,13 @@
+name = "Permanent Sponges"
+filename = "PermanentSponges-v21.1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/p6prwv2Q/versions/9EBHr4tP/PermanentSponges-v21.1.0-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "af6d04e1041ddb0b364c26bda4b52923679e1b1d55a66f3a8020da60658ea698f6c7701365f98f126cfd783bf458e5e71804de1b4eb631bc39dd3b8426c10292"
+
+[update]
+[update.modrinth]
+mod-id = "p6prwv2Q"
+version = "9EBHr4tP"

@@ -1,0 +1,13 @@
+name = "Cobblemon Quests"
+filename = "cobblemon_quests-[1.21.1]-neoforge-1.1.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kZgRPg5R/versions/9u0GCyVP/cobblemon_quests-%5B1.21.1%5D-neoforge-1.1.14.jar"
+hash-format = "sha512"
+hash = "6214aa67bcdf25619e37c47bbe7e75b23f6f0da21452baaae12dc6e9932d9a8747897033bde60338fe14b085470959f4c803062d879e07d01559f664d179f91b"
+
+[update]
+[update.modrinth]
+mod-id = "kZgRPg5R"
+version = "9u0GCyVP"

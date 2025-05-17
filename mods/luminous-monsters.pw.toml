@@ -1,0 +1,13 @@
+name = "LUMINOUS: MONSTERS"
+filename = "Luminous Monsters V1.2.62- NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b4c0645f8d2f5a0f3bd28926e0f394bbc3f9349a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6125614
+project-id = 1066090

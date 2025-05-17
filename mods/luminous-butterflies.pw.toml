@@ -1,0 +1,13 @@
+name = "LUMINOUS: BUTTERFLIES"
+filename = "Luminous Butterflies V1.2 - NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7150c0df623fb7c3a97e9aaf369fe37ac2c47f44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6320329
+project-id = 1082706

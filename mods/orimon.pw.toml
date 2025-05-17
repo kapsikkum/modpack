@@ -1,0 +1,13 @@
+name = "Orimon"
+filename = "orimon-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EbvvpFFd/versions/5gafTaKV/orimon-1.2.jar"
+hash-format = "sha512"
+hash = "252c1affdf5921691c62f3cb0f97efb8bb1fe48d12dadeeb35cfbca99197a7d02c226c55ccf83655e0d4a503645ecc9a360ba701cacd134a74bef40a5d6ed62c"
+
+[update]
+[update.modrinth]
+mod-id = "EbvvpFFd"
+version = "5gafTaKV"

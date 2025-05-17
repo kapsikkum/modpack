@@ -1,0 +1,13 @@
+name = "Efficient Furnace"
+filename = "FastFurnace-1.21.1-9.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/aYS7rVtm/versions/4uY9Wa9V/FastFurnace-1.21.1-9.0.0.jar"
+hash-format = "sha512"
+hash = "ae0d4ac35ee1f2ce19ce1c215dc1a2e2834a055c624421770eaf68b5e8046ff5db587dc3139e10d76070707c0cf41b133784b5003cf31261b67cdba418da70d7"
+
+[update]
+[update.modrinth]
+mod-id = "aYS7rVtm"
+version = "4uY9Wa9V"

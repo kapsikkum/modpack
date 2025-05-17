@@ -1,0 +1,13 @@
+name = "Undertale Death Screen"
+filename = "undertale_death_screen-neoforge-1.0.3+1.20.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lawTOUCq/versions/uCHf1cbi/undertale_death_screen-neoforge-1.0.3%2B1.20.6.jar"
+hash-format = "sha512"
+hash = "688419afc32dca23bc01462ea7783da6f7d963f77e313486a23c07198ffa003f41fa5b6f91d327ddea6dda1db94ef5dc3dc70705d2b17c98be96456d1709b1df"
+
+[update]
+[update.modrinth]
+mod-id = "lawTOUCq"
+version = "uCHf1cbi"
