@@ -1,13 +1,13 @@
 name = "Iron Chests"
-filename = "ironchest-1.21.5-neoforge-16.3.3.jar"
+filename = "ironchest-1.21-neoforge-16.0.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/P3iIrPH3/versions/f582IWXU/ironchest-1.21.5-neoforge-16.3.3.jar"
+url = "https://cdn.modrinth.com/data/P3iIrPH3/versions/Res1o1zf/ironchest-1.21-neoforge-16.0.7.jar"
 hash-format = "sha512"
-hash = "ad5f45fe8b6aa296cd15ee92f8719000cb6707c95608a9cfb4446c0e789bbe829a2929ad86f9f68a5e03d3f23570eb8bf6ee5f29a7fc622dfb578f04047554eb"
+hash = "8cd23bf931f3334e1d9c1b0a5fac0e92b022039c4cd01ee0ee95e74310a91588b72a350fb45bf542a242ab2fa271d182721b53a618cf841dd8c56f78ca0e1a97"
 
 [update]
 [update.modrinth]
 mod-id = "P3iIrPH3"
-version = "f582IWXU"
+version = "Res1o1zf"
