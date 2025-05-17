@@ -1,6 +1,6 @@
 name = "Cobblemon Size Variations"
 filename = "CobblemonSizeVariationNeoforge-1.1.0+1.6.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/bMdS1gMo/versions/4PnkFd47/CobblemonSizeVariationNeoforge-1.1.0%2B1.6.1.jar"
