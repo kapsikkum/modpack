@@ -783,6 +783,11 @@ hash = "e30e943e76c8c48ed572aa59202a9ff61131e2dbbded7f40cbeceec0ca5fe1f2"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "de5ea0b6d6c303af3788a178996c39f46d260cd15a86121b1246b3591913d256"
 metafile = true
