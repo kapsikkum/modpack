@@ -1288,11 +1288,6 @@ hash = "9ce9135a09539a42e9562e44ff79c9e3885625fc396d2aa081bf4093ae7f3778"
 metafile = true
 
 [[files]]
-file = "mods/mods-optimizer.pw.toml"
-hash = "157054efc354a4e68b17116eacf84c4ed6660f5be959057cea980bdabc4c2fa5"
-metafile = true
-
-[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "87e3acd7d3cdda6d8c99f26dafd871ba6057b6ca54650b43e6b91939069a91e5"
 metafile = true
