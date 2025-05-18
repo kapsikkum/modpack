@@ -1,6 +1,6 @@
 name = "Aether Villages"
 filename = "AetherVillages-1.21.1-1.0.8-neoforge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/3P2XnNW6/versions/9l6te4eG/AetherVillages-1.21.1-1.0.8-neoforge.jar"

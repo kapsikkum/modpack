@@ -1,6 +1,6 @@
 name = "Repurposed Structures - Farmer's Delight Compat"
 filename = "repurposed_structures_farmers_delight_compat_v7.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/P5wB88AS/versions/PKPVpBYy/repurposed_structures_farmers_delight_compat_v7.jar"

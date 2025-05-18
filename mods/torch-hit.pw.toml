@@ -1,6 +1,6 @@
 name = "Torch hit!"
 filename = "torch-hit-neoforge-1.21.1-7.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/zTOq9jEI/versions/7h1hbqFn/torch-hit-neoforge-1.21.1-7.0.0.jar"

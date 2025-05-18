@@ -1,6 +1,6 @@
 name = "Efficient Furnace"
 filename = "FastFurnace-1.21.1-9.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/aYS7rVtm/versions/4uY9Wa9V/FastFurnace-1.21.1-9.0.0.jar"

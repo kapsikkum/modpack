@@ -1,6 +1,6 @@
 name = "Tectonic"
 filename = "tectonic-3.0.0+beta4.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/bkR7KE8l/tectonic-3.0.0%2Bbeta4.jar"

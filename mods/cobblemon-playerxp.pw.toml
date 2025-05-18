@@ -1,6 +1,6 @@
 name = "Cobblemon: PlayerXP"
 filename = "playerxp-neoforge-1.0.0+1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/zlrbPCvu/versions/FQmHDZrO/playerxp-neoforge-1.0.0%2B1.21.1.jar"
