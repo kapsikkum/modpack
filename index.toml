@@ -729,7 +729,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-enchanting.pw.toml"
-hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
+hash = "7c006fbe7ad47bcdd1715b25cdb08699acb512a8e331a2fe4f01d898f3bb5103"
 metafile = true
 
 [[files]]
