@@ -333,11 +333,6 @@ hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
-hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -1135,6 +1130,11 @@ metafile = true
 [[files]]
 file = "mods/lmd.pw.toml"
 hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "befbb4e87240d661241fbbd9b2c3dff07123c97850e62322fbdc036ce454d5e2"
 metafile = true
 
 [[files]]
