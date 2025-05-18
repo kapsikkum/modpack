@@ -478,8 +478,8 @@ hash = "d362a013bef0c4e8ade6bf77e97478833902210cc70ad7d133aece3f1c3e37a6"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
+file = "mods/connectivity.pw.toml"
+hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
@@ -693,11 +693,6 @@ hash = "218dcd780f0251a15f78b097206ea22a519d57b974b39e2fdd43dce91ac07133"
 metafile = true
 
 [[files]]
-file = "mods/dimthreads.pw.toml"
-hash = "b67667c6ec8e3a755c0b05f81930e4f77b5a1269aed6afd4d2ae889ca05ae020"
-metafile = true
-
-[[files]]
 file = "mods/doggy-talents-next.pw.toml"
 hash = "01bfe507a6c6bba4f01b497d4b296acbec905839fcf308e03922b9fcb313a93f"
 metafile = true
@@ -870,11 +865,6 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "3b0891a81dab18932d79950a7033e01ac3456e0c66fa2ee84e807f18cf2319b3"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "cb56550a957dd44cab4f9102aa588cd22421cd6b4099a03ac7b1b167c23c0f13"
 metafile = true
 
 [[files]]
@@ -1665,11 +1655,6 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
-metafile = true
-
-[[files]]
-file = "mods/timeoutout.pw.toml"
-hash = "c83fbd7c8ebe356a6cdf36fff85c516f0d0e049ea914169f4b0fc094111c903e"
 metafile = true
 
 [[files]]
