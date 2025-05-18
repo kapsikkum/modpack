@@ -254,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "97f987010fbdafe16b90c5d77d2d63ef891e20b33d61e7408a5f662c2a2126d1"
+hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
 metafile = true
 
 [[files]]
@@ -335,11 +335,6 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
-metafile = true
-
-[[files]]
-file = "mods/chunky-pregenerator-forge.pw.toml"
-hash = "7be63eaec6a70605f2f21cc30f0889fb27978c2e2fe62ee4584210502289e77d"
 metafile = true
 
 [[files]]
@@ -480,6 +475,11 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "d362a013bef0c4e8ade6bf77e97478833902210cc70ad7d133aece3f1c3e37a6"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
@@ -670,6 +670,11 @@ metafile = true
 [[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "f74f78bd5307d2ba199b72b9ed0582962d134a817430ac1976c0965f626483e3"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "1d99ac75f92996ec9673e39c012a51dc4b05c48ef7bf672ccaf5e7464a1a3d13"
 metafile = true
 
 [[files]]
@@ -865,6 +870,11 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "3b0891a81dab18932d79950a7033e01ac3456e0c66fa2ee84e807f18cf2319b3"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "cb56550a957dd44cab4f9102aa588cd22421cd6b4099a03ac7b1b167c23c0f13"
 metafile = true
 
 [[files]]
@@ -1655,6 +1665,11 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
+metafile = true
+
+[[files]]
+file = "mods/timeoutout.pw.toml"
+hash = "c83fbd7c8ebe356a6cdf36fff85c516f0d0e049ea914169f4b0fc094111c903e"
 metafile = true
 
 [[files]]
