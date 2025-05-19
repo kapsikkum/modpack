@@ -1,0 +1,13 @@
+name = "StateObserver"
+filename = "stateobserver-neoforge-1.21.1-1.6.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D1lhcTKz/versions/PohyHP88/stateobserver-neoforge-1.21.1-1.6.1.jar"
+hash-format = "sha512"
+hash = "7dfedc99435370c8ce7b858c77f38d0d9d4e3e96db40bc19f081903d86beaba82c059428296a8401073a06e6bb47a1aa2013f44dbe09403b2b4439e090d89caa"
+
+[update]
+[update.modrinth]
+mod-id = "D1lhcTKz"
+version = "PohyHP88"

@@ -1,0 +1,13 @@
+name = "YAFDA (Yet Another Farmer's Delight Addon)"
+filename = "yafda-neoforge-1.21.1-0.9.2a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T11oAoxx/versions/qNyW2UvH/yafda-neoforge-1.21.1-0.9.2a.jar"
+hash-format = "sha512"
+hash = "558452557769f8ab44cb890ddca812ae03ad30dfbd596a35841ba6fd8191163524ab3d0e111924eb6f9556e161e2946291ba5d63da0043caea27a225be935cdb"
+
+[update]
+[update.modrinth]
+mod-id = "T11oAoxx"
+version = "qNyW2UvH"
