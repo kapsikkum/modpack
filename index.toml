@@ -553,6 +553,16 @@ hash = "2f7f7df8c9328e0885ad4447f557ed5d975c6aa704af22633ac8e4c39a519e9d"
 metafile = true
 
 [[files]]
+file = "mods/create-framed.pw.toml"
+hash = "bed535a9a5636585ef25b31038ebdb6cad1967e4f1e1de8bcb773bc6c569ad2a"
+metafile = true
+
+[[files]]
+file = "mods/create-fuel-motor.pw.toml"
+hash = "df7fef76989aab54a3fdd8bfe35967eda3bcb0dc2764b8f19c0f1e75e16df909"
+metafile = true
+
+[[files]]
 file = "mods/create-herbology.pw.toml"
 hash = "6392c1ade98ddf137778237169eceb34b7f201a8ef0a5ff58064ab0fd171f332"
 metafile = true
@@ -585,6 +595,11 @@ metafile = true
 [[files]]
 file = "mods/create-qol.pw.toml"
 hash = "f3608f6496e63cc446285c5cd17b2a298a520b921ca4872b87db11436dd73bb9"
+metafile = true
+
+[[files]]
+file = "mods/create-sifting.pw.toml"
+hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
 metafile = true
 
 [[files]]
