@@ -1,0 +1,13 @@
+name = "HiddenMons [Cobblemon]"
+filename = "hiddenmons-cobblemon-v0.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/isWGaSnM/versions/qXGqnq7v/hiddenmons-cobblemon-v0.6.jar"
+hash-format = "sha512"
+hash = "f9421a865ca9400916d70843c6fe5929897dc8a611c88098028e265b54c241037f23808f7ca675fc57ac1f8159af09cde258682e4f6e9b8435487c351df2727c"
+
+[update]
+[update.modrinth]
+mod-id = "isWGaSnM"
+version = "qXGqnq7v"

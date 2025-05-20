@@ -1,0 +1,13 @@
+name = "Cobweb"
+filename = "cobweb-neoforge-1.21-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dQcfqGbl/versions/O4TVCiim/cobweb-neoforge-1.21-1.3.3.jar"
+hash-format = "sha512"
+hash = "4ae56b7ab29c4baeb6312783196efc66753f059765cd2433c2176da6c7d3aa42883ba040f271268dadbccb38056716c12ae1104502f1f41d7ea7d01dedf0d2b1"
+
+[update]
+[update.modrinth]
+mod-id = "dQcfqGbl"
+version = "O4TVCiim"
