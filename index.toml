@@ -319,16 +319,6 @@ hash = "702d9edcebe02f0b68e0176799c5f8a9cb6dc8943b00576c1bf9c5c0b131b4ba"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-badgebox.pw.toml"
-hash = "fd3b2ee6f4fa70e5ef3a72a583e24cf0de12ae0b15e4b2f7a4642195a8213589"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "de23b60400d662b5ff98292605501f5fdd3203365a4c90aea35aedc961e4e3cd"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-counter.pw.toml"
 hash = "1debb78ab71cedb929312d509970f5784ff96dfb26be9ade4da55fd04419383e"
 metafile = true
@@ -344,18 +334,8 @@ hash = "69c59f5d7eaf9489c5e0f870e2b5bf1d5c5e9cd8dbff028f85dad5896b4cd09f"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "19724a0f9cbb0e0b135fa3bca2ac4be3480ed4046ae88a55c27c2df637ef0900"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-playerxp.pw.toml"
 hash = "69b3b50569fe9121f3b5482f0239de94af8d143117110fdc1e123f5d69bb8fad"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-pokemon-badges.pw.toml"
-hash = "1f2cd45c3decc1215fca84fb3df356d017f17dbd130f18704fea55772a140adf"
 metafile = true
 
 [[files]]
