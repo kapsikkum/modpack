@@ -1,0 +1,13 @@
+name = "Reliquified Twilight Forest"
+filename = "reliquified_twilight_forest-1.21.1-0.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zpFCv1jC/versions/9GmbDtNx/reliquified_twilight_forest-1.21.1-0.5.0.jar"
+hash-format = "sha512"
+hash = "49c87e197154c7a970986442ac270de9d21ab53d4f6bea113e03a7281797f479cfbfa0a2f7a81c7bec39796eec1a0252a7e96280b85f792a60f05dd18f020430"
+
+[update]
+[update.modrinth]
+mod-id = "zpFCv1jC"
+version = "9GmbDtNx"

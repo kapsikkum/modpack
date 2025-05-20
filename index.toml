@@ -53,11 +53,6 @@ file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
-file = "mods/accessories.pw.toml"
-hash = "6cdc41d10a25f004acd6cb565f8876c1c1baca66d5037053d81c4ce85975d835"
-metafile = true
-
-[[files]]
 file = "mods/ae2.pw.toml"
 hash = "b4160f327578ee994907c217b8de09e2c4377b5735b12ad56d91cb1a08ddd62d"
 metafile = true
@@ -75,11 +70,6 @@ metafile = true
 [[files]]
 file = "mods/applied-mekanistics.pw.toml"
 hash = "bf08364748ebf327e51620921fe105fd91eb742f8b9dbc1b980bcfb2cff0cd06"
-metafile = true
-
-[[files]]
-file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -513,11 +503,6 @@ hash = "a0861e228ee5620c0ed0a2615db8732e1e29b3e4da0575528e892bd3d63fb698"
 metafile = true
 
 [[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "8e5da360e375437a904021af1e7eda56fa14f1d68af363f3b6217763c63d3544"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "548cf9b25748105c70af57d4f169f4f8ea9c47c1ec6ec9cae9cbe264bdf31754"
 metafile = true
@@ -535,11 +520,6 @@ metafile = true
 [[files]]
 file = "mods/gputape.pw.toml"
 hash = "08481ad00651a7603f846d9bbb4285e995eee8d883e024ffead443524c640ee4"
-metafile = true
-
-[[files]]
-file = "mods/guideme.pw.toml"
-hash = "3d0defaa05f249638a4f43b84ae20294409b90b9f68b36e7a9aa771997129229"
 metafile = true
 
 [[files]]
@@ -703,6 +683,11 @@ hash = "f0c97c0212ddda5c012ba451a123d4b39e89f402cc70d38d31dc9098736ec07f"
 metafile = true
 
 [[files]]
+file = "mods/man-of-many-planes.pw.toml"
+hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
+metafile = true
+
+[[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "7df1f1853fe166b4a7724b9a3fa21b844756a593615cde8fb337fcdcf6df43b4"
 metafile = true
@@ -844,7 +829,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "ee35392cd74464af3b668fac4356b6e0415be59c21c09f257fb5c83d1b01a0fe"
+hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
 
 [[files]]
@@ -903,8 +888,28 @@ hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
 metafile = true
 
 [[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "6f8063ef991eb6bac1319c2bb07fa56a848985a198b5ff45310342d1e00daeba"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "c29ea2e8b991a9c0060de48ea98eef0c349966432e56455cfa2901b9f2bbcccd"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-ars-nouveau.pw.toml"
+hash = "180ed2b8463cf0387291f1861c0a732d45adadd129f354f8b4599048dfc216d3"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
+hash = "38e096c458bdab645f1e92a504823ae468fdf59ecaf8c826dea7e50a3c849cbf"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-twilight-forest.pw.toml"
+hash = "4e0345b27a11ea37d9d60d499793e3123948af07194bf5a37677756284aaee09"
 metafile = true
 
 [[files]]
@@ -950,6 +955,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "eb438b9d4a49c0cc65560cdc295bf927cabc6f34319375a0cfbf3aece662add8"
 metafile = true
 
 [[files]]
