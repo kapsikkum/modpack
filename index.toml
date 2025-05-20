@@ -1378,16 +1378,6 @@ hash = "21e8462e105ec9834a3339a08b14cb428b981cb66866a0ec661c0ac75b909116"
 metafile = true
 
 [[files]]
-file = "mods/orimon.pw.toml"
-hash = "dea49bf6cc94c936cbe934f8cd992245edbf9bcf99e2dc16d7963882737fcd50"
-metafile = true
-
-[[files]]
-file = "mods/oritech.pw.toml"
-hash = "fe9a2eefea553f5ce61eb034ce7fe24c856dd1c8dc96157eb87e50a23fd6ac39"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
