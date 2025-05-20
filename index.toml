@@ -713,6 +713,11 @@ hash = "01bfe507a6c6bba4f01b497d4b296acbec905839fcf308e03922b9fcb313a93f"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "9e0bfb309603870b77dfd202f1456c6e96649d47bf3c4628d56be50fd82a5ccf"
+metafile = true
+
+[[files]]
 file = "mods/drp-global-datapack.pw.toml"
 hash = "8dbca1a4a5270c1ea561e946d2ac2e78e02063fdbbdd446a4b206dddc02c5524"
 metafile = true
