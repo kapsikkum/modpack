@@ -288,6 +288,11 @@ hash = "df7fef76989aab54a3fdd8bfe35967eda3bcb0dc2764b8f19c0f1e75e16df909"
 metafile = true
 
 [[files]]
+file = "mods/create-herbology.pw.toml"
+hash = "6392c1ade98ddf137778237169eceb34b7f201a8ef0a5ff58064ab0fd171f332"
+metafile = true
+
+[[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "0bd9f63d607ad6198a00a36a743ac64e0f57aa684acc5319a61382a819fd1ca6"
 metafile = true
@@ -628,6 +633,11 @@ hash = "3d16c3fe2a28fe8d2fc7b7e93b4f3955e81d29f07c1c0cff10dfc91a19cd7d50"
 metafile = true
 
 [[files]]
+file = "mods/lmd.pw.toml"
+hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
+metafile = true
+
+[[files]]
 file = "mods/login-protection.pw.toml"
 hash = "befbb4e87240d661241fbbd9b2c3dff07123c97850e62322fbdc036ce454d5e2"
 metafile = true
@@ -908,6 +918,11 @@ hash = "cb08852c14e1563e663eecd8fe0865b171a0c24faefcb6edf7ad9aad06a8e431"
 metafile = true
 
 [[files]]
+file = "mods/repurposed-structures-friends-and-foes-compat.pw.toml"
+hash = "0491d8a170f8b3ac49de6dfb4228f07909a31d36b876658b53ad5c0963d947a2"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
 metafile = true
@@ -920,6 +935,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
+metafile = true
+
+[[files]]
+file = "mods/ribbits.pw.toml"
+hash = "efa8d53b3a7144e56b9823c54249fc353828f532808a73e65967d84183874782"
 metafile = true
 
 [[files]]
