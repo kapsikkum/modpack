@@ -514,11 +514,6 @@ hash = "2cc0e1f0bf03986c8ff89e27035ce0a4d23670c5d49c7a334ee2914495b9ab5e"
 metafile = true
 
 [[files]]
-file = "mods/create-oritech-compat.pw.toml"
-hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
-metafile = true
-
-[[files]]
 file = "mods/create-pillager-arise.pw.toml"
 hash = "424af6a53c3c6159ad94a03eb539f70a8faa0257453f6105f1f76c50bd6a4b39"
 metafile = true
