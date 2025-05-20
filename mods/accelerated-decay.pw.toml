@@ -1,0 +1,13 @@
+name = "Accelerated Decay"
+filename = "accelerated-decay-neoforge-21.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/laX5CckD/versions/rtgQ5T5Q/accelerated-decay-neoforge-21.0.0.jar"
+hash-format = "sha512"
+hash = "d4c2e620c5acecdfbdbcf406d076d52fc48b8ce052bb724bbe5f0e8df505449b23de981cf8280802e57822222d58c3df789348e60c90cf32d18f436887576c9b"
+
+[update]
+[update.modrinth]
+mod-id = "laX5CckD"
+version = "rtgQ5T5Q"
