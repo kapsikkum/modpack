@@ -559,11 +559,6 @@ hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
 metafile = true
 
 [[files]]
-file = "mods/create-sky-village.pw.toml"
-hash = "f60637bbdf52508be07c6065fd9db2afaa9844712c90f5cb1b5a639817ac9496"
-metafile = true
-
-[[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "8921911ef0a2858c3c6f26e7b0a987946227501888494f961d9bf70db354e535"
 metafile = true
