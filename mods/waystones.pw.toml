@@ -3,11 +3,11 @@ filename = "waystones-neoforge-1.21.1-21.1.18.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "50233fc92f111d85b99eeb36fc91f8ecbff6a12e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LOpKHB2A/versions/3Wo2Zg2r/waystones-neoforge-1.21.1-21.1.18.jar"
+hash-format = "sha512"
+hash = "b2c108c81001899cdfc02de34f77191d26fd0b6a2348b36c770fc657d9f4746a88d0f62149be8de6427c41b04fd53e84e106799d6c0551c5df8c42c57bde0f12"
 
 [update]
-[update.curseforge]
-file-id = 6519206
-project-id = 245755
+[update.modrinth]
+mod-id = "LOpKHB2A"
+version = "3Wo2Zg2r"
