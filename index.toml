@@ -1,50 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "global_packs/required_data/AetherMon-1.21.1.zip"
-hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
-
-[[files]]
-file = "global_packs/required_data/Aio's Legendary Spawns.zip"
-hash = "c7852997f9bac81e8d9f2b95ea1d5ef169267c9be70252386ad3df42327b360f"
-
-[[files]]
-file = "global_packs/required_data/AllTheMons Release 2.3.zip"
-hash = "fe6e3fbf4d9bd079ed20b3d5665487db14571493975cc7b657d86edbf590c445"
-
-[[files]]
-file = "global_packs/required_data/Angel_Islands_1.0.1.zip"
-hash = "b709ca09d23e49a4f6b316ad79277a10acbbb01e8eb6c9219ca246b1353d073c"
-
-[[files]]
-file = "global_packs/required_data/BCA-Datapack-3.6_GE_C1.6.1_M1.21.1.zip"
-hash = "f877781b7635e35f3bd6c54ae4c70f88c994375e0f13bb8d00c76577c15522ae"
-
-[[files]]
-file = "global_packs/required_data/BoniMons.zip"
-hash = "cf061a0766c7412882b5453278eac707ccbc30355589ea01d20b60239172b6b4"
-
-[[files]]
-file = "global_packs/required_data/CavsCobblemon1.4.zip"
-hash = "3bd0353ee40b50d14b2f38e7adf295bff87e6e1becad958db61b650e6af15b36"
-
-[[files]]
-file = "global_packs/required_data/Cobblemon Create Compat v2.0 (Forge).zip"
-hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
-
-[[files]]
-file = "global_packs/required_data/CobblemonSnifferArchaeology1.0.zip"
-hash = "c0c5246d5bbcba3ea719faf1420e2688c51afc265cc6992fb3230e7ed581411b"
-
-[[files]]
-file = "global_packs/required_data/NADYMONS3_v3.zip"
-hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
-
-[[files]]
-file = "global_packs/required_data/TDmon[V1.2].zip"
-hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
-
-[[files]]
 file = "kubejs/data/oritechoilcompat.zip"
 hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
 
