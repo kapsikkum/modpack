@@ -773,6 +773,11 @@ hash = "a693f3ca25b4b4ece785887d5a095abb1ab959804fbf6c89f119100f1de1df4b"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
 metafile = true
@@ -788,6 +793,16 @@ hash = "65cd00e90de065e99d13352fd5d8aa3bc28d062b9dc935cf1da914a2047b2208"
 metafile = true
 
 [[files]]
+file = "mods/eternal-nether.pw.toml"
+hash = "e30e943e76c8c48ed572aa59202a9ff61131e2dbbded7f40cbeceec0ca5fe1f2"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "de5ea0b6d6c303af3788a178996c39f46d260cd15a86121b1246b3591913d256"
 metafile = true
@@ -800,6 +815,21 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "6f59e18621f30c6dc0ffa7f34324b423f3e3a7a8c251560c6a1dd835b6bce87a"
+metafile = true
+
+[[files]]
+file = "mods/extreme_sound_muffler.pw.toml"
+hash = "244e0acbb53168401b617c4a79f327ea17e767175e88fce35af4647fd7c60cac"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "c088ee3e0b1219adb637caeea4b6a16beec6234c03abfb4e01c8aaec6741b57c"
 metafile = true
 
 [[files]]
@@ -855,6 +885,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "184c6768f11e0c33c22c104397ad559c5b9337c709d1d05c8e9c93891dcddaee"
 metafile = true
 
 [[files]]
