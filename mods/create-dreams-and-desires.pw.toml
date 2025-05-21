@@ -1,0 +1,13 @@
+name = "Create: Dreams & Desires"
+filename = "Create_Desires-2-Dreams-1.21.1-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JmybsfWs/versions/zUkXiIr8/Create_Desires-2-Dreams-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "30cf875031d2572930707309d1b6854ad76055b86f09c7b7b58393deec9d47b456d07c6adf5c4d6fe80824b6b6a2810f3fcbddce5beb05248804792f7080fac7"
+
+[update]
+[update.modrinth]
+mod-id = "JmybsfWs"
+version = "zUkXiIr8"

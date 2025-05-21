@@ -1,0 +1,13 @@
+name = "Create: Chocolate Fountain"
+filename = "create_chocolate_fountain-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uAn01eey/versions/IRnRYtkz/create_chocolate_fountain-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "25e2ce8190af7440ec336a76757f2a7f85ae028649f249760f4d764f1a16a7a7858ef41ea3f7144b9629f87c0187b070100713fb0a06ccb0822abc5fac2563b0"
+
+[update]
+[update.modrinth]
+mod-id = "uAn01eey"
+version = "IRnRYtkz"
