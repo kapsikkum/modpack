@@ -29,6 +29,11 @@ hash = "70743439137808f1d50fa0b2203d392cccf24a1751aa328201e4274260a52800"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "c620b91abf14510baca9164bdd1ab39b8f6390c080c7a8f67e66b7fa25b515b5"
 metafile = true
@@ -184,6 +189,11 @@ hash = "a4c8371232d9f542b180c7bd7e30d84b9e958b97b24af5dde0759ab8e511fb8e"
 metafile = true
 
 [[files]]
+file = "mods/createaddition.pw.toml"
+hash = "bffb086ccb18831669912bfca626b405a180555c3e395301089d3104336dbba8"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
@@ -224,8 +234,18 @@ hash = "80b8f5ac81313635f3829c0bfc1be0c82190cd5eeb2bd0f74039548f5d300ecc"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "652900870d343dda5683456934ca76bf176ea54da73d9883d8a13c9b3cae2fac"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "ae66866cd5017cb9e2fb7d45718cfcf041f3aa93484ec4a5cd3fdd894651e53a"
 metafile = true
 
 [[files]]
@@ -254,6 +274,11 @@ hash = "f376fde0de0f58f52d9e49617907549bfc833979a9c21e8668839bae63b822f2"
 metafile = true
 
 [[files]]
+file = "mods/oritech.pw.toml"
+hash = "9f8425d11a88ff7df5fd0e4850e3aa76d4784435283b9cc941ccf6ae7473aa37"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
@@ -266,6 +291,11 @@ metafile = true
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "f4ba7e9b81e7519c5a91b0a8d8401f19156bafb97b61d5837ee57fb3d0d65fc6"
+metafile = true
+
+[[files]]
+file = "mods/stitch.pw.toml"
+hash = "3297ddc42341656ac272d21e3fcdb7c2d1cc516c73c2e1bd5c08edfd64b9304a"
 metafile = true
 
 [[files]]
