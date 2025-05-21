@@ -54,131 +54,6 @@ hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
 metafile = true
 
 [[files]]
-file = "mods/crawl.pw.toml"
-hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
-metafile = true
-
-[[files]]
-file = "mods/create-central-kitchen.pw.toml"
-hash = "c63270ea90901dbb5c515ad2ca574e3d390fea86c22c239e30da919625be0741"
-metafile = true
-
-[[files]]
-file = "mods/create-chocolate-fountain.pw.toml"
-hash = "53c0c3f6af82adca8d24dcf575d2bdf3bed5e12135823a4c4f27ee7b435b9044"
-metafile = true
-
-[[files]]
-file = "mods/create-cobblemon-balls-overhaul.pw.toml"
-hash = "93cca7488736da21ec9e86e79e0578eafb7e77889cb032d1c810231152e086d9"
-metafile = true
-
-[[files]]
-file = "mods/create-confectionery.pw.toml"
-hash = "85bfeee744eff6e3cb9146da32407874d569237298072c4455224566e322e476"
-metafile = true
-
-[[files]]
-file = "mods/create-dragons-plus.pw.toml"
-hash = "39262522d1617ae4dc5d7c862cf4e457fdbcb948de13425b9a598cc5864a459f"
-metafile = true
-
-[[files]]
-file = "mods/create-dreams-and-desires.pw.toml"
-hash = "32956e0b85a4631a5c2091bbd64387978970e83c3d6f7654a3a4a8b59ddff0cc"
-metafile = true
-
-[[files]]
-file = "mods/create-encased.pw.toml"
-hash = "b6003ddf6db6b3a55a748bdecd1c5b2cf8be6b178a2932772c569457e3c96fd5"
-metafile = true
-
-[[files]]
-file = "mods/create-enchantable-machinery.pw.toml"
-hash = "1f672d49cbe7a73c3d1da775e30754d0ac9d5368cc2ff5bcadf26d144e82a729"
-metafile = true
-
-[[files]]
-file = "mods/create-enchantment-industry-plus.pw.toml"
-hash = "1165e2f94bf27b41cf7ff24e6e4a217bd661755f2b894db26e2ec1eafe752231"
-metafile = true
-
-[[files]]
-file = "mods/create-enchantment-industry.pw.toml"
-hash = "60231e01fc1a64f3f0b155738bf5f56e9cb0f84d930b04aac83858357c4deaaf"
-metafile = true
-
-[[files]]
-file = "mods/create-framed.pw.toml"
-hash = "bed535a9a5636585ef25b31038ebdb6cad1967e4f1e1de8bcb773bc6c569ad2a"
-metafile = true
-
-[[files]]
-file = "mods/create-fuel-motor.pw.toml"
-hash = "df7fef76989aab54a3fdd8bfe35967eda3bcb0dc2764b8f19c0f1e75e16df909"
-metafile = true
-
-[[files]]
-file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "0bd9f63d607ad6198a00a36a743ac64e0f57aa684acc5319a61382a819fd1ca6"
-metafile = true
-
-[[files]]
-file = "mods/create-man-of-many-planes.pw.toml"
-hash = "2cc0e1f0bf03986c8ff89e27035ce0a4d23670c5d49c7a334ee2914495b9ab5e"
-metafile = true
-
-[[files]]
-file = "mods/create-power-loader.pw.toml"
-hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
-metafile = true
-
-[[files]]
-file = "mods/create-qol.pw.toml"
-hash = "a41f0a61345cd4f5e510a01977c15faa4365d2ad7bc0508207d7f879f8b56e19"
-metafile = true
-
-[[files]]
-file = "mods/create-sifting.pw.toml"
-hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
-metafile = true
-
-[[files]]
-file = "mods/create-stock-bridge.pw.toml"
-hash = "9293bf6d4b52a44f6209a4f4023dfcc19a6507889faf81644140e1a9ec6ed220"
-metafile = true
-
-[[files]]
-file = "mods/create-structures-arise.pw.toml"
-hash = "e6f728d6f85376948b2241ef71ea6a6e47de5b2e390f5f46e3dddbd05a2a1875"
-metafile = true
-
-[[files]]
-file = "mods/create-stuff-additions.pw.toml"
-hash = "7bdf3b6cbe0579a034372ce1eec83e3c1888134f19beb6b17fbf2005706453be"
-metafile = true
-
-[[files]]
-file = "mods/create-trading-floor.pw.toml"
-hash = "67422fb0ab5a5ae646fb99077e83282c2e13e29749611bcb64bbbe02ccdb644a"
-metafile = true
-
-[[files]]
-file = "mods/create-ultimate-factory.pw.toml"
-hash = "391f875058b29709daf39840494db640bfe7a35262f45b81689df8af350cba82"
-metafile = true
-
-[[files]]
-file = "mods/create-vibrant-vaults.pw.toml"
-hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
-metafile = true
-
-[[files]]
-file = "mods/create-winery.pw.toml"
-hash = "cfc8dbfed63284c828a8141003a5a34ea58b8c9d62d5c520d4b42d3e65858c7e"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "a4c8371232d9f542b180c7bd7e30d84b9e958b97b24af5dde0759ab8e511fb8e"
 metafile = true
@@ -186,16 +61,6 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
-metafile = true
-
-[[files]]
-file = "mods/emi.pw.toml"
-hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
-metafile = true
-
-[[files]]
-file = "mods/exposure.pw.toml"
-hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
 metafile = true
 
 [[files]]
@@ -219,16 +84,6 @@ hash = "3d0defaa05f249638a4f43b84ae20294409b90b9f68b36e7a9aa771997129229"
 metafile = true
 
 [[files]]
-file = "mods/immersive-aircraft.pw.toml"
-hash = "80b8f5ac81313635f3829c0bfc1be0c82190cd5eeb2bd0f74039548f5d300ecc"
-metafile = true
-
-[[files]]
-file = "mods/jei.pw.toml"
-hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "0a983d1515e1713d1a0ae7738091909101c368be2726a446e4ca29c62fe555c2"
 metafile = true
@@ -236,16 +91,6 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "4fb1a31fed2b085e5f798c2a199fec357490f1da72451a612334776111d80d15"
-metafile = true
-
-[[files]]
-file = "mods/man-of-many-planes.pw.toml"
-hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
-metafile = true
-
-[[files]]
-file = "mods/mechanicals-lib.pw.toml"
-hash = "e38ad2bf4e13c926930ed0f12519fd68bdcdf4e8aa54c906810ec34fc6c47a5d"
 metafile = true
 
 [[files]]
