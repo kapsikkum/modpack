@@ -54,11 +54,6 @@ hash = "3b25384acb368599971dd72d3fa48f5449552e6f732d5c25caee154926a447b1"
 metafile = true
 
 [[files]]
-file = "mods/biomes-o-plenty.pw.toml"
-hash = "0c839ff974cf6d353055a2bc9d858d853be57ee4be193fa4e41ff7c4d7de9b09"
-metafile = true
-
-[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
 metafile = true
@@ -381,11 +376,6 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "7b94f0b60ec6eb8507c78bcc88b6e51e6f9c37963bf388fa501acaf56b3714e0"
-metafile = true
-
-[[files]]
-file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
