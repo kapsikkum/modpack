@@ -1,13 +1,13 @@
 name = "Just Enough Breeding (JEBr)"
-filename = "justenoughbreeding-neoforge-1.21-1.21.1-1.6.0.jar"
+filename = "justenoughbreeding-neoforge-1.20.1-1.5.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9Pk89J3g/versions/N3UdVCxT/justenoughbreeding-neoforge-1.21-1.21.1-1.6.0.jar"
+url = "https://cdn.modrinth.com/data/9Pk89J3g/versions/U6uatmJP/justenoughbreeding-neoforge-1.20.1-1.5.0.jar"
 hash-format = "sha512"
-hash = "81c708eec31e42478a4f50b0eb7a3e4932fac0ec3df7a70e7bca65746697704a3b7f6a3d19a6c21f2c8685e0aa3fb085a9fc260877cace5337a7fc1161c0dd78"
+hash = "e8d63a637b88799e11bfc0d5e990c0966b21cc887257eb51fb488668ef9e0723d4db82379a6e49eb41fb8dd11c7c7934348064ba66fdff016a42167d46f2fc12"
 
 [update]
 [update.modrinth]
 mod-id = "9Pk89J3g"
-version = "N3UdVCxT"
+version = "U6uatmJP"

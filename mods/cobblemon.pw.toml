@@ -1,13 +1,13 @@
 name = "Cobblemon"
-filename = "Cobblemon-neoforge-1.6.1+1.21.1.jar"
+filename = "Cobblemon-forge-1.5.2+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/MdwFAVRL/versions/eLcb8xod/Cobblemon-neoforge-1.6.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "9d10fb7aec60c775ea050002b7f8f4390a5bed823a91e68ec088160ddf024860c7a7fb8aef3069b7619009a04335466702150eac6e1502f1c1051d88cb5b3897"
+hash = "e92b572b08d425c95c90a71375500bf555cfe709d7d38d57248e34bb37d04ceb6cf7c3a2ba301c182b9c7541491a2e7141987ae8ebf843f78c77c8dc9271d6f4"
 
 [update]
 [update.modrinth]
 mod-id = "MdwFAVRL"
-version = "eLcb8xod"
+version = "vm5zUZAg"

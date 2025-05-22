@@ -1,13 +1,13 @@
 name = "Create: Structures Arise"
-filename = "create_structures_arise-158.31.30-neoforge-1.21.1.jar"
+filename = "create_structures_arise-158.31.30-forge-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9enMEvoc/versions/MTGO0bfZ/create_structures_arise-158.31.30-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/9enMEvoc/versions/utXSPeok/create_structures_arise-158.31.30-forge-1.20.1.jar"
 hash-format = "sha512"
-hash = "622ec189f503b03af9dee895423732c563dd9090585ac6d8cb9a8b48acfab705751fd12e2461e1a50c4cf434765952a6b6d22bf983df751053188cb880d2d382"
+hash = "7e82593c87e01a69ade4f2667464e2c792cdfa1d81db7dd3e166e60a455ad9cf42b163765a7cf8e288e4e05908112a8def7513e829364b36cd5f53c1130c64ab"
 
 [update]
 [update.modrinth]
 mod-id = "9enMEvoc"
-version = "MTGO0bfZ"
+version = "utXSPeok"

@@ -3,11 +3,11 @@ filename = "create_fuel_motor-1.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/T7J04p0F/versions/DO8UdDde/create_fuel_motor-1.2.2.jar"
+url = "https://cdn.modrinth.com/data/T7J04p0F/versions/ArKNYj5D/create_fuel_motor-1.2.2.jar"
 hash-format = "sha512"
-hash = "37ab2ff7a588ffae8b029837896b1f922448ec3ddc342a48b7e969f37b01669b4ab878f566c9f6f3e14f8a9790b1e30623d918fec1ffd1cb6dbf124fa12a0983"
+hash = "fed0e88c64010654105fd60ee854874a910ee530fa752cdbef06dfd263fab9d559326b28ce4146fa1dcb2154b175b5ffd5d3a41f311bde41035319e1ba1d81dc"
 
 [update]
 [update.modrinth]
 mod-id = "T7J04p0F"
-version = "DO8UdDde"
+version = "ArKNYj5D"

@@ -1,13 +1,13 @@
 name = "Charm of Undying"
-filename = "charmofundying-neoforge-9.1.0+1.21.1.jar"
+filename = "charmofundying-forge-6.5.0+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/b5GyyYkp/versions/bfg1ghkD/charmofundying-neoforge-9.1.0%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/b5GyyYkp/versions/NmSTxeOm/charmofundying-forge-6.5.0%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "645ac2932458a2af489e679d3a244a76d8776f72390c692e56951c069782e34e1327057f72e63132aee3ab471042765425ecc73d0c2dc1959ae649e25c55ba43"
+hash = "193c52f2c3b983973b739f0ad6d9736735a8b7ec912a015f70a1804b55a1443f6a5830f0e894b5b399c15361f38fe67177391e39e6174dba34d67ffdf7ae2e44"
 
 [update]
 [update.modrinth]
 mod-id = "b5GyyYkp"
-version = "bfg1ghkD"
+version = "NmSTxeOm"
