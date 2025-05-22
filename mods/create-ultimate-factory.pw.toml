@@ -1,6 +1,6 @@
 name = "Create: Ultimate Factory [Forge/Fabric/NeoForge]"
 filename = "create_ultimate_factory-1.9.0-neoforge-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/N9QToVpw/versions/KsRB2OZz/create_ultimate_factory-1.9.0-neoforge-1.21.1.jar"

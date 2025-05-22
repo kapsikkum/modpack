@@ -30,7 +30,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "7188ee15b48189a216d805c6355932493a99618f1c846e8cd7c998a01fc21093"
+hash = "cf71bda14feddbce48d4c01b42b7734f0a42c42a473c9fe4c6720c43b7c668e6"
 metafile = true
 
 [[files]]
@@ -136,6 +136,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "9a31384e891fd38ae4cdc606612eb6017cdc436cef194c22e58c36d8c942db90"
+metafile = true
+
+[[files]]
+file = "mods/connectivity.pw.toml"
+hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
@@ -260,7 +265,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimate-factory.pw.toml"
-hash = "391f875058b29709daf39840494db640bfe7a35262f45b81689df8af350cba82"
+hash = "6639c9674f84535d129f619984a3291e8e6294cb017b62a515adce97ffe4c9cd"
 metafile = true
 
 [[files]]
@@ -405,7 +410,7 @@ metafile = true
 
 [[files]]
 file = "mods/harvest-with-ease.pw.toml"
-hash = "a8c6a45895b59f2a00c108a5247de7eb15083a0bd835ed10c850ca22f81504ba"
+hash = "1e5b320ad839b14df9754644d36a10bc745bf165da797b9b195136ee6b1f06a7"
 metafile = true
 
 [[files]]
@@ -470,7 +475,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "1e0e48cc2fbe7b961c0dd5286b5a1786564b63b2fbc268eda2cbb2ec80612a0b"
+hash = "a4d7441baff28af7378f625ffcde857a27b8e2beba10d8b248eb6d7faa131a9b"
 metafile = true
 
 [[files]]
@@ -655,7 +660,7 @@ metafile = true
 
 [[files]]
 file = "mods/too-fast.pw.toml"
-hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
+hash = "49fb27f04c4ec26614fd121a7a8f7764d59949d0b6a3c32a63fb57fd2b3c8ea9"
 metafile = true
 
 [[files]]
