@@ -1,0 +1,13 @@
+name = "Harvest with ease"
+filename = "harvest-with-ease-neoforge-1.21-9.4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/W4Ajthd2/versions/cjDrwP2Q/harvest-with-ease-neoforge-1.21-9.4.0.jar"
+hash-format = "sha512"
+hash = "80abf8c55a108882a026b5ff7679ccb2907954a68c95e54c5e557f409787a1e5a8b73025dc2b683a13f2d36f3c815b8072ea478d5e514d2bbbac511ec40cb58a"
+
+[update]
+[update.modrinth]
+mod-id = "W4Ajthd2"
+version = "cjDrwP2Q"
