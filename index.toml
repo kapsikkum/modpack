@@ -64,6 +64,11 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "2c670e307e5694628c25baf4d3d9607e92ab45316728956e2eea58513d731427"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
 metafile = true
@@ -316,6 +321,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/orimon.pw.toml"
+hash = "dea49bf6cc94c936cbe934f8cd992245edbf9bcf99e2dc16d7963882737fcd50"
 metafile = true
 
 [[files]]
