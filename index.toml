@@ -82,11 +82,6 @@ hash = "f47e44843ba6aff3e320fa0b7307060df8924d467eab94a5587fd8694b92c7ec"
 metafile = true
 
 [[files]]
-file = "mods/abyssal-decor.pw.toml"
-hash = "513fbcf9badab750618f2d2ca55da05a2ad34e423a11994c43f90f0c2ebb8572"
-metafile = true
-
-[[files]]
 file = "mods/accessories.pw.toml"
 hash = "ce5d0cd5986126c23dc35c89a6d2124751071693c034afc3799b4f633466997f"
 metafile = true
@@ -329,11 +324,6 @@ metafile = true
 [[files]]
 file = "mods/create-sifting.pw.toml"
 hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
-metafile = true
-
-[[files]]
-file = "mods/create-stock-bridge.pw.toml"
-hash = "9293bf6d4b52a44f6209a4f4023dfcc19a6507889faf81644140e1a9ec6ed220"
 metafile = true
 
 [[files]]
