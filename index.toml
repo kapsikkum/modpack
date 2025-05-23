@@ -69,6 +69,11 @@ hash = "438901c567cf1fee4b1c35a18da5ee16ddb90c7cf3e1c716b168d43e489dab30"
 metafile = true
 
 [[files]]
+file = "mods/badpackets.pw.toml"
+hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
 metafile = true
