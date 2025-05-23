@@ -359,11 +359,6 @@ hash = "c947732c6b4dc59c1cf1e18b1664af6568542d94abda640b6aa24d0b397a49b0"
 metafile = true
 
 [[files]]
-file = "mods/lionfish-api.pw.toml"
-hash = "b821efc793dd7308be6788095bea26a2a0479f9a3ddc3b0d6a6a2af351153fc0"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
 metafile = true
