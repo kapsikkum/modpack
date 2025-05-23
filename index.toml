@@ -477,11 +477,6 @@ hash = "867a029a8bed75bea2fb02e5186730db46ec01f970d0bdb266c6897074c16177"
 metafile = true
 
 [[files]]
-file = "mods/farmers-expanse.pw.toml"
-hash = "9053962ca2d8b8356dc39fd1b6f878383420ce527e2807d55feaabaac85a9557"
-metafile = true
-
-[[files]]
 file = "mods/farming-for-blockheads.pw.toml"
 hash = "7e5d6e7ef3c2d3653a74ac3cbd3636ea178de66271017198dcb6f0d916ff6170"
 metafile = true
