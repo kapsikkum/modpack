@@ -462,16 +462,6 @@ hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
 metafile = true
 
 [[files]]
-file = "mods/farmers-cutting-the-aether.pw.toml"
-hash = "42e27827ae1d5ffb06e1cdb3043e5100fe5898af535753cebbf7be9294a8308d"
-metafile = true
-
-[[files]]
-file = "mods/farmers-cutting-twilight-forest.pw.toml"
-hash = "9f042434fe2b7fb10addc596849c71f05307d173a1937b3886519095b10bf354"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "867a029a8bed75bea2fb02e5186730db46ec01f970d0bdb266c6897074c16177"
 metafile = true
