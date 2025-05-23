@@ -61,14 +61,6 @@ file = "global_packs/required_resources/CobbleConsJourneyMap.7z"
 hash = "11ea94140b2357fa0159e1e3fb93b5ec5a3fce4dad8c8522990620dd386de9f3"
 
 [[files]]
-file = "global_packs/required_resources/FA+All_Extensions-v1.4.zip"
-hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
-
-[[files]]
-file = "global_packs/required_resources/FreshAnimations_v1.9.3.zip"
-hash = "aa3812ae5fb96a22590ff2ccb53f589a9de9081c11e1432c871cc11fa87c9252"
-
-[[files]]
 file = "global_packs/required_resources/Miku Totem.zip"
 hash = "2b50bd9f3964c49160ece8cb18511e6b2003ff5cb713a63cff9928eff6cb49e6"
 
@@ -968,6 +960,14 @@ hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
 hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
+
+[[files]]
+file = "resourcepacks/FA+All_Extensions-v1.4.zip"
+hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
+
+[[files]]
+file = "resourcepacks/FreshAnimations_v1.9.3.zip"
+hash = "aa3812ae5fb96a22590ff2ccb53f589a9de9081c11e1432c871cc11fa87c9252"
 
 [[files]]
 file = "resourcepacks/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
