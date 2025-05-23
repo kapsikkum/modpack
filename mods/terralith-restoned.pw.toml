@@ -1,0 +1,13 @@
+name = "Terralith ReStoned"
+filename = "Terralith_ReStoned_v1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oTQsXi8U/versions/hcQbM6ry/Terralith_ReStoned_v1.2.jar"
+hash-format = "sha512"
+hash = "4005e9569154cde983fe1d807961402492e26a69afac6a550c9760f0126b5a968bfbe6b489a1e85ffc66f512e6cf90627be50315a6785c96471df0473337f637"
+
+[update]
+[update.modrinth]
+mod-id = "oTQsXi8U"
+version = "hcQbM6ry"

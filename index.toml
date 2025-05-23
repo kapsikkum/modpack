@@ -249,6 +249,11 @@ hash = "bffb086ccb18831669912bfca626b405a180555c3e395301089d3104336dbba8"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "b8c42b048fde7533ade848f5e4fba86f50fae57c760c932fd8de6daece0a598a"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
@@ -484,11 +489,6 @@ hash = "9036cfad7c6297f1ed7b8b25d6c995fb5e6f4c8c41ce84239dd4056a86dc8e6d"
 metafile = true
 
 [[files]]
-file = "mods/oritech.pw.toml"
-hash = "f9f190d32044b21f3704cab6c3a0ff4590130f289bbd9514c193f27bbc5e1cdb"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "ee35392cd74464af3b668fac4356b6e0415be59c21c09f257fb5c83d1b01a0fe"
 metafile = true
@@ -534,6 +534,11 @@ hash = "73b1e4f6608fcd396acc3e4e7aa753d314c8810ef4caf831ed93d9932d93f896"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "3d003b30318f48a36bb710e8cde44d9287018d6f9c9a654c4f91e8a34b8f76b6"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
@@ -544,11 +549,6 @@ hash = "1e4d592e082f36a2787fb5b0658cf3491c281036e3eaa0c02838709701a898db"
 metafile = true
 
 [[files]]
-file = "mods/stitch.pw.toml"
-hash = "f9e13b44a817b078be83092f2a5e4aa3dc13bcce428101b52159a2703798a1ed"
-metafile = true
-
-[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "90956e69d35ea7658d5a674b68662f51b09ba11596877170e5c01b2aaa3dcd49"
 metafile = true
@@ -556,6 +556,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "7b94f0b60ec6eb8507c78bcc88b6e51e6f9c37963bf388fa501acaf56b3714e0"
+metafile = true
+
+[[files]]
+file = "mods/terralith-restoned.pw.toml"
+hash = "6fce1ec54d9b11eeb07de3951ac823ba52b9021fa420650e8e16c9bfc3302135"
 metafile = true
 
 [[files]]
@@ -586,6 +591,21 @@ metafile = true
 [[files]]
 file = "mods/underground-villages.pw.toml"
 hash = "be01b76bdb6c43f07266b382785b5a729f4fb3322832aca4a24829de1fa73f53"
+metafile = true
+
+[[files]]
+file = "mods/undertale-death-screen.pw.toml"
+hash = "74079c7106f7da8acb9669be30750a49e21b4535acadd3609a971703dde02137"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "65724a6cee7d20af78d80cc351bc6f600862adb5cf357be7e7ccc6f334fb7913"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "eef977bcac4bfd222529a55088771722227f25ff8174338809783a7871caa27d"
 metafile = true
 
 [[files]]
