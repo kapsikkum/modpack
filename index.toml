@@ -752,11 +752,6 @@ hash = "87fb28047d648087f2fe4891ddf9d3c394b9c5c29eaf4f3970fb7c32520e6fcf"
 metafile = true
 
 [[files]]
-file = "mods/playeranimator.pw.toml"
-hash = "c83705becd548879473132552de960f9d5975fa0edaeeb2d4665a4e35457423e"
-metafile = true
-
-[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "f4ba7e9b81e7519c5a91b0a8d8401f19156bafb97b61d5837ee57fb3d0d65fc6"
 metafile = true
