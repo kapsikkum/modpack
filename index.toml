@@ -167,6 +167,11 @@ hash = "3b25384acb368599971dd72d3fa48f5449552e6f732d5c25caee154926a447b1"
 metafile = true
 
 [[files]]
+file = "mods/biomesize.pw.toml"
+hash = "3ce68280783a4b5d30af9d480e5b83a4c6c362c39f481bb4d94d1b63f56a5db4"
+metafile = true
+
+[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
