@@ -304,11 +304,6 @@ hash = "3d0defaa05f249638a4f43b84ae20294409b90b9f68b36e7a9aa771997129229"
 metafile = true
 
 [[files]]
-file = "mods/hang-glider.pw.toml"
-hash = "d417dcd1fd80a8f373016d0dcfa7fca3fa1271ca146881f5deef29c2a9816895"
-metafile = true
-
-[[files]]
 file = "mods/hiddenmons-cobblemon.pw.toml"
 hash = "d2e4214bbe6f93f7f95f688989ee296b419b7dba10dee858abb346ae73b4cfbe"
 metafile = true
@@ -491,11 +486,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
-metafile = true
-
-[[files]]
-file = "mods/puzzles-lib.pw.toml"
-hash = "b27fedf73ce2b829db06bf18fea5afd33f0a001b75465301c7f5bafe7e3c04d8"
 metafile = true
 
 [[files]]
