@@ -454,11 +454,6 @@ hash = "9036cfad7c6297f1ed7b8b25d6c995fb5e6f4c8c41ce84239dd4056a86dc8e6d"
 metafile = true
 
 [[files]]
-file = "mods/network-protocol-disconnect.pw.toml"
-hash = "0b3980036ac0847ad4b19e0e5dddd5e19e1c2a566cc2597d603194c2e3324bff"
-metafile = true
-
-[[files]]
 file = "mods/orimon.pw.toml"
 hash = "dea49bf6cc94c936cbe934f8cd992245edbf9bcf99e2dc16d7963882737fcd50"
 metafile = true
@@ -471,6 +466,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "a4bb06abbfebf51a4dee16e88d8909c5582c3cfcaca848076cc7f63a25e0682b"
 metafile = true
 
 [[files]]
