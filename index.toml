@@ -404,11 +404,6 @@ hash = "912e5da7129357f8bff2cb97ad8060ea533910ccf73e886ae3f5956a50463b5d"
 metafile = true
 
 [[files]]
-file = "mods/fastsuite.pw.toml"
-hash = "2f787a7e8069f65cc7492f946a1fb58e9b66cb74505477e79cbfc4d9b217f737"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
@@ -681,11 +676,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "87fb28047d648087f2fe4891ddf9d3c394b9c5c29eaf4f3970fb7c32520e6fcf"
-metafile = true
-
-[[files]]
-file = "mods/placebo.pw.toml"
-hash = "d94f05f57f4a981d3e0fda30b3def484cee5715edc48d8a2a0c8173008a125ea"
 metafile = true
 
 [[files]]
