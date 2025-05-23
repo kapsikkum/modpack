@@ -45,7 +45,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -284,8 +284,13 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
-hash = "548cf9b25748105c70af57d4f169f4f8ea9c47c1ec6ec9cae9cbe264bdf31754"
+hash = "629b53312afe295222bc721338a3189844157971767e377316492068c453abf4"
 metafile = true
 
 [[files]]
@@ -379,8 +384,33 @@ hash = "702df8b679041c5f459da5a0dc456f70de336810bc69ff726d8c925bf484e99c"
 metafile = true
 
 [[files]]
+file = "mods/macaws-fences-and-walls.pw.toml"
+hash = "494d362db9766b5cf594109dabc35c50d78c99699d68ebc87e0d6dd51e19c244"
+metafile = true
+
+[[files]]
+file = "mods/macaws-furniture.pw.toml"
+hash = "3990757ad1f7cc8a3b92ac5f3a5e219a5c80092240ce8a3ad4f1b9a7a46b3817"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "1d09669cac9fad91c06b914728f25b93aa4114cc61e336b3d03ff7025c849ebc"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "4f3d43b696c5081e35eea3cee0588efd5f6b8d547b603b24645fe1edc0b0ba3e"
+metafile = true
+
+[[files]]
 file = "mods/macaws-roofs.pw.toml"
 hash = "b5f1c37740051774214d8dd035df9bac68ddd4d8c71ed8949fdaabd5949829de"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "238dde67a84fb867a6dfde2118d36371cb85420b3ac638976aa32899195af11a"
 metafile = true
 
 [[files]]
@@ -444,8 +474,13 @@ hash = "9036cfad7c6297f1ed7b8b25d6c995fb5e6f4c8c41ce84239dd4056a86dc8e6d"
 metafile = true
 
 [[files]]
+file = "mods/oritech.pw.toml"
+hash = "f9f190d32044b21f3704cab6c3a0ff4590130f289bbd9514c193f27bbc5e1cdb"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
+hash = "ee35392cd74464af3b668fac4356b6e0415be59c21c09f257fb5c83d1b01a0fe"
 metafile = true
 
 [[files]]
@@ -474,6 +509,11 @@ hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
 metafile = true
 
 [[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "6f8063ef991eb6bac1319c2bb07fa56a848985a198b5ff45310342d1e00daeba"
+metafile = true
+
+[[files]]
 file = "mods/ribbits.pw.toml"
 hash = "efa8d53b3a7144e56b9823c54249fc353828f532808a73e65967d84183874782"
 metafile = true
@@ -495,7 +535,7 @@ metafile = true
 
 [[files]]
 file = "mods/stitch.pw.toml"
-hash = "3297ddc42341656ac272d21e3fcdb7c2d1cc516c73c2e1bd5c08edfd64b9304a"
+hash = "f9e13b44a817b078be83092f2a5e4aa3dc13bcce428101b52159a2703798a1ed"
 metafile = true
 
 [[files]]
