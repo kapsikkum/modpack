@@ -349,11 +349,6 @@ hash = "a1a3d0ee9d63e183124e37abb009ad398064ff8268a68b40f836579774893f89"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "007ca3fb8a617776705f8f38eab60a286fed6426a0ee1d792af6814f1bc24174"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
 hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
@@ -741,6 +736,11 @@ metafile = true
 [[files]]
 file = "mods/simple-hats.pw.toml"
 hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "5e2f69be28f9240fbe9824fc8d0d302dac475c5aafc2fd444f32bec9a5d5fd8f"
 metafile = true
 
 [[files]]
