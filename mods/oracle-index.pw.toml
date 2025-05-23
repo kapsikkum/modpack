@@ -3,11 +3,11 @@ filename = "oracle_index-neoforge-0.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/J8MMsNrL/versions/eaWj4RcF/oracle_index-neoforge-0.3.0.jar"
-hash-format = "sha512"
-hash = "4158cbd5dee9db9b2bc99d55e48b034c00651d85adfe70d61992a779b0475de2eaf753009e8997cd4c3a6ff18313a497a459830f34563b5b738a37abc33247a6"
+hash-format = "sha1"
+hash = "4d4af8b616a0eca58477e3bbf81f74f8d81ce484"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "J8MMsNrL"
-version = "eaWj4RcF"
+[update.curseforge]
+file-id = 6538217
+project-id = 1206582
