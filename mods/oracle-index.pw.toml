@@ -1,6 +1,6 @@
 name = "Oracle Index"
 filename = "oracle_index-neoforge-0.3.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/J8MMsNrL/versions/eaWj4RcF/oracle_index-neoforge-0.3.0.jar"
