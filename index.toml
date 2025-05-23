@@ -334,33 +334,8 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
-file = "mods/diagonal-fences.pw.toml"
-hash = "632743d54d410c8b78fb92c94d8f3bb6a7a3faed45171f91e554877f94f82163"
-metafile = true
-
-[[files]]
-file = "mods/diagonal-walls.pw.toml"
-hash = "bbc15c019fd260bbb9058b14a8e03232a55df77608d9aca466d051007d62abd2"
-metafile = true
-
-[[files]]
-file = "mods/diagonal-windows.pw.toml"
-hash = "218dcd780f0251a15f78b097206ea22a519d57b974b39e2fdd43dce91ac07133"
-metafile = true
-
-[[files]]
 file = "mods/disconnect-packet-fix.pw.toml"
 hash = "a1a3d0ee9d63e183124e37abb009ad398064ff8268a68b40f836579774893f89"
-metafile = true
-
-[[files]]
-file = "mods/easy-anvils.pw.toml"
-hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
-metafile = true
-
-[[files]]
-file = "mods/easy-magic.pw.toml"
-hash = "4485332b8ff7be999cc4142ecad55763acdb587df69f748170bf5644f72d5729"
 metafile = true
 
 [[files]]
