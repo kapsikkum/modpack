@@ -167,6 +167,16 @@ hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
 
 [[files]]
+file = "mods/building-wands.pw.toml"
+hash = "fbb4954b6bcfb8a492b74cbd1d913fd27f481e0cab1ab9371751e1e1843e3da1"
+metafile = true
+
+[[files]]
+file = "mods/caelus.pw.toml"
+hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
 metafile = true
@@ -264,6 +274,11 @@ metafile = true
 [[files]]
 file = "mods/create-confectionery.pw.toml"
 hash = "85bfeee744eff6e3cb9146da32407874d569237298072c4455224566e322e476"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "57a32028d4bfb72744f5c394d1c30159ff4ee8652155a89b6c4208ffc2de38ef"
 metafile = true
 
 [[files]]
@@ -378,7 +393,12 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/cut-through.pw.toml"
+hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
 
 [[files]]
@@ -399,6 +419,11 @@ metafile = true
 [[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "4485332b8ff7be999cc4142ecad55763acdb587df69f748170bf5644f72d5729"
+metafile = true
+
+[[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "9e2b351f3cabb1252259f5383e6f2fec3e3d90534dbecddef4ed183eba42f35a"
 metafile = true
 
 [[files]]
@@ -429,6 +454,11 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
+metafile = true
+
+[[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "de5ea0b6d6c303af3788a178996c39f46d260cd15a86121b1246b3591913d256"
 metafile = true
 
 [[files]]
@@ -717,6 +747,11 @@ hash = "caa3e2282daef2c96ca71b329e07453d904aa338026e274c362432512b0129ca"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "abfc8909de1c851ccf4ef296e05d1017332a21fef76fd1f938828fcff925115b"
+metafile = true
+
+[[files]]
 file = "mods/nyfs-spiders.pw.toml"
 hash = "3369ef3b2d68c6e54827e38e27d749444765b8da9be3202dc1139bba7f16a70b"
 metafile = true
@@ -894,6 +929,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "904ad5b0b32e5875203ded1e5f98995d2b93441e42c9a82fa6ca884a933a729d"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "90956e69d35ea7658d5a674b68662f51b09ba11596877170e5c01b2aaa3dcd49"
 metafile = true
 
 [[files]]
