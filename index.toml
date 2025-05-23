@@ -1,12 +1,88 @@
 hash-format = "sha256"
 
 [[files]]
+file = "global_packs/required_data/AetherMon-1.21.1.zip"
+hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
+
+[[files]]
 file = "global_packs/required_data/AllTheMons Release 2.3.zip"
 hash = "fe6e3fbf4d9bd079ed20b3d5665487db14571493975cc7b657d86edbf590c445"
 
 [[files]]
 file = "global_packs/required_data/Angel_Islands_1.0.1.zip"
 hash = "b709ca09d23e49a4f6b316ad79277a10acbbb01e8eb6c9219ca246b1353d073c"
+
+[[files]]
+file = "global_packs/required_data/BCA-Datapack-3.6_GE_C1.6.1_M1.21.1.zip"
+hash = "f877781b7635e35f3bd6c54ae4c70f88c994375e0f13bb8d00c76577c15522ae"
+
+[[files]]
+file = "global_packs/required_data/BoniMons.zip"
+hash = "cf061a0766c7412882b5453278eac707ccbc30355589ea01d20b60239172b6b4"
+
+[[files]]
+file = "global_packs/required_data/CavsCobblemon1.4.zip"
+hash = "3bd0353ee40b50d14b2f38e7adf295bff87e6e1becad958db61b650e6af15b36"
+
+[[files]]
+file = "global_packs/required_data/Cobblemon Create Compat v2.0 (Forge) (1).zip"
+hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
+
+[[files]]
+file = "global_packs/required_data/CobblemonSnifferArchaeology1.0 (1).zip"
+hash = "c0c5246d5bbcba3ea719faf1420e2688c51afc265cc6992fb3230e7ed581411b"
+
+[[files]]
+file = "global_packs/required_data/NADYMONS3_v3.zip"
+hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
+
+[[files]]
+file = "global_packs/required_data/TDmon[V1.2].zip"
+hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
+
+[[files]]
+file = "global_packs/required_resources/3dMase.zip"
+hash = "3f01d99f70897265cef6e336f06fbc307dcfaa9bec05f37e3887dc6f9ce979e0"
+
+[[files]]
+file = "global_packs/required_resources/AllTheMons Release 2.3.zip"
+hash = "fe6e3fbf4d9bd079ed20b3d5665487db14571493975cc7b657d86edbf590c445"
+
+[[files]]
+file = "global_packs/required_resources/BoniMons.zip"
+hash = "cf061a0766c7412882b5453278eac707ccbc30355589ea01d20b60239172b6b4"
+
+[[files]]
+file = "global_packs/required_resources/CavsCobblemon1.4.zip"
+hash = "3bd0353ee40b50d14b2f38e7adf295bff87e6e1becad958db61b650e6af15b36"
+
+[[files]]
+file = "global_packs/required_resources/CobbleConsJourneyMap.7z"
+hash = "11ea94140b2357fa0159e1e3fb93b5ec5a3fce4dad8c8522990620dd386de9f3"
+
+[[files]]
+file = "global_packs/required_resources/FA+All_Extensions-v1.4.zip"
+hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
+
+[[files]]
+file = "global_packs/required_resources/FreshAnimations_v1.9.3.zip"
+hash = "aa3812ae5fb96a22590ff2ccb53f589a9de9081c11e1432c871cc11fa87c9252"
+
+[[files]]
+file = "global_packs/required_resources/Miku Totem.zip"
+hash = "2b50bd9f3964c49160ece8cb18511e6b2003ff5cb713a63cff9928eff6cb49e6"
+
+[[files]]
+file = "global_packs/required_resources/Muskets 3D Wild West для Ewewkek's.zip"
+hash = "698644e3dee91a1624ee78c8981fd592f2ec9dbdcd2098a54d0064e06fc695c9"
+
+[[files]]
+file = "global_packs/required_resources/NADYMONS3_v3.zip"
+hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
+
+[[files]]
+file = "global_packs/required_resources/TDmon[V1.2].zip"
+hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
@@ -872,3 +948,47 @@ metafile = true
 file = "mods/yungs-api.pw.toml"
 hash = "4bb587c09a53f82dec620482b3badeee9d6e865902efcfc39139f906cc0b108f"
 metafile = true
+
+[[files]]
+file = "resourcepacks/CobbleConsJourneyMap.7z"
+hash = "11ea94140b2357fa0159e1e3fb93b5ec5a3fce4dad8c8522990620dd386de9f3"
+
+[[files]]
+file = "resourcepacks/Cobblemotion_v1.2.zip"
+hash = "2fd7c4d9649efb394893d1ec73edd1fd6ff43a6890260f9a4275012f5cf6e272"
+
+[[files]]
+file = "resourcepacks/Create AE2 Datapack.zip"
+hash = "e20346ef0b8d4dc512393043328bac531ccf2b4d3a10d772cfc26db5b989c41e"
+
+[[files]]
+file = "resourcepacks/Doc's Whimscape Additions - Even More Delight.zip"
+hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
+
+[[files]]
+file = "resourcepacks/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
+hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
+
+[[files]]
+file = "resourcepacks/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
+hash = "9eb4333afbb3b6260cc2578ea0c7c4119ce92f96bd0375caca6edd6d92abcd46"
+
+[[files]]
+file = "resourcepacks/Whimscape x Cobblemon v1.6.1.zip"
+hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
+
+[[files]]
+file = "resourcepacks/Whimscape x Exploration v1.0.zip"
+hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
+
+[[files]]
+file = "resourcepacks/Whimscape_1.16.5_r1.zip"
+hash = "a084bbbff771b69d0de35b172061acadf7b22b546038b8636aaea1fe2f5a9036"
+
+[[files]]
+file = "resourcepacks/Whimscape_x_TrashSlot.zip"
+hash = "a9c442044184a57c5deb7f3aa4fb2c49a0291bc5e7ec9a9c675f8a763309cb96"
+
+[[files]]
+file = "resourcepacks/§8§lDarkmode §f§lColourful Containers§8.zip"
+hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
