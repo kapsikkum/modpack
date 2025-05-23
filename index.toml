@@ -177,6 +177,11 @@ hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
 metafile = true
 
 [[files]]
+file = "mods/chefs-delight.pw.toml"
+hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -264,6 +269,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
@@ -452,8 +462,28 @@ hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
 metafile = true
 
 [[files]]
+file = "mods/farmers-cutting-the-aether.pw.toml"
+hash = "42e27827ae1d5ffb06e1cdb3043e5100fe5898af535753cebbf7be9294a8308d"
+metafile = true
+
+[[files]]
+file = "mods/farmers-cutting-twilight-forest.pw.toml"
+hash = "9f042434fe2b7fb10addc596849c71f05307d173a1937b3886519095b10bf354"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "867a029a8bed75bea2fb02e5186730db46ec01f970d0bdb266c6897074c16177"
+metafile = true
+
+[[files]]
+file = "mods/farmers-expanse.pw.toml"
+hash = "9053962ca2d8b8356dc39fd1b6f878383420ce527e2807d55feaabaac85a9557"
+metafile = true
+
+[[files]]
+file = "mods/farming-for-blockheads.pw.toml"
+hash = "7e5d6e7ef3c2d3653a74ac3cbd3636ea178de66271017198dcb6f0d916ff6170"
 metafile = true
 
 [[files]]
@@ -782,6 +812,21 @@ hash = "6ab010914e5472082ccf894b232d61a01793c27e554adc6fd12ab4f7966dde73"
 metafile = true
 
 [[files]]
+file = "mods/repurposed-structures-farmers-delight-compat.pw.toml"
+hash = "1b9625747845eac9c4a92135ec74201039b9f7677abbf42bc8b61f51986b5a1a"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-forge.pw.toml"
+hash = "8a3eac5ecbc0fca603dd6e6cecc9bb4c3683e527ebaccf82fc2e1aeab28e70d4"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-friends-and-foes-compat.pw.toml"
+hash = "0491d8a170f8b3ac49de6dfb4228f07909a31d36b876658b53ad5c0963d947a2"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
@@ -892,6 +937,11 @@ hash = "2adf25ec00711d16b41c883e468df80e55448740b300d694364dd50744d76605"
 metafile = true
 
 [[files]]
+file = "mods/the-aethers-delight.pw.toml"
+hash = "ff15d498bdd687be1584a15a7feeef5b611c4a332549c27037e83e6a68e44fa3"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
 metafile = true
@@ -902,8 +952,23 @@ hash = "0cbfee517ef794590c79f407c060a42f9719e8533f730411761d3d429463af03"
 metafile = true
 
 [[files]]
+file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
+hash = "9aa3e995213f406e6463f8ac7089b6dd372fed4bcc20fc3c5c89fc713d31dde6"
+metafile = true
+
+[[files]]
 file = "mods/too-fast.pw.toml"
 hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
+metafile = true
+
+[[files]]
+file = "mods/twilight-delight.pw.toml"
+hash = "6f5bd875241e966b2be0e41298c472bd9efaddbdf107d81654f73d07e3c6d35b"
+metafile = true
+
+[[files]]
+file = "mods/twilight-forest-the-lost-blocks.pw.toml"
+hash = "83c6eeec020e6636053b86dc8a068258bb1f87a262162904c900708cedbc00ba"
 metafile = true
 
 [[files]]
