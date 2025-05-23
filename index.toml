@@ -137,11 +137,6 @@ hash = "c620b91abf14510baca9164bdd1ab39b8f6390c080c7a8f67e66b7fa25b515b5"
 metafile = true
 
 [[files]]
-file = "mods/ars-technica.pw.toml"
-hash = "438901c567cf1fee4b1c35a18da5ee16ddb90c7cf3e1c716b168d43e489dab30"
-metafile = true
-
-[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "5863223f901ecb1c6d1ff4e2318c6af4f8cf276d541782f1b83e3482089d13ed"
 metafile = true
@@ -227,11 +222,6 @@ hash = "31957d8038d99d554871cf45c6f1dd321d47e41b85e90247a1f472da157267e9"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-counter.pw.toml"
-hash = "87e7b0b4905047b4c3b26bbc8286fcc6039724248c4f1352d95ae2ee1074c577"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "9a63345cf760836a513ceae4326316d040602552887eea878364ef71c458d362"
 metafile = true
@@ -254,11 +244,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "a8eef2d20fb1ca80a1f29de6be09e7e56d40624253cbb8bf4684165aa99889c2"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-unchained.pw.toml"
-hash = "3e2080c9d6bbf1b903e2617153749d478cb6f70bad75d10baeb6533ae51c3352"
 metafile = true
 
 [[files]]
