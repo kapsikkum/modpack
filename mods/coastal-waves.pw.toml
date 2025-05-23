@@ -3,11 +3,11 @@ filename = "Waves-1.21-1.5.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/2ygdYUcf/versions/LvuFp8fe/Waves-1.21-1.5.1.jar"
-hash-format = "sha512"
-hash = "84aa82a7da5ad19fa55bc22f77637f10da616d4068d47d5b4c934e9b90f4bd3e8c2b9a86b5affc0885db05b480868790e1f15d382d097d92510140667a2de6ba"
+hash-format = "sha1"
+hash = "c7b82386018cfb70ae2adc7391555ea4d9d24a21"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "2ygdYUcf"
-version = "LvuFp8fe"
+[update.curseforge]
+file-id = 6353971
+project-id = 1155936
