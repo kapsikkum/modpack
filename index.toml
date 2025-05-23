@@ -349,16 +349,6 @@ hash = "a1a3d0ee9d63e183124e37abb009ad398064ff8268a68b40f836579774893f89"
 metafile = true
 
 [[files]]
-file = "mods/easy-anvils.pw.toml"
-hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
-metafile = true
-
-[[files]]
-file = "mods/easy-magic.pw.toml"
-hash = "4485332b8ff7be999cc4142ecad55763acdb587df69f748170bf5644f72d5729"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
 hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
@@ -461,6 +451,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "80b8f5ac81313635f3829c0bfc1be0c82190cd5eeb2bd0f74039548f5d300ecc"
+metafile = true
+
+[[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "33b82ea2db30c5852e78f73f18f8608c0725f21f42f1ff6f50a9f7b85f29c0e9"
 metafile = true
 
 [[files]]
