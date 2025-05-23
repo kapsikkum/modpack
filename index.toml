@@ -239,6 +239,11 @@ hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "f426f827dc4ba8d6b31715054f74f003259aa2db9d5d86af67d0f5402160bd0f"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "3d0defaa05f249638a4f43b84ae20294409b90b9f68b36e7a9aa771997129229"
 metafile = true
