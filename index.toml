@@ -212,11 +212,6 @@ hash = "31957d8038d99d554871cf45c6f1dd321d47e41b85e90247a1f472da157267e9"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "9a63345cf760836a513ceae4326316d040602552887eea878364ef71c458d362"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-integrations.pw.toml"
 hash = "69c59f5d7eaf9489c5e0f870e2b5bf1d5c5e9cd8dbff028f85dad5896b4cd09f"
 metafile = true
