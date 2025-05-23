@@ -177,6 +177,11 @@ hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -419,6 +424,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "65cd00e90de065e99d13352fd5d8aa3bc28d062b9dc935cf1da914a2047b2208"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
 metafile = true
 
 [[files]]
@@ -859,6 +869,11 @@ metafile = true
 [[files]]
 file = "mods/stitch.pw.toml"
 hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
+metafile = true
+
+[[files]]
+file = "mods/stone-zone.pw.toml"
+hash = "6881e2e81e9cc3ed6a449ec19a185f3ec68adfcf0cde8bc233d8c7a616eac119"
 metafile = true
 
 [[files]]
