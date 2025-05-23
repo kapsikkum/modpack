@@ -744,11 +744,6 @@ hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
 metafile = true
 
 [[files]]
-file = "mods/simply-swords.pw.toml"
-hash = "5e2f69be28f9240fbe9824fc8d0d302dac475c5aafc2fd444f32bec9a5d5fd8f"
-metafile = true
-
-[[files]]
 file = "mods/sky-villages.pw.toml"
 hash = "65ae5274b963d5b15e22cd3680b2ac6851f3fa5669b3914c496b45148a18a5a7"
 metafile = true
