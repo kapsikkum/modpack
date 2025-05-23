@@ -202,11 +202,6 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
-file = "mods/coastal-waves.pw.toml"
-hash = "184a5eb293a6eef159e1dd871c486df85bc2597051775366940cc7510971c62a"
-metafile = true
-
-[[files]]
 file = "mods/cobbleloots.pw.toml"
 hash = "702d9edcebe02f0b68e0176799c5f8a9cb6dc8943b00576c1bf9c5c0b131b4ba"
 metafile = true
@@ -244,21 +239,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
-metafile = true
-
-[[files]]
-file = "mods/cobblepedia.pw.toml"
-hash = "777d43c32847ac522bcad868f85c430eb0cea08d4a6af7d224b1458d11667d3d"
-metafile = true
-
-[[files]]
-file = "mods/cobbreeding.pw.toml"
-hash = "97ab0f1c6358fbb68c889656714a7736862c884ce33e1ac953c9747818b904a1"
-metafile = true
-
-[[files]]
-file = "mods/cobgyms.pw.toml"
-hash = "d767af66d47be70b9851b6cb48056e11cbcc8291713c0976fed1ad62f9ac60c9"
 metafile = true
 
 [[files]]
@@ -462,11 +442,6 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
-file = "mods/forgiving-world.pw.toml"
-hash = "7b059c9d8f314064bc77334fb42d7be82c9870d82b72a1d782c97ec31bfdac94"
-metafile = true
-
-[[files]]
 file = "mods/framework.pw.toml"
 hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
 metafile = true
@@ -484,11 +459,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "548cf9b25748105c70af57d4f169f4f8ea9c47c1ec6ec9cae9cbe264bdf31754"
-metafile = true
-
-[[files]]
-file = "mods/geophilic.pw.toml"
-hash = "87d16e6f43df61a8fb025a9977343bc2f026570d198f48d82ef087be0d9e29eb"
 metafile = true
 
 [[files]]
@@ -892,11 +862,6 @@ hash = "904ad5b0b32e5875203ded1e5f98995d2b93441e42c9a82fa6ca884a933a729d"
 metafile = true
 
 [[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "90956e69d35ea7658d5a674b68662f51b09ba11596877170e5c01b2aaa3dcd49"
-metafile = true
-
-[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "7b94f0b60ec6eb8507c78bcc88b6e51e6f9c37963bf388fa501acaf56b3714e0"
 metafile = true
@@ -904,11 +869,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
-metafile = true
-
-[[files]]
-file = "mods/terraphilic.pw.toml"
-hash = "2adf25ec00711d16b41c883e468df80e55448740b300d694364dd50744d76605"
 metafile = true
 
 [[files]]
