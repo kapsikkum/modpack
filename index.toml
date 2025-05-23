@@ -509,11 +509,6 @@ hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
 metafile = true
 
 [[files]]
-file = "mods/qraftys-bunkers.pw.toml"
-hash = "7d9793da9799b3d1d77cd5cebffde4240346458dff7c87986d2c134a1eceee73"
-metafile = true
-
-[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "6f8063ef991eb6bac1319c2bb07fa56a848985a198b5ff45310342d1e00daeba"
 metafile = true
