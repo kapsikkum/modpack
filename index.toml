@@ -164,11 +164,6 @@ hash = "848070500725f7a5cbb94d7c1796fd001da57326aebab0333bb56fbb784dc457"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-size-variations.pw.toml"
-hash = "94beade376ce2a4095371ee972b9cdd3b768df1964bb5d22b1bc804272634973"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "a8eef2d20fb1ca80a1f29de6be09e7e56d40624253cbb8bf4684165aa99889c2"
 metafile = true
@@ -715,7 +710,7 @@ metafile = true
 
 [[files]]
 file = "mods/simply-swords.pw.toml"
-hash = "5e2f69be28f9240fbe9824fc8d0d302dac475c5aafc2fd444f32bec9a5d5fd8f"
+hash = "07a9ecfcc4c0087afc931738e0822555fb62497584dc555671d9d9effe08f943"
 metafile = true
 
 [[files]]
