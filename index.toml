@@ -182,11 +182,6 @@ hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
-hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
-metafile = true
-
-[[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "5488558b52cdbacdc991c1f76b658c49a3c40f53ddf49a22df988d516bcdcfc7"
 metafile = true
@@ -324,11 +319,6 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "60231e01fc1a64f3f0b155738bf5f56e9cb0f84d930b04aac83858357c4deaaf"
-metafile = true
-
-[[files]]
-file = "mods/create-framed.pw.toml"
-hash = "bed535a9a5636585ef25b31038ebdb6cad1967e4f1e1de8bcb773bc6c569ad2a"
 metafile = true
 
 [[files]]
