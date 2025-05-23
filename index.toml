@@ -109,8 +109,18 @@ hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
@@ -119,13 +129,73 @@ hash = "184a5eb293a6eef159e1dd871c486df85bc2597051775366940cc7510971c62a"
 metafile = true
 
 [[files]]
+file = "mods/cobbleloots.pw.toml"
+hash = "702d9edcebe02f0b68e0176799c5f8a9cb6dc8943b00576c1bf9c5c0b131b4ba"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "31957d8038d99d554871cf45c6f1dd321d47e41b85e90247a1f472da157267e9"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "87e7b0b4905047b4c3b26bbc8286fcc6039724248c4f1352d95ae2ee1074c577"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
+hash = "9a63345cf760836a513ceae4326316d040602552887eea878364ef71c458d362"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "69c59f5d7eaf9489c5e0f870e2b5bf1d5c5e9cd8dbff028f85dad5896b4cd09f"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "2c670e307e5694628c25baf4d3d9607e92ab45316728956e2eea58513d731427"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "848070500725f7a5cbb94d7c1796fd001da57326aebab0333bb56fbb784dc457"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-size-variations.pw.toml"
+hash = "d465cc984e935527f2f64b48d88233431c3810013392e345ad4e7350019f962b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-spawn-notification.pw.toml"
+hash = "a8eef2d20fb1ca80a1f29de6be09e7e56d40624253cbb8bf4684165aa99889c2"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-unchained.pw.toml"
+hash = "3e2080c9d6bbf1b903e2617153749d478cb6f70bad75d10baeb6533ae51c3352"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
+metafile = true
+
+[[files]]
+file = "mods/cobblepedia.pw.toml"
+hash = "777d43c32847ac522bcad868f85c430eb0cea08d4a6af7d224b1458d11667d3d"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "97ab0f1c6358fbb68c889656714a7736862c884ce33e1ac953c9747818b904a1"
+metafile = true
+
+[[files]]
+file = "mods/cobgyms.pw.toml"
+hash = "d767af66d47be70b9851b6cb48056e11cbcc8291713c0976fed1ad62f9ac60c9"
 metafile = true
 
 [[files]]
@@ -279,8 +349,18 @@ hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
 
 [[files]]
+file = "mods/enchanted-witchcraft.pw.toml"
+hash = "431ff8de004345b1f0a7848ffae8eec2a468da05160ea98ea33a9bb422d8a7e5"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "5c58b5f90359fa2516855ddea5406998e7671889b4c89c46fec1f142e79357a3"
 metafile = true
 
 [[files]]
@@ -320,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "629b53312afe295222bc721338a3189844157971767e377316492068c453abf4"
+hash = "548cf9b25748105c70af57d4f169f4f8ea9c47c1ec6ec9cae9cbe264bdf31754"
 metafile = true
 
 [[files]]
@@ -524,6 +604,11 @@ hash = "9036cfad7c6297f1ed7b8b25d6c995fb5e6f4c8c41ce84239dd4056a86dc8e6d"
 metafile = true
 
 [[files]]
+file = "mods/musket-mod.pw.toml"
+hash = "359f98f5d3028b8f9383258479cd2852054ad3475e18621b63b50864ff5852eb"
+metafile = true
+
+[[files]]
 file = "mods/mutant-monsters.pw.toml"
 hash = "caa3e2282daef2c96ca71b329e07453d904aa338026e274c362432512b0129ca"
 metafile = true
@@ -559,6 +644,11 @@ hash = "ba8aa6f9a78c00c89547e4e4f1c369b5016c62dc758d2cb446c09bb172f89b18"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "87fb28047d648087f2fe4891ddf9d3c394b9c5c29eaf4f3970fb7c32520e6fcf"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "c83705becd548879473132552de960f9d5975fa0edaeeb2d4665a4e35457423e"
 metafile = true
@@ -591,6 +681,11 @@ metafile = true
 [[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "6ab010914e5472082ccf894b232d61a01793c27e554adc6fd12ab4f7966dde73"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
@@ -656,6 +751,16 @@ metafile = true
 [[files]]
 file = "mods/starbunclemania.pw.toml"
 hash = "1e4d592e082f36a2787fb5b0658cf3491c281036e3eaa0c02838709701a898db"
+metafile = true
+
+[[files]]
+file = "mods/stateobserver.pw.toml"
+hash = "056cac6e78f63d3c8ed5a04e05f91cf3513efdde9ad291a4775b2f6e0caa7bc6"
+metafile = true
+
+[[files]]
+file = "mods/stitch.pw.toml"
+hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
 metafile = true
 
 [[files]]
