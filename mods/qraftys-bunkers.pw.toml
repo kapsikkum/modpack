@@ -1,0 +1,13 @@
+name = "qrafty's Underground Villages"
+filename = "qraftys-bunkers-2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xlB8CNvE/versions/jUD6K6Ev/qraftys-bunkers-2.2.jar"
+hash-format = "sha512"
+hash = "d11e8dcd416109747dce8291be8e86fe140a2a3b6f0391e0de66d57badbe8eeb025d7cce2f1ea4724873570dea6d03f44fb86981cf9f5a3c77779f09a8e86e1c"
+
+[update]
+[update.modrinth]
+mod-id = "xlB8CNvE"
+version = "jUD6K6Ev"

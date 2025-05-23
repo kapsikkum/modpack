@@ -509,6 +509,11 @@ hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
 metafile = true
 
 [[files]]
+file = "mods/qraftys-bunkers.pw.toml"
+hash = "7d9793da9799b3d1d77cd5cebffde4240346458dff7c87986d2c134a1eceee73"
+metafile = true
+
+[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "6f8063ef991eb6bac1319c2bb07fa56a848985a198b5ff45310342d1e00daeba"
 metafile = true
@@ -571,6 +576,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
+metafile = true
+
+[[files]]
+file = "mods/underground-villages.pw.toml"
+hash = "be01b76bdb6c43f07266b382785b5a729f4fb3322832aca4a24829de1fa73f53"
 metafile = true
 
 [[files]]
