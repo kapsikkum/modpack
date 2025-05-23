@@ -69,11 +69,6 @@ hash = "c63270ea90901dbb5c515ad2ca574e3d390fea86c22c239e30da919625be0741"
 metafile = true
 
 [[files]]
-file = "mods/create-chocolate-fountain.pw.toml"
-hash = "53c0c3f6af82adca8d24dcf575d2bdf3bed5e12135823a4c4f27ee7b435b9044"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblemon-balls-overhaul.pw.toml"
 hash = "93cca7488736da21ec9e86e79e0578eafb7e77889cb032d1c810231152e086d9"
 metafile = true
