@@ -528,16 +528,6 @@ hash = "ae66866cd5017cb9e2fb7d45718cfcf041f3aa93484ec4a5cd3fdd894651e53a"
 metafile = true
 
 [[files]]
-file = "mods/just-zoom.pw.toml"
-hash = "f565820169e3cd71f18fd0b18eab2405bc400668813d04f3f3eb75b6c8924bcc"
-metafile = true
-
-[[files]]
-file = "mods/konkrete.pw.toml"
-hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "0a983d1515e1713d1a0ae7738091909101c368be2726a446e4ca29c62fe555c2"
 metafile = true
