@@ -242,6 +242,11 @@ hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
@@ -819,6 +824,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "8d634f8aec598bda3a07d3cb3071d31e6fa6e56915f0214a421956872feddc33"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
