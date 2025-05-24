@@ -888,11 +888,6 @@ hash = "056cac6e78f63d3c8ed5a04e05f91cf3513efdde9ad291a4775b2f6e0caa7bc6"
 metafile = true
 
 [[files]]
-file = "mods/stitch.pw.toml"
-hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
-metafile = true
-
-[[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "6881e2e81e9cc3ed6a449ec19a185f3ec68adfcf0cde8bc233d8c7a616eac119"
 metafile = true
