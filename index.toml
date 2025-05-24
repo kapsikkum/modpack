@@ -720,11 +720,6 @@ hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
 
 [[files]]
-file = "mods/packet-fixer.pw.toml"
-hash = "a4bb06abbfebf51a4dee16e88d8909c5582c3cfcaca848076cc7f63a25e0682b"
-metafile = true
-
-[[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "ba8aa6f9a78c00c89547e4e4f1c369b5016c62dc758d2cb446c09bb172f89b18"
 metafile = true
