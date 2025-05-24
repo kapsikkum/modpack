@@ -985,3 +985,11 @@ hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
 [[files]]
 file = "resourcepacks/Whimscape_1.16.5_r1.zip"
 hash = "a084bbbff771b69d0de35b172061acadf7b22b546038b8636aaea1fe2f5a9036"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+hash = "20897248a5fe91b33bf7fd4b75959c30aa2003df195297979a410ee37d3bb62f"
+
+[[files]]
+file = "shaderpacks/Visual-Vibrance-v0.3.2a.zip"
+hash = "3d36e435cb05fa91b75eacfb5ba644e4743b54320e3f82b26ca9d85ab12558c4"
