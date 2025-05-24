@@ -143,6 +143,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/better-combat.pw.toml"
+hash = "3b25384acb368599971dd72d3fa48f5449552e6f732d5c25caee154926a447b1"
+metafile = true
+
+[[files]]
 file = "mods/biomesize.pw.toml"
 hash = "3ce68280783a4b5d30af9d480e5b83a4c6c362c39f481bb4d94d1b63f56a5db4"
 metafile = true
@@ -174,7 +179,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -725,6 +730,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "87fb28047d648087f2fe4891ddf9d3c394b9c5c29eaf4f3970fb7c32520e6fcf"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "c83705becd548879473132552de960f9d5975fa0edaeeb2d4665a4e35457423e"
 metafile = true
 
 [[files]]
