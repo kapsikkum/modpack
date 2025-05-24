@@ -560,11 +560,6 @@ hash = "b843ce75c788f0720b6e23d9021ce55d37415d72802ee60d95bd2fc5809ba96c"
 metafile = true
 
 [[files]]
-file = "mods/kubejs.pw.toml"
-hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
-metafile = true
-
-[[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "c947732c6b4dc59c1cf1e18b1664af6568542d94abda640b6aa24d0b397a49b0"
 metafile = true
@@ -797,11 +792,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
-metafile = true
-
-[[files]]
-file = "mods/rhino.pw.toml"
-hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
 metafile = true
 
 [[files]]
