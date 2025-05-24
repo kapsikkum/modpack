@@ -200,6 +200,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/coastal-waves.pw.toml"
+hash = "bef8d516741fbf4644103d8e39d270fe6bd9a0b10a182cb8f9a063ca2347a390"
+metafile = true
+
+[[files]]
 file = "mods/cobbleloots.pw.toml"
 hash = "702d9edcebe02f0b68e0176799c5f8a9cb6dc8943b00576c1bf9c5c0b131b4ba"
 metafile = true
@@ -465,11 +470,6 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
-file = "mods/forgiving-world.pw.toml"
-hash = "7b059c9d8f314064bc77334fb42d7be82c9870d82b72a1d782c97ec31bfdac94"
-metafile = true
-
-[[files]]
 file = "mods/framework.pw.toml"
 hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
 metafile = true
@@ -557,6 +557,11 @@ metafile = true
 [[files]]
 file = "mods/krypton-foxified.pw.toml"
 hash = "b843ce75c788f0720b6e23d9021ce55d37415d72802ee60d95bd2fc5809ba96c"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
 metafile = true
 
 [[files]]
@@ -792,6 +797,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
 metafile = true
 
 [[files]]
