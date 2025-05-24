@@ -1,0 +1,23 @@
+loot_ball:
+  generation:
+    chance: 0.0513
+    enabled: true
+    attempts: 2
+    chunk_cap: 4
+  spawning:
+    chance: 0.25
+    cooldown:
+      min: 6000
+      max: 36000
+    despawn:
+      time: 24000
+      enabled: true
+    enabled: true
+  bonus:
+    chance: 0.1
+    multiplier: 2.0
+    invisible: true
+    enabled: true
+  xp:
+    amount: 5
+    enabled: true

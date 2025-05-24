@@ -1,0 +1,9 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enableWeaponImpactSounds = true
+weaponImpactSoundsVolume = 0.3
+enableWeaponFootfalls = true
+enablePassiveParticles = true
+enableUniqueGemSockets = true
+compatGobberEndWeaponsUnbreakable = true
+compatEnableSpellPowerScaling = true

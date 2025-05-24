@@ -1,0 +1,21 @@
+["Plush boxes as creeper drops"]
+	#If true, plush boxes can be dropped by Creepers
+	"Creepers drop plush boxes" = true
+	#Chance for Creepers to drop a plush box upon being killed
+	"Creeper plush boxes drop percentage" = 5.0
+	#If true, modded Creeper variants (tagged as minecraft:creepers) can drop plush boxes too
+	"Modded Creepers drop plush boxes" = true
+	#If true, looting is considered when calculating the plush box drop rate of Creepers
+	"looting affects Creepers chance of dropping plush boxes" = true
+
+["Plant Plushies"]
+	#If true, odd trees will generate as plants around your world (Warning!, if this is set to false, Sudowoodo plushies will no longer be obtainable in survival mode)
+	"Odd trees generate naturally" = true
+	#If true, Pikmin trees will generate as plants aroundin your world
+	"Pikmin plushies generate naturally" = true
+
+["Plushies Starter Kit"]
+	#Change how many plush boxes the player starts with
+	"Number of plush boxes the player starts with" = 1.0
+	#Change how many golden plush boxes the player starts with
+	"Number of golden plush boxes the player starts with" = 0.0
