@@ -505,11 +505,6 @@ hash = "3d0defaa05f249638a4f43b84ae20294409b90b9f68b36e7a9aa771997129229"
 metafile = true
 
 [[files]]
-file = "mods/handcrafted.pw.toml"
-hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
-metafile = true
-
-[[files]]
 file = "mods/hiddenmons-cobblemon.pw.toml"
 hash = "d2e4214bbe6f93f7f95f688989ee296b419b7dba10dee858abb346ae73b4cfbe"
 metafile = true
