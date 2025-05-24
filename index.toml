@@ -222,6 +222,11 @@ hash = "69c59f5d7eaf9489c5e0f870e2b5bf1d5c5e9cd8dbff028f85dad5896b4cd09f"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "2c670e307e5694628c25baf4d3d9607e92ab45316728956e2eea58513d731427"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "848070500725f7a5cbb94d7c1796fd001da57326aebab0333bb56fbb784dc457"
 metafile = true
