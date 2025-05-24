@@ -913,10 +913,6 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
-file = "config/yigd.json"
-hash = "5f16fc8b1c5d897fb75b16f5401bc412668fa46929c6e7de65a6fecec1feac8b"
-
-[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
