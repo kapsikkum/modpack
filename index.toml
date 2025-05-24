@@ -488,11 +488,6 @@ hash = "c3c06a4839ecfd4717686f7394396a4fc66b7a2e8eabbdd51f23ab2a1099cc1e"
 metafile = true
 
 [[files]]
-file = "mods/item-highlighter.pw.toml"
-hash = "9163b758163681f75e2048c798be880c50392684b127d7d87f42ea588deceb62"
-metafile = true
-
-[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "8cd8400cb4e2c5ba60c8a359a7b6ff501078d2056eab0aba7f6b0ac77b7a0694"
 metafile = true
