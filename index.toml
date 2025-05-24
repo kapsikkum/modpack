@@ -252,11 +252,6 @@ hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
-file = "mods/crawl.pw.toml"
-hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
-metafile = true
-
-[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "c63270ea90901dbb5c515ad2ca574e3d390fea86c22c239e30da919625be0741"
 metafile = true
