@@ -425,6 +425,11 @@ hash = "431ff8de004345b1f0a7848ffae8eec2a468da05160ea98ea33a9bb422d8a7e5"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "5c58b5f90359fa2516855ddea5406998e7671889b4c89c46fec1f142e79357a3"
 metafile = true
