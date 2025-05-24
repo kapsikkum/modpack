@@ -133,11 +133,6 @@ hash = "5863223f901ecb1c6d1ff4e2318c6af4f8cf276d541782f1b83e3482089d13ed"
 metafile = true
 
 [[files]]
-file = "mods/badpackets.pw.toml"
-hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
 metafile = true
@@ -230,11 +225,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
-metafile = true
-
-[[files]]
-file = "mods/connectivity.pw.toml"
-hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
