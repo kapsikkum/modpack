@@ -1,0 +1,13 @@
+name = "Sky Villages"
+filename = "SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/mb68eIfx/versions/3InSHTOp/SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+hash-format = "sha512"
+hash = "e5c1c2030714b2dfb2349edd1c2666df1b3d6b7644708089f6fda89cede3aa0390c357b912adc7a92adc33db0dcc272a7256af2a2299e159570791c8854666b4"
+
+[update]
+[update.modrinth]
+mod-id = "mb68eIfx"
+version = "3InSHTOp"

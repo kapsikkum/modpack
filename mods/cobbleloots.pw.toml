@@ -1,0 +1,13 @@
+name = "Cobbleloots: Loot Balls and More!"
+filename = "cobbleloots-neoforge-2.0.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kcudYghD/versions/RwNWVE2G/cobbleloots-neoforge-2.0.6.jar"
+hash-format = "sha512"
+hash = "23ae14b249b464df58f2375585569eabdaeba6ce26eca03351577679563fdb2b415f49944dd6bb50828839f2787df45765fcd8c62110479e79d370513641b4b5"
+
+[update]
+[update.modrinth]
+mod-id = "kcudYghD"
+version = "RwNWVE2G"

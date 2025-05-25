@@ -1,0 +1,13 @@
+name = "Underground Villages"
+filename = "UndergroundVillages-neoforge-1.21.1-4.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iQ2U9xwG/versions/MSQ6aAkB/UndergroundVillages-neoforge-1.21.1-4.0.2.jar"
+hash-format = "sha512"
+hash = "b9993f3df76e123066f318e84682735becbb355641b40e9134ea5d176ade97a6dcd04de907cb3cef0a814d37e36e212b02d05b700d617104c5e274533cc28bdd"
+
+[update]
+[update.modrinth]
+mod-id = "iQ2U9xwG"
+version = "MSQ6aAkB"
