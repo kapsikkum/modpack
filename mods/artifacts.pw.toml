@@ -3,11 +3,11 @@ filename = "artifacts-neoforge-13.0.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "83b895c25aaf5b47243d20716a9eb451b299c179"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/1ov8ALNN/artifacts-neoforge-13.0.5.jar"
+hash-format = "sha512"
+hash = "0c79624086d5c23f5efb5fdaae93e984375b65dc0366bf04ca21b36c8a91bd81938daf046663123872f34306817ddb13365a76df3de726288008c433691f6593"
 
 [update]
-[update.curseforge]
-file-id = 6535964
-project-id = 312353
+[update.modrinth]
+mod-id = "P0Mu4wcQ"
+version = "1ov8ALNN"

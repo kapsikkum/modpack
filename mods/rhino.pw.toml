@@ -3,11 +3,11 @@ filename = "rhino-2101.2.7-build.74.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "385b95ab5fb177dfa4f2868ef7b88a2d766bffeb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/sk9knFPE/versions/6ClRsUNJ/rhino-2101.2.7-build.74.jar"
+hash-format = "sha512"
+hash = "891c755e1a55fceae6b3c321ba0e84d403ebb4a4de6058890b5ac1a5c937057230df2bcc2c1096f6c3d52337763f5f7485ceca1869c8a34e6d01e10602b9ffa8"
 
 [update]
-[update.curseforge]
-file-id = 6184623
-project-id = 416294
+[update.modrinth]
+mod-id = "sk9knFPE"
+version = "6ClRsUNJ"
