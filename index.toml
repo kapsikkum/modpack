@@ -895,6 +895,11 @@ hash = "ff15d498bdd687be1584a15a7feeef5b611c4a332549c27037e83e6a68e44fa3"
 metafile = true
 
 [[files]]
+file = "mods/the-luminous-mod.pw.toml"
+hash = "dccce51a5010fdb97b8b4bb45fa1fd6356d697d0873302592488788d47e7c15c"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
 metafile = true
