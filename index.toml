@@ -570,11 +570,6 @@ hash = "28cd260c71c34d01f59ea210af1031e94d98b4d6bd72d5a153955ce754c9a76f"
 metafile = true
 
 [[files]]
-file = "mods/luminous-beasts.pw.toml"
-hash = "00773a61421260a615cefdcb470faf5139be092fa8c4560be751d9a4bc4f381e"
-metafile = true
-
-[[files]]
 file = "mods/luminous-monsters.pw.toml"
 hash = "912260a8e47f813064ee314af4548ad8fb8e7f1fe97025dec40d14c2f2cf9422"
 metafile = true
