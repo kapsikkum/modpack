@@ -41,6 +41,10 @@ file = "global_packs/required_data/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
 
 [[files]]
+file = "global_packs/required_data/musketmod-bettercombat.zip"
+hash = "7ebcb87d759118c426d9688fa05d658714e5d6ef3a7938ebf82db8fc96b84cff"
+
+[[files]]
 file = "global_packs/required_resources/3dMase.zip"
 hash = "3f01d99f70897265cef6e336f06fbc307dcfaa9bec05f37e3887dc6f9ce979e0"
 
