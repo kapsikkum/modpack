@@ -1001,16 +1001,8 @@ file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Container
 hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
 [[files]]
-file = "kubejs/client_scripts/animation_fix.js"
-hash = "d13852454003acc1250d4667588e442ca94a5ef796732ee65c27b3a114908f71"
-
-[[files]]
-file = "kubejs/server_scripts/server_sync.js"
-hash = "8c75ade8d01be7772b0ea0f69418ae4cd7bb831803e8c851f050753789e07007"
-
-[[files]]
 file = "kubejs/startup_scripts/entity_fix.js"
-hash = "9d8050f22ba743875dac54d9d50d4ffc40d4889ef38bb59a68e4e7d99d75fe5c"
+hash = "d4f31133e41627a1124263e8b2556131b195881d4c18e2ee93f0d7d62c819ca2"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
