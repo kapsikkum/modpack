@@ -1,0 +1,9 @@
+# Better Combat Configuration
+
+[general]
+# Reduce network packet frequency for animations
+animation_packet_threshold = 2
+# Enable smooth transitions
+enable_smooth_animations = true
+# Handle entity data sync
+force_entity_sync = false 
