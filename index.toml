@@ -250,11 +250,6 @@ hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
-file = "mods/coroutil.pw.toml"
-hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
-metafile = true
-
-[[files]]
 file = "mods/crawl.pw.toml"
 hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
@@ -952,11 +947,6 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "83c2f33a6656799f209ee75d63da20c4e692202371a221fd853792dad6113d7e"
-metafile = true
-
-[[files]]
-file = "mods/what-are-they-up-to.pw.toml"
-hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
