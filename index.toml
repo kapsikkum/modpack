@@ -570,16 +570,6 @@ hash = "28cd260c71c34d01f59ea210af1031e94d98b4d6bd72d5a153955ce754c9a76f"
 metafile = true
 
 [[files]]
-file = "mods/luminous-monsters.pw.toml"
-hash = "912260a8e47f813064ee314af4548ad8fb8e7f1fe97025dec40d14c2f2cf9422"
-metafile = true
-
-[[files]]
-file = "mods/luminousbutterflies.pw.toml"
-hash = "cae99e0793a435fc944af31c7bac1b7b16fd160a122455335a80e827de8c8a5b"
-metafile = true
-
-[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "c6887c071d6515a39aeb915429304ea9fdae876decde3ad66062c9ba779b16b4"
 metafile = true
