@@ -250,6 +250,11 @@ hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
+file = "mods/coroutil.pw.toml"
+hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
@@ -567,6 +572,21 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "28cd260c71c34d01f59ea210af1031e94d98b4d6bd72d5a153955ce754c9a76f"
+metafile = true
+
+[[files]]
+file = "mods/luminous-beasts.pw.toml"
+hash = "00773a61421260a615cefdcb470faf5139be092fa8c4560be751d9a4bc4f381e"
+metafile = true
+
+[[files]]
+file = "mods/luminous-monsters.pw.toml"
+hash = "912260a8e47f813064ee314af4548ad8fb8e7f1fe97025dec40d14c2f2cf9422"
+metafile = true
+
+[[files]]
+file = "mods/luminousbutterflies.pw.toml"
+hash = "cae99e0793a435fc944af31c7bac1b7b16fd160a122455335a80e827de8c8a5b"
 metafile = true
 
 [[files]]
@@ -932,6 +952,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "83c2f33a6656799f209ee75d63da20c4e692202371a221fd853792dad6113d7e"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]

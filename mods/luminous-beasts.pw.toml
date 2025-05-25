@@ -1,0 +1,13 @@
+name = "Luminous: Beasts"
+filename = "Luminous Beasts V1.2.43 - NeoForge1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fGCP5k6m/versions/GQEcGOBm/Luminous%20Beasts%20V1.2.43%20-%20NeoForge1.21.1.jar"
+hash-format = "sha512"
+hash = "111b864a5f889b4ef3c861faa397f1703322e3602cc3ba650ddb6fd17a15b390ef9abe2311368e3fc2335452a49e41a7d3028aae767ee5539b5cbac07ce4882f"
+
+[update]
+[update.modrinth]
+mod-id = "fGCP5k6m"
+version = "GQEcGOBm"
