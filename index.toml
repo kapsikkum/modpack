@@ -140,11 +140,6 @@ hash = "5863223f901ecb1c6d1ff4e2318c6af4f8cf276d541782f1b83e3482089d13ed"
 metafile = true
 
 [[files]]
-file = "mods/badpackets.pw.toml"
-hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
 metafile = true
@@ -237,11 +232,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
-metafile = true
-
-[[files]]
-file = "mods/connectivity.pw.toml"
-hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
@@ -425,11 +415,6 @@ hash = "431ff8de004345b1f0a7848ffae8eec2a468da05160ea98ea33a9bb422d8a7e5"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "5c58b5f90359fa2516855ddea5406998e7671889b4c89c46fec1f142e79357a3"
-metafile = true
-
-[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
 metafile = true
@@ -452,11 +437,6 @@ metafile = true
 [[files]]
 file = "mods/farming-for-blockheads.pw.toml"
 hash = "7e5d6e7ef3c2d3653a74ac3cbd3636ea178de66271017198dcb6f0d916ff6170"
-metafile = true
-
-[[files]]
-file = "mods/fast-ip-ping.pw.toml"
-hash = "912e5da7129357f8bff2cb97ad8060ea533910ccf73e886ae3f5956a50463b5d"
 metafile = true
 
 [[files]]
@@ -547,11 +527,6 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "0a983d1515e1713d1a0ae7738091909101c368be2726a446e4ca29c62fe555c2"
-metafile = true
-
-[[files]]
-file = "mods/krypton-foxified.pw.toml"
-hash = "b843ce75c788f0720b6e23d9021ce55d37415d72802ee60d95bd2fc5809ba96c"
 metafile = true
 
 [[files]]
@@ -810,11 +785,6 @@ hash = "73b1e4f6608fcd396acc3e4e7aa753d314c8810ef4caf831ed93d9932d93f896"
 metafile = true
 
 [[files]]
-file = "mods/servercore.pw.toml"
-hash = "cc5914bc09a7362dfd660fbeff105d3595b19de9c6491327272f85c557d4aa3b"
-metafile = true
-
-[[files]]
 file = "mods/simple-hats.pw.toml"
 hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
 metafile = true
@@ -907,11 +877,6 @@ metafile = true
 [[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "0cbfee517ef794590c79f407c060a42f9719e8533f730411761d3d429463af03"
-metafile = true
-
-[[files]]
-file = "mods/too-fast.pw.toml"
-hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
 metafile = true
 
 [[files]]
