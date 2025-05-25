@@ -180,11 +180,6 @@ hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
-hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
-metafile = true
-
-[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -327,11 +322,6 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
-metafile = true
-
-[[files]]
-file = "mods/create-qol.pw.toml"
-hash = "a41f0a61345cd4f5e510a01977c15faa4365d2ad7bc0508207d7f879f8b56e19"
 metafile = true
 
 [[files]]
@@ -862,11 +852,6 @@ metafile = true
 [[files]]
 file = "mods/stateobserver.pw.toml"
 hash = "056cac6e78f63d3c8ed5a04e05f91cf3513efdde9ad291a4775b2f6e0caa7bc6"
-metafile = true
-
-[[files]]
-file = "mods/stitch.pw.toml"
-hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
 metafile = true
 
 [[files]]
