@@ -17,6 +17,10 @@ file = "global_packs/required_data/BCA-Datapack-3.6_GE_C1.6.1_M1.21.1.zip"
 hash = "f877781b7635e35f3bd6c54ae4c70f88c994375e0f13bb8d00c76577c15522ae"
 
 [[files]]
+file = "global_packs/required_data/BetterCombat-cataclysm.zip"
+hash = "d0e5c55f693d2f32b330307abcadb229846225d3bb40411b745cc1992c40b25a"
+
+[[files]]
 file = "global_packs/required_data/BoniMons.zip"
 hash = "cf061a0766c7412882b5453278eac707ccbc30355589ea01d20b60239172b6b4"
 
