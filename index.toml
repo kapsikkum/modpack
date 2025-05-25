@@ -445,10 +445,6 @@ file = "config/balm-common.toml"
 hash = "37cbf107dc0ab8baebf64bb099bfc8c6ec3f74e0559f7738dea46847dc6ddabd"
 
 [[files]]
-file = "config/bettercombat-common.toml"
-hash = "f0230e965e1766dc46b74ef171527ddcb6d0c95c4145c801ff50e6fe759cf293"
-
-[[files]]
 file = "config/bettercombat/fallback_compatibility.json"
 hash = "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca"
 
@@ -1001,10 +997,6 @@ file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Container
 hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
 [[files]]
-file = "kubejs/startup_scripts/entity_fix.js"
-hash = "d4f31133e41627a1124263e8b2556131b195881d4c18e2ee93f0d7d62c819ca2"
-
-[[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "f47e44843ba6aff3e320fa0b7307060df8924d467eab94a5587fd8694b92c7ec"
 metafile = true
@@ -1475,11 +1467,6 @@ hash = "b843ce75c788f0720b6e23d9021ce55d37415d72802ee60d95bd2fc5809ba96c"
 metafile = true
 
 [[files]]
-file = "mods/kubejs.pw.toml"
-hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
-metafile = true
-
-[[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "c947732c6b4dc59c1cf1e18b1664af6568542d94abda640b6aa24d0b397a49b0"
 metafile = true
@@ -1670,11 +1657,6 @@ hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
 metafile = true
 
 [[files]]
-file = "mods/probejs.pw.toml"
-hash = "2a8dd9366ed60e7040e90c1b87722b14729ffe080e693ef43151dea10d25ed38"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "b27fedf73ce2b829db06bf18fea5afd33f0a001b75465301c7f5bafe7e3c04d8"
 metafile = true
@@ -1717,11 +1699,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
-metafile = true
-
-[[files]]
-file = "mods/rhino.pw.toml"
-hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
 metafile = true
 
 [[files]]
