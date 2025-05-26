@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/options.txt"
+hash = "87d9aa7cadbacdc1d90fba806808eeefdab26f8558654f212e7373c57c4dc7f7"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "fdfbb6716a11ca5e92d0f92d1a3ca6fdce09467ea768cf57b291cb414d29fa43"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "094e1c8ee069b1d1605d438b8b3b82c94e1e68987b3fe404fb9d437cdd1b450d"
 
