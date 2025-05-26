@@ -53,6 +53,11 @@ file = "global_packs/required_data/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
 
 [[files]]
+file = "global_packs/required_data/bonimons.pw.toml"
+hash = "5274c0fc0fcaedb4aa77ddc90eb725698293edd705146961529a0bea970c7bdf"
+metafile = true
+
+[[files]]
 file = "global_packs/required_data/musketmod-bettercombat.zip"
 hash = "7ebcb87d759118c426d9688fa05d658714e5d6ef3a7938ebf82db8fc96b84cff"
 
@@ -106,6 +111,11 @@ hash = "a837a6ef76177cd45f425ed3a72fef3454c761fda77507d8f1943ddabf54e8df"
 metafile = true
 
 [[files]]
+file = "global_packs/required_resources/whimscape.pw.toml"
+hash = "d03c656856f23a8deaf41728bff54cd3cdb5b456d168cf03cd22045052fc6792"
+metafile = true
+
+[[files]]
 file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Containers§8.zip"
 hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
@@ -127,6 +137,11 @@ metafile = true
 [[files]]
 file = "mods/air-balloons.pw.toml"
 hash = "70743439137808f1d50fa0b2203d392cccf24a1751aa328201e4274260a52800"
+metafile = true
+
+[[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "7188ee15b48189a216d805c6355932493a99618f1c846e8cd7c998a01fc21093"
 metafile = true
 
 [[files]]
@@ -280,6 +295,11 @@ hash = "211da712c78ff12075d123ad564b5513ef34755f200ac566eb4e94ca046dc218"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-size-variations.pw.toml"
+hash = "d465cc984e935527f2f64b48d88233431c3810013392e345ad4e7350019f962b"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "a8eef2d20fb1ca80a1f29de6be09e7e56d40624253cbb8bf4684165aa99889c2"
 metafile = true
@@ -287,6 +307,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "97ab0f1c6358fbb68c889656714a7736862c884ce33e1ac953c9747818b904a1"
 metafile = true
 
 [[files]]
@@ -377,6 +402,11 @@ metafile = true
 [[files]]
 file = "mods/create-fuel-motor.pw.toml"
 hash = "df7fef76989aab54a3fdd8bfe35967eda3bcb0dc2764b8f19c0f1e75e16df909"
+metafile = true
+
+[[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "01ba110405e8949787002b55c62a1aba202411be665180b01db74c096f67d891"
 metafile = true
 
 [[files]]
@@ -530,6 +560,11 @@ hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
 metafile = true
 
 [[files]]
+file = "mods/ends-delight.pw.toml"
+hash = "c31e8aea1f4ddc50d79c6dfa46dec8cbbf1a6108ff74db140baa0395ea4c5766"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
 metafile = true
@@ -547,6 +582,11 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "1e6d9f96071ca889616b26a34e8023e98c8777f445736cd85366a61a9150898c"
+metafile = true
+
+[[files]]
+file = "mods/expanded-delight.pw.toml"
+hash = "08383f7378f7bed0d61c328b1501dae5045356d328014a074e35aed601edba3b"
 metafile = true
 
 [[files]]
@@ -592,6 +632,11 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "f9a2c5d17247f0313a0b40ca69c8490e96f0e03dbfd5a6371007435c2e0db10f"
+metafile = true
+
+[[files]]
+file = "mods/frights-delight.pw.toml"
+hash = "47efbce14542e525e8f68472dde3cc3840c91673fa95518e8e8405c86273c55e"
 metafile = true
 
 [[files]]
@@ -1060,8 +1105,18 @@ hash = "8d634f8aec598bda3a07d3cb3071d31e6fa6e56915f0214a421956872feddc33"
 metafile = true
 
 [[files]]
+file = "mods/seamless-loading-screen.pw.toml"
+hash = "1d8cade30558d813a56021bbad054063b9d9f184896e596bd6517186b687b1e2"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/security-craft.pw.toml"
+hash = "572960f9acd66c7337d37798b3dcc8ecba7b99566f1d2e251d253298d299a76e"
 metafile = true
 
 [[files]]
@@ -1082,6 +1137,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "5e2f69be28f9240fbe9824fc8d0d302dac475c5aafc2fd444f32bec9a5d5fd8f"
+metafile = true
+
+[[files]]
+file = "mods/size-rayguns.pw.toml"
+hash = "af9cafe71a16a0e7ad7c6ae0b3712dff40e19ad2c82d9de14d0334cee7d42b69"
 metafile = true
 
 [[files]]
@@ -1322,10 +1382,6 @@ file = "resourcepacks/FA+All_Extensions-v1.4.zip"
 hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
 
 [[files]]
-file = "resourcepacks/FreshAnimations_v1.9.3.zip"
-hash = "aa3812ae5fb96a22590ff2ccb53f589a9de9081c11e1432c871cc11fa87c9252"
-
-[[files]]
 file = "resourcepacks/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
 hash = "9eb4333afbb3b6260cc2578ea0c7c4119ce92f96bd0375caca6edd6d92abcd46"
 
@@ -1336,10 +1392,6 @@ hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
 [[files]]
 file = "resourcepacks/Whimscape x Exploration v1.0.zip"
 hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
-
-[[files]]
-file = "resourcepacks/Whimscape_1.16.5_r1.zip"
-hash = "a084bbbff771b69d0de35b172061acadf7b22b546038b8636aaea1fe2f5a9036"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"

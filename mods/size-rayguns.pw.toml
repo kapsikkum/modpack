@@ -1,0 +1,13 @@
+name = "Size Rayguns"
+filename = "size_ray-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XM8CYL8G/versions/rYfdXOZF/size_ray-1.0.jar"
+hash-format = "sha512"
+hash = "b1a06c0e80cde9317729863ef9b7a7b2a5cfdbb6ffbc3ef0cac6277d49d6caa6994d14e97b5cda9c297efe5d1ecce73b17f29a0c9afbd67b69ba6a27fffb7115"
+
+[update]
+[update.modrinth]
+mod-id = "XM8CYL8G"
+version = "rYfdXOZF"
