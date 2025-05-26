@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/Mekanism/client.toml"
-hash = "62989a0ef13779fea6030bce0de56842bf4dd3c0bb9c5f78b5f7ed0ef659042a"
-
-[[files]]
-file = "config/Mekanism/common.toml"
-hash = "a437f2f349f60460ed058a45445ed72e1225e5d825adde33ede89c1139568ff0"
-
-[[files]]
-file = "config/Mekanism/startup.toml"
-hash = "4b1cf299c46ac8b9fb77ba9e8fe79d5594652ab4224f21b4ffc355ba1ade9b08"
-
-[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
