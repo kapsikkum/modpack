@@ -10,7 +10,7 @@ hash = "fdfbb6716a11ca5e92d0f92d1a3ca6fdce09467ea768cf57b291cb414d29fa43"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "094e1c8ee069b1d1605d438b8b3b82c94e1e68987b3fe404fb9d437cdd1b450d"
+hash = "0ecc936469ea63b629b16b5c909a34303077858d4e8637deac9c596a2b9beacc"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
