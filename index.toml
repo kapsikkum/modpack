@@ -990,11 +990,6 @@ file = "resourcepacks/Whimscape_1.16.5_r1.zip"
 hash = "a084bbbff771b69d0de35b172061acadf7b22b546038b8636aaea1fe2f5a9036"
 
 [[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "b96abadb2cdb56d53145609e6a8ee9fd70171878bb5414412dddee1fca902a7b"
-metafile = true
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
 hash = "20897248a5fe91b33bf7fd4b75959c30aa2003df195297979a410ee37d3bb62f"
 
