@@ -275,6 +275,11 @@ hash = "1f8e6307ac351459e12192b83ebf018ecb6a3ddb6f59e7498b3a0bdabc1e4577"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ride-on.pw.toml"
+hash = "211da712c78ff12075d123ad564b5513ef34755f200ac566eb4e94ca046dc218"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "71d9049ad25fd4500b12bce533a9b5fed97a663802f312c3db23c279b87e2e16"
 metafile = true
@@ -520,6 +525,11 @@ hash = "14e17a2549d490cc4fd3da14cecc3364528c6c34a9e7db08ad114d420c781bc9"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "b97a5ae90b8eed783e4ff791abdad5c6c915114adc0f0a35776a2121058e7fb9"
 metafile = true
@@ -625,6 +635,11 @@ hash = "633ce964bcbb078eb7274c374129cbdcb46463d44ba4828bcd617f74a1f73ffa"
 metafile = true
 
 [[files]]
+file = "mods/gardens-of-the-dead.pw.toml"
+hash = "0c15870efac49ffc18d806eb420d20a4ce33be7301c24b8eca8cdeae5b47dbd1"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "b15e7ccb33b6567b5b818e46297ffb9861ac5b9035878ce43eb263d63fa9ccf0"
 metafile = true
@@ -657,6 +672,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "9bea3782285e9dafcccd88d817ab4a6505400955b5343f1b6df16fa29122c410"
+metafile = true
+
+[[files]]
+file = "mods/hang-glider.pw.toml"
+hash = "d417dcd1fd80a8f373016d0dcfa7fca3fa1271ca146881f5deef29c2a9816895"
 metafile = true
 
 [[files]]
@@ -1160,8 +1180,28 @@ hash = "5a79395ebda880ad0f160000f4d2eb1c0762aa10bcc6ebe5b3dea057c86ce371"
 metafile = true
 
 [[files]]
+file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
+hash = "9aa3e995213f406e6463f8ac7089b6dd372fed4bcc20fc3c5c89fc713d31dde6"
+metafile = true
+
+[[files]]
 file = "mods/too-fast.pw.toml"
 hash = "b5231d16049144f3e8d64c9c1b1fe503c3eac1cb4c1dde56160eb6e4253b892c"
+metafile = true
+
+[[files]]
+file = "mods/totw-modded.pw.toml"
+hash = "fe3fb011871b3e3054158ab7f9fc248a9b467cdf6e661cd83bde3015963f01c5"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "b7edb8bf6ab6913509a777faa013241784c3a75a966a1c62e4ddd786ecd2392f"
 metafile = true
 
 [[files]]
@@ -1192,6 +1232,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "5a3a4ac1e66c6ed5f1fcfdfa393f4c57c6638b37190c0d5934bdf88b15d4670e"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-seven-seas.pw.toml"
+hash = "86fafcbfa8be54d12ee882cc8800260724fb80f7b6d956b00f808f58216f552d"
 metafile = true
 
 [[files]]
