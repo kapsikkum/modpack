@@ -937,11 +937,6 @@ hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
 metafile = true
 
 [[files]]
-file = "mods/twilight-delight.pw.toml"
-hash = "6f5bd875241e966b2be0e41298c472bd9efaddbdf107d81654f73d07e3c6d35b"
-metafile = true
-
-[[files]]
 file = "mods/underground-villages.pw.toml"
 hash = "be01b76bdb6c43f07266b382785b5a729f4fb3322832aca4a24829de1fa73f53"
 metafile = true
