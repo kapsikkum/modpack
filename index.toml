@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "33d7ef6bb79398bb1fe9b9e4793d9571e91412d7d11ba1d7a96525364078c466"
+hash = "142c51a1423cc548ef94e8c853e3d929da336ab560549694060487e8a4d33285"
 metafile = true
 
 [[files]]
@@ -271,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "8ed8a6800887e2341644ebfbfe8b854cc0476d816f781365f09dd7de3a86401c"
+hash = "a75cc9645368acbba1513db4558b1e281c7eea5d77246fb232a2df55b96b09a6"
 metafile = true
 
 [[files]]
@@ -361,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimate-factory.pw.toml"
-hash = "ea2ffc0f4ec1e554c8817708a117c8cf367c2bafca703d2745ad12c0e375c617"
+hash = "885a5e25d8c2d77eefb8b29629019e821e892e7ee1923fb649d3fbf2b69cf1dc"
 metafile = true
 
 [[files]]
@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "2d022852c783eb194e947f4eeec80da5bcf71b18d467d09524fd99c5ac071687"
+hash = "1d99ac75f92996ec9673e39c012a51dc4b05c48ef7bf672ccaf5e7464a1a3d13"
 metafile = true
 
 [[files]]
@@ -416,7 +416,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
-hash = "6af9dbb90cf40809619202cbbd5e4d10ba57db4984ac45129f3f48254fe163e2"
+hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
 
 [[files]]
@@ -561,7 +561,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b03246eb376307c84ad3805cf7b886ee016cc73c721c666eb36fa4afcc4dabf5"
+hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
 metafile = true
 
 [[files]]
@@ -806,7 +806,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "d9395055f46a83184b32f6901119a49fbf405b970413fb627f02b5ab173f43ba"
+hash = "4c4185186dccb224e20da04103e40c32cfe11b8c6884b83e8d6ac60857daf969"
 metafile = true
 
 [[files]]
@@ -1003,7 +1003,7 @@ hash = "a084bbbff771b69d0de35b172061acadf7b22b546038b8636aaea1fe2f5a9036"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "372a403da8298e41215d4608c1c137adde965a2cf246fadf67a6a58cbbd2c147"
+hash = "b96abadb2cdb56d53145609e6a8ee9fd70171878bb5414412dddee1fca902a7b"
 metafile = true
 
 [[files]]
