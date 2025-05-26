@@ -1,0 +1,13 @@
+name = "The Bygone"
+filename = "bygone-neoforge-1.21.1-1.2.3a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P29i0RkN/versions/Aa7cTqoi/bygone-neoforge-1.21.1-1.2.3a.jar"
+hash-format = "sha512"
+hash = "ff47a6cb77b070935d39cf66274298b38280c34b2cd988ad4ce2d63236cc483b0c4d68c46e6206b52493543799a0c323da26d9f7ad8261cac78c588e8b444830"
+
+[update]
+[update.modrinth]
+mod-id = "P29i0RkN"
+version = "Aa7cTqoi"

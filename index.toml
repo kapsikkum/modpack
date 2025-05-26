@@ -177,6 +177,11 @@ hash = "fbb4954b6bcfb8a492b74cbd1d913fd27f481e0cab1ab9371751e1e1843e3da1"
 metafile = true
 
 [[files]]
+file = "mods/bygone.pw.toml"
+hash = "c783665c6bd590f501e4c738844bffa6cabc047ed88e9a640fc7feac218a9e7a"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
 metafile = true
@@ -554,6 +559,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
+metafile = true
+
+[[files]]
+file = "mods/jinxedlib.pw.toml"
+hash = "9e2bdaf40d945acff14585c51ef3b7a1be7cd75df4785f4658b7488a7f61fd38"
 metafile = true
 
 [[files]]
