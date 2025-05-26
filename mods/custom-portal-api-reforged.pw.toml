@@ -1,0 +1,13 @@
+name = "Custom Portal API Reforged"
+filename = "cpapireforged-neo-1.21.1-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VepYPOdy/versions/WLi9vQCe/cpapireforged-neo-1.21.1-1.2.1.jar"
+hash-format = "sha512"
+hash = "15ab29e2455f44a4272a80a2f05930158c130e3fd7e2650f94a5818e55b06e5deb10361f89e385c2721f6b327a35fcaba64be313acd10000ecd797eb6a69a8c2"
+
+[update]
+[update.modrinth]
+mod-id = "VepYPOdy"
+version = "WLi9vQCe"
