@@ -433,12 +433,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
+hash = "b97a5ae90b8eed783e4ff791abdad5c6c915114adc0f0a35776a2121058e7fb9"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "65cd00e90de065e99d13352fd5d8aa3bc28d062b9dc935cf1da914a2047b2208"
+hash = "81a86c5727a08ddcafffd26078a6ccffd1cf5eea2586a55d3a347c24ffb1a7dd"
 metafile = true
 
 [[files]]
@@ -533,7 +533,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "4a64b09e6b51daa9f1a13b2a3c79999c5d087a01613433d1f79303dcfd0db97f"
+hash = "439a08fba7cf7d5e2628010a2c81af233042bb78b7205860845d96e8d1b280d8"
 metafile = true
 
 [[files]]
@@ -578,7 +578,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "dad3fae621fe1f37422cd2bd527c237da93e79b72128a27211bbed1c2f7f7b73"
+hash = "7352dc52032adb96a3c4a57ef9846b0b89497387ed4d216ca79b1e3ba19d39a2"
 metafile = true
 
 [[files]]
@@ -933,7 +933,7 @@ metafile = true
 
 [[files]]
 file = "mods/too-fast.pw.toml"
-hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
+hash = "b5231d16049144f3e8d64c9c1b1fe503c3eac1cb4c1dde56160eb6e4253b892c"
 metafile = true
 
 [[files]]
@@ -983,10 +983,6 @@ hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
 hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
-
-[[files]]
-file = "resourcepacks/FA+All_Extensions-v1.4.zip"
-hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
 
 [[files]]
 file = "resourcepacks/FreshAnimations_v1.9.3.zip"
