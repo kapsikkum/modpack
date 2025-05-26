@@ -198,6 +198,11 @@ hash = "335d98debb12256815368fb77a3bec68b017c1bbf5969763087cd96f43c9a6ae"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -653,6 +658,11 @@ hash = "ae66866cd5017cb9e2fb7d45718cfcf041f3aa93484ec4a5cd3fdd894651e53a"
 metafile = true
 
 [[files]]
+file = "mods/keybind-bundles.pw.toml"
+hash = "30b657c1d719e0bd7d53b0df64746baa6a7be182833bb1653547c05381222314"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "0a983d1515e1713d1a0ae7738091909101c368be2726a446e4ca29c62fe555c2"
 metafile = true
@@ -1055,6 +1065,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "63da0a2850babdf37f9511b17d2962fbaa9ce980d4c8478299767954df4efc19"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "167acde56f86d848efbbec713809ce3fa833030952acac473f6af9f9a1e98900"
 metafile = true
 
 [[files]]
