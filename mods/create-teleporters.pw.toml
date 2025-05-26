@@ -1,0 +1,13 @@
+name = "Create: Teleporters"
+filename = "createteleporters2.4-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9mtJ8MHP/versions/pdSMfAYj/createteleporters2.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "cc87481c0b7c2718117d9803ee4372bbf818761c16c4d7465e130c07f066a87b73792219da1d15bbefea3dedd89a6653c8df245738e4df59fc1ac2ad6e93bc51"
+
+[update]
+[update.modrinth]
+mod-id = "9mtJ8MHP"
+version = "pdSMfAYj"

@@ -348,13 +348,28 @@ hash = "2cc0e1f0bf03986c8ff89e27035ce0a4d23670c5d49c7a334ee2914495b9ab5e"
 metafile = true
 
 [[files]]
+file = "mods/create-mechanical-spawner.pw.toml"
+hash = "df9a2a26e4e8e620df2f480481e837edf264ca410fd8ea8c24ec2ff55ed11326"
+metafile = true
+
+[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
 metafile = true
 
 [[files]]
+file = "mods/create-renewable-netherite.pw.toml"
+hash = "fe6fce0920157a6773ec96b5469d2a85335fc107d096e731b4d9d8d72d702933"
+metafile = true
+
+[[files]]
 file = "mods/create-sifting.pw.toml"
 hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
+metafile = true
+
+[[files]]
+file = "mods/create-stones.pw.toml"
+hash = "3c671eb9c049f9cc2863d44754dc4695a7d74874c73b1daafbad85482de9934c"
 metafile = true
 
 [[files]]
@@ -365,6 +380,11 @@ metafile = true
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "7bdf3b6cbe0579a034372ce1eec83e3c1888134f19beb6b17fbf2005706453be"
+metafile = true
+
+[[files]]
+file = "mods/create-teleporters.pw.toml"
+hash = "a07e9505ac4a2dee623b9be3ec7816e081a7076e3e90fd966e9b500469ce214b"
 metafile = true
 
 [[files]]
@@ -505,6 +525,31 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "f9a2c5d17247f0313a0b40ca69c8490e96f0e03dbfd5a6371007435c2e0db10f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "c20d5829bd3005c16da7b40495524223178f5f204cdc5ca05cb40c3246aec95d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "ed2c987edef80404213abdba45b78e0af7d5d1e1ce73b160e7216b735199f877"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "a4f2d610c81a2696b9a4a2ef9c569ec2caf1dd615c78fd70f73f91ad3a849c2a"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "38d1ce888e383fb1bd1d3648d0ee26b643a697d3ac91e7fdb144cad3f9f55748"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "3820c5e6b19737c8440ed1f599367299694045abac139e3dfbed54ba0dd858ae"
 metafile = true
 
 [[files]]
@@ -803,6 +848,11 @@ hash = "74c4147419e31244a156285fc030ca773e7f35c69a04ad15cc5af68aa4db72b5"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+hash = "42de73ce743772bc61b632a7912190dfb6dd663f6b707864e3349bed6074fc82"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "2a8dd9366ed60e7040e90c1b87722b14729ffe080e693ef43151dea10d25ed38"
 metafile = true
@@ -810,6 +860,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "b27fedf73ce2b829db06bf18fea5afd33f0a001b75465301c7f5bafe7e3c04d8"
+metafile = true
+
+[[files]]
+file = "mods/rar-compat.pw.toml"
+hash = "2256b26a2bbb152edf2f98dfc584dfdac22c7b77e71eba346ba7ab5ea5fd7d86"
 metafile = true
 
 [[files]]
