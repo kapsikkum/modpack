@@ -1,6 +1,6 @@
 name = "Towers of the Wild Modded"
 filename = "totw_modded-neoforge-1.21-1.0.7.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/54eqfZSC/versions/pH5Hk4rL/totw_modded-neoforge-1.21-1.0.7.jar"

@@ -1,6 +1,6 @@
 name = "Sky Villages"
 filename = "SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/mb68eIfx/versions/3InSHTOp/SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
