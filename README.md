@@ -8,6 +8,8 @@ Air Balloons
 Amendments
 AppleSkin
 Applied Energistics 2
+Applied Energistics 2 Wireless Terminals
+Applied Mekanistics
 Architectury API
 Ars Creo
 Ars Nouveau
@@ -15,6 +17,7 @@ Ars Énergistique
 Artifacts
 Balm
 Better Combat [Fabric & Forge]
+Bigger AE2
 BlueMap
 Bridging Mod
 Building Wands
@@ -33,6 +36,7 @@ Cobblemon Integrations
 Cobblemon Pokenav
 Cobblemon Spawn Notification
 Cobblemon: Mega Showdown
+Cobblemon: Ride On!
 Comforts
 Configured
 Connectivity
@@ -47,6 +51,7 @@ Create Enchantment Industry Plus
 Create Man of Many Planes
 Create Mechanical Spawner
 Create Sifting
+Create Stock Bridge
 Create Stuff 'N Additions
 Create: Bells & Whistles
 Create: Central Kitchen
@@ -80,11 +85,13 @@ Easy Anvils
 Easy Magic
 EMI
 Enchanted: Witchcraft
+End Remastered
 Entity Culling
 Every Compat (Stone Zone)
 Every Compat (Wood Good)
 Explorer's Compass
 Exposure
+Extended AE
 Farmer's Delight
 Farming for Blockheads
 Fast IP Ping
@@ -100,12 +107,15 @@ FTB Teams (Forge)
 FTB Ultimine (Forge)
 Fusion (Connected Textures)
 Fzzy Config
+Gardens of the Dead
 Geckolib
 GlitchCore
 Global Packs
+Glodium
 Goblin Traders
 GuideME
 Handcrafted
+Hang Glider
 HiddenMons [Cobblemon]
 Immersive Aircraft
 Incendium
@@ -115,6 +125,7 @@ Jade Addons (Neo/Forge)
 Jade 🔍
 JinxedLib
 JourneyMap
+JourneyMap Integration
 Just Enough Items
 Just Zoom
 KeyBind Bundles
@@ -172,6 +183,8 @@ Recipe Essentials[Forge/Fabric]
 Reese's Sodium Options
 Relics
 Relics: Artifacts Compat
+Reliquified Ars Nouveau
+Reliquified L_Ender 's Cataclysm
 Repurposed Structures - Farmer's Delight Compat
 Repurposed Structures - Friends and Foes Compat
 Repurposed Structures - Neoforge/Forge
@@ -202,13 +215,18 @@ Tectonic
 Terralith
 The Aether
 Tidal Towns
+Tomtaru's Cobblemon and Farmer's Delight Tweaks
 Too Fast
+Towers of the Wild Modded
+Trash Cans
+TrashSlot
 Traveler's Backpack
 Underground Villages
 Undertale Death Screen
 WATERFrAMES: Multimedia Displays
 WATERMeDIA
 Waystones
+When Dungeons Arise: Seven Seas
 YetAnotherConfigLib (YACL)
 You're in Grave Danger
 YUNG's API
