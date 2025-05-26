@@ -33,10 +33,6 @@ file = "global_packs/required_data/CobblemonSnifferArchaeology1.0 (1).zip"
 hash = "c0c5246d5bbcba3ea719faf1420e2688c51afc265cc6992fb3230e7ed581411b"
 
 [[files]]
-file = "global_packs/required_data/FreshAnimations_v1.9.2.zip"
-hash = "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b"
-
-[[files]]
 file = "global_packs/required_data/NADYMONS3_v3.zip"
 hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
 
@@ -91,6 +87,11 @@ hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
 [[files]]
 file = "global_packs/required_resources/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
+
+[[files]]
+file = "global_packs/required_resources/fresh-animations.pw.toml"
+hash = "a837a6ef76177cd45f425ed3a72fef3454c761fda77507d8f1943ddabf54e8df"
+metafile = true
 
 [[files]]
 file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Containers§8.zip"
