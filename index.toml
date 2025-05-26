@@ -748,6 +748,11 @@ hash = "9fb5d40354c86b79d41c7b82430469b59d5421d1970738e00d9e7e1dfcbcd0f3"
 metafile = true
 
 [[files]]
+file = "mods/oritech.pw.toml"
+hash = "0c72a1e25d328741fd6025803957726eaae35c9b2c71b266f3ca9a5e792686f5"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
 metafile = true
@@ -900,6 +905,11 @@ metafile = true
 [[files]]
 file = "mods/stateobserver.pw.toml"
 hash = "056cac6e78f63d3c8ed5a04e05f91cf3513efdde9ad291a4775b2f6e0caa7bc6"
+metafile = true
+
+[[files]]
+file = "mods/stitch.pw.toml"
+hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
 metafile = true
 
 [[files]]
