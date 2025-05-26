@@ -927,11 +927,6 @@ hash = "ff15d498bdd687be1584a15a7feeef5b611c4a332549c27037e83e6a68e44fa3"
 metafile = true
 
 [[files]]
-file = "mods/the-twilight-forest.pw.toml"
-hash = "bbd1d4b8b1562f98c9247a29de80b0ba5447dda5b549a8b4ee732c38925b784b"
-metafile = true
-
-[[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "0cbfee517ef794590c79f407c060a42f9719e8533f730411761d3d429463af03"
 metafile = true
