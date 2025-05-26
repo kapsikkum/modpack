@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "094e1c8ee069b1d1605d438b8b3b82c94e1e68987b3fe404fb9d437cdd1b450d"
+
+[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
