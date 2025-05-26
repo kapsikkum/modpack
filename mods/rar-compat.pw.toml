@@ -3,11 +3,11 @@ filename = "rarcompat-1.21-0.9.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f0cbbe371442bb7bb4715d18b6972cc23ede4463"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/GnU07giL/versions/V5CWNMoG/rarcompat-1.21-0.9.6.jar"
+hash-format = "sha512"
+hash = "3bb9082b9fca4d4d9b6027da4b346150a8af6dde29980964adafad58e03d26453434d7b22afc871baf37b797dd45d7563a6dc922bfbaa50e8c18238c1e29d7c8"
 
 [update]
-[update.curseforge]
-file-id = 6459157
-project-id = 1100379
+[update.modrinth]
+mod-id = "GnU07giL"
+version = "V5CWNMoG"
