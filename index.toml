@@ -995,6 +995,16 @@ hash = "a2c464160cddcc8bfc552c6d4a4c2854f0b20b7d7a68d97f6179d78ef6c7a690"
 metafile = true
 
 [[files]]
+file = "mods/reliquified-ars-nouveau.pw.toml"
+hash = "180ed2b8463cf0387291f1861c0a732d45adadd129f354f8b4599048dfc216d3"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
+hash = "38e096c458bdab645f1e92a504823ae468fdf59ecaf8c826dea7e50a3c849cbf"
+metafile = true
+
+[[files]]
 file = "mods/repurposed-structures-farmers-delight-compat.pw.toml"
 hash = "43e69acf1831b49ca132e4bb883681093c05e85a3b1b4dd834a4c60e09c5bbc8"
 metafile = true
