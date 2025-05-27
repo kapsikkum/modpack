@@ -103,11 +103,6 @@ hash = "33c625f334d68395ca1084fc7a3efb1cdd80d2d8c9eaf234150c64bd62054f1d"
 metafile = true
 
 [[files]]
-file = "global_packs/required_resources/whimscape.pw.toml"
-hash = "d03c656856f23a8deaf41728bff54cd3cdb5b456d168cf03cd22045052fc6792"
-metafile = true
-
-[[files]]
 file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Containers§8.zip"
 hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
@@ -1384,6 +1379,11 @@ hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
 [[files]]
 file = "resourcepacks/Whimscape x Exploration v1.0.zip"
 hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
+
+[[files]]
+file = "resourcepacks/whimscape.pw.toml"
+hash = "d03c656856f23a8deaf41728bff54cd3cdb5b456d168cf03cd22045052fc6792"
+metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
