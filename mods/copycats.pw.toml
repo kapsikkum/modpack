@@ -1,9 +1,0 @@
-name = "Create: Copycats+"
-filename = "copycats-2.2.2+mc.1.21.1-neoforge.jar"
-side = "both"
-
-[download]
-url = "https://cdn.discordapp.com/attachments/1365273852967518218/1366557785872924703/copycats-2.2.2mc.1.21.1-neoforge.jar?ex=68364b9d&is=6834fa1d&hm=f176e3c568e8185337cdc9f93dd53ba1af2ebe6dfe5d194b760402891c5e4bb6&"
-
-hash-format = "sha256"
-hash = "e2694792a8d30bd9c421f7cde7f745b983fe5cc485e776e8c386611ca5a87cc4"
