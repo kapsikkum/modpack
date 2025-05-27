@@ -112,6 +112,11 @@ hash = "9d7cf428e93a7b18f871b9fa2950f86477fb80d21035c622123309db02dde670"
 metafile = true
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "05e3fa4144ef169a66d5af6bfe9868153986201f177239a95910855aaccba733"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "b4160f327578ee994907c217b8de09e2c4377b5735b12ad56d91cb1a08ddd62d"
 metafile = true
@@ -124,6 +129,11 @@ metafile = true
 [[files]]
 file = "mods/air-balloons.pw.toml"
 hash = "70743439137808f1d50fa0b2203d392cccf24a1751aa328201e4274260a52800"
+metafile = true
+
+[[files]]
+file = "mods/alloy-forgery.pw.toml"
+hash = "2adf518c92809d9a8cb8c1bbb8f40f8d631a5702ccbcc4ee617a9365dcf48a4e"
 metafile = true
 
 [[files]]
@@ -314,6 +324,16 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
+metafile = true
+
+[[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
@@ -612,6 +632,11 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "cb56550a957dd44cab4f9102aa588cd22421cd6b4099a03ac7b1b167c23c0f13"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
 metafile = true
@@ -802,6 +827,11 @@ hash = "c947732c6b4dc59c1cf1e18b1664af6568542d94abda640b6aa24d0b397a49b0"
 metafile = true
 
 [[files]]
+file = "mods/lavender.pw.toml"
+hash = "7dc27df21d8bd6b4e5387592063817c7de24a7e3ce8c90bb6bf3a9e22199d5e5"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "dad3fae621fe1f37422cd2bd527c237da93e79b72128a27211bbed1c2f7f7b73"
 metafile = true
@@ -939,6 +969,11 @@ metafile = true
 [[files]]
 file = "mods/musket-mod.pw.toml"
 hash = "359f98f5d3028b8f9383258479cd2852054ad3475e18621b63b50864ff5852eb"
+metafile = true
+
+[[files]]
+file = "mods/mythicmetals.pw.toml"
+hash = "727881922d0d8c44c1ca82b331bd54290d4c48e1cef24b3b2e60f1dc799104ea"
 metafile = true
 
 [[files]]
@@ -1219,6 +1254,11 @@ metafile = true
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
 hash = "ff15d498bdd687be1584a15a7feeef5b611c4a332549c27037e83e6a68e44fa3"
+metafile = true
+
+[[files]]
+file = "mods/things.pw.toml"
+hash = "6ee3cd558b1a9837bfe40b4410531f46c5157368dd53c305ebe6a9159b8e26ac"
 metafile = true
 
 [[files]]
