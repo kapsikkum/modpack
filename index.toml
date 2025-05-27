@@ -113,7 +113,7 @@ hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
-hash = "f47e44843ba6aff3e320fa0b7307060df8924d467eab94a5587fd8694b92c7ec"
+hash = "9d7cf428e93a7b18f871b9fa2950f86477fb80d21035c622123309db02dde670"
 metafile = true
 
 [[files]]
@@ -183,7 +183,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "146dd7165c696bfa10cd8e6fa90dd5b2578244ecd35e041557b76b0cff2d0fa6"
+hash = "5be6142a7064df1e96149f505f4474c06b88e392629d6bc5552b5b2da98c8ace"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "de23b60400d662b5ff98292605501f5fdd3203365a4c90aea35aedc961e4e3cd"
+hash = "f900ddb6fb716988e87a46172dc84ece157c46e8d86486128a555918920c9a93"
 metafile = true
 
 [[files]]
@@ -273,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "2c670e307e5694628c25baf4d3d9607e92ab45316728956e2eea58513d731427"
+hash = "e0167e4c2d57a7caae282002f2316458a42cf331566065d5dd754cf0db2e20bf"
 metafile = true
 
 [[files]]
@@ -332,6 +332,11 @@ hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "f92ac5935cfc80e47751524a635977d205375324a6462473ac86d7a913c41f5a"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
@@ -358,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "39262522d1617ae4dc5d7c862cf4e457fdbcb948de13425b9a598cc5864a459f"
+hash = "7311050b0232214f32999a6eb3e75dc64de40ea1962bbb166f3e5499495db352"
 metafile = true
 
 [[files]]
@@ -433,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-sifting.pw.toml"
-hash = "97019bb26e1b0a861907edf8bb10ad4ba783651b5615ccbee10ca5c253b397f1"
+hash = "2f8a0ac6bfe954d9e6369f682e9274d4a762568a68ffc611366a8c1f568bad7c"
 metafile = true
 
 [[files]]
@@ -588,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
+hash = "ed51d42b512216a7790cbb0550a4957e646e14da9a6ee32ecd15d174be818e6d"
 metafile = true
 
 [[files]]
@@ -668,7 +673,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "8e5da360e375437a904021af1e7eda56fa14f1d68af363f3b6217763c63d3544"
+hash = "37a1086360571a34cfadd0088cd331b405857c942b5611caafebc27fb8ea1a42"
 metafile = true
 
 [[files]]
@@ -753,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
+hash = "965c18f0b3eb3d1a7fa4b08887a9c94b39d97cc45e473924b6c5792743785d72"
 metafile = true
 
 [[files]]
@@ -883,7 +888,7 @@ metafile = true
 
 [[files]]
 file = "mods/mechanicals-lib.pw.toml"
-hash = "e38ad2bf4e13c926930ed0f12519fd68bdcdf4e8aa54c906810ec34fc6c47a5d"
+hash = "629532e53e9e338448557738a59a23e4116f74f8b66bb04656e5f4f8d0c733d3"
 metafile = true
 
 [[files]]
@@ -978,7 +983,7 @@ metafile = true
 
 [[files]]
 file = "mods/particular-reforged.pw.toml"
-hash = "ba8aa6f9a78c00c89547e4e4f1c369b5016c62dc758d2cb446c09bb172f89b18"
+hash = "7e5d722a7ec0f37057bcc78feb55b9ebf8dd9c5892b60e002854c785bce4ada4"
 metafile = true
 
 [[files]]
@@ -1283,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "83c2f33a6656799f209ee75d63da20c4e692202371a221fd853792dad6113d7e"
+hash = "892cf7902f5d3795a1a3d576e4cc24d51654f29ac0d39215e5e3adf262778562"
 metafile = true
 
 [[files]]

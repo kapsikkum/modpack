@@ -1,13 +1,13 @@
 name = "Create: Dragons Plus"
-filename = "create-dragons-plus-1.5.1.jar"
+filename = "create-dragons-plus-1.5.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dzb1a5WV/versions/4K89HMj0/create-dragons-plus-1.5.1.jar"
+url = "https://cdn.modrinth.com/data/dzb1a5WV/versions/MF0S2f6O/create-dragons-plus-1.5.2.jar"
 hash-format = "sha512"
-hash = "b80f0d28b17a30fca1c97d8123e046fddb9140c4dcd6c39dd12cf69bc082c71270d1cd3e8c6f503bf7effc8a1e8fdf392c620efa803ca2f64688af0daaeeb5db"
+hash = "3ac5ef92b9f8a5f8bb5d053e81fffb94821b9b8c4b6fe9e8a728a5e04286cfa8b22914f0ee26ca640a0c11d569937a1c7e0a88f57a2e49c9281312b8340db8ad"
 
 [update]
 [update.modrinth]
 mod-id = "dzb1a5WV"
-version = "4K89HMj0"
+version = "MF0S2f6O"

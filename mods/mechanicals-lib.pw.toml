@@ -1,13 +1,13 @@
 name = "Mechanicals Lib"
-filename = "mechanicals-1.21.1-1.0.7.jar"
+filename = "mechanicals-1.21.1-1.0.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ProvjTA7/versions/C01csgCF/mechanicals-1.21.1-1.0.7.jar"
+url = "https://cdn.modrinth.com/data/ProvjTA7/versions/CmelGVF9/mechanicals-1.21.1-1.0.9.jar"
 hash-format = "sha512"
-hash = "3ea5d63c6f41f01496cd60ae3508e9fcb83bc6286e3c185e0371161282631479d4965fc92563e36711957bfdf1596a939aa7caa583a12ded894015884d8fe1ad"
+hash = "03041648807489bb20aa10d1d0ef060ecb11fbbc015899137b481cd64fe5f87e2a1c74cc86a5afd76e28dcaf34f47ab30aacc2637d3e88e717b6828646fe0bc2"
 
 [update]
 [update.modrinth]
 mod-id = "ProvjTA7"
-version = "C01csgCF"
+version = "CmelGVF9"
