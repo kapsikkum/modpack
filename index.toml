@@ -108,43 +108,43 @@ hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
 
 [[files]]
 file = "journeymap/config/6.0/addons/addon.cobblemon.config"
-hash = "846452017e761f98a39eb4896fcee2948ddd05dbfece9607424750f8e6add11e"
+hash = "807e7aa081d025b9a5aebeebe695c57c6ece0e61059438e34fa2e76c3168463f"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.core.config"
-hash = "a823d51f03240ff1af8be422b42e30e9f9ad11acb682da406927556e62593ad4"
+hash = "a31ebc8b8c1b8c9be2715480fd468d23640354c8675da223c283a776f9f351d4"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.fullmap.config"
-hash = "d9d65609845f4f61f0d7f0e404267dbf7bd950eef4df5f89d189402c57c7cd19"
+hash = "ab40490416eec73450589b0c92f9b0e66487fa1e8f41d9a7ad57e45d9d3cbbc4"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "74110971b6a0a5c5650d2809752be0142c67df6a7ffbee424c36b31c4496e3ff"
+hash = "b1b453d1dbc4f234e699e5918bc6504105d1c230a3e50865bf54ac695046a7fe"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "0877b212b9b0890b6681763e825439ab59fc0ace89de378b1a6d0a30c04a437b"
+hash = "d47eb59ac3fad1eb9daa0b28573be015d09fefb2fac053782105c857979ac901"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.rendering.config"
-hash = "ac8c3d0602697e18273e24bd16125fb4f4277cefb6bc4042eda2285f3e7b4648"
+hash = "e4e1ce183b993d357d8c73b1583eabc61c8529233fb21fdb670d7e043ee068c8"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.topo.config"
-hash = "17ac3fce53a5c3101316be8f7458b5b367640f17e1b29dbf594739da0af722a6"
+hash = "6c100f62513b737b85bc011d84e50fdaeaf54e4aea4305adfc0290de2d53fad0"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.waypoint.config"
-hash = "5c407ae79f25c2ec1a54132bcd733fe710aaac1ce6cae2d23c3cb1641e2807fa"
+hash = "7628f8baf9c3c9895f53cf0a83e83f9cd76486f18749f86ba5eb2b4731a0f9c6"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.webmap.config"
-hash = "4de2598b835abc3a647c436a64a0653b1a7f44b33337c1fc8326b5db0f8f87d4"
+hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
 file = "journeymap/defaultconfig.json"
-hash = "16e6b0d27207d3641a695a6c7f2b85d5888d0e0efb1e9131ccc54464eb51695f"
+hash = "bd39e0f4ede093289b887dffb2bc2473037f4e93a6ba5beef60b40b2c186aa79"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
