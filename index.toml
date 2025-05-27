@@ -982,6 +982,11 @@ hash = "359f98f5d3028b8f9383258479cd2852054ad3475e18621b63b50864ff5852eb"
 metafile = true
 
 [[files]]
+file = "mods/mutant-monsters.pw.toml"
+hash = "caa3e2282daef2c96ca71b329e07453d904aa338026e274c362432512b0129ca"
+metafile = true
+
+[[files]]
 file = "mods/mythicmetals.pw.toml"
 hash = "727881922d0d8c44c1ca82b331bd54290d4c48e1cef24b3b2e60f1dc799104ea"
 metafile = true
