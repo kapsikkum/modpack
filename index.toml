@@ -82,14 +82,6 @@ file = "global_packs/required_resources/Create AE2 Datapack.zip"
 hash = "e20346ef0b8d4dc512393043328bac531ccf2b4d3a10d772cfc26db5b989c41e"
 
 [[files]]
-file = "global_packs/required_resources/Doc's Whimscape Additions - Even More Delight.zip"
-hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
-
-[[files]]
-file = "global_packs/required_resources/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
-hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
-
-[[files]]
 file = "global_packs/required_resources/Miku Totem.zip"
 hash = "2b50bd9f3964c49160ece8cb18511e6b2003ff5cb713a63cff9928eff6cb49e6"
 
@@ -102,34 +94,12 @@ file = "global_packs/required_resources/NADYMONS3_v3.zip"
 hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
 
 [[files]]
-file = "global_packs/required_resources/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
-hash = "9eb4333afbb3b6260cc2578ea0c7c4119ce92f96bd0375caca6edd6d92abcd46"
-
-[[files]]
 file = "global_packs/required_resources/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
 
 [[files]]
-file = "global_packs/required_resources/Whimscape x Cobblemon v1.6.1.zip"
-hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
-
-[[files]]
-file = "global_packs/required_resources/Whimscape x Exploration v1.0.zip"
-hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
-
-[[files]]
-file = "global_packs/required_resources/bonimons.pw.toml"
-hash = "a1a8c1ad147fd8efc6640e6204e11acc3a7369864b38b4c7f2f5391498685ee5"
-metafile = true
-
-[[files]]
 file = "global_packs/required_resources/fresh-animations.pw.toml"
 hash = "c93904a92feb03699390438c695ff7ff649c602d2a539df92890a8ba625c50c9"
-metafile = true
-
-[[files]]
-file = "global_packs/required_resources/whimscape.pw.toml"
-hash = "9753d3fd653ed7ab18b8bd1d62c9523b3afd5a837a88ddd4f173d18aa6c73836"
 metafile = true
 
 [[files]]
@@ -175,54 +145,6 @@ hash = "4de2598b835abc3a647c436a64a0653b1a7f44b33337c1fc8326b5db0f8f87d4"
 [[files]]
 file = "journeymap/defaultconfig.json"
 hash = "16e6b0d27207d3641a695a6c7f2b85d5888d0e0efb1e9131ccc54464eb51695f"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
-
-[[files]]
-file = "kubejs/config/client.json"
-hash = "de241e99c33070805a1f039d6edb46c67cd92c93c7787e177fa38d15ed9007da"
-
-[[files]]
-file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
-
-[[files]]
-file = "kubejs/config/probe-settings.json"
-hash = "5ecd756b8485e6321ff49aabeed2a32273d11f3018a79070968643de3b199d15"
-
-[[files]]
-file = "kubejs/config/web_server.json"
-hash = "bdfc2d5fbe14b78dfeadc04a3ca4e3b5a74dde9e13a786005e2399ca84bb251f"
-
-[[files]]
-file = "kubejs/data/oritechoilcompat.zip"
-hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
-
-[[files]]
-file = "kubejs/data/worldgen_removals.zip"
-hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
@@ -560,11 +482,6 @@ hash = "afba2ff5759b144b3616298c893b8fb988ee5a23c4cc3490b9ddba154ba71744"
 metafile = true
 
 [[files]]
-file = "mods/create-oritech-compat.pw.toml"
-hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
-metafile = true
-
-[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "2c13fe8c434226e7b230fd0418c9e82b89d8bc8e5ab7e8d75392989fcd263c61"
 metafile = true
@@ -652,11 +569,6 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "650d83f19ef2c073e57dfc087226fe029c0aa6d12cfdd57a091666a216bb5d15"
-metafile = true
-
-[[files]]
-file = "mods/deeperdarker.pw.toml"
-hash = "bbb3f09fbd5a3ca7aa82c41923f4557429fa465993c2817e9966dd3f8164e318"
 metafile = true
 
 [[files]]
@@ -1571,6 +1483,10 @@ hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
 hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
+
+[[files]]
+file = "resourcepacks/FA+All_Extensions-v1.4.zip"
+hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
 
 [[files]]
 file = "resourcepacks/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
