@@ -5,6 +5,7 @@
 A Man With Plushies
 Aether's Delight
 Air Balloons
+Almost Unified
 Amendments
 AppleSkin
 Applied Energistics 2
@@ -19,6 +20,7 @@ Balm
 Better Combat [Fabric & Forge]
 Bigger AE2
 BlueMap
+BoniMons
 Bridging Mod
 Building Wands
 Carry On
@@ -34,9 +36,11 @@ Cobblemon Capture XP
 Cobblemon Fight or Flight Reborn
 Cobblemon Integrations
 Cobblemon Pokenav
+Cobblemon Size Variations
 Cobblemon Spawn Notification
 Cobblemon: Mega Showdown
 Cobblemon: Ride On!
+Cobbreeding
 Comforts
 Configured
 Connectivity
@@ -63,6 +67,7 @@ Create: Enchantable Machinery
 Create: Enchantment Industry
 Create: Fishery Industry
 Create: Fuel Motor
+Create: Integrated Farming
 Create: Let The Adventure Begin
 Create: Power Loader
 Create: Quality of Life
@@ -86,9 +91,11 @@ Easy Magic
 EMI
 Enchanted: Witchcraft
 End Remastered
+End's Delight
 Entity Culling
 Every Compat (Stone Zone)
 Every Compat (Wood Good)
+Expanded Delight
 Explorer's Compass
 Exposure
 Extended AE
@@ -99,6 +106,7 @@ FerriteCore
 Framework
 Fresh Animations
 Friends&Foes (Forge/NeoForge)
+Fright's Delight
 FTB Chunks (Forge)
 FTB Essentials (Forge & Fabric)
 FTB Library (Forge)
@@ -192,11 +200,14 @@ Resourceful Lib
 Rhino
 Ribbits
 ScalableLux
+Seamless Loading Screen 
 Searchables
+SecurityCraft
 Serene Seasons
 ServerCore
 Simple Hats
 Simply Swords
+Size Rayguns
 Sky Villages
 Sodium
 Sodium Extras
@@ -227,6 +238,7 @@ WATERFrAMES: Multimedia Displays
 WATERMeDIA
 Waystones
 When Dungeons Arise: Seven Seas
+Whimscape
 YetAnotherConfigLib (YACL)
 You're in Grave Danger
 YUNG's API
