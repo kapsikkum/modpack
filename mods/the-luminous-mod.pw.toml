@@ -1,0 +1,13 @@
+name = "Luminous"
+filename = "Luminous V1.5 -NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HT2F6lNL/versions/4mqQMhLp/Luminous%20V1.5%20-NeoForge%201.21.1.jar"
+hash-format = "sha512"
+hash = "48a5df45d95f2a468cbee5a4f91ed4d744b40e5c1bf72024129f4361be74c9fb63dc330801a47dd0d442c1fc5734be18b41de5d7b359162df10531324cae4f86"
+
+[update]
+[update.modrinth]
+mod-id = "HT2F6lNL"
+version = "4mqQMhLp"

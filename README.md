@@ -3,8 +3,10 @@
 [EMF] Entity Model Features
 [ETF] Entity Texture Features
 A Man With Plushies
+Accessories
 Aether's Delight
 Air Balloons
+Alloy Forgery
 Almost Unified
 Amendments
 AppleSkin
@@ -16,6 +18,7 @@ Ars Creo
 Ars Nouveau
 Ars Énergistique
 Artifacts
+AzureLib
 Balm
 Better Combat [Fabric & Forge]
 Bigger AE2
@@ -44,6 +47,7 @@ Cobbreeding
 Comforts
 Configured
 Connectivity
+Connector Extras
 Controlling
 Cooking for Blockheads
 Crawl
@@ -85,6 +89,7 @@ Curios API
 Default Options
 Diagonal Fences
 Diagonal Walls
+Dragonkind Evolved | End Battle Reborn
 Dungeons and Taverns
 Easy Anvils
 Easy Magic
@@ -103,6 +108,7 @@ Farmer's Delight
 Farming for Blockheads
 Fast IP Ping
 FerriteCore
+Forgified Fabric API
 Framework
 Fresh Animations
 Friends&Foes (Forge/NeoForge)
@@ -142,11 +148,13 @@ Kotlin for Forge
 KryptonFoxified
 KubeJS
 L_Ender's Cataclysm
+Lavender
 libIPN
 Lionfish-API
 Lithium
 Lithostitched
 Lootr
+Luminous
 Macaw's Bridges
 Macaw's Doors
 Macaw's Fences and Walls
@@ -170,8 +178,11 @@ Moyai
 MrCrayfish's Furniture Mod: Refurbished
 MSS - Moog's Soaring Structures
 Musket Mod
+Mutant Monsters
 MVS - Moog's Voyager Structures
+Mythic Metals
 Nature's Compass
+Nullscape
 Nyf's Spiders
 OctoLib
 Oracle Index
@@ -207,6 +218,7 @@ Serene Seasons
 ServerCore
 Simple Hats
 Simply Swords
+Sinytra Connector
 Size Rayguns
 Sky Villages
 Sodium
@@ -225,6 +237,7 @@ Supplementaries
 Tectonic
 Terralith
 The Aether
+Things
 Tidal Towns
 Tomtaru's Cobblemon and Farmer's Delight Tweaks
 Too Fast
@@ -253,3 +266,4 @@ YUNG's Better Strongholds
 YUNG's Better Witch Huts
 YUNG's Bridges
 YUNG's Extras
+Zelda: Hyrule Terrors
