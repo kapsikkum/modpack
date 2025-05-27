@@ -217,8 +217,18 @@ hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "3ec8952109756b9adde5f7764f4bf7f09b6485d327959d9ac797a152029c635b"
+metafile = true
+
+[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
+metafile = true
+
+[[files]]
+file = "mods/builders-boundry.pw.toml"
+hash = "7d1b06ca569955ae585e77de2085401abb6f23407fbad0ee59a29b95bd20f0d8"
 metafile = true
 
 [[files]]
@@ -442,6 +452,11 @@ hash = "df9a2a26e4e8e620df2f480481e837edf264ca410fd8ea8c24ec2ff55ed11326"
 metafile = true
 
 [[files]]
+file = "mods/create-oritech-compat.pw.toml"
+hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
+metafile = true
+
+[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
 metafile = true
@@ -529,6 +544,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "bbb3f09fbd5a3ca7aa82c41923f4557429fa465993c2817e9966dd3f8164e318"
 metafile = true
 
 [[files]]
@@ -784,6 +804,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "c3c06a4839ecfd4717686f7394396a4fc66b7a2e8eabbdd51f23ab2a1099cc1e"
+metafile = true
+
+[[files]]
+file = "mods/items-displayed-forge.pw.toml"
+hash = "3b30fce411ee02b743d50d8267e3a0fb472e9c8766d8646ec2a30e984a7d5665"
 metafile = true
 
 [[files]]
@@ -1334,6 +1359,11 @@ metafile = true
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "167acde56f86d848efbbec713809ce3fa833030952acac473f6af9f9a1e98900"
+metafile = true
+
+[[files]]
+file = "mods/underground-bunkers.pw.toml"
+hash = "b0068e7fd29567d1c9b2219f8ee24079e9f14e1a03e387795baae339fb6d8825"
 metafile = true
 
 [[files]]
