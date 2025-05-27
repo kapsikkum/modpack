@@ -187,6 +187,11 @@ hash = "142c51a1423cc548ef94e8c853e3d929da336ab560549694060487e8a4d33285"
 metafile = true
 
 [[files]]
+file = "mods/azurelib.pw.toml"
+hash = "ae182620b5b407b0ffb828ac1cfdfcc980656d41d232c65fceca5ea0b69ce3f3"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "5be6142a7064df1e96149f505f4474c06b88e392629d6bc5552b5b2da98c8ace"
 metafile = true
@@ -739,6 +744,11 @@ metafile = true
 [[files]]
 file = "mods/hiddenmons-cobblemon.pw.toml"
 hash = "d2e4214bbe6f93f7f95f688989ee296b419b7dba10dee858abb346ae73b4cfbe"
+metafile = true
+
+[[files]]
+file = "mods/hyrule-terrors.pw.toml"
+hash = "27ba09fa8e3aa5093f13d97caf973464793b2a696a690e7585136f42241c818c"
 metafile = true
 
 [[files]]

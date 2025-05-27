@@ -1,0 +1,13 @@
+name = "Zelda: Hyrule Terrors"
+filename = "Hyrule_Terrors-neoforge-1.1.6-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65b817f76951e779fcad9c9a4f0384c3d4bacc78"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6554297
+project-id = 1216095
