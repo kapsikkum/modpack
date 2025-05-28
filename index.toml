@@ -143,36 +143,8 @@ file = "journeymap/config/6.0/journeymap.webmap.config"
 hash = "00f491384a31feb9a2c5a6e82407a26f4936d4e64695a9e715cfe28c64783bec"
 
 [[files]]
-file = "journeymap/defaultconfig.json"
-hash = "16e6b0d27207d3641a695a6c7f2b85d5888d0e0efb1e9131ccc54464eb51695f"
-
-[[files]]
-file = "journeymap/journeymap.log"
-hash = "c253f5a8cefa51755b3086ab548dfdcdc3dcce6740f8692c9a46ddc3fade3034"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
-
-[[files]]
 file = "kubejs/config/client.json"
-hash = "de241e99c33070805a1f039d6edb46c67cd92c93c7787e177fa38d15ed9007da"
+hash = "1bc105623461a07f4ceaf1a5915fe1a97724661f8a048a8218f789e34091c140"
 
 [[files]]
 file = "kubejs/config/common.json"
@@ -183,20 +155,12 @@ file = "kubejs/config/probe-settings.json"
 hash = "5ecd756b8485e6321ff49aabeed2a32273d11f3018a79070968643de3b199d15"
 
 [[files]]
-file = "kubejs/config/web_server.json"
-hash = "bdfc2d5fbe14b78dfeadc04a3ca4e3b5a74dde9e13a786005e2399ca84bb251f"
-
-[[files]]
 file = "kubejs/data/oritechoilcompat.zip"
 hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
 
 [[files]]
 file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"

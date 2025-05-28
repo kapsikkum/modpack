@@ -1,8 +1,8 @@
 {
-  "window_title": "",
+  "window_title": "The Party of VORE",
   "show_tag_names": true,
   "show_components": true,
-  "disable_recipe_book": false,
+  "disable_recipe_book": true,
   "disable_component_count_tooltip": true,
   "disable_tab_name_tooltip": false,
   "export_atlases": false,
