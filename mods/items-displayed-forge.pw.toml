@@ -1,0 +1,13 @@
+name = "Items Displayed [NeoForge]"
+filename = "ItemsDisplayed-NeoForge-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PuR4vDBo/versions/obBhQkaP/ItemsDisplayed-NeoForge-2.0.3.jar"
+hash-format = "sha512"
+hash = "e4ab538aa1efed2ca8dfe61752377d66d90fffc4edc1ae99db1b1781ca7c0a76f9832c010e18803674254154225118539082ec12cd7f036a18ac00f136ad273e"
+
+[update]
+[update.modrinth]
+mod-id = "PuR4vDBo"
+version = "obBhQkaP"
