@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/duplicates.json"
+hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e"
+
+[[files]]
+file = "config/almostunified/tags.json"
+hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "7f32919eb825db237d710cff240a15a2bf76a8dee244b4c90ba3b18c77502ffe"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "87d9aa7cadbacdc1d90fba806808eeefdab26f8558654f212e7373c57c4dc7f7"
 
@@ -98,6 +118,11 @@ file = "global_packs/required_resources/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
 
 [[files]]
+file = "global_packs/required_resources/bonimons.pw.toml"
+hash = "5274c0fc0fcaedb4aa77ddc90eb725698293edd705146961529a0bea970c7bdf"
+metafile = true
+
+[[files]]
 file = "global_packs/required_resources/fresh-animations.pw.toml"
 hash = "33c625f334d68395ca1084fc7a3efb1cdd80d2d8c9eaf234150c64bd62054f1d"
 metafile = true
@@ -112,15 +137,15 @@ hash = "10e86967523e17b09ab68a1a85dc96d17ea7d5db8f693a91059b8e65e85407bd"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.core.config"
-hash = "6dcae6fc977a4d5e82b105bd49fe6b72eb43cd44175d3e5440393304f8873cf9"
+hash = "ba855aab5c54489bbbb6dbb7ff56e9c70e1942fa7a707748a6effaf436ed81f2"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.fullmap.config"
-hash = "dad6e43e26099a5c443aab4042296913853ec9e0a17c6d3dc36f2576ea88b86c"
+hash = "c98d96c39a36b10443bc6801fdca049c0f88df6091f5e02fbf2f5ecae170a00a"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "742eb960f83c50edb1795f391517e9fbb9b8e5591af5b2e6c8f4c0c0786bc312"
+hash = "d5d659ed4db6eb9167dd6f96ea369310c55a7402c9582e430e37e655f86ba896"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
@@ -195,6 +220,11 @@ metafile = true
 [[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "cf71bda14feddbce48d4c01b42b7734f0a42c42a473c9fe4c6720c43b7c668e6"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "3c70305d3401c5078b27c6b2b9eeb910dec0d908a5753bd062868add6d2ca1cb"
 metafile = true
 
 [[files]]
@@ -968,6 +998,11 @@ hash = "4fb1a31fed2b085e5f798c2a199fec357490f1da72451a612334776111d80d15"
 metafile = true
 
 [[files]]
+file = "mods/lmft.pw.toml"
+hash = "1e0e48cc2fbe7b961c0dd5286b5a1786564b63b2fbc268eda2cbb2ec80612a0b"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "28cd260c71c34d01f59ea210af1031e94d98b4d6bd72d5a153955ce754c9a76f"
 metafile = true
@@ -1320,6 +1355,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/splinecart.pw.toml"
+hash = "66f3e982c29d4204afc8593f050f3fe3478f286b639e1404bbdb64bda3ad0406"
 metafile = true
 
 [[files]]
