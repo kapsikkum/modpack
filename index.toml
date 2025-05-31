@@ -1393,6 +1393,11 @@ hash = "904ad5b0b32e5875203ded1e5f98995d2b93441e42c9a82fa6ca884a933a729d"
 metafile = true
 
 [[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "b87db837b282eadd0ddfcfaff38bee0413a6d333a38c714d8444ed3355a92f29"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
