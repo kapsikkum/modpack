@@ -3,7 +3,8 @@
     "minecraft",
     "kubejs",
     "create",
-    "mekanism"
+    "mekanism",
+    "chipped"
   ],
   "priority_overrides": {},
   "stone_variants": [

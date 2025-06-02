@@ -453,6 +453,11 @@ hash = "b07998c0a3b88e78e1aac5557c2c0470bdb3341f97b7f355291171746b114c6a"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "1d609f597d90c582a01f360cc143ba5c5cd5d62a7336d8d5fd02ca50637f52fb"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
 metafile = true
