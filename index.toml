@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-common.toml"
+hash = "eae49a74a7e1372612a58eed85e11a6b0d0af319fa3ec53bcad4364d32133b88"
+
+[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
@@ -18,7 +22,11 @@ hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "7f32919eb825db237d710cff240a15a2bf76a8dee244b4c90ba3b18c77502ffe"
+hash = "1fe9b48912f297dcf84c1ce2c4615e305c51366f8566eee3410933ed67b9a029"
+
+[[files]]
+file = "config/ambientsounds-client.json"
+hash = "9d300fa564b3cca3a6b22af940898cbabd78f316c3fbab50154d77a42b8c00b1"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -29,8 +37,44 @@ file = "config/defaultoptions/servers.dat"
 hash = "fdfbb6716a11ca5e92d0f92d1a3ca6fdce09467ea768cf57b291cb414d29fa43"
 
 [[files]]
+file = "config/entityculling.json"
+hash = "47e084ad873169cba3cacbe9bbf9b75582ade4d7429e416c1409125311a0f2ee"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "0ecc936469ea63b629b16b5c909a34303077858d4e8637deac9c596a2b9beacc"
+
+[[files]]
+file = "config/mutantmonsters-common.toml"
+hash = "ac60ba53d0818e4c5824aa8d60e0870f4b0c2051b4e50f518f469a848d4d6760"
+
+[[files]]
+file = "config/spawn_notification.json"
+hash = "61c2a0a11d80444e15257af3134e2a00511157a49c11aa57e7f3b009ef2e1994"
+
+[[files]]
+file = "config/subtle_effects/blocks.toml"
+hash = "91f0dfd14d8bac9c2b3994471fc55f8ed64cff8465c8a4cc88ac0914c8202f58"
+
+[[files]]
+file = "config/subtle_effects/entities.toml"
+hash = "768d5205ae5fa12bdfa1c76b9fba05f5079f791809517437f6e68c16a7d87c7c"
+
+[[files]]
+file = "config/subtle_effects/environment.toml"
+hash = "44d6b93e5cf40553135c819c157cbff71becd699570a00532f68b5bd0a01f632"
+
+[[files]]
+file = "config/subtle_effects/general.toml"
+hash = "6d0bba2db96d4225090b817069f3faa4b59dc07abdca6ab3cfce454d2bb937c4"
+
+[[files]]
+file = "config/subtle_effects/items.toml"
+hash = "fc5a3888ebf28698cc34a726d161dec84e03e178e336cfd645ecfe438b8177c6"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "acbff0804e7adbfc286fc6f35e542b5851866750a8489cdc69b015311f1f093e"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
