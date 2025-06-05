@@ -181,7 +181,7 @@ hash = "10e86967523e17b09ab68a1a85dc96d17ea7d5db8f693a91059b8e65e85407bd"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.core.config"
-hash = "ba855aab5c54489bbbb6dbb7ff56e9c70e1942fa7a707748a6effaf436ed81f2"
+hash = "e3b7e2a0b05034020c72aacc6de784abba5ca7a9f0461d16b18accac0e7f1311"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.fullmap.config"
@@ -189,7 +189,7 @@ hash = "c98d96c39a36b10443bc6801fdca049c0f88df6091f5e02fbf2f5ecae170a00a"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "d5d659ed4db6eb9167dd6f96ea369310c55a7402c9582e430e37e655f86ba896"
+hash = "65de54d423fc78b50c006d31beb152dc65067ad47f6ec520e97689d4b022d851"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
@@ -205,7 +205,7 @@ hash = "69298a16fdae2f31a4e74673753069a207b344350203a8fbc120914b6bba5408"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.waypoint.config"
-hash = "a7246da712452e57a8147cc8628b485658841e6aeeccdd0df9f2a23d06b2ca76"
+hash = "f05015973bc5b112d008a78dc16e3262b236423a1ff0ea3637750086fb317868"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.webmap.config"
