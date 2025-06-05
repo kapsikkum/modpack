@@ -1,13 +1,13 @@
 name = "Ponder for KubeJS"
-filename = "ponderjs-neoforge-1.21.1-2.1.1.jar"
+filename = "ponderjs-neoforge-1.21.1-2.1.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/5A34Stj8/versions/xj6ZvVWc/ponderjs-neoforge-1.21.1-2.1.1.jar"
+url = "https://cdn.modrinth.com/data/5A34Stj8/versions/KNqrQhG3/ponderjs-neoforge-1.21.1-2.1.2.jar"
 hash-format = "sha512"
-hash = "6f7350e148924870d93d9ae0572a9902e140f8c30d216165c52cdd3a93d73a6a016d26276508e5c478df5d5b059f24b3d82581a7015b518dee458745941cb552"
+hash = "b0c18e8172157ab8ddfe6da0fa4d071870b168ac8d3c3a8b9c2466064845283ae3c5ddd6891a143eea6f925cb948791aa7e4748fbfc1acbd6674b57964a25a9b"
 
 [update]
 [update.modrinth]
 mod-id = "5A34Stj8"
-version = "xj6ZvVWc"
+version = "KNqrQhG3"

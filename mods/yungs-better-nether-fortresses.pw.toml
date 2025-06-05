@@ -1,13 +1,13 @@
 name = "YUNG's Better Nether Fortresses"
-filename = "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.4.jar"
+filename = "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Z2mXHnxP/versions/oNRbcwIE/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.4.jar"
+url = "https://cdn.modrinth.com/data/Z2mXHnxP/versions/iopJiJQp/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
 hash-format = "sha512"
-hash = "6741fa2810b1f11e875e538752cf5c68682ba015254fce3a33bd6262895a56efb2c5725b9df92ee9f028539a807839105b202e3658b51801d72029f995109bfd"
+hash = "18b461298d3df1215fa3b4d2c0cb2ef1c7ed76701d8a0bb140277b21923e31abd939f0fd9b400c5bd676d739f1cda31c43b4dc753f9187251542223f3424d336"
 
 [update]
 [update.modrinth]
 mod-id = "Z2mXHnxP"
-version = "oNRbcwIE"
+version = "iopJiJQp"
