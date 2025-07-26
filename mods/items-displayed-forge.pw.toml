@@ -1,13 +1,13 @@
 name = "Items Displayed [NeoForge]"
-filename = "ItemsDisplayed-NeoForge-2.0.3.jar"
+filename = "ItemsDisplayed-NeoForge-2.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PuR4vDBo/versions/obBhQkaP/ItemsDisplayed-NeoForge-2.0.3.jar"
+url = "https://cdn.modrinth.com/data/PuR4vDBo/versions/TdI7OBwt/ItemsDisplayed-NeoForge-2.0.6.jar"
 hash-format = "sha512"
-hash = "e4ab538aa1efed2ca8dfe61752377d66d90fffc4edc1ae99db1b1781ca7c0a76f9832c010e18803674254154225118539082ec12cd7f036a18ac00f136ad273e"
+hash = "78230f28440b9bbfded750cb67486c93dffa3b557f1379bb99fbbe3b837bddde83c1eab78a96d9be63b9e9dd754e4ac667eb16b7e0c825de5f80a30c2f5553a5"
 
 [update]
 [update.modrinth]
 mod-id = "PuR4vDBo"
-version = "obBhQkaP"
+version = "TdI7OBwt"

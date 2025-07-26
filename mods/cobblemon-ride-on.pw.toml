@@ -1,13 +1,13 @@
 name = "Cobblemon: Ride On!"
-filename = "cobbleride-neoforge-0.3.1+1.21.1.jar"
+filename = "cobbleride-neoforge-0.3.3+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vXREhDPP/versions/1k8XakCk/cobbleride-neoforge-0.3.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/vXREhDPP/versions/YjPbxv31/cobbleride-neoforge-0.3.3%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "38b5cd44dcfb0c9c8c2caefc94835d2423852e5c4193eb5b22a70d392f1121a7a14d7296acd83f00e7f4c39c53c860212639ff635782b9d20eb277d73bab8c71"
+hash = "836147bbb31e212f55c28c14454bfe46856a7b021a819838970977662b19f8164fcc65e742fba108655fcbf17476c7f469519787e3cf33cb64bcb84cae5f615e"
 
 [update]
 [update.modrinth]
 mod-id = "vXREhDPP"
-version = "1k8XakCk"
+version = "YjPbxv31"

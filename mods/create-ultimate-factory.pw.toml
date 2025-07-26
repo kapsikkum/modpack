@@ -1,13 +1,13 @@
 name = "Create: Ultimate Factory [Forge/Fabric/NeoForge]"
-filename = "create_ultimate_factory-2.1.0-neoforge-1.21.1.jar"
+filename = "create_ultimate_factory-2.1.1-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/N9QToVpw/versions/2adaEArL/create_ultimate_factory-2.1.0-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/N9QToVpw/versions/6AugFPbn/create_ultimate_factory-2.1.1-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "1df201cb6ed562cacf99c5445a5c31fb1baf52fdc3cdad6a6c86d4ae1ae5e77cf0633e7ac856d2e1a8717f9ae6ae1c535c9708fb5e5c42c1fd48d7d819119729"
+hash = "4a3cf76ce80759a0d4cd815660cf21489ab66f02e01c0a162b21d9dc6f3188f853d02f583b2332881ac27db30f7b03e9bb1268f39ed94d2e468491f143dfb385"
 
 [update]
 [update.modrinth]
 mod-id = "N9QToVpw"
-version = "2adaEArL"
+version = "6AugFPbn"

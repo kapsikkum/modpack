@@ -1,13 +1,13 @@
 name = "Towers of the Wild Modded"
-filename = "totw_modded-neoforge-1.21-1.0.7.jar"
+filename = "totw_modded-neoforge-1.21-1.0.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/54eqfZSC/versions/pH5Hk4rL/totw_modded-neoforge-1.21-1.0.7.jar"
+url = "https://cdn.modrinth.com/data/54eqfZSC/versions/iTpHWGYV/totw_modded-neoforge-1.21-1.0.8.jar"
 hash-format = "sha512"
-hash = "980a9f515078d29ccdecd0c140844bf4984894eaf9c77cbb22a5fc360c92051d31f5a363a9a78031aab2c3f5ede048ac4937aef54024733254661a72929f0338"
+hash = "4c8904421960f2344d196288270b8185c4a25305aa25894cffa46acfb3aea5a017c3a7572bbbc86a5497f907ec75b08a4541029155c2d6837f89858ec0f44c58"
 
 [update]
 [update.modrinth]
 mod-id = "54eqfZSC"
-version = "pH5Hk4rL"
+version = "iTpHWGYV"

@@ -1,13 +1,13 @@
 name = "A Man With Plushies"
-filename = "amwplushies-neoforge-1.21.1-4.3.1.jar"
+filename = "amwplushies-neoforge-1.21.1-4.4.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EnHNgJd3/versions/D5Eoknfn/amwplushies-neoforge-1.21.1-4.3.1.jar"
+url = "https://cdn.modrinth.com/data/EnHNgJd3/versions/W8EycCrD/amwplushies-neoforge-1.21.1-4.4.0.jar"
 hash-format = "sha512"
-hash = "d4b9ff59f226b6169b6bdeeb4680dc49083ead42d15d712431ac147d7d5e9bd752d39a3bf32fc306af92ad307d7f355041bc91cd84b45034151260dc7d1bbf8a"
+hash = "d5a8eb26a2d414b48de377d8646aefc698e72349f8708410b041c7662f8d1df6d0da88aef03f0c8c3588b3d163286b430dca5165119de13413dfff15e1c27464"
 
 [update]
 [update.modrinth]
 mod-id = "EnHNgJd3"
-version = "D5Eoknfn"
+version = "W8EycCrD"
