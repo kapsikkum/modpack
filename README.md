@@ -1,535 +1,569 @@
-# Current mods:
+# Mod List 
 
-[EMF] Entity Model Features
+A Man With Plushies  
 
-[ETF] Entity Texture Features
+Accessories  
 
-A Man With Plushies
+AE2  
 
-Accessories
+Air Balloons  
 
-Aether's Delight
+Alloy Forgery  
 
-Air Balloons
+Almost Unified  
 
-Alloy Forgery
+AmbientSounds  
 
-Almost Unified
+Amendments  
 
-Amendments
+AppleSkin  
 
-AppleSkin
+Applied Energistics 2  
 
-Applied Energistics 2
+Applied Energistics 2 Wireless Terminals  
 
-Applied Energistics 2 Wireless Terminals
+Applied Mekanistics  
 
-Applied Mekanistics
+Architectury API  
 
-Architectury API
+Ars Creo  
 
-Ars Creo
+Ars Énergistique  
 
-Ars Nouveau
+Ars Nouveau  
 
-Ars Énergistique
+Artifacts  
 
-Artifacts
+AzureLib  
 
-AzureLib
+Balm  
 
-Balm
+Better Combat [Fabric & Forge]  
 
-Better Combat [Fabric & Forge]
+Bigger AE2  
 
-Bigger AE2
+BlueMap  
 
-BlueMap
+BoniMons  
 
-BoniMons
+Brewin' And Chewin'  
 
-Bridging Mod
+Bridging Mod  
 
-Building Wands
+Builder's Boundry  
 
-Carry On
+Building Wands  
 
-Chef's Delight - Farmer's Delight Villagers
+Caelus API  
 
-Chipped
+Carry On  
 
-Chunky
+Chef's Delight - Farmer's Delight Villagers  
 
-Cloth Config API (Fabric/Forge/NeoForge)
+Chipped  
 
-Clumps
+Chunky  
 
-Coastal Waves
+Cloth Config API (Fabric/Forge/NeoForge)  
 
-Cobbleloots: Loot Balls and More!
+Clumps  
 
-Cobblemon
+Coastal Waves  
 
-Cobblemon Capture XP
+Cobbleloots: Loot Balls and More!  
 
-Cobblemon Fight or Flight Reborn
+Cobblemon  
 
-Cobblemon Integrations
+Cobblemon Capture XP  
 
-Cobblemon Pokenav
+Cobblemon Fight or Flight Reborn  
 
-Cobblemon Size Variations
+Cobblemon Integrations  
 
-Cobblemon Spawn Notification
+Cobblemon Mega Showdown  
 
-Cobblemon: Mega Showdown
+Cobblemon Pokenav  
 
-Cobblemon: Ride On!
+Cobblemon Ride On!  
 
-Cobbreeding
+Cobblemon Size Variations  
 
-Comforts
+Cobblemon Spawn Notification  
 
-Configured
+Cobbreeding  
 
-Connectivity
+Comforts  
 
-Connector Extras
+Configured  
 
-Controlling
+Connectivity  
 
-Cooking for Blockheads
+Connector Extras  
 
-Crawl
+Connector  
 
-Create
+Controlling  
 
-Create Confectionery
+Cooking for Blockheads  
 
-Create Crafts & Additions
+Copycats  
 
-Create Encased
+Crawl  
 
-Create Enchantment Industry Plus
+Create  
 
-Create Man of Many Planes
+Create: Bells & Whistles  
 
-Create Mechanical Spawner
+Create Central Kitchen  
 
-Create Sifting
+Create Cobblemon Balls Overhaul  
 
-Create Stock Bridge
+Create Confectionery  
 
-Create Stuff 'N Additions
+Create Connected  
 
-Create: Bells & Whistles
+Create Crafts & Additions  
 
-Create: Central Kitchen
+Create Dragons Plus  
 
-Create: Cobblemon Balls Overhaul
+Create Dreams & Desires  
 
-Create: Connected
+Create Encased  
 
-Create: Dragons Plus
+Create Enchantable Machinery  
 
-Create: Dreams & Desires
+Create Enchantment Industry  
 
-Create: Enchantable Machinery
+Create Enchantment Industry Plus  
 
-Create: Enchantment Industry
+Create Fishery Industry  
 
-Create: Fishery Industry
+Create Fuel Motor  
 
-Create: Fuel Motor
+Create Integrated Farming  
 
-Create: Integrated Farming
+Create Let The Adventure Begin  
 
-Create: Let The Adventure Begin
+Create Man of Many Planes  
 
-Create: Power Loader
+Create Mechanical Spawner  
 
-Create: Quality of Life
+Create Oritech Compat  
 
-Create: Renewable Netherite
+Create Power Loader  
 
-Create: Stones
+Create QOL  
 
-Create: Structures Arise
+Create Renewable Netherite  
 
-Create: Teleporters
+Create Sifting  
 
-Create: Trading floor
+Create Stock Bridge  
 
-Create: Ultimate Factory [Forge/Fabric/NeoForge]
+Create Stones  
 
-Create: Vibrant Vaults
+Create Structures Arise  
 
-Create: Winery [Forge/NeoForge]
+Create Stuff 'N Additions  
 
-CreativeCore
+Create Teleporters  
 
-Cupboard
+Create Trading floor  
 
-Curios API
+Create Ultimate Factory [Forge/Fabric/NeoForge]  
 
-Default Options
+Create Vibrant Vaults  
 
-Diagonal Fences
+Create Winery [Forge/NeoForge]  
 
-Diagonal Walls
+CreativeCore  
 
-Dragonkind Evolved | End Battle Reborn
+Cupboard  
 
-Dungeons and Taverns
+Curios API  
 
-Easy Anvils
+DeeperDarker  
 
-Easy Magic
+Default Options  
 
-EMI
+Diagonal Fences  
 
-Enchanted: Witchcraft
+Diagonal Walls  
 
-End Remastered
+Dragonkind Evolved | End Battle Reborn  
 
-End's Delight
+Dungeons and Taverns  
 
-Entity Culling
+Easy Anvils  
 
-Every Compat (Stone Zone)
+Easy Magic  
 
-Every Compat (Wood Good)
+Elytra Slot  
 
-Expanded Delight
+EMF (Entity Model Features)  
 
-Explorer's Compass
+EMI  
 
-Exposure
+Enchanted: Witchcraft  
 
-Extended AE
+End Remastered  
 
-Farmer's Delight
+End's Delight  
 
-Farming for Blockheads
+Entity Culling  
 
-Fast IP Ping
+ETF (Entity Texture Features)  
 
-FerriteCore
+Every Compat  
 
-Forgified Fabric API
+Expanded Delight  
 
-Framework
+Explorer's Compass  
 
-Fresh Animations
+Exposure  
 
-Friends&Foes (Forge/NeoForge)
+Extended AE  
 
-Fright's Delight
+Farmer's Delight  
 
-FTB Chunks (Forge)
+Farming for Blockheads  
 
-FTB Essentials (Forge & Fabric)
+Fast IP Ping  
 
-FTB Library (Forge)
+FerriteCore  
 
-FTB Quests (Forge)
+Forgified Fabric API  
 
-FTB Teams (Forge)
+Framework  
 
-FTB Ultimine (Forge)
+Fresh Animations  
 
-Fusion (Connected Textures)
+Friends&Foes (Forge/NeoForge)  
 
-Fzzy Config
+Fright's Delight  
 
-Gardens of the Dead
+FTB Chunks (Forge)  
 
-Geckolib
+FTB Essentials (Forge & Fabric)  
 
-GlitchCore
+FTB Library (Forge)  
 
-Global Packs
+FTB Quests (Forge)  
 
-Glodium
+FTB Teams (Forge)  
 
-Goblin Traders
+FTB Ultimine (Forge)  
 
-GuideME
+Fusion (Connected Textures)  
 
-Handcrafted
+Fzzy Config  
 
-Hang Glider
+Gardens of the Dead  
 
-HiddenMons [Cobblemon]
+Geckolib  
 
-Immersive Aircraft
+GlitchCore  
 
-Incendium
+Global Packs  
 
-Inventory Profiles Next
+Glodium  
 
-Iris Shaders
+Goblin Traders  
 
-Jade Addons (Neo/Forge)
+GuideME  
 
-Jade 🔍
+Handcrafted  
 
-JinxedLib
+Hang Glider  
 
-JourneyMap
+HiddenMons [Cobblemon]  
 
-JourneyMap Integration
+Hyrule Terrors  
 
-Just Enough Items
+Immersive Aircraft  
 
-Just Zoom
+Incendium  
 
-KeyBind Bundles
+Inventory Profiles Next  
 
-Konkrete
+Iris Shaders  
 
-Kotlin for Forge
+Items Displayed (Forge)  
 
-KryptonFoxified
+Jade Addons (Neo/Forge)  
 
-KubeJS
+Jade  
 
-L_Ender's Cataclysm
+JEI (Just Enough Items)  
 
-Lavender
+JinxedLib  
 
-libIPN
+JourneyMap  
 
-Lionfish-API
+JourneyMap Integration  
 
-Lithium
+JRFTL  
 
-Lithostitched
+Just Zoom  
 
-Lootr
+KeyBind Bundles  
 
-Luminous
+Konkrete  
 
-Macaw's Bridges
+Kotlin for Forge  
 
-Macaw's Doors
+KryptonFoxified  
 
-Macaw's Fences and Walls
+KubeJS  
 
-Macaw's Furniture
+L_Ender's Cataclysm  
 
-Macaw's Lights and Lamps
+Lavender  
 
-Macaw's Paths and Pavings
+Leaves Be Gone  
 
-Macaw's Roofs
+libIPN  
 
-Macaw's Trapdoors
+Lionfish-API  
 
-Macaw's Windows
+Lithium  
 
-Man of Many Planes
+Lithostitched  
 
-Mechanicals Lib
+LMFT  
 
-Mekanism
+Lootr  
 
-Mel's DeCo
+Macaw's Bridges  
 
-MES - Moog's End Structures
+Macaw's Doors  
 
-MMV - Moog's Missing Villages
+Macaw's Fences and Walls  
 
-MNS - Moog's Nether Structures
+Macaw's Furniture  
 
-ModernFix
+Macaw's Lights and Lamps  
 
-Moonlight Lib
+Macaw's Paths and Pavings  
 
-Mouse Tweaks
+Macaw's Roofs  
 
-Moyai
+Macaw's Trapdoors  
 
-MrCrayfish's Furniture Mod: Refurbished
+Macaw's Windows  
 
-MSS - Moog's Soaring Structures
+Man of Many Planes  
 
-Musket Mod
+Mechanicals Lib  
 
-Mutant Monsters
+Mekanism  
 
-MVS - Moog's Voyager Structures
+Mel's DeCo  
 
-Mythic Metals
+MES - Moog's End Structures  
 
-Nature's Compass
+MMV - Moog's Missing Villages  
 
-Nullscape
+MNS - Moog's Nether Structures  
 
-Nyf's Spiders
+ModernFix  
 
-OctoLib
+Moog's Voyager Structures  
 
-Oracle Index
+Moonlight Lib  
 
-Oritech
+Mouse Tweaks  
 
-oωo (owo-lib)
+Moyai  
 
-Particular ✨ Reforged
+MrCrayfish's Furniture Mod: Refurbished  
 
-Patchouli
+MSS - Moog's Soaring Structures  
 
-playerAnimator
+Musket Mod  
 
-PneumaticCraft: Repressurized
+Mutant Monsters  
 
-Polymorph
+Mythic Metals  
 
-Ponder for KubeJS
+Nature's Compass  
 
-ProbeJS
+Nullscape  
 
-Puzzles Lib
+Nyf's Spiders  
 
-Rechiseled
+OctoLib  
 
-Rechiseled: Chipped
+Oracle Index  
 
-Recipe Essentials[Forge/Fabric]
+Oritech  
 
-Reese's Sodium Options
+owo-lib  
 
-Relics
+Particular ✨ Reforged  
 
-Relics: Artifacts Compat
+Patchouli  
 
-Reliquified Ars Nouveau
+playerAnimator  
 
-Reliquified L_Ender 's Cataclysm
+PneumaticCraft: Repressurized  
 
-Repurposed Structures - Farmer's Delight Compat
+Polymorph  
 
-Repurposed Structures - Friends and Foes Compat
+Ponder for KubeJS  
 
-Repurposed Structures - Neoforge/Forge
+ProbeJS  
 
-Resourceful Lib
+Puzzles Lib  
 
-Rhino
+RAR Compat  
 
-Ribbits
+Rechiseled  
 
-ScalableLux
+Rechiseled: Chipped  
 
-Seamless Loading Screen 
+Recipe Essentials[Forge/Fabric]  
 
-Searchables
+Reese's Sodium Options  
 
-SecurityCraft
+Refurbished Furniture  
 
-Serene Seasons
+Relics  
 
-ServerCore
+Relics: Artifacts Compat  
 
-Simple Hats
+Reliquified Ars Nouveau  
 
-Simply Swords
+Reliquified L_Ender's Cataclysm  
 
-Sinytra Connector
+Repurposed Structures - Farmer's Delight Compat  
 
-Size Rayguns
+Repurposed Structures - Friends and Foes Compat  
 
-Sky Villages
+Repurposed Structures - Neoforge/Forge  
 
-Sodium
+Resourceful Lib  
 
-Sodium Extras
+Rhino  
 
-Sodium Options API
+Ribbits  
 
-Sound Physics Remastered
+ScalableLux  
 
-spark
+Seamless Loading Screen  
 
-StarbuncleMania
+Searchables  
 
-StateObserver
+SecurityCraft  
 
-Stitch (formerly Athena)
+Serene Seasons  
 
-Structory
+ServerCore  
 
-Structory: Towers
+Simple Hats  
 
-SuperMartijn642's Config Lib
+Simply Swords  
 
-SuperMartijn642's Core Lib
+Sinytra Connector  
 
-Supplementaries
+Size Rayguns  
 
-Tectonic
+Sky Villages  
 
-Terralith
+Sodium  
 
-The Aether
+Sodium Extras  
 
-Things
+Sodium Options API  
 
-Tidal Towns
+Sound Physics Remastered  
 
-Tomtaru's Cobblemon and Farmer's Delight Tweaks
+spark  
 
-Too Fast
+Splinecart  
 
-Towers of the Wild Modded
+StarbuncleMania  
 
-Trash Cans
+StateObserver  
 
-TrashSlot
+Stitch (formerly Athena)  
 
-Traveler's Backpack
+Stone Zone  
 
-Underground Villages
+Structory  
 
-Undertale Death Screen
+Structory: Towers  
 
-WATERFrAMES: Multimedia Displays
+Subtle Effects  
 
-WATERMeDIA
+SuperMartijn642's Config Lib  
 
-Waystones
+SuperMartijn642's Core Lib  
 
-When Dungeons Arise: Seven Seas
+Supplementaries  
 
-Whimscape
+Tectonic  
 
-YetAnotherConfigLib (YACL)
+Terralith  
 
-You're in Grave Danger
+The Aether  
 
-YUNG's API
+The Aether's Delight  
 
-YUNG's Better Desert Temples
+The Luminous Mod  
 
-YUNG's Better Dungeons
+Things  
 
-YUNG's Better End Island
+Tidal Towns  
 
-YUNG's Better Jungle Temples
+Tomtaru's Cobblemon and Farmer's Delight Tweaks  
 
-YUNG's Better Mineshafts
+Too Fast  
 
-YUNG's Better Nether Fortresses
+Towers of the Wild Modded  
 
-YUNG's Better Ocean Monuments
+Trash Cans  
 
-YUNG's Better Strongholds
+TrashSlot  
+
+Traveler's Backpack  
+
+Underground Bunkers  
+
+Underground Villages  
+
+Undertale Death Screen  
+
+WATERFrAMES: Multimedia Displays  
+
+WATERMeDIA  
+
+Waystones  
+
+When Dungeons Arise: Seven Seas  
+
+Whimscape  
+
+YACL (YetAnotherConfigLib)  
+
+You're in Grave Danger  
+
+YUNG's API  
+
+YUNG's Better Desert Temples  
+
+YUNG's Better Dungeons  
+
+YUNG's Better End Island  
+
+YUNG's Better Jungle Temples  
+
+YUNG's Better Mineshafts  
+
+YUNG's Better Nether Fortresses  
+
+YUNG's Better Ocean Monuments  
+
+YUNG's Better Strongholds  
 
 YUNG's Better Witch Huts
-
-YUNG's Bridges
-
-YUNG's Extras
-
-Zelda: Hyrule Terrors
