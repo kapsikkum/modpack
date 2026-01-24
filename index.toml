@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "global_packs/required_resources/fresh-animations.pw.toml"
-hash = "6a361be792283eb0dc65c8c4bb39c1c41cc9d959f167e7306bdf559a171c967d"
+hash = "64f90fd9619a092a8a5493d6ad9605bc5fec13f50f02feef1dcf47c9496a80bd"
 metafile = true
 
 [[files]]

@@ -3,11 +3,11 @@ filename = "FreshAnimations_v1.10.3.zip"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "17d3630f0942e0d0d93f58fc998f780f06b81e63"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/50dA9Sha/versions/F9QwVhGH/FreshAnimations_v1.10.3.zip"
+hash-format = "sha512"
+hash = "713dd4e810a59d84844e25fa5fb3e36c83ac2e197d5259e16b61d4b4899f1a3f8bacdd4d4e5d0f5cde9a3497fad5e50ccea0c6270898f53f802e340e3fb3e73f"
 
 [update]
-[update.curseforge]
-file-id = 7352023
-project-id = 453763
+[update.modrinth]
+mod-id = "50dA9Sha"
+version = "F9QwVhGH"
