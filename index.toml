@@ -441,11 +441,6 @@ hash = "132dbb456d882d92aa41556558e5a5c2ecdded4777390ddecf8f5678d804afb8"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-ride-on.pw.toml"
-hash = "658c93a6ba0476f741a4d164a1ccd1e85ac9a1b0ff6df073b1c8c34ce56761cc"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-size-variations.pw.toml"
 hash = "614f96d9df052988f280c477433150ef08b6dc99b9bc2e07b424d223b8d3d33a"
 metafile = true
@@ -453,6 +448,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "315ef0567d4e818fef396198327c79998b9a01cc180e60a37c53de0be9b3cff0"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "d3cba4fc8056f0fb81a3c64af8c62e676708d4d54e735785e38d198f56867d7b"
 metafile = true
 
 [[files]]
@@ -1151,6 +1151,16 @@ hash = "6ae9430e2319ead3cb8580633c13d119c9d06f097204f3f8afbc0e4681e9a807"
 metafile = true
 
 [[files]]
+file = "mods/modopedia.pw.toml"
+hash = "056fba59f2db4796987f2f2a5a5823db03ecccf58f6720d57014211050ac5090"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "44b52fc7e10142b0f514c66dbc0c74a0feae35ee329c37454e08aa1187d1d60e"
+metafile = true
+
+[[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
 hash = "dd475beabba5d9418384e1b0eacf90e77eb009535bb5246644ad29ce82b06ab6"
 metafile = true
@@ -1551,8 +1561,13 @@ hash = "a255c29cb611f60aaad313b223bc424721be5998673002da6b589b2862912621"
 metafile = true
 
 [[files]]
+file = "mods/watermedia-binaries.pw.toml"
+hash = "03c2bc9e406cebc8c70dbdb7cb7e1592e9c41c2d8c2c57ff65f9b1e1501cf4f2"
+metafile = true
+
+[[files]]
 file = "mods/watermedia.pw.toml"
-hash = "ee99372b2049fdaffb805a63b6be2ce9b18796d3af0a939b2aa7165bc4a20cc3"
+hash = "2cacfbc3a169ba5d56e3b690e4a888016f2f0814370a25c5dbbc656f80aaa8a8"
 metafile = true
 
 [[files]]
