@@ -1,13 +1,13 @@
 name = "Nyf's Spiders"
-filename = "nyfsspiders-neoforge-1.21.1-2.3.2.jar"
+filename = "nyfsspiders-neoforge-1.21.1-3.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dOGM7ccu/versions/jBsD0s73/nyfsspiders-neoforge-1.21.1-2.3.2.jar"
+url = "https://cdn.modrinth.com/data/dOGM7ccu/versions/pjXVTyLu/nyfsspiders-neoforge-1.21.1-3.0.1.jar"
 hash-format = "sha512"
-hash = "65704d3103a7aad981204a18e79029d5f338ee97ac0aed3449ca5ffd90d5f58638726ef5686143a14617daab2e0a7b2434a0b3e6ebc2b0829aec9add71c841a8"
+hash = "820b4a983f2ec117f96b9fe2eda110b17e3da3b80f7c7c18a76b09781f1a9eb325490de1e69cea2270db6d1b27eefccee1dd022863b190bb88a660d48f602f13"
 
 [update]
 [update.modrinth]
 mod-id = "dOGM7ccu"
-version = "jBsD0s73"
+version = "pjXVTyLu"

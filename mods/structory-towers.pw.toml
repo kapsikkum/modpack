@@ -1,13 +1,13 @@
 name = "Structory: Towers"
-filename = "Structory_Towers_1.21.x_v1.0.13.jar"
+filename = "Structory_Towers_1.21.x_v1.0.15.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/j3FONRYr/versions/6jIMFcS6/Structory_Towers_1.21.x_v1.0.13.jar"
+url = "https://cdn.modrinth.com/data/j3FONRYr/versions/lefqbuOP/Structory_Towers_1.21.x_v1.0.15.jar"
 hash-format = "sha512"
-hash = "b049e3e3a0ba4d6ff2fda49ea22a617eddf135a7f54ae523bcc0e44d36ac4320fb6a809fa38196fd1cf245896b67e8a196a08f52d5b9f232c8030b1c460746df"
+hash = "4068a07e0b6b21da6f77b65ac731e01c920f0269830c5bdf4b27b5d8f5a384f170781123feaed83aff05fcd94738aa6e8c29ef1d01c2c9c5cc87c3b4ac52903a"
 
 [update]
 [update.modrinth]
 mod-id = "j3FONRYr"
-version = "6jIMFcS6"
+version = "lefqbuOP"

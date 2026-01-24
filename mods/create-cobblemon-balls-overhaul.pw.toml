@@ -1,13 +1,13 @@
 name = "Create: Cobblemon Balls Overhaul"
-filename = "createcobblemonballsoverhaul-0.0.3.jar"
+filename = "createcobblemonballsoverhaul-0.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/aXSKKweV/versions/rDFwr1gv/createcobblemonballsoverhaul-0.0.3.jar"
+url = "https://cdn.modrinth.com/data/aXSKKweV/versions/mEtG7FfP/createcobblemonballsoverhaul-0.0.4.jar"
 hash-format = "sha512"
-hash = "ca2f59bf568bedd9619a6745febdb065c32671701bf13ff28be5870ca933f9985303c80356e9d1b8dcc91d5d5e1bd00aa777deddefdb78be6df7998bd480f4ce"
+hash = "1ff64dd3157968aa4c33c6fa2d18422f245fd59885c7c898c6836ff3a3ff9cfc583c5cf26f52ea6d8273569ecc56349703d8b05bc63962b463fcedf8c29fdcb6"
 
 [update]
 [update.modrinth]
 mod-id = "aXSKKweV"
-version = "rDFwr1gv"
+version = "mEtG7FfP"

@@ -1,13 +1,13 @@
 name = "Cobblemon Capture XP"
-filename = "cobblemon-capturexp-1.6-neoforge-1.1.1.jar"
+filename = "capturexp-neoforge-1.7.1-1.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LBl4Qguc/versions/Pex4Jw8r/cobblemon-capturexp-1.6-neoforge-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/LBl4Qguc/versions/MoNv5bhj/capturexp-neoforge-1.7.1-1.3.0.jar"
 hash-format = "sha512"
-hash = "d225351404ecb07da8aeb7551b7abc659ea2b0c4a9b8d0d82ff4e0ce7385f376691b3e3f139ffb74e8d99a6068a9f896f66fa47a941d0ad6f0f280af16188dc7"
+hash = "d9587551d535268a89e26a521d8386a253cd5085ca541f95fc78641fd3b0fb97f5b90629d3bf8c39aa65e175698a743cee8020e0ecaff130fc8c56314213d498"
 
 [update]
 [update.modrinth]
 mod-id = "LBl4Qguc"
-version = "Pex4Jw8r"
+version = "MoNv5bhj"

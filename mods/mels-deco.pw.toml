@@ -1,13 +1,13 @@
 name = "Mel's DeCo"
-filename = "1.21.1 Mel's DeCo v1.1.1.jar"
+filename = "1.21.1 Mel's DeCo v1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hKHVYdoX/versions/yuS7CP1i/1.21.1%20Mel%27s%20DeCo%20v1.1.1.jar"
+url = "https://cdn.modrinth.com/data/hKHVYdoX/versions/i4XLrn14/1.21.1%20Mel%27s%20DeCo%20v1.2.jar"
 hash-format = "sha512"
-hash = "a543452036bef54a183005efc0e2e683af8e7fb05c982f87b33ed8194060fa76c6403ce3b804fa71a8606e56c263f33e84ea49fa8d9784b47f80e32a85e32692"
+hash = "9018baa81568bd8256666098012c859733d993f8541c1096326d05c3dacc7ad6bf3b9b64b088a665ae8cc3e7fba39d69c96a1c1ea95ee2935eee73f7cda66c88"
 
 [update]
 [update.modrinth]
 mod-id = "hKHVYdoX"
-version = "yuS7CP1i"
+version = "i4XLrn14"

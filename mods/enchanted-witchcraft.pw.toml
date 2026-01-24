@@ -1,13 +1,13 @@
 name = "Enchanted: Witchcraft"
-filename = "enchanted-neoforge-1.21.1-4.1.9-beta.jar"
+filename = "enchanted-neoforge-1.21.1-4.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HsbpdVo9/versions/hj1cAJl0/enchanted-neoforge-1.21.1-4.1.9-beta.jar"
+url = "https://cdn.modrinth.com/data/HsbpdVo9/versions/KBD213cN/enchanted-neoforge-1.21.1-4.2.3.jar"
 hash-format = "sha512"
-hash = "4d46670194eacdd0805b67fcbfd6601e5c1b5483735012698843977f301fc20bc0b30f460f6e269e7563bedfd7181f52a1307fc6023681748edf8b1588f531db"
+hash = "84b966b7312db57538f3408372711f80546595f06dbb202fd9587f5477b154a82f19f44aa27fbd3eecff7b11ce4f8a2c952c528d23ca972034879601f1f33184"
 
 [update]
 [update.modrinth]
 mod-id = "HsbpdVo9"
-version = "hj1cAJl0"
+version = "KBD213cN"

@@ -1,13 +1,13 @@
 name = "Cobblemon Integrations"
-filename = "cobblemonintegrations-neoforge-1.21.1-1.1.3.jar"
+filename = "cobblemonintegrations-neoforge-1.21.1-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NPCfuUI4/versions/slzdgomG/cobblemonintegrations-neoforge-1.21.1-1.1.3.jar"
+url = "https://cdn.modrinth.com/data/NPCfuUI4/versions/txt0gaav/cobblemonintegrations-neoforge-1.21.1-1.1.5.jar"
 hash-format = "sha512"
-hash = "74a30fdd644638d2fc95bccb8b4c20cb6e5dd33309ccca8c155e30e8e77e8bf3670f6a79a86c4f9404b04bc3ce7b78428cf69a3fb15ba46e4a71a4ddd2f1f471"
+hash = "34cba49dcd8b5ee8490718774ec45fee522c6e8ecaabb9feb81534cbfd3318baf9eaa5cb4ab8c4f5887e319117c17d5edbcca4d4ef40d9c3fb66b14f626930eb"
 
 [update]
 [update.modrinth]
 mod-id = "NPCfuUI4"
-version = "slzdgomG"
+version = "txt0gaav"

@@ -1,13 +1,13 @@
 name = "StateObserver"
-filename = "stateobserver-neoforge-1.21.1-1.6.3.jar"
+filename = "stateobserver-neoforge-1.21.1-1.6.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/D1lhcTKz/versions/cfIiJCCq/stateobserver-neoforge-1.21.1-1.6.3.jar"
+url = "https://cdn.modrinth.com/data/D1lhcTKz/versions/UBLIkKTR/stateobserver-neoforge-1.21.1-1.6.4.jar"
 hash-format = "sha512"
-hash = "784707f8ee74307d20677572e80b5549fa16e8e12d5a156c095df4ff62874f03b929ab091fc85f616dbb694c19dec0bd64f993dddccd9ca191ab32c8d5e37c77"
+hash = "3a10dc4be8639e8fa484f0f974bed7d01d9aef0d60d588390f32313940caff7f57fccf1a32ec5822953da26e40c0b82aeeaa79c9aa71463b8f826c4e26f9f983"
 
 [update]
 [update.modrinth]
 mod-id = "D1lhcTKz"
-version = "cfIiJCCq"
+version = "UBLIkKTR"

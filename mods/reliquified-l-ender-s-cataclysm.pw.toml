@@ -1,13 +1,13 @@
 name = "Reliquified L_Ender 's Cataclysm"
-filename = "reliquified_lenders_cataclysm-1.21.1-0.1.jar"
+filename = "reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rBEndPUc/versions/GILje63y/reliquified_lenders_cataclysm-1.21.1-0.1.jar"
+url = "https://cdn.modrinth.com/data/rBEndPUc/versions/ZHAIRSeF/reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"
 hash-format = "sha512"
-hash = "c19d013db15bbd8ba756823d9ad01a62c11766b92768021cf144af75078c3a9d123ba2199a2593fce78dae379a6f2b62b3ff557b2f5b77830022ef09c06019b2"
+hash = "e33cf111802b32b433c63c61c957cc136b6e52375ad31b5c81ea5826a32a3a0b37e81fcd22a7fcb4a867efddd4afc6c5628f69a656eee4ebcf14ad2e003f4e50"
 
 [update]
 [update.modrinth]
 mod-id = "rBEndPUc"
-version = "GILje63y"
+version = "ZHAIRSeF"

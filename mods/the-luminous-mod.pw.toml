@@ -1,13 +1,13 @@
 name = "Luminous"
-filename = "Luminous V1.5.2 - NeoForge 1.21.1.jar"
+filename = "Luminous Overworld V1.5.4 - NeoForge 1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HT2F6lNL/versions/vTpqwU2B/Luminous%20V1.5.2%20-%20NeoForge%201.21.1.jar"
+url = "https://cdn.modrinth.com/data/HT2F6lNL/versions/W8z0jip5/Luminous%20Overworld%20V1.5.4%20-%20NeoForge%201.21.1.jar"
 hash-format = "sha512"
-hash = "922b879eaa6958fe71e7dac06122272a585235d70d96faaf4c7c657e6dad96690bbc173e8c4e7804760d61418bce575e3d29b6e5f46e94eb87c59f94f8b778eb"
+hash = "a63bb89342ab05d2631b85ded21e736d023745df1d7e5d0aea760242b6630dccfe3e77c44bef00fae568e55e842645ed261d122e535390748e3ed35590672be8"
 
 [update]
 [update.modrinth]
 mod-id = "HT2F6lNL"
-version = "vTpqwU2B"
+version = "W8z0jip5"

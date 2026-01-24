@@ -1,13 +1,13 @@
 name = "Create: Quality of Life"
-filename = "Create Quality of Life-1.21.1-1.5.1-fix2.jar"
+filename = "Create Quality of Life-1.21.1-1.6.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hezpkOYP/versions/PJgRfPeG/Create%20Quality%20of%20Life-1.21.1-1.5.1-fix2.jar"
+url = "https://cdn.modrinth.com/data/hezpkOYP/versions/lmxRNvoP/Create%20Quality%20of%20Life-1.21.1-1.6.2.jar"
 hash-format = "sha512"
-hash = "cb308360f24d9526ab28aacccc5ec9389b2acd9f469d1d4d57b4f11636b68b1673e64a2b39d18c4e9afbdc5e6af11739ee4b1beab7e67343371e73d49053985f"
+hash = "71ec668680ca533dde18dd8eca18e793edaa232ca1b5c35e343d68fcbbac4c97eca1265ccf187108511595d3beb39ed1344c068f597477c1fdb54381ad9a34e2"
 
 [update]
 [update.modrinth]
 mod-id = "hezpkOYP"
-version = "PJgRfPeG"
+version = "lmxRNvoP"
