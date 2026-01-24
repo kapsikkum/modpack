@@ -452,7 +452,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "d3cba4fc8056f0fb81a3c64af8c62e676708d4d54e735785e38d198f56867d7b"
+hash = "4bbd05afee2f53c4e6664a77166c82dc7115dfc018acb9072e00c22ab90672a8"
 metafile = true
 
 [[files]]
@@ -1157,7 +1157,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "44b52fc7e10142b0f514c66dbc0c74a0feae35ee329c37454e08aa1187d1d60e"
+hash = "9a95c07a28bda9b0374b4af72132e8405d4fbf574cbac3a3df5d2e3daefff951"
 metafile = true
 
 [[files]]
@@ -1566,8 +1566,18 @@ hash = "03c2bc9e406cebc8c70dbdb7cb7e1592e9c41c2d8c2c57ff65f9b1e1501cf4f2"
 metafile = true
 
 [[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "e0b5d86b63b2aa52bf50d3b58280fed584f8cfef65edc32e7a8b317690e877bc"
+metafile = true
+
+[[files]]
 file = "mods/watermedia.pw.toml"
 hash = "2cacfbc3a169ba5d56e3b690e4a888016f2f0814370a25c5dbbc656f80aaa8a8"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "393310e8c75c51eb3143c8ddcdac51917a5d759d428e5b962e4c2b4c8e87bc0e"
 metafile = true
 
 [[files]]
