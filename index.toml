@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/copilot-instructions.md"
+hash = "655e788b9a019ad9e2cdda28cd6647d847225c5f01df84e3f2f7d90d8a01e349"
+
+[[files]]
 file = "config/aether-common.toml"
 hash = "d623fc7fca0f743b9840a65661b5ec4ac238577a742fec719b8474a91eb6fd38"
 
@@ -33,6 +37,14 @@ file = "config/chunky/config.json"
 hash = "0f8ef592c97e22697cc41a86a5a0476c6d53518d916530b7f6ff9aa548c1dd28"
 
 [[files]]
+file = "config/comforts-common.toml"
+hash = "3a3d451a892e8610775deebf949e3ac1cc2545907371ecb46e45a010461627a2"
+
+[[files]]
+file = "config/comforts-server.toml"
+hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "f73909d7a8fcf8a9a9f04b204de0fd76e06ea8b3e78a9b0c909aad0066b1c348"
 
@@ -49,8 +61,24 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "417611bb8e542252bdfa78e8d3f29657aa8af1951febc34fbcc98d43aa1d4b25"
 
 [[files]]
+file = "config/lootr-client.toml"
+hash = "054e4c92bea29bd0a746579cfd6c2f9acb88a2d369265c550bd9afac3bd974ed"
+
+[[files]]
+file = "config/lootr-common.toml"
+hash = "673991189339a20b11e6b0a609dfcc68aadc64dc849a3399eb1d546a83a6884b"
+
+[[files]]
 file = "config/mutantmonsters-common.toml"
 hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
+
+[[files]]
+file = "config/servercore/config.yml"
+hash = "0818fe9c6aa6c8a5aef81595ab67c6090a8672afc73b7fe20f26255b5e28d46c"
+
+[[files]]
+file = "config/servercore/optimizations.yml"
+hash = "a966fe59da49e8044d5dfc6eea805a0ca6ba19a95a19459cc638b891ff4c2426"
 
 [[files]]
 file = "config/spawn_notification.json"
@@ -79,6 +107,14 @@ hash = "abc9ad4c4178e9b47d663c8e3e19fe8312abbbedc655a5236a58b029ae359333"
 [[files]]
 file = "config/tectonic.json"
 hash = "58885c2913047cc79133097d12344c9d718f9dd1d0437e0a3793322cb59cecdb"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "83a01fd92863b419581ccf468681bc74f80b5e999e1f00a0b41e0edc6dce0ee5"
+
+[[files]]
+file = "crash.txrt"
+hash = "bc9dbc8112e37b93e12c1bf90dd71604f430a50a1168b13814de4de51a0a63d0"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"

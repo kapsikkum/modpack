@@ -1,0 +1,22 @@
+# ServerCore optimizations — these require a server restart to take effect.
+# Source: https://github.com/Wesley1808/ServerCore/blob/main/docs/config/OPTIMIZED.md
+
+# Prevents many lagspikes caused by synchronous chunk loading.
+# Maps will only update already-loaded chunks (radius may be smaller than vanilla).
+reduce-sync-loads: true
+
+# Reduces time spent on chunk iteration by caching the ticking chunks list every
+# second instead of every tick. Helps with high player counts and large view distances.
+cache-ticking-chunks: true
+
+# Caches parsed command block commands to reduce CPU cost of repeated execution.
+# Helps with KubeJS scripts and command blocks in Create contraptions.
+optimize-command-blocks: true
+
+# Slightly less accurate biome lookups on biome borders — mobs may occasionally
+# spawn a few blocks across a border. Does NOT affect structure spawning.
+fast-biome-lookups: true
+
+# Fluid random ticks (e.g. lava spreading fire) run twice per game tick by default.
+# This cancels the duplicate second tick. May cause very minor behaviour changes.
+cancel-duplicate-fluid-ticks: true

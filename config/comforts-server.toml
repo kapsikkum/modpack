@@ -1,0 +1,64 @@
+# Comforts server configuration (SpectreLib / NeoForge)
+# Managed by packwiz — do not edit via packwiz CLI; run "packwiz refresh" after manual changes.
+
+# Automatically attempt to use a sleeping bag when it is placed.
+# Default: true
+autoUse = true
+
+# Prevent players from sleeping again for a period of time after sleeping.
+# Default: false
+restrictSleeping = false
+
+# When restrictSleeping is true: multiplier for the wait time before sleeping again.
+# Larger values = shorter wait. Range: 1.0 – 20.0
+# Default: 2.0
+restMultiplier = 2.0
+
+# Time of day that hammocks can be used (sleep through the day).
+# Options: DAY, NIGHT, ANY
+# Default: DAY
+hammockUse = "DAY"
+
+# Time of day that sleeping bags can be used.
+# Options: DAY, NIGHT, ANY
+# Default: NIGHT
+sleepingBagUse = "NIGHT"
+
+# Percentage of online players that must sleep to skip time.
+# 0 = 1 player is enough; 100 = all players must sleep.
+# -1 = use the vanilla playerSleepingPercentage game rule.
+# Set to 50 for a fair multiplayer experience.
+# Default: -1
+daySleepingPercentage = 50
+
+# Ticks to add/remove from the new time after sleeping through a night.
+# Default: 0
+dayWakeTimeOffset = 0
+
+# Ticks to add/remove from the new time after sleeping through a day (hammock).
+# Default: 0
+nightWakeTimeOffset = 0
+
+# Sleeping in a hammock resets the phantom spawn timer.
+# Default: true
+hammocksStopPhantoms = true
+
+# Attempting to sleep in a sleeping bag resets the phantom spawn timer.
+# Default: true
+sleepingBagsStopPhantoms = true
+
+# Chance (%) that a sleeping bag breaks on use. 0 = never breaks.
+# Range: 0 – 100
+# Default: 0
+sleepingBagBreakChance = 0
+
+# Multiplier applied to the player's luck stat and added to sleepingBagBreakChance.
+# Range: -1.0 – 1.0
+# Default: 0.0
+sleepingBagBreakChanceLuckMultiplier = 0.0
+
+# Status effects applied after using a sleeping bag.
+# Format: "effect_id;duration_seconds;amplifier"
+# Example: ["minecraft:regeneration;30;1"]
+# Default: []
+sleepingBagEffects = []

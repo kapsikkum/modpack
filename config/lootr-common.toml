@@ -1,0 +1,94 @@
+# Lootr common configuration (NeoForge)
+# Managed by packwiz — do not edit via packwiz CLI; run "packwiz refresh" after manual changes.
+# Full reference: https://github.com/LootrMinecraft/Lootr/wiki/Lootr-Configuration
+
+# Skip containers in unloaded chunks; they will be converted when the chunk next loads.
+# Default: true
+skip_unloaded = true
+
+# Convert chests matching the forge:chests/wooden tag (if backed by a loot table).
+# Default: true
+convert_wooden_chests = true
+
+# Convert chests matching the forge:chests/trapped tag (if backed by a loot table).
+# Default: true
+convert_trapped_chests = true
+
+# Convert mineshaft chest minecarts to standard Lootr loot chests.
+# Default: true
+convert_mineshafts = true
+
+# Convert Quark chests used in world-gen for loot purposes.
+# Default: true
+convert_quark = true
+
+# Randomise the loot seed per player.
+# true  = each player gets different loot (recommended for multiplayer fairness).
+# false = all players receive identical loot from the same container.
+# Default: true
+randomise_seed = true
+
+# Maximum age (in ticks) a chest can spend in the conversion queue before being discarded.
+# Default: 3600 (3 minutes)
+#Range: > 0
+maximum_age = 3600
+
+# Prevent Lootr chests from being destroyed by explosions.
+# Default: false
+blast_resistant = false
+
+# Prevent players from breaking Lootr chests except while sneaking in creative mode.
+# Default: false
+disable_break = false
+
+# Comparator output: true = always 1 (preserves trap behaviour); false = always 0.
+# Recommended: true to avoid breaking structure traps that rely on comparator output.
+# Default: true
+power_comparators = true
+
+# Log and notify players about containers whose loot table resolves to empty/null.
+# Default: false
+report_unresolved_tables = false
+
+# Force ALL containers to refresh their loot after refresh_value ticks.
+# Overrides refresh_loot_tables, refresh_modids, and refresh_dimensions.
+# Default: false
+refresh_all = false
+
+# Force ALL containers to decay after decay_value ticks once first opened.
+# Overrides decay_loot_tables, decay_modids, and decay_dimensions.
+# Default: false
+decay_all = false
+
+# Ticks before a decaying container is destroyed (default: 6000 = 5 minutes).
+#Range: > 0
+decay_value = 6000
+
+# Ticks before a refreshing container regenerates its loot (default: 24000 = 20 minutes).
+#Range: > 0
+refresh_value = 24000
+
+# Lists — add entries to restrict or extend Lootr's conversion behaviour.
+# Format examples: ["minecraft:overworld", "minecraft:the_nether"] or ["modid:loot_table_path"]
+
+# Dimensions where loot chests should be converted (empty = all dimensions).
+dimension_whitelist = []
+# Dimensions where loot chests should NOT be converted.
+dimension_blacklist = []
+# Loot tables that should not be converted.
+loot_table_blacklist = []
+# Mod IDs whose loot tables should not be converted.
+loot_modid_blacklist = []
+# Additional block entity types to convert (must extend RandomizableContainerBlockEntity).
+additional_chests = []
+additional_trapped_chests = []
+
+# Decay lists — containers matching any entry below will decay after first open.
+decay_loot_tables = []
+decay_modids = []
+decay_dimensions = []
+
+# Refresh lists — containers matching any entry below will refresh after refresh_value ticks.
+refresh_loot_tables = []
+refresh_modids = []
+refresh_dimensions = []

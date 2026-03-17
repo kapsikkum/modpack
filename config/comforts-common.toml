@@ -1,0 +1,12 @@
+# Comforts common configuration (SpectreLib / NeoForge)
+# Managed by packwiz — do not edit via packwiz CLI; run "packwiz refresh" after manual changes.
+
+# Enable the default hammock crafting recipe.
+# Disable if you want to provide a custom recipe via KubeJS or a datapack.
+# Default: true
+enableHammockRecipes = true
+
+# Enable the default sleeping bag crafting recipe.
+# Disable if you want to provide a custom recipe via KubeJS or a datapack.
+# Default: true
+enableSleepingBagRecipes = true

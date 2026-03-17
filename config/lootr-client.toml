@@ -1,0 +1,8 @@
+# Lootr client configuration (NeoForge)
+# Managed by packwiz — do not edit via packwiz CLI; run "packwiz refresh" after manual changes.
+
+# Use vanilla chest textures instead of Lootr's custom textures.
+# Note: disabling Lootr textures means there is no visual difference between
+# opened and unopened containers.
+# Default: false
+vanilla_textures = false

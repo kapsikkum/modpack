@@ -1,0 +1,96 @@
+# Waystones configuration (Balm TOML)
+# Managed by packwiz — do not edit via packwiz CLI; run "packwiz refresh" after manual changes.
+
+[general]
+    # Origins that prevent others from editing a waystone.
+    # PLAYER is special: only the owner may edit it.
+    restrictedWaystones = ["PLAYER"]
+    # Default visibility for newly placed/found waystones.
+    # ACTIVATION = must be activated first; GLOBAL = visible to all immediately.
+    defaultVisibility = "ACTIVATION"
+    # Visibility types that players are allowed to set. Empty = all allowed.
+    allowedVisibilities = []
+
+[teleports]
+    # Set to false to disable all XP costs.
+    enableCosts = true
+    # Set to false to disable all cooldowns.
+    enableCooldowns = true
+    # Fine-grained cost/cooldown rules applied in order.
+    # Defaults: distance-scaled XP, free for global targets and warp plates,
+    # 15 second cooldown on inventory button use, capped at 27 XP levels.
+    warpRequirements = [
+        "[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)",
+        "[is_interdimensional] add_xp_cost(27)",
+        "[source_is_warp_plate] multiply_xp_cost(0)",
+        "[target_is_global] multiply_xp_cost(0)",
+        "min_xp_cost(0)",
+        "max_xp_cost(27)",
+        "[source_is_inventory_button] add_cooldown(inventory_button, 300)"
+    ]
+    # ENABLED = pets always teleport with you.
+    # SAME_DIMENSION = only within the same dimension.
+    # DISABLED = pets never teleport.
+    transportPets = "SAME_DIMENSION"
+    # ENABLED = leashed mobs always teleport. SAME_DIMENSION / DISABLED as above.
+    transportLeashed = "ENABLED"
+    # Mob types that are never teleported (even leashed/as pets).
+    entityDenyList = ["minecraft:wither"]
+    # Enable warp modifier items that apply status effects on teleport.
+    enableModifiers = true
+
+[inventoryButton]
+    # Inventory screen waystone button mode.
+    # ""      = disabled (no button)
+    # "NEAREST" = teleport to nearest activated waystone
+    # "ANY"   = open full waystone selection screen (recommended)
+    # "<name>" = teleport to a specifically named waystone
+    inventoryButton = "ANY"
+    # Pixel offsets for the button position in the survival inventory.
+    inventoryButtonX = 58
+    inventoryButtonY = 60
+    # Pixel offsets for the button position in the creative inventory.
+    creativeInventoryButtonX = 88
+    creativeInventoryButtonY = 33
+
+[worldGen]
+    # Wild waystone visual style.
+    # DEFAULT = normal stone only; MOSSY / SANDY = that variant everywhere; BIOME = matches biome.
+    wildWaystoneStyle = "BIOME"
+    # Approximate chunk distance between naturally generated wild waystones.
+    # Set to 0 to disable natural generation.
+    chunksBetweenWildWaystones = 25
+    # Dimensions that wild waystones are allowed to spawn in.
+    wildWaystonesDimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+    # Dimensions excluded from wild waystone generation (only used if allowList is empty).
+    wildWaystonesDimensionDenyList = []
+    # Name generation algorithm: PRESET_FIRST, PRESET_ONLY, or MIXED.
+    nameGenerationMode = "PRESET_FIRST"
+    # Template for generated names. Placeholders: {Biome}, {MrPork}.
+    nameGenerationTemplate = "{MrPork}"
+    # Custom name pool used by PRESET name generation.
+    nameGenerationPresets = []
+    # REGULAR = some villages get a waystone; FREQUENT = most do; DISABLED = none.
+    spawnInVillages = "REGULAR"
+
+[client]
+    # When true, waystone name overlays no longer render at full brightness.
+    disableTextGlow = false
+
+[compatibility]
+    # Create JourneyMap waypoints for activated waystones.
+    journeyMap = true
+    # Only use built-in JourneyMap integration if JourneyMap Integration mod is absent.
+    preferJourneyMapIntegrationMod = true
+    # Add waystone/sharestone markers to Dynmap.
+    dynmap = true
+
+[blueMap]
+    # Enable the Waystones BlueMap integration.
+    enabled = true
+    # Track waystones as BlueMap markers.
+    includeWaystones = true
+    # Track sharestones as BlueMap markers.
+    includeSharestones = true
+    # Include undiscovered waystones in BlueMap markers (reveals them on the map).
+    includeUndiscoveredWaystones = false

@@ -1,0 +1,224 @@
+# The main configuration file for ServerCore.
+# Most of these settings can be reloaded without restarting using /servercore reload.
+# Source: https://github.com/Wesley1808/ServerCore/blob/main/docs/config/OPTIMIZED.md
+
+features:
+  # Reverts enderpearl behavior to pre-1.21.2 (no chunk loading). Safe to enable.
+  prevent-enderpearl-chunkloading: true
+  # Do NOT enable — would stop datapacks/portals from ticking outside player range.
+  chunk-tick-distance-affects-random-ticks: false
+  # Prevents lagspikes when players walk into unloaded chunks.
+  prevent-moving-into-unloaded-chunks: true
+  # Auto-save interval (seconds). 600 = every 10 min, reduces I/O lag spikes.
+  autosave-interval-seconds: 600
+  # XP orb merge fraction (1 = 100%, 8 = 12.5%). Lower = more merging = less lag.
+  xp-merge-fraction: 8
+  # Radius (blocks) for XP orb merging.
+  xp-merge-radius: 3.0
+  # Radius (blocks) for item stack merging.
+  item-merge-radius: 2.0
+  lobotomize-villagers:
+    # Tick villagers less often when stuck in 1x1 spaces (e.g. trading halls).
+    enabled: true
+    tick-interval: 20
+
+# Dynamic performance tuning — adjusts view/sim distance and mobcaps under load.
+dynamic:
+  enabled: true
+  target-mspt: 40
+  default-values:
+    MOBCAP_PERCENTAGE: 100
+    CHUNK_TICK_DISTANCE: 10
+  dynamic-settings:
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 100
+      min: 50
+      increment: 10
+      interval: 15
+    - setting: 'SIMULATION_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 50
+      min: 30
+      increment: 10
+      interval: 15
+    - setting: 'SIMULATION_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+    - setting: 'VIEW_DISTANCE'
+      max: 10
+      min: 5
+      increment: 1
+      interval: 150
+
+# Breeding caps — prevents players from breeding thousands of animals.
+breeding-cap:
+  enabled: true
+  villagers:
+    limit: 24
+    range: 64
+    unlimited-height: false
+  animals:
+    limit: 32
+    range: 64
+    unlimited-height: false
+
+# Mob spawning overrides.
+mob-spawning:
+  zombie-reinforcements:
+    enforce-mobcap: true
+    additional-capacity: 32
+  nether-portal-randomticks:
+    enforce-mobcap: true
+    additional-capacity: 32
+  monster-spawners:
+    enforce-mobcap: true
+    additional-capacity: 32
+  infested:
+    enforce-mobcap: true
+    additional-capacity: 32
+  categories:
+    - category: 'MONSTER'
+      mobcap: 70
+      spawn-interval: 1
+    - category: 'CREATURE'
+      mobcap: 10
+      spawn-interval: 400
+    - category: 'AMBIENT'
+      mobcap: 15
+      spawn-interval: 1
+    - category: 'AXOLOTLS'
+      mobcap: 5
+      spawn-interval: 1
+    - category: 'UNDERGROUND_WATER_CREATURE'
+      mobcap: 5
+      spawn-interval: 1
+    - category: 'WATER_CREATURE'
+      mobcap: 5
+      spawn-interval: 1
+    - category: 'WATER_AMBIENT'
+      mobcap: 20
+      spawn-interval: 1
+
+commands:
+  status-enabled: true
+  mobcaps-enabled: true
+  colors:
+    primary: 'dark_aqua'
+    secondary: 'green'
+    tertiary: 'aqua'
+
+# Entity Activation Range — skips ticking far-away entities.
+# Very effective with Cobblemon, AE2 drones, and Create contraptions loaded in world.
+activation-range:
+  enabled: true
+  tick-new-entities: true
+  use-vertical-range: true
+  skip-non-immune: true
+  villager-tick-panic: true
+  villager-work-immunity-after: 20
+  villager-work-immunity-for: 20
+  excluded-entity-types:
+    - 'minecraft:warden'
+    - 'minecraft:hopper_minecart'
+    - 'minecraft:ghast'
+  default-activation-type:
+    activation-range: 16
+    tick-interval: 20
+    wakeup-interval: -1
+    extra-height-up: false
+    extra-height-down: false
+  custom-activation-types:
+    - name: 'raider'
+      activation-range: 48
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:raider'
+    - name: 'water'
+      activation-range: 24
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:water_animal'
+    - name: 'villager'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:villager'
+    - name: 'zombie'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:zombie'
+        - 'minecraft:husk'
+    - name: 'monster-below'
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: true
+      entity-matcher:
+        - 'minecraft:creeper'
+        - 'minecraft:slime'
+        - 'minecraft:magma_cube'
+        - 'minecraft:hoglin'
+    - name: 'flying-monster'
+      activation-range: 48
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'minecraft:ghast'
+        - 'minecraft:phantom'
+    - name: 'monster'
+      activation-range: 32
+      tick-interval: 20
+      wakeup-interval: 20
+      extra-height-up: true
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:monster'
+    - name: 'animal'
+      activation-range: 16
+      tick-interval: 20
+      wakeup-interval: 60
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:animal'
+        - 'typeof:ambient'
+    - name: 'creature'
+      activation-range: 24
+      tick-interval: 20
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:mob'
