@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: false
+	filename: "travel"
+	icon: "waystones:waystone"
+	id: "2F2E3D4C5B6A7890"
+	order_index: 11
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"This world is huge — and you don't have to walk all of it."
+				""
+				"§bWaystones§r let you build a fast-travel network you can access from anywhere in the world."
+				""
+				"§bTraveler's Backpack§r gives you a wearable storage solution with built-in tanks and crafting access."
+				""
+				"§bHang Gliders§r, §bAir Balloons§r, and §bImmersive Aircraft§r let you take to the skies in style."
+			]
+			icon: "waystones:waystone"
+			id: "2F2E3D4C5B6A78A1"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B1"
+				title: "Travel Overview"
+				type: "checkmark"
+			}]
+			title: "§bWanderer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A1"]
+			description: [
+				"§bWaystones§r are craftable structures that let you teleport between named locations."
+				""
+				"Place one down and right-click to name it and add it to your network. You can then warp to it from any other Waystone — or by holding the §eReturn Scroll§r."
+				""
+				"Craft a §eWaystone§r with chiseled stone bricks, a lodestone, and an ender pearl in the recipe."
+			]
+			id: "2F2E3D4C5B6A78A2"
+			rewards: [{
+				count: 1
+				id: "2F2E3D4C5B6A78C2"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Set your anchor point"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B2"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "First Stone"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A2"]
+			description: [
+				"With multiple named Waystones in your network, fast travel becomes trivial."
+				""
+				"§eTip§r: Name your Waystones clearly — base, mine, farm, nether portal — for a clean network."
+				""
+				"You can also carry a §ePocket Warpstone§r to teleport to any Waystone without needing to stand on one."
+			]
+			id: "2F2E3D4C5B6A78A3"
+			rewards: [{
+				count: 4
+				id: "2F2E3D4C5B6A78C3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Never walk far again"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B3"
+				title: "Activate 5 different Waystones"
+				type: "checkmark"
+			}]
+			title: "Network of Stones"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A1"]
+			description: [
+				"§bTraveler's Backpack§r is a wearable backpack with large inventory space and two built-in fluid tanks."
+				""
+				"Equip it on your back (sneak + right-click) and access it by right-clicking with an empty hand. You can also open it by pressing a bound key."
+				""
+				"It keeps its inventory when removed — and you can pick up fluid in the tanks with a bucket. Great for long expeditions."
+			]
+			id: "2F2E3D4C5B6A78A4"
+			rewards: [{
+				count: 16
+				id: "2F2E3D4C5B6A78C4"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Ready for anything"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B4"
+				title: "Craft and equip a Traveler's Backpack"
+				type: "checkmark"
+			}]
+			title: "Pack It Up"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A1"]
+			description: [
+				"The §bHang Glider§r lets you launch from any height and glide long distances without consuming hunger or fuel."
+				""
+				"Craft it and hold it in your hand. Jump off a high point to deploy — you glide forward while slowly descending."
+				""
+				"Sneak while gliding to angle downward faster. Look up to slow your descent and extend your flight time."
+			]
+			id: "2F2E3D4C5B6A78A5"
+			rewards: [{
+				count: 4
+				id: "2F2E3D4C5B6A78C5"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			subtitle: "Weee"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B5"
+				item: "hangglider:hang_glider"
+				type: "item"
+			}]
+			title: "Catch the Wind"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A5"]
+			description: [
+				"§bAir Balloons§r are craftable flying platforms you can ride into the sky."
+				""
+				"Place a Basket on the ground, attach a Balloon on top, and right-click to board. Use the included controls to ascend, descend, and drift."
+				""
+				"Balloons move with the wind, so plan your landing approach. They can be dyed any colour and make a surprisingly dignified way to travel."
+			]
+			id: "2F2E3D4C5B6A78A6"
+			rewards: [{
+				count: 8
+				id: "2F2E3D4C5B6A78C6"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			subtitle: "Dignified air travel"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B6"
+				title: "Build and ride an Air Balloon"
+				type: "checkmark"
+			}]
+			title: "Up, Up \& Away"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A5"]
+			description: [
+				"§bImmersive Aircraft§r adds full pilotable vehicles: biplanes, helicopters, and more."
+				""
+				"Craft a §6Biplane§r for fast horizontal flight. The §6Gyrodyne§r (helicopter) can hover and ascend vertically — perfect for landing anywhere."
+				""
+				"Aircraft run on fuel — keep §ebuckets of fuel§r on hand. They take damage from crashes, so learn their handling before flying over lava."
+			]
+			id: "2F2E3D4C5B6A78A7"
+			rewards: [{
+				count: 4
+				id: "2F2E3D4C5B6A78C7"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Now we're flying"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B7"
+				title: "Pilot an Immersive Aircraft vehicle"
+				type: "checkmark"
+			}]
+			title: "Into the Skies"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A3", "2F2E3D4C5B6A78A7"]
+			dependency_requirement: "one_completed"
+			description: [
+				"You've mastered fast travel, aerial navigation, and backpack logistics."
+				""
+				"The world is at your fingertips. No biome is too far. No continent too distant."
+				""
+				"§eCongratulations, Wanderer.§r"
+			]
+			id: "2F2E3D4C5B6A78A8"
+			rewards: [
+				{
+					count: 1
+					id: "2F2E3D4C5B6A78C8"
+					item: "minecraft:elytra"
+					type: "item"
+				}
+			]
+			subtitle: "The world is your backyard"
+			tasks: [{
+				id: "2F2E3D4C5B6A78B8"
+				title: "Visit 5 different biomes"
+				type: "checkmark"
+			}]
+			title: "Globetrotter"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "§bTravel"
+}

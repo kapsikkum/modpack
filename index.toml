@@ -42,7 +42,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "f73909d7a8fcf8a9a9f04b204de0fd76e06ea8b3e78a9b0c909aad0066b1c348"
+hash = "0acd83237ca85bebbf9c20f3244603753f993121f7a8de51bb80e1836d4cb887"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -54,35 +54,51 @@ hash = "64c2ada6367eb12b908dd460ce2cb15addfe4d324bcf1d76bbdd6681fb2494e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "aac678ea7741233bda323caffc7b5b7b330a26653e311b5296ffe73c5b74bbbe"
+hash = "72ce6eeaff643d397e7ba16857f34f4a92b353c316e246cde3c32ec56b8f0705"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "aff34838ac0def9bb2a86fc6c0ccbc803af9280dd68edac83e4288a55fac17be"
+hash = "0e369f802d70ea2c893e8dc16a9354a9e82cbcdafe965e31c5cd9695a416cf58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
 hash = "f549924d400f0bafa3b492131ef5c520005b452c50f6bd93a416f559d7aef367"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
+hash = "7330a778680cb8f2705f728ad0760d2e679bf66e6e74cd36e226efc06cf21fe7"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "b276751e8f596dbf1c5d26074677a313911f74440002c1dd220ea60aab6dbdef"
+hash = "1b75c619e00612cbbaeb3d4770414f42027e93850af8925a38b2e7e593f20109"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/combat.snbt"
+hash = "1bbedd78a3afee9395a3c1b2ceb566432f3eecde12c287a132b86c30217cd00a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "23bcd4b7dd2668090323bcc2dda359eebf49ec6387e0dd20037b81281c83ec31"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/economy.snbt"
+hash = "2541bd562689bfa09bcb6f82831e07dd8e908b4cefb9666a74707fdb05c3e9e2"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
-hash = "814eddf5fc9e7a90f6b0d721a9fbeab1c1bba11697464f1a73cef087dbc739b3"
+hash = "60928734f1cf800e940deda9ad13866dec89ea1b278f08cbdbb195e8d2b79241"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "8f517abf2844b35507712cfd839c852bb9b8071ab05ecaa76b1c225f0f06eb35"
+hash = "5994642fc7b3fffef3b5d61b23bfc57deef9fc6d35f42327cab3a971dff6ce4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "0aae6eb0d86511f89ff914ba0507c81debb5f5446aea80f5cfd2c3125215aaee"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/travel.snbt"
+hash = "ede390f7518e6c568ce2af049ee929dd3db3466540152ad644d28d3fc33247ca"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -130,7 +146,7 @@ hash = "428034537d5c1412e59bff8b7df447e1901d3fb0816b1f479cafb2034098b772"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
-hash = "218f05d0987c6e0253d34007aca85ebaf593500fe6a82b5ced2fc9bc4928e25d"
+hash = "2e3d1b6916580560d4879e264f2085f0347900c6feeccc65e07a867b6098a4c1"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
@@ -288,6 +304,10 @@ file = "journeymap/config/6.0/journeymap.webmap.config"
 hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/wallet.png"
+hash = "7aae5a29d7e750839170563d09842b7333b156ae74e10474643156ca646c203f"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "d70c9e9fb13d02bf81a6e76be9c562f57bed7e7c85ad959324d8c6414b5aa49a"
 
@@ -306,6 +326,22 @@ hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
 [[files]]
 file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
+
+[[files]]
+file = "kubejs/server_scripts/sell.js"
+hash = "83bb515481da6898a809ce7317532d773e45287c48dc3bd3c08c35be9ac635fc"
+
+[[files]]
+file = "kubejs/server_scripts/wallet.js"
+hash = "2c7eabf5fb160f123d815819e3fb0ff0f670a146efaae408a226ce564479b2ff"
+
+[[files]]
+file = "kubejs/server_scripts/wallet_recipe.js"
+hash = "0e970c7b19c52a00e1602d02713e3f45969732ecb9403fc68963ad933d2fbf28"
+
+[[files]]
+file = "kubejs/startup_scripts/wallet.js"
+hash = "545d02512d3a0cd20597d19312ac85fb3ef6b1d52187be391046ab1ed6ec5577"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"

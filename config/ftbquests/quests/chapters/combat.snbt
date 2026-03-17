@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: false
+	filename: "combat"
+	icon: "minecraft:diamond_sword"
+	id: "1F2E3D4C5B6A7890"
+	order_index: 10
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"Vanilla combat is just the start."
+				""
+				"§bSimply Swords§r adds new weapon types — Longswords, Claymores, War Scythes, Katanas and more. Each has unique reach, speed, and combo behaviour."
+				""
+				"§bBetter Combat§r overhauls attack animations and lets you dual-wield any two weapons. Put a weapon in your offhand and attack to combo with both."
+				""
+				"§6Relics§r and §6Artifacts§r give passive and active powers — found in loot or dropped by mobs."
+			]
+			icon: "minecraft:diamond_sword"
+			id: "1F2E3D4C5B6A78A1"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "1F2E3D4C5B6A78B1"
+				title: "Combat Overview"
+				type: "checkmark"
+			}]
+			title: "§cCombat Overhaul"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A1"]
+			description: [
+				"§bSimply Swords§r adds a range of weapon types beyond the vanilla sword."
+				""
+				"The §9Longsword§r has excellent reach and a reliable combo. The §9Claymore§r is a heavy two-hander. The §9War Scythe§r sweeps wide — great against crowds."
+				""
+				"Craft them exactly like a vanilla sword — same recipe shape, same material tiers."
+			]
+			id: "1F2E3D4C5B6A78A2"
+			rewards: [{
+				count: 16
+				id: "1F2E3D4C5B6A78C2"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "New weapons for a classic game"
+			tasks: [{
+				id: "1F2E3D4C5B6A78B2"
+				title: "Craft any Simply Swords weapon"
+				type: "checkmark"
+			}]
+			title: "Simply Armed"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A1"]
+			description: [
+				"§bBetter Combat§r lets you put a weapon in your offhand and attack with both hands in sequence."
+				""
+				"Different weapon combos play differently — try a sword in your main hand and a shorter weapon offhand for rapid alternating hits."
+				""
+				"Blocking now has a cooldown, so good offence matters far more than shield-spam."
+			]
+			id: "1F2E3D4C5B6A78A3"
+			rewards: [{
+				count: 1
+				id: "1F2E3D4C5B6A78C3"
+				item: "minecraft:shield"
+				type: "item"
+			}]
+			subtitle: "Two weapons, one enemy"
+			tasks: [{
+				id: "1F2E3D4C5B6A78B3"
+				title: "Dual-wield two weapons and land a hit"
+				type: "checkmark"
+			}]
+			title: "Dual Threat"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A1"]
+			description: [
+				"§6Relics§r are magical items found in dungeon loot, mob drops, or crafted via special recipes."
+				""
+				"Each Relic has a unique ability — some grant passive stat boosts, others have active skills triggered by right-clicking."
+				""
+				"Some Relics require §eresearching§r before their powers unlock. Open your Relics menu to track your collection and research progress."
+			]
+			id: "1F2E3D4C5B6A78A6"
+			rewards: [{
+				count: 3
+				id: "1F2E3D4C5B6A78C6"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "Power hides in old ruins"
+			tasks: [{
+				id: "1F2E3D4C5B6A78B6"
+				title: "Find any Relic item"
+				type: "checkmark"
+			}]
+			title: "First Relic"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A6"]
+			description: [
+				"§6Artifacts§r are rare trinkets found in chests across the world — dungeons, mineshafts, strongholds, and structures."
+				""
+				"Unlike Relics, Artifacts are purely passive — equip them in a §bCurios§r slot and their effect activates automatically."
+				""
+				"Look for items like the §aFeral Claws§r (faster attack speed), §aCloud in a Bottle§r (double jump), or §aMimic Tooth Necklace§r (immunity to Mimic attacks)."
+			]
+			id: "1F2E3D4C5B6A78A7"
+			rewards: [{
+				count: 1
+				id: "1F2E3D4C5B6A78C7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Trinkets with teeth"
+			tasks: [{
+				id: "1F2E3D4C5B6A78B7"
+				title: "Equip any Artifact in a Curios slot"
+				type: "checkmark"
+			}]
+			title: "Artifact Hunter"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A2"]
+			description: [
+				"§cMutant Monsters§r are super-powered versions of vanilla mobs that spawn naturally in the world."
+				""
+				"A §cMutant Zombie§r hits hard, regenerates health, and can throw smaller zombies at you. A §cMutant Creeper§r detonates in a chain of explosions."
+				""
+				"They drop §6Chemical X§r — enough of it lets you craft your own §6Mutant Serum§r. Each mutant type also drops unique loot."
+			]
+			id: "1F2E3D4C5B6A78A4"
+			rewards: [{
+				count: 1
+				id: "1F2E3D4C5B6A78C4"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "This is not a normal zombie"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "1F2E3D4C5B6A78B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mutation Station"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A4"]
+			description: [
+				"The §cMutant Skeleton§r teleports when threatened and unleashes a volley of arrows."
+				""
+				"It drops §bSkeleton Skulls§r — craft enough of them into the §bSkull Shield§r, a powerful ranged weapon that fires multiple projectiles."
+				""
+				"Tip: fight it in tight corridors to limit its teleport range. Open fields are a death sentence."
+			]
+			id: "1F2E3D4C5B6A78A5"
+			rewards: [{
+				count: 1
+				id: "1F2E3D4C5B6A78C5"
+				item: "minecraft:bow"
+				type: "item"
+			}]
+			subtitle: "Teleporting sniper"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "1F2E3D4C5B6A78B5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dead Shot"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F2E3D4C5B6A78A4", "1F2E3D4C5B6A78A7"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The §4Warden§r cannot see — but it has perfect hearing and vibration sense."
+				""
+				"Move slowly, sneak constantly, and never sprint near it. Wool blocks muffle vibrations. Its §4Sonic Boom§r bypasses all armour."
+				""
+				"Bring milk to cure Weakness. Hit-and-run in short bursts. If things go badly, just run — the exit is worth more than the kill."
+			]
+			id: "1F2E3D4C5B6A78A8"
+			rewards: [
+				{
+					count: 1
+					id: "1F2E3D4C5B6A78C8"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "1F2E3D4C5B6A78C9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "It heard that"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "1F2E3D4C5B6A78B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Silence in the Deep"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "§cCombat"
+}

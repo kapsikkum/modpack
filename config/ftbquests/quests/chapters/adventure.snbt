@@ -121,8 +121,8 @@
 					type: "item"
 				}
 			]
-			title: "Deeper & Darker"
-			subtitle: "Explore the Deeper Dark dimension added by Deeper & Darker — found beyond the Ancient City."
+			title: "Deeper \& Darker"
+			subtitle: "Explore the Deeper Dark dimension added by Deeper \& Darker — found beyond the Ancient City."
 			x: 2.0d
 			y: -2.0d
 		}
@@ -222,5 +222,5 @@
 		}
 	]
 	subtitle: "Explore dungeons, fight bosses, and uncover hidden dimensions."
-	title: "Adventure & Exploration"
+	title: "Adventure \& Exploration"
 }

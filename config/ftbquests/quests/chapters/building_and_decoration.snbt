@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: false
+	filename: "building_and_decoration"
+	icon: "chipped:carpenters_workbench"
+	id: "3F2E3D4C5B6A7890"
+	order_index: 12
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"Vanilla blocks are a foundation — this modpack builds on them with hundreds of decorative options."
+				""
+				"§bChipped§r lets you craft 588 block variants from any workbench type. §bRechiseled§r lets you re-texture blocks mid-placement."
+				""
+				"§bMacaw's§r suite adds bridges, windows, doors, roofs, lights, furniture, paths, and fences in every wood and stone type."
+				""
+				"§bHandcrafted§r, §bSupplementaries§r, and §bItems Displayed§r round out your interior decorating toolkit."
+			]
+			icon: "chipped:carpenters_workbench"
+			id: "3F2E3D4C5B6A78A1"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B1"
+				title: "Building Overview"
+				type: "checkmark"
+			}]
+			title: "§6Building \& Decoration"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A1"]
+			description: [
+				"§bChipped§r adds 588 new block variants by redesigning existing vanilla blocks."
+				""
+				"Craft a §3Carpenter's Workbench§r (requires 4 planks, 2 sticks, and 2 slabs), then open it and place any wooden block inside to see all of its variants."
+				""
+				"Every workbench type works on a different material category — the §3Mason's Workbench§r handles stone, the §3Glassblower's Workbench§r handles glass, and so on."
+			]
+			id: "3F2E3D4C5B6A78A2"
+			rewards: [{
+				count: 4
+				id: "3F2E3D4C5B6A78C2"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			subtitle: "So many block variants"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B2"
+				item: "chipped:carpenters_workbench"
+				type: "item"
+			}]
+			title: "The Carpenter's Workshop"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A1"]
+			description: [
+				"§bMacaw's Windows§r gives you wooden framed glass panes, shutters, and stained variants in every wood type."
+				""
+				"Combine them with §bMacaw's Doors§r and §bMacaw's Trapdoors§r for a coherent look — all available in matching wood and stone pairings."
+				""
+				"Macaw's blocks are crafted in vanilla-style recipes and fit seamlessly into any building style."
+			]
+			id: "3F2E3D4C5B6A78A3"
+			rewards: [{
+				count: 4
+				id: "3F2E3D4C5B6A78C3"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			subtitle: "Let the light in"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B3"
+				title: "Place a Macaw's Window block"
+				type: "checkmark"
+			}]
+			title: "Window Shopping"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A1"]
+			description: [
+				"§bHandcrafted§r adds furniture you can actually sit in — sofas, armchairs, benches, tables, and shelves."
+				""
+				"All furniture comes in every vanilla wood type and can be mixed to match any interior. Sofas and chairs have sit-on functionality."
+				""
+				"Pair them with §bMacaw's Furniture§r for an even wider decoration selection."
+			]
+			id: "3F2E3D4C5B6A78A4"
+			rewards: [{
+				count: 8
+				id: "3F2E3D4C5B6A78C4"
+				item: "minecraft:oak_slab"
+				type: "item"
+			}]
+			subtitle: "Make it cosy"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B4"
+				item: "handcrafted:oak_sofa"
+				type: "item"
+			}]
+			title: "Home Furnishing"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A1"]
+			description: [
+				"§bSupplementaries§r adds dozens of small utility and decoration blocks — sign posts, rope, jars, lanterns, flags, candles, and much more."
+				""
+				"The §eSign Post§r lets you place directional signs pointing to multiple locations at once — great for road networks and bases."
+				""
+				"§eTip§r: jars can store small items, rope bridges can be strung between posts, and wall lanterns add atmospheric lighting."
+			]
+			id: "3F2E3D4C5B6A78A5"
+			rewards: [{
+				count: 4
+				id: "3F2E3D4C5B6A78C5"
+				item: "minecraft:oak_sign"
+				type: "item"
+			}]
+			subtitle: "Small details, big impact"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B5"
+				item: "supplementaries:sign_post"
+				type: "item"
+			}]
+			title: "Signs of Life"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A2"]
+			description: [
+				"§bRechiseled§r lets you swap the texture of any supported block to any other supported texture — without replacing the block."
+				""
+				"Craft a §eChisel§r, then right-click any Rechiseled-compatible block while holding it to open the texture selector."
+				""
+				"§bRechiseled: Chipped§r extends this to all Chipped block variants — combine both mods for near-infinite visual combinations."
+			]
+			id: "3F2E3D4C5B6A78A6"
+			rewards: [{
+				count: 8
+				id: "3F2E3D4C5B6A78C6"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			subtitle: "Every block, remixed"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B6"
+				item: "rechiseled:chisel"
+				type: "item"
+			}]
+			title: "Rechiseled"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A3", "3F2E3D4C5B6A78A4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"§bImmersive Paintings§r lets you hang real images as paintings in your world."
+				""
+				"Craft an §eEmpty Canvas§r and place it on a wall. You'll then be prompted to paste an image URL — any web-hosted image will work."
+				""
+				"Scale and position the painting freely, and frame it with a variety of border styles. Perfect for galleries, taverns, or personalised home decor."
+			]
+			id: "3F2E3D4C5B6A78A7"
+			rewards: [{
+				count: 1
+				id: "3F2E3D4C5B6A78C7"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			subtitle: "Your world, your gallery"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B7"
+				title: "Place an Immersive Painting on a wall"
+				type: "checkmark"
+			}]
+			title: "Hung Art"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F2E3D4C5B6A78A5", "3F2E3D4C5B6A78A6"]
+			dependency_requirement: "one_completed"
+			description: [
+				"§bItems Displayed§r lets you show off any item as a 3D display on surfaces — walls, floors, shelves, and ceilings."
+				""
+				"Right-click a surface with the item you want to display, then use the placement tool to adjust position, rotation, and scale."
+				""
+				"Use it for trophy walls, item labels above storage, or just to make your base look lived-in."
+			]
+			id: "3F2E3D4C5B6A78A8"
+			rewards: [{
+				count: 1
+				id: "3F2E3D4C5B6A78C8"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			subtitle: "Your items, on display"
+			tasks: [{
+				id: "3F2E3D4C5B6A78B8"
+				title: "Display any item using Items Displayed"
+				type: "checkmark"
+			}]
+			title: "Show It Off"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "§6Building"
+}

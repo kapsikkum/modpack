@@ -199,7 +199,7 @@
 					type: "item"
 				}
 			]
-			title: "Import & Export"
+			title: "Import \& Export"
 			subtitle: "Attach Import/Export Buses to machines to automatically move items into and out of your ME network."
 			x: 14.0d
 			y: 0.0d

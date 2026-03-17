@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: false
+	filename: "economy"
+	icon: "minecraft:emerald"
+	id: "A1B2C3D4E5F60001"
+	order_index: 9
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"Emeralds are the currency of this world."
+				""
+				"You can earn them by selling items with §b/sell hand§r or §b/sell all§r. Crops, mob drops, logs, metals, fish, &2Cobblemon apricorns&r, and &2Farmer's Delight&r crops all have sell prices."
+				""
+				"Use the §6Wallet§r to bank your emeralds — right-click to deposit, sneak+right-click to withdraw. Your balance earns §a0.5% interest§r every 30 minutes!"
+				""
+				"Spend your emeralds trading with villagers, Goblin Traders, or Waystones."
+			]
+			icon: "minecraft:emerald"
+			id: "A1B2C3D4E5F60002"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "A1B2C3D4E5F60003"
+				title: "The Emerald Economy"
+				type: "checkmark"
+			}]
+			title: "§6The Economy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60002"]
+			description: [
+				"Craft a §6Wallet§r — your personal piggy bank."
+				""
+				"§7Recipe: §rSurround a §6Gold Ingot§r with §6Leather§r in a crafting table."
+				""
+				"§7Right-click§r to deposit all emeralds from your inventory into your wallet."
+				"§7Sneak + Right-click§r to withdraw up to 576 emerald blocks worth."
+				""
+				"Your wallet balance is stored safely — you won't lose it on death!"
+			]
+			id: "A1B2C3D4E5F60004"
+			rewards: [{
+				count: 5
+				id: "A1B2C3D4E5F60005"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Your personal emerald bank"
+			tasks: [{
+				id: "A1B2C3D4E5F60006"
+				item: "kubejs:wallet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60002"]
+			description: [
+				"Grow some crops and use §b/sell hand§r to sell them for emeralds!"
+				""
+				"Sellable crops include wheat, potatoes, carrots, melons, pumpkins, beetroot, cocoa beans, bamboo, sugar cane, and kelp."
+				""
+				"§2Farmer's Delight§r crops — tomatoes, onions, rice, and cabbage — also sell well. So do §aCobblemon apricorns§r!"
+				""
+				"Tip: grow lots and use §b/sell all§r to cash out your whole inventory at once."
+			]
+			id: "A1B2C3D4E5F60007"
+			rewards: [{
+				count: 10
+				id: "A1B2C3D4E5F60008"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Farming for profit"
+			tasks: [{
+				id: "A1B2C3D4E5F60009"
+				item: "minecraft:emerald"
+				count: 20
+				type: "item"
+			}]
+			title: "First Harvest"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60007"]
+			description: [
+				"Mob drops sell well too! Feathers, leather, blaze rods (and more) all have sell prices."
+				""
+				"Try setting up a mob farm to earn passive income. Ender pearls, ghast tears, and blaze rods are especially valuable."
+			]
+			id: "A1B2C3D4E5F60010"
+			rewards: [{
+				count: 1
+				id: "A1B2C3D4E5F60011"
+				item: "minecraft:golden_sword"
+				type: "item"
+			}]
+			subtitle: "Violence pays"
+			tasks: [{
+				id: "A1B2C3D4E5F60012"
+				item: "minecraft:emerald"
+				count: 64
+				type: "item"
+			}]
+			title: "Combat Pay"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60004"]
+			description: [
+				"Deposit at least §a100 Emeralds§r into your Wallet and let your savings grow."
+				""
+				"Every 30 minutes, your balance earns §a0.5% interest§r automatically. §9I love compounding interest!§r"
+				""
+				"Keep your balance above 24 emeralds to qualify for interest payments."
+			]
+			id: "A1B2C3D4E5F60013"
+			rewards: [
+				{
+					count: 1
+					id: "A1B2C3D4E5F60014"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "A1B2C3D4E5F60015"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Compound interest is the eighth wonder"
+			tasks: [{
+				id: "A1B2C3D4E5F60016"
+				title: "Bank 100 Emeralds"
+				type: "checkmark"
+			}]
+			title: "Savvy Investor"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60013"]
+			description: [
+				"You've become a proper merchant! Goblin Traders, wandering traders, and villagers all accept emeralds."
+				""
+				"Visit a village and use your emeralds to unlock rare trades — or build a villager hall and cure zombie villagers for §adiscounted prices§r."
+				""
+				"Waystones also cost emeralds to use globally — so a fat wallet means free fast travel!"
+			]
+			id: "A1B2C3D4E5F60017"
+			rewards: [
+				{
+					count: 2
+					id: "A1B2C3D4E5F60018"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "The market is yours"
+			tasks: [{
+				id: "A1B2C3D4E5F60019"
+				title: "Reach 500 Emeralds saved"
+				type: "checkmark"
+			}]
+			title: "Market Mogul"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60017"]
+			description: [
+				"At the peak of your emerald empire, you have so much wealth you've started using emerald blocks as building material."
+				""
+				"§6Legend has it a truly committed merchant once filled a double chest with emerald blocks. They ascended.§r"
+			]
+			id: "A1B2C3D4E5F60020"
+			rewards: [
+				{
+					count: 1
+					id: "A1B2C3D4E5F60021"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "A1B2C3D4E5F60022"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "An emerald throne awaits"
+			tasks: [{
+				id: "A1B2C3D4E5F60023"
+				item: "minecraft:emerald_block"
+				count: 64
+				type: "item"
+			}]
+			title: "§6Emerald Tycoon"
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	title: "§aEconomy"
+}

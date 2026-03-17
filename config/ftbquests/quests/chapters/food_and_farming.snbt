@@ -63,7 +63,7 @@
 					type: "item"
 				}
 			]
-			title: "Slice & Dice"
+			title: "Slice \& Dice"
 			subtitle: "The Cutting Board lets you process foods with a Knife to get new ingredients and byproducts."
 			x: 2.0d
 			y: 0.0d
@@ -251,5 +251,5 @@
 		}
 	]
 	subtitle: "From humble harvests to gourmet cuisine."
-	title: "Food & Farming"
+	title: "Food \& Farming"
 }
