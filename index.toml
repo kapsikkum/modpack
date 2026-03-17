@@ -113,10 +113,6 @@ file = "config/waystones-common.toml"
 hash = "83a01fd92863b419581ccf468681bc74f80b5e999e1f00a0b41e0edc6dce0ee5"
 
 [[files]]
-file = "crash.txrt"
-hash = "bc9dbc8112e37b93e12c1bf90dd71604f430a50a1168b13814de4de51a0a63d0"
-
-[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
