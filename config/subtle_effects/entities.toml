@@ -53,7 +53,7 @@ potionRingsParticleType = "BOTH"
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
-displayType = "NONE"
+displayType = "NEVER"
 alpha = 0.5
 waitTime = 60
 seasons = "DEFAULT"
