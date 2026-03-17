@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "cobblemon"
+	group: ""
+	icon: "cobblemon:poke_ball"
+	id: "3001"
+	images: []
+	index: 2
+	order_index: 2
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "3010"
+			rewards: [
+				{
+					count: 5
+					id: "3210"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3110"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			title: "Gotta Craft Some!"
+			subtitle: "Craft 3 Poké Balls. Combine a Poke Ball Base, Disc, and Button at a crafting table."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3010"]
+			id: "3011"
+			rewards: [
+				{
+					count: 3
+					id: "3211"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3111"
+					item: "cobblemon:healing_machine"
+					type: "item"
+				}
+			]
+			title: "Doctor's Orders"
+			subtitle: "Craft a Healing Machine to restore your Pokémon's HP after battles."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3011"]
+			id: "3012"
+			rewards: [
+				{
+					count: 3
+					id: "3212"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3112"
+					item: "cobblemon:pc"
+					type: "item"
+				}
+			]
+			title: "Storage System"
+			subtitle: "Craft a PC to store more than 6 Pokémon. You'll fill up fast!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3012"]
+			id: "3013"
+			rewards: [
+				{
+					count: 3
+					id: "3213"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3113"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			title: "Great Balls of Fire"
+			subtitle: "Craft 3 Great Balls. Higher quality balls improve your catch rate."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3013"]
+			id: "3014"
+			rewards: [
+				{
+					count: 2
+					id: "3214"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3114"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			title: "Ultra Prepared"
+			subtitle: "Craft 3 Ultra Balls. For those rare and legendary encounters."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3014"]
+			id: "3015"
+			rewards: [
+				{
+					count: 3
+					id: "3215"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3115"
+					item: "cobblemon:link_cable"
+					type: "item"
+				}
+			]
+			title: "Trade Evolution"
+			subtitle: "A Link Cable lets you trade-evolve Pokémon like Haunter and Kadabra without another player."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3015"]
+			id: "3016"
+			rewards: [
+				{
+					count: 1
+					id: "3216"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3116"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+			]
+			title: "Share the Experience"
+			subtitle: "An Exp. Share lets a Pokémon in your party gain XP even if it didn't fight."
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3016"]
+			id: "3017"
+			rewards: [
+				{
+					count: 5
+					id: "3217"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3117"
+					item: "cobblemonmegashowdown:mega_bracelet"
+					type: "item"
+				}
+			]
+			title: "Mega Evolution"
+			subtitle: "Equip a Mega Bracelet to unlock your Pokémon's Mega Evolution in battle!"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3015"]
+			id: "3018"
+			rewards: [
+				{
+					count: 3
+					id: "3218"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3118"
+					item: "cobblemonpokenav:pokenav"
+					type: "item"
+				}
+			]
+			title: "PokeNav & Chill"
+			subtitle: "Craft a PokeNav to track nearby Pokémon, battle stats, and party info on the go."
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	subtitle: "Become the very best, like no one ever was."
+	title: "Cobblemon"
+}

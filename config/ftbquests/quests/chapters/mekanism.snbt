@@ -1,0 +1,508 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: ""
+	icon: "mekanism:ingot_osmium"
+	id: "6001"
+	images: []
+	index: 5
+	order_index: 5
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "6010"
+			rewards: [
+				{
+					count: 8
+					id: "6210"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6110"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			title: "Osmium Dawn"
+			subtitle: "Mine Osmium Ore — it generates between y=-15 and y=60. This is the backbone of Mekanism."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010"]
+			id: "6011"
+			rewards: [
+				{
+					count: 4
+					id: "6211"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6111"
+					item: "mekanism:metallurgical_infuser"
+					type: "item"
+				}
+			]
+			title: "Metallurgical Infuser"
+			subtitle: "The Infuser injects materials (carbon, redstone, diamonds) into metals to create alloys."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6011"]
+			id: "6012"
+			rewards: [
+				{
+					count: 4
+					id: "6212"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6112"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
+			title: "Enrichment Chamber"
+			subtitle: "The Enrichment Chamber doubles ore yield by turning ores into 2× dust. Your first ore doubler!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6012"]
+			id: "6013"
+			rewards: [
+				{
+					count: 4
+					id: "6213"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6113"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			title: "Crush It"
+			subtitle: "The Crusher grinds materials into dust — required for ore tripling later with a Purification Chamber."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010"]
+			id: "6014"
+			rewards: [
+				{
+					id: "6214"
+					item: "mekanism:heat_generator"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6114"
+					item: "mekanism:heat_generator"
+					type: "item"
+				}
+			]
+			title: "Heat Generator"
+			subtitle: "Place a Heat Generator in or next to lava for a free passive energy source. The easiest early power."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6014"]
+			id: "6015"
+			rewards: [
+				{
+					count: 4
+					id: "6215"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6115"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			title: "Power Storage"
+			subtitle: "Craft a Basic Energy Cube to store energy and distribute it to your machines."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6013"]
+			id: "6016"
+			rewards: [
+				{
+					count: 8
+					id: "6216"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6116"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "Steel Yourself"
+			subtitle: "Infuse Iron Ingots with Carbon in the Metallurgical Infuser to produce Steel Ingots."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6016"]
+			id: "6017"
+			rewards: [
+				{
+					count: 4
+					id: "6217"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6117"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
+			title: "Triple Your Ores"
+			subtitle: "Combine the Purification Chamber, Crusher, and Enrichment Chamber to triple your ore output!"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6017"]
+			id: "6018"
+			rewards: [
+				{
+					count: 2
+					id: "6218"
+					item: "mekanism:alloy_advanced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6118"
+					item: "mekanism:basic_enriching_factory"
+					type: "item"
+				}
+			]
+			title: "Factory Line"
+			subtitle: "Basic Factories process 3 items simultaneously — a massive throughput increase over single machines."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6018"]
+			id: "6019"
+			rewards: [
+				{
+					count: 4
+					id: "6219"
+					item: "mekanism:alloy_elite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6119"
+					item: "mekanism:solar_generator"
+					type: "item"
+				}
+			]
+			title: "Solar Power"
+			subtitle: "Advanced Generators: Solar Generators produce free power in daylight. Stack them or upgrade to Advanced Solar for more output."
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6018"]
+			id: "601A"
+			rewards: [
+				{
+					count: 8
+					id: "621A"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "611A"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
+			title: "Gas Turbine"
+			subtitle: "The Gas-Burning Generator runs on Hydrogen or Ethylene — far more power than a Heat Generator."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601A"]
+			id: "601B"
+			rewards: [
+				{
+					count: 4
+					id: "621B"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "611B"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+			]
+			title: "Yellow Cake"
+			subtitle: "Mine Uranium Ore and process it in the Chemical Dissolution Chamber to get Yellow Cake Uranium — the start of nuclear fuel production."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601B"]
+			id: "601C"
+			rewards: [
+				{
+					count: 4
+					id: "621C"
+					item: "mekanism:fissile_fuel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "611C"
+					item: "mekanism:fissile_fuel"
+					type: "item"
+				}
+			]
+			title: "Fissile Fuel"
+			subtitle: "Process Yellow Cake → UF6 → U-235 → UF6 again → Fissile Fuel through the isotopic centrifuge and enrichment chain."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601C"]
+			id: "601D"
+			rewards: [
+				{
+					count: 4
+					id: "621D"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "611D"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+			]
+			title: "Going Nuclear"
+			subtitle: "Craft Fission Reactor Casing — the structural block of the most powerful energy source in Mekanism. The minimum reactor is 3×4×3 (interior)."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601D"]
+			id: "601E"
+			rewards: [
+				{
+					count: 8
+					id: "621E"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "611E"
+					item: "mekanismgenerators:fission_reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Reactor Controller"
+			subtitle: "Place the Fission Reactor Controller on a completed casing multiblock. It monitors temperature, burn rate, and nuclear waste levels. ALWAYS connect a Logic Adapter for SCRAM automation."
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601E"]
+			id: "601F"
+			rewards: [
+				{
+					count: 8
+					id: "621F"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "611F"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+			]
+			title: "SCRAM!"
+			subtitle: "Connect a Logic Adapter to your reactor and wire a comparator circuit to automatically SCRAM (shut down) before a meltdown. Skipping this WILL destroy your base."
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601F"]
+			id: "6020"
+			rewards: [
+				{
+					count: 4
+					id: "6220"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6120"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			title: "Nuclear Waste Management"
+			subtitle: "Fission Reactors produce Spent Nuclear Waste. Store it in Radioactive Waste Barrels — never let it overflow or it will irradiate the area."
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["601F"]
+			id: "6021"
+			rewards: [
+				{
+					count: 8
+					id: "6221"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6121"
+					item: "mekanismgenerators:thermoelectric_boiler_casing"
+					type: "item"
+				}
+			]
+			title: "Thermoelectric Boiler"
+			subtitle: "Build a Thermoelectric Boiler multiblock next to your reactor. It converts the reactor's superheated coolant into Steam to drive a Turbine."
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6021"]
+			id: "6022"
+			rewards: [
+				{
+					count: 8
+					id: "6222"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6122"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+			]
+			title: "Industrial Turbine"
+			subtitle: "Build an Industrial Turbine multiblock to convert Steam from the Boiler into massive amounts of RF/FE power. This trio (Reactor + Boiler + Turbine) is the pinnacle of Mekanism power."
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["601F"]
+			id: "6024"
+			rewards: [
+				{
+					count: 64
+					id: "6224"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "6224b"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6124"
+					title: "Ignore all warnings, disable the SCRAM circuit, and let the reactor meltdown."
+					type: "checkmark"
+				}
+			]
+			title: "Oops."
+			subtitle: "Deliberately cause a Fission Reactor meltdown. You had the SCRAM quest. You chose violence. F in chat."
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["601F"]
+			id: "6023"
+			rewards: [
+				{
+					count: 16
+					id: "6223"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6123"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Fusion Power"
+			subtitle: "The Fusion Reactor is the ultimate endgame power source — it runs on D-T Fuel (Deuterium + Tritium), produces no waste, and outputs staggering amounts of energy. Requires a laser ignition system."
+			x: 26.0d
+			y: 0.0d
+		}
+	]
+	subtitle: "Industrial machines, ore processing, and energy systems."
+	title: "Mekanism"
+}

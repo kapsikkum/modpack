@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: ""
+	icon: "ars_nouveau:novice_spell_book"
+	id: "4001"
+	images: []
+	index: 3
+	order_index: 3
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "4010"
+			rewards: [
+				{
+					count: 32
+					id: "4210"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4110"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			title: "Source of Power"
+			subtitle: "Collect Source Berries — they grow in Archwood Forests and are your first source of magical energy."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4010"]
+			id: "4011"
+			rewards: [
+				{
+					id: "4211"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4111"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			title: "Spell Weaver"
+			subtitle: "Craft a Novice Spell Book. Right-click to open and begin composing spells."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4011"]
+			id: "4012"
+			rewards: [
+				{
+					count: 16
+					id: "4212"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4112"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+			]
+			title: "Binding Magic"
+			subtitle: "The Imbuement Chamber infuses items with Source energy to create magical gear and glyphs."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4012"]
+			id: "4013"
+			rewards: [
+				{
+					count: 4
+					id: "4213"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4113"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Fill the Jar"
+			subtitle: "A Source Jar collects and stores Source. Place Sourcelinks nearby to fill it automatically."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4013"]
+			id: "4014"
+			rewards: [
+				{
+					count: 8
+					id: "4214"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4114"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			subtitle: "Surround the Apparatus with Arcane Pedestals holding reagents. It is the gateway to powerful enchanted gear."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4014"]
+			id: "4015"
+			rewards: [
+				{
+					count: 4
+					id: "4215"
+					item: "ars_nouveau:mage_fiber"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4115"
+					item: "ars_nouveau:apprentice_spell_book"
+					type: "item"
+				}
+			]
+			title: "Tier II Magic"
+			subtitle: "Craft an Apprentice Spell Book to unlock more powerful spell glyphs."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4015"]
+			id: "4016"
+			rewards: [
+				{
+					count: 8
+					id: "4216"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4116"
+					item: "ars_nouveau:novice_robes_body"
+					type: "item"
+				}
+			]
+			title: "Mage Robes"
+			subtitle: "Craft Mage Robes in the Imbuement Chamber to boost your spellcasting."
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4015"]
+			id: "4017"
+			rewards: [
+				{
+					count: 4
+					id: "4217"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4117"
+					item: "ars_creo:source_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Magic Meets Machinery"
+			subtitle: "Ars Creo bridges Ars Nouveau and Create. A Source Cogwheel converts Source into Rotational Force!"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4015"]
+			id: "4018"
+			rewards: [
+				{
+					id: "4218"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4118"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+			]
+			title: "Archmage"
+			subtitle: "Craft the Archmage Spell Book to master the most powerful spells in Ars Nouveau."
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	subtitle: "Weave Source energy into powerful arcane spells."
+	title: "Ars Nouveau: Arcane Arts"
+}

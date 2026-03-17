@@ -94,6 +94,8 @@ If `[update]` is absent or empty the file will not be auto-updated.
 
 Always use the CLI. packwiz resolves dependencies automatically and prompts you to install them.
 
+**Modrinth is the preferred source.** Always try `packwiz modrinth add` first. Only fall back to `packwiz curseforge add` if the mod is not available on Modrinth.
+
 ```bash
 # Add by Modrinth slug, URL, or ID
 packwiz modrinth add sodium

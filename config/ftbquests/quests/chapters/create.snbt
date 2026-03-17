@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:cogwheel"
+	id: "2001"
+	images: []
+	index: 1
+	order_index: 1
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "2010"
+			rewards: [
+				{
+					count: 4
+					id: "2210"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2110"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "A Shaft for Progress"
+			subtitle: "Craft 4 Shafts — the simplest rotating component in Create."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2010"]
+			id: "2011"
+			rewards: [
+				{
+					count: 4
+					id: "2211"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2111"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Gear Up"
+			subtitle: "Cogwheels transmit rotation. Mesh a large and small cogwheel to change speed."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2011"]
+			id: "2012"
+			rewards: [
+				{
+					count: 2
+					id: "2212"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2112"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Water Power"
+			subtitle: "Place a Water Wheel in flowing water — your first free source of Rotational Force."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2012"]
+			id: "2013"
+			rewards: [
+				{
+					count: 4
+					id: "2213"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2113"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "Press On"
+			subtitle: "The Mechanical Press needs rotational input from above. Use it to press ingots into sheets."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2013"]
+			id: "2014"
+			rewards: [
+				{
+					count: 8
+					id: "2214"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2114"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Andesite Alloy"
+			subtitle: "Andesite Alloy is the bread and butter of early Create. Craft it from iron nuggets and andesite."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2013"]
+			id: "2015"
+			rewards: [
+				{
+					count: 16
+					id: "2215"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2115"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "Mix it Up"
+			subtitle: "The Mechanical Mixer needs a Basin below it. Use it to mix fluids and powders."
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2014"]
+			id: "2016"
+			rewards: [
+				{
+					count: 4
+					id: "2216"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2116"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "Zinc Rush"
+			subtitle: "Mine Zinc Ore and smelt it. You'll need Zinc to alloy with Copper for Brass."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2016"]
+			id: "2017"
+			rewards: [
+				{
+					id: "2217"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2117"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Brass Age"
+			subtitle: "Mix Zinc and Copper Dust in a Basin with a Mixer to produce Brass Ingots."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2017"]
+			id: "2018"
+			rewards: [
+				{
+					count: 4
+					id: "2218"
+					item: "create:belt"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2118"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "The Arm of Industry"
+			subtitle: "Mechanical Arms can pick up and deposit items across multiple machines. Build your first factory!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2017"]
+			id: "2019"
+			rewards: [
+				{
+					count: 32
+					id: "2219"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2119"
+					item: "railways:track"
+					type: "item"
+				}
+			]
+			title: "All Aboard!"
+			subtitle: "Steam 'n' Rails adds trains to Create. Craft Train Track and lay your first line."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2019"]
+			id: "201A"
+			rewards: [
+				{
+					count: 64
+					id: "221A"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211A"
+					item: "railways:steam_locomotive"
+					type: "item"
+				}
+			]
+			title: "Choo Choo!"
+			subtitle: "Craft a Steam Locomotive and place it on your track. Don't forget the schedule!"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2017"]
+			id: "201B"
+			rewards: [
+				{
+					count: 4
+					id: "221B"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211B"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			title: "Schematic Time"
+			subtitle: "Use a Schematic and Quill to save your builds, then deploy them with a Schematicannon."
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	subtitle: "Harness the power of Rotational Force."
+	title: "Create: Rotational Force"
+}

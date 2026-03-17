@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "food_and_farming"
+	group: ""
+	icon: "farmersdelight:stove"
+	id: "7001"
+	images: []
+	index: 6
+	order_index: 6
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "7010"
+			rewards: [
+				{
+					count: 8
+					id: "7210"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7210b"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7110"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+			]
+			title: "Humble Harvest"
+			subtitle: "Find and harvest Tomatoes — they grow wild in plains, savanna, and sunflower plains biomes."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7010"]
+			id: "7011"
+			rewards: [
+				{
+					id: "7211"
+					item: "farmersdelight:flint_knife"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7211b"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7111"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Slice & Dice"
+			subtitle: "The Cutting Board lets you process foods with a Knife to get new ingredients and byproducts."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7011"]
+			id: "7012"
+			rewards: [
+				{
+					count: 4
+					id: "7212"
+					item: "minecraft:raw_chicken"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7112"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			title: "Cook It Up"
+			subtitle: "Place a Stove and fuel it to cook more complex recipes than a standard Furnace."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7012"]
+			id: "7013"
+			rewards: [
+				{
+					id: "7213"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7113"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			title: "First Meal"
+			subtitle: "Cook a Roast Chicken on the Stove. It provides exceptional saturation."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7013"]
+			id: "7014"
+			rewards: [
+				{
+					id: "7214"
+					item: "farmersdelight:skillet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7114"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "Rich Soil"
+			subtitle: "Rich Soil grows crops in half the time. Craft it from compost and dirt."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7014"]
+			id: "7015"
+			rewards: [
+				{
+					count: 16
+					id: "7215"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7115"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+			]
+			title: "Cooking for Blockheads"
+			subtitle: "Place a Cooking Table alongside chests of ingredients — it auto-fills recipes with available items."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7012"]
+			id: "7016"
+			rewards: [
+				{
+					count: 4
+					id: "7216"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7116"
+					item: "brewinandchewin:ageing_barrel"
+					type: "item"
+				}
+			]
+			title: "Home Brewer"
+			subtitle: "Craft an Ageing Barrel from Brewin' and Chewin' to ferment fruits and grains into drinks."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7016"]
+			id: "7017"
+			rewards: [
+				{
+					count: 4
+					id: "7217"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7117"
+					item: "brewinandchewin:mead"
+					type: "item"
+				}
+			]
+			title: "Meadmaker"
+			subtitle: "Age honey and water in your barrel to brew Mead. Cheers!"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7015"]
+			id: "7018"
+			rewards: [
+				{
+					id: "7218"
+					item: "farmersdelight:diamond_knife"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7118"
+					item: "farmersdelight:tomato_soup"
+					type: "item"
+				}
+			]
+			title: "Tomato Connoisseur"
+			subtitle: "Cook a bowl of Tomato Soup by simmering Tomatoes on the Stove. A classic."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7015"]
+			id: "7019"
+			rewards: [
+				{
+					count: 8
+					id: "7219"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7119"
+					item: "chefdelight:cooking_station"
+					type: "item"
+				}
+			]
+			title: "Chef's Delight"
+			subtitle: "The Chef's Delight Cooking Station unlocks high-end recipes requiring multiple ingredients."
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	subtitle: "From humble harvests to gourmet cuisine."
+	title: "Food & Farming"
+}

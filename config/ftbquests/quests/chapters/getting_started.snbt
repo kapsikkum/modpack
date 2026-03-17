@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "1001"
+	images: []
+	index: 0
+	order_index: 0
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "1010"
+			rewards: [
+				{
+					count: 16
+					id: "1210"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1110"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			title: "First Wood"
+			subtitle: "Punch a tree to get your first log. Every great adventure starts here."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1010"]
+			id: "1011"
+			rewards: [
+				{
+					id: "1211"
+					item: "minecraft:wooden_axe"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1111"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			subtitle: "Craft a Crafting Table — the foundation of everything."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1011"]
+			id: "1012"
+			rewards: [
+				{
+					id: "1212"
+					item: "minecraft:stone_pickaxe"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1112"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Stone Cold"
+			subtitle: "Mine 16 cobblestone. A wooden pickaxe will do the job for now."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1012"]
+			id: "1013"
+			rewards: [
+				{
+					count: 2
+					id: "1213"
+					item: "minecraft:iron_chestplate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "1113"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Iron Age"
+			subtitle: "Smelt iron ore in a Furnace to produce your first iron ingots."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1013"]
+			id: "1014"
+			rewards: [
+				{
+					count: 3
+					id: "1214"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1114"
+					item: "minecraft:iron_pickaxe"
+					type: "item"
+				}
+			]
+			title: "Pickaxe Upgrade"
+			subtitle: "Craft an Iron Pickaxe. You'll need it to mine diamonds below y=-50."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1014"]
+			id: "1015"
+			rewards: [
+				{
+					id: "1215"
+					item: "minecraft:diamond_sword"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "1115"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Diamonds!"
+			subtitle: "Diamonds are most common around y=-58. Strip mine or use tunnels."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1015"]
+			id: "1016"
+			rewards: [
+				{
+					count: 16
+					id: "1216"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1116"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+			]
+			title: "Enchanted!"
+			subtitle: "Craft an Enchanting Table and surround it with bookshelves for level 30 enchants."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1014"]
+			id: "1017"
+			rewards: [
+				{
+					count: 8
+					id: "1217"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					id: "1117"
+					type: "advancement"
+				}
+			]
+			title: "Welcome to Hell"
+			subtitle: "Build a frame of obsidian (4×5 minimum) and light it with Flint & Steel."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1017"]
+			id: "1018"
+			rewards: [
+				{
+					count: 4
+					id: "1218"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_end"
+					id: "1118"
+					type: "advancement"
+				}
+			]
+			title: "Beyond the Stars"
+			subtitle: "Find a Stronghold End Portal using Eyes of Ender. Fill all 12 frames to activate it."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1018"]
+			id: "1019"
+			rewards: [
+				{
+					id: "1219"
+					item: "minecraft:elytra"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/kill_dragon"
+					id: "1119"
+					type: "advancement"
+				}
+			]
+			title: "Dragonslayer"
+			subtitle: "Defeat the Ender Dragon. Destroy the End Crystals on the obsidian pillars first!"
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	subtitle: "Your first steps in a vast world."
+	title: "Getting Started"
+}

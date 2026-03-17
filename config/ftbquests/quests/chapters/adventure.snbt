@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "adventure"
+	group: ""
+	icon: "minecraft:compass"
+	id: "8001"
+	images: []
+	index: 7
+	order_index: 7
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "8010"
+			rewards: [
+				{
+					count: 3
+					id: "8210"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8110"
+					item: "explorerscompass:explorer_compass"
+					type: "item"
+				}
+			]
+			title: "Compass Rose"
+			subtitle: "Craft an Explorer's Compass to locate the nearest structure of any type. Essential for exploration."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8010"]
+			id: "8011"
+			rewards: [
+				{
+					count: 2
+					id: "8211"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8111"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+			]
+			title: "Into the Deep Dark"
+			subtitle: "Descend into the Deep Dark biome found deep underground. Move silently — Wardens are in there."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8011"]
+			id: "8012"
+			rewards: [
+				{
+					id: "8212"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8112"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			title: "Ancient City Treasure"
+			subtitle: "Find an Ancient City within the Deep Dark and loot its chests. Watch out for Sculk Shriekers!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8012"]
+			id: "8013"
+			rewards: [
+				{
+					id: "8213"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8113"
+					type: "kill"
+					entity: "mutantmonsters:mutant_zombie"
+					value: 1L
+				}
+			]
+			title: "Mutant Mayhem"
+			subtitle: "Defeat a Mutant Zombie — a horrifying variant found occasionally in the world. Bring heavy armour."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8010"]
+			id: "8014"
+			rewards: [
+				{
+					count: 3
+					id: "8214"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8114"
+					item: "deeperdarker:sculk_stone"
+					type: "item"
+				}
+			]
+			title: "Deeper & Darker"
+			subtitle: "Explore the Deeper Dark dimension added by Deeper & Darker — found beyond the Ancient City."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["8010"]
+			id: "8015"
+			rewards: [
+				{
+					count: 4
+					id: "8215"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8115"
+					item: "aether:skyroot_pickaxe"
+					type: "item"
+				}
+			]
+			title: "Into the Aether"
+			subtitle: "Pour Water onto a Nether Portal frame to open a portal to the Aether — a land in the sky."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["8015"]
+			id: "8016"
+			rewards: [
+				{
+					id: "8216"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "8116"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			title: "Zanite!"
+			subtitle: "Mine Zanite Ore in the Aether. The pickaxe gets faster as your health drops — risky but powerful."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["8013"]
+			id: "8017"
+			rewards: [
+				{
+					count: 2
+					id: "8217"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8117"
+					type: "kill"
+					entity: "mutantmonsters:mutant_creeper"
+					value: 1L
+				}
+			]
+			title: "Creeper? Aw Man."
+			subtitle: "Defeat a Mutant Creeper before it obliterates everything around it. Keep your distance."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8017"]
+			id: "8018"
+			rewards: [
+				{
+					count: 2
+					id: "8218"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8118"
+					type: "kill"
+					entity: "l_enders_cataclysm:ignis"
+					value: 1L
+				}
+			]
+			title: "Cataclysm"
+			subtitle: "Defeat Ignis — the Fire Giant boss from L_Ender's Cataclysm. Summon it with its Altar."
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	subtitle: "Explore dungeons, fight bosses, and uncover hidden dimensions."
+	title: "Adventure & Exploration"
+}

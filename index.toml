@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/copilot-instructions.md"
-hash = "655e788b9a019ad9e2cdda28cd6647d847225c5f01df84e3f2f7d90d8a01e349"
-
-[[files]]
 file = "config/aether-common.toml"
 hash = "d623fc7fca0f743b9840a65661b5ec4ac238577a742fec719b8474a91eb6fd38"
 
@@ -55,6 +51,38 @@ hash = "fdfbb6716a11ca5e92d0f92d1a3ca6fdce09467ea768cf57b291cb414d29fa43"
 [[files]]
 file = "config/entityculling.json"
 hash = "64c2ada6367eb12b908dd460ce2cb15addfe4d324bcf1d76bbdd6681fb2494e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventure.snbt"
+hash = "aac678ea7741233bda323caffc7b5b7b330a26653e311b5296ffe73c5b74bbbe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
+hash = "aff34838ac0def9bb2a86fc6c0ccbc803af9280dd68edac83e4288a55fac17be"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
+hash = "f549924d400f0bafa3b492131ef5c520005b452c50f6bd93a416f559d7aef367"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cobblemon.snbt"
+hash = "b276751e8f596dbf1c5d26074677a313911f74440002c1dd220ea60aab6dbdef"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "23bcd4b7dd2668090323bcc2dda359eebf49ec6387e0dd20037b81281c83ec31"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
+hash = "814eddf5fc9e7a90f6b0d721a9fbeab1c1bba11697464f1a73cef087dbc739b3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started.snbt"
+hash = "8f517abf2844b35507712cfd839c852bb9b8071ab05ecaa76b1c225f0f06eb35"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "0aae6eb0d86511f89ff914ba0507c81debb5f5446aea80f5cfd2c3125215aaee"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
