@@ -1,13 +1,14 @@
 name = "Relics"
-filename = "relics-1.21.1-0.11.8.jar"
+filename = "relics-1.21.1-0.10.7.8.jar"
 side = "both"
+pin = true
 
 [download]
-hash-format = "sha1"
-hash = "0bb531ea75b1e362e3c4a8889ef5489389f4591f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OCJRPujW/versions/nvZZMhJS/relics-1.21.1-0.10.7.8.jar"
+hash-format = "sha512"
+hash = "eee8bc6a1c676f6c513d59732f12bb6415cc7c7fb639ad8f9d7dc9958e4b6726226106715119d8c083c49628db1cf7e3a433716425016d6d025d1730885fbce1"
 
 [update]
-[update.curseforge]
-file-id = 7769119
-project-id = 445274
+[update.modrinth]
+mod-id = "OCJRPujW"
+version = "nvZZMhJS"
