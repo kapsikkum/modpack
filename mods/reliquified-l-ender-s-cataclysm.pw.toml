@@ -1,6 +1,7 @@
 name = "Reliquified L_Ender 's Cataclysm"
 filename = "reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/rBEndPUc/versions/ZHAIRSeF/reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"

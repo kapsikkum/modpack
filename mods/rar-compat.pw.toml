@@ -1,13 +1,14 @@
 name = "Relics: Artifacts Compat"
-filename = "reliquified_artifacts-1.21.1-1.0.jar"
+filename = "rarcompat-1.21-0.9.7.jar"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/GnU07giL/versions/wuZGGuwz/reliquified_artifacts-1.21.1-1.0.jar"
+url = "https://cdn.modrinth.com/data/GnU07giL/versions/RjDi7tua/rarcompat-1.21-0.9.7.jar"
 hash-format = "sha512"
-hash = "0fb1075d87b822eeeee2811839454206fac9178388f72563272550a6e27e8bd4c4a9b8731db20b701362cc411e6f44bc30178c3ed0c942ec1fd5022bdc365956"
+hash = "a4cacdde7db4b8eace4e50bfead8c17a69250e928169c667dff3bd32188b997a6c7434b6dd16b7d82664e1aabaec96b316645af5869283647b0416c7c216b999"
 
 [update]
 [update.modrinth]
 mod-id = "GnU07giL"
-version = "wuZGGuwz"
+version = "RjDi7tua"

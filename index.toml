@@ -1008,6 +1008,11 @@ hash = "87309254dc50bcedf00b64fee21a17b19eb4c9307b37ce468c49f57e03ee9079"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "0eef279850c173527c29e0d550aa4a6a616caf031056ac85e69ced91e0cc8ce1"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "89ea2d0411426f6ae2e70b18b6421096fae6c3ab4b6e68387f5316d4f3e9b1ca"
 metafile = true
@@ -1349,7 +1354,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "1f5eb62ddefa40990ba7086051f8582626ff2c6b4ccf383975de87c00b04cf4f"
+hash = "f99d39a03722f4e6c0d3567ac279d3171ba6f7dd226d67158c215aa25234f1e6"
 metafile = true
 
 [[files]]
@@ -1384,12 +1389,12 @@ metafile = true
 
 [[files]]
 file = "mods/reliquified-ars-nouveau.pw.toml"
-hash = "6d718861ccd271301e54dba5c461e5b9105abaafc7c85e3b119dd2fc71b161b8"
+hash = "9b92e163fd6898c215d4f14aa77c63867f4d74ac256c5fd54fa057a781c75352"
 metafile = true
 
 [[files]]
 file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
-hash = "ff5afd5570a5a3d921c7764d0c64f82eb0c87c7e2e3db3e53aa45d6b6b4edc47"
+hash = "2fa88c08a52022a62d4ae5ea462192452ed97c45a5a084af8a7772487f6f179e"
 metafile = true
 
 [[files]]

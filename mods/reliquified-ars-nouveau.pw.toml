@@ -1,6 +1,7 @@
 name = "Reliquified Ars Nouveau"
 filename = "reliquified_ars_nouveau-1.21.1-0.6.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/qNOCEdeg/versions/8L8DPUF0/reliquified_ars_nouveau-1.21.1-0.6.1.jar"
