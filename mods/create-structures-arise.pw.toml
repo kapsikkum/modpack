@@ -1,13 +1,13 @@
 name = "Create: Structures Arise"
-filename = "create_structures_arise-169.42.41 Hotfix-neoforge-1.21.1.jar"
+filename = "create_structures_arise-173.46.45 Release-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9enMEvoc/versions/7GnhICAB/create_structures_arise-169.42.41%20Hotfix-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/9enMEvoc/versions/HSECDqTu/create_structures_arise-173.46.45%20Release-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "33e6721d753bfeaa3383d0f5dad94d26c0c76ca9b5704cdd87b010b8856edfe9b59f06b259396fed5de7fd190a6f9c8aff1cf3566e03cc2eeb494c5f5c2160a8"
+hash = "6c10f5d3773432168905aca7f5f496658aee63a08a8f15a33027143fa5d150ada043f724845f45d8c580ffeb8e272b75ef3a4b3826875013ad48fe6223be17c0"
 
 [update]
 [update.modrinth]
 mod-id = "9enMEvoc"
-version = "7GnhICAB"
+version = "HSECDqTu"

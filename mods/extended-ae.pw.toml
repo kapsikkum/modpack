@@ -1,13 +1,13 @@
 name = "Extended AE"
-filename = "ExtendedAE-1.21-2.2.28-neoforge.jar"
+filename = "ExtendedAE-1.21-2.2.29-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JiOqfoFM/versions/PouYVFxW/ExtendedAE-1.21-2.2.28-neoforge.jar"
+url = "https://cdn.modrinth.com/data/JiOqfoFM/versions/4BXqcY77/ExtendedAE-1.21-2.2.29-neoforge.jar"
 hash-format = "sha512"
-hash = "79c5e9315cd6b891b574d30402e4b1c3b8ef88f781eb5cf8fd63f2d186deae13c1ac1b7724952ef421ca5308adf0e77576e2216bdba405f1016075420506063c"
+hash = "5b489744e8fd54fe7be1ac6aaafc06e2381a953f3b33bb8590f18fe7116b95db9ab2b3ce26ed146331ac28bc4d88172fbf72149ce332032777b07a593af4b939"
 
 [update]
 [update.modrinth]
 mod-id = "JiOqfoFM"
-version = "PouYVFxW"
+version = "4BXqcY77"
