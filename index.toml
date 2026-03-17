@@ -81,6 +81,18 @@ file = "config/servercore/optimizations.yml"
 hash = "a966fe59da49e8044d5dfc6eea805a0ca6ba19a95a19459cc638b891ff4c2426"
 
 [[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "cb08fad009eefaaf888bb4324c351ac426a49fb0db7cb75c4fddbcdcf8d8f414"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "368cfc853e44c77ebd1f6f43484ae1264f393f0e927391cb04ae9c0916b6e90c"
+
+[[files]]
 file = "config/spawn_notification.json"
 hash = "9e18a5a5c71f8543095c3d3d66d635a204206d18d145513fe11e3e7df03b45ea"
 
