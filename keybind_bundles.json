@@ -3,12 +3,12 @@
     "id": "a1b2c3d4-0000-4000-8000-000000000001",
     "name": "Artifacts",
     "entries": [
-      { "key": "artifacts.key.night_vision_goggles.toggle",  "title": "Night Vision",  "icon": { "id": "minecraft:golden_carrot",      "count": 1 } },
+      { "key": "artifacts.key.night_vision_goggles.toggle",  "title": "Night Vision",   "icon": { "id": "minecraft:golden_carrot",      "count": 1 } },
       { "key": "artifacts.key.helium_flamingo.activate",     "title": "Flamingo Flight","icon": { "id": "minecraft:feather",            "count": 1 } },
-      { "key": "artifacts.key.universal_attractor.toggle",   "title": "Attractor",     "icon": { "id": "minecraft:lodestone",          "count": 1 } },
-      { "key": "artifacts.key.charm_of_shrinking.toggle",    "title": "Shrink",        "icon": { "id": "minecraft:small_amethyst_bud", "count": 1 } },
-      { "key": "artifacts.key.charm_of_sinking.toggle",      "title": "Sink",          "icon": { "id": "minecraft:water_bucket",       "count": 1 } },
-      { "key": "artifacts.key.scarf_of_invisibility.toggle", "title": "Invisibility",  "icon": { "id": "minecraft:glass",              "count": 1 } }
+      { "key": "artifacts.key.universal_attractor.toggle",   "title": "Attractor",      "icon": { "id": "minecraft:lodestone",          "count": 1 } },
+      { "key": "artifacts.key.charm_of_shrinking.toggle",    "title": "Shrink",         "icon": { "id": "minecraft:small_amethyst_bud", "count": 1 } },
+      { "key": "artifacts.key.charm_of_sinking.toggle",      "title": "Sink",           "icon": { "id": "minecraft:water_bucket",       "count": 1 } },
+      { "key": "artifacts.key.scarf_of_invisibility.toggle", "title": "Invisibility",   "icon": { "id": "minecraft:glass",              "count": 1 } }
     ],
     "bookmark": -1
   },
@@ -24,13 +24,26 @@
   },
   {
     "id": "a1b2c3d4-0000-4000-8000-000000000003",
-    "name": "Pokemon Battle",
+    "name": "Pokemon Commands",
     "entries": [
-      { "key": "key.fightorflight.cmdmode.attack",      "title": "Attack!",       "icon": { "id": "minecraft:iron_sword",    "count": 1 } },
-      { "key": "key.fightorflight.cmdmode.move_attack", "title": "Move + Attack", "icon": { "id": "minecraft:shield",        "count": 1 } },
-      { "key": "key.fightorflight.cmdmode.move",        "title": "Just Move",     "icon": { "id": "minecraft:leather_boots", "count": 1 } },
-      { "key": "key.fightorflight.cmdmode.stay",        "title": "Stay",          "icon": { "id": "minecraft:lead",          "count": 1 } },
-      { "key": "key.fightorflight.cmdmode.nocmd",       "title": "No Command",    "icon": { "id": "minecraft:barrier",       "count": 1 } }
+      { "key": "key.fightorflight.cmdmode.attack",          "title": "Attack!",          "icon": { "id": "minecraft:iron_sword",     "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.move_attack",     "title": "Move + Attack",    "icon": { "id": "minecraft:shield",         "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.move",            "title": "Just Move",        "icon": { "id": "minecraft:leather_boots",  "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.stay",            "title": "Stay",             "icon": { "id": "minecraft:lead",           "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.nocmd",           "title": "No Command",       "icon": { "id": "minecraft:barrier",        "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.attack_position", "title": "Attack Position",  "icon": { "id": "minecraft:crossbow",       "count": 1 } },
+      { "key": "key.fightorflight.cmdmode.clear",           "title": "Clear Commands",   "icon": { "id": "minecraft:bucket",         "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-00000000000c",
+    "name": "Pokemon Moves",
+    "entries": [
+      { "key": "key.fightorflight.moveslot1", "title": "Move 1", "icon": { "id": "minecraft:red_dye",    "count": 1 } },
+      { "key": "key.fightorflight.moveslot2", "title": "Move 2", "icon": { "id": "minecraft:blue_dye",   "count": 1 } },
+      { "key": "key.fightorflight.moveslot3", "title": "Move 3", "icon": { "id": "minecraft:green_dye",  "count": 1 } },
+      { "key": "key.fightorflight.moveslot4", "title": "Move 4", "icon": { "id": "minecraft:yellow_dye", "count": 1 } }
     ],
     "bookmark": -1
   },
@@ -38,12 +51,85 @@
     "id": "a1b2c3d4-0000-4000-8000-000000000005",
     "name": "Abilities",
     "entries": [
-      { "key": "key.ars_nouveau.open_book",      "title": "Spellbook",         "icon": { "id": "minecraft:book",             "count": 1 } },
-      { "key": "key.cataclysm.helmet_ability",   "title": "Helmet Ability",    "icon": { "id": "minecraft:iron_helmet",      "count": 1 } },
-      { "key": "key.mekanism.head_mode",         "title": "Mekanism Head",      "icon": { "id": "minecraft:blaze_rod",        "count": 1 } },
-      { "key": "key.ars_nouveau.selection_hud",  "title": "Spell Selection",   "icon": { "id": "minecraft:amethyst_shard",   "count": 1 } },
-      { "key": "key.aether.invisibility_toggle", "title": "Aether Invisible",  "icon": { "id": "minecraft:fermented_spider_eye", "count": 1 } },
-      { "key": "key.cataclysm.boots_ability",    "title": "Boots Ability",     "icon": { "id": "minecraft:iron_boots",       "count": 1 } }
+      { "key": "key.ars_nouveau.open_book",          "title": "Spellbook",        "icon": { "id": "minecraft:book",                 "count": 1 } },
+      { "key": "key.cataclysm.helmet_ability",       "title": "Helmet Ability",   "icon": { "id": "minecraft:iron_helmet",           "count": 1 } },
+      { "key": "key.mekanism.head_mode",             "title": "Mekanism Head",    "icon": { "id": "minecraft:blaze_rod",             "count": 1 } },
+      { "key": "key.ars_nouveau.selection_hud",      "title": "Spell Selection",  "icon": { "id": "minecraft:amethyst_shard",        "count": 1 } },
+      { "key": "key.aether.invisibility_toggle.desc","title": "Aether Invisible", "icon": { "id": "minecraft:fermented_spider_eye",  "count": 1 } },
+      { "key": "key.cataclysm.boots_ability",        "title": "Boots Ability",    "icon": { "id": "minecraft:iron_boots",            "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-000000000006",
+    "name": "Ars Nouveau",
+    "entries": [
+      { "key": "key.ars_nouveau.familiar_toggle", "title": "Familiar Toggle", "icon": { "id": "minecraft:cat_spawn_egg",  "count": 1 } },
+      { "key": "key.ars_nouveau.open_book",       "title": "Spellbook",       "icon": { "id": "minecraft:book",           "count": 1 } },
+      { "key": "key.ars_nouveau.selection_hud",   "title": "Spell HUD",       "icon": { "id": "minecraft:amethyst_shard", "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-000000000007",
+    "name": "Building Wands",
+    "entries": [
+      { "key": "key.wands.wand_mode",         "title": "Mode",        "icon": { "id": "minecraft:stick",          "count": 1 } },
+      { "key": "key.wands.wand_undo",         "title": "Undo",        "icon": { "id": "minecraft:arrow",          "count": 1 } },
+      { "key": "key.wands.wand_invert",       "title": "Invert",      "icon": { "id": "minecraft:comparator",     "count": 1 } },
+      { "key": "key.wands.clear_wand",        "title": "Clear",       "icon": { "id": "minecraft:barrier",        "count": 1 } },
+      { "key": "key.wands.toggle_stair_slab", "title": "Stair/Slab",  "icon": { "id": "minecraft:oak_stairs",     "count": 1 } },
+      { "key": "key.wands.wand_rotate",       "title": "Rotate",      "icon": { "id": "minecraft:compass",        "count": 1 } },
+      { "key": "key.wands.palette_menu",      "title": "Palette",     "icon": { "id": "minecraft:painting",       "count": 1 } },
+      { "key": "key.wands.wand_fill_circle",  "title": "Fill Circle", "icon": { "id": "minecraft:hay_block",      "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-000000000008",
+    "name": "Traveler's Backpack",
+    "entries": [
+      { "key": "key.travelersbackpack.ability",     "title": "Ability",     "icon": { "id": "minecraft:leather_chestplate", "count": 1 } },
+      { "key": "key.travelersbackpack.cycle_tool",  "title": "Cycle Tool",  "icon": { "id": "minecraft:iron_pickaxe",       "count": 1 } },
+      { "key": "key.travelersbackpack.sort",        "title": "Sort",        "icon": { "id": "minecraft:hopper",             "count": 1 } },
+      { "key": "key.travelersbackpack.toggle_tank", "title": "Toggle Tank", "icon": { "id": "minecraft:water_bucket",       "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-000000000009",
+    "name": "Create",
+    "entries": [
+      { "key": "create.keyinfo.toolmenu",   "title": "Tool Menu", "icon": { "id": "minecraft:writable_book", "count": 1 } },
+      { "key": "create.keyinfo.toolbelt",   "title": "Tool Belt", "icon": { "id": "minecraft:leather",       "count": 1 } },
+      { "key": "create.keyinfo.rotate_menu","title": "Rotate",    "icon": { "id": "minecraft:dropper",       "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-00000000000a",
+    "name": "PneumaticCraft Armor",
+    "entries": [
+      { "key": "pneumaticcraft.armor.upgrade.jet_boots",              "title": "Jet Boots",      "icon": { "id": "minecraft:leather_boots",  "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.jet_boots.module.hover", "title": "Hover",          "icon": { "id": "minecraft:feather",        "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.magnet",                 "title": "Magnet",         "icon": { "id": "minecraft:lodestone",      "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.night_vision",           "title": "Night Vision",   "icon": { "id": "minecraft:golden_carrot",  "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.entity_tracker",         "title": "Entity Tracker", "icon": { "id": "minecraft:ender_eye",      "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.block_tracker",          "title": "Block Tracker",  "icon": { "id": "minecraft:nether_star",    "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.charging",               "title": "Charging",       "icon": { "id": "minecraft:redstone",       "count": 1 } },
+      { "key": "pneumaticcraft.armor.upgrade.scuba",                  "title": "Scuba",          "icon": { "id": "minecraft:turtle_helmet",  "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
+    "id": "a1b2c3d4-0000-4000-8000-00000000000b",
+    "name": "JourneyMap",
+    "entries": [
+      { "key": "key.journeymap.create_waypoint",   "title": "New Waypoint",    "icon": { "id": "minecraft:gold_nugget", "count": 1 } },
+      { "key": "key.journeymap.toggle_waypoints",  "title": "Toggle Waypoints","icon": { "id": "minecraft:map",         "count": 1 } },
+      { "key": "key.journeymap.zoom_in",           "title": "Zoom In",         "icon": { "id": "minecraft:spyglass",    "count": 1 } },
+      { "key": "key.journeymap.zoom_out",          "title": "Zoom Out",        "icon": { "id": "minecraft:glass_bottle","count": 1 } },
+      { "key": "key.journeymap.minimap_toggle_alt","title": "Toggle Minimap",  "icon": { "id": "minecraft:filled_map",  "count": 1 } }
     ],
     "bookmark": -1
   },
@@ -51,10 +137,10 @@
     "id": "a1b2c3d4-0000-4000-8000-000000000004",
     "name": "Quick Settings",
     "entries": [
-      { "key": "iris.keybind.shaderPackSelection", "title": "Shader Pack",    "icon": { "id": "minecraft:tinted_glass",       "count": 1 } },
-      { "key": "iris.keybind.reload",              "title": "Reload Shaders", "icon": { "id": "minecraft:recovery_compass",   "count": 1 } },
-      { "key": "key.entityculling.toggle",         "title": "Entity Culling", "icon": { "id": "minecraft:ender_eye",          "count": 1 } },
-      { "key": "key.jade.config",                  "title": "Jade Config",    "icon": { "id": "minecraft:spyglass",           "count": 1 } }
+      { "key": "iris.keybind.shaderPackSelection", "title": "Shader Pack",    "icon": { "id": "minecraft:tinted_glass",     "count": 1 } },
+      { "key": "iris.keybind.reload",              "title": "Reload Shaders", "icon": { "id": "minecraft:recovery_compass", "count": 1 } },
+      { "key": "key.entityculling.toggle",         "title": "Entity Culling", "icon": { "id": "minecraft:ender_eye",        "count": 1 } },
+      { "key": "key.jade.config",                  "title": "Jade Config",    "icon": { "id": "minecraft:spyglass",         "count": 1 } }
     ],
     "bookmark": -1
   }

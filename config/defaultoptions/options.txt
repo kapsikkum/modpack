@@ -223,7 +223,7 @@ key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
 key_key.immersive_aircraft.dismount:key.keyboard.z
 key_key.immersive_aircraft.boost:key.keyboard.u
-key_key.relics.active_abilities_list:key.keyboard.left.alt
+key_key.relics.active_abilities_list:key.keyboard.unknown
 key_key.relics.research_relic:key.keyboard.left.shift
 key_key.carry.desc:key.keyboard.unknown
 key_key.cataclysm.ability:key.keyboard.x
