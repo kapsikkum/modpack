@@ -110,7 +110,7 @@ hash = "054e4c92bea29bd0a746579cfd6c2f9acb88a2d369265c550bd9afac3bd974ed"
 
 [[files]]
 file = "config/lootr-common.toml"
-hash = "673991189339a20b11e6b0a609dfcc68aadc64dc849a3399eb1d546a83a6884b"
+hash = "d4ce880dadf49ce7784292ea742f4681ef25b3ca778dfa5ae4e19661885fc958"
 
 [[files]]
 file = "config/mutantmonsters-common.toml"
@@ -146,7 +146,7 @@ hash = "428034537d5c1412e59bff8b7df447e1901d3fb0816b1f479cafb2034098b772"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
-hash = "a5ad964a23e4a0b14d6004b6e538843992c4e1cd2d41dcf22f23b191faa358da"
+hash = "016017b0b255393295828171b42bcb626199212ee2f9a36903e118fdbc7608c1"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
@@ -326,6 +326,10 @@ hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
 [[files]]
 file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
+
+[[files]]
+file = "kubejs/server_scripts/loot_tables.js"
+hash = "364dd5f42067ba1ec81705d680432556b44bc3b2acc4f86f21fc8a2d63c13f4d"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
@@ -1176,6 +1180,11 @@ metafile = true
 [[files]]
 file = "mods/lmft.pw.toml"
 hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "3b7b23c07ab60d818286d5767e59375a9eafdd52fbfb8d6e2e14fcc79df5a584"
 metafile = true
 
 [[files]]

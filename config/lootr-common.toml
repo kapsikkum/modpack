@@ -35,11 +35,11 @@ maximum_age = 3600
 
 # Prevent Lootr chests from being destroyed by explosions.
 # Default: false
-blast_resistant = false
+blast_resistant = true
 
 # Prevent players from breaking Lootr chests except while sneaking in creative mode.
 # Default: false
-disable_break = false
+disable_break = true
 
 # Comparator output: true = always 1 (preserves trap behaviour); false = always 0.
 # Recommended: true to avoid breaking structure traps that rely on comparator output.
@@ -53,7 +53,7 @@ report_unresolved_tables = false
 # Force ALL containers to refresh their loot after refresh_value ticks.
 # Overrides refresh_loot_tables, refresh_modids, and refresh_dimensions.
 # Default: false
-refresh_all = false
+refresh_all = true
 
 # Force ALL containers to decay after decay_value ticks once first opened.
 # Overrides decay_loot_tables, decay_modids, and decay_dimensions.
@@ -65,8 +65,9 @@ decay_all = false
 decay_value = 6000
 
 # Ticks before a refreshing container regenerates its loot (default: 24000 = 20 minutes).
+# 168000 = 1 in-game week (~2.3 hours real time)
 #Range: > 0
-refresh_value = 24000
+refresh_value = 168000
 
 # Lists — add entries to restrict or extend Lootr's conversion behaviour.
 # Format examples: ["minecraft:overworld", "minecraft:the_nether"] or ["modid:loot_table_path"]
