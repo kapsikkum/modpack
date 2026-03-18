@@ -50,7 +50,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "4b0864eb760dab7bf002c44699b721170fb7ac7a5a8b19f93895830213ed9cc5"
+hash = "08aa2f6e077772f69a1430da8006b156ab6880598889b699cf79f8e9dd044295"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -330,6 +330,10 @@ hash = "460de484f9bdcc60231b1a98ff40b35ccfe98914bb2333a8992314d8b43d0ce2"
 [[files]]
 file = "journeymap/config/6.0/journeymap.webmap.config"
 hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
+
+[[files]]
+file = "keybind_bundles.json"
+hash = "d3978084612e92d56ab7c5521e95a74acd22c784133ea5e9cf2dd258fbe0a281"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
