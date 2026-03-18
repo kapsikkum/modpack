@@ -1110,7 +1110,7 @@ metafile = true
 
 [[files]]
 file = "mods/keybind-bundles.pw.toml"
-hash = "a26c954738dd29a9e99600916db36ac3f68c6508358119c82e2442d256eac128"
+hash = "3b7614e497768e582c905bb3f3662b14ebd5ecb0da595a0833c3996c6b87838e"
 metafile = true
 
 [[files]]
@@ -1306,11 +1306,6 @@ metafile = true
 [[files]]
 file = "mods/mutant-monsters.pw.toml"
 hash = "e672245ac368cb42b521a0be668fed61a5b5129d25eec7b8db7722e8f49e2292"
-metafile = true
-
-[[files]]
-file = "mods/mythicmetals.pw.toml"
-hash = "6cd61a5aa5e61b69bd3ed29b7f09a7e8c5e2ba5fc0cb8a405a23e1234e2a7f3b"
 metafile = true
 
 [[files]]
