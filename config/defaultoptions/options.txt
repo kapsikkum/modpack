@@ -3,7 +3,7 @@ toggleCrawl:false
 ao:true
 biomeBlendRadius:2
 enableVsync:false
-entityDistanceScaling:1.0
+entityDistanceScaling:0.75
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
@@ -23,8 +23,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:12
-simulationDistance:12
+renderDistance:10
+simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -39,7 +39,7 @@ realmsNotifications:true
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false

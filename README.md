@@ -1,6 +1,6 @@
 # Modpack
 
-**Minecraft 1.21.1 · NeoForge 21.1.220 · By Solariity & kapsikkum**
+**Minecraft 1.21.1 · NeoForge 21.1.219 · By Solariity & kapsikkum**
 
 A kitchen-sink modpack combining Create, Cobblemon, Ars Nouveau, Applied Energistics 2, Mekanism, and a lot more.
 
