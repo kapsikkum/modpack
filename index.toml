@@ -50,7 +50,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "08aa2f6e077772f69a1430da8006b156ab6880598889b699cf79f8e9dd044295"
+hash = "4bdfc5d07caa6fc8c1d46f10bb23bf78dbac126a03334f218902570a7c4e19e5"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -333,7 +333,7 @@ hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
 file = "keybind_bundles.json"
-hash = "d3978084612e92d56ab7c5521e95a74acd22c784133ea5e9cf2dd258fbe0a281"
+hash = "7ef7c88333ebf3a3d353f8cb7f74562ef1a84430d16b0e273d61e1c9db8dce7d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"

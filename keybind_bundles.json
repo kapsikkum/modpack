@@ -35,6 +35,19 @@
     "bookmark": -1
   },
   {
+    "id": "a1b2c3d4-0000-4000-8000-000000000005",
+    "name": "Abilities",
+    "entries": [
+      { "key": "key.ars_nouveau.open_book",      "title": "Spellbook",         "icon": { "id": "minecraft:book",             "count": 1 } },
+      { "key": "key.cataclysm.helmet_ability",   "title": "Helmet Ability",    "icon": { "id": "minecraft:iron_helmet",      "count": 1 } },
+      { "key": "key.mekanism.head_mode",         "title": "Mekanism Head",      "icon": { "id": "minecraft:blaze_rod",        "count": 1 } },
+      { "key": "key.ars_nouveau.selection_hud",  "title": "Spell Selection",   "icon": { "id": "minecraft:amethyst_shard",   "count": 1 } },
+      { "key": "key.aether.invisibility_toggle", "title": "Aether Invisible",  "icon": { "id": "minecraft:fermented_spider_eye", "count": 1 } },
+      { "key": "key.cataclysm.boots_ability",    "title": "Boots Ability",     "icon": { "id": "minecraft:iron_boots",       "count": 1 } }
+    ],
+    "bookmark": -1
+  },
+  {
     "id": "a1b2c3d4-0000-4000-8000-000000000004",
     "name": "Quick Settings",
     "entries": [
