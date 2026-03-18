@@ -194,7 +194,7 @@ hash = "58885c2913047cc79133097d12344c9d718f9dd1d0437e0a3793322cb59cecdb"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "83a01fd92863b419581ccf468681bc74f80b5e999e1f00a0b41e0edc6dce0ee5"
+hash = "e7a5ab2364e8b33b35a91f5c926072ffc8ef1d8c1bda6e7aac2c2cd390f98b26"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"

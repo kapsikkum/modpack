@@ -13,7 +13,7 @@
 
 [teleports]
     # Set to false to disable all XP costs.
-    enableCosts = true
+    enableCosts = false
     # Set to false to disable all cooldowns.
     enableCooldowns = true
     # Fine-grained cost/cooldown rules applied in order.
