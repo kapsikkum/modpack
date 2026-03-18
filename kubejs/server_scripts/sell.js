@@ -127,8 +127,14 @@ function sellStack(player, itemId, count) {
   const sold = sets * price.amount
   const earned = sets * price.value
 
-  // Remove exactly what we sold
-  player.inventory.clear(itemId, sold)
+  // KubeJS clear() only accepts a single argument (item ID); use
+  // clear-all + give-back to remove exactly 'sold' items.
+  const totalInInventory = player.inventory.count(itemId)
+  const excess = totalInInventory - sold
+  player.inventory.clear(itemId)
+  if (excess > 0) {
+    player.give(Item.of(itemId, excess))
+  }
 
   const bankData = player.persistentData
   bankData.PersonalBank = (bankData.PersonalBank || 0) + earned
@@ -181,21 +187,13 @@ ServerEvents.commandRegistry((event) => {
             if (!player) return 0
 
             let totalEarned = 0
-            const alreadySold = {}
 
-            // Scan all inventory slots
-            for (let slot = 0; slot < player.inventory.size; slot++) {
-              const stack = player.inventory.getItem(slot)
-              if (!stack || stack.id === 'minecraft:air') continue
-              if (alreadySold[stack.id]) continue
-              alreadySold[stack.id] = true
-
-              const price = PRICES[stack.id]
-              if (!price) continue
-
-              const currentCount = player.inventory.count(stack.id)
-              const earned = sellStack(player, stack.id, currentCount)
-              totalEarned += earned
+            // Iterate every sellable item type and sell whatever the player has.
+            // (Avoids relying on inventory.size / inventory.getItem slot API.)
+            for (const itemId of Object.keys(PRICES)) {
+              const currentCount = player.inventory.count(itemId)
+              if (currentCount === 0) continue
+              totalEarned += sellStack(player, itemId, currentCount)
             }
 
             if (totalEarned === 0) {
