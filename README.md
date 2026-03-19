@@ -107,7 +107,7 @@ These mods are locked at specific versions and **must not be updated** without c
 ## Mod List
 
 <details>
-<summary>Click to expand (~285 mods)</summary>
+<summary>Click to expand (~295 mods)</summary>
 
 ### Core & APIs
 - Architectury API
@@ -355,6 +355,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Easy Anvils
 - Easy Magic
 - EMI
+- Chat Heads
 - Explorer's Compass
 - Inventory Profiles Next
 - Jade 🔍
@@ -365,6 +366,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Lootr
 - Mouse Tweaks
 - Nature's Compass
+- No Chat Reports
 - Polymorph
 - Recipe Essentials
 - Reese's Sodium Options
@@ -377,6 +379,7 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Maps & Info
 - BlueMap
+- Distant Horizons
 - JourneyMap
 - JourneyMap Integration
 - Modopedia
@@ -385,8 +388,10 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Quality of Life
 - Accessories
+- BetterF3
 - Bridging Mod
 - Building Wands
+- Cherished Worlds
 - Chunky
 - Configured
 - Crawl
@@ -410,11 +415,15 @@ These mods are locked at specific versions and **must not be updated** without c
 - AmbientSounds
 - [EMF] Entity Model Features
 - [ETF] Entity Texture Features
+- 3D Skin Layers
+- Continuity
 - Entity Culling
 - Exposure
 - Fresh Animations
 - Iris Shaders
+- LambDynamicLights
 - Luminous
+- Not Enough Animations
 - Sound Physics Remastered
 
 ### Tech & Scripting

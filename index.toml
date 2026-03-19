@@ -380,6 +380,11 @@ file = "kubejs/startup_scripts/wallet.js"
 hash = "545d02512d3a0cd20597d19312ac85fb3ef6b1d52187be391046ab1ed6ec5577"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
+metafile = true
+
+[[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "29fbcd5ef12fd11ab78e9696cd6ca7e2bf4ffc18ae4525ef81a7fc2c029a2678"
 metafile = true
@@ -485,6 +490,11 @@ hash = "2b75c579e6dec00700a1a8407769020370b9ba11d52bacd0ea893d564d91b965"
 metafile = true
 
 [[files]]
+file = "mods/betterf3.pw.toml"
+hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
+metafile = true
+
+[[files]]
 file = "mods/bigger-ae2.pw.toml"
 hash = "b6b710a09514400c8e36511c4606296b56a43ba3a1044ef4fce903aec03efe9a"
 metafile = true
@@ -530,8 +540,18 @@ hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "113f65b62b62a8b34d50c1dc3260106581aaf5b84d10dc15c0195a9488a61453"
+metafile = true
+
+[[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "4c05ea60d85212e4737d23a4b5ee74659a37c7cb9d6ab54c71b2eca56ed1f58c"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "63f417eca4f251f85a5ae512394cbb9fa88dfdfb2b934b94637ba8b7dac1a831"
 metafile = true
 
 [[files]]
@@ -546,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "6068e9dba7098eb69fc84c96b4e734daa6493c3ee6817c9ec4e6d8e62d93cb1b"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -637,6 +657,11 @@ metafile = true
 [[files]]
 file = "mods/connector.pw.toml"
 hash = "22a17b5a108b360fccd8306eae07b1aea6c9eb3684b692414e2d1081b0830d98"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
 metafile = true
 
 [[files]]
@@ -857,6 +882,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-walls.pw.toml"
 hash = "7d7ea085be5dac23270c3935a1e1e7d35e1f52587985661a71dfdfc03d65fea4"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "61ce79aeecd3101399a33bbea16444736f2988b363a63c9f3b6a2c4fb0b3828a"
 metafile = true
 
 [[files]]
@@ -1180,6 +1210,11 @@ hash = "789d147b03cb1fc88b920fd2e6e540021c75531d29b3823faf05877354120532"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "502d4ba2ca8c7f6f52830cfc43fc12b567023266f2b557ee2b8eea737b58f8ea"
+metafile = true
+
+[[files]]
 file = "mods/lavender.pw.toml"
 hash = "0964a3bb4a804f0829eba55c68a312d7bd6f0eb2095049b7140dbb8ff81f2498"
 metafile = true
@@ -1362,6 +1397,16 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "9f504d34f076cf2eda1695a145b59f3d2c79705b13d955459e7372fca1e36ee7"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "98e6183c07de15c2565ee2afa70b930a877fc8d03722985f2c8137fd67da894d"
 metafile = true
 
 [[files]]
