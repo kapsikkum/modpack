@@ -1,0 +1,71 @@
+# Distant Horizons configuration — managed by packwiz.
+# Key changes from defaults:
+#   lodChunkRenderDistanceRadius  512  (default 256) — wider LOD view
+#   enableAutoUpdater             false               — packwiz manages versions
+#   realTimeUpdateDistanceRadiusInChunks 512 (default 256) — matches client radius
+
+# _version is omitted; DH will populate it automatically on first launch.
+
+[client.advanced.graphics]
+    # Let DH disable vanilla clouds (which render on top of LODs) and MC chunk fade.
+    overrideVanillaGraphicsSettings = true
+
+[client.advanced.graphics.quality]
+    # Render distance for LODs in chunks.  Range: 32-4096, default: 256.
+    # 512 gives a noticeably wider view on modern hardware.
+    lodChunkRenderDistanceRadius = 512
+
+    # How quickly LOD quality falls off with distance.  Default: MEDIUM.
+    horizontalQuality = "MEDIUM"
+
+    # How well caves, overhangs and floating islands are represented.  Default: MEDIUM.
+    verticalQuality = "MEDIUM"
+
+    # Maximum per-LOD detail level.  BLOCK = one LOD per block (highest).  Default: BLOCK.
+    maxHorizontalResolution = "BLOCK"
+
+    # LOD transparency handling.  COMPLETE = render transparent.  Default: COMPLETE.
+    transparency = "COMPLETE"
+
+    # Biome colour blending for LODs (matches vanilla 7x7 at max).  Default: 3.
+    lodBiomeBlending = 3
+
+[client.advanced.graphics.ssao]
+    # Screen-space ambient occlusion on LODs.  Default: true.
+    enableSsao = true
+
+[client.advanced.graphics.fog]
+    # DH-managed fog on LODs.  Default: true.
+    enableDhFog = true
+
+    # Vanilla Minecraft fog inside the LOD distance.
+    # Disabled so DH fog is the sole fog layer.  Default: false.
+    enableVanillaFog = false
+
+[client.advanced.graphics.culling]
+    # Skip rendering underground cave LODs — improves performance.  Default: true.
+    enableCaveCulling = true
+
+[client.advanced.graphics.genericRendering]
+    # Render beacon beams and clouds as LOD objects.  Default: true.
+    enableGenericRendering = true
+
+[client.advanced.autoUpdater]
+    # Packwiz manages mod versions; disable DH's own auto-updater.
+    enableAutoUpdater = false
+
+[common.worldGenerator]
+    # Generate LODs beyond the vanilla render distance.  Default: true.
+    enableDistantGeneration = true
+
+    # Detail level for LOD world generation outside the vanilla render distance.
+    # FEATURES = terrain + trees + most decorations (no structures).  Default: FEATURES.
+    distantGeneratorMode = "FEATURES"
+
+[server]
+    # Enable the server to generate and send LOD data to clients.  Default: true.
+    enableServerGeneration = true
+
+    # Radius around each player for real-time LOD updates, in chunks.
+    # Set to match the client LOD render distance above.  Default: 256.
+    realTimeUpdateDistanceRadiusInChunks = 512
