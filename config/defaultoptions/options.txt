@@ -281,7 +281,7 @@ key_key.fightorflight.cmdmode.nocmd:key.keyboard.unknown
 key_key.fightorflight.cmdmode.clear:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.k
 key_supplementaries.keybind.quiver:key.keyboard.unknown
-key_key.crawl:key.keyboard.c
+key_key.crawl:key.keyboard.right.alt
 key_create.keyinfo.toolmenu:key.keyboard.unknown
 key_create.keyinfo.toolbelt:key.keyboard.unknown
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
@@ -331,7 +331,7 @@ key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.create_sa.flying:key.keyboard.space
 key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
-key_justzoom.keybinds.keybind.zoom:key.keyboard.z
+key_justzoom.keybinds.keybind.zoom:key.keyboard.c
 key_key.entityculling.toggle:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.fall_protection:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.hover:key.keyboard.unknown
