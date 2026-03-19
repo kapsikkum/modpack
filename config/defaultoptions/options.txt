@@ -90,6 +90,9 @@ onboardAccessibility:false
 menuBackgroundBlurriness:5
 key_key.keybindbundles.open_radial_menu:key.keyboard.left.alt
 key_key.keybindbundles.open_screen:key.keyboard.unknown
+key_key.keybindbundles.bundle_a1b2c3d4-0000-4000-8000-000000000010:key.keyboard.z
+key_key.keybindbundles.bundle_a1b2c3d4-0000-4000-8000-000000000011:key.keyboard.x
+key_key.keybindbundles.bundle_a1b2c3d4-0000-4000-8000-000000000012:key.keyboard.g
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w

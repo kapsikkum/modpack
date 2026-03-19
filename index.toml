@@ -50,7 +50,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "af08436f9dcf24e72a5995334ad3b3afa054e9c37978cb5461cf9b02238f2603"
+hash = "92e0d3a2436d7df4563ad1cc38d5f4da77198264aa61a9e3ff91971eede52cc1"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -333,7 +333,7 @@ hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
 file = "keybind_bundles.json"
-hash = "8eb17a42132d1459f6068bde53b934af858d33fd685285f855f297b387ac54df"
+hash = "fdb8204c7f1da511491b696eb3950c54980b6568793436269491ae975d4c7235"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
@@ -365,7 +365,7 @@ hash = "364dd5f42067ba1ec81705d680432556b44bc3b2acc4f86f21fc8a2d63c13f4d"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
-hash = "83bb515481da6898a809ce7317532d773e45287c48dc3bd3c08c35be9ac635fc"
+hash = "e6073849a158c0cf02908cedaff87db0120cd2bc72722bf7956bcadf90c3e8cc"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
