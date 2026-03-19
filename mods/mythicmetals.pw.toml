@@ -1,14 +1,16 @@
 name = "Mythic Metals"
-filename = "mythicmetals-0.24.4+1.21.jar"
+filename = "mythicmetals-0.22.4+1.21.jar"
 side = "both"
-pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/bAWzYNRd/versions/L4U4Xcn7/mythicmetals-0.24.4%2B1.21.jar"
+url = "https://cdn.modrinth.com/data/bAWzYNRd/versions/jSUPxfNM/mythicmetals-0.22.4%2B1.21.jar"
 hash-format = "sha512"
-hash = "8d9904e15fa3f0d7f775ff910a1e0657453e625dfee2f96353e52d81cfd856f0dfd133012839bf5a1c7a3c67cb714742ba884e3659a4a2b1d0baf8e593bec408"
+hash = "bf03564ba0e8af95adebcc36d95a60b2df494984a3ba8e887102600c859aa5f426d4b0450dc97f49681725e3da489cafb757cbbeed1bc8014a16b4a378707f69"
+
+[option]
+pin = true
 
 [update]
 [update.modrinth]
 mod-id = "bAWzYNRd"
-version = "L4U4Xcn7"
+version = "jSUPxfNM"
