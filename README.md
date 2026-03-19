@@ -462,14 +462,17 @@ Most non-standard keybinds are grouped into three radial menus via [KeyBind Bund
 
 | Key | Bundle | Contents |
 |-----|--------|----------|
-| **Z** | Pokemon | Pokemon battle commands (Attack, Move+Attack, Move, Stay, No Command, Attack Position, Clear) + Move slots 1–4 |
+| **Z** | Pokemon | Battle commands (Attack, Move+Attack, Move, Stay, No Command, Attack Position, Clear) + Move slots 1–4 |
 | **X** | Abilities | Artifacts toggles · Ars Nouveau (familiar, spellbook, spell HUD) · Cataclysm helmet/boots abilities · Mekanism head mode · Aether invisibility · PneumaticCraft armor upgrades (jet boots, hover, magnet, night vision, trackers, charging, scuba) |
-| **G** | Utility | AE2 terminals · Create tools · Building Wands · Traveler's Backpack · JourneyMap (waypoints, zoom, minimap toggle) · Shader/Iris controls · Entity Culling · Jade config |
+| **G** | Utility | AE2 terminals · Create tools · Building Wands · Traveler's Backpack · JourneyMap (waypoints, zoom, minimap toggle) |
+| **V** | Settings | Shader Pack selection · Reload Shaders · Entity Culling toggle · Jade Config |
 
 ### Other Notable Binds
 
 | Key | Action |
 |-----|--------|
+| **J** | Cobblemon summary (selected party Pokémon) |
+| **M** | JourneyMap fullscreen |
 | **C** | Crawl (toggle) |
 | **Left Alt** | Radial menu modifier (hold while pressing a bundle key to force-open the radial) |
 | **` (Grave)** | FTB Ultimine |
