@@ -443,3 +443,30 @@ Quest chapters are in `config/ftbquests/quests/chapters/`.
 | Mekanism | Ore processing, nuclear power |
 | Food & Farming | Farmer's Delight, Cooking for Blockheads, Brewin' & Chewin' |
 | Adventure & Exploration | Bosses, Deep Dark, Aether, L_Ender's Cataclysm |
+
+---
+
+## Controls
+
+Most non-standard keybinds are grouped into three radial menus via [KeyBind Bundles](https://www.curseforge.com/minecraft/mc-mods/keybind-bundles).
+
+**How radial menus work:**
+- **Hold** the assigned key to open the radial menu, hover over an entry, then release.
+- **Right-click** an entry to bookmark it — the next press of that key will trigger it directly without opening the radial.
+- To open the radial even when a bookmark is set, hold **Left Alt** while pressing the key.
+
+### Radial Menus
+
+| Key | Bundle | Contents |
+|-----|--------|----------|
+| **Z** | Pokemon | Pokemon battle commands (Attack, Move+Attack, Move, Stay, No Command, Attack Position, Clear) + Move slots 1–4 |
+| **X** | Abilities | Artifacts toggles · Ars Nouveau (familiar, spellbook, spell HUD) · Cataclysm helmet/boots abilities · Mekanism head mode · Aether invisibility · PneumaticCraft armor upgrades (jet boots, hover, magnet, night vision, trackers, charging, scuba) |
+| **G** | Utility | AE2 terminals · Create tools · Building Wands · Traveler's Backpack · JourneyMap (waypoints, zoom, minimap toggle) · Shader/Iris controls · Entity Culling · Jade config |
+
+### Other Notable Binds
+
+| Key | Action |
+|-----|--------|
+| **C** | Crawl (toggle) |
+| **Left Alt** | Radial menu modifier (hold while pressing a bundle key to force-open the radial) |
+| **` (Grave)** | FTB Ultimine |
