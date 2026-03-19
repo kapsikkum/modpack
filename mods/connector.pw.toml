@@ -1,6 +1,7 @@
 name = "Sinytra Connector"
 filename = "connector-2.0.0-beta.8+1.21.1-full.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/u58R1TMW/versions/KrmWHpgS/connector-2.0.0-beta.8%2B1.21.1-full.jar"
