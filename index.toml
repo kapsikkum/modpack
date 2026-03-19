@@ -388,11 +388,6 @@ file = "kubejs/startup_scripts/wallet.js"
 hash = "545d02512d3a0cd20597d19312ac85fb3ef6b1d52187be391046ab1ed6ec5577"
 
 [[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
-metafile = true
-
-[[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "29fbcd5ef12fd11ab78e9696cd6ca7e2bf4ffc18ae4525ef81a7fc2c029a2678"
 metafile = true
