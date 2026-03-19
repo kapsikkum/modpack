@@ -232,11 +232,12 @@ key_key.cataclysm.chestplate_ability:key.keyboard.y
 key_key.cataclysm.boots_ability:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma
 key_key.ftbultimine:key.keyboard.grave.accent
+key_keybind.createqol.open_armor_config:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.keypad.subtract
 key_key.oritech.augment_screen:key.keyboard.g
 key_key.oracle_index.open:key.keyboard.h
 key_key.oracle_index.search:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.grave.accent
+key_key.ftbquests.quests:key.keyboard.p
 key_key.wands.wand_orientation:key.keyboard.unknown
 key_key.wands.toggle_stair_slab:key.keyboard.unknown
 key_key.wands.wand_action:key.keyboard.unknown
