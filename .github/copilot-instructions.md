@@ -163,3 +163,73 @@ To exclude files from the pack entirely (e.g. local test configs), add patterns 
 - "Use `packwiz update` to update Aether to the latest compatible version and list validation steps."
 - "Add a new config for `ambientsounds` to `config/ambientsounds-client.json` that reduces volume, explain the fields changed." 
 - "Locate unused or duplicate mod entries across `mods/` and `global_packs/` and suggest consolidation."
+
+---
+
+## Server deployment workflow
+
+The dedicated server is a NixOS machine accessible via SSH. It runs a systemd service called `minecraft-server-modpack`. The service uses `packwiz-installer-bootstrap` as a pre-start hook to sync the pack from GitHub Pages on every startup.
+
+### Key facts
+- **Server hostname:** `minecraft.kapsikkum.net`
+- **Service name:** `minecraft-server-modpack`
+- **Server working directory:** `/srv/minecraft/modpack/`
+- **Mods directory:** `/srv/minecraft/modpack/mods/`
+- **Crash reports:** `/srv/minecraft/modpack/crash-reports/`
+- **Pack is served via GitHub Pages** at `https://kapsikkum.github.io/modpack/pack.toml`
+- Git push → GitHub Pages rebuild → next server restart picks up changes
+
+### Standard deploy cycle
+
+```bash
+# 1. Make changes locally (edit files, use packwiz commands, etc.)
+packwiz refresh
+
+# 2. Commit and push — this triggers GitHub Pages rebuild
+git add -A && git commit -m "<message>" && git push
+
+# 3. Wait for Pages to propagate before restarting (usually ~30s)
+# Poll until the change is live:
+until curl -s https://kapsikkum.github.io/modpack/mods/<file>.pw.toml | grep -q '<expected string>'; do sleep 5; done
+echo "Pages updated"
+
+# 4. Restart the server
+ssh minecraft.kapsikkum.net 'sudo systemctl restart minecraft-server-modpack'
+
+# 5. Verify — wait ~90s for full startup, then check logs
+ssh minecraft.kapsikkum.net 'journalctl -u minecraft-server-modpack --since "2 minutes ago" --no-pager | grep -E "Done|For help|FATAL|Exception"'
+```
+
+> **Important:** Always wait for GitHub Pages to propagate before restarting the server. If you restart too early, the server will download the old version of the pack. Poll the live URL to confirm.
+
+### Diagnosing crashes
+
+```bash
+# Most recent journal output (fast, no file needed)
+ssh minecraft.kapsikkum.net 'journalctl -u minecraft-server-modpack -n 200 --no-pager'
+
+# FML crash reports (more detail, includes mod list)
+ssh minecraft.kapsikkum.net 'ls -lt /srv/minecraft/modpack/crash-reports/ | head -5'
+ssh minecraft.kapsikkum.net 'cat /srv/minecraft/modpack/crash-reports/<latest>.txt | head -80'
+
+# Check which jar was actually downloaded (useful when diagnosing version issues)
+ssh minecraft.kapsikkum.net 'ls -la /srv/minecraft/modpack/mods/ | grep <modname>'
+```
+
+**Common crash patterns:**
+
+| Symptom | Likely cause | Fix |
+|---------|-------------|-----|
+| `MixinPreProcessorException` … `INVOKESTATIC net/minecraft/client/…` | Fabric mod with unguarded client mixin loaded on server | set `side = "server"` or remove the mod |
+| `NoClassDefFoundError: org/ladysnake/cca/…` from `things` | Sinytra Connector regression in beta.9+ breaks CCA classloading | Keep Connector pinned to `beta.8` |
+| `DecodingError: no value found for non-nullable parameter 'optional'` | `pin = true` was placed inside `[option]` block in a `.pw.toml` | `pin = true` must be a **top-level** field, not under `[option]` |
+| packwiz-installer fails with `DecodingError` for any mod | A field in a `.pw.toml` is not understood by the installer version on the server | Check which field is named in the error; `pin = true` at top level is safe, `[option]` must contain `optional = true/false` |
+
+### Pinning mods
+
+`packwiz pin <name>` writes `pin = true` at the top level of a `.pw.toml`. This is safe for the packwiz-installer — it ignores unknown top-level fields. Do **not** put `pin = true` inside an `[option]` block; that block requires `optional = true/false` and will cause a `DecodingError` at install time.
+
+```bash
+packwiz pin connector     # correct — writes top-level pin = true
+packwiz unpin connector   # removes it
+```

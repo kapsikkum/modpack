@@ -96,8 +96,11 @@ These mods are locked at specific versions and **must not be updated** without c
 | **Relics: Artifacts Compat** | `0.9.7` | Last version supporting Relics 0.10.x — v1.0 requires Relics ≥ 0.11.8, causes crash on launch |
 | **Reliquified Ars Nouveau** | `0.6.1` | Newer versions require Relics ≥ 0.11.8 |
 | **Reliquified L_Ender's Cataclysm** | `0.1.1` | Newer versions require Relics ≥ 0.11.8 |
+| **Sinytra Connector** | `2.0.0-beta.8` | beta.9+ broke Cardinal Components API classloading through Connector — causes `things` to crash the server with `NoClassDefFoundError: org/ladysnake/cca/api/v3/entity/EntityComponentInitializer` at startup |
 
 > **Warning:** Do NOT unpin or update any of the above without also updating Relics to ≥ 0.11.8 and verifying all four are mutually compatible.
+
+> **Warning (Connector):** Before unpinning Connector, test that `things` (and anything else using Cardinal Components API via Connector) still loads on the dedicated server. The CCA classloader regression was introduced between beta.8 and beta.9.
 
 ---
 
