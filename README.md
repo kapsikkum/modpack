@@ -107,13 +107,14 @@ These mods are locked at specific versions and **must not be updated** without c
 ## Mod List
 
 <details>
-<summary>Click to expand (~240 mods)</summary>
+<summary>Click to expand (~285 mods)</summary>
 
 ### Core & APIs
 - Architectury API
 - AzureLib
 - Balm
 - Caelus API
+- Cardinal Components API
 - Cloth Config API
 - CreativeCore
 - Cupboard
@@ -124,6 +125,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - GlitchCore
 - Glodium
 - JinxedLib
+- Konkrete
 - Kotlin for Forge
 - libIPN
 - Lionfish-API
@@ -252,6 +254,7 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Exploration & Structures
 - Dungeons and Taverns
+- End Remastered
 - Incendium
 - MES - Moog's End Structures
 - MMV - Moog's Missing Villages
@@ -392,6 +395,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Fast IP Ping
 - Fusion (Connected Textures)
 - Global Packs
+- Just Another Rotten Flesh to Leather Mod
 - Leaves Be Gone
 - Load My F***ing Tags
 - Moyai
@@ -417,6 +421,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Almost Unified
 - Alloy Forgery
 - KubeJS
+- LootJS: KubeJS Addon
 - Oritech
 - PneumaticCraft: Repressurized
 
