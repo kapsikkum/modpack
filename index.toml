@@ -50,7 +50,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "64eedcc452c97d8c77d5532b0c4984ab1d044ae0d767dba90b39d4fea9f49cb0"
+hash = "3e4c9b71bd8601774583a14474b75387a829f8d73de2ac9b27eef5ecf9b7849c"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1796,7 +1796,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "64eedcc452c97d8c77d5532b0c4984ab1d044ae0d767dba90b39d4fea9f49cb0"
+hash = "3e4c9b71bd8601774583a14474b75387a829f8d73de2ac9b27eef5ecf9b7849c"
 
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Even More Delight.zip"

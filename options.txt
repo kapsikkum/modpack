@@ -305,7 +305,7 @@ key_key.journeymap.fullscreen.east:key.keyboard.unknown
 key_key.journeymap.fullscreen.west:key.keyboard.unknown
 key_key.journeymap.fullscreen_follow_player:key.keyboard.f
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
-key_key.journeymap.toggle_entity_names:key.keyboard.g
+key_key.journeymap.toggle_entity_names:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.charm_of_shrinking.toggle:key.keyboard.unknown
 key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
