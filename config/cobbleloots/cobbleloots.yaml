@@ -1,0 +1,6 @@
+# Cobbleloots configuration
+# Reference: https://resistorcat.github.io/cobbleloots/guides/configuration/
+
+# Keep balls in the world after they run out of uses instead of auto-dropping.
+# Options: DROP_AUTOMATIC (default), DROP_MANUAL, DESTROY, KEEP
+loot_ball_empty_behavior: KEEP

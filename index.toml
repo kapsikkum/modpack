@@ -41,6 +41,10 @@ file = "config/chunky/config.json"
 hash = "0f8ef592c97e22697cc41a86a5a0476c6d53518d916530b7f6ff9aa548c1dd28"
 
 [[files]]
+file = "config/cobbleloots/cobbleloots.yaml"
+hash = "8940c64f98faf8b3ef8d6be253ca4adc4b6eda99cc35d53fde1a6be9ab410b65"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "de69917dd587b06fb1d411c816305675ed5153ce82b078ee62de12479120560b"
 
@@ -54,7 +58,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "a32e70b60811e2c30c1b77daa66476e45ad9c0290e9ddbc5f05e6629355a9703"
+hash = "dc8c90e0853dc590cc37d6ac6c443358d8643a8268181d429f3a5f8628c73ab9"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1845,7 +1849,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a32e70b60811e2c30c1b77daa66476e45ad9c0290e9ddbc5f05e6629355a9703"
+hash = "dc8c90e0853dc590cc37d6ac6c443358d8643a8268181d429f3a5f8628c73ab9"
 
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Even More Delight.zip"
