@@ -50,7 +50,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "3e4c9b71bd8601774583a14474b75387a829f8d73de2ac9b27eef5ecf9b7849c"
+hash = "a32e70b60811e2c30c1b77daa66476e45ad9c0290e9ddbc5f05e6629355a9703"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -333,7 +333,7 @@ hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
 file = "keybind_bundles.json"
-hash = "fdb8204c7f1da511491b696eb3950c54980b6568793436269491ae975d4c7235"
+hash = "0a0387b3048fa7427b67a1ece61c84a14a0b4b202bc1a5a23a4d7ab0b630c5da"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
@@ -1796,7 +1796,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3e4c9b71bd8601774583a14474b75387a829f8d73de2ac9b27eef5ecf9b7849c"
+hash = "a32e70b60811e2c30c1b77daa66476e45ad9c0290e9ddbc5f05e6629355a9703"
 
 [[files]]
 file = "resourcepacks/Doc's Whimscape Additions - Even More Delight.zip"
