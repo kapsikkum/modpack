@@ -201,6 +201,14 @@ file = "config/tectonic.json"
 hash = "58885c2913047cc79133097d12344c9d718f9dd1d0437e0a3793322cb59cecdb"
 
 [[files]]
+file = "config/villagernames.json5"
+hash = "f1feb3902e55464a2c4d3c0efb2c50a0f7398701b323bce0a926c35a7e456524"
+
+[[files]]
+file = "config/villagernames/customnames.txt"
+hash = "d5dcbc41e0cd5a251f670290f803a6a39021bebedca42e65a047facffc881fa7"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "e7a5ab2364e8b33b35a91f5c926072ffc8ef1d8c1bda6e7aac2c2cd390f98b26"
 
@@ -635,6 +643,11 @@ metafile = true
 [[files]]
 file = "mods/cobbreeding.pw.toml"
 hash = "bd78ebd2b96cdfd35557a337bafe9bdaf7c743a6a80eb6b9f38e4c9fd17ae21b"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "cde21d14fcaf9495f0f5b3d8fb298dd60cb12badc21a27414c25ebf11dfb3fe1"
 metafile = true
 
 [[files]]
@@ -1760,6 +1773,11 @@ metafile = true
 [[files]]
 file = "mods/undertale-death-screen.pw.toml"
 hash = "e59e2b4c779cb634560b6a36ea8fcce0ee7610476c6e960712bb3655105ecf26"
+metafile = true
+
+[[files]]
+file = "mods/villager-names-serilum.pw.toml"
+hash = "384337b9af46d36f7d45fbbd1e9ea5801704df31a0db000f862e16aac71c24a7"
 metafile = true
 
 [[files]]

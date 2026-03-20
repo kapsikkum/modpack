@@ -1,0 +1,20 @@
+{
+	// Use the custom name list, editable in config/villagernames/customnames.txt, separated by a comma.
+	"useCustomNames": true,
+	// Use the list of pre-defined female names when naming villagers.
+	"useDefaultFemaleNames": true,
+	// Use the list of pre-defined male names when naming villagers.
+	"useDefaultMaleNames": true,
+	// Use both custom AND default names — custom names show up as rare surprises among the 5000+ defaults.
+	"useBothCustomAndDefaultNames": true,
+	// Also name modded villagers.
+	"nameModdedVillagers": true,
+	// Show profession on the trade screen.
+	"showProfessionOnTradeScreen": true,
+	// Keep name before profession (keep false for "Name - Profession" format).
+	"switchNameAndProfessionTradeScreen": false,
+	// Keep merchant level visible (Novice, Apprentice, etc.).
+	"hideMerchantLevelTradeScreen": false,
+	// Capitalise each word in the custom name list.
+	"shouldCapitalizeNames": true
+}
