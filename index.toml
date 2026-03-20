@@ -206,7 +206,7 @@ hash = "f1feb3902e55464a2c4d3c0efb2c50a0f7398701b323bce0a926c35a7e456524"
 
 [[files]]
 file = "config/villagernames/customnames.txt"
-hash = "d31f0877eedb39a1d6a5c8bef8e9ec82d8a8961a33c358376c147e6a5f6a0839"
+hash = "bb585fccfc3d0d18a1a32f690c29a5bdceee9bc77e637e2fe7c58b6e3135925c"
 
 [[files]]
 file = "config/waystones-common.toml"
