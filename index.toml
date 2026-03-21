@@ -70,19 +70,19 @@ hash = "64c2ada6367eb12b908dd460ce2cb15addfe4d324bcf1d76bbdd6681fb2494e9"
 
 [[files]]
 file = "config/firstperson.json"
-hash = "112f16619e317660c4103b5f189a27f3872819ad75e597010025314e66e9f50b"
+hash = "3a0bfdbc733e041509fccd5f5b5d1d93f3be8a11d21d520cff63f113acfaa0aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "72ce6eeaff643d397e7ba16857f34f4a92b353c316e246cde3c32ec56b8f0705"
+hash = "21b182b301c72a012c72e5281fd7a69a42e354776d41b781a38e516c24b64c84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "0e369f802d70ea2c893e8dc16a9354a9e82cbcdafe965e31c5cd9695a416cf58"
+hash = "81edc2f697a728730de29edad7a47a96ebfa96a356be3cf638c7dcd5b622277f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "f549924d400f0bafa3b492131ef5c520005b452c50f6bd93a416f559d7aef367"
+hash = "6f28262468061daabba834e34828f9a5c1b37899bfc42b32e2632b9d33b61c41"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
@@ -90,7 +90,7 @@ hash = "7330a778680cb8f2705f728ad0760d2e679bf66e6e74cd36e226efc06cf21fe7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "1b75c619e00612cbbaeb3d4770414f42027e93850af8925a38b2e7e593f20109"
+hash = "b8d7dd0c5ad18f30fac6adfc55b63cc67113ba0ff181ac7bf94748cd0c08ae45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -98,7 +98,7 @@ hash = "1bbedd78a3afee9395a3c1b2ceb566432f3eecde12c287a132b86c30217cd00a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "23bcd4b7dd2668090323bcc2dda359eebf49ec6387e0dd20037b81281c83ec31"
+hash = "83dc37d708ba23409bcb73aecc710aa56f679acc996d1245460836a43ccd4543"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
@@ -106,19 +106,27 @@ hash = "2541bd562689bfa09bcb6f82831e07dd8e908b4cefb9666a74707fdb05c3e9e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
-hash = "60928734f1cf800e940deda9ad13866dec89ea1b278f08cbdbb195e8d2b79241"
+hash = "69bd833338f8916be153e2fc58298083e2ce8d008e260b748b4cb17c9afbd6cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "5994642fc7b3fffef3b5d61b23bfc57deef9fc6d35f42327cab3a971dff6ce4b"
+hash = "c1d3a614cc04f3d930fbd583a0650e6909f76aa100349211f753076bca77510e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "0aae6eb0d86511f89ff914ba0507c81debb5f5446aea80f5cfd2c3125215aaee"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/simplyswords.snbt"
+hash = "b7adc56773cc7154b2ab166f408a6f7c34bbb30f68945b88dea2ff1652b4af23"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
 hash = "ede390f7518e6c568ce2af049ee929dd3db3466540152ad644d28d3fc33247ca"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
+hash = "1ba65f52890c9f369d2e76eb62ea010a2896ffebea8af855845f6534e55702c2"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -146,7 +154,7 @@ hash = "f866f4c2174aac7a8213d43e9022246d3f8a0f59ff16c8cc729366c0a36c06fe"
 
 [[files]]
 file = "config/lootr-client.toml"
-hash = "054e4c92bea29bd0a746579cfd6c2f9acb88a2d369265c550bd9afac3bd974ed"
+hash = "af23f503a8066f161a069d1409a41289afea1e0ac4d37d270c2d45f94cca287c"
 
 [[files]]
 file = "config/lootr-common.toml"
@@ -369,7 +377,7 @@ hash = "7aae5a29d7e750839170563d09842b7333b156ae74e10474643156ca646c203f"
 
 [[files]]
 file = "kubejs/config/client.json"
-hash = "d70c9e9fb13d02bf81a6e76be9c562f57bed7e7c85ad959324d8c6414b5aa49a"
+hash = "6462760fb41c5fecfb2ba215c27a19056e99245c2afa85f754ab1d2753f0efc0"
 
 [[files]]
 file = "kubejs/config/common.json"

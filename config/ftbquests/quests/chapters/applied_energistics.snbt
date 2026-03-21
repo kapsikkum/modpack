@@ -250,6 +250,131 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5019"]
+			id: "501A"
+			rewards: [
+				{
+					count: 1
+					id: "521A"
+					item: "ae2:item_storage_cell_64k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511A"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+			]
+			title: "Bigger Storage"
+			subtitle: "Upgrade from 1k to 4k, 16k, and 64k storage cells as your network grows. Each tier requires more resources but holds exponentially more."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5016"]
+			id: "501B"
+			rewards: [
+				{
+					count: 1
+					id: "521B"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511B"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "511B1"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+			]
+			title: "Wireless Terminal"
+			subtitle: "Place a Wireless Access Point on your Controller and link a Wireless Terminal to access your ME network from anywhere in range."
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["501A"]
+			id: "501C"
+			rewards: [
+				{
+					count: 4
+					id: "521C"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511C"
+					item: "ae2:item_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "P2P Tunnels"
+			subtitle: "P2P Tunnels compress many channels through a single cable connection. Essential for large, channel-hungry networks."
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["501C"]
+			id: "501D"
+			rewards: [
+				{
+					count: 2
+					id: "521D"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511D"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+			]
+			title: "Quantum Bridge"
+			subtitle: "The Quantum Network Bridge links two ME networks across unlimited distance \u2014 even between dimensions."
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5019"]
+			id: "501E"
+			rewards: [
+				{
+					count: 2
+					id: "521E"
+					item: "ae2:matter_cannon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511E"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "511E1"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+			]
+			title: "Spatial Storage"
+			subtitle: "Spatial I/O Ports with Spatial Pylons can capture a region of the world into a Spatial Storage Cell. Store entire builds!"
+			x: 22.0d
+			y: -2.0d
+		}
 	]
 	subtitle: "Build the ultimate digital storage and autocrafting network."
 	title: "Applied Energistics 2"

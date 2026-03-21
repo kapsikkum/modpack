@@ -216,6 +216,121 @@
 			x: 12.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4018"]
+			id: "4019"
+			rewards: [
+				{
+					count: 1
+					id: "4219"
+					item: "ars_nouveau:relay_collector"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4119"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+			]
+			title: "Source Relay Network"
+			subtitle: "Source Relays pipe Source between Sourcelinks and Jars over distance. Build a network to power large operations."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4018"]
+			id: "401A"
+			rewards: [
+				{
+					count: 1
+					id: "421A"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "411A"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Agronomic Sourcelink"
+			subtitle: "Place an Agronomic Sourcelink near crops \u2014 every crop that grows converts to Source. Free passive energy!"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4019"]
+			id: "401B"
+			rewards: [
+				{
+					count: 4
+					id: "421B"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "411B"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+			]
+			title: "Wilden Ritual"
+			subtitle: "The Wilden Summoning Ritual calls Wilden beasts. Their drops are used to craft Tier 3 spells and gear."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4018"]
+			id: "401C"
+			rewards: [
+				{
+					count: 1
+					id: "421C"
+					item: "ars_nouveau:familiar_bookwyrm"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "411C"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+			]
+			title: "Bookwyrm Familiar"
+			subtitle: "The Bookwyrm Familiar floats by your side and automatically picks up Source Berries nearby — handy!"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["401C"]
+			id: "401D"
+			rewards: [
+				{
+					count: 1
+					id: "421D"
+					item: "ars_nouveau:rotating_spell_turret"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "411D"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+			]
+			title: "Spell Turret"
+			subtitle: "Spell Turrets cast stored spells automatically. Point one at a mob farm for hands-free Source generation."
+			x: 16.0d
+			y: -2.0d
+		}
 	]
 	subtitle: "Weave Source energy into powerful arcane spells."
 	title: "Ars Nouveau: Arcane Arts"

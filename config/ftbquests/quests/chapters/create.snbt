@@ -291,6 +291,126 @@
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["2018"]
+			id: "201C"
+			rewards: [
+				{
+					count: 2
+					id: "221C"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211C"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "The Deployer"
+			subtitle: "The Deployer is a mechanical hand that interacts with blocks and items in the world. Automate planting, harvesting, and crafting."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201C"]
+			id: "201D"
+			rewards: [
+				{
+					count: 4
+					id: "221D"
+					item: "create:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211D"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			title: "Mechanical Harvester"
+			subtitle: "Mount a Mechanical Harvester on a contraption moving over crops to harvest entire fields automatically."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201C"]
+			id: "201E"
+			rewards: [
+				{
+					count: 4
+					id: "221E"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211E"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "211E1"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Fluid Handling"
+			subtitle: "Fluid Pipes carry liquids between tanks. A Mechanical Pump provides the flow. Smart pipes filter which fluids pass through."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201C"]
+			id: "201F"
+			rewards: [
+				{
+					count: 4
+					id: "221F"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "211F"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
+			title: "Mechanical Bearing"
+			subtitle: "The Mechanical Bearing rotates connected blocks as a contraption. Build windmills, doors, spinning displays \u2014 anything goes."
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E"]
+			id: "2020"
+			rewards: [
+				{
+					count: 2
+					id: "2220"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2120"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "The Spout"
+			subtitle: "The Spout fills containers, bottles, and buckets from a fluid source above it. Perfect for automated potion-filling lines."
+			x: 24.0d
+			y: 0.0d
+		}
 	]
 	subtitle: "Harness the power of Rotational Force."
 	title: "Create: Rotational Force"

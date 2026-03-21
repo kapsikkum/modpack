@@ -107,16 +107,20 @@ These mods are locked at specific versions and **must not be updated** without c
 ## Mod List
 
 <details>
-<summary>Click to expand (~295 mods)</summary>
+<summary>Click to expand (~325 mods)</summary>
 
 ### Core & APIs
 - Architectury API
+- AttributeFix
 - AzureLib
 - Balm
+- Bookshelf
 - Caelus API
 - Cardinal Components API
 - Cloth Config API
+- Collective
 - CreativeCore
+- Cristel Lib
 - Cupboard
 - Curios API
 - Framework
@@ -137,7 +141,9 @@ These mods are locked at specific versions and **must not be updated** without c
 - oωo (owo-lib)
 - Patchouli
 - playerAnimator
+- Prickle
 - Puzzles Lib
+- Resourceful Config
 - Resourceful Lib
 - Rhino
 - ShatterLib / OctoLib
@@ -145,6 +151,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Stitch (formerly Athena)
 - SuperMartijn642's Config Lib
 - SuperMartijn642's Core Lib
+- TerraBlender
 - YetAnotherConfigLib (YACL)
 
 ### Performance & Compatibility
@@ -154,6 +161,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - KryptonFoxified
 - Lithium
 - ModernFix
+- Not Enough Crashes
 - ScalableLux
 - Sinytra Connector
 - Connector Extras
@@ -201,7 +209,6 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Cobblemon & Addons
 - Cobblemon
-- BoniMons
 - Cobbleloots: Loot Balls and More!
 - Cobblemon Capture XP
 - Cobblemon Fight or Flight Reborn
@@ -213,6 +220,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Cobblemon Tim Core
 - Cobbreeding
 - HiddenMons [Cobblemon]
+- MoreCobblemonTweaks
 - Tomtaru's Cobblemon and Farmer's Delight Tweaks
 
 ### Ars Nouveau & Magic
@@ -238,6 +246,7 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Mekanism
 - Mekanism
+- Mekanism: Ponders
 
 ### Food & Farming
 - Aether's Delight
@@ -261,20 +270,23 @@ These mods are locked at specific versions and **must not be updated** without c
 - MNS - Moog's Nether Structures
 - MSS - Moog's Soaring Structures
 - MVS - Moog's Voyager Structures
+- Nature's Spirit
 - Nullscape
+- Philips Ruins
 - Repurposed Structures
 - Repurposed Structures - Friends and Foes Compat
 - Sky Villages
+- Sparse Structures
 - Structory
 - Structory: Towers
 - Tectonic
 - Terralith
 - Tidal Towns
+- Towns and Towers
 - Towers of the Wild Modded
 - Underground Bunkers
 - Underground Villages
 - When Dungeons Arise: Seven Seas
-- Whimscape
 - YUNG's API
 - YUNG's Better Desert Temples
 - YUNG's Better Dungeons
@@ -296,10 +308,13 @@ These mods are locked at specific versions and **must not be updated** without c
 ### Mobs & Combat
 - Artifacts
 - Better Combat
+- Creeper Overhaul
+- Cut Through
 - Dragonkind Evolved (End Battle Reborn)
 - Friends & Foes
 - Gardens of the Dead
 - Goblin Traders
+- Immersive Armors
 - L_Ender's Cataclysm
 - Musket Mod
 - Mutant Monsters
@@ -307,6 +322,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Nyf's Spiders
 - Ribbits
 - Simply Swords
+- YDM's Weapon Master
 
 ### Building & Decoration
 - A Man With Plushies
@@ -321,6 +337,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Handcrafted
 - Immersive Paintings
 - Items Displayed
+- Log Begone
 - Macaw's Bridges
 - Macaw's Doors
 - Macaw's Fences and Walls
@@ -328,6 +345,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Macaw's Lights and Lamps
 - Macaw's Paths and Pavings
 - Macaw's Roofs
+- Macaw's Stairs
 - Macaw's Trapdoors
 - Macaw's Windows
 - Mel's DeCo
@@ -336,6 +354,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Rechiseled: Chipped
 - SecurityCraft
 - Supplementaries
+- Visual Workbench
 
 ### Travel & Transport
 - Air Balloons
@@ -348,18 +367,20 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Inventory & UI
 - AppleSkin
+- Boat Item View
 - Carry On
+- Chat Heads
 - Clumps
 - Comforts
 - Controlling
 - Easy Anvils
 - Easy Magic
 - EMI
-- Chat Heads
 - Explorer's Compass
 - Inventory Profiles Next
 - Jade 🔍
 - Jade Addons
+- Just Enough Breeding (JEBr)
 - Just Enough Items (JEI)
 - Just Zoom
 - KeyBind Bundles
@@ -378,7 +399,6 @@ These mods are locked at specific versions and **must not be updated** without c
 - You're in Grave Danger
 
 ### Maps & Info
-- BlueMap
 - Distant Horizons
 - JourneyMap
 - JourneyMap Integration
@@ -397,7 +417,9 @@ These mods are locked at specific versions and **must not be updated** without c
 - Crawl
 - Default Options
 - Elytra Slot
+- Emotecraft
 - Fast IP Ping
+- Freecam
 - Fusion (Connected Textures)
 - Global Packs
 - Just Another Rotten Flesh to Leather Mod
@@ -405,25 +427,31 @@ These mods are locked at specific versions and **must not be updated** without c
 - Load My F***ing Tags
 - Moyai
 - Particular ✨ Reforged
+- Ping Wheel
 - Ponder for KubeJS
 - Seamless Loading Screen
 - ServerCore
+- Sit
 - Subtle Effects
+- Tree Harvester
 - Undertale Death Screen
+- Villager Names
 
 ### Visual & Audio
 - AmbientSounds
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
-- 3D Skin Layers
+- Chat Animation [Smooth Chat]
 - Continuity
+- Cubes Without Borders
+- [EMF] Entity Model Features
 - Entity Culling
+- [ETF] Entity Texture Features
 - Exposure
-- Fresh Animations
+- First-person Model
 - Iris Shaders
 - LambDynamicLights
 - Luminous
 - Not Enough Animations
+- Particle Rain
 - Sound Physics Remastered
 
 ### Tech & Scripting
@@ -452,14 +480,16 @@ Quest chapters are in `config/ftbquests/quests/chapters/`.
 
 | Chapter | Topic |
 |---------|-------|
-| Getting Started | Vanilla progression — wood to Ender Dragon |
-| Create: Rotational Force | Create mod + Steam 'n' Rails |
-| Cobblemon | Catching, breeding, Mega Evolution |
-| Ars Nouveau: Arcane Arts | Spellcasting, Source, Archmage |
-| Applied Energistics 2 | ME network, autocrafting |
+| Welcome to the Modpack | Hub chapter — one quest per major mod to get you started |
+| Getting Started | Vanilla progression — wood to Ender Dragon + Netherite + Beacon |
+| Create: Rotational Force | Create mod, Steam 'n' Rails, Deployer, fluid handling, contraptions |
+| Cobblemon | Catching, breeding, Mega Evolution, evolution stones, held items, shinies |
+| Ars Nouveau: Arcane Arts | Spellcasting, Source relays, Wilden Ritual, Bookwyrm, Spell Turrets |
+| Applied Energistics 2 | ME network, autocrafting, wireless, P2P tunnels, Quantum Bridge |
 | Mekanism | Ore processing, nuclear power |
-| Food & Farming | Farmer's Delight, Cooking for Blockheads, Brewin' & Chewin' |
-| Adventure & Exploration | Bosses, Deep Dark, Aether, L_Ender's Cataclysm |
+| Food & Farming | Farmer's Delight, Cooking Pot, Skillet, Brewin' & Chewin', Compost |
+| Adventure & Exploration | Bosses, Deep Dark, Aether trilogy, full L_Ender's Cataclysm boss chain |
+| Simply Swords | All 14 weapon types × 3 tiers + 18 unique legendary swords |
 
 ---
 

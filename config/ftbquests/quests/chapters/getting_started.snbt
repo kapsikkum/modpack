@@ -240,6 +240,52 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1019"]
+			id: "101A"
+			rewards: [
+				{
+					count: 2
+					id: "121A"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111A"
+					item: "minecraft:netherite_chestplate"
+					type: "item"
+				}
+			]
+			title: "Netherite Armour"
+			subtitle: "Smelt Ancient Debris in the Nether to get Netherite Scrap. Four scraps plus 4 gold = a Netherite Ingot. Upgrade via Smithing Table."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["101A"]
+			id: "101B"
+			rewards: [
+				{
+					count: 3
+					id: "121B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111B"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Beacon"
+			subtitle: "Craft a Beacon from a Nether Star, glass, and obsidian. Place it on a pyramid of iron, gold, diamond, or emerald blocks for powerful buffs."
+			x: 22.0d
+			y: 0.0d
+		}
 	]
 	subtitle: "Your first steps in a vast world."
 	title: "Getting Started"

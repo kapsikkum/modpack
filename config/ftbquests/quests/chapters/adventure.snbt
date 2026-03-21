@@ -211,7 +211,7 @@
 				{
 					id: "8118"
 					type: "kill"
-					entity: "l_enders_cataclysm:ignis"
+					entity: "cataclysm:ignis"
 					value: 1L
 				}
 			]
@@ -219,6 +219,174 @@
 			subtitle: "Defeat Ignis — the Fire Giant boss from L_Ender's Cataclysm. Summon it with its Altar."
 			x: 10.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["8018"]
+			id: "8019"
+			rewards: [
+				{
+					count: 1
+					id: "8219"
+					item: "cataclysm:infernal_forge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "8119"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Netherite Monstrosity"
+			subtitle: "A hulking armoured behemoth of the Nether. Summon it at the Iron Altar and bring your heaviest firepower."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8019"]
+			id: "801A"
+			rewards: [
+				{
+					count: 1
+					id: "821A"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "811A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ender Guardian"
+			subtitle: "The Ender Guardian lurks deep in End structures. Awaken it at the Void Altar and prepare for teleportation attacks."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["801A"]
+			id: "801B"
+			rewards: [
+				{
+					count: 1
+					id: "821B"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "811B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Leviathan"
+			subtitle: "An ancient ocean titan. Summon The Leviathan at the Aquatic Altar — fight it in the depths."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["801B"]
+			id: "801C"
+			rewards: [
+				{
+					count: 1
+					id: "821C"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "811C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ancient Remnant"
+			subtitle: "A desert colossus of ancient stone. Find the Desert Altar and shatter this awakened relic."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8016"]
+			id: "801D"
+			rewards: [
+				{
+					count: 1
+					id: "821D"
+					item: "aether:bronze_dungeon_key"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:slider"
+					id: "811D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Slider"
+			subtitle: "Defeat the Slider boss in a Bronze Dungeon. Avoid its crushing charge — it is faster than it looks."
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["801D"]
+			id: "801E"
+			rewards: [
+				{
+					count: 1
+					id: "821E"
+					item: "aether:silver_dungeon_key"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:valkyrie_queen"
+					id: "811E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Valkyrie Queen"
+			subtitle: "The Valkyrie Queen guards the Silver Dungeon. Defeat her winged warriors first, then face the queen herself."
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["801E"]
+			id: "801F"
+			rewards: [
+				{
+					count: 1
+					id: "821F"
+					item: "aether:gold_dungeon_key"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					id: "811F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Sun Spirit"
+			subtitle: "The final boss of the Aether. Defeat the immortal Sun Spirit in the Gold Dungeon to complete your Aether journey."
+			x: 12.0d
+			y: -2.0d
 		}
 	]
 	subtitle: "Explore dungeons, fight bosses, and uncover hidden dimensions."

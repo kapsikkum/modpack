@@ -249,6 +249,98 @@
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["7018"]
+			id: "701A"
+			rewards: [
+				{
+					count: 3
+					id: "721A"
+					item: "farmersdelight:tomato_sauce"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Cooking Pot"
+			subtitle: "The Farmer's Delight Cooking Pot makes soups, stews, and meals from multiple ingredients. It fills bowls directly from the output slot."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["701A"]
+			id: "701B"
+			rewards: [
+				{
+					count: 3
+					id: "721B"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711B"
+					item: "farmersdelight:skillet"
+					type: "item"
+				}
+			]
+			title: "Farmer's Skillet"
+			subtitle: "The Skillet cooks foods quickly when placed on a heat source. Great for bacon, eggs, and mushroom omelets on the go."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7017"]
+			id: "701C"
+			rewards: [
+				{
+					count: 2
+					id: "721C"
+					item: "brewinandchewin:beer_tankard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711C"
+					item: "brewinandchewin:mead"
+					type: "item"
+				}
+			]
+			title: "Fine Mead"
+			subtitle: "Age honey water in your barrel to ferment Mead. Try other ingredients for beer, wine, and more exotic brews."
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7014"]
+			id: "701D"
+			rewards: [
+				{
+					count: 8
+					id: "721D"
+					item: "farmersdelight:straw_bale"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+			]
+			title: "Organic Compost"
+			subtitle: "Craft Organic Compost from crop byproducts and dirt. Place it to produce Rich Soil \u2014 crops on Rich Soil grow twice as fast."
+			x: 10.0d
+			y: -2.0d
+		}
 	]
 	subtitle: "From humble harvests to gourmet cuisine."
 	title: "Food \& Farming"

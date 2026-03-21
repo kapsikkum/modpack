@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "welcome_to_modpack"
+	group: ""
+	icon: "minecraft:nether_star"
+	id: "B001"
+	images: []
+	order_index: -1
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"Welcome to §6Modpack§r!"
+				""
+				"This pack weaves together technology, magic, exploration, combat, and Pokémon into one cohesive adventure. There's no single 'correct' path — start with whatever catches your eye."
+				""
+				"§b--- Mod Overview ---§r"
+				"§6Cobblemon§r: Encounter, battle, and catch Pokémon in the wild"
+				"§6Create§r: Clockwork machines, trains, and rotational engineering"
+				"§6Mekanism§r: Industrial ore processing, chemicals, and nuclear power"
+				"§6Applied Energistics 2§r: Digital item storage and autocrafting networks"
+				"§6Ars Nouveau§r: Arcane spell weaving and magical automation"
+				"§6The Aether§r: A sky dimension full of treasure and deadly bosses"
+				"§6PneumaticCraft§r: Pressure-powered automation and advanced logistics"
+				"§6Simply Swords§r: 14 weapon types across every material tier"
+				"§6Relics \& Artifacts§r: Passive trinkets with powerful abilities"
+				"§6Cataclysm§r: Brutal boss encounters and endgame materials"
+				"§6Immersive Aircraft§r: Pilotable planes, helicopters, and airships"
+				"§6Air Balloons§r: Dyeable hot-air balloons for leisurely travel"
+				""
+				"§7Each tab in this book covers one mod in detail. This tab gives you a first step into each.§r"
+			]
+			icon: "minecraft:nether_star"
+			id: "B010"
+			optional: false
+			rewards: [
+				{
+					count: 16
+					id: "B210"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "B211"
+					item: "minecraft:filled_map"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B110"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "§6Welcome, Adventurer!"
+			subtitle: "Craft a Crafting Table and start your adventure across a dozen mods."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bCobblemon§r brings Pokémon to life as real mobs in the Minecraft world."
+				""
+				"Pokémon spawn in biomes appropriate to their type — look for Water types near rivers, Fire types near deserts and volcanoes, and Grass types in forests."
+				""
+				"§ePokéballs§r are crafted from §7Apricorns§r (coloured berries on Apricorn trees), §7aluminium ingots§r, and §7rubber§r from frog spawn. Collect all three from the overworld."
+				""
+				"See the §bCobblemon§r tab for the full Pokémon progression guide."
+			]
+			id: "B011"
+			rewards: [
+				{
+					count: 3
+					id: "B212"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B111"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			title: "Gotta Craft Some!"
+			subtitle: "Craft your first Poké Ball and begin your Cobblemon journey."
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bCreate§r is an engineering mod built around §6Rotational Force§r."
+				""
+				"Waterwheels, windmills, and steam engines generate rotation, which is transmitted through Shafts and Gearboxes to power machines like the Mechanical Press, Mixer, and Saw."
+				""
+				"The §eHand Crank§r is your very first source of rotation — place it on a shaft and right-click to spin it manually."
+				""
+				"See the §bCreate: Rotational Force§r tab for the full engineering guide, including trains!"
+			]
+			id: "B012"
+			rewards: [
+				{
+					count: 4
+					id: "B213"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B112"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Crank It Up"
+			subtitle: "Craft a Hand Crank — your very first source of rotational force in Create."
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bMekanism§r is an industrial tech mod focused on ore processing, chemical engineering, and large-scale energy production."
+				""
+				"§eOsmium Ore§r generates between y=-15 and y=60 — it is the backbone of nearly every Mekanism machine and required in almost every recipe."
+				""
+				"Your early goals: build a §eMetallurgical Infuser§r (infuses metals with carbon/redstone) and an §eEnrichment Chamber§r (doubles ore output). Both run on §eFE§r power."
+				""
+				"See the §bMekanism§r tab for the full industrial progression guide."
+			]
+			id: "B013"
+			rewards: [
+				{
+					count: 8
+					id: "B214"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B113"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			title: "Osmium Dawn"
+			subtitle: "Mine Osmium Ore — the foundational resource of all Mekanism machines."
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bApplied Energistics 2§r lets you store thousands of items in a digital §eME network§r and autocraft anything on demand."
+				""
+				"Start by finding a §eMeteorite§r: craft a §eMeteorological Compass§r (nether quartz + iron) to locate one. Inside, mine §eCertus Quartz§r — the essential AE2 material."
+				""
+				"From Certus, you'll craft an §eInscriber§r to print circuit processors, then build an §eME Controller§r and §eStorage Drives§r."
+				""
+				"See the §bApplied Energistics 2§r tab for the full network guide."
+			]
+			id: "B014"
+			rewards: [
+				{
+					count: 4
+					id: "B215"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B114"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Fallen from the Stars"
+			subtitle: "Mine Certus Quartz from an AE2 meteorite — the start of your digital storage network."
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bArs Nouveau§r is a magic mod built around composing and casting §6spells§r using §6Source§r energy."
+				""
+				"The §eWorn Notebook§r is your in-game guide to every glyph, apparatus, and ritual — §7craft it with Paper + Lapis Lazuli§r."
+				""
+				"Explore an §eArchwood Forest§r to gather Source Berries, find colourful Archwood trees, and encounter §eWilden§r — magical beasts whose parts power higher-tier magic."
+				""
+				"See the §bArs Nouveau: Arcane Arts§r tab for the full magic progression."
+			]
+			id: "B015"
+			rewards: [
+				{
+					count: 16
+					id: "B216"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B115"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			title: "The Worn Notebook"
+			subtitle: "Craft the Ars Nouveau guidebook — Paper + Lapis Lazuli. Your magical journey begins."
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bThe Aether§r is a sky dimension filled with floating islands, hostile silver creatures, and powerful boss dungeons."
+				""
+				"To open an Aether Portal: §7build a gold block frame§r the same shape as a Nether Portal, then pour §7Water§r into it."
+				""
+				"The §eBook of Lore§r is the Aether's in-game encyclopedia — §7craft it with any Skyroot Plank + Paper§r. It describes every mob, dungeon, boss, and item in the sky."
+				""
+				"See the §bAdventure \& Exploration§r tab for Aether boss encounters."
+			]
+			id: "B016"
+			rewards: [
+				{
+					count: 4
+					id: "B217"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B116"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
+			]
+			title: "Clouds Above"
+			subtitle: "Craft the Aether Book of Lore — your guide to the sky dimension."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bPneumaticCraft: Repressurized§r is a tech mod where everything runs on §6compressed air§r."
+				""
+				"The §ePneumaticCraft Manual§r is your in-game guide. §7Craft it with a Book§r to get started."
+				""
+				"Your first machine is an §eAir Compressor§r — it burns fuel to produce pressure. Connect machines with §ePressure Tubes§r. Don't exceed machine pressure limits or they §cexplode§r!"
+				""
+				"Advanced PneumaticCraft includes drone programming, GPS tools, and fully automated logistics systems."
+			]
+			id: "B017"
+			rewards: [
+				{
+					count: 1
+					id: "B218"
+					item: "pneumaticcraft:seismic_sensor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B117"
+					item: "pneumaticcraft:manual"
+					type: "item"
+				}
+			]
+			title: "Under Pressure"
+			subtitle: "Craft the PneumaticCraft Manual — your guide to compressed air engineering."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bSimply Swords§r expands your weapon options with §614 distinct weapon types§r — each with unique reach, combo, and special behaviour."
+				""
+				"§eLongsword§r: extended reach. §eRapier§r: fast crits, ignores armour. §eClaymore§r: wide arc sweep."
+				"§eSpear§r: bonus charge damage. §eChakram§r: thrown and returns. §eGreathammer§r: stuns armoured foes."
+				""
+				"All types are available in every material tier from iron to netherite, using the same crafting recipe shape as vanilla swords."
+				""
+				"See the §bSimply Swords§r tab for every weapon type and all unique legendary swords."
+			]
+			id: "B018"
+			rewards: [
+				{
+					id: "B219"
+					item: "simplyswords:iron_rapier"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B118"
+					item: "simplyswords:iron_longsword"
+					type: "item"
+				}
+			]
+			title: "Simply Sharp"
+			subtitle: "Craft an Iron Longsword — your introduction to Simply Swords' extended weapon roster."
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bRelics§r are magical trinkets with passive or active abilities. They're found in dungeon chests, dropped by mobs, or unlocked via special research."
+				""
+				"§bArtifacts§r are rarer permanent trinkets found in vanilla structures — dungeons, mineshafts, strongholds. They cannot be crafted, only found."
+				""
+				"Both mods' items equip in §eCurios§r slots — press §6U§r to open your curios inventory. Some pieces require §eresearching§r in the Relics UI before their powers activate."
+				""
+				"§eFeral Claws§r: +10% attack speed. §eCrystal Heart§r: +2 max hearts. §eCloud in a Bottle§r: double jump."
+			]
+			id: "B019"
+			rewards: [
+				{
+					count: 1
+					id: "B21A"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B119"
+					item: "relics:leather_belt"
+					type: "item"
+				}
+			]
+			title: "Finding Relics"
+			subtitle: "Obtain a Leather Belt — a starter Relic dropped by mobs and found in dungeon chests."
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§cL_Ender's Cataclysm§r adds powerful boss encounters with unique loot and material chains."
+				""
+				"Bosses are summoned using their §eAltar§r structures found across the world. Each boss requires specific gear to survive — early fights need at least §7Black Steel§r weapons and armour."
+				""
+				"§eBlack Steel§r is the entry Cataclysm material — craft §7Obsidian§r and §7Soul Sand§r into an §eInfernal Forge§r, then use it to produce Black Steel Ingots."
+				""
+				"See the §bAdventure \& Exploration§r tab for all Cataclysm boss encounter quests."
+			]
+			id: "B01A"
+			rewards: [
+				{
+					count: 4
+					id: "B21B"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B11A"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Ancient Evil Stirs"
+			subtitle: "Smelt your first Black Steel Ingots — the entry material for Cataclysm progression."
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bArtifacts§r trinkets are hidden in chest loot across the world — dungeons, mineshafts, jungle temples, desert temples, woodland mansions, and strongholds."
+				""
+				"They provide permanent passive effects when worn in §eCurios§r slots. No crafting required — only exploration."
+				""
+				"§eFeral Claws§r: faster attacks. §eCrystal Heart§r: extra hearts. §eCloud in a Bottle§r: double jump."
+				"§eWarp Drive§r: short-range blink. §eVampiric Glove§r: lifesteal on hit. §eUniversal Attractor§r: magnet effect."
+				""
+				"§7Tip§r: loot every structure you find — Artifact rarity is high but the reward is worth it."
+			]
+			id: "B01B"
+			rewards: [
+				{
+					count: 1
+					id: "B21C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B11B"
+					item: "artifacts:feral_claws"
+					type: "item"
+				}
+			]
+			title: "What's in the Chest?"
+			subtitle: "Find a pair of Feral Claws — an Artifact lurking in dungeon loot."
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bImmersive Aircraft§r adds fully pilotable vehicles to the sky."
+				""
+				"§6Biplane§r: fast horizontal flight, has a minimum speed to stay airborne — don't stall!"
+				"§6Gyrodyne§r (helicopter): vertical take-off and hovering, slower but lands anywhere."
+				"§6Airship§r: large and slow, great for hauling cargo."
+				""
+				"All aircraft run on §efuel§r (produced in a Refinery from coal or blaze rods). Use WASD to steer, Space to ascend, Shift to descend."
+				""
+				"§7Tip§r: the Gyrodyne is by far the most practical — you can land in any clearing without a runway."
+			]
+			id: "B01C"
+			rewards: [
+				{
+					count: 4
+					id: "B21D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B11C"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+			]
+			title: "Take to the Skies"
+			subtitle: "Craft an Airship hull — your first Immersive Aircraft vehicle component."
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bAir Balloons§r adds rideable hot-air balloons that drift through the sky."
+				""
+				"Craft a §eBalloon Block§r and place it above a Basket on the ground. Right-click to board, then §7Space§r to ascend and §7Shift§r to descend."
+				""
+				"Balloons drift with wind direction. Dye your Balloon Block any colour for a personal touch."
+				""
+				"§6Pro tip§r: When your balloon pops — either by flying too high or by enemy fire — it drops §6treasure§r! Rare items, modded materials, and enchanted gear all fall out."
+			]
+			id: "B01D"
+			rewards: [
+				{
+					count: 3
+					id: "B21E"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B11D"
+					item: "balloons_by_doriteam:balloon_block"
+					type: "item"
+				}
+			]
+			title: "Floating Away"
+			subtitle: "Craft a Balloon Block — when it pops, it drops treasure. Fly high!"
+			x: 2.0d
+			y: 12.0d
+		}
+	]
+	subtitle: "Your first step into every mod in the pack."
+	title: "§6Welcome to Modpack!"
+}

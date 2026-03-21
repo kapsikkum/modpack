@@ -5,4 +5,4 @@
 # Note: disabling Lootr textures means there is no visual difference between
 # opened and unopened containers.
 # Default: false
-vanilla_textures = false
+vanilla_textures = true

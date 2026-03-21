@@ -220,6 +220,121 @@
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["3017"]
+			id: "3019"
+			rewards: [
+				{
+					count: 1
+					id: "3219"
+					item: "cobblemon:thunder_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3119"
+					item: "cobblemon:fire_stone"
+					type: "item"
+				}
+			]
+			title: "Evolution Stones"
+			subtitle: "Craft or find Evolution Stones to evolve Pokémon like Eevee, Growlithe, and Pikachu. Check NEI for recipes."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3019"]
+			id: "301A"
+			rewards: [
+				{
+					count: 1
+					id: "321A"
+					item: "cobblemon:choice_scarf"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "311A"
+					item: "cobblemon:choice_band"
+					type: "item"
+				}
+			]
+			title: "Held Items"
+			subtitle: "Cobblemon Held Items like the Choice Band, Eviolite, and Life Orb adjust Pokémon stats and battle behaviour."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3018"]
+			id: "301B"
+			rewards: [
+				{
+					count: 5
+					id: "321B"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "311B"
+					type: "checkmark"
+					title: "Encounter a Shiny Pokémon"
+				}
+			]
+			title: "Shiny Hunter"
+			subtitle: "Encountered a shiny Pokémon? Check it off! Shinies are extremely rare — keep your Ultra Balls ready."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["301B"]
+			id: "301C"
+			rewards: [
+				{
+					count: 1
+					id: "321C"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "311C"
+					type: "checkmark"
+					title: "Encounter a Legendary Pokémon"
+				}
+			]
+			title: "I Choose You!"
+			subtitle: "Legendary Pokémon roam the world. Finding one is already an achievement — catching it is another story."
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3016"]
+			id: "301D"
+			rewards: [
+				{
+					count: 1
+					id: "321D"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "311D"
+					type: "checkmark"
+					title: "Raise a Pokémon to Level 100"
+				}
+			]
+			title: "Level 100!"
+			subtitle: "The long road to Level 100. Battle, use Rare Candy, or leave a Pokémon in the party for passive XP."
+			x: 12.0d
+			y: 2.0d
+		}
 	]
 	subtitle: "Become the very best, like no one ever was."
 	title: "Cobblemon"

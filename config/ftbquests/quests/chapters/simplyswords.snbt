@@ -1,0 +1,1464 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "simplyswords"
+	group: ""
+	icon: "simplyswords:diamond_longsword"
+	id: "C001"
+	images: []
+	order_index: 13
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			id: "C010"
+			rewards: [
+				{
+					count: 4
+					id: "C210"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C110"
+					item: "simplyswords:iron_longsword"
+					type: "item"
+				}
+			]
+			title: "The Longsword"
+			subtitle: "Extended reach on every swing. A reliable combo ending in a powerful lunge. Craft like a vanilla sword."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C011"
+			rewards: [
+				{
+					count: 4
+					id: "C211"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C111"
+					item: "simplyswords:iron_rapier"
+					type: "item"
+				}
+			]
+			title: "The Rapier"
+			subtitle: "Fast thrusting weapon with high critical hit rate. Ignores a portion of enemy armour."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C012"
+			rewards: [
+				{
+					count: 4
+					id: "C212"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C112"
+					item: "simplyswords:iron_katana"
+					type: "item"
+				}
+			]
+			title: "The Katana"
+			subtitle: "Elegant and fast. Deals bonus damage to unarmoured targets. A duelist's blade."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C013"
+			rewards: [
+				{
+					count: 4
+					id: "C213"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C113"
+					item: "simplyswords:iron_claymore"
+					type: "item"
+				}
+			]
+			title: "The Claymore"
+			subtitle: "Heavy two-handed greatsword. Each swing covers a wide arc that hits multiple enemies at once."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C014"
+			rewards: [
+				{
+					count: 4
+					id: "C214"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C114"
+					item: "simplyswords:iron_glaive"
+					type: "item"
+				}
+			]
+			title: "The Glaive"
+			subtitle: "Polearm with exceptional reach. Keeps enemies at bay while dealing consistent damage."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C015"
+			rewards: [
+				{
+					count: 4
+					id: "C215"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C115"
+					item: "simplyswords:iron_greataxe"
+					type: "item"
+				}
+			]
+			title: "The Greataxe"
+			subtitle: "Brutal cleaving weapon. Each hit reduces enemy armour value temporarily."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C016"
+			rewards: [
+				{
+					count: 4
+					id: "C216"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C116"
+					item: "simplyswords:iron_greathammer"
+					type: "item"
+				}
+			]
+			title: "The Greathammer"
+			subtitle: "Blunt force titan. Delivers knockback and briefly stuns armoured foes on hit."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C017"
+			rewards: [
+				{
+					count: 4
+					id: "C217"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C117"
+					item: "simplyswords:iron_halberd"
+					type: "item"
+				}
+			]
+			title: "The Halberd"
+			subtitle: "Versatile polearm. Deals bonus damage against mounted or airborne targets."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C018"
+			rewards: [
+				{
+					count: 4
+					id: "C218"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C118"
+					item: "simplyswords:iron_chakram"
+					type: "item"
+				}
+			]
+			title: "The Chakram"
+			subtitle: "A thrown spinning disc that returns to you after striking. Excellent for ranged combat."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C019"
+			rewards: [
+				{
+					count: 4
+					id: "C219"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C119"
+					item: "simplyswords:iron_spear"
+					type: "item"
+				}
+			]
+			title: "The Spear"
+			subtitle: "Long reach. Deals significant bonus damage when sprinting into an enemy."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C01A"
+			rewards: [
+				{
+					count: 4
+					id: "C21A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C11A"
+					item: "simplyswords:iron_sai"
+					type: "item"
+				}
+			]
+			title: "The Sai"
+			subtitle: "Short parrying dagger. Can deflect incoming melee hits and riposte for high damage."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C01B"
+			rewards: [
+				{
+					count: 4
+					id: "C21B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C11B"
+					item: "simplyswords:iron_cutlass"
+					type: "item"
+				}
+			]
+			title: "The Cutlass"
+			subtitle: "Pirate's blade with a looting bonus — enemies drop extra loot when killed with it."
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C01C"
+			rewards: [
+				{
+					count: 4
+					id: "C21C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C11C"
+					item: "simplyswords:iron_twinblade"
+					type: "item"
+				}
+			]
+			title: "The Twinblade"
+			subtitle: "Double-ended weapon that strikes with both blades. High DPS in close quarters."
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C01D"
+			rewards: [
+				{
+					count: 4
+					id: "C21D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C11D"
+					item: "simplyswords:iron_warglaive"
+					type: "item"
+				}
+			]
+			title: "The Warglaive"
+			subtitle: "Warrior's curved dual-bladed weapon. Sweep attacks hit multiple enemies in a wide arc."
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C020"
+			rewards: [
+				{
+					count: 2
+					id: "C220"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C120"
+					item: "simplyswords:diamond_longsword"
+					type: "item"
+				}
+			]
+			title: "Diamond Longsword"
+			subtitle: "Upgrade your Longsword to diamond. The same reliable combo, but with significantly more bite."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C011"]
+			id: "C021"
+			rewards: [
+				{
+					count: 2
+					id: "C221"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C121"
+					item: "simplyswords:diamond_rapier"
+					type: "item"
+				}
+			]
+			title: "Diamond Rapier"
+			subtitle: "The Rapier's armour-piercing crits at diamond tier are terrifying against any armoured foe."
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C012"]
+			id: "C022"
+			rewards: [
+				{
+					count: 2
+					id: "C222"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C122"
+					item: "simplyswords:diamond_katana"
+					type: "item"
+				}
+			]
+			title: "Diamond Katana"
+			subtitle: "Diamond sharpness makes the Katana's bonus vs unarmoured enemies devastating."
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C013"]
+			id: "C023"
+			rewards: [
+				{
+					count: 2
+					id: "C223"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C123"
+					item: "simplyswords:diamond_claymore"
+					type: "item"
+				}
+			]
+			title: "Diamond Claymore"
+			subtitle: "A diamond Claymore sweep will one-shot entire mob clusters. Handle with care."
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C014"]
+			id: "C024"
+			rewards: [
+				{
+					count: 2
+					id: "C224"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C124"
+					item: "simplyswords:diamond_glaive"
+					type: "item"
+				}
+			]
+			title: "Diamond Glaive"
+			subtitle: "Diamond reach + polearm range — mobs can barely touch you before they're dead."
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C015"]
+			id: "C025"
+			rewards: [
+				{
+					count: 2
+					id: "C225"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C125"
+					item: "simplyswords:diamond_greataxe"
+					type: "item"
+				}
+			]
+			title: "Diamond Greataxe"
+			subtitle: "At diamond tier, the Greataxe armour shred is potent enough to strip endgame bosses down fast."
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C016"]
+			id: "C026"
+			rewards: [
+				{
+					count: 2
+					id: "C226"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C126"
+					item: "simplyswords:diamond_greathammer"
+					type: "item"
+				}
+			]
+			title: "Diamond Greathammer"
+			subtitle: "The diamond Greathammer stun is long enough to land follow-up hits with impunity."
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C017"]
+			id: "C027"
+			rewards: [
+				{
+					count: 2
+					id: "C227"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C127"
+					item: "simplyswords:diamond_halberd"
+					type: "item"
+				}
+			]
+			title: "Diamond Halberd"
+			subtitle: "Fight mounted Cataclysm bosses and flying creatures with the diamond Halberd's bonus damage."
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C018"]
+			id: "C028"
+			rewards: [
+				{
+					count: 2
+					id: "C228"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C128"
+					item: "simplyswords:diamond_chakram"
+					type: "item"
+				}
+			]
+			title: "Diamond Chakram"
+			subtitle: "The diamond Chakram returns faster and deals enough damage to pressure even armoured targets."
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C019"]
+			id: "C029"
+			rewards: [
+				{
+					count: 2
+					id: "C229"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C129"
+					item: "simplyswords:diamond_spear"
+					type: "item"
+				}
+			]
+			title: "Diamond Spear"
+			subtitle: "A diamond sprint charge with the Spear will delete anything shorter than a raid captain."
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C01A"]
+			id: "C02A"
+			rewards: [
+				{
+					count: 2
+					id: "C22A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C12A"
+					item: "simplyswords:diamond_sai"
+					type: "item"
+				}
+			]
+			title: "Diamond Sai"
+			subtitle: "The diamond Sai deflects and ripostes in one fluid motion — a duelist's dream."
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C01B"]
+			id: "C02B"
+			rewards: [
+				{
+					count: 2
+					id: "C22B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C12B"
+					item: "simplyswords:diamond_cutlass"
+					type: "item"
+				}
+			]
+			title: "Diamond Cutlass"
+			subtitle: "Diamond Cutlass looting rivals a Looting III sword — perfect for boss farming runs."
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C01C"]
+			id: "C02C"
+			rewards: [
+				{
+					count: 2
+					id: "C22C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C12C"
+					item: "simplyswords:diamond_twinblade"
+					type: "item"
+				}
+			]
+			title: "Diamond Twinblade"
+			subtitle: "The diamond Twinblade's dual-strike DPS outpaces nearly every other weapon at close range."
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C01D"]
+			id: "C02D"
+			rewards: [
+				{
+					count: 2
+					id: "C22D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C12D"
+					item: "simplyswords:diamond_warglaive"
+					type: "item"
+				}
+			]
+			title: "Diamond Warglaive"
+			subtitle: "The diamond Warglaive's sweep covers enough ground to clear a full zombie horde in one combo."
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C020"]
+			id: "C030"
+			rewards: [
+				{
+					count: 2
+					id: "C230"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C130"
+					item: "simplyswords:netherite_longsword"
+					type: "item"
+				}
+			]
+			title: "Netherite Longsword"
+			subtitle: "The pinnacle of Longsword craft. Smithing template + netherite ingot on a diamond Longsword."
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C021"]
+			id: "C031"
+			rewards: [
+				{
+					count: 2
+					id: "C231"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C131"
+					item: "simplyswords:netherite_rapier"
+					type: "item"
+				}
+			]
+			title: "Netherite Rapier"
+			subtitle: "Netherite tip, netherite crits. The fastest armour-ignoring weapon in the game at this tier."
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C022"]
+			id: "C032"
+			rewards: [
+				{
+					count: 2
+					id: "C232"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C132"
+					item: "simplyswords:netherite_katana"
+					type: "item"
+				}
+			]
+			title: "Netherite Katana"
+			subtitle: "A perfectly forged netherite Katana is the blade of champions against unarmoured bosses."
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C023"]
+			id: "C033"
+			rewards: [
+				{
+					count: 2
+					id: "C233"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C133"
+					item: "simplyswords:netherite_claymore"
+					type: "item"
+				}
+			]
+			title: "Netherite Claymore"
+			subtitle: "One netherite swing clears an entire mob pack. The nuclear option of melee weapons."
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C024"]
+			id: "C034"
+			rewards: [
+				{
+					count: 2
+					id: "C234"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C134"
+					item: "simplyswords:netherite_glaive"
+					type: "item"
+				}
+			]
+			title: "Netherite Glaive"
+			subtitle: "Netherite weight behind polearm reach. Your enemy won't even know where the hit came from."
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C025"]
+			id: "C035"
+			rewards: [
+				{
+					count: 2
+					id: "C235"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C135"
+					item: "simplyswords:netherite_greataxe"
+					type: "item"
+				}
+			]
+			title: "Netherite Greataxe"
+			subtitle: "Strips armour so fast that the netherite Greataxe trivialises any heavily armoured boss."
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C026"]
+			id: "C036"
+			rewards: [
+				{
+					count: 2
+					id: "C236"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C136"
+					item: "simplyswords:netherite_greathammer"
+					type: "item"
+				}
+			]
+			title: "Netherite Greathammer"
+			subtitle: "The netherite Greathammer hits like a meteor. Nothing stays standing after the stun ends."
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C027"]
+			id: "C037"
+			rewards: [
+				{
+					count: 2
+					id: "C237"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C137"
+					item: "simplyswords:netherite_halberd"
+					type: "item"
+				}
+			]
+			title: "Netherite Halberd"
+			subtitle: "The ultimate anti-air weapon. Flying Cataclysm bosses barely get to spread their wings."
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C028"]
+			id: "C038"
+			rewards: [
+				{
+					count: 2
+					id: "C238"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C138"
+					item: "simplyswords:netherite_chakram"
+					type: "item"
+				}
+			]
+			title: "Netherite Chakram"
+			subtitle: "A netherite Chakram throw barely needs to connect — its return arc finishes the job."
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C029"]
+			id: "C039"
+			rewards: [
+				{
+					count: 2
+					id: "C239"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C139"
+					item: "simplyswords:netherite_spear"
+					type: "item"
+				}
+			]
+			title: "Netherite Spear"
+			subtitle: "A single netherite sprint charge with this Spear is enough to end most encounters instantly."
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C02A"]
+			id: "C03A"
+			rewards: [
+				{
+					count: 2
+					id: "C23A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C13A"
+					item: "simplyswords:netherite_sai"
+					type: "item"
+				}
+			]
+			title: "Netherite Sai"
+			subtitle: "Deflect a netherite Sai, riposte, and watch your opponent fly. Peak duelling mastery."
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C02B"]
+			id: "C03B"
+			rewards: [
+				{
+					count: 2
+					id: "C23B"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C13B"
+					item: "simplyswords:netherite_cutlass"
+					type: "item"
+				}
+			]
+			title: "Netherite Cutlass"
+			subtitle: "The netherite Cutlass makes farming any boss an obscenely loot-efficient venture."
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C02C"]
+			id: "C03C"
+			rewards: [
+				{
+					count: 2
+					id: "C23C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C13C"
+					item: "simplyswords:netherite_twinblade"
+					type: "item"
+				}
+			]
+			title: "Netherite Twinblade"
+			subtitle: "The netherite Twinblade's dual-strike at this tier is a full-speed blender of destruction."
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C02D"]
+			id: "C03D"
+			rewards: [
+				{
+					count: 2
+					id: "C23D"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C13D"
+					item: "simplyswords:netherite_warglaive"
+					type: "item"
+				}
+			]
+			title: "Netherite Warglaive"
+			subtitle: "One netherite Warglaive sweep arc clears waves. The definitive crowd control weapon."
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C040"
+			rewards: [
+				{
+					count: 4
+					id: "C240"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C140"
+					item: "simplyswords:emberblade"
+					type: "item"
+				}
+			]
+			title: "Emberblade"
+			subtitle: "A blade wreathed in living flame. Sets enemies alight and deals bonus fire damage on each hit."
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C041"
+			rewards: [
+				{
+					count: 4
+					id: "C241"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C141"
+					item: "simplyswords:frostfall"
+					type: "item"
+				}
+			]
+			title: "Frostfall"
+			subtitle: "A blade of perpetual winter. Slows and freezes enemies on contact, leaving them vulnerable."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C042"
+			rewards: [
+				{
+					count: 4
+					id: "C242"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C142"
+					item: "simplyswords:dreadtide"
+					type: "item"
+				}
+			]
+			title: "Dreadtide"
+			subtitle: "A blade forged from ocean dread. Devastating in or near water — crackles with tidal energy."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C043"
+			rewards: [
+				{
+					count: 4
+					id: "C243"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C143"
+					item: "simplyswords:mjolnir"
+					type: "item"
+				}
+			]
+			title: "Mjolnir"
+			subtitle: "The legendary thunder hammer. Only the worthy may wield it — and those who do command lightning."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C044"
+			rewards: [
+				{
+					count: 4
+					id: "C244"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C144"
+					item: "simplyswords:caelestis"
+					type: "item"
+				}
+			]
+			title: "Caelestis"
+			subtitle: "Forged from celestial materials. Radiant energy burns undead and deals bonus damage to the ender."
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C045"
+			rewards: [
+				{
+					count: 4
+					id: "C245"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C145"
+					item: "simplyswords:stormbringer"
+					type: "item"
+				}
+			]
+			title: "Stormbringer"
+			subtitle: "Calls down storm energy with every strike. Grows more powerful during thunderstorms."
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C046"
+			rewards: [
+				{
+					count: 2
+					id: "C246"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C146"
+					item: "simplyswords:stars_edge"
+					type: "item"
+				}
+			]
+			title: "Star's Edge"
+			subtitle: "A legendary blade of stellar origin. Channels the raw power of distant stars into each slash."
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C047"
+			rewards: [
+				{
+					count: 4
+					id: "C247"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C147"
+					item: "simplyswords:soulkeeper"
+					type: "item"
+				}
+			]
+			title: "Soulkeeper"
+			subtitle: "Captures the souls of fallen enemies. Each kill charges the blade, empowering subsequent strikes."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C048"
+			rewards: [
+				{
+					count: 4
+					id: "C248"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C148"
+					item: "simplyswords:arcanethyst"
+					type: "item"
+				}
+			]
+			title: "Arcanethyst"
+			subtitle: "Forged from crystallised arcane energy. Pulses with magical force and amplifies spell-like abilities."
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C049"
+			rewards: [
+				{
+					count: 4
+					id: "C249"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C149"
+					item: "simplyswords:the_dispatcher"
+					type: "item"
+				}
+			]
+			title: "The Dispatcher"
+			subtitle: "A blade that fires arcane bolts when swung. Melee and ranged in one terrifying package."
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C04A"
+			rewards: [
+				{
+					count: 4
+					id: "C24A"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14A"
+					item: "simplyswords:wraithfang"
+					type: "item"
+				}
+			]
+			title: "Wraithfang"
+			subtitle: "A ghostly fang-shaped blade. Drains life from enemies and can phase through some armour."
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C04B"
+			rewards: [
+				{
+					count: 4
+					id: "C24B"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14B"
+					item: "simplyswords:hiveheart"
+					type: "item"
+				}
+			]
+			title: "Hiveheart"
+			subtitle: "A blade pulsing with swarm energy. Strikes release homing bee-like projectiles to harass enemies."
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C04C"
+			rewards: [
+				{
+					count: 4
+					id: "C24C"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14C"
+					item: "simplyswords:sunfire"
+					type: "item"
+				}
+			]
+			title: "Sunfire"
+			subtitle: "A blade of captured sunlight. Burns undead on contact and glows in the dark."
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C04D"
+			rewards: [
+				{
+					count: 4
+					id: "C24D"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14D"
+					item: "simplyswords:ribboncleaver"
+					type: "item"
+				}
+			]
+			title: "Ribboncleaver"
+			subtitle: "A blade so sharp it cuts the air itself. Deals bonus damage on critical strikes with each combo finisher."
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C04E"
+			rewards: [
+				{
+					count: 4
+					id: "C24E"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14E"
+					item: "simplyswords:slumbering_lichblade"
+					type: "item"
+				}
+			]
+			title: "Slumbering Lichblade"
+			subtitle: "An ancient blade in deep sleep. Its power is dormant — but something stirs within it when blood is spilled."
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C04E"]
+			id: "C04F"
+			rewards: [
+				{
+					count: 4
+					id: "C24F"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C14F"
+					item: "simplyswords:awakened_lichblade"
+					type: "item"
+				}
+			]
+			title: "Awakened Lichblade"
+			subtitle: "The blade has stirred from its slumber. Death energy flows through it, strengthening with each kill."
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C04F"]
+			id: "C050"
+			rewards: [
+				{
+					count: 1
+					id: "C250"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C150"
+					item: "simplyswords:waking_lichblade"
+					type: "item"
+				}
+			]
+			title: "Waking Lichblade"
+			subtitle: "Fully awakened. The Lichblade is now alive with lich energy — each strike ages its victims."
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C051"
+			rewards: [
+				{
+					count: 4
+					id: "C251"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C151"
+					item: "simplyswords:harbinger"
+					type: "item"
+				}
+			]
+			title: "Harbinger"
+			subtitle: "The blade of death made manifest. Enemies struck by it are marked — the killing blow deals double damage."
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C052"
+			rewards: [
+				{
+					count: 4
+					id: "C252"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C152"
+					item: "simplyswords:enigma"
+					type: "item"
+				}
+			]
+			title: "Enigma"
+			subtitle: "A blade of pure mystery. Its damage type shifts with each swing — fire, ice, void, or lightning."
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C053"
+			rewards: [
+				{
+					count: 4
+					id: "C253"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C153"
+					item: "simplyswords:molten_edge"
+					type: "item"
+				}
+			]
+			title: "Molten Edge"
+			subtitle: "Forged in the heart of a volcano. Each strike drips molten rock and leaves burning pools on impact."
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["C010"]
+			id: "C054"
+			rewards: [
+				{
+					count: 4
+					id: "C254"
+					item: "minecraft:potion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C154"
+					item: "simplyswords:twisted_blade"
+					type: "item"
+				}
+			]
+			title: "Twisted Blade"
+			subtitle: "A corrupt blade warped by dark energy. Applies a wither-like curse on hit that drains health over time."
+			x: 20.0d
+			y: -4.0d
+		}
+	]
+	subtitle: "14 weapon types across all material tiers — plus legendary unique swords."
+	title: "Simply Swords"
+}
