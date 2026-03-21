@@ -69,6 +69,10 @@ file = "config/entityculling.json"
 hash = "64c2ada6367eb12b908dd460ce2cb15addfe4d324bcf1d76bbdd6681fb2494e9"
 
 [[files]]
+file = "config/firstperson.json"
+hash = "112f16619e317660c4103b5f189a27f3872819ad75e597010025314e66e9f50b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
 hash = "72ce6eeaff643d397e7ba16857f34f4a92b353c316e246cde3c32ec56b8f0705"
 
@@ -251,6 +255,10 @@ hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
 [[files]]
 file = "global_packs/required_data/TDmon[V1.2].zip"
 hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
+
+[[files]]
+file = "global_packs/required_data/balloon-loot-override.zip"
+hash = "7f4f122f7a64d54326cfc7b639f907627ab1e1f2f886c7408315f93b1981a07f"
 
 [[files]]
 file = "global_packs/required_data/bonimons.pw.toml"
