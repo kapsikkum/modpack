@@ -1,18 +1,298 @@
 {
-    // Global multiplier applied to the separation and spacing of all structures.
-    // Default is 2. We set this to 3 to make structures meaningfully rarer across
-    // the large number of structure mods in this pack (dungeons-and-taverns,
-    // towns-and-towers, repurposed-structures, moogs series, structory, etc.)
+    // Global multiplier: all structures are 3x more spread out than vanilla by default.
+    // customSpreadFactors below OVERRIDE this global for specific structures.
     "spreadFactor": 3,
 
-    // Use structure ID as the salt to avoid multiple mods that default to salt=0
-    // causing structures to cluster together.
+    // Avoid structure clustering from mods that default their salt to 0.
     "idBasedSalt": true,
 
-    // Per-structure overrides. Use /dumpstructuresets in-game to get all IDs.
-    // Uncomment and adjust entries here to tune individual structures.
     "customSpreadFactors": [
-        // Example: make mansions even rarer (on top of the global factor)
-        // { "name": "minecraft:mansion", "spreadFactor": 2 }
+
+        // ── COBBLEMON AVOIDANCE STRUCTURES ────────────────────────────────────
+        // These are placement logic markers, not real dungeons. Keep at vanilla.
+        { "name": "cobblemon:fossils/avoid_gimmi_towers",     "spreadFactor": 1 },
+        { "name": "cobblemon:fossils/avoid_jungle_temples",   "spreadFactor": 1 },
+        { "name": "cobblemon:fossils/avoid_shipwrecks",       "spreadFactor": 1 },
+        { "name": "cobblemon:fossils/avoid_trial_chambers",   "spreadFactor": 1 },
+        { "name": "cobblemon:fossils/avoid_villages",         "spreadFactor": 1 },
+        { "name": "cobblemon:fossils/avoid_witch_huts",       "spreadFactor": 1 },
+        { "name": "cobblemon:ruins/avoid_trial_chambers",     "spreadFactor": 1 },
+        { "name": "cobblemon:ruins/avoid_villages",           "spreadFactor": 1 },
+        { "name": "cobblemon:ruins/avoid_witch_huts",         "spreadFactor": 1 },
+        { "name": "cobblemon:ruins/gimmi_towers",             "spreadFactor": 1 },
+        // Cobblemon world structures - keep at vanilla so Cobblemon gameplay works
+        { "name": "cobblemon:fishing_boats",                  "spreadFactor": 1 },
+        { "name": "cobblemon:shipwreck_coves",                "spreadFactor": 1 },
+
+        // ── AMBIENT / WORLD DECORATION (factor 1 - vanilla frequency) ─────────
+        // These are small decorative structures from Moogs Voyager/Soaring Structures.
+        // With global factor 3 they'd be almost invisible; keep them common so the
+        // world feels alive and detailed.
+        // Trees + logs
+        { "name": "mvs:acacia_tree",          "spreadFactor": 1 },
+        { "name": "mvs:acacia_log_pile",      "spreadFactor": 1 },
+        { "name": "mvs:big_oak_tree",         "spreadFactor": 1 },
+        { "name": "mvs:birch_tree",           "spreadFactor": 1 },
+        { "name": "mvs:birch_log_pile",       "spreadFactor": 1 },
+        { "name": "mvs:cherry_tree",          "spreadFactor": 1 },
+        { "name": "mvs:dark_oak_tree",        "spreadFactor": 1 },
+        { "name": "mvs:dark_oak_log_pile",    "spreadFactor": 1 },
+        { "name": "mvs:jungle_tree",          "spreadFactor": 1 },
+        { "name": "mvs:jungle_log_pile",      "spreadFactor": 1 },
+        { "name": "mvs:jungle_palm_tree",     "spreadFactor": 1 },
+        { "name": "mvs:oak_tree",             "spreadFactor": 1 },
+        { "name": "mvs:oak_log_pile",         "spreadFactor": 1 },
+        { "name": "mvs:spruce_tree",          "spreadFactor": 1 },
+        { "name": "mvs:spruce_log_pile",      "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_acacia",     "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_birch",      "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_cherry",     "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_dark_oak",   "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_jungle",     "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_mangrove",   "spreadFactor": 1 },
+        { "name": "mvs:dead_tree_oak",        "spreadFactor": 1 },
+        // Lanterns
+        { "name": "mvs:small_acacia_lantern",   "spreadFactor": 1 },
+        { "name": "mvs:small_bamboo_lantern",   "spreadFactor": 1 },
+        { "name": "mvs:small_birch_lantern",    "spreadFactor": 1 },
+        { "name": "mvs:small_campfire_lantern", "spreadFactor": 1 },
+        { "name": "mvs:small_cherry_lantern",   "spreadFactor": 1 },
+        { "name": "mvs:small_dark_oak_lantern", "spreadFactor": 1 },
+        { "name": "mvs:small_jungle_lantern",   "spreadFactor": 1 },
+        { "name": "mvs:small_mangrove_lantern", "spreadFactor": 1 },
+        { "name": "mvs:small_oak_lantern",      "spreadFactor": 1 },
+        { "name": "mvs:medium_oak_lantern",     "spreadFactor": 1 },
+        { "name": "mvs:small_spruce_lantern",   "spreadFactor": 1 },
+        // Nature/terrain features
+        { "name": "mvs:boulder",          "spreadFactor": 1 },
+        { "name": "mvs:stone_rock",       "spreadFactor": 1 },
+        { "name": "mvs:stone_pillars",    "spreadFactor": 1 },
+        { "name": "mvs:stone_fountain",   "spreadFactor": 1 },
+        { "name": "mvs:crystal",          "spreadFactor": 1 },
+        { "name": "mvs:flower_hole",      "spreadFactor": 1 },
+        { "name": "mvs:small_oak_pond",   "spreadFactor": 1 },
+        { "name": "mvs:mushroom_pond",    "spreadFactor": 1 },
+        { "name": "mvs:mushroom_statue",  "spreadFactor": 1 },
+        { "name": "mvs:mushroom_well",    "spreadFactor": 1 },
+        { "name": "mvs:large_mushroom",   "spreadFactor": 1 },
+        { "name": "mvs:snowy_fossil",     "spreadFactor": 1 },
+        { "name": "mvs:paths",            "spreadFactor": 1 },
+        { "name": "mvs:haystack",         "spreadFactor": 1 },
+        { "name": "mvs:pile",             "spreadFactor": 1 },
+        { "name": "mvs:wheat_grain_bin",  "spreadFactor": 1 },
+        { "name": "mvs:duck",             "spreadFactor": 1 },
+        // Small igloo/winter
+        { "name": "mvs:small_igloo",      "spreadFactor": 1 },
+        { "name": "mvs:medium_igloo_1",   "spreadFactor": 1 },
+        // End scraps (small ambient)
+        { "name": "mvs:end_scraps_1",     "spreadFactor": 1 },
+        { "name": "mvs:end_scraps_2",     "spreadFactor": 1 },
+        { "name": "mvs:end_scraps_3",     "spreadFactor": 1 },
+        { "name": "mvs:end_scraps_4",     "spreadFactor": 1 },
+        // Wells + nether ambient
+        { "name": "mvs:other_wells",      "spreadFactor": 1 },
+        { "name": "mvs:rare_well",        "spreadFactor": 1 },
+        { "name": "mvs:nether_well",      "spreadFactor": 1 },
+        { "name": "mvs:end_well",         "spreadFactor": 1 },
+        { "name": "mvs:nether_devil",     "spreadFactor": 1 },
+        // Moogs Soaring Structures ambient trees/features
+        { "name": "mss:tree_1",           "spreadFactor": 1 },
+        { "name": "mss:tree_2",           "spreadFactor": 1 },
+        { "name": "mss:tree_3",           "spreadFactor": 1 },
+        { "name": "mss:tree_4",           "spreadFactor": 1 },
+        { "name": "mss:tree_5",           "spreadFactor": 1 },
+        { "name": "mss:tree_6",           "spreadFactor": 1 },
+        { "name": "mss:tree_7",           "spreadFactor": 1 },
+        { "name": "mss:tree_8",           "spreadFactor": 1 },
+        { "name": "mss:small_pond",       "spreadFactor": 1 },
+        { "name": "mss:frozen_pond",      "spreadFactor": 1 },
+        { "name": "mss:desert_well",      "spreadFactor": 1 },
+        { "name": "mss:muddy_water_hole", "spreadFactor": 1 },
+        { "name": "mss:leaf_hollow",      "spreadFactor": 1 },
+        { "name": "mss:mushroom",         "spreadFactor": 1 },
+        { "name": "mss:red_sand",         "spreadFactor": 1 },
+        // Supplementaries roads/signs (ambient)
+        { "name": "supplementaries:road_signs", "spreadFactor": 1 },
+        // Terralith rubble (terrain decoration)
+        { "name": "terralith:rubble", "spreadFactor": 1 },
+        // Structory common ruins (small, add atmosphere)
+        { "name": "structory:ruin",       "spreadFactor": 1 },
+        { "name": "structory:ruin_quiet", "spreadFactor": 1 },
+
+        // ── SMALL POINTS OF INTEREST (factor 2 - slightly rarer than vanilla) ─
+        // Small camps/carts/houses that add character but shouldn't be everywhere.
+        { "name": "mvs:bench",             "spreadFactor": 2 },
+        { "name": "mvs:campsite",          "spreadFactor": 2 },
+        { "name": "mvs:cart",              "spreadFactor": 2 },
+        { "name": "mvs:fire_camp",         "spreadFactor": 2 },
+        { "name": "mvs:horse_campsite",    "spreadFactor": 2 },
+        { "name": "mvs:horse_pen",         "spreadFactor": 2 },
+        { "name": "mvs:lamp_chest",        "spreadFactor": 2 },
+        { "name": "mvs:large_cart_1",      "spreadFactor": 2 },
+        { "name": "mvs:large_cart_2",      "spreadFactor": 2 },
+        { "name": "mvs:medium_bamboo_cart","spreadFactor": 2 },
+        { "name": "mvs:out_house",         "spreadFactor": 2 },
+        { "name": "mvs:shed",              "spreadFactor": 2 },
+        { "name": "mvs:bee_dome",          "spreadFactor": 2 },
+        { "name": "mvs:fox_hut",           "spreadFactor": 2 },
+        { "name": "mvs:snowy_dog_hut",     "spreadFactor": 2 },
+        { "name": "mvs:lecturn_garden",    "spreadFactor": 2 },
+        { "name": "mvs:log_ruin",          "spreadFactor": 2 },
+        { "name": "mvs:small_ruin",        "spreadFactor": 2 },
+        { "name": "mvs:stalls",            "spreadFactor": 2 },
+        { "name": "mvs:sunzi_gate",        "spreadFactor": 2 },
+        { "name": "mvs:tree_monument",     "spreadFactor": 2 },
+        { "name": "mvs:villager_statue",   "spreadFactor": 2 },
+        // Moogs Soaring small buildings
+        { "name": "mss:small_oak_house",      "spreadFactor": 2 },
+        { "name": "mss:small_deepslate_house","spreadFactor": 2 },
+        { "name": "mss:small_tower",          "spreadFactor": 2 },
+        { "name": "mss:spruce_huts",          "spreadFactor": 2 },
+        { "name": "mss:white_house",          "spreadFactor": 2 },
+        { "name": "mss:diorite_house",        "spreadFactor": 2 },
+        { "name": "mss:calcite_house",        "spreadFactor": 2 },
+        { "name": "mss:desert_pyramid",       "spreadFactor": 2 },
+        { "name": "mss:birch_river",          "spreadFactor": 2 },
+        { "name": "mss:cherry_river",         "spreadFactor": 2 },
+        { "name": "mss:mangrove",             "spreadFactor": 2 },
+        { "name": "mss:jungle",               "spreadFactor": 2 },
+        { "name": "mss:taiga",                "spreadFactor": 2 },
+        { "name": "mss:palm_island",          "spreadFactor": 2 },
+        // Structory visible POIs
+        { "name": "structory:outcast_villager", "spreadFactor": 2 },
+        // Vanilla common spawns (ocean ruins / fossils / shipwrecks - already common)
+        { "name": "minecraft:ocean_ruins",    "spreadFactor": 2 },
+        { "name": "minecraft:nether_fossils", "spreadFactor": 2 },
+        { "name": "minecraft:shipwrecks",     "spreadFactor": 2 },
+        { "name": "minecraft:buried_treasures","spreadFactor": 2 },
+        { "name": "minecraft:trail_ruins",    "spreadFactor": 2 },
+        // Repurposed shipwrecks/ruins/portals (overlapping with vanilla, keep moderate)
+        { "name": "repurposed_structures:ruins_overworld",     "spreadFactor": 2 },
+        { "name": "repurposed_structures:ruins_nether",        "spreadFactor": 2 },
+        { "name": "repurposed_structures:shipwrecks_end",      "spreadFactor": 2 },
+        { "name": "repurposed_structures:shipwrecks_nether",   "spreadFactor": 2 },
+        { "name": "repurposed_structures:ruined_portals_end",  "spreadFactor": 2 },
+        { "name": "repurposed_structures:igloos_overworld",    "spreadFactor": 2 },
+        // Nether ambient (MNS small features)
+        { "name": "mns:very_small_blackstone",   "spreadFactor": 2 },
+        { "name": "mns:very_small_blackstone_2", "spreadFactor": 2 },
+        { "name": "mns:very_small_blackstone_3", "spreadFactor": 2 },
+        { "name": "mns:very_small_blackstone_4", "spreadFactor": 2 },
+        { "name": "mns:very_small_nether_brick",   "spreadFactor": 2 },
+        { "name": "mns:very_small_nether_brick_2", "spreadFactor": 2 },
+        { "name": "mns:very_small_nether_brick_3", "spreadFactor": 2 },
+        { "name": "mns:lava_pool",       "spreadFactor": 2 },
+        { "name": "mns:leafy_rubble",    "spreadFactor": 2 },
+        { "name": "mns:soul_fire",       "spreadFactor": 2 },
+        { "name": "mns:ruined_portal",   "spreadFactor": 2 },
+        // MES end ambient  
+        { "name": "mes:endscraps",       "spreadFactor": 2 },
+        { "name": "mes:enderpin_spikes", "spreadFactor": 2 },
+        { "name": "mes:enderskog",       "spreadFactor": 2 },
+        { "name": "mes:placid_prairie",  "spreadFactor": 2 },
+        { "name": "mes:enderbloom_grove","spreadFactor": 2 },
+
+        // ── VILLAGES (factor 2 - rarer than vanilla but still findable) ────────
+        { "name": "minecraft:villages",                        "spreadFactor": 2 },
+        { "name": "mmv:villages",                              "spreadFactor": 2 },
+        { "name": "repurposed_structures:villages_overworld",  "spreadFactor": 2 },
+        { "name": "repurposed_structures:villages_nether",     "spreadFactor": 2 },
+        { "name": "repurposed_structures:villages_mushroom",   "spreadFactor": 2 },
+        { "name": "nova_structures:villages_birch",            "spreadFactor": 2 },
+        { "name": "nova_structures:villages_jungle",           "spreadFactor": 2 },
+        { "name": "nova_structures:villages_swamp",            "spreadFactor": 2 },
+        { "name": "ribbits:ribbit_village",                    "spreadFactor": 2 },
+        { "name": "towns_and_towers:towns",                    "spreadFactor": 2 },
+        { "name": "towns_and_towers:towers",                   "spreadFactor": 2 },
+        { "name": "terralith:rare_village",                    "spreadFactor": 2 },
+        { "name": "joshie:village_ocean",                      "spreadFactor": 2 },
+
+        // ── STANDARD MODDED STRUCTURES (global factor 3) ───────────────────────
+        // These are left at the global default - no entry needed. Listed for clarity.
+        // ae2:meteorite, ars_nouveau:wilden_den_set, betterdungeons:*,
+        // betterfortresses:fortress, bettermineshafts:*, betterwitchhuts:*,
+        // cataclysm:*, create_ltab:*, create_structures_arise:*,
+        // dungeons_arise_seven_seas:*, incendium:*, mns:medium/large,
+        // nova_structures:*, philipsruins:*, repurposed_structures:outposts/etc,
+        // structory:mid_rare_ruin/old_manor, structory_towers:towers/nether/end,
+        // supplementaries:galleons, terralith:*, totw_modded:*, underground_bunkers:*,
+        // underground_villages:*, towns_and_towers:other ...
+
+        // ── LARGER / RARER STRUCTURES (factor 5 - keep truly rare) ────────────
+        // Vanilla mega-rare
+        { "name": "minecraft:woodland_mansions",  "spreadFactor": 5 },
+        { "name": "minecraft:ancient_cities",     "spreadFactor": 5 },
+        { "name": "minecraft:trial_chambers",     "spreadFactor": 4 },
+        { "name": "minecraft:ocean_monuments",    "spreadFactor": 4 },
+        // Aether dungeons
+        { "name": "aether:bronze_dungeon",           "spreadFactor": 5 },
+        { "name": "aether:silver_and_gold_dungeons", "spreadFactor": 5 },
+        // Cataclysm boss structures
+        { "name": "cataclysm:acropolis",       "spreadFactor": 5 },
+        { "name": "cataclysm:ancient_factory", "spreadFactor": 5 },
+        { "name": "cataclysm:burning_arena",   "spreadFactor": 5 },
+        { "name": "cataclysm:sunken_city",     "spreadFactor": 5 },
+        { "name": "cataclysm:frosted_prison",  "spreadFactor": 5 },
+        // Create Structures Arise - big builds
+        { "name": "create_structures_arise:darkcastle",              "spreadFactor": 5 },
+        { "name": "create_structures_arise:towerofochrum",           "spreadFactor": 5 },
+        { "name": "create_structures_arise:create_ruined_castle",    "spreadFactor": 5 },
+        { "name": "create_structures_arise:obsidiantemple",          "spreadFactor": 5 },
+        // MES large end structures
+        { "name": "mes:phantom_citadel",   "spreadFactor": 5 },
+        { "name": "mes:monolith",          "spreadFactor": 5 },
+        { "name": "mes:mega_ship",         "spreadFactor": 5 },
+        { "name": "mes:mega_ship_basic",   "spreadFactor": 4 },
+        { "name": "mes:mega_ship_crashed", "spreadFactor": 4 },
+        { "name": "mes:mega_ship_crashed_2",           "spreadFactor": 4 },
+        { "name": "mes:mega_ship_crashed_deepslate",   "spreadFactor": 4 },
+        { "name": "mes:mega_ship_deepslate",           "spreadFactor": 4 },
+        { "name": "mes:mega_ship_deepslate_2",         "spreadFactor": 4 },
+        { "name": "mes:mega_ship_deepslate_3",         "spreadFactor": 4 },
+        { "name": "mes:starlight_voyager", "spreadFactor": 5 },
+        { "name": "mes:ender_spire",       "spreadFactor": 4 },
+        // Philips Ruins - large/unique
+        { "name": "philipsruins:lost_soul_city",    "spreadFactor": 5 },
+        { "name": "philipsruins:ocean_fortress_main","spreadFactor": 5 },
+        { "name": "philipsruins:ancient_crypt",     "spreadFactor": 5 },
+        // Nova Structures large
+        { "name": "nova_structures:bunker",       "spreadFactor": 5 },
+        { "name": "nova_structures:undead_crypt", "spreadFactor": 5 },
+        // Structory rare/ultra
+        { "name": "structory:old_manor",                "spreadFactor": 5 },
+        { "name": "structory_towers:rare_towers",       "spreadFactor": 5 },
+        { "name": "structory_towers:ultra_rare_towers", "spreadFactor": 6 },
+        // Repurposed strongholds (too many otherwise)
+        { "name": "repurposed_structures:strongholds_end",    "spreadFactor": 5 },
+        { "name": "repurposed_structures:strongholds_nether", "spreadFactor": 5 },
+        // Dungeons Arise Seven Seas major
+        { "name": "dungeons_arise_seven_seas:minor_structures", "spreadFactor": 4 },
+        // FriendsAndFoes citadel
+        { "name": "friendsandfoes:citadel", "spreadFactor": 5 },
+        // Deeperdarker ancient temple
+        { "name": "deeperdarker:ancient_temples", "spreadFactor": 5 },
+        // Cobblemon mega showdown raids (should be rare encounters)
+        { "name": "mega_showdown:megaroid",        "spreadFactor": 5 },
+        { "name": "mega_showdown:mega_site",       "spreadFactor": 5 },
+        { "name": "mega_showdown:observatory",     "spreadFactor": 5 },
+        // Terralith mage/dungeon (rare by design)
+        { "name": "terralith:mage",             "spreadFactor": 4 },
+        { "name": "terralith:rare_dungeon",     "spreadFactor": 5 },
+        { "name": "terralith:underground_dungeon","spreadFactor": 4 },
+        // Nullscape unique structures
+        { "name": "nullscape:dragon_skeleton", "spreadFactor": 4 },
+        { "name": "nullscape:rift",            "spreadFactor": 5 },
+        // Repurposed rare/major
+        { "name": "repurposed_structures:ancient_cities_end",     "spreadFactor": 5 },
+        { "name": "repurposed_structures:ancient_cities_nether",  "spreadFactor": 5 },
+        { "name": "repurposed_structures:ancient_cities_overworld","spreadFactor": 5 },
+        { "name": "repurposed_structures:monuments_nether",       "spreadFactor": 4 },
+        { "name": "repurposed_structures:monuments_overworld",    "spreadFactor": 4 },
+        { "name": "repurposed_structures:mansions_overworld",     "spreadFactor": 5 },
+        { "name": "repurposed_structures:mansions_mangrove",      "spreadFactor": 5 },
+        // Philip's rare ruin
+        { "name": "philipsruins:rare_ruin", "spreadFactor": 5 },
+        // Sky villages (floating, should be rare)
+        { "name": "skyvillages:skyvillage", "spreadFactor": 4 }
     ]
 }

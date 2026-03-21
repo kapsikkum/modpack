@@ -174,7 +174,7 @@ hash = "368cfc853e44c77ebd1f6f43484ae1264f393f0e927391cb04ae9c0916b6e90c"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "4c883567104b39d92cefc9b775471b6f9d8e26f0c083377e425edd2bea32c9ad"
+hash = "f1c2a77525e353753cee096d562820840c6a5cdb4f97e4c3981fd16332d26736"
 
 [[files]]
 file = "config/spawn_notification.json"
