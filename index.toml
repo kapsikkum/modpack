@@ -10,7 +10,7 @@ hash = "d623fc7fca0f743b9840a65661b5ec4ac238577a742fec719b8474a91eb6fd38"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
-hash = "6e8063c267b90077f29ff8f5f326113a03f4796ed89b2def32484d733d138a95"
+hash = "b946c7cfcf981c81b227fc8aaef2389919eda51be728bed9c9a3520eacd086e7"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
@@ -26,7 +26,7 @@ hash = "8585b5a6338b3eecbc4d2f59087ec7e0ec02cbdb16de36bdf64415966ee5b9e5"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "3e1e190b086a0d229f5048358e5557814bfd423d0085be641a9269f54d030ad4"
+hash = "7b6e892194f72b5d9e964c7bf2670903e3f817efd2a0198e46d63b5dc1578429"
 
 [[files]]
 file = "config/ambientsounds-client.json"
