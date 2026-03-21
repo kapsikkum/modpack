@@ -6,10 +6,9 @@
   "sitXOffset": 0,
   "renderStuckFeatures": true,
   "vanillaHandsMode": "OFF",
-  "dynamicMode": false,
+  "dynamicMode": true,
   "vanillaHandsSkipSwimming": true,
-  "autoVanillaHands": [
-  ],
+  "autoVanillaHands": [],
   "autoToggleModItems": [
     "exposure:camera",
     "antiqueatlas:antique_atlas",
