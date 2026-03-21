@@ -58,7 +58,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "dc8c90e0853dc590cc37d6ac6c443358d8643a8268181d429f3a5f8628c73ab9"
+hash = "3e47eb2b042950658ff231ac1153ed452d9b790750e06674dab8042b90639f77"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1076,11 +1076,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "14fa336b8eeb8ff0b600f441e9ab42dc68a08557b1b75c89adcc46a92bff0a6a"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
@@ -1193,11 +1188,6 @@ metafile = true
 [[files]]
 file = "mods/hiddenmons-cobblemon.pw.toml"
 hash = "2094408506e0fa9d799705f6d63d9af25538fd7b2b81a70f140a76e388be1f0d"
-metafile = true
-
-[[files]]
-file = "mods/hyrule-terrors.pw.toml"
-hash = "d616465c0bc84642a018f59c028b679b44637c0bb745a7c9ab7ac08b11953b72"
 metafile = true
 
 [[files]]
