@@ -1,0 +1,13 @@
+name = "Ping Wheel"
+filename = "Ping-Wheel-1.12.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QQXAdCzh/versions/Ayj3A9qT/Ping-Wheel-1.12.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "7f92c5c99a591277bb7a798c63d81d41e5a3d79b6af535c8ed9997030602cc34c3955706eba0190e58eaa4f6f1b9218e2be5b6b0ce89a1fac789150c136cccb1"
+
+[update]
+[update.modrinth]
+mod-id = "QQXAdCzh"
+version = "Ayj3A9qT"

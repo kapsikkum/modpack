@@ -1,0 +1,18 @@
+{
+    // Global multiplier applied to the separation and spacing of all structures.
+    // Default is 2. We set this to 3 to make structures meaningfully rarer across
+    // the large number of structure mods in this pack (dungeons-and-taverns,
+    // towns-and-towers, repurposed-structures, moogs series, structory, etc.)
+    "spreadFactor": 3,
+
+    // Use structure ID as the salt to avoid multiple mods that default to salt=0
+    // causing structures to cluster together.
+    "idBasedSalt": true,
+
+    // Per-structure overrides. Use /dumpstructuresets in-game to get all IDs.
+    // Uncomment and adjust entries here to tune individual structures.
+    "customSpreadFactors": [
+        // Example: make mansions even rarer (on top of the global factor)
+        // { "name": "minecraft:mansion", "spreadFactor": 2 }
+    ]
+}
