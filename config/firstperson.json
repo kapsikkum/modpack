@@ -9,6 +9,9 @@
   "dynamicMode": false,
   "vanillaHandsSkipSwimming": true,
   "autoVanillaHands": [
+  ],
+  "autoToggleModItems": [
+    "exposure:camera",
     "antiqueatlas:antique_atlas",
     "hangglider:hang_glider",
     "hangglider:reinforced_hang_glider",
@@ -213,9 +216,6 @@
     "simplyswords:whisperwind",
     "simplyswords:wickpiercer",
     "simplyswords:wraithfang"
-  ],
-  "autoToggleModItems": [
-    "exposure:camera"
   ],
   "hiddenLayers": []
 }

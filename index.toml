@@ -70,7 +70,7 @@ hash = "64c2ada6367eb12b908dd460ce2cb15addfe4d324bcf1d76bbdd6681fb2494e9"
 
 [[files]]
 file = "config/firstperson.json"
-hash = "3a0bfdbc733e041509fccd5f5b5d1d93f3be8a11d21d520cff63f113acfaa0aa"
+hash = "0a3ebc6411efc17b123aa455aaa425f4ee41fff0c0f6b9398e42b87b64163659"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
@@ -1073,6 +1073,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/first-person-model.pw.toml"
+hash = "14fa336b8eeb8ff0b600f441e9ab42dc68a08557b1b75c89adcc46a92bff0a6a"
 metafile = true
 
 [[files]]
