@@ -1,0 +1,13 @@
+name = "Mekanism: Ponders"
+filename = "mekanism_ponders-1.0.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yriKr10n/versions/dDdCtx7Z/mekanism_ponders-1.0.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "41129c55d5e85868f48d96c007861770a9b245af84f30ee22331865905d3136bc81081152bb89254a31a470e1a933e2e00f79675c8a16d9b9381b637b8436df9"
+
+[update]
+[update.modrinth]
+mod-id = "yriKr10n"
+version = "dDdCtx7Z"

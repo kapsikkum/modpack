@@ -511,11 +511,6 @@ hash = "b6b710a09514400c8e36511c4606296b56a43ba3a1044ef4fce903aec03efe9a"
 metafile = true
 
 [[files]]
-file = "mods/bluemap.pw.toml"
-hash = "e9fe12aa65ed7c95394c567c75725ee73aa358a3bccf1fea54d29ceefb8dcc40"
-metafile = true
-
-[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
 metafile = true
@@ -1328,6 +1323,11 @@ metafile = true
 [[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "4e3aaef188d1f975c6ebd539f50021768851f7fc4638079ee72179ec33bf487f"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-ponders.pw.toml"
+hash = "f96915c845dcc6e533b63d7de37ac020c3558550eb54775c697ff81ed379b4e6"
 metafile = true
 
 [[files]]
