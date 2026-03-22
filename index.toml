@@ -594,16 +594,6 @@ hash = "3b5f3feca8b299f947ed3956e49f7c3940793754928f2f99cad936448208a501"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "442f63958b3c890cfaf3aba260b6129a0fc167b536f146ba09c59c2eeaaf1120"
-metafile = true
-
-[[files]]
-file = "mods/applied-mekanistics.pw.toml"
-hash = "bd25db756e368a27d83240e4345e4cc26d0237943ef0ca56603db1de4e0818f3"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6a9ca5c65d6ba60d1a9e5c8c3d9607fd70a6912dabe8f99cc74de4233d68108f"
 metafile = true
@@ -611,11 +601,6 @@ metafile = true
 [[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "f1f25c5834644588a7a98da13198dc7b07bdea75825bf4c1385ba9d6c36c62c0"
-metafile = true
-
-[[files]]
-file = "mods/ars-energistique.pw.toml"
-hash = "ed65dd1f7fdf9dc6b75739c078e324b5cc70495fd20530f31cf06ae4e0bd65f4"
 metafile = true
 
 [[files]]
@@ -656,11 +641,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
-metafile = true
-
-[[files]]
-file = "mods/bigger-ae2.pw.toml"
-hash = "b6b710a09514400c8e36511c4606296b56a43ba3a1044ef4fce903aec03efe9a"
 metafile = true
 
 [[files]]
@@ -979,11 +959,6 @@ hash = "fa7e815272f183ccdeac6baff3690f6291c4117646af8912123b705fde64dbef"
 metafile = true
 
 [[files]]
-file = "mods/create-stock-bridge.pw.toml"
-hash = "1a07cb20964e90f065dd40a767d5dab8e35c51237809877bc22f4ee873db3ee2"
-metafile = true
-
-[[files]]
 file = "mods/create-stones.pw.toml"
 hash = "5e27d23ab07532da7bb1d9e19ce94fc1f8dad1924b61f980306d3822aeb7cd9c"
 metafile = true
@@ -1181,11 +1156,6 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "7b6dbe885c4fa12d5c9cb8182138305575eff19aed1e7f969a5ef343f841ee87"
-metafile = true
-
-[[files]]
-file = "mods/extended-ae.pw.toml"
-hash = "0a5570c6ae3540f4b058e84f1dfee75c0b2367dbbf3578dcff927183f9df3973"
 metafile = true
 
 [[files]]
