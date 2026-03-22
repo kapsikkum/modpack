@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "7ff4539087d46ffb14f634fd6c8f4829bfb90b10413ee9ef1f7f4c2d01d23afe"
+hash = "5d4fc1dea80acc736422820ad6a763c0536b1a7b343557386c5642071ebc072d"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -62,7 +62,7 @@ hash = "3e47eb2b042950658ff231ac1153ed452d9b790750e06674dab8042b90639f77"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "f0cb83e5e942b739aa37e484bb309d70dd9d70d5940a3486756f62aceeb9da9f"
+hash = "f511364150b18feb9a0cf971d11dbe43e964c2a9801e21eaf2794643741c1805"
 
 [[files]]
 file = "config/entityculling.json"
@@ -2074,7 +2074,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-pool-api.pw.toml"
-hash = "1e29968c1d8f6c6ff9de68ceb1f4a477fbf2ebd404ccf6ed59e8c9c2c4285d95"
+hash = "b43fd8343ee66b129ea22bcd7ba47ad392e7edc33cb24be0ed604b2225ed0229"
 metafile = true
 
 [[files]]

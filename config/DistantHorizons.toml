@@ -13,7 +13,7 @@
 [client.advanced.graphics.quality]
     # Render distance for LODs in chunks.  Range: 32-4096, default: 256.
     # 512 gives a noticeably wider view on modern hardware.
-    lodChunkRenderDistanceRadius = 512
+    lodChunkRenderDistanceRadius = 256
 
     # How quickly LOD quality falls off with distance.  Default: MEDIUM.
     horizontalQuality = "MEDIUM"
