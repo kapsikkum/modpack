@@ -1114,6 +1114,11 @@ hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
 metafile = true
 
 [[files]]
+file = "mods/edivadlib.pw.toml"
+hash = "e2ee2481b63a012bdfb8c9f588788dd2f116ff48298014bb3e00d08a224fe14f"
+metafile = true
+
+[[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "dc22ed8bc5b64d29c2c8c4f19850ff37d10c5d447301b3dbd3b13414b2d8b4fa"
 metafile = true
@@ -1181,6 +1186,16 @@ metafile = true
 [[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "0a5570c6ae3540f4b058e84f1dfee75c0b2367dbbf3578dcff927183f9df3973"
+metafile = true
+
+[[files]]
+file = "mods/extra-disks.pw.toml"
+hash = "f41f508ddfb51ddd09e2f2984f06675fc7bf751d52e65bb5f3cd0b97c15cae2f"
+metafile = true
+
+[[files]]
+file = "mods/extrastorage.pw.toml"
+hash = "6bbf86eff97c1af9dec95f50d6bd2b72f25faaa456119ad27e5add68e45e639e"
 metafile = true
 
 [[files]]
@@ -1816,6 +1831,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "00decabe50870a59262d3a50ac05e7f608439490a3285a6c979266039c2fe911"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-curios-integration.pw.toml"
+hash = "ce6f405d86fa560f11825b1c92ac8ffe27e5d8b5e1e576ca9b464bb35bbe6c7a"
 metafile = true
 
 [[files]]

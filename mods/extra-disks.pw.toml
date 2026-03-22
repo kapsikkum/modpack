@@ -1,0 +1,13 @@
+name = "Extra Disks"
+filename = "ExtraDisks-1.21.1-4.0.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tlo2tahX/versions/GkyunMJt/ExtraDisks-1.21.1-4.0.14.jar"
+hash-format = "sha512"
+hash = "36f0205b70f94db1e4a48ba50d6f1ab31bd65c62738686a8b8c4e193d0b8ca0ba9188806d128c64e52ab440677eb2d680c5f83f27e458ea62f7758e0d01d284c"
+
+[update]
+[update.modrinth]
+mod-id = "Tlo2tahX"
+version = "GkyunMJt"
