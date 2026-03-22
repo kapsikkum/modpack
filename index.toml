@@ -1289,7 +1289,7 @@ metafile = true
 
 [[files]]
 file = "mods/gazebos.pw.toml"
-hash = "7fc039ec92f628dc7679a7afcb319f443081c3aecc59819257cb32100a85af38"
+hash = "ad14af7aaf412df0dca81a7ac7da749d4c2d3708ff59d406b8e54066c215ae7d"
 metafile = true
 
 [[files]]
@@ -1469,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
-hash = "8fcfd4c28dc5b2efa52f936d52e6ca8257f3d12af21d31d7c65dc7d43b08d55d"
+hash = "6917553073df67745da1d535cc6107839a76b54081b1b6f368a38c723f5fd8c7"
 metafile = true
 
 [[files]]
@@ -1494,7 +1494,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "faed2d9ae09b810b385180a3c20e598ff4d43da75f324b0320649ea4eeb78e29"
+hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
@@ -1504,7 +1504,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "3b7b23c07ab60d818286d5767e59375a9eafdd52fbfb8d6e2e14fcc79df5a584"
+hash = "c667e9e12db041144f2e1a5e60ade71de95485122bb77ce62538f007f69a7bc9"
 metafile = true
 
 [[files]]
@@ -2024,7 +2024,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
@@ -2174,12 +2174,12 @@ metafile = true
 
 [[files]]
 file = "mods/tree-harvester.pw.toml"
-hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
+hash = "d5837bde6e12926d8649f6caaadf68a6f80e060ac164348d7ec5ec6555817165"
 metafile = true
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
-hash = "d0b7f24524dde74e0b9f9964aa87081911fb9c70382727638fce1c793f153a3f"
+hash = "cc5cc5b5929b6f0dce6262c5bb9ab2e451289505bcabf1b5eb997fc4fb55b8f3"
 metafile = true
 
 [[files]]
