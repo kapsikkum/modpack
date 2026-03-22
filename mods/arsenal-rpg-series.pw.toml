@@ -1,0 +1,13 @@
+name = "Arsenal (RPG Series)"
+filename = "arsenal-neoforge-1.4.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LiP9Q3KV/versions/gdFGw2hh/arsenal-neoforge-1.4.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "b30c255ebdcf8e1996deebd450e67ddbc489760460bb55263f0cec2c120f041e10463d653e6081c35297615cba454a6b0dc6af370471459544425dfd7f8be7bd"
+
+[update]
+[update.modrinth]
+mod-id = "LiP9Q3KV"
+version = "gdFGw2hh"

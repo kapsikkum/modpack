@@ -1,0 +1,13 @@
+name = "AzureLib Armor"
+filename = "azurelibarmor-neo-1.21.1-3.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pduQXSbl/versions/r0go9uWU/azurelibarmor-neo-1.21.1-3.1.2.jar"
+hash-format = "sha512"
+hash = "a101ca25ae453576da4884d3f6f455ab4372b250fe5e42e0ccae5a11e07e5ff71da9bb80e2cc339e5c462f9ed073e681d695a8e0a68fa90e6b01f7e199443d19"
+
+[update]
+[update.modrinth]
+mod-id = "pduQXSbl"
+version = "r0go9uWU"

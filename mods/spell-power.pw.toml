@@ -1,0 +1,13 @@
+name = "Spell Power Attributes"
+filename = "spell_power-neoforge-1.4.6+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ooWzSQP/versions/yAV6LKTH/spell_power-neoforge-1.4.6%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "42ae89f4cfc3f160b151488802cfeac6f60a9a935c71a4879e017d349fd148588041cbbcbb1ae13aa5fc931a12fc288d1174062d8e55fc36ac8ddb79f8bef8de"
+
+[update]
+[update.modrinth]
+mod-id = "8ooWzSQP"
+version = "yAV6LKTH"

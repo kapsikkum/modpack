@@ -78,7 +78,7 @@ hash = "21b182b301c72a012c72e5281fd7a69a42e354776d41b781a38e516c24b64c84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "6f28262468061daabba834e34828f9a5c1b37899bfc42b32e2632b9d33b61c41"
+hash = "2b3a0ff47d6194cbc27cfd2bc641ab3d28b1533db9d71147deec9b47af9fdf09"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
@@ -126,7 +126,7 @@ hash = "ede390f7518e6c568ce2af049ee929dd3db3466540152ad644d28d3fc33247ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "16055a58dfac48f1a2e4ee8a4f71de93869a49864aa162f2f803e2caf92a4f43"
+hash = "216496638fe01b4f72b1b4df6f4c779f65d55148fd0bbe9d1ed7fddbf9ef90bb"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -603,6 +603,11 @@ hash = "3b5f3feca8b299f947ed3956e49f7c3940793754928f2f99cad936448208a501"
 metafile = true
 
 [[files]]
+file = "mods/archers.pw.toml"
+hash = "59ef95f3ffc0a9f5a4d3be82d09c5f2608c83fc7a4b9dd4ef4eb0070d15d11b7"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6a9ca5c65d6ba60d1a9e5c8c3d9607fd70a6912dabe8f99cc74de4233d68108f"
 metafile = true
@@ -618,6 +623,11 @@ hash = "02261f67e57ae598614d40061c0b7f0c511a28bddcdc394da47a8c61ad209823"
 metafile = true
 
 [[files]]
+file = "mods/arsenal-rpg-series.pw.toml"
+hash = "ec014d5f3a17c0daad38840adc7b5de98de7dacdf9826c32c4c5f6389d27e5cb"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "19ee2739c4d135462767b6b78083e4742304924911d23c1746da5b863ed17008"
 metafile = true
@@ -625,6 +635,11 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "f0edb6932d0c3f97338cf660763ff43bc5febdf0eb5edeca3a1927c20f14e296"
+metafile = true
+
+[[files]]
+file = "mods/azurelib-armor.pw.toml"
+hash = "b28af38f41880de4e4cc352557cfff53bd25aa752ad28388a3fd3c08e20ebe22"
 metafile = true
 
 [[files]]
@@ -685,6 +700,11 @@ metafile = true
 [[files]]
 file = "mods/building-wands.pw.toml"
 hash = "7892bf3e3c6d05dca2d0e4ba9414a229f1a415f3326ebe204af9119cf7fa5f01"
+metafile = true
+
+[[files]]
+file = "mods/bundle-api.pw.toml"
+hash = "a7e46ae0871bb75452fcd2044a7a320beb08b2a691518111c9e4906a9c6fde39"
 metafile = true
 
 [[files]]
@@ -1268,6 +1288,11 @@ hash = "bddb5572d84249489ca5a887ce1ae22832da424ca38ce6222f901370371a5b92"
 metafile = true
 
 [[files]]
+file = "mods/gazebos.pw.toml"
+hash = "7fc039ec92f628dc7679a7afcb319f443081c3aecc59819257cb32100a85af38"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
@@ -1360,6 +1385,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "25680ee42912b70c0a0404ebf5b96982ee6942818c12d282888f8a18066f3adf"
+metafile = true
+
+[[files]]
+file = "mods/jewelry.pw.toml"
+hash = "6138ad725b71ed421496fb95fb72b6850a289f01f399cae639838649526c5ea9"
 metafile = true
 
 [[files]]
@@ -1728,6 +1758,11 @@ hash = "089eb79244d52a34771cf2ee53ecbd99b553569b26623b464679b67a7653f071"
 metafile = true
 
 [[files]]
+file = "mods/paladins-and-priests.pw.toml"
+hash = "f748c8af63f2b877081d4df46fd2b5218ed3de64dc7fe44d94c835fd5946b843"
+metafile = true
+
+[[files]]
 file = "mods/particle-rain.pw.toml"
 hash = "9ab2df7457a28eb639e403fddae24c624d8c132547555bfa7d9adad57966fb5a"
 metafile = true
@@ -1754,7 +1789,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
@@ -1785,6 +1820,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6812c3faa178cd48c65c5b8e7aeef50bc0b63d8e3b2117065d6179a43d8d3649"
+metafile = true
+
+[[files]]
+file = "mods/ranged-weapon-api.pw.toml"
+hash = "c0014740246a7e9427afe968d43e129f4d21b899e0e04fa036bab758bc11f713"
 metafile = true
 
 [[files]]
@@ -1838,6 +1878,11 @@ hash = "f8e01ce25bef36e58c37cebf878b2cc078a5bf34d734a33f00da4691b7698d0c"
 metafile = true
 
 [[files]]
+file = "mods/relics-rpg.pw.toml"
+hash = "10d3e32162d601eef892f9cecde6028ec48881999b063138b3674a45e2200b2b"
+metafile = true
+
+[[files]]
 file = "mods/reliquified-ars-nouveau.pw.toml"
 hash = "9b92e163fd6898c215d4f14aa77c63867f4d74ac256c5fd54fa057a781c75352"
 metafile = true
@@ -1883,6 +1928,16 @@ hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
 metafile = true
 
 [[files]]
+file = "mods/rogues-and-warriors.pw.toml"
+hash = "e35cf7c4bfef1d4cf8158c4df9134b93bce4f99e00829aa3d48912b7beffc0b7"
+metafile = true
+
+[[files]]
+file = "mods/runes.pw.toml"
+hash = "2b20f4d643cad01eaffaeb1602d9af25195e133e9b94ac96d1a3a0bed2c83086"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
 metafile = true
@@ -1910,6 +1965,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "8430eb240558b3c150edaa07d69e6d57ae3d9e3ddcee14e1a1f137b4f4938754"
+metafile = true
+
+[[files]]
+file = "mods/shield-api.pw.toml"
+hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
 metafile = true
 
 [[files]]
@@ -1968,6 +2028,16 @@ hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
 metafile = true
 
 [[files]]
+file = "mods/spell-engine.pw.toml"
+hash = "acfe7dd52f3ccbffe994cd25d0fe4166365a4c7c059bead3cf1ea682565bb944"
+metafile = true
+
+[[files]]
+file = "mods/spell-power.pw.toml"
+hash = "2c6eb75d262805c3a7e4d7ccb0a964c67511206fbdd1711504f41d538c62c237"
+metafile = true
+
+[[files]]
 file = "mods/splinecart.pw.toml"
 hash = "a9345e349d4aedab0eb4705d37e4e59d53f5fa19c3ce0effcbef35db9380da68"
 metafile = true
@@ -2000,6 +2070,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "70cd30931bd186fd3f9770062dd998774ac9e1c0cf478938a62d5815ffdcfe5b"
+metafile = true
+
+[[files]]
+file = "mods/structure-pool-api.pw.toml"
+hash = "1e29968c1d8f6c6ff9de68ceb1f4a477fbf2ebd404ccf6ed59e8c9c2c4285d95"
 metafile = true
 
 [[files]]
@@ -2103,11 +2178,6 @@ hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
 metafile = true
 
 [[files]]
-file = "mods/trinkets.pw.toml"
-hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
-metafile = true
-
-[[files]]
 file = "mods/underground-bunkers.pw.toml"
 hash = "d0b7f24524dde74e0b9f9964aa87081911fb9c70382727638fce1c793f153a3f"
 metafile = true
@@ -2145,6 +2215,11 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise-seven-seas.pw.toml"
 hash = "6817acd8f1a98c3e7c00e61507a9178fa9c7398b356f6e92704656a712157dcd"
+metafile = true
+
+[[files]]
+file = "mods/wizards.pw.toml"
+hash = "4fe6cc0f09a168ed71d96a30f67570ce76e0c3fa668adde71bd216cfd2b0541f"
 metafile = true
 
 [[files]]
@@ -2219,7 +2294,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "dc8c90e0853dc590cc37d6ac6c443358d8643a8268181d429f3a5f8628c73ab9"
+hash = "3e47eb2b042950658ff231ac1153ed452d9b790750e06674dab8042b90639f77"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"

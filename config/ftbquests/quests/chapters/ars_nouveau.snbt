@@ -17,7 +17,7 @@
 				{
 					count: 32
 					id: "4210"
-					item: "ars_nouveau:source_berry"
+					item: "ars_nouveau:sourceberry_bush"
 					type: "item"
 				}
 			]
@@ -25,7 +25,7 @@
 				{
 					count: 16L
 					id: "4110"
-					item: "ars_nouveau:source_berry"
+					item: "ars_nouveau:sourceberry_bush"
 					type: "item"
 				}
 			]
