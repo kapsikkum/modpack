@@ -1,0 +1,13 @@
+name = "Sniffer Archaeology (Cobblemon)"
+filename = "Cobblemon Sniffer Archaeology v1.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/94ItA9yu/versions/iWZzu42y/Cobblemon%20Sniffer%20Archaeology%20v1.1.zip"
+hash-format = "sha512"
+hash = "705ae2dfddaa1daa1a8a0d9db3fc242d5438950580fc88c48dcce7c3400c30e8ffa5844f028f38b4baaa538dd79da4a3f1463644d8cfcad67a0acf4c261cb15a"
+
+[update]
+[update.modrinth]
+mod-id = "94ItA9yu"
+version = "iWZzu42y"

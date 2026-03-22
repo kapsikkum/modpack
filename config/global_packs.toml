@@ -1,0 +1,69 @@
+config_version=3
+
+enable_system_global_packs = false
+log_pack_ids = false
+
+[resourcepacks]
+# Load order: first = highest priority (top of resource pack list)
+#
+# Ordering rules applied:
+#   - Whimscape x FA must be above both FA and Whimscape (upstream: "patch, on top of both")
+#   - FA Extensions & FA Objects must be above FA base (upstream: "load these packs above Fresh Animations")
+#   - FA base must be above Whimscape base (upstream: "FA above Whimscape")  
+#   - Whimscape addons (x Cobblemon, x Create, etc.) must be above Whimscape base
+required = [
+    # FA + Whimscape crossover (requires BOTH FA and Whimscape below it)
+    "global_packs/required_resources/Whimscape_x_FreshAnimations_1.20-1.21.11_r2.zip",
+
+    # FA extensions (must be above FA base)
+    "global_packs/required_resources/FA+Objects-v2.1.zip",
+    "global_packs/required_resources/FA+All_Extensions-v1.8.zip",
+
+    # FA base (above Whimscape)
+    "global_packs/required_resources/FreshAnimations_v1.10.4.zip",
+
+    # Whimscape addons (must be above Whimscape base)
+    "global_packs/required_resources/Whimscape_Leaves x Cobblemon.zip",
+    "global_packs/required_resources/Whimscape_Leaves_1.20-1.21.11_r1.zip",
+    "global_packs/required_resources/Whimscape x Cobblemon v1.7.1.zip",
+    "global_packs/required_resources/Whimscape-x-Create-1.21.1_r11.zip",
+    "global_packs/required_resources/Whimscape x Curios.zip",
+    "global_packs/required_resources/Whimscape X Easy Anvils.zip",
+    "global_packs/required_resources/Whimscape X Easy Magic.zip",
+    "global_packs/required_resources/Whimscape x RPG Series.zip",
+    "global_packs/required_resources/Whimscape x Exploration v2.1.zip",
+    "global_packs/required_resources/Doc's Whimscape Additions - Even More Delight.zip",
+    "global_packs/required_resources/Doc's Whimscape Additions - Friends & Foes - 1.1.zip",
+    "global_packs/required_resources/SimplySwordsWhimscape_v1.1.zip",
+
+    # Whimscape base
+    "global_packs/required_resources/Whimscape_1.20.2-1.21.11_r2.zip",
+
+    # Independent packs (no inter-pack ordering requirements)
+    "global_packs/required_resources/Better-Leaves-9.5.zip",
+    "global_packs/required_resources/Refined Storage - ReCreated v0.7.zip",
+    "global_packs/required_resources/§8§lDarkmode §f§lColourful Containers§8.zip",
+    "global_packs/required_resources/Miku Totem.zip",
+    "global_packs/required_resources/Muskets 3D Wild West для Ewewkek's.zip",
+    "global_packs/required_resources/Maxi's-JM+CM_Pixel-U11.zip",
+
+    # Cobblemon model/texture packs
+    "global_packs/required_resources/ATM x MSD [3.4.0].zip",
+    "global_packs/required_resources/BoniMons.zip",
+    "global_packs/required_resources/CavsCobblemon1.4.zip",
+    "global_packs/required_resources/NADYMONS3_v3.zip",
+    "global_packs/required_resources/DeCubes_MoMonsPackv2.5.zip",
+    "global_packs/required_resources/HiddenMons [Cobblemon] v0.6.zip",
+    "global_packs/required_resources/CobbleMotion_v1.4.1.zip",
+]
+enable_builtin = []
+
+[datapacks]
+required = [
+    "datapacks/",
+    "resourcepacks/",
+    "global_packs/required_data/",
+]
+optional = [
+    "global_packs/optional_data/",
+]

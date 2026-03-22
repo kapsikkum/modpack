@@ -1,0 +1,13 @@
+name = "Whimscape Leaves"
+filename = "Whimscape_Leaves_1.20-1.21.11_r1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zREUZ4Cs/versions/kkiypHXs/Whimscape_Leaves_1.20-1.21.11_r1.zip"
+hash-format = "sha512"
+hash = "63cd9549959881106814f9984a3b71d9fbd368955e3072b78477aea2d7cc13361050dfc28de4dd9983ed62718f568e2e4746f4cb4afba8a49b793fc9b2e08b16"
+
+[update]
+[update.modrinth]
+mod-id = "zREUZ4Cs"
+version = "kkiypHXs"

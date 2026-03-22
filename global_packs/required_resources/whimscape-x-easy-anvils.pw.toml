@@ -1,0 +1,13 @@
+name = "Whimscape X Easy Anvils"
+filename = "Whimscape X Easy Anvils.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZevJTvPA/versions/IeUoNjUs/Whimscape%20X%20Easy%20Anvils.zip"
+hash-format = "sha512"
+hash = "a3cbbd60c143e65f4d46647ccbb695e02c25da272e6dcae5ef857e7b3329a46779936a2d16d6b348310845151b7d34dce54d662b9da692a78f1f197448691c3f"
+
+[update]
+[update.modrinth]
+mod-id = "ZevJTvPA"
+version = "IeUoNjUs"

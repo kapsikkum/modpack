@@ -1,0 +1,13 @@
+name = "CR - Biome Expanded Spawns"
+filename = "CR - Biome Expanded Spawns - 5.7.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kM8mdHMu/versions/hapewk1A/CR%20-%20Biome%20Expanded%20Spawns%20-%205.7.1.zip"
+hash-format = "sha512"
+hash = "e4ab79fa965d25329e9bda21005a385217867222a20447309cb4c36bed03140686bfd085b7d02e028f29e10fd079c22e3b2bab181f433a85b6fea5082f600275"
+
+[update]
+[update.modrinth]
+mod-id = "kM8mdHMu"
+version = "hapewk1A"

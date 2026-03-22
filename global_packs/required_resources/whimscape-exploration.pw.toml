@@ -1,0 +1,13 @@
+name = "Whimscape + Exploration"
+filename = "Whimscape x Exploration v2.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CX1IlgfZ/versions/JNMK4emc/Whimscape%20x%20Exploration%20v2.1.zip"
+hash-format = "sha512"
+hash = "c24860c8b866d2b60d0b2ac4036b5f7953ae8f510e69bf7e8635ae3037beda66afe7f5bbd65bcfd81b87b548097c92c997e3fa9b17d6f9913239bbe14fc416ef"
+
+[update]
+[update.modrinth]
+mod-id = "CX1IlgfZ"
+version = "JNMK4emc"

@@ -14,9 +14,9 @@
 			id: "C010"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C210"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -37,9 +37,9 @@
 			id: "C011"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C211"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -60,9 +60,9 @@
 			id: "C012"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C212"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -83,9 +83,9 @@
 			id: "C013"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C213"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -106,9 +106,9 @@
 			id: "C014"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C214"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -129,9 +129,9 @@
 			id: "C015"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C215"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -152,9 +152,9 @@
 			id: "C016"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C216"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -175,9 +175,9 @@
 			id: "C017"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C217"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -198,9 +198,9 @@
 			id: "C018"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C218"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -221,9 +221,9 @@
 			id: "C019"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C219"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -244,9 +244,9 @@
 			id: "C01A"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C21A"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -267,9 +267,9 @@
 			id: "C01B"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C21B"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -290,9 +290,9 @@
 			id: "C01C"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C21C"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -313,9 +313,9 @@
 			id: "C01D"
 			rewards: [
 				{
-					count: 4
+					count: 1
 					id: "C21D"
-					item: "minecraft:iron_ingot"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -338,7 +338,7 @@
 				{
 					count: 2
 					id: "C220"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -361,7 +361,7 @@
 				{
 					count: 2
 					id: "C221"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -384,7 +384,7 @@
 				{
 					count: 2
 					id: "C222"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -407,7 +407,7 @@
 				{
 					count: 2
 					id: "C223"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -430,7 +430,7 @@
 				{
 					count: 2
 					id: "C224"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -453,7 +453,7 @@
 				{
 					count: 2
 					id: "C225"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -476,7 +476,7 @@
 				{
 					count: 2
 					id: "C226"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -499,7 +499,7 @@
 				{
 					count: 2
 					id: "C227"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -522,7 +522,7 @@
 				{
 					count: 2
 					id: "C228"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -545,7 +545,7 @@
 				{
 					count: 2
 					id: "C229"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -568,7 +568,7 @@
 				{
 					count: 2
 					id: "C22A"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -591,7 +591,7 @@
 				{
 					count: 2
 					id: "C22B"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -614,7 +614,7 @@
 				{
 					count: 2
 					id: "C22C"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -637,7 +637,7 @@
 				{
 					count: 2
 					id: "C22D"
-					item: "minecraft:diamond"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -658,9 +658,9 @@
 			id: "C030"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C230"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -681,9 +681,9 @@
 			id: "C031"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C231"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -704,9 +704,9 @@
 			id: "C032"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C232"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -727,9 +727,9 @@
 			id: "C033"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C233"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -750,9 +750,9 @@
 			id: "C034"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C234"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -773,9 +773,9 @@
 			id: "C035"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C235"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -796,9 +796,9 @@
 			id: "C036"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C236"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -819,9 +819,9 @@
 			id: "C037"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C237"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -842,9 +842,9 @@
 			id: "C038"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C238"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -865,9 +865,9 @@
 			id: "C039"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C239"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -888,9 +888,9 @@
 			id: "C03A"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C23A"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -911,9 +911,9 @@
 			id: "C03B"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C23B"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -934,9 +934,9 @@
 			id: "C03C"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C23C"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -957,9 +957,9 @@
 			id: "C03D"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "C23D"
-					item: "minecraft:netherite_scrap"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -982,7 +982,7 @@
 				{
 					count: 4
 					id: "C240"
-					item: "minecraft:blaze_powder"
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 			]
@@ -1005,7 +1005,7 @@
 				{
 					count: 4
 					id: "C241"
-					item: "minecraft:snowball"
+					item: "minecraft:packed_ice"
 					type: "item"
 				}
 			]
@@ -1026,9 +1026,9 @@
 			id: "C042"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "C242"
-					item: "minecraft:prismarine_shard"
+					item: "minecraft:prismarine_crystals"
 					type: "item"
 				}
 			]
@@ -1049,9 +1049,9 @@
 			id: "C043"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C243"
-					item: "minecraft:lightning_rod"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1072,9 +1072,9 @@
 			id: "C044"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C244"
-					item: "minecraft:amethyst_shard"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1095,9 +1095,9 @@
 			id: "C045"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C245"
-					item: "minecraft:ender_pearl"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1141,9 +1141,9 @@
 			id: "C047"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C247"
-					item: "minecraft:soul_sand"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1164,7 +1164,7 @@
 			id: "C048"
 			rewards: [
 				{
-					count: 4
+					count: 16
 					id: "C248"
 					item: "minecraft:experience_bottle"
 					type: "item"
@@ -1187,9 +1187,9 @@
 			id: "C049"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C249"
-					item: "minecraft:redstone"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1210,9 +1210,9 @@
 			id: "C04A"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C24A"
-					item: "minecraft:bone"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1233,7 +1233,7 @@
 			id: "C04B"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "C24B"
 					item: "minecraft:honeycomb"
 					type: "item"
@@ -1256,9 +1256,9 @@
 			id: "C04C"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C24C"
-					item: "minecraft:torch"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1279,9 +1279,9 @@
 			id: "C04D"
 			rewards: [
 				{
-					count: 4
+					count: 3
 					id: "C24D"
-					item: "minecraft:string"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1302,9 +1302,9 @@
 			id: "C04E"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C24E"
-					item: "minecraft:rotten_flesh"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1325,7 +1325,7 @@
 			id: "C04F"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C24F"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
@@ -1348,7 +1348,7 @@
 			id: "C050"
 			rewards: [
 				{
-					count: 1
+					count: 2
 					id: "C250"
 					item: "minecraft:nether_star"
 					type: "item"
@@ -1371,9 +1371,9 @@
 			id: "C051"
 			rewards: [
 				{
-					count: 4
+					count: 3
 					id: "C251"
-					item: "minecraft:obsidian"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1394,9 +1394,9 @@
 			id: "C052"
 			rewards: [
 				{
-					count: 4
+					count: 3
 					id: "C252"
-					item: "minecraft:lapis_lazuli"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1417,9 +1417,9 @@
 			id: "C053"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "C253"
-					item: "minecraft:magma_cream"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -1440,9 +1440,9 @@
 			id: "C054"
 			rewards: [
 				{
-					count: 4
+					count: 3
 					id: "C254"
-					item: "minecraft:potion"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]

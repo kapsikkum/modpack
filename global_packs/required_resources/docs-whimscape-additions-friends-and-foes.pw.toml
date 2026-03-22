@@ -1,0 +1,13 @@
+name = "Doc's Whimscape Additions: Friends & Foes"
+filename = "Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NM9MFJAH/versions/eNF6sPd8/Doc%27s%20Whimscape%20Additions%20-%20Friends%20%26%20Foes%20-%201.1.zip"
+hash-format = "sha512"
+hash = "2bb76e29ee263557a4c903ccd0ac1266bd4b1df8dfb34e4708a4a45d4f1cd86f818156d3f59cf8de63d4af5308c79a7a0ea483a1fd87e04f8d556697477777d7"
+
+[update]
+[update.modrinth]
+mod-id = "NM9MFJAH"
+version = "eNF6sPd8"

@@ -1,0 +1,13 @@
+name = "Mekanism Trimming"
+filename = "mekanism_trimming-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Pq8XYIz/versions/HCefLR0y/mekanism_trimming-1.21.1-1.0.jar"
+hash-format = "sha512"
+hash = "bd8d05696aa166f3a392beada3ccdb34c221502f197d53f7d399c621a6fb5922dccf79f5d4567352721a543c38d8db66470be3ac934f1100d104aeee6493244f"
+
+[update]
+[update.modrinth]
+mod-id = "1Pq8XYIz"
+version = "HCefLR0y"

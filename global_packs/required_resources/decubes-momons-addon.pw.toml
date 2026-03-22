@@ -1,0 +1,13 @@
+name = "DeCubes MoMons Addon"
+filename = "DeCubes_MoMonsPackv2.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ivlgecDx/versions/GtucOZSa/DeCubes_MoMonsPackv2.5.zip"
+hash-format = "sha512"
+hash = "01456eae1a3aaa65bcf36befe5b3ee96e71c3c9e342f4e847f29a24e9e9de6aace1febb43d362e6a2606e2b0842338762cf13d47f25a59a0b89f56df95a08b30"
+
+[update]
+[update.modrinth]
+mod-id = "ivlgecDx"
+version = "GtucOZSa"

@@ -1,0 +1,13 @@
+name = "Miku Totem"
+filename = "Miku Totem.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yZv75Sc4/versions/QMa8fa0v/Miku%20Totem.zip"
+hash-format = "sha512"
+hash = "e997fb9d091b8e366e0f771005ca069708c6f2225164114f20d2d1092e2e8b1e6852224deab6fa42002ad563e9d85be8e4321b147ec6d72f890d1a9921a86cd4"
+
+[update]
+[update.modrinth]
+mod-id = "yZv75Sc4"
+version = "QMa8fa0v"

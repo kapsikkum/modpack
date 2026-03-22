@@ -1,0 +1,13 @@
+name = "Whimscape X Easy Magic"
+filename = "Whimscape X Easy Magic.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xav76RBs/versions/5unoIkr4/Whimscape%20X%20Easy%20Magic.zip"
+hash-format = "sha512"
+hash = "d1f4700ad1f0f8e91a7b3baf340ded4ae0fd4b3cc2059cde2e17981b538d5f6abb5025d18f98d64203bbb89b6fa9269fa8eaf31b81f1573834060c819d11ca41"
+
+[update]
+[update.modrinth]
+mod-id = "Xav76RBs"
+version = "5unoIkr4"

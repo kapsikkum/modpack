@@ -1,0 +1,638 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: ""
+	icon: "refinedstorage:controller"
+	id: "D001"
+	images: []
+	order_index: 14
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"§bRefined Storage§r is a digital item storage and automation mod built around §6ME Networks§r — interconnected machines that pool all your items into searchable virtual drives."
+				""
+				"Unlike §bApplied Energistics 2§r, Refined Storage uses straightforward crafting rather than inscribers, making it simpler to get started while remaining highly powerful."
+				""
+				"§7First material:§r §eSilicon§r — smelt any Sand in a furnace with Coal or Charcoal as fuel. One sand produces one Silicon."
+				""
+				"You'll need Silicon for every processor, so make at least 16 before you start."
+			]
+			icon: "refinedstorage:silicon"
+			id: "D010"
+			rewards: [
+				{
+					count: 8
+					id: "D210"
+					item: "minecraft:nether_quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "D110"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+			]
+			title: "§6Sand and Coal, Refined"
+			subtitle: "Smelt Sand with Coal to create Silicon — the foundation of all RS processors."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D010"]
+			description: [
+				"§eQuartz Enriched Iron§r is the second core Refined Storage ingredient alongside Silicon. You'll use it in every RS component."
+				""
+				"§7Recipe:§r Surround an Iron Ingot with 4 Nether Quartz in a + shape in the crafting grid."
+				""
+				"Build a generous supply early — Machine Casings alone consume 8 Quartz Enriched Iron each, and you'll need several."
+			]
+			icon: "refinedstorage:quartz_enriched_iron"
+			id: "D011"
+			rewards: [
+				{
+					count: 8
+					id: "D211"
+					item: "minecraft:nether_quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "D111"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			title: "Quartz Enriched Iron"
+			subtitle: "Craft Quartz Enriched Iron — used in every Refined Storage component."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D011"]
+			description: [
+				"§eBasic Processors§r are the entry-tier processor used in most starter RS blocks."
+				""
+				"§7Two-step process:§r"
+				"1. Craft a §7Raw Basic Processor§r from Quartz Enriched Iron + Redstone + Silicon"
+				"2. §7Smelt§r the raw processor in a furnace — this produces the finished §eBasic Processor§r"
+				""
+				"Make at least 4. You'll need them for the Machine Casing, Controller, Disk Drive, and Grid."
+			]
+			icon: "refinedstorage:basic_processor"
+			id: "D012"
+			rewards: [
+				{
+					count: 4
+					id: "D212"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "D112"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+			]
+			title: "The First Processor"
+			subtitle: "Craft and smelt Raw Basic Processors into finished Basic Processors."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D012"]
+			description: [
+				"§eMachine Casings§r are the structural housing used in almost every Refined Storage block."
+				""
+				"§7Recipe:§r Iron Ingots in the corners, Quartz Enriched Iron on the four sides, centre empty — shaped like a border in the 3×3 crafting grid."
+				""
+				"Craft at least 4. You'll burn through them rapidly as you build your network components."
+			]
+			icon: "refinedstorage:machine_casing"
+			id: "D013"
+			rewards: [
+				{
+					count: 4
+					id: "D213"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "D113"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
+			title: "Structure of the Network"
+			subtitle: "Craft Machine Casings — the housing required by every RS block."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D013"]
+			description: [
+				"The §eController§r is the beating heart of every Refined Storage network. Every cable and component must trace a path back to the Controller to function."
+				""
+				"§7Requirements:§r"
+				"- Requires a continuous supply of §eFE§r (Forge Energy) to stay active"
+				"- Without power the entire network goes offline"
+				"- One Controller per subnet (subnets can be linked via Network Cards)"
+				""
+				"Place the Controller, connect it to a power source, and it will glow — your network is forming!"
+			]
+			icon: "refinedstorage:controller"
+			id: "D014"
+			rewards: [
+				{
+					count: 8
+					id: "D214"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D114"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "Power the Network"
+			subtitle: "Build the Controller — the heart of every Refined Storage network."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D014"]
+			description: [
+				"The §eDisk Drive§r is the block that holds §eStorage Disks§r. A single Disk Drive holds up to 8 disks."
+				""
+				"Connect the Disk Drive to your Controller with §eCables§r or by placing it adjacent. Items stored on disks inside become accessible from any Grid on the network."
+				""
+				"§7Tip:§r You can place multiple Disk Drives on one network — storage capacity scales linearly with your drives."
+			]
+			icon: "refinedstorage:disk_drive"
+			id: "D015"
+			rewards: [
+				{
+					count: 8
+					id: "D215"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D115"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			title: "The Disk Drive"
+			subtitle: "Build the Disk Drive — the block that holds your storage disks."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D015"]
+			description: [
+				"A §e1K Storage Disk§r stores up to §71,024 unique item types§r — the entry-level disk."
+				""
+				"§7Crafting:§r Storage Housing + 1K Storage Part + Basic Processor."
+				""
+				"Insert the finished disk into your Disk Drive, then open a Grid — all your items appear in the searchable interface. Congratulations, your first RS network is alive!"
+			]
+			icon: "refinedstorage:1k_storage_disk"
+			id: "D016"
+			rewards: [
+				{
+					count: 2
+					id: "D216"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D116"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "First Disk"
+			subtitle: "Craft a 1K Storage Disk and insert it in your Disk Drive."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D016"]
+			description: [
+				"The §eGrid§r is your primary interface with the network — it displays all stored items and lets you insert or extract them with a click."
+				""
+				"§7Controls:§r"
+				"- §7Left-click§r an item: extract one stack"
+				"- §7Right-click§r an item: extract half a stack"
+				"- §7Shift+click§r: extract full amount in storage"
+				"- §7Type in the search bar§r to filter by name or mod"
+				""
+				"§a§lYour network is online!§r Everything in your Disk Drive is now searchable and accessible from the Grid."
+			]
+			icon: "refinedstorage:grid"
+			id: "D017"
+			rewards: [
+				{
+					count: 4
+					id: "D217"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D117"
+					item: "refinedstorage:grid"
+					type: "item"
+				}
+			]
+			title: "§aNetwork Online!"
+			subtitle: "Build a Grid connected to your Controller — your ME network is live!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D017"]
+			description: [
+				"A §e4K Storage Disk§r holds §74,096 unique item types§r — a substantial upgrade over the 1K disk."
+				""
+				"§7Recipe:§r Storage Housing + 4K Storage Part + Improved Processor."
+				""
+				"As your collection grows, upgrade your disks to reduce the number of Disk Drive blocks you need. Progression: 1K → 4K → 16K → 64K."
+			]
+			icon: "refinedstorage:4k_storage_disk"
+			id: "D018"
+			rewards: [
+				{
+					count: 2
+					id: "D218"
+					item: "refinedstorage:4k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D118"
+					item: "refinedstorage:4k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "More Space"
+			subtitle: "Upgrade to a 4K Storage Disk — 4x the item types of the 1K disk."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D018"]
+			description: [
+				"A §e64K Storage Disk§r holds §765,536 unique item types§r — enough for an entire mega-base in one small disk."
+				""
+				"§7Recipe:§r Storage Housing + 64K Storage Part + Advanced Processor."
+				""
+				"A complete late-game RS installation typically uses a handful of 64K disks across a few Disk Drives. No more chest rooms. No more barrel walls. Everything in one searchable network."
+			]
+			icon: "refinedstorage:64k_storage_disk"
+			id: "D019"
+			rewards: [
+				{
+					count: 2
+					id: "D219"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D119"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Mass Storage"
+			subtitle: "Craft a 64K Storage Disk — near-limitless item type storage in one drive."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D012"]
+			description: [
+				"§eImproved Processors§r unlock mid-tier RS components — including the Crafting Grid, Wireless Transmitter, and 4K/16K disk parts."
+				""
+				"§7Two-step process:§r"
+				"1. Craft a §7Raw Improved Processor§r from Quartz Enriched Iron + Gold Ingot + Glowstone Dust"
+				"2. §7Smelt§r the raw processor in a furnace"
+				""
+				"Craft 2–4 now to carry you through the mid-game."
+			]
+			icon: "refinedstorage:improved_processor"
+			id: "D01A"
+			rewards: [
+				{
+					count: 8
+					id: "D21A"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "D11A"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+			]
+			title: "Improved Processor"
+			subtitle: "Smelt Raw Improved Processors — unlock mid-tier RS components."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D01A"]
+			description: [
+				"§eAdvanced Processors§r are the top-tier component, required for Autocrafters, Wireless Grids, Portable Grids, and 64K disk parts."
+				""
+				"§7Two-step process:§r"
+				"1. Craft a §7Raw Advanced Processor§r from Quartz Enriched Iron + Diamond + Nether Quartz"
+				"2. §7Smelt§r the raw processor in a furnace"
+				""
+				"Advanced Processors are expensive but you only need a few — 2–4 will take you to full automation."
+			]
+			icon: "refinedstorage:advanced_processor"
+			id: "D01B"
+			rewards: [
+				{
+					count: 2
+					id: "D21B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "D11B"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Advanced Processor"
+			subtitle: "Craft Advanced Processors — the premium component for RS automation."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D01B", "D017"]
+			description: [
+				"The §eCrafting Grid§r fuses the crafting table with your network storage — all items in the network are available directly in the crafting slots."
+				""
+				"Open it and place a recipe, or §7right-click a recipe in JEI§r to transfer it automatically. Materials are pulled from the network — no need to move items around."
+				""
+				"§7Pro tip:§r The Crafting Grid remembers the last recipe you placed. Clear it to free up network items. Pair it with the Autocrafter for fully automated crafting."
+			]
+			icon: "refinedstorage:crafting_grid"
+			id: "D01C"
+			rewards: [
+				{
+					count: 4
+					id: "D21C"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D11C"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+			]
+			title: "Crafting Grid"
+			subtitle: "Build the Crafting Grid — craft directly from your network storage."
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D015"]
+			description: [
+				"§eImporters§r and §eExporters§r are the workhorses of RS automation — they move items between the network and adjacent inventories."
+				""
+				"§6Importer§r: Pulls items FROM an adjacent inventory INTO the network."
+				"§6Exporter§r: Pushes items FROM the network INTO an adjacent inventory."
+				""
+				"§7Setup:§r Place the device on the face of a chest, furnace, or machine and connect it back to the network with Cables. Use the §eFilter§r slots in the device's GUI to specify exactly which items to move."
+			]
+			icon: "refinedstorage:importer"
+			id: "D01D"
+			rewards: [
+				{
+					count: 4
+					id: "D21D"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D11D"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "D11E"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			title: "Importer \& Exporter"
+			subtitle: "Automate item flow into and out of your network."
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D01C", "D01D"]
+			description: [
+				"The §eAutocrafter§r listens to crafting requests from the network and executes them automatically using stored patterns."
+				""
+				"§7How it works:§r"
+				"1. Encode a recipe into a §ePattern§r (using the Pattern Grid)"
+				"2. Insert the Pattern into the Autocrafter"
+				"3. Request an item from your Grid — if a matching pattern exists, it will be crafted and returned automatically"
+				""
+				"§7Chain Autocrafters§r to automate multi-step crafting trees — request a complex item and RS handles the entire dependency chain."
+			]
+			icon: "refinedstorage:autocrafter"
+			id: "D01E"
+			rewards: [
+				{
+					count: 2
+					id: "D21E"
+					item: "refinedstorage:autocrafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D11F"
+					item: "refinedstorage:autocrafter"
+					type: "item"
+				}
+			]
+			title: "The Autocrafter"
+			subtitle: "Build an Autocrafter — automated crafting on demand from your Grid."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D01E"]
+			description: [
+				"The §ePattern Grid§r is where you encode crafting recipes into §ePattern§r items, which the Autocrafter uses to automate production."
+				""
+				"§7Step by step:§r"
+				"1. Insert a blank §ePattern§r item"
+				"2. Place a recipe in the crafting slots (or use JEI to fill them)"
+				"3. Click §7Encode§r — the pattern is now stored"
+				"4. Place the encoded Pattern inside an §eAutocrafter§r"
+				""
+				"§7Pro tip:§r Chain patterns for multi-step recipes — e.g. autocraft iron ingots from raw ore, then automatically use those ingots in further crafting."
+			]
+			icon: "refinedstorage:pattern_grid"
+			id: "D01F"
+			rewards: [
+				{
+					count: 8
+					id: "D21F"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D120"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+			]
+			title: "Pattern Grid"
+			subtitle: "Build the Pattern Grid to encode recipes into Patterns for your Autocrafter."
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["D017"]
+			description: [
+				"The §eWireless Transmitter§r extends your network wirelessly, allowing Wireless Grids and other wireless devices to connect from a distance."
+				""
+				"§7Setup:§r Place the Wireless Transmitter anywhere connected to the network and provide it with §eFE§r power."
+				""
+				"Default range is §716 blocks§r. Insert §eRange Upgrades§r to extend the radius — stack multiple upgrades to reach across a large base."
+			]
+			icon: "refinedstorage:wireless_transmitter"
+			id: "D020"
+			rewards: [
+				{
+					count: 4
+					id: "D220"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D121"
+					item: "refinedstorage:wireless_transmitter"
+					type: "item"
+				}
+			]
+			title: "Wireless Transmitter"
+			subtitle: "Build a Wireless Transmitter — enable wireless access to your network."
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D020"]
+			description: [
+				"The §eWireless Grid§r is a handheld device that gives you full access to your network inventory from anywhere within range of a Wireless Transmitter."
+				""
+				"§7Charge it§r in any FE-compatible charger block, then carry it in your hotbar. Right-click to open the full network interface from the field."
+				""
+				"§7Pro tip:§r With enough Range Upgrades in your Wireless Transmitter you can access storage from anywhere in the dimension. No more running back to base!"
+			]
+			icon: "refinedstorage:wireless_grid"
+			id: "D021"
+			rewards: [
+				{
+					count: 1
+					id: "D221"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D122"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+			]
+			title: "Wireless Grid"
+			subtitle: "Craft a Wireless Grid — access your entire network from anywhere within range."
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D021"]
+			description: [
+				"The §ePortable Grid§r is a self-contained storage device — insert §eStorage Disks§r directly into it and carry a fully searchable inventory in your pocket, with no network required."
+				""
+				"§7How to use:§r Insert disks directly into the Portable Grid. It behaves exactly like a Grid but works completely offline — perfect for long expeditions away from base."
+				""
+				"§7Tip:§r Bring a disk loaded with tools, resources, and food. Access everything with one right-click, wherever you are."
+			]
+			icon: "refinedstorage:portable_grid"
+			id: "D022"
+			rewards: [
+				{
+					count: 1
+					id: "D222"
+					item: "refinedstorage:portable_grid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D123"
+					item: "refinedstorage:portable_grid"
+					type: "item"
+				}
+			]
+			title: "Portable Grid"
+			subtitle: "Craft a Portable Grid — carry searchable storage as a handheld device."
+			x: 18.0d
+			y: 2.0d
+		}
+	]
+	subtitle: "Build a digital item storage and autocrafting network."
+	title: "§6Refined Storage"
+}

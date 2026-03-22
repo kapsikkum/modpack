@@ -1,0 +1,13 @@
+name = "Mekanism Covers"
+filename = "mekanismcovers-1.3-BETA+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E3sGVcD8/versions/89QaQ0n0/mekanismcovers-1.3-BETA%2B1.21.jar"
+hash-format = "sha512"
+hash = "d9a295c83dc79bcfe550b171e7dc1d5be9dbddf9047f9b843e52e083a3a3e62b3a660b346a8fa582d49ed618bad53403d3e8d01fd71694f11428eebdfca6b8b3"
+
+[update]
+[update.modrinth]
+mod-id = "E3sGVcD8"
+version = "89QaQ0n0"

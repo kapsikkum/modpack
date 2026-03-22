@@ -1,0 +1,13 @@
+name = "BetterCombat x L_Ender 's Cataclysm"
+filename = "BetterCombat-cataclysm.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aAjXDQj3/versions/G5LhgX6m/BetterCombat-cataclysm.zip"
+hash-format = "sha512"
+hash = "34b3da84b6dc673852485721721663e08fa1129c5e3cffa967811a49fdc6350e4b3cbf66547aa5b30bf969d4b61429cba42075da96015dacd4aa12b1dcee0db2"
+
+[update]
+[update.modrinth]
+mod-id = "aAjXDQj3"
+version = "G5LhgX6m"

@@ -1,0 +1,13 @@
+name = "CavsCobbleMons"
+filename = "CavsCobblemon1.4.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2k9EDPO1/versions/j9azip42/CavsCobblemon1.4.zip"
+hash-format = "sha512"
+hash = "56c8df859e5e9800e567c160c732931e160680b06cc0c8424e200f8820e4c9ceae8f8b02d031197272021e44967f04d0fa4dd040eff7f9631a2853ef85c3e224"
+
+[update]
+[update.modrinth]
+mod-id = "2k9EDPO1"
+version = "j9azip42"

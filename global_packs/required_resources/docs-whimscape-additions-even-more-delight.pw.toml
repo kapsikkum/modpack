@@ -1,0 +1,13 @@
+name = "Doc's Whimscape Additions - Even More Delight"
+filename = "Doc's Whimscape Additions - Even More Delight.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JVFvrw2H/versions/Sku79J89/Doc%27s%20Whimscape%20Additions%20-%20Even%20More%20Delight.zip"
+hash-format = "sha512"
+hash = "6948f828a4c19599a289e1ae7c1025bac3d8e4f3469e5e34d4c54667e6863186c58cbe538bc1658699714a655eef21a478eb1beb9ee331fbac479fcc90f83c2b"
+
+[update]
+[update.modrinth]
+mod-id = "JVFvrw2H"
+version = "Sku79J89"

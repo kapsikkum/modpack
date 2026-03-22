@@ -1,0 +1,13 @@
+name = "Whimscape x Cobblemon"
+filename = "Whimscape x Cobblemon v1.7.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JKNppUZf/versions/FCVMpMlq/Whimscape%20x%20Cobblemon%20v1.7.1.zip"
+hash-format = "sha512"
+hash = "7c56e5983091d96b1132cdc57fc3b2dd3525c194ae3c70c04d507e701afabffa44c46bcc92d029f8c9bc9e9ab93ac9da169b5c887584a174b251cb59c8111373"
+
+[update]
+[update.modrinth]
+mod-id = "JKNppUZf"
+version = "FCVMpMlq"

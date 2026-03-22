@@ -1,0 +1,13 @@
+name = "Muskets 3D Wild West for Ewewkek's"
+filename = "Muskets 3D Wild West для Ewewkek's.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/twflVEJm/versions/jTplLc6w/Muskets%203D%20Wild%20West%20%D0%B4%D0%BB%D1%8F%20Ewewkek%27s.zip"
+hash-format = "sha512"
+hash = "60c88f1198aa4790f684608ce2e056597ea4fa736ebabd10d482e44c01d24ff31c019418b45b3eb18ff3685bed8c0e01bf74730062feb78d0f7a4d802238f919"
+
+[update]
+[update.modrinth]
+mod-id = "twflVEJm"
+version = "jTplLc6w"

@@ -1,0 +1,13 @@
+name = "MusketMod x Better Combat"
+filename = "musketmod-bettercombat.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VUAmeNcr/versions/TWA3D3R9/musketmod-bettercombat.zip"
+hash-format = "sha512"
+hash = "64e4cbb00b203c0942b946de2e9fb1ce4ffe4522a40f4c474fdba9cb7dfac516e6379d718fe7ae03e9ece56eb6858f5818078d30da7de0b591c6c97afce32319"
+
+[update]
+[update.modrinth]
+mod-id = "VUAmeNcr"
+version = "TWA3D3R9"

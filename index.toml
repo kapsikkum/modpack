@@ -77,10 +77,6 @@ file = "config/ftbquests/quests/chapters/adventure.snbt"
 hash = "21b182b301c72a012c72e5281fd7a69a42e354776d41b781a38e516c24b64c84"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "81edc2f697a728730de29edad7a47a96ebfa96a356be3cf638c7dcd5b622277f"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
 hash = "6f28262468061daabba834e34828f9a5c1b37899bfc42b32e2632b9d33b61c41"
 
@@ -117,8 +113,12 @@ file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "0aae6eb0d86511f89ff914ba0507c81debb5f5446aea80f5cfd2c3125215aaee"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/refined_storage.snbt"
+hash = "f8c554814f3b41bb1c36726b2a939435214e8bf8867af946ec3d56b6f2a7da4b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
-hash = "b7adc56773cc7154b2ab166f408a6f7c34bbb30f68945b88dea2ff1652b4af23"
+hash = "f00918363fab6973596c127efd9a7014ac09e8bbe73799fde7c5ed56900d0f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
@@ -126,7 +126,11 @@ hash = "ede390f7518e6c568ce2af049ee929dd3db3466540152ad644d28d3fc33247ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "1ba65f52890c9f369d2e76eb62ea010a2896ffebea8af855845f6534e55702c2"
+hash = "16055a58dfac48f1a2e4ee8a4f71de93869a49864aa162f2f803e2caf92a4f43"
+
+[[files]]
+file = "config/global_packs.toml"
+hash = "869d3704fd54334fd6d7a3c6114d93542494c8f1cad43da989f0591521a04be5"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -233,40 +237,22 @@ file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
 [[files]]
-file = "global_packs/required_data/AllTheMons x Mega Showdown [v1.1].zip"
-hash = "48eaebdf0228b8f1a1585face491cd9359e00dd77d88d29f979f5765f3859c66"
-
-[[files]]
-file = "global_packs/required_data/Angel_Islands_1.0.1.zip"
-hash = "b709ca09d23e49a4f6b316ad79277a10acbbb01e8eb6c9219ca246b1353d073c"
-
-[[files]]
-file = "global_packs/required_data/BCA-Datapack-3.6_GE_C1.6.1_M1.21.1.zip"
-hash = "f877781b7635e35f3bd6c54ae4c70f88c994375e0f13bb8d00c76577c15522ae"
-
-[[files]]
-file = "global_packs/required_data/BetterCombat-cataclysm.zip"
-hash = "d0e5c55f693d2f32b330307abcadb229846225d3bb40411b745cc1992c40b25a"
-
-[[files]]
 file = "global_packs/required_data/Cobblemon Create Compat v2.0 (Forge) (1).zip"
 hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
 
 [[files]]
-file = "global_packs/required_data/CobblemonSnifferArchaeology1.0 (1).zip"
-hash = "c0c5246d5bbcba3ea719faf1420e2688c51afc265cc6992fb3230e7ed581411b"
-
-[[files]]
-file = "global_packs/required_data/NADYMONS3_v3.zip"
-hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
-
-[[files]]
-file = "global_packs/required_data/TDmon[V1.2].zip"
-hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
+file = "global_packs/required_data/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "07972d854d922401ef9a1fd6f1bf8aed5fe7e085a8602639ce8a42b680c5fac6"
+metafile = true
 
 [[files]]
 file = "global_packs/required_data/balloon-loot-override.zip"
 hash = "7f4f122f7a64d54326cfc7b639f907627ab1e1f2f886c7408315f93b1981a07f"
+
+[[files]]
+file = "global_packs/required_data/bettercombat-x-cataclysm.pw.toml"
+hash = "5e2068eb63966e37b100c4dcf1421cd69303d785e6d9a9326af855d922ad6ab3"
+metafile = true
 
 [[files]]
 file = "global_packs/required_data/bonimons.pw.toml"
@@ -274,52 +260,108 @@ hash = "a1a8c1ad147fd8efc6640e6204e11acc3a7369864b38b4c7f2f5391498685ee5"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/musketmod-bettercombat.zip"
-hash = "7ebcb87d759118c426d9688fa05d658714e5d6ef3a7938ebf82db8fc96b84cff"
+file = "global_packs/required_data/cavscobblemons.pw.toml"
+hash = "7c60a8c8c5b8357b01659c5a21771096b8452c7d48bcfba84da599acd0372b30"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/3dMase.zip"
-hash = "3f01d99f70897265cef6e336f06fbc307dcfaa9bec05f37e3887dc6f9ce979e0"
+file = "global_packs/required_data/cobblemon-additions.pw.toml"
+hash = "d94f943034bca0270c72a3e56a9ef4864d81e2300c5e64418ee2b2619b7d979b"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/AllTheMons x Mega Showdown [v1.1].zip"
-hash = "48eaebdf0228b8f1a1585face491cd9359e00dd77d88d29f979f5765f3859c66"
+file = "global_packs/required_data/cobblemon-aether-expansion.pw.toml"
+hash = "c14787a83b1a79d8bf0abbb73de89502e183d6bc27e1e305d9a308c87dc0968c"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/CavsCobblemon1.4.zip"
-hash = "3bd0353ee40b50d14b2f38e7adf295bff87e6e1becad958db61b650e6af15b36"
+file = "global_packs/required_data/cobblemon-expanded-spawns.pw.toml"
+hash = "15b3ffdbe599ea63337e1aa7277434f744714cd36de6f6662bf0e09e3618b60b"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/CobbleConsJourneyMap.zip"
-hash = "f253d18e33eed66cb078c843dd81d633d6b160ccb66bea9e95c783394e8f78bf"
+file = "global_packs/required_data/cobblemon-sniffer-archaeology.pw.toml"
+hash = "611d6f2611d7007164295a72f87f449b3196a4433fcde91a21be5f585bb53f8d"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/Cobblemotion_v1.2.zip"
-hash = "2fd7c4d9649efb394893d1ec73edd1fd6ff43a6890260f9a4275012f5cf6e272"
+file = "global_packs/required_data/cobblemotion.pw.toml"
+hash = "005564395187b9696e201cc55ac7c790efecc8e8a0f8cd8aadcb4266718c94a9"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/Create AE2 Datapack.zip"
-hash = "e20346ef0b8d4dc512393043328bac531ccf2b4d3a10d772cfc26db5b989c41e"
+file = "global_packs/required_data/decubes-momons-addon.pw.toml"
+hash = "36e9b3ba17ee456afb8f2a26499d7985f7ddcef3f220fdb4015faf410bed6cfb"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/Miku Totem.zip"
-hash = "2b50bd9f3964c49160ece8cb18511e6b2003ff5cb713a63cff9928eff6cb49e6"
+file = "global_packs/required_data/hiddenmons-cobblemon.pw.toml"
+hash = "0ecd52d840cddc8612ec3125a0aed8f0810b4e9c89659657ce84c07799e5af99"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/Muskets 3D Wild West для Ewewkek's.zip"
-hash = "698644e3dee91a1624ee78c8981fd592f2ec9dbdcd2098a54d0064e06fc695c9"
+file = "global_packs/required_data/musketmod-x-better-combat.pw.toml"
+hash = "39deb3c6eb2f4a79f4bb0d8a6a7a765498462977fd2e331bc46f9c4956eb2ac4"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/NADYMONS3_v3.zip"
-hash = "98ac3e456fdb10ce540a6eece221dbfd4c3b8501ba0a7cdeac9aa2657892e9e6"
+file = "global_packs/required_data/nadymons3.pw.toml"
+hash = "afa70bedbe8260b16b24216ab9ea5e5c6498d2ab72dd61ef6745d113807a35ea"
+metafile = true
 
 [[files]]
-file = "global_packs/required_resources/TDmon[V1.2].zip"
-hash = "e86eb48f8cbc908c2893e25a0b1c2899c4a10c31a6aaf861d0f9a564c655c08a"
+file = "global_packs/required_resources/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "07972d854d922401ef9a1fd6f1bf8aed5fe7e085a8602639ce8a42b680c5fac6"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/better-leaves.pw.toml"
+hash = "610e5e08a034d7fdda17d17f37853c1abf19f94425e0a831ced52fccb6ccb063"
+metafile = true
 
 [[files]]
 file = "global_packs/required_resources/bonimons.pw.toml"
 hash = "a1a8c1ad147fd8efc6640e6204e11acc3a7369864b38b4c7f2f5391498685ee5"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/cavscobblemons.pw.toml"
+hash = "7c60a8c8c5b8357b01659c5a21771096b8452c7d48bcfba84da599acd0372b30"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/cobblemotion.pw.toml"
+hash = "005564395187b9696e201cc55ac7c790efecc8e8a0f8cd8aadcb4266718c94a9"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/colourful-containers-dark-mode-gui.pw.toml"
+hash = "366cdb35906a10563f2a72eb27d043f665b7b281b49c44bbc8f767840fc543e6"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/decubes-momons-addon.pw.toml"
+hash = "36e9b3ba17ee456afb8f2a26499d7985f7ddcef3f220fdb4015faf410bed6cfb"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/docs-whimscape-additions-even-more-delight.pw.toml"
+hash = "5ae3f49f017786e75f352dc11b9b640d4d282c5f1010a4aee777fad5cbf70504"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/docs-whimscape-additions-friends-and-foes.pw.toml"
+hash = "e01eaf4ed26d417ae094024623d14e8753f1301b6fe47dd3f92b53cc7b7726c8"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/fresh-animations-extensions.pw.toml"
+hash = "439874e590d633df601628f138d5e4a7c5cbaf5754bb76bd668e68a86557b3bf"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/fresh-animations-objects.pw.toml"
+hash = "4a2a1d4fb13506f5011fa74e9ca441e766b6727cff54e5672a2cb945b6d3f17c"
 metafile = true
 
 [[files]]
@@ -328,8 +370,94 @@ hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
 metafile = true
 
 [[files]]
-file = "global_packs/required_resources/§8§lDarkmode §f§lColourful Containers§8.zip"
-hash = "d79c44342e2654f37088922c5e79113c9313f8682b2e4bb879b481b15d8feece"
+file = "global_packs/required_resources/hiddenmons-cobblemon.pw.toml"
+hash = "0ecd52d840cddc8612ec3125a0aed8f0810b4e9c89659657ce84c07799e5af99"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/maxis-journeymap-cobblemon-icons.pw.toml"
+hash = "f04e626d892c2fdc8a7f62c80899b4f852e3a09107eff449d4c36d0783caa05d"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/mikutotem.pw.toml"
+hash = "5f4963b3d9c728b689e6a75961c2940402fa546f86617e8c1e6d8dc25c49e475"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/muskets-3d-wild-west-for-ewewkeks.pw.toml"
+hash = "9f664433aa9ae3f2e5cbba951ef8b5ec5cd5c8482c99bdad3a413b70b28a71ed"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/nadymons3.pw.toml"
+hash = "afa70bedbe8260b16b24216ab9ea5e5c6498d2ab72dd61ef6745d113807a35ea"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/refined-storage-recreated.pw.toml"
+hash = "fa48e21477d4eee6f28644ca57f280ff8f0d9ad1bf45fbdcd29e73a5895e4c30"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/simply-swords-whimscape-add-on.pw.toml"
+hash = "32421e6a266a7aaee89821e76d6a750446a0ab55916fbcf55820731cde370399"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-exploration.pw.toml"
+hash = "45d98fc75b5c3b61cda9751e3c5437e452ea4788fafd12fb5d2cee7ad32b0529"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-leaves-x-cobblemon.pw.toml"
+hash = "6d3f237aa78fbf0a96312a95bdb296449ef8c497d38b7b06a89100eb32470546"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-leaves.pw.toml"
+hash = "31538589003101abb55fe29f544aab9a1061b10f5b6e6b7228f70466bbcc0274"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-cobblemon.pw.toml"
+hash = "2dba01175cf3a6016977fc0c92febd8fdec0b627c00ca00e17dc1dd0df655974"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-create.pw.toml"
+hash = "b4be6ac9e0625463a66c04b787d49c99201e931b5aec498d84300f8a5ef63c1a"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-curios.pw.toml"
+hash = "ae8dc5163ad51a2c6edf7a25d97f8b3a2f1caf11b041b7e362677408d7ebcdbc"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-easy-anvils.pw.toml"
+hash = "8671fcc72e7f32ef205a8fd1285399ea6af5a6abf9395e2becd01d289a12289d"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-easy-magic.pw.toml"
+hash = "4584104bafa8f450e04c3651ef4a3520c6fb9164eb910134b7c4f530781c6650"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-fresh-animations.pw.toml"
+hash = "e032f3bb5c987dc153e0c307be0eec674a73e0bf1cefd6e20b97ba8ca37f4e44"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-x-rpg-series.pw.toml"
+hash = "be0a240d9ca468af4dcb99bfbe48a7e392da263d16c4ef7c0dc00ff54ad58f23"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape.pw.toml"
+hash = "815fee7dcfab086876dbef876f7f022c47f6ddab1b405f1b939bfb3c0b65e710"
+metafile = true
 
 [[files]]
 file = "journeymap/config/6.0/addons/addon.cobblemon.config"
@@ -426,11 +554,6 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
-file = "mods/ae2.pw.toml"
-hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
-metafile = true
-
-[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
@@ -458,6 +581,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
+metafile = true
+
+[[files]]
+file = "mods/angel-islands.pw.toml"
+hash = "67e870705c655b6f6566745fe93f95981c771d2acd526bf055c525c1289f843d"
 metafile = true
 
 [[files]]
@@ -1076,11 +1204,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "14fa336b8eeb8ff0b600f441e9ab42dc68a08557b1b75c89adcc46a92bff0a6a"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
@@ -1192,7 +1315,7 @@ metafile = true
 
 [[files]]
 file = "mods/hiddenmons-cobblemon.pw.toml"
-hash = "2094408506e0fa9d799705f6d63d9af25538fd7b2b81a70f140a76e388be1f0d"
+hash = "d2e4214bbe6f93f7f95f688989ee296b419b7dba10dee858abb346ae73b4cfbe"
 metafile = true
 
 [[files]]
@@ -1263,6 +1386,11 @@ metafile = true
 [[files]]
 file = "mods/jrftl.pw.toml"
 hash = "da4e6b141eba2e867ab6ebdd4be89d957fc6987d4e7fcac8b252b95ae970c23f"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-mekanism-multiblocks.pw.toml"
+hash = "456dcdd6c4c172612713b59ebd871703b10aa00366cac0792d2d2da0951db2df"
 metafile = true
 
 [[files]]
@@ -1421,8 +1549,38 @@ hash = "4e3aaef188d1f975c6ebd539f50021768851f7fc4638079ee72179ec33bf487f"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-additions.pw.toml"
+hash = "00aaaccc129531ff41b2b4091d77ef99e097c414603be23db40000338c20d396"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-covers.pw.toml"
+hash = "8330f1d99526fb1952ca5bc3b524f65bf12295a7795803e4c7024d51dbe21df1"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "ff76d4e6f8b16c02b3d9d0627c4a7dec766061d19cefe9bd0f1d6aee2dfade36"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-ponders.pw.toml"
 hash = "f96915c845dcc6e533b63d7de37ac020c3558550eb54775c697ff81ed379b4e6"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tools.pw.toml"
+hash = "ce4d0f8c52e7e3e3b713993c566f739843c9eb45ad4b924c1379118fb44c2a60"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-trimming.pw.toml"
+hash = "c2d7ba4ed98adc3a24eedbdc055f51257e2194dacc891d0f98a859d964440d74"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-unleashed.pw.toml"
+hash = "3b581d5b1f00597a27c366f82cfe9a3f3e311c233e7e03a54403de752c4fb3c7"
 metafile = true
 
 [[files]]
@@ -1481,6 +1639,11 @@ hash = "10670552c1fc1fd9bfad1c34f1c8bd8b0bbc0f8dfb4c8929b65ce5be9b914af7"
 metafile = true
 
 [[files]]
+file = "mods/more-mekanism-processing.pw.toml"
+hash = "c4c833c881e3a9b0de7333be6de247ccb78175f66640d69ac722dd402a95e782"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "8fb510d47dafc024cd08c0e80bfb59e192c354cb5db74c07dd146ee79fe8b885"
 metafile = true
@@ -1508,6 +1671,11 @@ metafile = true
 [[files]]
 file = "mods/mythicmetals.pw.toml"
 hash = "6cd61a5aa5e61b69bd3ed29b7f09a7e8c5e2ba5fc0cb8a405a23e1234e2a7f3b"
+metafile = true
+
+[[files]]
+file = "mods/nameless-trinkets.pw.toml"
+hash = "38c0041d20de8e11a9409d5f50acab984b917d877452b5859fc658d67f8198b7"
 metafile = true
 
 [[files]]
@@ -1651,6 +1819,16 @@ hash = "00decabe50870a59262d3a50ac05e7f608439490a3285a6c979266039c2fe911"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-mekanism-integration.pw.toml"
+hash = "8e9366d6e9801dba269d9e257b55dca5a30fde277baab160cc59b1841a11efd2"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "8e8cd2f6dcb6a46a568c13cd1ca3df0890f1389d6283ec36fc0fec20a22da057"
+metafile = true
+
+[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
 metafile = true
@@ -1751,6 +1929,11 @@ hash = "ead8878970c8b6a00c7bdb282d6f722746f74c7ca2f7992e0fd3b96716918c0c"
 metafile = true
 
 [[files]]
+file = "mods/skills.pw.toml"
+hash = "b675c16db470dffe65e4ee37e6a6de592afdcd8f3d7992003e36731fd0eb1ea9"
+metafile = true
+
+[[files]]
 file = "mods/sky-villages.pw.toml"
 hash = "96d2169c9e4e943f21ed9861275baae9e6b5f7ec7249fa4e063708538dc40088"
 metafile = true
@@ -1841,6 +2024,11 @@ hash = "4e45380047390a7981bad480189ac806694d244bb10138ede288fd2e4539dc1f"
 metafile = true
 
 [[files]]
+file = "mods/tdmon.pw.toml"
+hash = "aa059ef099fa7af8faa41cb9e5b157ae8a42cbb1d60b4daf608dda27345b5e67"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "63aea16cbf3e00874a05889f1553f3ef4640b04d10c370bba78eb2377f4fbf07"
 metafile = true
@@ -1913,6 +2101,11 @@ metafile = true
 [[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]
@@ -2028,35 +2221,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "dc8c90e0853dc590cc37d6ac6c443358d8643a8268181d429f3a5f8628c73ab9"
-
-[[files]]
-file = "resourcepacks/Doc's Whimscape Additions - Even More Delight.zip"
-hash = "3a869742ba8489704830e82f44e0abfa8e7ee7fca058d709d6f31912d723fdfc"
-
-[[files]]
-file = "resourcepacks/Doc's Whimscape Additions - Friends & Foes - 1.1.zip"
-hash = "5b1f9588f21f3bf2e6d86aff156da15b69d014c3203b9836a67a3ae01231e642"
-
-[[files]]
-file = "resourcepacks/FA+All_Extensions-v1.4.zip"
-hash = "cf6425feb0bad40c9124c361c4d962ee557fea6dfde5799b04560b8fb0f72961"
-
-[[files]]
-file = "resourcepacks/Simply Swords Whimscape v1.0 1.20-1.20.1.zip"
-hash = "9eb4333afbb3b6260cc2578ea0c7c4119ce92f96bd0375caca6edd6d92abcd46"
-
-[[files]]
-file = "resourcepacks/Whimscape x Cobblemon v1.6.1.zip"
-hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
-
-[[files]]
-file = "resourcepacks/Whimscape x Exploration v1.0.zip"
-hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
-
-[[files]]
-file = "resourcepacks/whimscape.pw.toml"
-hash = "815fee7dcfab086876dbef876f7f022c47f6ddab1b405f1b939bfb3c0b65e710"
-metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"

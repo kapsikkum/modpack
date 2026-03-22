@@ -1,0 +1,13 @@
+name = "Cobblemon additions"
+filename = "BCA-Datapack-3.8_CE_norm_M1.21.1_C1.6.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W2pr9jyL/versions/J1wqmyOI/BCA-Datapack-3.8_CE_norm_M1.21.1_C1.6.1.zip"
+hash-format = "sha512"
+hash = "65d97aeb98572b264badf9c19b7994853472910dc2b9da2c962525e6f635deae812b9bf7a7e1886fcdf5e72764271fa0543d9066bb43f71a60028507e6e4e35c"
+
+[update]
+[update.modrinth]
+mod-id = "W2pr9jyL"
+version = "J1wqmyOI"

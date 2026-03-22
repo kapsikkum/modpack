@@ -1,0 +1,13 @@
+name = "Whimscape x Create"
+filename = "Whimscape-x-Create-1.21.1_r11.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sR2V0LIy/versions/o6tzhmWV/Whimscape-x-Create-1.21.1_r11.zip"
+hash-format = "sha512"
+hash = "c802628984bfa542379464fdc6054e57e56ebe4a767fa4aa7c2bc5dbce2c3d1595950d922f15e1971f404266a344dd819daa71b9d3750f49e5bc1b32642ce892"
+
+[update]
+[update.modrinth]
+mod-id = "sR2V0LIy"
+version = "o6tzhmWV"

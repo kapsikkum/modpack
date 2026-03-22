@@ -1,0 +1,13 @@
+name = "AllTheMons x Mega Showdown"
+filename = "ATM x MSD [3.4.0].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/odZZdRCE/versions/J85cWjWi/ATM%20x%20MSD%20%5B3.4.0%5D.zip"
+hash-format = "sha512"
+hash = "0ee2bed7e74ceef4ed42bb3a795e63e95109f602446792ed1a537a0d57e24d2f801882e303cb9bf7a2f125ed41325c9db8d6baadcf3ad89e767b6360df49de28"
+
+[update]
+[update.modrinth]
+mod-id = "odZZdRCE"
+version = "J85cWjWi"

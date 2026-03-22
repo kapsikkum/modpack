@@ -1,0 +1,13 @@
+name = "Whimscape x RPG Series"
+filename = "Whimscape x RPG Series.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7RbgFzKH/versions/W51Fjf52/Whimscape%20x%20RPG%20Series.zip"
+hash-format = "sha512"
+hash = "389835171747a525020ea2d0d17bb3f7cfd6292fa763f88c92a6985fbe4e5bd42931ae97e6d55836b087b9ec8fe2c43db2f9357ec7f3cfb6345f44edabf41e73"
+
+[update]
+[update.modrinth]
+mod-id = "7RbgFzKH"
+version = "W51Fjf52"

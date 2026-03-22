@@ -1,0 +1,13 @@
+name = "Whimscape x Curios"
+filename = "Whimscape x Curios.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6uDDSGhr/versions/ceP2r5Fd/Whimscape%20x%20Curios.zip"
+hash-format = "sha512"
+hash = "006b3be288f6457bc9eb410504cec6b42c947aa9cc915afd5759129dd094741ca012c97091cd7be7263754aecb07e4234e299b9cdacdd0965a952bdf180123f3"
+
+[update]
+[update.modrinth]
+mod-id = "6uDDSGhr"
+version = "ceP2r5Fd"

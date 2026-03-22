@@ -1,0 +1,13 @@
+name = "Angel Islands"
+filename = "angel-islands-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kHqaSlhI/versions/QyfKdCf8/angel-islands-2.0.3.jar"
+hash-format = "sha512"
+hash = "6ff9089c87400d7c4195d9b1006ac2edb70b63206fcd273074f94aeac98fc19d37cb7387f41fb6b1fefeb0c0ad351d79e4415aff7dcb32f63da98aa403817f69"
+
+[update]
+[update.modrinth]
+mod-id = "kHqaSlhI"
+version = "QyfKdCf8"

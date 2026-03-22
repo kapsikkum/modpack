@@ -1,0 +1,13 @@
+name = "Nadymons3"
+filename = "NADYMONS3_v3.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zBlh2VT5/versions/xSonGrI8/NADYMONS3_v3.zip"
+hash-format = "sha512"
+hash = "1479b74e5e8497481e6dbaea91edaec68c3d271ce5e974c7d09854737ae568d3de9f4b87590fa53f71841a65da39368930e918f72f0b81d15c2561f99de918db"
+
+[update]
+[update.modrinth]
+mod-id = "zBlh2VT5"
+version = "xSonGrI8"

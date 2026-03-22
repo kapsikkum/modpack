@@ -1,0 +1,13 @@
+name = "Maxi's JourneyMap Cobblemon Minimap Icons"
+filename = "Maxi's-JM+CM_Pixel-U11.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ENCwFpBk/versions/XeZeOIZW/Maxi%27s-JM%2BCM_Pixel-U11.zip"
+hash-format = "sha512"
+hash = "817296e98a3afc40eb18507e534c35a3a450c4085fa175719d886066bd001907f21a78af0623764c389017d385e191ba260727f1f696ab1e424be0b4619b6a5d"
+
+[update]
+[update.modrinth]
+mod-id = "ENCwFpBk"
+version = "XeZeOIZW"

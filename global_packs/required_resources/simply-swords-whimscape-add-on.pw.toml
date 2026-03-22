@@ -1,0 +1,13 @@
+name = "Simply Swords  Whimscape add-on"
+filename = "SimplySwordsWhimscape_v1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e69b83a64eb7f5faa2d20f0e843d24a1e12dcef8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6750310
+project-id = 1124089

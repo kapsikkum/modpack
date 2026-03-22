@@ -161,39 +161,6 @@
 		{
 			dependencies: ["B010"]
 			description: [
-				"§bApplied Energistics 2§r lets you store thousands of items in a digital §eME network§r and autocraft anything on demand."
-				""
-				"Start by finding a §eMeteorite§r: craft a §eMeteorological Compass§r (nether quartz + iron) to locate one. Inside, mine §eCertus Quartz§r — the essential AE2 material."
-				""
-				"From Certus, you'll craft an §eInscriber§r to print circuit processors, then build an §eME Controller§r and §eStorage Drives§r."
-				""
-				"See the §bApplied Energistics 2§r tab for the full network guide."
-			]
-			id: "B014"
-			rewards: [
-				{
-					count: 4
-					id: "B215"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "B114"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			title: "Fallen from the Stars"
-			subtitle: "Mine Certus Quartz from an AE2 meteorite — the start of your digital storage network."
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["B010"]
-			description: [
 				"§bArs Nouveau§r is a magic mod built around composing and casting §6spells§r using §6Source§r energy."
 				""
 				"The §eWorn Notebook§r is your in-game guide to every glyph, apparatus, and ritual — §7craft it with Paper + Lapis Lazuli§r."
@@ -482,6 +449,447 @@
 			subtitle: "Craft a Balloon Block — when it pops, it drops treasure. Fly high!"
 			x: 2.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bRefined Storage§r lets you build a §6digital ME network§r that stores thousands of items across virtual disks, all searchable from a single Grid interface."
+				""
+				"Unlike chest rooms and barrels, your entire base inventory becomes one searchable pool. Autocraft items on demand, import from machines automatically, and access storage wirelessly from anywhere."
+				""
+				"§7First step:§r craft §eQuartz Enriched Iron§r — surround an Iron Ingot with 4 Nether Quartz in a + pattern."
+				""
+				"See the §bRefined Storage§r tab for the full network and autocrafting guide."
+			]
+			icon: "refinedstorage:quartz_enriched_iron"
+			id: "B01E"
+			rewards: [
+				{
+					count: 8
+					id: "B21F"
+					item: "minecraft:nether_quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B11E"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			title: "Digitise Your Storage"
+			subtitle: "Craft Quartz Enriched Iron — your first step into Refined Storage."
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["B011"]
+			description: [
+				"§eGreat Balls§r have a higher catch rate than standard Poké Balls — essential for catching rarer or higher-level Pokémon."
+				""
+				"§7Crafting:§r Cyan Apricorn + Aluminium Ingot + Rubber → Great Ball Disc → Great Ball. Cyan Apricorns grow on trees found in forests and plains biomes."
+				""
+				"From here, experiment with other Apricorn colours for different effects: Ultra Balls require Yellow Apricorns, and rarer balls need multiple types."
+			]
+			icon: "cobblemon:great_ball"
+			id: "B020"
+			rewards: [
+				{
+					count: 3
+					id: "B220"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B11F"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			title: "Greater Catch Rate"
+			subtitle: "Craft a Great Ball — needed to catch tougher Pokémon in the wild."
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["B012"]
+			description: [
+				"A §eWater Wheel§r generates rotation passively from flowing water — no fuel required."
+				""
+				"§7Setup:§r Place the Water Wheel flat over a water source or flowing stream. Flowing water on the paddles spins it continuously. Connect to a shaft network to distribute the power."
+				""
+				"§7Tip:§r Two Water Wheels on the same axle double the output. A §eLarge Water Wheel§r (unlocked later) generates even more rotation from a single placement."
+			]
+			icon: "create:water_wheel"
+			id: "B021"
+			rewards: [
+				{
+					count: 4
+					id: "B221"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B120"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Harness the Flow"
+			subtitle: "Build a Water Wheel — your first passive source of rotational force."
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["B013"]
+			description: [
+				"The §eEnrichment Chamber§r doubles ore output: it processes ores into two dusts, which you then smelt for two ingots per ore mined."
+				""
+				"§7Power:§r The Enrichment Chamber runs on §eFE§r. Connect it to any power source — even a Basic Energy Generator from Mekanism running on coal works early game."
+				""
+				"Doubling ores is one of the biggest early-game boosts in Mekanism. Get this running as soon as possible and never smelt raw ores directly again."
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "B022"
+			rewards: [
+				{
+					count: 8
+					id: "B222"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B121"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
+			title: "Double Your Ores"
+			subtitle: "Build an Enrichment Chamber — doubles ore output to 2 ingots per ore."
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["B015"]
+			description: [
+				"The §eNovice Spell Book§r is your first grimoire — it holds one spell slot and lets you cast the spell you've assembled from Glyphs."
+				""
+				"§7Glyphs§r are acquired at the §eScribes' Table§r: combine Source (from a Sourcelink) and Magical Clay to inscribe new glyphs onto blank parchment."
+				""
+				"A basic starter spell: §eTouch → Ignite§r — sets a target on fire. Experiment with Projectile, AOE, and Amplify modifiers to build more powerful combinations."
+			]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "B024"
+			rewards: [
+				{
+					count: 16
+					id: "B224"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B123"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			title: "First Spells"
+			subtitle: "Craft a Novice Spell Book and cast your first composed Ars Nouveau spell."
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["B016"]
+			description: [
+				"The §bAether§r is accessed through a §eGolden Portal§r — a frame of §7Gold Blocks§r shaped like a Nether Portal, activated by pouring §7Water§r into the frame."
+				""
+				"Once through, you'll find yourself on floating islands above the clouds. Everything here is silver-white and hostile — explore carefully."
+				""
+				"§7First goals:§r collect Skyroot Wood (needed for Aether tools), find Blue Aercloud to begin your exploration, and locate a §eBronze Dungeon§r for your first boss fight."
+			]
+			icon: "aether:zanite_gemstone"
+			id: "B025"
+			rewards: [
+				{
+					count: 4
+					id: "B225"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B124"
+					title: "Open an Aether Portal"
+					type: "checkmark"
+				}
+			]
+			title: "Open the Sky Portal"
+			subtitle: "Build a Gold Block frame and pour Water to open an Aether portal."
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B017"]
+			description: [
+				"The §eAir Compressor§r is your first PneumaticCraft machine — it burns fuel to compress air into §ePressure§r and distributes it through §ePressure Tubes§r."
+				""
+				"§7Warning:§r Every PneumaticCraft machine has a maximum pressure rating. If you exceed it, the machine §cexplodes§r. Monitor your gauges using §ePressure Gauges§r on tubes."
+				""
+				"§7Fuel options:§r Coal, coal blocks, lava buckets, and later advanced fuels. Upgrade to a §eAdvanced Air Compressor§r to handle higher-tier machines."
+			]
+			icon: "pneumaticcraft:air_compressor"
+			id: "B026"
+			rewards: [
+				{
+					count: 8
+					id: "B226"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B125"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
+			title: "First Pressure"
+			subtitle: "Build an Air Compressor — your first compressed air generator."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B018"]
+			description: [
+				"§eDiamond§r tier Simply Swords weapons deal significantly more damage and have greater durability than iron."
+				""
+				"All weapon types follow the same tier upgrade path: §7Iron → Diamond → Netherite§r. The crafting shape is the same as vanilla swords — two material items stacked vertically with a stick, plus any additional material the weapon type requires."
+				""
+				"Diamond also unlocks runic enchanting on Simply Swords weapons. Check the §bSimply Swords§r tab for all weapon types and their unique mechanics."
+			]
+			icon: "simplyswords:diamond_longsword"
+			id: "B027"
+			rewards: [
+				{
+					count: 1
+					id: "B227"
+					item: "simplyswords:iron_rapier"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B126"
+					item: "simplyswords:diamond_longsword"
+					type: "item"
+				}
+			]
+			title: "Diamond Edge"
+			subtitle: "Craft a Diamond Longsword — upgrade to the mid-tier Simply Swords weapon."
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B019"]
+			description: [
+				"The §eLucky Horseshoe§r is a Relic trinket that increases your §eLuck§r attribute, improving loot table rolls and increasing the chance of bonus drops from mobs and chests."
+				""
+				"Relics are found in §7dungeon chests, mob drops, and structure loot§r. Some require §eResearching§r in the Relics interface (press §6R§r) before their passive abilities activate."
+				""
+				"§7Tip:§r Equip the Lucky Horseshoe in a §eCurios§r slot before opening any major dungeons or boss arenas — better loot rolls."
+			]
+			icon: "relics:lucky_horseshoe"
+			id: "B028"
+			rewards: [
+				{
+					count: 1
+					id: "B228"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B127"
+					item: "relics:lucky_horseshoe"
+					type: "item"
+				}
+			]
+			title: "Horse-Shoe Luck"
+			subtitle: "Find a Lucky Horseshoe Relic — improves loot table rolls when equipped."
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B01A"]
+			description: [
+				"The §eInfernal Forge§r is Cataclysm's primary workstation — it smelts §eBlack Steel Ingots§r and processes other Cataclysm materials."
+				""
+				"§7Recipe:§r Built from Obsidian, Soul Sand, and Black Steel Ingots in a shaped crafting recipe."
+				""
+				"All progression in Cataclysm runs through the Infernal Forge: §7Black Steel → Igneous Rock → Cataclysm-tier gear§r. It's the gateway to every boss fight from the Ender Golem onward."
+			]
+			icon: "cataclysm:infernal_forge"
+			id: "B029"
+			rewards: [
+				{
+					count: 4
+					id: "B229"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B128"
+					item: "cataclysm:infernal_forge"
+					type: "item"
+				}
+			]
+			title: "Infernal Forge"
+			subtitle: "Build the Infernal Forge — Cataclysm's gateway workstation for all boss tiers."
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B01B"]
+			description: [
+				"A §eCloud in a Bottle§r is an Artifact trinket that grants a §edouble jump§r — tap Jump a second time while airborne to gain extra height."
+				""
+				"Equip it in a §eCurios§r slot for a permanent passive effect. No charges, durability, or upkeep required."
+				""
+				"§7Tip:§r Double jump stacks well with Elytra and various magic spell movement abilities — combine with Ars Nouveau's §eWing§r glyph for triple-air mobility."
+			]
+			icon: "artifacts:cloud_in_a_bottle"
+			id: "B02A"
+			rewards: [
+				{
+					count: 1
+					id: "B22A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B129"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+			]
+			title: "Bottled Cloud"
+			subtitle: "Find a Cloud in a Bottle Artifact — grants double jump when equipped."
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["B01C"]
+			description: [
+				"The §eBiplane§r is the fastest Immersive Aircraft vehicle — a fixed-wing aircraft that requires forward speed to stay airborne."
+				""
+				"§7Controls:§r WASD to steer, Space to ascend, Shift to descend. §cDon't stall§r — fall below minimum speed and it drops like a rock."
+				""
+				"§7Fuel:§r Refined fuel produced in an Immersive Aircraft Refinery (coalcoke, blaze rods, or liquid fuel). Keep a fuel supply in the aircraft's tank before long flights."
+			]
+			icon: "immersive_aircraft:biplane"
+			id: "B02B"
+			rewards: [
+				{
+					count: 8
+					id: "B22B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B12A"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+			]
+			title: "Full Speed Ahead"
+			subtitle: "Build a Biplane — the fastest Immersive Aircraft vehicle."
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["B01D"]
+			description: [
+				"§bAir Balloons§r are steered by the wind — ascend with §7Space§r, descend with §7Shift§r, and drift with the direction you're facing."
+				""
+				"When a balloon is §cpunched§r or §cshot§r, it pops and drops its §6treasure§r — rare items, modded materials, and enchanted gear fall out. The higher you fly, the more dangerous but lucrative the contents."
+				""
+				"§7Tip:§r Dye your Balloon Block with any dye for a custom colour. Place the Balloon Block above a Basket and right-click to board."
+			]
+			icon: "balloons_by_doriteam:balloon_block"
+			id: "B02C"
+			rewards: [
+				{
+					count: 8
+					id: "B22C"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B12B"
+					title: "Ride an Air Balloon"
+					type: "checkmark"
+				}
+			]
+			title: "Float Away"
+			subtitle: "Board an Air Balloon and drift through the sky."
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["B01E"]
+			description: [
+				"The §eController§r is the heart of every Refined Storage network. All cables and components must connect back to it to function."
+				""
+				"§7Build checklist before placing the Controller:§r"
+				"- A power source nearby (any FE generator)"
+				"- Cable to connect components"
+				"- At least one Disk Drive + Storage Disk"
+				"- One Grid to view your inventory"
+				""
+				"Once it glows blue and the Grid shows your items — §a§lyour Refined Storage network is live!§r"
+			]
+			icon: "refinedstorage:controller"
+			id: "B02D"
+			rewards: [
+				{
+					count: 8
+					id: "B22D"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B12C"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "The Controller"
+			subtitle: "Build the Refined Storage Controller — your digital network is live!"
+			x: 4.0d
+			y: 14.0d
 		}
 	]
 	subtitle: "Your first step into every mod in the pack."

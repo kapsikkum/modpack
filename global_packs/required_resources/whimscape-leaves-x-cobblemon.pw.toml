@@ -1,0 +1,13 @@
+name = "Whimscape Leaves x Cobblemon"
+filename = "Whimscape_Leaves x Cobblemon.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/p3o72wSM/versions/bkI8DXqV/Whimscape_Leaves%20x%20Cobblemon.zip"
+hash-format = "sha512"
+hash = "f7e892d2a9fe9482404e42cd38827bb65bc654b9c0698b03794da65929b7323da71866ba8e0640a378221d44146a1d552f2680a2b399cebdf9c16db467100bbd"
+
+[update]
+[update.modrinth]
+mod-id = "p3o72wSM"
+version = "bkI8DXqV"

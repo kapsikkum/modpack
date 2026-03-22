@@ -1,0 +1,13 @@
+name = "Cobblemon: Aether Expansion"
+filename = "Aether Expansion v1.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bgADjC9H/versions/sIVh7B3i/Aether%20Expansion%20v1.0.zip"
+hash-format = "sha512"
+hash = "c3ade88ba1b15dae3e30ddf94d22b3de3fe440ffcc42eb560d5edaa824038fe0ff3ef9b7e35ca207f7b9be0e6196c618cf8b89f0608ae1e7d024f6fed290e0a7"
+
+[update]
+[update.modrinth]
+mod-id = "bgADjC9H"
+version = "sIVh7B3i"
