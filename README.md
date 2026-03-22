@@ -2,7 +2,7 @@
 
 **Minecraft 1.21.1 · NeoForge 21.1.219 · By Solariity & kapsikkum**
 
-A kitchen-sink modpack combining Create, Cobblemon, Ars Nouveau, Applied Energistics 2, Mekanism, and a lot more.
+A kitchen-sink modpack combining Create, Cobblemon, Ars Nouveau, Mekanism, Refined Storage, and a lot more.
 
 ---
 
@@ -107,7 +107,7 @@ These mods are locked at specific versions and **must not be updated** without c
 ## Mod List
 
 <details>
-<summary>Click to expand (~325 mods)</summary>
+<summary>Click to expand</summary>
 
 ### Core & APIs
 - Architectury API
@@ -152,6 +152,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - SuperMartijn642's Config Lib
 - SuperMartijn642's Core Lib
 - TerraBlender
+- EdivadLib
 - YetAnotherConfigLib (YACL)
 
 ### Performance & Compatibility
@@ -196,7 +197,6 @@ These mods are locked at specific versions and **must not be updated** without c
 - Create: Quality of Life
 - Create: Renewable Netherite
 - Create Sifting
-- Create Stock Bridge
 - Create: Stones
 - Create: Structures Arise
 - Create Stuff 'N Additions
@@ -226,7 +226,6 @@ These mods are locked at specific versions and **must not be updated** without c
 ### Ars Nouveau & Magic
 - Ars Nouveau
 - Ars Creo
-- Ars Énergistique
 - Enchanted: Witchcraft
 - Lavender
 - Relics
@@ -236,17 +235,24 @@ These mods are locked at specific versions and **must not be updated** without c
 - StarbuncleMania
 - Things
 
-### Applied Energistics 2
-- Applied Energistics 2
-- Applied Energistics 2 Wireless Terminals
-- Applied Mekanistics
-- Bigger AE2
-- Extended AE
-- GuideME
-
 ### Mekanism
 - Mekanism
+- Mekanism Additions
+- Mekanism Covers
+- Mekanism Generators
 - Mekanism: Ponders
+- Mekanism Tools
+- Mekanism Trimming
+- Mekanism Unleashed
+- Just Enough Mekanism Multiblocks
+- More Mekanism Processing
+
+### Refined Storage
+- Refined Storage
+- Refined Storage - Curios Integration
+- Refined Storage - Mekanism Integration
+- Extra Disks
+- ExtraStorage
 
 ### Food & Farming
 - Aether's Delight
@@ -301,9 +307,9 @@ These mods are locked at specific versions and **must not be updated** without c
 - YUNG's Extras
 
 ### Dimensions
+- Angel Islands
 - Deeper and Darker
 - The Aether
-- Zelda: Hyrule Terrors
 
 ### Mobs & Combat
 - Artifacts
