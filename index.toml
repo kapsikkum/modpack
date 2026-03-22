@@ -233,6 +233,10 @@ file = "config/waystones-common.toml"
 hash = "e7a5ab2364e8b33b35a91f5c926072ffc8ef1d8c1bda6e7aac2c2cd390f98b26"
 
 [[files]]
+file = "crash.log"
+hash = "c279f12fff2d31717e5e2eff929238982f68570b9b0a9490226393ef3b11e203"
+
+[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
@@ -243,6 +247,11 @@ hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
 [[files]]
 file = "global_packs/required_data/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "07972d854d922401ef9a1fd6f1bf8aed5fe7e085a8602639ce8a42b680c5fac6"
+metafile = true
+
+[[files]]
+file = "global_packs/required_data/angel-islands.pw.toml"
+hash = "e665a03c9553d59369b0ed1022ec20c2fed75d384ffa6ac896ec8552d684c453"
 metafile = true
 
 [[files]]

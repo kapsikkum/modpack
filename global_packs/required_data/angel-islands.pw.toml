@@ -1,0 +1,14 @@
+name = "Angel Islands"
+filename = "Angel_Islands_2.0.3.zip"
+pin = true
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kHqaSlhI/versions/eykQvORC/Angel_Islands_2.0.3.zip"
+hash-format = "sha512"
+hash = "5c5964846ceb97bcb25192bfc0b7ab9815d983a91ffe392ee25799c932e9fb87fd8fc6dc92f7e44e93aef633c996700e979d4f286ca39ebff71f374e85377e0c"
+
+[update]
+[update.modrinth]
+mod-id = "kHqaSlhI"
+version = "eykQvORC"
