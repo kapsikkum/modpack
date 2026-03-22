@@ -1,14 +1,13 @@
 name = "Angel Islands"
-filename = "angel-islands-1.0.3.jar"
+filename = "angel-islands-2.0.3.jar"
 side = "both"
-pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/kHqaSlhI/versions/EuaFTb32/angel-islands-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/kHqaSlhI/versions/QyfKdCf8/angel-islands-2.0.3.jar"
 hash-format = "sha512"
-hash = "c0f6ed7d86855c1c9099a4ef6c2cbc7046ee78e4eaf8b1d2d89ff1e42b2c90a6eb05e58df11beba2274489c351cb135f3348364d6110adcefc25219b361b6bcf"
+hash = "6ff9089c87400d7c4195d9b1006ac2edb70b63206fcd273074f94aeac98fc19d37cb7387f41fb6b1fefeb0c0ad351d79e4415aff7dcb32f63da98aa403817f69"
 
 [update]
 [update.modrinth]
 mod-id = "kHqaSlhI"
-version = "EuaFTb32"
+version = "QyfKdCf8"
