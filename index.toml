@@ -130,7 +130,7 @@ hash = "216496638fe01b4f72b1b4df6f4c779f65d55148fd0bbe9d1ed7fddbf9ef90bb"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "869d3704fd54334fd6d7a3c6114d93542494c8f1cad43da989f0591521a04be5"
+hash = "98dfb8b9a726b9b59dd512df7660377faa158a798dfb3b322f9bc282b7950f96"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -450,6 +450,11 @@ metafile = true
 [[files]]
 file = "global_packs/required_resources/whimscape-leaves.pw.toml"
 hash = "31538589003101abb55fe29f544aab9a1061b10f5b6e6b7228f70466bbcc0274"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/whimscape-mods.pw.toml"
+hash = "217cc26d36024fc23a2827bdb6e830050a7935b28cb1f590d4689b364dd9c3ba"
 metafile = true
 
 [[files]]

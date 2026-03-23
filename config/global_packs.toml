@@ -12,14 +12,14 @@ log_pack_ids = false
 #   - FA base must be above Whimscape base (upstream: "FA above Whimscape")  
 #   - Whimscape addons (x Cobblemon, x Create, etc.) must be above Whimscape base
 required = [
-    # FA + Whimscape crossover (requires BOTH FA and Whimscape below it)
+    # FA + Whimscape crossover (must be above BOTH FA base and Whimscape base)
     "global_packs/required_resources/Whimscape_x_FreshAnimations_1.20-1.21.11_r2.zip",
 
     # FA extensions (must be above FA base)
     "global_packs/required_resources/FA+Objects-v2.1.zip",
     "global_packs/required_resources/FA+All_Extensions-v1.8.zip",
 
-    # FA base (above Whimscape)
+    # FA base (above Whimscape base)
     "global_packs/required_resources/FreshAnimations_v1.10.4.zip",
 
     # Whimscape addons (must be above Whimscape base)
@@ -32,6 +32,7 @@ required = [
     "global_packs/required_resources/Whimscape X Easy Magic.zip",
     "global_packs/required_resources/Whimscape x RPG Series.zip",
     "global_packs/required_resources/Whimscape x Exploration v2.1.zip",
+    "global_packs/required_resources/whimscape-mods.zip",
     "global_packs/required_resources/Doc's Whimscape Additions - Even More Delight.zip",
     "global_packs/required_resources/Doc's Whimscape Additions - Friends & Foes - 1.1.zip",
     "global_packs/required_resources/SimplySwordsWhimscape_v1.1.zip",
