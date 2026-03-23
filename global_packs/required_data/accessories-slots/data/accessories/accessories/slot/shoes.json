@@ -1,1 +1,11 @@
-{ "amount": 4, "operation": "set" }
+{
+  "replace": true,
+  "amount": 4,
+  "operation": "set",
+  "order": 900,
+  "icon": "accessories:gui/slot/shoes",
+  "validators": [
+    "accessories:tag",
+    "accessories:component"
+  ]
+}

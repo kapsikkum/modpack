@@ -1,1 +1,11 @@
-{ "amount": 5, "operation": "set" }
+{
+  "replace": true,
+  "amount": 5,
+  "operation": "set",
+  "order": 800,
+  "icon": "accessories:gui/slot/ring",
+  "validators": [
+    "accessories:tag",
+    "accessories:component"
+  ]
+}

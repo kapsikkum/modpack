@@ -6,7 +6,7 @@ hash = "5d4fc1dea80acc736422820ad6a763c0536b1a7b343557386c5642071ebc072d"
 
 [[files]]
 file = "config/aether-common.toml"
-hash = "d623fc7fca0f743b9840a65661b5ec4ac238577a742fec719b8474a91eb6fd38"
+hash = "9f8b9999ec8ae59b49972710457a5c582be35b48b4505ca93d9384b682c857cd"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
@@ -246,31 +246,31 @@ hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/anklet.json"
-hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+hash = "463f006b7db0b6a7b90a9608047d4dafa74af9e9e1a60afc019f6e9c10498c63"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/hat.json"
-hash = "d72d04bfd8bb90a68101c8a892b066ffb2c5f138b02cfd6c048edd35fc395dec"
+hash = "85a6587b9836d6ca98e047148fa7a6fa7d02c0f9dbd507ab57bbb4a7c77cd73c"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/necklace.json"
-hash = "9e86f09cd8a02d2067797c44fce04a17996c8c42b9686dfec2237263b0e3d050"
+hash = "f405fbef8e1e7cb9174dbd5e4bf42ae76f60e01acb5feaf833b9c4a8f615c098"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/ring.json"
-hash = "ce8ebefcbdf1d57c32ed8ad4a3763b947bdb7529fc5de2d0ab22871a756e1908"
+hash = "33cb33ed8fe814f960e1d16969e14e7f16271a867cde38c1104d0f0d74129db1"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/shoes.json"
-hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+hash = "14daa7e0d34981228fde6104224e4443a2d0f5735eaca20e39b708e1e583214f"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/wrist.json"
-hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+hash = "254599fb8336cd30b8d9cf6102151a22f8eb2423a3fe10ae277cbef81b6e0dab"
 
 [[files]]
 file = "global_packs/required_data/accessories-slots/pack.mcmeta"
-hash = "27acd802910b962a27e2314376e64c63c124a4d91dca0905e73d0040e1338912"
+hash = "f7be8d58c001781848c02ccd817f3333a39903ae8c0d22103f7c32d378a38290"
 
 [[files]]
 file = "global_packs/required_data/allthemons-x-mega-showdown-legacy.pw.toml"
