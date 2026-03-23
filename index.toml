@@ -245,6 +245,34 @@ file = "global_packs/required_data/Cobblemon Create Compat v2.0 (Forge) (1).zip"
 hash = "fe70cf60623d70eecc524957ec408c6d9bfa25f8701bd8ef36b08892a8fe6973"
 
 [[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/anklet.json"
+hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/hat.json"
+hash = "d72d04bfd8bb90a68101c8a892b066ffb2c5f138b02cfd6c048edd35fc395dec"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/necklace.json"
+hash = "9e86f09cd8a02d2067797c44fce04a17996c8c42b9686dfec2237263b0e3d050"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/ring.json"
+hash = "ce8ebefcbdf1d57c32ed8ad4a3763b947bdb7529fc5de2d0ab22871a756e1908"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/shoes.json"
+hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/accessories/accessories/slot/wrist.json"
+hash = "2349aa9e6321de2d2d55004ef74b0f5f2adbdef6b235d0300f870f0502b31f8a"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/pack.mcmeta"
+hash = "27acd802910b962a27e2314376e64c63c124a4d91dca0905e73d0040e1338912"
+
+[[files]]
 file = "global_packs/required_data/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "07972d854d922401ef9a1fd6f1bf8aed5fe7e085a8602639ce8a42b680c5fac6"
 metafile = true
@@ -256,7 +284,7 @@ metafile = true
 
 [[files]]
 file = "global_packs/required_data/balloon-loot-override.zip"
-hash = "7f4f122f7a64d54326cfc7b639f907627ab1e1f2f886c7408315f93b1981a07f"
+hash = "2c67e5def5dce9a93309c520be7ef36300c5bc8279662e772232020beb89ab02"
 
 [[files]]
 file = "global_packs/required_data/bettercombat-x-cataclysm.pw.toml"
@@ -555,6 +583,11 @@ hash = "545d02512d3a0cd20597d19312ac85fb3ef6b1d52187be391046ab1ed6ec5577"
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "29fbcd5ef12fd11ab78e9696cd6ca7e2bf4ffc18ae4525ef81a7fc2c029a2678"
+metafile = true
+
+[[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
 metafile = true
 
 [[files]]
