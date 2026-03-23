@@ -147,11 +147,10 @@ function sellStack(player, itemId, count) {
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands } = event
 
-  Commands.register((dispatcher) => {
-    dispatcher.register(
-      Commands.literal('sell')
-        .then(
-          Commands.literal('hand').executes((ctx) => {
+  event.register(
+    Commands.literal('sell')
+      .then(
+        Commands.literal('hand').executes((ctx) => {
             const player = ctx.source.player
             if (!player) return 0
 
@@ -181,8 +180,8 @@ ServerEvents.commandRegistry((event) => {
             return 1
           })
         )
-        .then(
-          Commands.literal('all').executes((ctx) => {
+      .then(
+        Commands.literal('all').executes((ctx) => {
             const player = ctx.source.player
             if (!player) return 0
 
@@ -204,8 +203,7 @@ ServerEvents.commandRegistry((event) => {
             const balance = player.persistentData.PersonalBank || 0
             player.statusMessage = Text.green(`Sold everything for §a${totalEarned} Emerald${totalEarned !== 1 ? 's' : ''}§r. Balance: §a${balance}§r.`)
             return 1
-          })
-        )
-    )
-  })
+})
+      )
+  )
 })

@@ -283,10 +283,6 @@ hash = "e665a03c9553d59369b0ed1022ec20c2fed75d384ffa6ac896ec8552d684c453"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/balloon-loot-override.zip"
-hash = "2c67e5def5dce9a93309c520be7ef36300c5bc8279662e772232020beb89ab02"
-
-[[files]]
 file = "global_packs/required_data/bettercombat-x-cataclysm.pw.toml"
 hash = "5e2068eb63966e37b100c4dcf1421cd69303d785e6d9a9326af855d922ad6ab3"
 metafile = true
@@ -562,11 +558,11 @@ hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables.js"
-hash = "364dd5f42067ba1ec81705d680432556b44bc3b2acc4f86f21fc8a2d63c13f4d"
+hash = "f9bc2fbedfae6e254669db02ed8e578959418ea8e2a526d5392eb61ebaf28341"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
-hash = "e6073849a158c0cf02908cedaff87db0120cd2bc72722bf7956bcadf90c3e8cc"
+hash = "3dadc8d2598f5b743f7b8d29b24a40cd87afb7505433f45b18679e94574fa676"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"

@@ -30,7 +30,7 @@ LootJS.modifyLootTables((event) => {
       pool.addEntry(LootEntry.item('minecraft:torch').weight(20).count(4, 16))
       pool.addEntry(LootEntry.item('minecraft:enchanted_book').weight(10))
       pool.addEntry(LootEntry.item('cobblemon:poke_ball').weight(15).count(1, 3))
-      pool.addEntry(LootEntry.item('alloyforge:copper_ingot').weight(12).count(2, 6))
+      pool.addEntry(LootEntry.item('minecraft:copper_ingot').weight(12).count(2, 6))
       pool.addEntry(LootEntry.item('minecraft:golden_apple').weight(4))
     })
 
@@ -56,7 +56,7 @@ LootJS.modifyLootTables((event) => {
     .addPool((pool) => {
       pool.rolls(1, 2)
       pool.addEntry(LootEntry.item('minecraft:enchanted_book').weight(15))
-      pool.addEntry(LootEntry.item('ae2:certus_quartz_crystal').weight(10).count(2, 6))
+      pool.addEntry(LootEntry.item('refinedstorage:quartz_enriched_iron').weight(10).count(2, 6))
       pool.addEntry(LootEntry.item('cobblemon:ultra_ball').weight(6).count(1, 2))
       pool.addEntry(LootEntry.item('minecraft:golden_apple').weight(8))
       pool.addEntry(LootEntry.item('artifacts:charm_of_sinking').weight(3))
@@ -126,7 +126,7 @@ LootJS.modifyLootTables((event) => {
       pool.addEntry(LootEntry.item('minecraft:enchanted_book').weight(20))
       pool.addEntry(LootEntry.item('cobblemon:master_ball').weight(1))
       pool.addEntry(LootEntry.item('cobblemon:beast_ball').weight(6).count(1, 2))
-      pool.addEntry(LootEntry.item('ae2:fluix_crystal').weight(10).count(2, 6))
+      pool.addEntry(LootEntry.item('refinedstorage:advanced_processor').weight(8).count(1, 3))
       pool.addEntry(LootEntry.item('minecraft:elytra').weight(2))
     })
 
