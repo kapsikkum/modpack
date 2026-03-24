@@ -214,7 +214,7 @@ key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown
-key_key.aether.open_accessories.desc:key.keyboard.i
+key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown

@@ -6,7 +6,7 @@ hash = "5d4fc1dea80acc736422820ad6a763c0536b1a7b343557386c5642071ebc072d"
 
 [[files]]
 file = "config/aether-common.toml"
-hash = "e27329ca5eb7586f3de768c7285297d14ee0894df30a7dc251dccf292c29e473"
+hash = "9f8b9999ec8ae59b49972710457a5c582be35b48b4505ca93d9384b682c857cd"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
@@ -2328,7 +2328,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3e47eb2b042950658ff231ac1153ed452d9b790750e06674dab8042b90639f77"
+hash = "328061ca998a6df48b675fa187913420b6d5baeaa549c76f9c6247cf4ec4e6ad"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
