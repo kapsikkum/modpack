@@ -303,15 +303,14 @@
 				{
 					count: 4
 					id: "621C"
-					item: "mekanism:fissile_fuel"
+					item: "mekanism:alloy_atomic"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					count: 4L
 					id: "611C"
-					item: "mekanism:fissile_fuel"
+					item: "mekanismgenerators:fission_fuel_assembly"
 					type: "item"
 				}
 			]
@@ -357,12 +356,12 @@
 			tasks: [
 				{
 					id: "611E"
-					item: "mekanismgenerators:fission_reactor_controller"
+					item: "mekanismgenerators:control_rod_assembly"
 					type: "item"
 				}
 			]
-			title: "Reactor Controller"
-			subtitle: "Place the Fission Reactor Controller on a completed casing multiblock. It monitors temperature, burn rate, and nuclear waste levels. ALWAYS connect a Logic Adapter for SCRAM automation."
+			title: "Control Rod Assembly"
+			subtitle: "Craft a Control Rod Assembly — a structural component of the Fission Reactor that regulates the reaction. ALWAYS connect a Logic Adapter for SCRAM automation."
 			x: 22.0d
 			y: 0.0d
 		}
@@ -426,7 +425,7 @@
 			tasks: [
 				{
 					id: "6121"
-					item: "mekanismgenerators:thermoelectric_boiler_casing"
+					item: "mekanism:boiler_casing"
 					type: "item"
 				}
 			]

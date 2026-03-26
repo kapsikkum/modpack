@@ -533,7 +533,7 @@
 					type: "advancement"
 				}
 			]
-			title: "Bait && Switch"
+			title: "Bait & Switch"
 			subtitle: "Use PokéBait while fishing to attract specific Pokémon species."
 			x: 4.0d
 			y: 4.0d
@@ -1180,11 +1180,11 @@
 			tasks: [
 				{
 					id: "3131"
-					item: "cobblenav:pokenav"
+					item: "cobblenav:pokenav_item_base"
 					type: "item"
 				}
 			]
-			title: "PokeNav && Chill"
+			title: "PokeNav & Chill"
 			subtitle: "Craft a PokeNav to track nearby Pokémon, battle stats, and party info on the go."
 			x: 12.0d
 			y: -2.0d

@@ -90,7 +90,7 @@ hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "0315aa0927a37044d82d0409fe0f7ab232532391813a91a8e06202fb2f01b1a4"
+hash = "6b72038234576a3dc496e410398e51300dd79f35d9b395c6d672dda814e6b7b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -114,7 +114,7 @@ hash = "40be291267948a4f5c63b9a6ab4e3f022e833ecf23fa2fe20a5efa885d8052e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "1e347ab7ab9a418ec33c99db7b545adb655f23cd099cd30eec2c358fc111ae12"
+hash = "5288b9d95ce260b823f2510e95cbe325cec3a9c25c575ae85429290230089e88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
