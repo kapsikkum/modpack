@@ -84,9 +84,14 @@
 			id: "1013"
 			rewards: [
 				{
-					count: 2
+					count: 8
 					id: "1213"
-					item: "minecraft:iron_chestplate"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "1213b"
+					item: "minecraft:iron_sword"
 					type: "item"
 				}
 			]

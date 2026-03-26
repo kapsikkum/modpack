@@ -23,7 +23,7 @@
 			]
 			tasks: [
 				{
-					count: 4L
+					count: 1L
 					id: "6110"
 					item: "mekanism:ingot_osmium"
 					type: "item"
@@ -47,9 +47,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanism:metallurgic_infuser"
+					criterion: "metallurgic_infuser"
 					id: "6111"
-					item: "mekanism:metallurgical_infuser"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Metallurgical Infuser"
@@ -70,9 +71,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanism:enricher"
+					criterion: "enrichment_chamber"
 					id: "6112"
-					item: "mekanism:enrichment_chamber"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Enrichment Chamber"
@@ -115,9 +117,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanismgenerators:heat_generator"
+					criterion: "heat_generator"
 					id: "6114"
-					item: "mekanism:heat_generator"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Heat Generator"
@@ -138,9 +141,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanism:energy_cube"
+					criterion: "basic_energy_cube"
 					id: "6115"
-					item: "mekanism:basic_energy_cube"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Power Storage"
@@ -161,7 +165,7 @@
 			]
 			tasks: [
 				{
-					count: 4L
+					count: 1L
 					id: "6116"
 					item: "mekanism:ingot_steel"
 					type: "item"
@@ -185,9 +189,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanism:purification_chamber"
+					criterion: "purification_chamber"
 					id: "6117"
-					item: "mekanism:purification_chamber"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Triple Your Ores"
@@ -208,9 +213,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanism:factory"
+					criterion: "factory"
 					id: "6118"
-					item: "mekanism:basic_enriching_factory"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Factory Line"
@@ -231,9 +237,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanismgenerators:solar_generator"
+					criterion: "solar_generator"
 					id: "6119"
-					item: "mekanism:solar_generator"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Solar Power"
@@ -254,9 +261,10 @@
 			]
 			tasks: [
 				{
+					advancement: "mekanismgenerators:burn_the_gas"
+					criterion: "gas_burning_generator"
 					id: "611A"
-					item: "mekanismgenerators:gas_burning_generator"
-					type: "item"
+					type: "advancement"
 				}
 			]
 			title: "Gas Turbine"
@@ -277,7 +285,7 @@
 			]
 			tasks: [
 				{
-					count: 4L
+					count: 1L
 					id: "611B"
 					item: "mekanism:yellow_cake_uranium"
 					type: "item"
@@ -501,6 +509,519 @@
 			subtitle: "The Fusion Reactor is the ultimate endgame power source — it runs on D-T Fuel (Deuterium + Tritium), produces no waste, and outputs staggering amounts of energy. Requires a laser ignition system."
 			x: 26.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6014"]
+			description: [
+				"The §eWind Generator§r is a free passive power source that produces more energy the higher it is placed."
+				""
+				"§7Output:§r Performance scales significantly above y=100. Place it on a rooftop or tower — at max height it produces substantially more than a Heat Generator."
+				""
+				"§7Setup:§r No fuel input required. Connect to Universal Cables and it generates power day and night, wind or calm. Wind Generators make excellent supplemental power for your early machine network."
+			]
+			id: "6030"
+			rewards: [
+				{
+					count: 4
+					id: "6230"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanismgenerators:wind_generator"
+					criterion: "wind_generator"
+					id: "6130"
+					type: "advancement"
+				}
+			]
+			title: "Wind Power"
+			subtitle: "Craft a Wind Generator — free passive RF that scales with altitude. Place it high for best output."
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6015"]
+			description: [
+				"§eUniversal Cables§r are Mekanism's power distribution cables — they carry FE energy between generators and machines."
+				""
+				"§7Setup:§r Cables connect automatically to adjacent machines when placed. For more complex routing, use the §eConfigurator§r to set input/output sides on machine faces."
+				""
+				"§7Tiers:§r Basic → Advanced → Elite → Ultimate — higher tiers carry more power per tick. Basic cables are sufficient early on, but upgrade as your power demands grow."
+			]
+			id: "6031"
+			rewards: [
+				{
+					count: 8
+					id: "6231"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:energy_transport"
+					criterion: "basic_universal_cable"
+					id: "6131"
+					type: "advancement"
+				}
+			]
+			title: "Universal Cables"
+			subtitle: "Craft Universal Cables to distribute FE power between generators and machines across your base."
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6031"]
+			description: [
+				"The §eConfigurator§r is the essential Mekanism hand tool — use it to configure machine sides, cable interactions, and pipe colour-coding."
+				""
+				"§7Machine sides:§r Each side can be set to: §7Dark Blue§r (item input), §7Dark Red§r (item output), §7Dark Green§r (energy input), §7Cyan§r (extra), or §7Grey§r (disable). Shift+right-click a machine face to cycle through modes."
+				""
+				"§7Copy/paste:§r Hold Sneak and right-click a configured machine to copy its side config, then right-click another machine to paste. Saves huge amounts of time when setting up a factory row."
+			]
+			id: "6033"
+			rewards: [
+				{
+					id: "6233"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6133"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
+			title: "Configurator"
+			subtitle: "Craft the Configurator — the essential Mekanism tool for configuring machine I/O sides."
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6017"]
+			description: [
+				"The §eElectrolytic Separator§r splits water into §eHydrogen§r and §eOxygen§r gases using FE power."
+				""
+				"§7Why build it:§r Hydrogen feeds directly into a §eGas-Burning Generator§r for powerful passive electricity. Oxygen pumped into the §ePurification Chamber§r enables §7Tier 3 ore tripling§r instead of the standard doubling."
+				""
+				"§7Setup:§r Power the Separator with FE, pipe Water in via Mechanical Pipes. Route output gases with Pressurized Tubes to the relevant machines. This single machine unlocks far superior power and ore yield."
+			]
+			id: "6032"
+			rewards: [
+				{
+					count: 4
+					id: "6232"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6132"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
+			title: "Electrolytic Separator"
+			subtitle: "Build the Electrolytic Separator — split water into Hydrogen (fuel) and Oxygen (ore tripling)."
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6018"]
+			description: [
+				"The §eDigital Miner§r is Mekanism's automated mining machine — it mines a 32-block radius sphere filtered by ore type, automatically, while you do other things."
+				""
+				"§7Configuration:§r Open the GUI, set filters (§7Oredict Filter§r with tag like §7c:ores/iron§r catches every mod's iron ore, §7Material Filter§r targets specific blocks like Ancient Debris). Set the Y-level range and hit start."
+				""
+				"§7Pro tip:§r Place it at the centre of your mine, set the range downward from y=60 to y=-64 to sweep all ore levels at once. Run multiple with different filters for different ore types."
+			]
+			id: "6034"
+			rewards: [
+				{
+					count: 4
+					id: "6234"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:digital_miner"
+					criterion: "digital_miner"
+					id: "6134"
+					type: "advancement"
+				}
+			]
+			title: "Digital Miner"
+			subtitle: "Build a Digital Miner to automatically mine any ore type in a 32-block radius. Never mine by hand again."
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6030"]
+			description: [
+				"The §eAdvanced Solar Generator§r produces roughly 3× the power of the basic Solar Generator in the same horizontal footprint."
+				""
+				"§7Output:§r Up to 300 FE/t in direct sunlight. Requires clear sky above — any block overhead cuts output."
+				""
+				"§7Array tip:§r Build a platform above y=100, place a row of Advanced Solars, and connect them via Universal Cables. A 4-wide array provides solid daytime power for an entire mid-game machine setup. Pair with Wind Generators for 24/7 power coverage."
+			]
+			id: "6037"
+			rewards: [
+				{
+					count: 4
+					id: "6237"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6137"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			title: "Advanced Solar"
+			subtitle: "Build an Advanced Solar Generator — 3× the output of the basic model, same footprint."
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6032"]
+			description: [
+				"The §eBio-Generator§r burns §eBioethanol§r for steady mid-game power output."
+				""
+				"§7Fuel chain:§r Crops (wheat, potatoes, saplings) → §ePressurized Reaction Chamber§r (with water + Ethylene) → §eBioethanol§r → §eBio-Generator§r."
+				""
+				"§7Why bother:§r A fully-fed Bio-Generator produces significantly more power than the Heat or Wind Generators and runs 24/7. With a modest automated crop farm supplying the PRC, this provides reliable power between your current setup and a full fission reactor."
+			]
+			id: "6036"
+			rewards: [
+				{
+					count: 4
+					id: "6236"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6136"
+					item: "mekanismgenerators:bio_generator"
+					type: "item"
+				}
+			]
+			title: "Bio-Generator"
+			subtitle: "Build a Bio-Generator — burns bioethanol from fermented crops for reliable mid-game power."
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6011"]
+			description: [
+				"§eInfused Alloy§r is the first alloy tier in Mekanism — craft it in the §eMetallurgical Infuser§r by infusing §eIron Ingots§r with §eRedstone§r."
+				""
+				"§7Why it matters:§r Infused Alloy is the foundation of every Mekanism alloy tier. It unlocks §eBasic Control Circuits§r, machine upgrading, and all higher alloys (Reinforced → Atomic)."
+				""
+				"§7Recipe:§r Metallurgical Infuser + Redstone → Iron Ingot = Infused Alloy."
+			]
+			icon: "mekanism:alloy_infused"
+			id: "6038"
+			rewards: [
+				{
+					count: 4
+					id: "6238"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:infused_alloy"
+					criterion: "alloy_infused"
+					id: "6138"
+					type: "advancement"
+				}
+			]
+			title: "Infused Alloy"
+			subtitle: "Craft your first Infused Alloy — the foundation of every machine tier, circuit, and upgrade."
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6038"]
+			description: [
+				"§eBasic Control Circuits§r are the core logic component of every Mekanism machine — nearly every recipe requires at least one."
+				""
+				"§7Recipe:§r Metallurgical Infuser: infuse a §eGold Ingot§r with §eInfused Alloy§r dust."
+				""
+				"§7Tip:§r Craft 16+ circuits immediately. You'll consume them constantly as you unlock new machines. The higher circuit tiers (Advanced, Elite, Ultimate) use Reinforced and Atomic Alloy respectively — start the alloy chain early."
+			]
+			icon: "mekanism:basic_control_circuit"
+			id: "6039"
+			rewards: [
+				{
+					count: 8
+					id: "6239"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:basic_control_circuit"
+					criterion: "basic_control_circuit"
+					id: "6139"
+					type: "advancement"
+				}
+			]
+			title: "Basic Control Circuit"
+			subtitle: "Craft a Basic Control Circuit — every Mekanism machine needs these in bulk."
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6038"]
+			description: [
+				"Mekanism machines can be §eupgraded in place§r — hold the appropriate alloy tier and right-click any machine to instantly convert it to the next tier."
+				""
+				"§7Upgrade path:§r §7Basic§r → §6Advanced§r (Infused Alloy) → §aElite§r (Reinforced Alloy) → §dUltimate§r (Atomic Alloy)."
+				""
+				"§7How to upgrade:§r Hold an Infused Alloy and right-click a Basic machine. The machine converts instantly and keeps all its contents. No dismantling required."
+				""
+				"§7Priority:§r Upgrade your Enrichment Chamber and Factories first — they produce the largest throughput gain per tier."
+			]
+			icon: "mekanism:alloy_infused"
+			id: "603A"
+			rewards: [
+				{
+					count: 8
+					id: "623A"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:alloy_upgrading"
+					criterion: "upgrade"
+					id: "613A"
+					type: "advancement"
+				}
+			]
+			title: "Machine Upgrading"
+			subtitle: "Upgrade a machine in-place with Infused Alloy. No rebuilding required."
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6039"]
+			description: [
+				"§eReinforced Alloy§r is the mid-tier alloy — crafted by infusing §eInfused Alloy§r with §eDiamond Dust§r in the Metallurgical Infuser."
+				""
+				"§7Why it matters:§r Required for §eElite§r machines, §eAdvanced Control Circuits§r, the §eDigital Miner§r, and the §eJetpack§r. It's the gateway to automating ore collection and running larger factory setups."
+				""
+				"§7Diamond Dust:§r Run Diamonds through your §eCrusher§r. Keep a supply of Diamond Dust ready — you'll need it for both Reinforced Alloy and later chemical processes."
+			]
+			icon: "mekanism:alloy_reinforced"
+			id: "603B"
+			rewards: [
+				{
+					count: 4
+					id: "623B"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:reinforced_alloy"
+					criterion: "alloy_reinforced"
+					id: "613B"
+					type: "advancement"
+				}
+			]
+			title: "Reinforced Alloy"
+			subtitle: "Craft Reinforced Alloy — unlocks Elite machines, the Digital Miner, and the Jetpack."
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["603B"]
+			description: [
+				"§eAtomic Alloy§r is the ultimate alloy tier — crafted by infusing §eReinforced Alloy§r with §eRefined Obsidian Dust§r in the Metallurgical Infuser."
+				""
+				"§7Why it matters:§r Unlocks §eUltimate§r machines, the §eMekaSuit§r armor, the §eAtomic Disassembler§r, and the §eQuantum Entangloporter§r (wireless energy and item transfer)."
+				""
+				"§7Refined Obsidian Dust:§r Run Obsidian through the §eChemical Injection Chamber§r with §eHydrochloric Acid§r, then crush the result."
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "603C"
+			rewards: [
+				{
+					count: 2
+					id: "623C"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:atomic_alloy"
+					criterion: "alloy_atomic"
+					id: "613C"
+					type: "advancement"
+				}
+			]
+			title: "Atomic Alloy"
+			subtitle: "Craft Atomic Alloy — the pinnacle of Mekanism materials. Unlocks Ultimate machines and endgame gear."
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["603B"]
+			description: [
+				"The §eHydrogen Jetpack§r is Mekanism's gas-powered flight device — fill it with §eHydrogen§r from the Electrolytic Separator and hold Jump to ascend."
+				""
+				"§7Controls:§r Hold Space to activate hover mode (suspends at current height). Hold Jump to ascend. Equipped jetpack cushions all fall damage."
+				""
+				"§7Fuel:§r Hydrogen is produced free by the §eElectrolytic Separator§r splitting water. Pipe it to a §eChemical Tank§r and charge your Jetpack inside it."
+				""
+				"§7Upgrade:§r The §eArmored Jetpack§r adds full armor protection. Further upgrades exist at the §eModification Station§r."
+			]
+			icon: "mekanism:jetpack"
+			id: "603D"
+			rewards: [
+				{
+					count: 4
+					id: "623D"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:hydrogen_powered_flight"
+					criterion: "jetpack"
+					id: "613D"
+					type: "advancement"
+				}
+			]
+			title: "Jetpack!"
+			subtitle: "Craft the Mekanism Hydrogen Jetpack and take to the skies — fuelled by free electrolytic hydrogen."
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["603C"]
+			description: [
+				"The §eMekaSuit§r is Mekanism's ultimate modular armor — built from Atomic Alloy and Refined Obsidian. It has 0 base armor but is upgraded with §eModules§r at the §eModification Station§r."
+				""
+				"§7Key modules:§r"
+				"§eJet Unit§r: Built-in flight (replaces Jetpack)"
+				"§eInhalation Purification Unit§r: Removes all negative status effects constantly"
+				"§eEnergised Unit§r: Auto-charges items from internal power"
+				"§eRadiation Shielding Unit§r: Full immunity to radiation"
+				""
+				"§7Power:§r The MekaSuit runs on FE. Charge it via Universal Cables or a Chargepad. A fully modded suit with max upgrades is the best armor and mobility system in the entire pack."
+			]
+			icon: "mekanism:mekasuit_helmet"
+			id: "603E"
+			rewards: [
+				{
+					count: 4
+					id: "623E"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:mekasuit"
+					criterion: "full_set"
+					id: "613E"
+					type: "advancement"
+				}
+			]
+			title: "MekaSuit"
+			subtitle: "Craft the full MekaSuit armor set — Mekanism's ultimate modular powersuit. Customize with modules."
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["603C"]
+			description: [
+				"The §eQIO Dashboard§r is Mekanism's mass digital item storage system — holding billions of items across §eQIO Drives§r, all searchable from one interface."
+				""
+				"§7Build chain:§r §eQIO Drive Array§r (3×3 multiblock) + §eQIO Drives§r (inserted into Array) + §eQIO Dashboard§r (the access terminal)."
+				""
+				"§7Drive capacities:§r Basic Drive → 8M items. Advanced → 128M. Elite → 2B. Ultimate → 32B per drive."
+				""
+				"§7vs Refined Storage:§r QIO is pure bulk item storage with no autocrafting. Use Refined Storage for crafting networks; QIO for unlimited raw material stockpiles."
+			]
+			icon: "mekanism:qio_dashboard"
+			id: "603F"
+			rewards: [
+				{
+					count: 1
+					id: "623F"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:qio_dashboard"
+					criterion: "qio_dashboard"
+					id: "613F"
+					type: "advancement"
+				}
+			]
+			title: "QIO Mass Storage"
+			subtitle: "Build a QIO Dashboard — Mekanism's digital storage holding billions of items across QIO drives."
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6020"]
+			description: [
+				"Congratulations — you have been irradiated by your own nuclear material!"
+				""
+				"§7How radiation works:§r Radioactive items and waste that overflow from barrels emit radiation. It spreads through the air. At high enough levels it deals continuous damage and is difficult to remove."
+				""
+				"§7Immediate treatment:§r Craft and drink §eRad Removal§r (Mekanism antidote). A bucket of milk reduces levels slightly. If exposure is extreme, dying in an open area away from your base disperses it."
+				""
+				"§7Prevention:§r Store ALL nuclear waste in §eRadioactive Waste Barrels§r immediately after it is produced — never let reactors or processing chains overflow. Wear §eMekaSuit§r with the Radiation Shielding Unit for full immunity."
+			]
+			icon: "mekanism:geiger_counter"
+			id: "6040"
+			rewards: [
+				{
+					count: 1
+					id: "6240"
+					item: "mekanism:geiger_counter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mekanism:radiation_poisoning"
+					criterion: "poisoned"
+					id: "6140"
+					type: "advancement"
+				}
+			]
+			title: "Oops, Radiation!"
+			subtitle: "Contract radiation from nuclear waste. Happy to help. Here's a Geiger Counter."
+			x: 22.0d
+			y: 4.0d
 		}
 	]
 	subtitle: "Industrial machines, ore processing, and energy systems."

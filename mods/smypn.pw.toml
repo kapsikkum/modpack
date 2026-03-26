@@ -1,0 +1,14 @@
+name = "Show Me Your Payload Name"
+filename = "show-me-your-payload-name-v1.0.0-SNAPSHOT.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/mWtmqrQY/versions/5AzdhyAK/show-me-your-payload-name-v1.0.0-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "1919b4a960b9cc955f01f0e528f26ace26cc9ed28c957d37539ef9c25e2c4df9bf5a793abd59596aa1019000447fcbfdedbfa945f6980aef266b682615bcc248"
+
+[update]
+[update.modrinth]
+mod-id = "mWtmqrQY"
+version = "5AzdhyAK"

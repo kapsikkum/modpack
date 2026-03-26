@@ -78,19 +78,19 @@ hash = "21b182b301c72a012c72e5281fd7a69a42e354776d41b781a38e516c24b64c84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "2b3a0ff47d6194cbc27cfd2bc641ab3d28b1533db9d71147deec9b47af9fdf09"
+hash = "dd22b3043f4db9fb2f4372c091854f9acf4ceb4806d22aae20f7ad35ce93d9ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
-hash = "7330a778680cb8f2705f728ad0760d2e679bf66e6e74cd36e226efc06cf21fe7"
+hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "b8d7dd0c5ad18f30fac6adfc55b63cc67113ba0ff181ac7bf94748cd0c08ae45"
+hash = "0cc1b6781dad3b28739db632a9ca103d841a92391936292307a7430b79104821"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "1bbedd78a3afee9395a3c1b2ceb566432f3eecde12c287a132b86c30217cd00a"
+hash = "dc078e12bf8c95e397d356f0043fb7317c8522ed1ff2d29feb9818e411793efa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -98,7 +98,7 @@ hash = "83dc37d708ba23409bcb73aecc710aa56f679acc996d1245460836a43ccd4543"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "2541bd562689bfa09bcb6f82831e07dd8e908b4cefb9666a74707fdb05c3e9e2"
+hash = "445325f4dd053784eebbda784b32f6c867b98c7d207f7dc4a90c63e6c2ebfea0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
@@ -106,11 +106,15 @@ hash = "69bd833338f8916be153e2fc58298083e2ce8d008e260b748b4cb17c9afbd6cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "c1d3a614cc04f3d930fbd583a0650e6909f76aa100349211f753076bca77510e"
+hash = "fd047fa23ed790fc4214d39f464734f9c976da1b75ba65179271df4aa569af6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "0aae6eb0d86511f89ff914ba0507c81debb5f5446aea80f5cfd2c3125215aaee"
+hash = "1e347ab7ab9a418ec33c99db7b545adb655f23cd099cd30eec2c358fc111ae12"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oritech.snbt"
+hash = "6e615bbfc7b6df3c7f3954243ba9e9bfd396e5c4fa408a1ec476eaf3ccc86a4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
@@ -122,11 +126,11 @@ hash = "f00918363fab6973596c127efd9a7014ac09e8bbe73799fde7c5ed56900d0f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
-hash = "ede390f7518e6c568ce2af049ee929dd3db3466540152ad644d28d3fc33247ca"
+hash = "9783a5e37e8bc072e81bb57c05b52398a151d03811ff0cfba5f7e9bd70b2eb6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "216496638fe01b4f72b1b4df6f4c779f65d55148fd0bbe9d1ed7fddbf9ef90bb"
+hash = "ab265c9f17f7f35c29e354576f7165a8edf481f67b92ae24f3c8a9d0cb96bb0b"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -2029,6 +2033,11 @@ metafile = true
 [[files]]
 file = "mods/sky-villages.pw.toml"
 hash = "96d2169c9e4e943f21ed9861275baae9e6b5f7ec7249fa4e063708538dc40088"
+metafile = true
+
+[[files]]
+file = "mods/smypn.pw.toml"
+hash = "808327462f45aac576ab825b328b3e1b0222e11d0852be4244c612fbedc93989"
 metafile = true
 
 [[files]]

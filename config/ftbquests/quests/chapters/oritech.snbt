@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: false
+	filename: "oritech"
+	icon: "oritech:basic_generator_block"
+	id: "E001"
+	order_index: 15
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"§bOritech§r is a modern industrial tech mod built around §6FE energy§r, §6ore processing§r, and §6electronic manufacturing§r."
+				""
+				"Its progression runs from Nickel ore and basic generators through electronics, advanced alloys, and eventually a §enuclear reactor§r."
+				""
+				"§7Key early materials:§r"
+				"§eNickel§r — generates y=-16 to y=96, the backbone of all early machines"
+				"§eSilicon§r — smelted from Raw Silicon (Sand/Silicon Ore), used in every processor"
+				"§eCopper§r — vanilla copper used extensively throughout"
+				""
+				"§7The basic loop:§r Mine Nickel → Build Machine Frame → Build Generator → Pulverize ores → Craft electronics → Build advanced machines"
+			]
+			icon: "oritech:machine_frame_block"
+			id: "E010"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to read the Oritech overview."
+			tasks: [
+				{
+					id: "E110"
+					title: "Oritech Overview"
+					type: "checkmark"
+				}
+			]
+			title: "§6Oritech: Industrial Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E010"]
+			description: [
+				"§eNickel Ore§r generates commonly in the overworld between y=-16 and y=96 — it's plentiful."
+				""
+				"Mine it and smelt it in a vanilla furnace into §eNickel Ingots§r. You'll need ingots for machine frames, connectors, and most early components."
+				""
+				"§7Doubling tip:§r Build a Pulverizer later and run all your ore stockpile through it — each ore gives 2 dust which smelts into 2 ingots. Pre-smelt only what you need for your first few machines."
+			]
+			id: "E011"
+			rewards: [
+				{
+					count: 8
+					id: "E211"
+					item: "oritech:nickel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "E111"
+					item: "oritech:raw_nickel"
+					type: "item"
+				}
+			]
+			title: "Nickel Rush"
+			subtitle: "Mine Raw Nickel Ore and smelt your first Nickel Ingots — the backbone of early Oritech machinery."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E011"]
+			description: [
+				"The §eMachine Frame§r is the structural housing used in essentially every Oritech block."
+				""
+				"§7Recipe:§r Arranged from Iron Ingots, Copper, and Nickel in the crafting table — check JEI for the exact layout."
+				""
+				"Craft at least §e4–6 frames§r right away. You'll consume them building your first generators, furnace, and pulverizer and won't want to stop and craft more mid-setup."
+			]
+			id: "E012"
+			rewards: [
+				{
+					count: 4
+					id: "E212"
+					item: "oritech:machine_plating"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E112"
+					item: "oritech:machine_frame_block"
+					type: "item"
+				}
+			]
+			title: "Machine Frame"
+			subtitle: "Craft a Machine Frame — the essential structural housing for all Oritech machines."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E012"]
+			description: [
+				"The §eBasic Generator§r is Oritech's entry power source — it burns solid fuel (coal, wood, charcoal) to produce FE energy."
+				""
+				"§7Setup:§r Place it, load fuel into its input slot, and connect §eEnergy Pipes§r to your first machine. It will run as long as fuel is available."
+				""
+				"§7Upgrade path:§r Basic Generator → §eLava Generator§r → §eBio Generator§r → §eFuel Generator§r. Each tier produces more FE/t from better or renewable fuels."
+				""
+				"§7Tip:§r Run two Basic Generators in parallel early on — machines draw more power than a single generator can reliably output, especially when multiple are running simultaneously."
+			]
+			id: "E013"
+			rewards: [
+				{
+					count: 4
+					id: "E213"
+					item: "oritech:nickel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E113"
+					item: "oritech:basic_generator_block"
+					type: "item"
+				}
+			]
+			title: "Basic Generator"
+			subtitle: "Build a Basic Generator — your first Oritech power source. Coal and wood keep it running."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E012"]
+			description: [
+				"§eEnergy Pipes§r are Oritech's power distribution cables — they carry FE energy between generators and machines."
+				""
+				"§7Placement:§r Energy Pipes connect automatically to adjacent generators and machines when placed next to them. Right-click connection points to configure input/output if needed."
+				""
+				"§7Tip:§r Unlike Mekanism cables, Oritech Energy Pipes are relatively cheap early on. Run a full pipe network to all your machines from a central generator hub rather than building one pipe at a time as you add machines."
+			]
+			id: "E01F"
+			rewards: [
+				{
+					count: 8
+					id: "E21F"
+					item: "oritech:energy_pipe"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "E11F"
+					item: "oritech:energy_pipe"
+					type: "item"
+				}
+			]
+			title: "Energy Pipes"
+			subtitle: "Craft Energy Pipes to distribute FE power from your generator to machines."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E013"]
+			description: [
+				"The §ePowered Furnace§r is Oritech's electric smelter — it runs on FE instead of fuel and can smelt faster than a vanilla furnace."
+				""
+				"§7Machine Addons:§r Craft §eSpeed Upgrades§r, §eEfficiency Upgrades§r, or §eOverclock Cores§r and install them in the upgrade slots to multiply throughput significantly."
+				""
+				"§7Machine Cores:§r Right-click the machine to open its core slot. Higher-tier cores (Basic → Advanced → Hardened → Reinforced → Atomic) improve speed and efficiency. Prioritise upgrading cores — even a single Advanced Core makes a large difference."
+			]
+			id: "E014"
+			rewards: [
+				{
+					count: 8
+					id: "E214"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E114"
+					item: "oritech:powered_furnace_block"
+					type: "item"
+				}
+			]
+			title: "Powered Furnace"
+			subtitle: "Build an Oritech Powered Furnace — FE-powered smelting with Machine Addon upgrade slots."
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E014"]
+			description: [
+				"The §ePulverizer§r is Oritech's ore doubler — it grinds ores into two dust each, giving 2 ingots per ore when smelted."
+				""
+				"§7Ore chain:§r §7Ore§r → Pulverizer → §72× Dust§r → Powered Furnace → §72× Ingots§r"
+				""
+				"§7Also processes:§r Cobblestone → Gravel, Gravel → Sand, Sand → Silicon Dust. Excellent for large-scale sand or silicon production."
+				""
+				"§7Do this immediately:§r Run your entire ore stockpile through the Pulverizer before smelting. The output bonus is permanent — smelting ore directly wastes 50% of your materials."
+			]
+			id: "E015"
+			rewards: [
+				{
+					count: 8
+					id: "E215"
+					item: "oritech:nickel_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E115"
+					item: "oritech:pulverizer_block"
+					type: "item"
+				}
+			]
+			title: "Pulverizer"
+			subtitle: "Build the Pulverizer — doubles ore output by grinding ores to 2× dust before smelting."
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E015"]
+			description: [
+				"§eSilicon§r is Oritech's core electronic material — used in every processor, circuit board, battery, and advanced machine component."
+				""
+				"§7Source:§r Smelt §7Raw Silicon§r in any furnace. Raw Silicon drops from §7Silicon Ore§r (generates y=-16 to y=64). Alternatively, pulverise Sand into Silicon Dust with the Pulverizer."
+				""
+				"§7Stock up now:§r Every §eBasic Processor§r requires Silicon. You'll need dozens of processors before reaching mid-tier. Mine a full stack of Silicon Ore and smelt it all at once — running low on Silicon mid-progression is a common bottleneck."
+			]
+			id: "E016"
+			rewards: [
+				{
+					count: 16
+					id: "E216"
+					item: "oritech:silicon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "E116"
+					item: "oritech:silicon"
+					type: "item"
+				}
+			]
+			title: "Silicon Synthesis"
+			subtitle: "Smelt Raw Silicon into Silicon — the fundamental electronic material for all Oritech processors."
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E013"]
+			description: [
+				"The §eBasic Battery§r stores FE energy as a buffer between your generator and power-hungry machines."
+				""
+				"§7Why you need it:§r Machines draw power in spikes when processing. Without a buffer battery, generators struggle to keep up and machines stall mid-process. A battery smooths out the power curve and prevents wasted generator cycles."
+				""
+				"§7Upgrade path:§r Basic Battery → §eAdvanced Battery§r → §eHardened Battery§r. Each tier stores dramatically more energy. Build an Advanced Battery as soon as you have the materials — the Basic Battery is just enough for a small machine setup."
+			]
+			id: "E019"
+			rewards: [
+				{
+					count: 2
+					id: "E219"
+					item: "oritech:basic_battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E119"
+					item: "oritech:basic_battery"
+					type: "item"
+				}
+			]
+			title: "Basic Battery"
+			subtitle: "Craft a Basic Battery — stores FE energy as a power buffer for your machine setup."
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E016"]
+			description: [
+				"The §eFragment Forge§r processes raw ores into clumps, enabling a §e3× ore output§r chain."
+				""
+				"§7Chain:§r §7Ore§r → Fragment Forge → §7Small Clumps§r → Pulverizer → §7Dirty Dust§r → Washing (with water) → §7Clean Dust§r → Furnace → §73× Ingots§r per ore"
+				""
+				"§7Is it worth it?§r The 3× chain requires more machines and setup than simple doubling, but for rare materials (Nickel, Titanite, Uranium) the extra yield significantly speeds up progression. At a minimum, run all Titanite and Uranium through this chain."
+			]
+			id: "E018"
+			rewards: [
+				{
+					count: 4
+					id: "E218"
+					item: "oritech:small_iron_clump"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E118"
+					item: "oritech:fragment_forge_block"
+					type: "item"
+				}
+			]
+			title: "Fragment Forge"
+			subtitle: "Build the Fragment Forge — enables a 3× ore output chain via clumps and clean dust processing."
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E016", "E019"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The §eProcessing Unit§r is the core electronic component required by all mid and high-tier Oritech machines."
+				""
+				"§7Crafting chain:§r"
+				"§eSilicon Wafer§r: cut Silicon in the Fragment Forge"
+				"§eFine Wire§r: draw Copper through the Pulverizer"
+				"§eMagnetic Coil§r: wrap Fine Wire around a core"
+				"Then assemble: Silicon Wafer + Fine Wire + Magnetic Coil + Nickel Plate → §eProcessing Unit§r"
+				""
+				"§7Note:§r Craft at least 4 immediately. Processing Units gate almost every mid-tier machine."
+			]
+			id: "E01A"
+			rewards: [
+				{
+					count: 2
+					id: "E21A"
+					item: "oritech:processing_unit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E11A"
+					item: "oritech:processing_unit"
+					type: "item"
+				}
+			]
+			title: "Processing Unit"
+			subtitle: "Craft a Processing Unit — the core electronics component needed by all mid-tier Oritech machines."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E01A"]
+			description: [
+				"§eElectrum§r is Oritech's first alloy — an equal mix of Gold Dust and Silver (or Nickel) Dust, smelted in the Foundry."
+				""
+				"§7Uses:§r Electrum is required for §eFine Wire§r (advanced circuits), §eElectrum Plates§r (machine casings), and several mid-tier components."
+				""
+				"§7Also worth making:§r §eBiosteel§r (Biopolymer + Steel), §eDuratium§r (Iron + Titanite). Each alloy unlocks new machine tiers. Getting your Electrum foundry running is an inflection point — from here you can craft everything needed for the Assembler and Exo Armour."
+			]
+			id: "E01B"
+			rewards: [
+				{
+					count: 8
+					id: "E21B"
+					item: "oritech:electrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "E11B"
+					item: "oritech:electrum_ingot"
+					type: "item"
+				}
+			]
+			title: "Electrum Alloy"
+			subtitle: "Smelt Electrum in the Foundry — key alloy for advanced circuits and mid-tier machine components."
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E01A"]
+			description: [
+				"The §eCentrifuge§r is Oritech's chemical separator — it spins materials to sort them by density and produces refined intermediate products."
+				""
+				"§7Key outputs:§r"
+				"§7Uranium Ore§r → Uranium Clumps → §eUranium Dust§r → §ePlutonium Dust§r (via Centrifuge cascade)"
+				"§7Mineral Slurry§r (from water cooling) → §eRaw materials§r"
+				"§7Crude Oil§r → fuel fractions via Refinery chain"
+				""
+				"§7Power note:§r The Centrifuge is power-hungry. Ensure you have a reliable multi-generator setup before running it continuously — it will stall weaker power setups."
+			]
+			id: "E01C"
+			rewards: [
+				{
+					count: 4
+					id: "E21C"
+					item: "oritech:nickel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E11C"
+					item: "oritech:centrifuge_block"
+					type: "item"
+				}
+			]
+			title: "Centrifuge"
+			subtitle: "Build the Centrifuge — separates materials by density to produce refined intermediate components."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E01B"]
+			description: [
+				"The §eAssembler§r is Oritech's automated crafting machine — it automatically crafts items from stored inputs using a defined recipe."
+				""
+				"§7How it works:§r Right-click to open the GUI and place a target item in the recipe slot. It reads the recipe and continuously crafts it from connected inventories."
+				""
+				"§7Factory potential:§r Chain multiple Assemblers — the first produces components that the next consumes to build more complex items. Combined with a storage network (Refined Storage or Applied Energistics), the Assembler forms the backbone of a fully automated Oritech factory."
+			]
+			id: "E01D"
+			rewards: [
+				{
+					count: 1
+					id: "E21D"
+					item: "oritech:advanced_battery"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E11D"
+					item: "oritech:assembler_block"
+					type: "item"
+				}
+			]
+			title: "Assembler"
+			subtitle: "Build the Assembler — automates crafting recipes from connected inventories."
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E01D"]
+			description: [
+				"The §eExo Armour§r set is Oritech's powered endgame armour with modular upgrade slots."
+				""
+				"§7Pieces:§r Exo Helmet, Exo Chestplate, Exo Leggings, Exo Boots. Each piece accepts §eAugments§r via the §eAugmentation Centre§r."
+				""
+				"§7Upgrades available:§r Night Vision, Speed Boost, High Jump, Fall Negation, Damage Reduction, Auto-Repair, and more — each slot stackable with the right augments."
+				""
+				"§6Bonus:§r The §eExo Jetpack§r (chestplate variant) grants continuous powered flight with no fuel required once charged."
+			]
+			id: "E01E"
+			rewards: [
+				{
+					count: 4
+					id: "E21E"
+					item: "oritech:duratium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E11E"
+					item: "oritech:exo_chestplate"
+					type: "item"
+				}
+			]
+			title: "Exo Armour"
+			subtitle: "Craft the Exo Chestplate — powered modular armour with augment slots. The pinnacle of Oritech protection."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E01E"]
+			description: [
+				"The §eNuclear Reactor Control Panel§r manages Oritech's multiblock fission reactor — the pack's most powerful single power source."
+				""
+				"§7Build sequence:§r"
+				"1. Construct a 3×3×3 hollow shell from §eReactor Walls§r"
+				"2. Place §eFuel Rods§r inside using Uranium Pellets"
+				"3. Add §eReactor Vents§r on the outer faces for heat dissipation"
+				"4. Place the §eControl Panel§r on any outer face"
+				"5. Connect an §eEnergy Port§r to your power network"
+				"6. Insert fuel rods, then start the reactor from the Control Panel"
+				""
+				"§cWarning:§r Monitor the heat meter. Without sufficient vents, overheating causes an explosion. Always match vent count to fuel rod count."
+			]
+			id: "E020"
+			rewards: [
+				{
+					count: 4
+					id: "E220"
+					item: "oritech:uranium_pellet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E120"
+					item: "oritech:reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Nuclear Reactor"
+			subtitle: "Build the Nuclear Reactor Control Panel — Oritech's ultimate power source running on Uranium fuel rods."
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: "Electronics, ore processing, and nuclear power."
+	title: "Oritech"
+}

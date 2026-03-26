@@ -98,9 +98,9 @@
 			]
 			id: "A1B2C3D4E5F60010"
 			rewards: [{
-				count: 1
+				count: 8
 				id: "A1B2C3D4E5F60011"
-				item: "minecraft:golden_sword"
+				item: "minecraft:experience_bottle"
 				type: "item"
 			}]
 			subtitle: "Violence pays"
@@ -186,15 +186,15 @@
 			id: "A1B2C3D4E5F60020"
 			rewards: [
 				{
-					count: 1
+					count: 2
 					id: "A1B2C3D4E5F60021"
 					item: "minecraft:emerald_block"
 					type: "item"
 				}
 				{
-					count: 1
+					count: 8
 					id: "A1B2C3D4E5F60022"
-					item: "minecraft:totem_of_undying"
+					item: "minecraft:diamond"
 					type: "item"
 				}
 			]

@@ -176,7 +176,7 @@
 			rewards: [{
 				count: 1
 				id: "1F2E3D4C5B6A78C5"
-				item: "minecraft:bow"
+				item: "simplyswords:iron_chakram"
 				type: "item"
 			}]
 			subtitle: "Teleporting sniper"

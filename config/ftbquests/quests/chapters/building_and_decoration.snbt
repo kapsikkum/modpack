@@ -43,9 +43,9 @@
 			]
 			id: "3F2E3D4C5B6A78A2"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "3F2E3D4C5B6A78C2"
-				item: "minecraft:oak_planks"
+				item: "minecraft:dark_oak_log"
 				type: "item"
 			}]
 			subtitle: "So many block variants"
@@ -69,9 +69,9 @@
 			]
 			id: "3F2E3D4C5B6A78A3"
 			rewards: [{
-				count: 4
+				count: 32
 				id: "3F2E3D4C5B6A78C3"
-				item: "minecraft:glass_pane"
+				item: "minecraft:glass"
 				type: "item"
 			}]
 			subtitle: "Let the light in"
@@ -95,9 +95,9 @@
 			]
 			id: "3F2E3D4C5B6A78A4"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "3F2E3D4C5B6A78C4"
-				item: "minecraft:oak_slab"
+				item: "minecraft:smooth_quartz"
 				type: "item"
 			}]
 			subtitle: "Make it cosy"
@@ -121,9 +121,9 @@
 			]
 			id: "3F2E3D4C5B6A78A5"
 			rewards: [{
-				count: 4
+				count: 1
 				id: "3F2E3D4C5B6A78C5"
-				item: "minecraft:oak_sign"
+				item: "minecraft:compass"
 				type: "item"
 			}]
 			subtitle: "Small details, big impact"
@@ -147,7 +147,7 @@
 			]
 			id: "3F2E3D4C5B6A78A6"
 			rewards: [{
-				count: 8
+				count: 64
 				id: "3F2E3D4C5B6A78C6"
 				item: "minecraft:stone_bricks"
 				type: "item"

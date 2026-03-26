@@ -402,7 +402,7 @@
 				{
 					count: 4
 					id: "B21D"
-					item: "minecraft:iron_ingot"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
@@ -432,9 +432,9 @@
 			id: "B01D"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "B21E"
-					item: "minecraft:string"
+					item: "minecraft:firework_rocket"
 					type: "item"
 				}
 			]
@@ -516,6 +516,41 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["B020"]
+			description: [
+				"The §ePokédex§r is your encyclopaedia of every Pokémon species — right-click any Pokémon with it equipped to register and scan them."
+				""
+				"§7What it shows:§r Species name, type(s), base stats, possible moves, habitat, and evolution conditions. It's the fastest way to check what a Pokémon needs to evolve."
+				""
+				"§7How to craft:§r Combine an §eAluminium Ingot§r, §eRubber§r, and a §eGlass Pane§r. Check JEI for the exact recipe shape. It requires §eApricorn§r materials to complete."
+				""
+				"§7Tip:§r The §ePokéNav§r (a craftable upgrade) shows nearby Pokémon species on a live radar. Crafting the PokéNav requires a Pokédex — so make one early."
+				""
+				"See the §bCobblemon§r tab for the full Pokémon progression guide."
+			]
+			icon: "cobblemon:pokedex"
+			id: "B058"
+			rewards: [
+				{
+					count: 5
+					id: "B25A"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:craft_pokedex"
+					id: "B158"
+					type: "advancement"
+				}
+			]
+			title: "Your Pokédex"
+			subtitle: "Craft a Pokédex — your personal Pokémon encyclopaedia. Carry it always."
+			x: 6.0d
+			y: -12.0d
+		}
+		{
 			dependencies: ["B012"]
 			description: [
 				"A §eWater Wheel§r generates rotation passively from flowing water — no fuel required."
@@ -590,9 +625,9 @@
 			id: "B024"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "B224"
-					item: "ars_nouveau:source_berry"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 			]
@@ -807,9 +842,9 @@
 			id: "B02B"
 			rewards: [
 				{
-					count: 8
+					count: 1
 					id: "B22B"
-					item: "minecraft:iron_ingot"
+					item: "waystones:warp_stone"
 					type: "item"
 				}
 			]
@@ -838,9 +873,9 @@
 			id: "B02C"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "B22C"
-					item: "minecraft:white_wool"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
@@ -890,6 +925,349 @@
 			subtitle: "Build the Refined Storage Controller — your digital network is live!"
 			x: 4.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bOritech§r is an industrial tech mod focused on §6electronics§r, §6ore processing§r, and §6nuclear power§r."
+				""
+				"§eNickel Ore§r generates in the overworld and is your entry point — mine it and smelt it into §eNickel Ingots§r to craft your first Machine Frame and Basic Generator."
+				""
+				"§7The Oritech chain:§r Nickel + Copper → §eMachine Frame§r → §eBasic Generator§r → §ePulverizer§r (doubles ores) → §eSilicon§r → §eElectronics§r → Advanced Machines → §eNuclear Reactor§r."
+				""
+				"See the §bOritech§r chapter for the full industrial progression guide."
+			]
+			icon: "oritech:machine_frame_block"
+			id: "B030"
+			rewards: [
+				{
+					count: 8
+					id: "B230"
+					item: "oritech:nickel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B130"
+					item: "oritech:raw_nickel"
+					type: "item"
+				}
+			]
+			title: "Oritech Awakens"
+			subtitle: "Mine Raw Nickel — your entry point into Oritech's industrial age. See the Oritech chapter for the full guide."
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["B030"]
+			description: [
+				"The §eBasic Generator§r burns coal, wood, and charcoal to produce FE — the power currency for all Oritech machines."
+				""
+				"§7Immediately connect:§r Your §ePowered Furnace§r (faster electric smelting) and §ePulverizer§r (doubles ore output) via §eEnergy Pipes§r. These two machines give an immediate and permanent resource advantage over vanilla processing."
+				""
+				"§7Run two generators:§r Multiple machines running simultaneously can outpace a single Basic Generator. Build a second one and link both to your machine network."
+			]
+			icon: "oritech:basic_generator_block"
+			id: "B031"
+			rewards: [
+				{
+					count: 8
+					id: "B231"
+					item: "oritech:machine_plating"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B131"
+					item: "oritech:basic_generator_block"
+					type: "item"
+				}
+			]
+			title: "Power On"
+			subtitle: "Build an Oritech Basic Generator and connect it to your first machines via Energy Pipes."
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["B021"]
+			description: [
+				"The §eWrench§r is §bCreate§r's most important tool — right-click any machine or shaft block to rotate it, and Shift + right-click to safely dismantle and pick it up without losing the block."
+				""
+				"§7What the Wrench does:§r"
+				"§eRotate§r: Change the facing direction of any Create block (shaft, cog, machine, etc.)"
+				"§eDismantle§r: Safely remove and pick up mechanical blocks, including Contraptions"
+				"§eConfigure§r: Opens the config overlay on compatible blocks (e.g. Mechanical Mixer speed)"
+				""
+				"§7Tip:§r You will use the Wrench constantly while building. Keep one in your hotbar at all times."
+			]
+			icon: "create:wrench"
+			id: "B050"
+			rewards: [
+				{
+					count: 1
+					id: "B250"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B150"
+					title: "Claim your Create Wrench"
+					type: "checkmark"
+				}
+			]
+			title: "Create Toolkit"
+			subtitle: "Claim a free Wrench — Create's essential tool for rotating and dismantling machines."
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["B022"]
+			description: [
+				"The §eMekanism Configurator§r is the essential tool for setting up machine automation — Shift + right-click any face of a machine to cycle its I/O mode."
+				""
+				"§7I/O modes:§r §7None§r → §bInput§r → §6Output§r → §eExtra§r. Colour-coded on the machine face."
+				"§bBlue§r = input side (items/fluids enter here)."
+				"§6Orange§r = output side (items/fluids leave here)."
+				""
+				"§7Why it matters:§r Without configuring ports, machines won't integrate into pipe/cable automation. Always configure your Enrichment Chamber and Metallurgic Infuser before connecting logistics."
+			]
+			icon: "mekanism:configurator"
+			id: "B051"
+			rewards: [
+				{
+					count: 1
+					id: "B251"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B151"
+					title: "Claim your Mekanism Configurator"
+					type: "checkmark"
+				}
+			]
+			title: "Mekanism Toolkit"
+			subtitle: "Claim a free Configurator — the essential tool for setting machine I/O modes."
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["B024"]
+			description: [
+				"The §eSource Jar§r is §bArs Nouveau§r's primary energy container — it stores §eSource§r, the magical fuel consumed by spells, the Scribe's Table, and magical automation."
+				""
+				"§7How to fill it:§r Place any §eSourcelink§r (Allay, Amethyst, etc.) nearby and it passively harvests Source from the environment. Place §eSource Berry Bushes§r next to it to accelerate filling."
+				""
+				"§7Where to place them:§r Next to your §eScribe's Table§r and §eEnchanting Apparatus§r — they auto-draw from adjacent Source Jars when performing operations."
+				""
+				"§7Tip:§r You'll need multiple Source Jars as your magical infrastructure grows. Start with at least two."
+			]
+			icon: "ars_nouveau:source_jar"
+			id: "B052"
+			rewards: [
+				{
+					count: 1
+					id: "B252"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B152"
+					title: "Claim your Source Jar"
+					type: "checkmark"
+				}
+			]
+			title: "Ars Nouveau Toolkit"
+			subtitle: "Claim a free Source Jar — the magical energy storage for all Ars Nouveau operations."
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["B025"]
+			description: [
+				"The §eGolden Dart Shooter§r is one of the most effective ranged weapons in §bThe Aether§r — fires §eGolden Darts§r or §ePoisoned Darts§r from a distance."
+				""
+				"§7Why it matters:§r Many Aether mobs — §eSilver Monsters§r, §eZephyrs§r, and dungeon golems — resist melee damage heavily but are vulnerable to projectiles. The dart shooter lets you safely kite them."
+				""
+				"§7Crafting more darts:§r Golden Darts need golden nuggets and feathers. Poisoned Darts require Skyroot Poison Buckets (found in Aether dungeons)."
+				""
+				"§7Tip:§r Save a full stack of §ePoisoned Darts§r for the §eSun Spirit§r final boss fight — it's much harder without them."
+			]
+			icon: "aether:golden_dart_shooter"
+			id: "B053"
+			rewards: [
+				{
+					count: 1
+					id: "B253"
+					item: "aether:golden_dart_shooter"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "B254"
+					item: "aether:golden_dart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B153"
+					title: "Claim your Aether Arsenal"
+					type: "checkmark"
+				}
+			]
+			title: "Aether Arsenal"
+			subtitle: "Claim a Golden Dart Shooter and 32 Golden Darts — the Aether's best ranged weapon."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B026"]
+			description: [
+				"The §ePressure Gauge§r attaches to §ePressure Tubes§r and gives you a live readout of the network's current pressure — essential for catching over-pressure before it causes an explosion."
+				""
+				"§7How to use:§r Right-click a Pressure Tube with the gauge to attach it. You'll see the bar fill as pressure builds. Watch for it approaching the §cdangerous pressure§r threshold."
+				""
+				"§7Why it matters:§r Every PneumaticCraft machine has a maximum safe pressure. Exceed it and the machine §cexplodes§r. Monitoring your compressor output with a gauge is good practice from day one."
+				""
+				"§7Tip:§r Pair with a §eSafety Valve§r on the same tube network to auto-vent excess pressure as a failsafe."
+			]
+			icon: "pneumaticcraft:pressure_gauge"
+			id: "B054"
+			rewards: [
+				{
+					count: 2
+					id: "B255"
+					item: "pneumaticcraft:pressure_gauge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B154"
+					title: "Claim your Pressure Gauges"
+					type: "checkmark"
+				}
+			]
+			title: "PneumaticCraft Toolkit"
+			subtitle: "Claim 2 free Pressure Gauges — monitor pressure to prevent machine explosions."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B02D"]
+			description: [
+				"The §eRefined Storage Wrench§r has two critical uses: §erotate§r network components to change their facing, and §edismantle§r them safely so they drop with their stored state intact."
+				""
+				"§7Why it matters:§r Removing a Disk Drive or other storage component without a Wrench can cause data loss. Always use the Wrench when reconfiguring your network layout."
+				""
+				"§7How to use:§r Right-click to rotate. Shift + right-click to safely remove a component and place it as an item drop."
+			]
+			icon: "refinedstorage:wrench"
+			id: "B055"
+			rewards: [
+				{
+					count: 1
+					id: "B256"
+					item: "refinedstorage:wrench"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B155"
+					title: "Claim your Refined Storage Wrench"
+					type: "checkmark"
+				}
+			]
+			title: "Refined Storage Toolkit"
+			subtitle: "Claim a free RS Wrench — safely rotate and dismantle Refined Storage components."
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bWaystones§r let you build a fast-travel network across the world — place one, name it, and you can teleport to it from any other Waystone or from the §eWarp Stone§r in your pocket."
+				""
+				"§7Craft a Waystone:§r Chiselled Stone Bricks + Lodestone + Ender Pearl. Place it at your base and right-click to name it."
+				""
+				"§7Warp Stone:§r The pocket §eWarp Stone§r lets you teleport to any named Waystone without standing on one — keep it in your hotbar for instant escapes."
+				""
+				"§7Tip:§r Place named Waystones at your base, your mine entrance, your Nether portal, and any distant biome camps. See the §bTravel§r tab for the full Waystones guide."
+			]
+			icon: "waystones:waystone"
+			id: "B056"
+			rewards: [
+				{
+					count: 1
+					id: "B257"
+					item: "waystones:warp_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B156"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			title: "Build Your Network"
+			subtitle: "Craft a Waystone and start your fast-travel network. Receive a free Warp Stone!"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["B010"]
+			description: [
+				"§bFarmer's Delight§r expands cooking with dedicated food processing tools and dozens of new recipes that give powerful buff effects."
+				""
+				"§7Three key tools:§r"
+				"§eCutting Board§r + §eKnife§r: Slice raw ingredients into new items (chicken → strips, logs → sticks, etc.)"
+				"§eCooking Pot§r: Cook multi-ingredient meals over a heat source for high-saturation buff food"
+				"§eSkillet§r: Place on a lit campfire or stove to quickly fry single ingredients"
+				""
+				"§7Why bother:§r Farmer's Delight meals restore far more hunger and saturation than vanilla food, and many grant combat or speed buffs. A well-fed character survives much longer."
+				""
+				"See the §bFood \& Farming§r tab for all recipes and crop guides."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "B057"
+			rewards: [
+				{
+					count: 1
+					id: "B258"
+					item: "farmersdelight:flint_knife"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "B259"
+					item: "farmersdelight:skillet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B157"
+					title: "Discover Farmer's Delight"
+					type: "checkmark"
+				}
+			]
+			title: "A Taste of Adventure"
+			subtitle: "Discover Farmer's Delight — claim a Flint Knife and Skillet to start cooking properly."
+			x: 2.0d
+			y: 20.0d
 		}
 	]
 	subtitle: "Your first step into every mod in the pack."

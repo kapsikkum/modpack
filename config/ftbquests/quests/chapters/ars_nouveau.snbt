@@ -200,7 +200,13 @@
 			rewards: [
 				{
 					id: "4218"
-					item: "minecraft:nether_star"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4218b"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 			]
@@ -267,9 +273,14 @@
 			id: "401B"
 			rewards: [
 				{
-					count: 4
+					count: 32
 					id: "421B"
-					item: "minecraft:nether_star"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "421Bb"
+					item: "ars_nouveau:starbuncle_charm"
 					type: "item"
 				}
 			]

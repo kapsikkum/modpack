@@ -203,7 +203,7 @@
 				{
 					count: 1
 					id: "2F2E3D4C5B6A78C8"
-					item: "minecraft:elytra"
+					item: "waystones:warp_stone"
 					type: "item"
 				}
 			]

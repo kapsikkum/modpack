@@ -12,10 +12,53 @@
 	quests: [
 		{
 			dependencies: []
+			description: [
+				"Welcome to Cobblemon! Start your journey by choosing a §eStarter Pokémon§r."
+				""
+				"§7How to get your starter:§r Find a §ePoké Starter§r NPC in your starting area, or use the §e/pokespawn§r command if enabled. Your starter is yours from the very beginning — no catching required."
+				""
+				"Your starter begins at §eLvl 5§r and comes with a set of starting moves. Take it into battle to gain XP and level up!"
+				""
+				"§7Tip:§r Hold §eSneak + Right-click§r on your Pokémon while it's out to see its stats, moves, and IVs at any time."
+			]
+			icon: "cobblemon:poke_ball"
+			id: "3000"
+			rewards: [
+				{
+					count: 10
+					id: "3200"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:root"
+					criterion: "picked_starter"
+					id: "3100"
+					type: "advancement"
+				}
+			]
+			title: "Your First Pokémon!"
+			subtitle: "Choose your Starter Pokémon to begin your Cobblemon journey."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3000"]
+			description: [
+				"§eApricorns§r are coloured fruit that grow on Apricorn trees — the raw ingredient for all Poké Balls."
+				""
+				"§7Where to find them:§r Apricorn trees spawn naturally across the overworld. Look for small, distinctive trees with coloured fruit. Break the fruit block (not the tree) to harvest the apricorn."
+				""
+				"§7Farming:§r You can plant §eApricorn Seeds§r to grow your own trees. Break a ripe apricorn to get the seed and the fruit. A small apricorn farm ensures a steady Poké Ball supply well into late game."
+				""
+				"§7Ball ingredients:§r Each apricorn colour makes a different Poké Ball type. Check JEI or the Pokédex for the full recipe list."
+			]
 			id: "3010"
 			rewards: [
 				{
-					count: 5
+					count: 8
 					id: "3210"
 					item: "cobblemon:poke_ball"
 					type: "item"
@@ -23,42 +66,59 @@
 			]
 			tasks: [
 				{
-					count: 3L
+					advancement: "cobblemon:harvest_apricorn"
 					id: "3110"
-					item: "cobblemon:poke_ball"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Gotta Craft Some!"
-			subtitle: "Craft 3 Poké Balls. Combine a Poke Ball Base, Disc, and Button at a crafting table."
-			x: 0.0d
+			title: "Harvest an Apricorn"
+			subtitle: "Find an Apricorn tree and harvest your first Apricorn — the foundation of every Poké Ball type."
+			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3010"]
+			description: [
+				"Your first §ePoké Ball§r! Catching wild Pokémon is the core Cobblemon loop."
+				""
+				"§7How to catch:§r Find a wild Pokémon, approach it to start battle, weaken it with your starter (lower HP = higher catch rate), then select §eBag§r → §ePoké Ball§r and throw."
+				""
+				"§7Ball recipe:§r §7Apricorn§r → smelt → §7Disc§r + craft §7Button§r + §7Ball Base§r → crafting table → §ePoké Ball§r. Full recipe in JEI."
+				""
+				"§7Status helps:§r Putting a Pokémon to §eSleep§r or §eParalysing§r it doubles the catch rate. Carry some Potions and a Pokémon that knows Sleep Powder or Thunder Wave for tough catches."
+			]
 			id: "3011"
 			rewards: [
 				{
-					count: 3
+					count: 10
 					id: "3211"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:poke_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:craft_poke_ball"
 					id: "3111"
-					item: "cobblemon:healing_machine"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Doctor's Orders"
-			subtitle: "Craft a Healing Machine to restore your Pokémon's HP after battles."
-			x: 2.0d
+			title: "Gotta Craft Some!"
+			subtitle: "Craft your first Poké Ball. Now you can catch wild Pokémon."
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3011"]
+			description: [
+				"Win your §efirst Pokémon battle§r! Battle wild Pokémon and trainer NPCs to earn XP and level up."
+				""
+				"§7Battle basics:§r Each turn you choose a move, use an item from your bag, switch Pokémon, or attempt to run. Moves have types — match your type to the opponent's weakness for 2× damage."
+				""
+				"§7Levels:§r Pokémon level up through battle XP. Higher levels unlock new moves and trigger evolutions. Check your Pokémon's summary screen to see when it learns the next move."
+				""
+				"§7Tip:§r If your starter is struggling, catch a few different Pokémon to build a balanced team covering multiple types."
+			]
 			id: "3012"
 			rewards: [
 				{
@@ -70,93 +130,133 @@
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:first_battle_victory"
+					criterion: "win"
 					id: "3112"
-					item: "cobblemon:pc"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Storage System"
-			subtitle: "Craft a PC to store more than 6 Pokémon. You'll fill up fast!"
+			title: "First Victory!"
+			subtitle: "Win your first Pokémon battle. Defeat a wild or trainer Pokémon to claim the win."
 			x: 4.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3012"]
+			dependencies: ["3011"]
+			description: [
+				"Caught your §efirst wild Pokémon§r! Catching is the core Cobblemon loop — build a balanced team."
+				""
+				"§7Catch rate tips:§r"
+				"§7Lower HP§r — weaken to red (1–5% HP) before throwing"
+				"§7Status conditions§r — Sleep or Paralysis multiplies catch rate"
+				"§7Ball type§r — Use Great Balls for slightly stronger Pokémon, Ultra Balls for rare species"
+				""
+				"§7After catching:§r Check the Pokémon's summary screen to see its §eNature§r (affects stat growth), §eIVs§r (hidden stat values), and §eAbility§r. A Pokémon with a good Nature and high IVs in its main attack stat is worth training long-term."
+			]
 			id: "3013"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3213"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:great_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					count: 3L
+					advancement: "cobblemon:first_catch"
+					criterion: "catch"
 					id: "3113"
-					item: "cobblemon:great_ball"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Great Balls of Fire"
-			subtitle: "Craft 3 Great Balls. Higher quality balls improve your catch rate."
+			title: "First Catch!"
+			subtitle: "Catch your first wild Pokémon. Lower its HP and throw a Poké Ball."
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3013"]
+			description: [
+				"Fill your §eparty§r with 6 Pokémon! A full party gives you coverage of multiple types and a bench for tough fights."
+				""
+				"§7Team building:§r Try to cover as many type matchups as possible. A balanced 6-mon team should have physical, special, and defensive options."
+				""
+				"§7Where to look:§r Different biomes spawn different Pokémon. Explore forests, caves, deserts, oceans, and mountains to diversify your party."
+				""
+				"§7Once you're full:§r You'll need a §ePC§r to store extras. Pokémon in the PC don't gain XP, so consider rotating your team regularly."
+			]
 			id: "3014"
 			rewards: [
 				{
-					count: 2
+					count: 5
 					id: "3214"
-					item: "cobblemon:ultra_ball"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 3L
-					id: "3114"
-					item: "cobblemon:ultra_ball"
-					type: "item"
-				}
-			]
-			title: "Ultra Prepared"
-			subtitle: "Craft 3 Ultra Balls. For those rare and legendary encounters."
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3014"]
-			id: "3015"
-			rewards: [
-				{
-					count: 3
-					id: "3215"
 					item: "cobblemon:great_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "3115"
-					item: "cobblemon:link_cable"
-					type: "item"
+					advancement: "cobblemon:full_party"
+					criterion: "full_party"
+					id: "3114"
+					type: "advancement"
 				}
 			]
-			title: "Trade Evolution"
-			subtitle: "A Link Cable lets you trade-evolve Pokémon like Haunter and Kadabra without another player."
-			x: 10.0d
+			title: "Full Party!"
+			subtitle: "Fill all 6 party slots with Pokémon. Explore different biomes to find varied species."
+			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3015"]
+			dependencies: ["3013"]
+			description: [
+				"Evolved your §efirst Pokémon§r!"
+				""
+				"§7How evolution works:§r Most Pokémon evolve by reaching a certain level. Some require §eEvolution Stones§r, §eTrade§r, §eHigh Friendship§r, or specific conditions (time of day, held item, location)."
+				""
+				"§7Check evolution requirements:§r Open the Pokédex and look at the species entry, or hover over a Pokémon in the party screen."
+				""
+				"§7Important:§r Some moves are only learnable as a pre-evolution. If a Pokémon has a key move it learns at, say, level 35, don't evolve it earlier unless you use a Heart Scale to re-learn moves later."
+			]
+			id: "3015"
+			rewards: [
+				{
+					count: 3
+					id: "3215"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:first_evolution"
+					criterion: "evolve"
+					id: "3115"
+					type: "advancement"
+				}
+			]
+			title: "First Evolution!"
+			subtitle: "Evolve a Pokémon for the first time. Level up or use an Evolution Stone."
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3013"]
+			description: [
+				"You found a §eShiny Pokémon§r! Shinies have an alternate colour palette and are extremely rare — approximately 1 in 4096 encounters."
+				""
+				"§7Shiny tips:§r"
+				"§7Shiny Charm§r: Craft or obtain one to roughly triple your shiny odds"
+				"§7Biome boost§r: Some species have higher shiny rates in specific biomes — check the Cobblemon wiki"
+				"§7Save before engaging§r: If you want to be safe, keep Ultra Balls ready before entering a potentially rare spawn area"
+				""
+				"§7Challenge frame§r: This is marked as a §eChallenge§r advancement — it's meant to be genuinely hard to get. Congratulations!"
+			]
 			id: "3016"
 			rewards: [
 				{
-					count: 1
+					count: 5
 					id: "3216"
 					item: "cobblemon:ultra_ball"
 					type: "item"
@@ -164,45 +264,66 @@
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:first_shiny_catch"
+					criterion: "catch"
 					id: "3116"
-					item: "cobblemon:exp_share"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Share the Experience"
-			subtitle: "An Exp. Share lets a Pokémon in your party gain XP even if it didn't fight."
-			x: 10.0d
+			title: "Shiny Hunter!"
+			subtitle: "Catch a Shiny Pokémon. Roughly 1-in-4096 — keep those Ultra Balls ready."
+			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3016"]
+			dependencies: ["3014"]
+			description: [
+				"Ride a §ePokémon§r! Certain Pokémon can be ridden as mounts — they're faster than sprinting and can grant special traversal abilities."
+				""
+				"§7Rideable Pokémon:§r Large ground types (Mudsdale, Rhyhorn), fast Pokémon (Rapidash, Arcanine), and some water types can all be ridden."
+				""
+				"§7How:§r With the Pokémon in your party and out of its ball, press §eRight-click§r on it to mount. Use movement keys to steer."
+				""
+				"§7Mount upgrades:§r Feed your mount §eAprijuice§r (brewed from Apricorns in a Campfire Pot) to improve its §eSpeed§r, §eStamina§r, and §eJump§r stats. A maxed-out mount is substantially faster than a horse."
+			]
 			id: "3017"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "3217"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:great_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:ride_pokemon"
+					criterion: "check_inv"
 					id: "3117"
-					item: "cobblemonmegashowdown:mega_bracelet"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Mega Evolution"
-			subtitle: "Equip a Mega Bracelet to unlock your Pokémon's Mega Evolution in battle!"
-			x: 12.0d
+			title: "Giddy Up!"
+			subtitle: "Ride a Pokémon! Right-click a rideable Pokémon that's out of its ball."
+			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3015"]
+			dependencies: ["3014"]
+			description: [
+				"Craft a §ePokédex§r! It logs every Pokémon you've seen and caught, with data on their types, habitats, and evolution lines."
+				""
+				"§7What it does:§r"
+				"§7See§r: Pokémon spawned nearby are automatically logged"
+				"§7Catch§r: Fully log species data including Forms and variants"
+				"§7Navigate§r: Browse by type or National Dex number"
+				""
+				"§7Pro tip:§r The Pokédex is required for §ePokéNav§r crafting later. Keep it in your hotbar — it also shows which Pokémon are nearby and how many you've caught of each species."
+			]
 			id: "3018"
 			rewards: [
 				{
-					count: 3
+					count: 1
 					id: "3218"
 					item: "cobblemon:ultra_ball"
 					type: "item"
@@ -210,130 +331,1040 @@
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:craft_pokedex"
 					id: "3118"
-					item: "cobblemonpokenav:pokenav"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "PokeNav \& Chill"
-			subtitle: "Craft a PokeNav to track nearby Pokémon, battle stats, and party info on the go."
-			x: 12.0d
+			title: "Pokédex!"
+			subtitle: "Craft a Pokédex — your encyclopaedia of every Pokémon seen and caught."
+			x: 10.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["3017"]
+			dependencies: ["3014"]
+			description: [
+				"Deposit Pokémon into a §ePC§r! Your storage box for all the Pokémon beyond your 6-slot party."
+				""
+				"§7How to use:§r Right-click the PC block. Drag Pokémon from your party into a box slot. You can store hundreds of Pokémon organized into named boxes."
+				""
+				"§7Best practice:§r Sort your boxes by type or by status (\"breeding\", \"trade-ready\", \"storage\"). You'll accumulate Pokémon fast once you're catching regularly — staying organised is worth the effort."
+				""
+				"§7Trading:§r The PC is also used for §eTrade§r functionality — you can offer Pokémon from your PC to other players or use the §eLink Cable§r for trade-evolutions."
+			]
 			id: "3019"
 			rewards: [
 				{
-					count: 1
+					count: 3
 					id: "3219"
-					item: "cobblemon:thunder_stone"
+					item: "cobblemon:great_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
 					id: "3119"
-					item: "cobblemon:fire_stone"
+					item: "cobblemon:pc"
 					type: "item"
 				}
 			]
-			title: "Evolution Stones"
-			subtitle: "Craft or find Evolution Stones to evolve Pokémon like Eevee, Growlithe, and Pikachu. Check NEI for recipes."
-			x: 14.0d
-			y: 0.0d
+			title: "Storage System"
+			subtitle: "Craft a PC to store Pokémon beyond your 6-slot party."
+			x: 10.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3019"]
+			dependencies: ["3014"]
+			description: [
+				"Used the §ePasture§r block! The Pasture lets your Pokémon roam freely in a defined outdoor area — great for passive display and §ebreeding§r."
+				""
+				"§7Pasture + Breeding:§r Place two compatible Pokémon of opposite genders in the same Pasture. They will eventually produce an §eEgg§r. The egg hatches as you walk around with it in your party."
+				""
+				"§7Why breed?§r IV inheritance — bred offspring can inherit up to 3 perfect IVs from parents. Use §eEver Stone§r to pass down a Nature. §ePower Items§r guarantee specific IV inheritance."
+				""
+				"§7Egg Groups:§r Pokémon can only breed with others in the same egg group. Check the Pokédex species entry for egg group info."
+			]
 			id: "301A"
 			rewards: [
 				{
-					count: 1
+					count: 3
 					id: "321A"
-					item: "cobblemon:choice_scarf"
+					item: "cobblemon:poke_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
+					advancement: "cobblemon:use_pasture"
+					criterion: "use_pasture"
 					id: "311A"
-					item: "cobblemon:choice_band"
-					type: "item"
+					type: "advancement"
 				}
 			]
-			title: "Held Items"
-			subtitle: "Cobblemon Held Items like the Choice Band, Eviolite, and Life Orb adjust Pokémon stats and battle behaviour."
-			x: 16.0d
-			y: 0.0d
+			title: "Pasture Time"
+			subtitle: "Use a Pasture block to let your Pokémon roam. Also used for Egg breeding."
+			x: 10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3018"]
+			dependencies: ["3010"]
+			description: [
+				"Found a §eTumblestone§r! Tumblestones are Cobblemon's special ore — they generate in clusters on exposed rock faces and cliffsides."
+				""
+				"§7Types:§r §eTumblestone§r (orange, common), §eSky Tumblestone§r (blue, less common), §eBlack Tumblestone§r (rare, caves and deep slate). Each type produces different Poké Ball components."
+				""
+				"§7Farming:§r Plant §eTumblestone Clusters§r on stone surfaces to grow more. They regrow slowly over time — worth setting up a small farm near your base."
+				""
+				"§7Ball progression:§r Tumblestones craft the coloured balls (Citrine, Verdant, Azure, Roseate, Slate) which have different catch bonuses compared to standard Poké Balls."
+			]
 			id: "301B"
 			rewards: [
 				{
-					count: 5
+					count: 8
 					id: "321B"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:obtain_tumblestone"
+					criterion: "check_inv"
+					id: "311B"
+					type: "advancement"
+				}
+			]
+			title: "Tumblestone!"
+			subtitle: "Find and collect a Tumblestone — Cobblemon's special ore used for crafting unique Poké Balls."
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["301B"]
+			description: [
+				"Plant and grow a §eTumblestone Cluster§r! Grown Tumblestones provide a renewable source of ball-crafting materials."
+				""
+				"§7How:§r Obtain a Tumblestone Cluster item, then right-click it onto the face of a §eStone§r, §eCobblestone§r, or §eDeepslate§r block. Over time it will grow to full size and become harvestable."
+				""
+				"§7Growth:§r Tumblestones grow slowly. Bone meal does not speed them up. Plant several clusters at once to maintain a steady supply — a row of 8–10 clusters on a stone wall gives a good passive yield."
+			]
+			id: "301C"
+			rewards: [
+				{
+					count: 16
+					id: "321C"
+					item: "cobblemon:tumblestone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:grow_tumblestone"
+					criterion: "planted_tumblestone"
+					id: "311C"
+					type: "advancement"
+				}
+			]
+			title: "Rock Farm"
+			subtitle: "Plant a Tumblestone Cluster on a stone surface to grow your own supply."
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3011"]
+			description: [
+				"Craft a §ePokémon Lure Rod§r! Pokémon fishing lets you catch water-type Pokémon that don't spawn on land."
+				""
+				"§7How:§r Equip the rod and right-click on any water source. Wait for a bite (the bobber will dip), then right-click again to reel in."
+				""
+				"§7Rods:§r"
+				"§eLure Rod§r — basic fishing rod for common water Pokémon"
+				"§eGood Rod§r — better species pool including rarer fish types"
+				"§eSuper Rod§r — rarest water Pokémon, high-level encounters"
+				"§eMaster Rod§r — hidden challenge rod, rare and powerful"
+				""
+				"§7Bait:§r Craft §ePokéBait§r and equip it to the fishing rod for biome-specific Pokémon encounters."
+			]
+			id: "301D"
+			rewards: [
+				{
+					count: 1
+					id: "321D"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:craft_rod"
+					criterion: "craft_rod"
+					id: "311D"
+					type: "advancement"
+				}
+			]
+			title: "Gone Fishing!"
+			subtitle: "Craft a Lure Rod to fish for water-type Pokémon."
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301D"]
+			description: [
+				"Used §ePokéBait§r while fishing! Equipping bait to your rod changes the pool of Pokémon you can encounter."
+				""
+				"§7Bait types:§r Each Pokébait targets different species based on biome and environment. Check JEI for recipes and the Cobblemon wiki for which bait attracts which Pokémon."
+				""
+				"§7Crafting:§r PokéBait is crafted from §eCobblemon crops§r — Hearty Grain, Roasted Saccharine Beans, etc. grown from Cobblemon seeds found in the world or bought from traders."
+				""
+				"§7Equip:§r Right-click the rod to open its menu and insert bait into the slot before casting."
+			]
+			id: "301E"
+			rewards: [
+				{
+					count: 3
+					id: "321E"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:use_poke_bait"
+					criterion: "use_poke_bait"
+					id: "311E"
+					type: "advancement"
+				}
+			]
+			title: "Bait & Switch"
+			subtitle: "Use PokéBait while fishing to attract specific Pokémon species."
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3010"]
+			description: [
+				"Found a §eCobblemon plant§r — berries, saccharine trees, medicinal plants, Tumblestones."
+				""
+				"§7Cobblemon plants§r are found naturally throughout the world. Key types:"
+				"§eBerries§r — Oran Berry restores HP in battle, Lum Berry cures status, Sitrus Berry restores 25% HP. Also crafted into §ePokéBall Components§r and §eMedicinal Brews§r."
+				"§eMedicinal Leek§r — used in Medicinal Brews (Revive, Potion, etc.)"
+				"§eSaccharine Sapling§r — a special tree whose honey is used for berry mutation"
+				"§eMint Leaves§r — used to change a Pokémon's §eNature§r effect without changing the Nature itself"
+				""
+				"§7Farming all of these§r massively reduces battle downtime by giving you cheap, renewable healing and buff items."
+			]
+			id: "301F"
+			rewards: [
+				{
+					count: 5
+					id: "321F"
+					item: "cobblemon:oran_berry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:any_plant"
+					criterion: "check_inv"
+					id: "311F"
+					type: "advancement"
+				}
+			]
+			title: "Green Thumb"
+			subtitle: "Collect a Cobblemon plant — berries, saccharine trees, medicinal leek, mint leaves, or Tumblestones."
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301F"]
+			description: [
+				"Found a §eBerry§r! Berries are key consumable items for battle and brewing."
+				""
+				"§7Key berries for battles:§r"
+				"§eOran Berry§r — restores 10 HP when equipped as held item"
+				"§eSitrus Berry§r — restores 25% max HP below 50% HP"
+				"§eLum Berry§r — cures all status conditions one time"
+				"§eRazz/Nanab Berry§r — used in Poké Ball bait"
+				""
+				"§7Growing more:§r Plant berries in soil to farm them. Bone meal speeds up growth. Set up a small dedicated berry patch for a renewable supply."
+				""
+				"§7Pokéblock:§r Berries can also be cooked into §ePokésnacks§r for extended buffs to your Pokémon's stats outside of battle."
+			]
+			id: "3020"
+			rewards: [
+				{
+					count: 3
+					id: "3220"
+					item: "cobblemon:lum_berry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:obtain_berry"
+					criterion: "check_inv"
+					id: "3120"
+					type: "advancement"
+				}
+			]
+			title: "Berry Good!"
+			subtitle: "Find and collect a Berry. Farm them for renewable battle healing and held items."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301F"]
+			description: [
+				"Found a §eMint Leaf§r! Mint leaves let you change the §eeffect§r of a Pokémon's Nature without actually changing its Nature."
+				""
+				"§7How it works:§r In Cobblemon, a Pokémon's §eStat Boosting stat§r and §eStat Reducing stat§r are determined by its Nature. Mints override which stats are boosted and reduced while keeping the original Nature for breeding purposes."
+				""
+				"§7Colours = Nature families:§r Mint colours correspond to Nature categories (e.g., Cyan Mint = Timid effect, Red Mint = Adamant effect). Check NEI to see which colour affects which Nature."
+				""
+				"§7Use case:§r Got a great-IV Pokémon with a bad Nature? Grow the matching mint and right-click it on the Pokémon to fix the stat spread without breeding a replacement."
+			]
+			id: "3021"
+			rewards: [
+				{
+					count: 2
+					id: "3221"
+					item: "cobblemon:adamant_mint"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:obtain_mint"
+					criterion: "check_inv"
+					id: "3121"
+					type: "advancement"
+				}
+			]
+			title: "Fresh Mint"
+			subtitle: "Find a Mint Leaf — use it to change a Pokémon's effective Nature for better stat growth."
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["301F"]
+			description: [
+				"Found a §eMedicinal Leek§r! This is the key ingredient for brewing §eMedicinal Brews§r — Cobblemon's craftable healing items."
+				""
+				"§7Brew chain:§r"
+				"§eMedicinal Leek§r + §eOran Berry§r → §eMedicinal Brew§r (basic heal) → §ePotion§r (30 HP) → §eSuper Potion§r → §eHyper Potion§r → §eMax Potion§r → §eFull Restore§r"
+				""
+				"§7How to brew:§r Place a §eCampfire Pot§r on a §eCobblemon Campfire§r, add your ingredients, and wait."
+				""
+				"§7Stock up:§r The main bottleneck on potions is Medicinal Leeks. Farm a row of 8–10 of them — a steady supply turns the Healing Machine from necessary to optional."
+			]
+			id: "3022"
+			rewards: [
+				{
+					count: 8
+					id: "3222"
+					item: "cobblemon:medicinal_leek"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:obtain_leek"
+					criterion: "check_inv"
+					id: "3122"
+					type: "advancement"
+				}
+			]
+			title: "Doctor Leek"
+			subtitle: "Find a Medicinal Leek — the key ingredient for brewing Potions and Full Restores."
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3022"]
+			description: [
+				"Brewed your first §eMedicinal Brew§r! This is the base item in Cobblemon's crafted healing chain."
+				""
+				"§7Campfire Pot setup:§r Place a Cobblemon §eCampfire§r (all wood types work), then place a §eCampfire Pot§r block on top of it. Add fuel to the campfire, then right-click the pot to add ingredients."
+				""
+				"§7Medicinal Brew recipe:§r §eMedicinal Leek§r + §eOran Berry§r → §eMedicinal Brew§r. The Brew itself is weak but is the essential precursor for all potions."
+				""
+				"§7Next steps:§r From Medicinal Brew you can craft Potions, and from there upgrade all the way to Full Restore. Getting your Full Restore production running eliminates the need to keep running to the Healing Machine between fights."
+			]
+			id: "3023"
+			rewards: [
+				{
+					count: 3
+					id: "3223"
+					item: "cobblemon:medicinal_brew"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:medicinal_brew"
+					criterion: "check_inv"
+					id: "3123"
+					type: "advancement"
+				}
+			]
+			title: "Medicinal Brew"
+			subtitle: "Brew your first Medicinal Brew in a Campfire Pot — the start of the potion-crafting chain."
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3023"]
+			description: [
+				"Brewed your first §ePotion§r! You can now craft Potions, Super Potions, Hyper Potions, Max Potions, Full Restores, and status cure items."
+				""
+				"§7Brew chain progression:§r"
+				"Medicinal Brew → §ePotion§r (30 HP)"
+				"Potion + more ingredients → §eSuper Potion§r (60 HP)"
+				"Super Potion → §eHyper Potion§r (120 HP)"
+				"Hyper Potion → §eMax Potion§r (full HP)"
+				"Max Potion + Full Heal → §eFull Restore§r (full HP + cures all status)"
+				""
+				"§7For battle:§r Keep Max Potions and Antidotes in your bag for competitive play. A well-kept item bag wins battles you'd otherwise lose."
+			]
+			id: "3024"
+			rewards: [
+				{
+					count: 3
+					id: "3224"
+					item: "cobblemon:potion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:brew_potion"
+					criterion: "check_inv"
+					id: "3124"
+					type: "advancement"
+				}
+			]
+			title: "Potion Brewer"
+			subtitle: "Brew a Potion — your first step toward Full Restores and a self-sufficient healing supply."
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3024"]
+			description: [
+				"Brewed a §eFull Restore§r! This fully heals HP and cures all status conditions in one use."
+				""
+				"§7Recipe:§r §eMax Potion§r + §eFull Heal§r → §eFull Restore§r (brewed in the Campfire Pot)"
+				""
+				"§7Full Heal ingredients:§r Antidote + Awakening + Burn Heal — each brewed individually then combined."
+				""
+				"§7Use case:§r A Full Restore in competitive fights (especially legendary encounters) prevents a wasted turn switching or using multiple separate heal items. Carry at least 3–5 for boss encounters."
+			]
+			id: "3025"
+			rewards: [
+				{
+					count: 2
+					id: "3225"
+					item: "cobblemon:full_restore"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:brew_full_restore"
+					criterion: "check_inv"
+					id: "3125"
+					type: "advancement"
+				}
+			]
+			title: "Full Restore"
+			subtitle: "Brew a Full Restore — fully heals HP and cures all status conditions in one item."
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3025"]
+			description: [
+				"You've brewed every §eMedicinal Brew§r type — Potions, Full Heal, all status cures, Ether and Elixir!"
+				""
+				"§7What you've unlocked:§r"
+				"§eFull Restore§r — HP + all status"
+				"§eEther / Max Ether§r — restores PP of one move"
+				"§eElixir / Max Elixir§r — restores PP of all moves"
+				"§eAntidote, Burn Heal, Awakening, Paralyze Heal, Ice Heal§r — status cures"
+				""
+				"§7Endgame prep:§r You are now fully self-sufficient for battle healing. Stock Max Elixirs for legendary encounters with PP-hungry sweepers. This potion kit is the foundation of serious Cobblemon play."
+			]
+			id: "3026"
+			rewards: [
+				{
+					count: 1
+					id: "3226"
+					item: "cobblemon:max_elixir"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:brew_all"
+					id: "3126"
+					type: "advancement"
+				}
+			]
+			title: "Master Brewer"
+			subtitle: "Brew every type of Medicinal Brew — potions, status cures, Ether, and Elixir."
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3022"]
+			description: [
+				"Found a §eRevival Herb§r! This bitter plant is used to craft §eRevives§r — items that restore a fainted Pokémon to a usable HP total."
+				""
+				"§7Revive vs Max Revive:§r A Revive restores a fainted Pokémon to half HP. A Max Revive fully restores it. For battles with multiple faints, Max Revives are worth crafting."
+				""
+				"§7Revival Herb§r: Can be used directly as an item on a fainted Pokémon in battle (full revival, no bitter penalty). Grows from seed in any soil — plant several as a free renewable revive supply."
+				""
+				"§7Where to find:§r Revival Herbs spawn in specific biomes (jungle, forest clearings). Check the Cobblemon wiki for the biome list."
+			]
+			id: "3027"
+			rewards: [
+				{
+					count: 2
+					id: "3227"
+					item: "cobblemon:revive"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:obtain_revival_herb"
+					criterion: "check_inv"
+					id: "3127"
+					type: "advancement"
+				}
+			]
+			title: "Revival Herb"
+			subtitle: "Find a Revival Herb — used to brew Revives and can be used directly in battle."
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3027"]
+			description: [
+				"Used a §eRevive§r on a fainted Pokémon! Now you can recover your party without a Healing Machine."
+				""
+				"§7In battle:§r During battle, open your Bag → §eRevive§r → select the fainted Pokémon. It's restored to half max HP and can battle again that turn."
+				""
+				"§7Max Revive:§r Brewed from Revive + Max Potion — restores to full HP with no PP cost. Worth crafting for boss encounters."
+				""
+				"§7Keep stocked:§r Always carry at least 2 Revives in your bag for emergencies. A fainted party member mid-dungeon can cascade into a full party wipe very quickly."
+			]
+			id: "3028"
+			rewards: [
+				{
+					count: 2
+					id: "3228"
+					item: "cobblemon:max_revive"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:use_revive"
+					id: "3128"
+					type: "advancement"
+				}
+			]
+			title: "Rise and Shine"
+			subtitle: "Use a Revive on a fainted Pokémon in battle."
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3028"]
+			description: [
+				"Used the §eHealing Machine§r! Place this block to restore all HP and PP for your entire party in one use — no items needed."
+				""
+				"§7How it works:§r Right-click the Healing Machine to place your party inside, wait for the charge animation (§e6/6§r lit), then retrieve your Pokémon at full health."
+				""
+				"§7Power:§r The Healing Machine draws from FE energy. Connect it to any FE generator (Oritech, Mekanism, etc.). Without power it still functions but charges slowly from solar."
+				""
+				"§7Placement tip:§r Put one at your base and one near your active exploration area. Running back to healer is slow — a portable backup saves a lot of time during longer expeditions."
+			]
+			id: "3029"
+			rewards: [
+				{
+					count: 3
+					id: "3229"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:healing_machine"
+					criterion: "use_healing_machine"
+					id: "3129"
+					type: "advancement"
+				}
+			]
+			title: "Doctor's Orders"
+			subtitle: "Use a Healing Machine to fully restore your party's HP and PP."
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3011"]
+			description: [
+				"Found a §eFossil§r! Fossils are ancient Pokémon remnants that can be revived into real Pokémon using the §eFossil Analyser§r and §eRestoration Tank§r."
+				""
+				"§7Where fossils drop:§r Dig in §eSuspicious Sand§r or §eSuspicious Gravel§r (both vanilla Minecraft archaeology blocks). Fossils can also occasionally drop from certain mobs."
+				""
+				"§7Revival process:§r Place the §eFossil Analyser§r, insert your fossil, let it analyse, then place the result in the §eRestoration Tank§r with water to resurrect the Pokémon."
+				""
+				"§7Notable fossil Pokémon:§r Aerodactyl, Kabuto, Omanyte, Tirtouga, Archen — fossil Pokémon tend to have unusual type combinations not found in normal spawns."
+			]
+			id: "302A"
+			rewards: [
+				{
+					count: 1
+					id: "322A"
 					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "311B"
-					type: "checkmark"
-					title: "Encounter a Shiny Pokémon"
+					advancement: "cobblemon:obtain_fossil"
+					criterion: "check_inv"
+					id: "312A"
+					type: "advancement"
 				}
 			]
-			title: "Shiny Hunter"
-			subtitle: "Encountered a shiny Pokémon? Check it off! Shinies are extremely rare — keep your Ultra Balls ready."
-			x: 14.0d
-			y: -2.0d
+			title: "Ancient Discovery"
+			subtitle: "Find a Fossil — excavate from Suspicious Sand and Gravel to uncover ancient Pokémon remains."
+			x: 4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["301B"]
-			id: "301C"
+			dependencies: ["302A"]
+			description: [
+				"Revived a Pokémon from a §eFossil§r!"
+				""
+				"§7Setup:§r"
+				"1. Place §eFossil Analyser§r (power optional but speeds it up)"
+				"2. Insert fossil into analyser, wait for decoding"
+				"3. Take the decoded item to the §eRestoration Tank§r"
+				"4. Fill the tank with a Bucket of Water"
+				"5. Wait — the Pokémon hatches from the tank at low level"
+				""
+				"§7Galar fossils:§r Galar Fossils (Fossilized Bird, Fish, Drake, Dino) combine in pairs to create §echimaera fossil Pokémon§r like Dracovish and Arctozolt. Check JEI for the pairing combinations."
+			]
+			id: "302B"
 			rewards: [
 				{
-					count: 1
-					id: "321C"
-					item: "cobblemon:master_ball"
+					count: 2
+					id: "322B"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "311C"
-					type: "checkmark"
-					title: "Encounter a Legendary Pokémon"
+					advancement: "cobblemon:resurrect_pokemon"
+					criterion: "resurrected_pokemon"
+					id: "312B"
+					type: "advancement"
 				}
 			]
-			title: "I Choose You!"
-			subtitle: "Legendary Pokémon roam the world. Finding one is already an achievement — catching it is another story."
-			x: 16.0d
-			y: -2.0d
+			title: "Life Finds a Way"
+			subtitle: "Resurrect a Pokémon from a Fossil using the Fossil Analyser and Restoration Tank."
+			x: 6.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["3016"]
-			id: "301D"
+			dependencies: ["3013"]
+			description: [
+				"Traded a Pokémon! §eTrade Evolutions§r require trading a specific Pokémon (Haunter, Kadabra, Graveler, etc.) while holding a trade item in some cases."
+				""
+				"§7Link Cable§r: Allows trade-evolution §ewithout another player§r. Use it by right-clicking a Pokémon in your party that evolves via trade — it simulates the trade and triggers the evolution."
+				""
+				"§7Pokémon that need trade + item:§r Scyther (Metal Coat → Scizor), Onix (Metal Coat → Steelix), Slowpoke (King's Rock → Slowking). Check the Pokédex evolution entry for each species."
+			]
+			id: "302C"
 			rewards: [
 				{
 					count: 1
-					id: "321D"
+					id: "322C"
+					item: "cobblemon:link_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:trade_pokemon"
+					criterion: "trade"
+					id: "312C"
+					type: "advancement"
+				}
+			]
+			title: "Fair Trade"
+			subtitle: "Trade a Pokémon — triggers trade-evolutions like Haunter → Gengar."
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3015"]
+			description: [
+				"Evolved an §eEevee§r into all eight Eeveelutions!"
+				""
+				"§7The 8 Eeveelutions:§r"
+				"§eVaporeon§r — Water, Water Stone"
+				"§eJolteon§r — Electric, Thunder Stone"
+				"§eFlareon§r — Fire, Fire Stone"
+				"§eEspeon§r — Psychic, high Friendship + daytime"
+				"§eUmbreon§r — Dark, high Friendship + nighttime"
+				"§eLeafeon§r — Grass, Leaf Stone"
+				"§eGlaceon§r — Ice, Ice Stone"
+				"§eSylveon§r — Fairy, high Friendship + knows a Fairy-type move"
+				""
+				"§7Why collect all 8?§r Each Eeveelution covers a different type, making Eevee one of the best base species for team-building variety with a single parent."
+			]
+			id: "302D"
+			rewards: [
+				{
+					count: 1
+					id: "322D"
+					item: "cobblemon:thunder_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:evolve_veevees"
+					id: "312D"
+					type: "advancement"
+				}
+			]
+			title: "Eevee-lution Expert"
+			subtitle: "Evolve an Eevee into all 8 Eeveelutions — Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, and Sylveon."
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3017"]
+			description: [
+				"Max out all §eRide Stats§r on a mount Pokémon — Speed, Stamina, and Jump all at maximum."
+				""
+				"§7How to max ride stats:§r"
+				"1. Craft §eApricorn seeds§r of various types and grow all 7 apricorn colours"
+				"2. Brew §eAprijuice§r in a Campfire Pot (apricorn + water)"
+				"3. Right-click your mount Pokémon while it's out of its ball with the Aprijuice to apply the stat boost"
+				"4. Each flavour boosts a different stat — check NEI for which colour boosts which"
+				""
+				"§7Max stat result:§r A fully maxed mount reaches ~1.5–2× base movement speed, can sprint-jump multiple blocks, and has enough stamina to sprint for extended periods without rest."
+				""
+				"§7Challenge:§r This is a §eChallenge§r advancement — it takes significant Aprijuice use. Worth doing for your primary mount."
+			]
+			id: "302E"
+			rewards: [
+				{
+					count: 3
+					id: "322E"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:max_ride_stats"
+					criterion: "max_stats"
+					id: "312E"
+					type: "advancement"
+				}
+			]
+			title: "Champion Rider"
+			subtitle: "Max out all ride stats on a mount Pokémon using Aprijuice. Speed, Stamina, and Jump all maxed."
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3015"]
+			description: [
+				"Raised a §ePokémon to Level 100§r without it ever evolving — the §eBaby§r challenge!"
+				""
+				"§7What this means:§r A Pokémon that reaches Level 100 while still unevolved hits the absolute maximum it can be — a fully committed baby build."
+				""
+				"§7Why?§r Baby Pokémon have unique in-battle traits, special egg moves, and sometimes stronger signature moves than their evolutions. Some competitive players run unevolved Pokémon with Eviolite (boosts Def and Sp.Def) for very high bulk."
+				""
+				"§7Good candidates:§r Scyther (Eviolite + unique moves), Porygon2 (excellent bulk), Pikachu (Light Ball makes its Sp.Atk equal Raichu)."
+				""
+				"§7Challenge:§r Marked as a §eChallenge§r advancement — this requires serious commitment to train a Pokémon from 1–100 without evolving it."
+			]
+			id: "302F"
+			rewards: [
+				{
+					count: 3
+					id: "322F"
 					item: "cobblemon:rare_candy"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "311D"
-					type: "checkmark"
-					title: "Raise a Pokémon to Level 100"
+					advancement: "cobblemon:max_level_baby"
+					criterion: "level"
+					id: "312F"
+					type: "advancement"
+				}
+			]
+			title: "Forever Young"
+			subtitle: "Raise an unevolved Pokémon to Level 100 without it ever evolving. Challenge!"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3016"]
+			description: [
+				"Have both §eZangoose§r and §eSeviper§r in your party at the same time — the ultimate rival duo!"
+				""
+				"§7The rivalry:§r Zangoose and Seviper are ancient enemies. Zangoose is a fierce Normal-type; Seviper is a cunning Poison-type. In the wild they always fight on sight."
+				""
+				"§7How to find them:§r Both spawn in warm biomes. Check the Pokédex radar or explore savanna and jungle areas. You'll need to catch one of each and keep them both in your active party."
+				""
+				"§7Reward tip:§r The §eMaster Ball§r you earn here is the single most reliable capture tool in the game — save it for a Legendary or a Shiny at critical HP."
+			]
+			id: "3030"
+			rewards: [
+				{
+					count: 1
+					id: "3230"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:own_zangoose_seviper"
+					criterion: "zangoose_seviper"
+					id: "3130"
+					type: "advancement"
+				}
+			]
+			title: "Rivals Together"
+			subtitle: "Have both Zangoose and Seviper in your party at the same time. Ancient rivals, united."
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3018"]
+			description: [
+				"Craft a §ePokéNav§r! The PokeNav is an advanced tracking and information device for your Cobblemon journey."
+				""
+				"§7Features:§r"
+				"§ePokémon Radar§r: See which Pokémon species are near your current location"
+				"§eBattle Info§r: View detailed stats on Pokémon during battles"
+				"§eParty Summary§r: Check your team status from anywhere without opening the full menu"
+				""
+				"§7Recipe:§r Requires a §ePokédex§r + electronic components. Check JEI."
+				""
+				"§7Tip:§r The PokeNav's radar is invaluable for hunting specific species — enable it and walk toward denser spawn areas to efficiently locate rare Pokémon without blind wandering."
+			]
+			id: "3031"
+			rewards: [
+				{
+					count: 3
+					id: "3231"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3131"
+					item: "cobblemonpokenav:pokenav"
+					type: "item"
+				}
+			]
+			title: "PokeNav & Chill"
+			subtitle: "Craft a PokeNav to track nearby Pokémon, battle stats, and party info on the go."
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3015"]
+			description: [
+				"Equipped a §eMega Bracelet§r! Mega Evolution temporarily transforms a Pokémon into a stronger §eMega form§r during battle."
+				""
+				"§7Requirements:§r"
+				"1. Craft and equip the §eMega Bracelet§r"
+				"2. Give the compatible Pokémon its §eMega Stone§r to hold (e.g. Charizardite X for Charizard)"
+				"3. In battle, choose the §eMega Evolution§r option before selecting a move"
+				""
+				"§7What changes:§r Stats, type (sometimes), and ability all change for the rest of the battle. A Pokémon can only Mega Evolve once per battle."
+				""
+				"§7Notable Megas:§r Mega Gengar, Mega Charizard X/Y, Mega Salamence, Mega Metagross. Each requires its specific Mega Stone."
+			]
+			id: "3032"
+			rewards: [
+				{
+					count: 5
+					id: "3232"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3132"
+					item: "cobblemonmegashowdown:mega_bracelet"
+					type: "item"
+				}
+			]
+			title: "Mega Evolution"
+			subtitle: "Equip a Mega Bracelet — unlock your Pokémon's Mega Evolution in battle."
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3015"]
+			description: [
+				"Used a §eExp Candy§r or §eRare Candy§r on a Pokémon!"
+				""
+				"§7XS → XL§r: Exp Candies come in XS, S, M, L, and XL sizes — larger candies give more XP. Rare Candy grants exactly 1 level."
+				""
+				"§7Where to get them:§r Exp Candies drop from defeating higher-level Pokémon. Rare Candies are found in treasure chests, dungeon loot, or rarely dropped by powerful wild Pokémon."
+				""
+				"§7Rare Candy vs training:§r Rare Candy gets a Pokémon to a specific level instantly but doesn't boost base stats the way battle training does (EVs). Use Rare Candies to hit evolution levels or unlock moves — use battle training to build competitive stats."
+			]
+			id: "3033"
+			rewards: [
+				{
+					count: 3
+					id: "3233"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:use_candy"
+					id: "3133"
+					type: "advancement"
+				}
+			]
+			title: "Sugar Rush"
+			subtitle: "Use an Exp Candy or Rare Candy on a Pokémon to grant bonus XP or levels."
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3033"]
+			description: [
+				"Used a §eIV Candy§r (Vitamin) on a Pokémon!"
+				""
+				"§7IV Candies§r directly boost a specific §eEV stat§r (Effort Values) — the secondary stat layer that affects max stats at high levels."
+				""
+				"§7EV → stat benefit:§r 4 EVs = 1 extra stat point at Level 100. Max EVs per stat: 252. Total EVs: 510. Optimal builds max 2 stats (252/252/6) for best battle performance."
+				""
+				"§7EV stat map:§r Health Candy = HP, Mighty Candy = Attack, Tough Candy = Defense, Smart Candy = Sp. Atk, Courage Candy = Sp. Def, Quick Candy = Speed."
+				""
+				"§7Bad EVs:§r If a Pokémon has wasted EVs from random wild battles, use the matching §eSour Candy§r (Sickly, Weak, etc.) to reduce them."
+			]
+			id: "3034"
+			rewards: [
+				{
+					count: 3
+					id: "3234"
+					item: "cobblemon:mighty_candy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:use_iv_candy"
+					id: "3134"
+					type: "advancement"
+				}
+			]
+			title: "Vitamin Enthusiast"
+			subtitle: "Use an IV Candy (Vitamin) to boost a Pokémon's EV stats for competitive stat growth."
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3013"]
+			description: [
+				"Crafted a §eHeld Item§r! Held items are equipped to a Pokémon and automatically apply their effect during battle."
+				""
+				"§7Choice Items (lock you into one move):§r"
+				"§eChoice Band§r — Attack ×1.5, but only one move usable"
+				"§eChoice Specs§r — Sp. Atk ×1.5, one move only"
+				"§eChoice Scarf§r — Speed ×1.5, one move only"
+				""
+				"§7Bulk items:§r §eEviolite§r — Def+SpDef ×1.5 for unevolved Pokémon, §eLeftovers§r — heals 1/16 HP each turn"
+				""
+				"§7Damage boosters:§r §eLife Orb§r — ×1.3 all moves, costs 10% HP per use, §eExpert Belt§r — ×1.2 when you hit a weakness"
+				""
+				"§7Equip:§r Open the Pokémon's summary screen, drag the item to the held item slot."
+			]
+			id: "3035"
+			rewards: [
+				{
+					count: 1
+					id: "3235"
+					item: "cobblemon:choice_scarf"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3135"
+					item: "cobblemon:choice_band"
+					type: "item"
+				}
+			]
+			title: "Held Items"
+			subtitle: "Craft a held item — Choice Band, Eviolite, Leftovers and more modify Pokémon stats in battle."
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3015"]
+			description: [
+				"Level 100! The pinnacle of Pokémon training."
+				""
+				"§7What changes at Level 100:§r Stats are finalised (Nature + EVs + IVs all locked in). A Level 100 Pokémon has exactly the stats it will have forever."
+				""
+				"§7Still worth doing after:§r"
+				"§eIV Candy§r to max EVs if not already done"
+				"§eMint§r to fix Nature if needed"
+				"§eHeld Item§r to optimise battle role"
+				"§eTM§r for any needed coverage moves"
+				""
+				"§7Raise a second:§r Your first Level 100 should lead to a full competitive team. With Exp Share, the second Pokémon levels much faster."
+			]
+			id: "3036"
+			rewards: [
+				{
+					count: 5
+					id: "3236"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cobblemon:max_level_baby"
+					criterion: "level"
+					id: "3136"
+					type: "advancement"
 				}
 			]
 			title: "Level 100!"
-			subtitle: "The long road to Level 100. Battle, use Rare Candy, or leave a Pokémon in the party for passive XP."
+			subtitle: "Raise a Pokémon to Level 100 — the maximum level. True mastery."
 			x: 12.0d
-			y: 2.0d
+			y: 4.0d
 		}
 	]
 	subtitle: "Become the very best, like no one ever was."
