@@ -113,9 +113,9 @@
 			id: "1014"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "1214"
-					item: "minecraft:diamond"
+					item: "minecraft:coal"
 					type: "item"
 				}
 			]
@@ -290,6 +290,150 @@
 			subtitle: "Craft a Beacon from a Nether Star, glass, and obsidian. Place it on a pyramid of iron, gold, diamond, or emerald blocks for powerful buffs."
 			x: 22.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1012"]
+			id: "101C"
+			rewards: [
+				{
+					count: 8
+					id: "121C"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111C"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "First Fire"
+			subtitle: "Craft a Furnace — smelt ores, cook food, and make charcoal for torches."
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1012"]
+			id: "101D"
+			rewards: [
+				{
+					count: 3
+					id: "121D"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111D"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+			]
+			title: "Sleep Through the Night"
+			subtitle: "Craft a Bed — sleep to skip the night and set your respawn point."
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1013"]
+			id: "101E"
+			rewards: [
+				{
+					count: 16
+					id: "121E"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111E"
+					item: "minecraft:bow"
+					type: "item"
+				}
+			]
+			title: "Shoot First"
+			subtitle: "Craft a Bow — essential for fighting Skeletons and kiting dangerous mobs at range."
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1013"]
+			id: "101F"
+			rewards: [
+				{
+					id: "121F"
+					item: "minecraft:leather_chestplate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "111F"
+					item: "minecraft:shield"
+					type: "item"
+				}
+			]
+			title: "Hold the Line"
+			subtitle: "Craft a Shield — right-click to block incoming attacks. Essential against Pillagers and Blazes."
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1017"]
+			id: "1020"
+			rewards: [
+				{
+					count: 4
+					id: "1220"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1120"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+			]
+			title: "Brew Master"
+			subtitle: "Craft a Brewing Stand — brew potions using Nether Wart and Blaze Powder."
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["101A"]
+			id: "1021"
+			rewards: [
+				{
+					count: 5
+					id: "1221"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1222"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1121"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "The Wither"
+			subtitle: "Summon and defeat the Wither to earn a Nether Star — needed to craft a Beacon."
+			x: 22.0d
+			y: 2.0d
 		}
 	]
 	subtitle: "Your first steps in a vast world."

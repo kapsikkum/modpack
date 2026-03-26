@@ -1035,12 +1035,12 @@
 			tasks: [
 				{
 					id: "C142"
-					item: "simplyswords:dreadtide"
+					item: "simplyswords:livyatan"
 					type: "item"
 				}
 			]
-			title: "Dreadtide"
-			subtitle: "A blade forged from ocean dread. Devastating in or near water — crackles with tidal energy."
+			title: "Livyatan"
+			subtitle: "A blade forged from ocean dread. Hurl it forward like a harpoon — it returns with Loyalty, dealing damage on the way back."
 			x: 4.0d
 			y: -2.0d
 		}
@@ -1196,12 +1196,12 @@
 			tasks: [
 				{
 					id: "C149"
-					item: "simplyswords:the_dispatcher"
+					item: "simplyswords:wickpiercer"
 					type: "item"
 				}
 			]
-			title: "The Dispatcher"
-			subtitle: "A blade that fires arcane bolts when swung. Melee and ranged in one terrifying package."
+			title: "Wickpiercer"
+			subtitle: "Throw it to build Flicker Fury stacks — each stack grants attack speed and a double hit. Melee and ranged in one terrifying package."
 			x: 18.0d
 			y: -2.0d
 		}

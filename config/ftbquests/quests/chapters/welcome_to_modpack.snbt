@@ -245,8 +245,8 @@
 			tasks: [
 				{
 					id: "B117"
-					item: "pneumaticcraft:manual"
-					type: "item"
+					title: "Read the PneumaticCraft Manual"
+					type: "checkmark"
 				}
 			]
 			title: "Under Pressure"
@@ -269,8 +269,9 @@
 			id: "B018"
 			rewards: [
 				{
+					count: 2
 					id: "B219"
-					item: "simplyswords:iron_rapier"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -440,13 +441,14 @@
 			]
 			tasks: [
 				{
+					entity: "balloons_by_doriteam:airballoon"
 					id: "B11D"
-					item: "balloons_by_doriteam:balloon_block"
-					type: "item"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "Floating Away"
-			subtitle: "Craft a Balloon Block — when it pops, it drops treasure. Fly high!"
+			subtitle: "Shoot down a floating Air Balloon mob to claim its treasure loot."
 			x: 2.0d
 			y: 12.0d
 		}
@@ -532,17 +534,16 @@
 			id: "B058"
 			rewards: [
 				{
-					count: 5
 					id: "B25A"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:pokedex"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					advancement: "cobblemon:craft_pokedex"
 					id: "B158"
-					type: "advancement"
+					title: "Craft your Pokédex"
+					type: "checkmark"
 				}
 			]
 			title: "Your Pokédex"
@@ -718,9 +719,9 @@
 			id: "B027"
 			rewards: [
 				{
-					count: 1
+					count: 3
 					id: "B227"
-					item: "simplyswords:iron_rapier"
+					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
@@ -739,13 +740,13 @@
 		{
 			dependencies: ["B019"]
 			description: [
-				"The §eLucky Horseshoe§r is a Relic trinket that increases your §eLuck§r attribute, improving loot table rolls and increasing the chance of bonus drops from mobs and chests."
+				"The §eScarab Talisman§r is a Relic trinket found in dungeon chests and mob drops."
 				""
 				"Relics are found in §7dungeon chests, mob drops, and structure loot§r. Some require §eResearching§r in the Relics interface (press §6R§r) before their passive abilities activate."
 				""
-				"§7Tip:§r Equip the Lucky Horseshoe in a §eCurios§r slot before opening any major dungeons or boss arenas — better loot rolls."
+				"§7Tip:§r Equip Relic trinkets in §eCurios§r slots — press §6U§r to open your curios inventory."
 			]
-			icon: "relics:lucky_horseshoe"
+			icon: "relics:scarab_talisman"
 			id: "B028"
 			rewards: [
 				{
@@ -758,12 +759,12 @@
 			tasks: [
 				{
 					id: "B127"
-					item: "relics:lucky_horseshoe"
+					item: "relics:scarab_talisman"
 					type: "item"
 				}
 			]
-			title: "Horse-Shoe Luck"
-			subtitle: "Find a Lucky Horseshoe Relic — improves loot table rolls when equipped."
+			title: "Relic Hunter"
+			subtitle: "Find a Relic trinket — powerful accessories found in dungeons and mob drops."
 			x: 4.0d
 			y: 4.0d
 		}

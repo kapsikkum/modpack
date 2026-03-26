@@ -5,6 +5,10 @@ file = "config/DistantHorizons.toml"
 hash = "5d4fc1dea80acc736422820ad6a763c0536b1a7b343557386c5642071ebc072d"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "19994f1075b559dbe48af91708c44a5ce0632b4038d92bed9ab4466cd2dbf6f4"
+
+[[files]]
 file = "config/aether-common.toml"
 hash = "9f8b9999ec8ae59b49972710457a5c582be35b48b4505ca93d9384b682c857cd"
 
@@ -86,7 +90,7 @@ hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "0cc1b6781dad3b28739db632a9ca103d841a92391936292307a7430b79104821"
+hash = "0315aa0927a37044d82d0409fe0f7ab232532391813a91a8e06202fb2f01b1a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -106,7 +110,7 @@ hash = "69bd833338f8916be153e2fc58298083e2ce8d008e260b748b4cb17c9afbd6cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "fd047fa23ed790fc4214d39f464734f9c976da1b75ba65179271df4aa569af6d"
+hash = "40be291267948a4f5c63b9a6ab4e3f022e833ecf23fa2fe20a5efa885d8052e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -122,7 +126,7 @@ hash = "f8c554814f3b41bb1c36726b2a939435214e8bf8867af946ec3d56b6f2a7da4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
-hash = "f00918363fab6973596c127efd9a7014ac09e8bbe73799fde7c5ed56900d0f13"
+hash = "7ae24cd466079e7e8dce65988ade52f8332d9be9e4f24d999b7d6a55f8e78364"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
@@ -130,7 +134,7 @@ hash = "9783a5e37e8bc072e81bb57c05b52398a151d03811ff0cfba5f7e9bd70b2eb6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "ab265c9f17f7f35c29e354576f7165a8edf481f67b92ae24f3c8a9d0cb96bb0b"
+hash = "fde643728e9f5fd9ae89c6ed3c65ab9dcfd72256588e4eb94fdcfa08a2b94be0"
 
 [[files]]
 file = "config/global_packs.toml"

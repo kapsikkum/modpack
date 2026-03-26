@@ -27,7 +27,7 @@
 				{
 					count: 10
 					id: "3200"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:safari_ball"
 					type: "item"
 				}
 			]
@@ -122,9 +122,9 @@
 			id: "3012"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3212"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -156,9 +156,9 @@
 			id: "3013"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "3213"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:rare_candy"
 					type: "item"
 				}
 			]
@@ -189,9 +189,9 @@
 			id: "3014"
 			rewards: [
 				{
-					count: 5
+					count: 10
 					id: "3214"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -289,9 +289,9 @@
 			id: "3017"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3217"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -355,9 +355,9 @@
 			id: "3019"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3219"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -428,10 +428,9 @@
 			]
 			tasks: [
 				{
-					advancement: "cobblemon:obtain_tumblestone"
-					criterion: "check_inv"
 					id: "311B"
-					type: "advancement"
+					item: "cobblemon:tumblestone"
+					type: "item"
 				}
 			]
 			title: "Tumblestone!"
@@ -459,10 +458,9 @@
 			]
 			tasks: [
 				{
-					advancement: "cobblemon:grow_tumblestone"
-					criterion: "planted_tumblestone"
 					id: "311C"
-					type: "advancement"
+					item: "cobblemon:tumblestone_cluster"
+					type: "item"
 				}
 			]
 			title: "Rock Farm"
@@ -488,9 +486,9 @@
 			id: "301D"
 			rewards: [
 				{
-					count: 1
+					count: 5
 					id: "321D"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -521,9 +519,9 @@
 			id: "301E"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "321E"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -535,7 +533,7 @@
 					type: "advancement"
 				}
 			]
-			title: "Bait & Switch"
+			title: "Bait && Switch"
 			subtitle: "Use PokéBait while fishing to attract specific Pokémon species."
 			x: 4.0d
 			y: 4.0d
@@ -896,7 +894,7 @@
 				{
 					count: 3
 					id: "3229"
-					item: "cobblemon:great_ball"
+					item: "cobblemon:rare_candy"
 					type: "item"
 				}
 			]
@@ -1182,11 +1180,11 @@
 			tasks: [
 				{
 					id: "3131"
-					item: "cobblemonpokenav:pokenav"
+					item: "cobblenav:pokenav"
 					type: "item"
 				}
 			]
-			title: "PokeNav & Chill"
+			title: "PokeNav && Chill"
 			subtitle: "Craft a PokeNav to track nearby Pokémon, battle stats, and party info on the go."
 			x: 12.0d
 			y: -2.0d
@@ -1217,7 +1215,7 @@
 			tasks: [
 				{
 					id: "3132"
-					item: "cobblemonmegashowdown:mega_bracelet"
+					item: "mega_showdown:mega_bracelet"
 					type: "item"
 				}
 			]
