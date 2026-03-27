@@ -236,12 +236,12 @@
 				{
 					count: 16L
 					id: "2119"
-					item: "railways:track"
+					item: "create:track"
 					type: "item"
 				}
 			]
 			title: "All Aboard!"
-			subtitle: "Steam 'n' Rails adds trains to Create. Craft Train Track and lay your first line."
+			subtitle: "Steam 'n' Rails adds trains to Create. Craft your first lengths of Track and begin laying your rail line."
 			x: 14.0d
 			y: -2.0d
 		}
@@ -259,12 +259,12 @@
 			tasks: [
 				{
 					id: "211A"
-					item: "railways:steam_locomotive"
+					item: "create:track_station"
 					type: "item"
 				}
 			]
-			title: "Choo Choo!"
-			subtitle: "Craft a Steam Locomotive and place it on your track. Don't forget the schedule!"
+			title: "First Station"
+			subtitle: "A Track Station is where trains stop to load passengers or cargo. Build one to start scheduling your first route."
 			x: 16.0d
 			y: -2.0d
 		}
@@ -321,7 +321,7 @@
 				{
 					count: 4
 					id: "221D"
-					item: "create:wheat_seeds"
+					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 			]
@@ -409,6 +409,75 @@
 			title: "The Spout"
 			subtitle: "The Spout fills containers, bottles, and buckets from a fluid source above it. Perfect for automated potion-filling lines."
 			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201A"]
+			id: "2021"
+			rewards: [
+				{
+					count: 16
+					id: "2221"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2121"
+					item: "railways:conductor_whistle"
+					type: "item"
+				}
+			]
+			title: "Conductor's Whistle"
+			subtitle: "Craft a Conductor's Whistle to manually depart your train and override its schedule when needed."
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["201F"]
+			id: "2022"
+			rewards: [
+				{
+					count: 4
+					id: "2222"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2122"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			title: "Speed Control"
+			subtitle: "The Rotation Speed Controller lets you precisely set RPM on connected shafts. Essential for fine-tuned automation."
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2020"]
+			id: "2023"
+			rewards: [
+				{
+					count: 8
+					id: "2223"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2123"
+					item: "create:item_vault"
+					type: "item"
+				}
+			]
+			title: "Bulk Storage"
+			subtitle: "Item Vaults store large quantities of a single item type. Connect them to your automation for high-throughput storage."
+			x: 26.0d
 			y: 0.0d
 		}
 	]

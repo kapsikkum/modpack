@@ -58,9 +58,15 @@
 			id: "3010"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "3210"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3210b"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -90,9 +96,15 @@
 			id: "3011"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "3211"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3211b"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -122,9 +134,15 @@
 			id: "3012"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "3212"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3212b"
+					item: "cobblemon:potion"
 					type: "item"
 				}
 			]
@@ -156,9 +174,15 @@
 			id: "3013"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3213"
-					item: "cobblemon:rare_candy"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3213b"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -189,9 +213,15 @@
 			id: "3014"
 			rewards: [
 				{
-					count: 10
+					count: 3
 					id: "3214"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3214b"
+					item: "cobblemon:super_potion"
 					type: "item"
 				}
 			]
@@ -224,7 +254,13 @@
 				{
 					count: 3
 					id: "3215"
-					item: "cobblemon:rare_candy"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3215b"
+					item: "cobblemon:exp_candy_m"
 					type: "item"
 				}
 			]
@@ -258,7 +294,13 @@
 				{
 					count: 5
 					id: "3216"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3216b"
+					item: "cobblemon:exp_candy_l"
 					type: "item"
 				}
 			]
@@ -291,7 +333,13 @@
 				{
 					count: 5
 					id: "3217"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3217b"
+					item: "cobblemon:sitrus_berry"
 					type: "item"
 				}
 			]
@@ -323,9 +371,15 @@
 			id: "3018"
 			rewards: [
 				{
-					count: 1
+					count: 3
 					id: "3218"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3218b"
+					item: "cobblemon:exp_candy_m"
 					type: "item"
 				}
 			]
@@ -355,8 +409,14 @@
 			id: "3019"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "3219"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3219b"
 					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
@@ -387,9 +447,15 @@
 			id: "301A"
 			rewards: [
 				{
-					count: 3
+					count: 1
 					id: "321A"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:destiny_knot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "321Ab"
+					item: "cobblemon:sitrus_berry"
 					type: "item"
 				}
 			]
@@ -420,9 +486,15 @@
 			id: "301B"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "321B"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:sky_tumblestone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "321Bb"
+					item: "cobblemon:black_tumblestone"
 					type: "item"
 				}
 			]
@@ -450,9 +522,15 @@
 			id: "301C"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "321C"
-					item: "cobblemon:tumblestone"
+					item: "cobblemon:sky_tumblestone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "321Cb"
+					item: "cobblemon:black_tumblestone"
 					type: "item"
 				}
 			]
@@ -486,9 +564,15 @@
 			id: "301D"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "321D"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "321Db"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -519,9 +603,15 @@
 			id: "301E"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "321E"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "321Eb"
+					item: "cobblemon:sitrus_berry"
 					type: "item"
 				}
 			]
@@ -557,6 +647,12 @@
 					count: 5
 					id: "321F"
 					item: "cobblemon:oran_berry"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "321Fb"
+					item: "cobblemon:sitrus_berry"
 					type: "item"
 				}
 			]
@@ -596,6 +692,12 @@
 					item: "cobblemon:lum_berry"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "3220b"
+					item: "cobblemon:sitrus_berry"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -624,9 +726,21 @@
 			id: "3021"
 			rewards: [
 				{
-					count: 2
+					count: 1
 					id: "3221"
-					item: "cobblemon:adamant_mint"
+					item: "cobblemon:timid_mint"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "3221b"
+					item: "cobblemon:modest_mint"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "3221c"
+					item: "cobblemon:jolly_mint"
 					type: "item"
 				}
 			]
@@ -658,9 +772,15 @@
 			id: "3022"
 			rewards: [
 				{
-					count: 8
+					count: 5
 					id: "3222"
 					item: "cobblemon:medicinal_leek"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3222b"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -693,7 +813,13 @@
 				{
 					count: 3
 					id: "3223"
-					item: "cobblemon:medicinal_brew"
+					item: "cobblemon:potion"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3223b"
+					item: "cobblemon:oran_berry"
 					type: "item"
 				}
 			]
@@ -729,7 +855,13 @@
 				{
 					count: 3
 					id: "3224"
-					item: "cobblemon:potion"
+					item: "cobblemon:super_potion"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3224b"
+					item: "cobblemon:medicinal_leek"
 					type: "item"
 				}
 			]
@@ -762,7 +894,13 @@
 				{
 					count: 2
 					id: "3225"
-					item: "cobblemon:full_restore"
+					item: "cobblemon:max_potion"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3225b"
+					item: "cobblemon:max_revive"
 					type: "item"
 				}
 			]
@@ -795,9 +933,15 @@
 			id: "3026"
 			rewards: [
 				{
-					count: 1
+					count: 3
 					id: "3226"
 					item: "cobblemon:max_elixir"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3226b"
+					item: "cobblemon:full_restore"
 					type: "item"
 				}
 			]
@@ -827,9 +971,15 @@
 			id: "3027"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "3227"
 					item: "cobblemon:revive"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3227b"
+					item: "cobblemon:medicinal_brew"
 					type: "item"
 				}
 			]
@@ -865,6 +1015,12 @@
 					item: "cobblemon:max_revive"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "3228b"
+					item: "cobblemon:full_restore"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -892,9 +1048,15 @@
 			id: "3029"
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "3229"
-					item: "cobblemon:rare_candy"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3229b"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -925,9 +1087,15 @@
 			id: "302A"
 			rewards: [
 				{
-					count: 1
+					count: 4
 					id: "322A"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "322Ab"
+					item: "cobblemon:exp_candy_m"
 					type: "item"
 				}
 			]
@@ -961,9 +1129,15 @@
 			id: "302B"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "322B"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "322Bb"
+					item: "cobblemon:rare_candy"
 					type: "item"
 				}
 			]
@@ -1033,7 +1207,19 @@
 				{
 					count: 1
 					id: "322D"
-					item: "cobblemon:thunder_stone"
+					item: "cobblemon:fire_stone"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "322Db"
+					item: "cobblemon:water_stone"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "322Dc"
+					item: "cobblemon:moon_stone"
 					type: "item"
 				}
 			]
@@ -1067,9 +1253,15 @@
 			id: "302E"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "322E"
-					item: "cobblemon:ultra_ball"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "322Eb"
+					item: "cobblemon:exp_candy_l"
 					type: "item"
 				}
 			]
@@ -1102,9 +1294,15 @@
 			id: "302F"
 			rewards: [
 				{
-					count: 3
+					count: 1
 					id: "322F"
-					item: "cobblemon:rare_candy"
+					item: "cobblemon:life_orb"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "322Fb"
+					item: "cobblemon:lum_berry"
 					type: "item"
 				}
 			]
@@ -1171,9 +1369,15 @@
 			id: "3031"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3231"
 					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3231b"
+					item: "cobblemon:rare_candy"
 					type: "item"
 				}
 			]
@@ -1208,7 +1412,13 @@
 				{
 					count: 5
 					id: "3232"
-					item: "cobblemon:poke_ball"
+					item: "cobblemon:rare_candy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3232b"
+					item: "cobblemon:ultra_ball"
 					type: "item"
 				}
 			]
@@ -1238,9 +1448,15 @@
 			id: "3033"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3233"
 					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3233b"
+					item: "cobblemon:exp_candy_xl"
 					type: "item"
 				}
 			]
@@ -1272,9 +1488,21 @@
 			id: "3034"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "3234"
 					item: "cobblemon:mighty_candy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3234b"
+					item: "cobblemon:quick_candy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3234c"
+					item: "cobblemon:smart_candy"
 					type: "item"
 				}
 			]
@@ -1311,7 +1539,13 @@
 				{
 					count: 1
 					id: "3235"
-					item: "cobblemon:choice_scarf"
+					item: "cobblemon:choice_specs"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "3235b"
+					item: "cobblemon:leftovers"
 					type: "item"
 				}
 			]
@@ -1345,9 +1579,21 @@
 			id: "3036"
 			rewards: [
 				{
-					count: 5
+					count: 2
 					id: "3236"
-					item: "cobblemon:rare_candy"
+					item: "cobblemon:mighty_candy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3236b"
+					item: "cobblemon:quick_candy"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "3236c"
+					item: "cobblemon:choice_specs"
 					type: "item"
 				}
 			]

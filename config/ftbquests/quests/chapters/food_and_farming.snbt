@@ -172,12 +172,12 @@
 			tasks: [
 				{
 					id: "7116"
-					item: "brewinandchewin:ageing_barrel"
+					item: "brewinandchewin:keg"
 					type: "item"
 				}
 			]
 			title: "Home Brewer"
-			subtitle: "Craft an Ageing Barrel from Brewin' and Chewin' to ferment fruits and grains into drinks."
+			subtitle: "Craft a Keg from Brewin' and Chewin' to ferment fruits and grains into drinks."
 			x: 4.0d
 			y: -2.0d
 		}
@@ -240,12 +240,12 @@
 			tasks: [
 				{
 					id: "7119"
-					item: "chefdelight:cooking_station"
+					item: "expandeddelight:juicer"
 					type: "item"
 				}
 			]
-			title: "Chef's Delight"
-			subtitle: "The Chef's Delight Cooking Station unlocks high-end recipes requiring multiple ingredients."
+			title: "Freshly Squeezed"
+			subtitle: "Craft a Juicer from Expanded Delight to press fruits and vegetables into fresh drinks and extracts."
 			x: 12.0d
 			y: -2.0d
 		}
@@ -309,12 +309,12 @@
 			tasks: [
 				{
 					id: "711C"
-					item: "brewinandchewin:mead"
+					item: "brewinandchewin:heating_cask"
 					type: "item"
 				}
 			]
-			title: "Fine Mead"
-			subtitle: "Age honey water in your barrel to ferment Mead. Try other ingredients for beer, wine, and more exotic brews."
+			title: "Heat it Up"
+			subtitle: "A Heating Cask speeds up fermentation. Use it alongside your Keg to produce beer, wine, and more exotic brews."
 			x: 8.0d
 			y: -2.0d
 		}
@@ -340,6 +340,51 @@
 			subtitle: "Craft Organic Compost from crop byproducts and dirt. Place it to produce Rich Soil \u2014 crops on Rich Soil grow twice as fast."
 			x: 10.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["7019"]
+			id: "701E"
+			rewards: [
+				{
+					id: "721E"
+					item: "expandeddelight:goat_cheese_wheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711E"
+					item: "expandeddelight:cask"
+					type: "item"
+				}
+			]
+			title: "Fermentation Station"
+			subtitle: "Fill a Cask with goat milk to ferment artisan cheese. Expanded Delight adds a whole dairy line to explore."
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["701B"]
+			id: "701F"
+			rewards: [
+				{
+					count: 2
+					id: "721F"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "711F"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+			]
+			title: "Hearty Stew"
+			subtitle: "Simmer beef, potatoes, and carrots in a Cooking Pot for a rich, filling beef stew."
+			x: 18.0d
+			y: 0.0d
 		}
 	]
 	subtitle: "From humble harvests to gourmet cuisine."

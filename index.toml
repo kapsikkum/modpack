@@ -90,7 +90,7 @@ hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "6b72038234576a3dc496e410398e51300dd79f35d9b395c6d672dda814e6b7b1"
+hash = "48217071a5edfe9dae381587da303e0fbe889ce51608ccc8684c5ae506fa990b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -98,7 +98,7 @@ hash = "dc078e12bf8c95e397d356f0043fb7317c8522ed1ff2d29feb9818e411793efa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "83dc37d708ba23409bcb73aecc710aa56f679acc996d1245460836a43ccd4543"
+hash = "bed424f26b0ce6a925a4779d7c893f6481e6ccebda5a48cd1bccce1dae938df5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
@@ -106,7 +106,7 @@ hash = "445325f4dd053784eebbda784b32f6c867b98c7d207f7dc4a90c63e6c2ebfea0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
-hash = "69bd833338f8916be153e2fc58298083e2ce8d008e260b748b4cb17c9afbd6cd"
+hash = "583181a52dda95fc4d158d05782617641818d708b2329e0bfc8b74db066d9ec9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -715,6 +715,11 @@ hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
+metafile = true
+
+[[files]]
 file = "mods/boat-item-view.pw.toml"
 hash = "ba58df8c82fc920a316a3ad2f8d52e985e34cd09713487ccbb5ea778b6168c2d"
 metafile = true
@@ -787,11 +792,6 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "3d678d61faee4f39f3ac2a2bcdebc15ac23adcc30c3e46a2993978c76a0fe90d"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "33ea8d2b8449ccb0e6e6a456db71e44c53980a5e38e93a9eecc7257029510889"
 metafile = true
 
 [[files]]
