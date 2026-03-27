@@ -26,7 +26,7 @@
 				{
 					count: 8
 					id: "D210"
-					item: "minecraft:nether_quartz"
+					item: "minecraft:quartz"
 					type: "item"
 				}
 			]
@@ -58,7 +58,7 @@
 				{
 					count: 8
 					id: "D211"
-					item: "minecraft:nether_quartz"
+					item: "minecraft:quartz"
 					type: "item"
 				}
 			]
@@ -306,6 +306,37 @@
 		{
 			dependencies: ["D018"]
 			description: [
+				"A §e16K Storage Disk§r holds §716,384 unique item types§r — the sweet spot between the 4K starter disk and the expensive 64K endgame disk."
+				""
+				"§7Recipe:§r Storage Housing + 16K Storage Part + Improved Processor."
+				""
+				"A couple of 16K disks will carry your network through the entire mid-game without needing the Diamond-cost 64K parts yet."
+			]
+			icon: "refinedstorage:16k_storage_disk"
+			id: "D023"
+			rewards: [
+				{
+					count: 2
+					id: "D223"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D124"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Roomier Storage"
+			subtitle: "Craft a 16K Storage Disk — the mid-tier disk, using Improved Processors."
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D023"]
+			description: [
 				"A §e64K Storage Disk§r holds §765,536 unique item types§r — enough for an entire mega-base in one small disk."
 				""
 				"§7Recipe:§r Storage Housing + 64K Storage Part + Advanced Processor."
@@ -331,7 +362,7 @@
 			]
 			title: "Mass Storage"
 			subtitle: "Craft a 64K Storage Disk — near-limitless item type storage in one drive."
-			x: 18.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "adventure"
 	group: ""
-	icon: "minecraft:compass"
+	icon: "minecraft:netherite_sword"
 	id: "8001"
 	images: []
 	index: 7
@@ -11,384 +11,890 @@
 	quest_links: []
 	quests: [
 		{
-			dependencies: []
-			id: "8010"
-			rewards: [
-				{
-					count: 3
-					id: "8210"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
+			description: [
+				"Vanilla combat is just the start."
+				""
+				"§bSimply Swords§r adds over a dozen new weapon types — Longswords, Claymores, War Scythes, Katanas, Chakrams and more. Craft them like vanilla swords using the same material tiers: Iron → Diamond → Netherite → Runic."
+				""
+				"§bBetter Combat§r overhauls attack animations and lets you dual-wield any two weapons. Put a weapon in your offhand and attack to combo with both."
+				""
+				"§6Relics§r and §6Artifacts§r provide passive and active powers found in dungeon loot and mob drops."
+				""
+				"Face every threat — overworld mobs, Nether bosses, the End, Cataclysm, and the Aether's dungeons."
 			]
-			tasks: [
-				{
-					id: "8110"
-					item: "explorerscompass:explorer_compass"
-					type: "item"
-				}
-			]
-			title: "Compass Rose"
-			subtitle: "Craft an Explorer's Compass to locate the nearest structure of any type. Essential for exploration."
+			icon: "minecraft:netherite_sword"
+			id: "F000"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "F100"
+				title: "Combat & Adventure Overview"
+				type: "checkmark"
+			}]
+			title: "§6⚔ Combat & Adventure"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8010"]
-			id: "8011"
-			rewards: [
-				{
-					count: 2
-					id: "8211"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
+			dependencies: ["F000"]
+			description: [
+				"§bSimply Swords§r adds a range of weapon types beyond the vanilla sword."
+				""
+				"The §9Longsword§r has excellent reach. The §9Claymore§r is a heavy two-hander. The §9War Scythe§r sweeps wide — great against crowds."
+				""
+				"Craft them exactly like a vanilla sword — same recipe shape, same material tiers. The §aRunic§r tier is the highest craftable tier."
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "8111"
-					item: "minecraft:sculk"
-					type: "item"
-				}
+			id: "F001"
+			rewards: [{
+				id: "F201"
+				item: "simplyswords:iron_longsword"
+				type: "item"
+			}]
+			subtitle: "New weapons for a classic game"
+			tasks: [{
+				id: "F101"
+				title: "Craft any Simply Swords weapon"
+				type: "checkmark"
+			}]
+			title: "Simply Armed"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["F000"]
+			description: [
+				"§bBetter Combat§r lets you put a weapon in your offhand and attack with both hands in sequence."
+				""
+				"Different weapon combos play differently — try a sword in your main hand and a shorter weapon offhand for rapid alternating hits."
+				""
+				"Blocking now has a cooldown, so good offence matters far more than shield-spam."
 			]
-			title: "Into the Deep Dark"
-			subtitle: "Descend into the Deep Dark biome found deep underground. Move silently — Wardens are in there."
+			id: "F002"
+			rewards: [{
+				id: "F202"
+				item: "minecraft:shield"
+				type: "item"
+			}]
+			subtitle: "Two weapons, one enemy"
+			tasks: [{
+				id: "F102"
+				title: "Dual-wield two weapons and land a hit"
+				type: "checkmark"
+			}]
+			title: "Dual Threat"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["F000"]
+			description: [
+				"§6Relics§r are magical items found in dungeon loot, mob drops, or crafted via special recipes."
+				""
+				"Each Relic has a unique ability — some grant passive stat boosts, others have active skills triggered by right-clicking."
+				""
+				"Some Relics require researching before their powers unlock. Open the Relics menu to track your collection and research progress."
+			]
+			id: "F003"
+			rewards: [{
+				id: "F203"
+				item: "relics:leather_belt"
+				type: "item"
+			}]
+			subtitle: "Power hides in old ruins"
+			tasks: [{
+				id: "F103"
+				title: "Find any Relic item"
+				type: "checkmark"
+			}]
+			title: "First Relic"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["F003"]
+			description: [
+				"§6Artifacts§r are rare trinkets found in dungeon chests, mineshafts, strongholds, and structures."
+				""
+				"Unlike Relics, Artifacts are purely passive — equip them in a §bCurios§r slot and their effect activates automatically."
+				""
+				"Look for §aFeral Claws§r (faster attack speed), §aCloud in a Bottle§r (double jump), or §aFire Gauntlet§r (ignite enemies on hit)."
+			]
+			id: "F004"
+			rewards: [{
+				id: "F204"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			subtitle: "Trinkets with teeth"
+			tasks: [{
+				id: "F104"
+				title: "Equip any Artifact in a Curios slot"
+				type: "checkmark"
+			}]
+			title: "Artifact Hunter"
 			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["F000"]
+			description: [
+				"Spiders are common but don't underestimate them — they climb walls, move fast, and inflict Poison in caves."
+				""
+				"Spider Jockeys spawn infrequently with a Skeleton rider. Night fights near cave entrances can get messy fast."
+				""
+				"Equip a §aSpider Necklace§r (found in dungeons) to negate spider venom entirely — a strong early-game trinket."
+			]
+			id: "F010"
+			rewards: [{
+				id: "F210"
+				item: "artifacts:spider_necklace"
+				type: "item"
+			}]
+			subtitle: "Eight legs, no mercy"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "F110"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Spider Slayer"
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8011"]
-			id: "8012"
-			rewards: [
-				{
-					id: "8212"
-					item: "minecraft:enchanted_book"
-					type: "item"
-				}
+			dependencies: ["F010"]
+			description: [
+				"Zombies are relentless — they call for reinforcements when hit and break down doors at night."
+				""
+				"Husks in desert biomes inflict Hunger on hit. Drowned in water can throw Tridents. Keep your hunger bar full."
+				""
+				"Smite enchantments on Simply Swords weapons deal bonus damage to all undead — craft a Longsword for extended reach."
 			]
-			tasks: [
-				{
-					id: "8112"
-					item: "minecraft:echo_shard"
-					type: "item"
-				}
-			]
-			title: "Ancient City Treasure"
-			subtitle: "Find an Ancient City within the Deep Dark and loot its chests. Watch out for Sculk Shriekers!"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["8012"]
-			id: "8013"
-			rewards: [
-				{
-					id: "8213"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "8113"
-					type: "kill"
-					entity: "mutantmonsters:mutant_zombie"
-					value: 1L
-				}
-			]
-			title: "Mutant Mayhem"
-			subtitle: "Defeat a Mutant Zombie — a horrifying variant found occasionally in the world. Bring heavy armour."
+			id: "F011"
+			rewards: [{
+				id: "F211"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			subtitle: "They just keep coming"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "F111"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Zombie Horde"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8010"]
-			id: "8014"
-			rewards: [
-				{
-					count: 3
-					id: "8214"
-					item: "minecraft:diamond"
-					type: "item"
-				}
+			dependencies: ["F011"]
+			description: [
+				"Skeletons are accurate at range — close the distance fast or fight them from cover."
+				""
+				"§bArchers§r mod adds new bow and crossbow variants with different range, reload speed, and damage profiles. Outrange them with a Composite Longbow."
+				""
+				"Use a §9War Scythe§r or §9Greataxe§r to interrupt their shots in melee. A shield on a timed raise also deflects arrows."
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "8114"
-					item: "deeperdarker:sculk_stone"
-					type: "item"
-				}
-			]
-			title: "Deeper \& Darker"
-			subtitle: "Explore the Deeper Dark dimension added by Deeper \& Darker — found beyond the Ancient City."
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["8010"]
-			id: "8015"
-			rewards: [
-				{
-					count: 4
-					id: "8215"
-					item: "aether:zanite_gemstone"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "8115"
-					item: "aether:skyroot_pickaxe"
-					type: "item"
-				}
-			]
-			title: "Into the Aether"
-			subtitle: "Pour Water onto a Nether Portal frame to open a portal to the Aether — a land in the sky."
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["8015"]
-			id: "8016"
-			rewards: [
-				{
-					id: "8216"
-					item: "minecraft:enchanted_book"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 1L
-					id: "8116"
-					item: "aether:zanite_gemstone"
-					type: "item"
-				}
-			]
-			title: "Zanite!"
-			subtitle: "Mine Zanite Ore in the Aether. The pickaxe gets faster as your health drops — risky but powerful."
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["8013"]
-			id: "8017"
-			rewards: [
-				{
-					count: 2
-					id: "8217"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "8117"
-					type: "kill"
-					entity: "mutantmonsters:mutant_creeper"
-					value: 1L
-				}
-			]
-			title: "Creeper? Aw Man."
-			subtitle: "Defeat a Mutant Creeper before it obliterates everything around it. Keep your distance."
-			x: 8.0d
+			id: "F012"
+			rewards: [{
+				id: "F212"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			subtitle: "Death from a distance"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "F112"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Skeleton Sniper"
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8017"]
-			id: "8018"
-			rewards: [
-				{
-					count: 2
-					id: "8218"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
+			dependencies: ["F012"]
+			description: [
+				"Drowned lurk in rivers, oceans, and flooded ruins. Those with Tridents will throw them — watch for the wind-up before they release."
+				""
+				"Underwater combat is slowed without Aqua Affinity and Depth Strider. Fight on the surface edge where possible."
+				""
+				"§aAqua Dashers§r grant superior underwater movement — essential for ocean monuments, shipwrecks, and any deep-water fight."
 			]
-			tasks: [
-				{
-					id: "8118"
-					type: "kill"
-					entity: "cataclysm:ignis"
-					value: 1L
-				}
-			]
-			title: "Cataclysm"
-			subtitle: "Defeat Ignis — the Fire Giant boss from L_Ender's Cataclysm. Summon it with its Altar."
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["8018"]
-			id: "8019"
-			rewards: [
-				{
-					count: 1
-					id: "8219"
-					item: "cataclysm:infernal_forge"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:netherite_monstrosity"
-					id: "8119"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Netherite Monstrosity"
-			subtitle: "A hulking armoured behemoth of the Nether. Summon it at the Iron Altar and bring your heaviest firepower."
+			id: "F013"
+			rewards: [{
+				id: "F213"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			subtitle: "The deep is watching"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "F113"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Drowned Below"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8019"]
-			id: "801A"
-			rewards: [
-				{
-					count: 1
-					id: "821A"
-					item: "cataclysm:gauntlet_of_guard"
-					type: "item"
-				}
+			dependencies: ["F013"]
+			description: [
+				"Blazes guard Nether Fortresses with relentless fireball barrages."
+				""
+				"Use a Composite Longbow or Heavy Crossbow from §bArchers§r to fight them from range. Alternatively — close in fast with a two-handed weapon to interrupt their attack charge."
+				""
+				"Blaze Rods are essential: brew potions, craft Eyes of Ender, and fuel the §6Infernal Forge§r later."
 			]
-			tasks: [
-				{
-					entity: "cataclysm:ender_guardian"
-					id: "811A"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Ender Guardian"
-			subtitle: "The Ender Guardian lurks deep in End structures. Awaken it at the Void Altar and prepare for teleportation attacks."
-			x: 14.0d
+			id: "F020"
+			rewards: [{
+				id: "F220"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			subtitle: "The Nether's gatekeepers"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "F120"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Blaze Champion"
+			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["801A"]
-			id: "801B"
-			rewards: [
-				{
-					count: 1
-					id: "821B"
-					item: "cataclysm:tidal_claws"
-					type: "item"
-				}
+			dependencies: ["F020"]
+			description: [
+				"Ghasts wander open Nether skies and lob explosive fireballs at anything they spot."
+				""
+				"Their fireballs can be knocked back with a hit — deflecting one back into the Ghast kills it in one shot. A longbow is more reliable for consistent range kills."
+				""
+				"Ghast Tears drop rarely and are irreplaceable — needed for Potions of Regeneration and End Crystals."
 			]
-			tasks: [
-				{
-					entity: "cataclysm:the_leviathan"
-					id: "811B"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "The Leviathan"
-			subtitle: "An ancient ocean titan. Summon The Leviathan at the Aquatic Altar — fight it in the depths."
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["801B"]
-			id: "801C"
-			rewards: [
-				{
-					count: 1
-					id: "821C"
-					item: "cataclysm:remnant_skull"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:ancient_remnant"
-					id: "811C"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Ancient Remnant"
-			subtitle: "A desert colossus of ancient stone. Find the Desert Altar and shatter this awakened relic."
+			id: "F021"
+			rewards: [{
+				id: "F221"
+				item: "simplyswords:diamond_claymore"
+				type: "item"
+			}]
+			subtitle: "Cry if you miss"
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "F121"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Ghast Hunter"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8016"]
-			id: "801D"
+			dependencies: ["F021"]
+			description: [
+				"Wither Skeletons are the most dangerous guards of the Nether Fortress. Their Wither effect keeps draining health long after the hit — always bring Milk."
+				""
+				"They move fast and carry stone swords. The §9Diamond Greataxe§r has enough reach and raw damage to clear groups in tight corridors."
+				""
+				"Wither Skeleton Skulls are needed to summon The Wither — you'll need three. The drop rate is low, so budget extra time."
+			]
+			id: "F022"
+			rewards: [{
+				id: "F222"
+				item: "simplyswords:diamond_greataxe"
+				type: "item"
+			}]
+			subtitle: "Three skulls for a nightmare"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "F122"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Wither Bones"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F022"]
+			description: [
+				"The §4Wither§r is a three-headed flying boss summoned by stacking three §4Wither Skeleton Skulls§r on Soul Sand."
+				""
+				"Phase 1: hovers and fires projectiles that inflict the Wither effect. Hit it relentlessly — it heals fast if you stop."
+				""
+				"Phase 2 below half health: becomes immune to ranged attacks and summons Wither Skeletons. Switch to your heaviest melee weapon and finish it before reinforcements pile up."
+			]
+			id: "F023"
 			rewards: [
 				{
-					count: 1
-					id: "821D"
-					item: "aether:bronze_dungeon_key"
+					id: "F223"
+					item: "simplyswords:runic_longsword"
+					type: "item"
+				}
+				{
+					id: "F323"
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 			]
-			tasks: [
+			subtitle: "Three heads, one death"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "F123"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Wither"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F023"]
+			description: [
+				"The §4Ender Dragon§r circles the obsidian pillar arena in The End, regenerating from §4End Crystals§r on top of each pillar."
+				""
+				"Destroy all End Crystals first — use a bow or longbow to pop them safely from range before engaging the dragon."
+				""
+				"Bait it to perch on the central fountain, then unleash your strongest melee combo. Runic weapons from Simply Swords hit especially hard here."
+			]
+			id: "F024"
+			rewards: [
 				{
-					entity: "aether:slider"
-					id: "811D"
-					type: "kill"
-					value: 1L
+					id: "F224"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "F324"
+					item: "minecraft:elytra"
+					type: "item"
 				}
 			]
-			title: "The Slider"
-			subtitle: "Defeat the Slider boss in a Bronze Dungeon. Avoid its crushing charge — it is faster than it looks."
-			x: 8.0d
+			subtitle: "End of the beginning"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "F124"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dragon Slayer"
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F024"]
+			description: [
+				"§cIgnis§r is a towering fire giant from §bL_Ender's Cataclysm§r. Summon it at the §6Altar of Fire§r found deep in the Nether."
+				""
+				"Ignis attacks with sweeping fire slams, ranged lava projectiles, and a devastating ground stomp. §eFire Resistance§r is not optional — bring multiple potions."
+				""
+				"Defeating Ignis drops Ignitium Ingots — a rare Cataclysm material used to forge Ignitium Armour and upgrade Cataclysm weapons."
+			]
+			id: "F030"
+			rewards: [
+				{
+					id: "F230"
+					item: "cataclysm:blazing_grips"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "F330"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "He runs hot"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "F130"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F030"]
+			description: [
+				"The §cNetherite Monstrosity§r is an armour-plated titan of the Nether. Summon it at the §6Iron Altar§r."
+				""
+				"It is slow but devastatingly powerful — a single hit can one-shot you without fully upgraded armour. Bait its slams then counterattack in the brief window after impact."
+				""
+				"Defeating it drops the §6Infernal Forge§r — a unique upgrade station for crafting exceptional Cataclysm-tier equipment."
+			]
+			id: "F031"
+			rewards: [
+				{
+					id: "F231"
+					item: "cataclysm:infernal_forge"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "F331"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Armoured in darkness"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "F131"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Netherite Monstrosity"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F031"]
+			description: [
+				"The §cEnder Guardian§r lurks in End structures. Summon it at the §6Void Altar§r found in the outer End islands."
+				""
+				"It teleports, fires void projectiles, and creates damaging zones underfoot. Bring §eSlow Falling§r potions — falling into the void during this fight ends it permanently."
+				""
+				"The §6Gauntlet of Guard§r it rewards is one of the strongest defensive accessories in Cataclysm, blocking a portion of incoming damage on a timed parry."
+			]
+			id: "F032"
+			rewards: [
+				{
+					id: "F232"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "F332"
+					item: "cataclysm:enderite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "The void stares back"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "F132"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Guardian"
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F032"]
+			description: [
+				"§cThe Leviathan§r is a colossal ocean serpent from Cataclysm. Summon it at the §6Aquatic Altar§r found deep underwater."
+				""
+				"The fight takes place in open water — it will drag you under if you stay still. §bAqua Dashers§r or Depth Strider III let you keep pace as it circles."
+				""
+				"Defeat it to claim the §6Tidal Claws§r — gauntlets that power up your attacks underwater and grant enhanced swimming speed."
+			]
+			id: "F033"
+			rewards: [
+				{
+					id: "F233"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "F333"
+					item: "cataclysm:azure_seastone"
+					type: "item"
+				}
+			]
+			subtitle: "Something ancient stirs below"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "F133"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Leviathan"
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F033"]
+			description: [
+				"The §cAncient Remnant§r is a towering stone colossus risen from desert sands. Summon it at the §6Desert Altar§r found in desert structures."
+				""
+				"It attacks with sweeping stone fists and sand explosions. Fire damage is ineffective — use lightning, slashing, or piercing damage instead."
+				""
+				"The §6Necklace of the Desert§r it rewards resists sand traps and reflects a portion of physical damage back to attackers."
+			]
+			id: "F034"
+			rewards: [
+				{
+					id: "F234"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "F334"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Stone and sand and ruin"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "F134"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ancient Remnant"
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F013"]
+			description: [
+				"The §bDeep Dark§r biome forms deep underground, below Y=-40, growing around §4Ancient Cities§r — massive structures with rare loot."
+				""
+				"§4Sculk Sensors§r detect vibrations and trigger §4Sculk Shriekers§r. Three shrieks summon a §4Warden§r — the most dangerous mob in the game."
+				""
+				"Move slowly, sneak constantly, never sprint near a Shrieker. §eWool blocks§r muffle vibrations. Night Vision Goggles help navigate the pitch-black corridors."
+			]
+			id: "F040"
+			rewards: [{
+				id: "F240"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			subtitle: "Silence is survival"
+			tasks: [{
+				count: 4L
+				id: "F140"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			title: "Into the Deep Dark"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F040"]
+			description: [
+				"§4Ancient Cities§r are built around a central §6Sculk Catalyst§r altar, with enormous corridors leading to a chest room with some of the best loot in vanilla."
+				""
+				"The §6Echo Shard§r is used to craft a Recovery Compass — it points to where you last died. Keep one on you in high-stakes areas."
+				""
+				"Getting there without triggering a Warden is the real challenge. Wool carpets on the floor and Sneak enchantments on armour help greatly."
+			]
+			id: "F041"
+			rewards: [{
+				id: "F241"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
+			subtitle: "What lies in the dark"
+			tasks: [{
+				id: "F141"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "Ancient City Treasure"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F041"]
+			description: [
+				"The §4Warden§r cannot see — but it has perfect hearing and detects vibrations through the ground."
+				""
+				"Move slowly, sneak constantly, never sprint near it. Its §4Sonic Boom§r bypasses all armour entirely — there is no tanking it."
+				""
+				"Bring Milk to cure Weakness. Hit-and-run in short bursts. If things go badly, just run — the exit is worth more than the kill."
+			]
+			id: "F042"
+			rewards: [
+				{
+					id: "F242"
+					item: "simplyswords:runic_claymore"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "F342"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "It heard that"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "F142"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Silence in the Deep"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F011"]
+			description: [
+				"§cMutant Monsters§r are super-powered versions of vanilla mobs that spawn naturally, especially in deep dark areas."
+				""
+				"A §cMutant Zombie§r hits hard, regenerates health between attacks, and hurls smaller zombies at you like living projectiles."
+				""
+				"It drops §6Chemical X§r (used to craft Mutant Serums) and the rare §6Hulk Hammer§r — a devastating two-handed weapon that sends enemies flying skyward."
+			]
+			id: "F050"
+			rewards: [{
+				id: "F250"
+				item: "mutantmonsters:hulk_hammer"
+				type: "item"
+			}]
+			subtitle: "This is not a normal zombie"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "F150"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mutation Station"
+			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["801D"]
-			id: "801E"
-			rewards: [
-				{
-					count: 1
-					id: "821E"
-					item: "aether:silver_dungeon_key"
-					type: "item"
-				}
+			dependencies: ["F050"]
+			description: [
+				"The §cMutant Skeleton§r teleports when threatened and unleashes volleys of arrows — including a spread shot that is nearly impossible to dodge in open space."
+				""
+				"Corner it in tight corridors to limit its teleport range. Open fields are a death sentence against its barrage."
+				""
+				"The §6Shadow Glaive§r is a Relic weapon that fires shadow projectiles on hit — effective at mid-range and against armoured targets."
 			]
-			tasks: [
-				{
-					entity: "aether:valkyrie_queen"
-					id: "811E"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Valkyrie Queen"
-			subtitle: "The Valkyrie Queen guards the Silver Dungeon. Defeat her winged warriors first, then face the queen herself."
-			x: 10.0d
+			id: "F051"
+			rewards: [{
+				id: "F251"
+				item: "relics:shadow_glaive"
+				type: "item"
+			}]
+			subtitle: "Teleporting sniper"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "F151"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dead Shot"
+			x: 9.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["801E"]
-			id: "801F"
-			rewards: [
-				{
-					count: 1
-					id: "821F"
-					item: "aether:gold_dungeon_key"
-					type: "item"
-				}
+			dependencies: ["F013"]
+			description: [
+				"The §cMutant Creeper§r detonates in a chain of explosions far larger than a normal creeper — and can summon §4Charged Creepers§r mid-fight."
+				""
+				"Keep your distance at all times. Use ranged weapons: a Composite Longbow or Heavy Crossbow from §bArchers§r works well from range."
+				""
+				"Defeating it drops §6Creeper Shards§r and rewards the §6Flame Eye§r — a key component for summoning Ignis, a Cataclysm boss."
 			]
-			tasks: [
-				{
-					entity: "aether:sun_spirit"
-					id: "811F"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Sun Spirit"
-			subtitle: "The final boss of the Aether. Defeat the immortal Sun Spirit in the Gold Dungeon to complete your Aether journey."
+			id: "F052"
+			rewards: [{
+				id: "F252"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			subtitle: "Keep your distance"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "F152"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Creeper? Aw Man."
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["F024"]
+			description: [
+				"The §cMutant Enderman§r is a towering, rage-fuelled abomination that hunts through the End and the Overworld alike."
+				""
+				"It hurls blocks at full force, teleports relentlessly, and spawns smaller Endermen to assist it. Never make direct eye contact."
+				""
+				"It drops the §6Endersoul Hand§r — a magical fist weapon that fires soul projectiles capable of bypassing armour."
+			]
+			id: "F053"
+			rewards: [{
+				id: "F253"
+				item: "mutantmonsters:endersoul_hand"
+				type: "item"
+			}]
+			subtitle: "It sees you staring"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "F153"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Endersoul"
+			x: 27.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["F013"]
+			description: [
+				"The §bAether§r is a sky dimension accessed by pouring Water onto a §eGlowstone§r Nether Portal frame."
+				""
+				"It is a floating island paradise full of unique mobs, ores, and three boss dungeons. Bring plenty of food — falls from Aether islands are lethal."
+				""
+				"Build a §eSkyroot Pickaxe§r from Skyroot Wood found in the Aether to mine Zanite and Gravitite — the core progression materials of the dimension."
+			]
+			id: "F060"
+			rewards: [{
+				count: 4
+				id: "F260"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			subtitle: "The sky is just the beginning"
+			tasks: [{
+				id: "F160"
+				item: "aether:skyroot_pickaxe"
+				type: "item"
+			}]
+			title: "Into the Aether"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F060"]
+			description: [
+				"§eZanite Ore§r glows in the Aether's island caves. Its unique property: the §eZanite Pickaxe§r mines faster the lower your health is — high risk, high reward."
+				""
+				"Zanite tools can mine all Aether ores. The §eZanite Sword§r hits reliably early in the Aether and scales well for the dungeon bosses ahead."
+				""
+				"Stock up on Zanite Gemstones before entering Bronze Dungeons — the Slider can be lethal without solid gear."
+			]
+			id: "F061"
+			rewards: [{
+				id: "F261"
+				item: "aether:zanite_sword"
+				type: "item"
+			}]
+			subtitle: "The weaker you are, the sharper it cuts"
+			tasks: [{
+				count: 1L
+				id: "F161"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			title: "Zanite!"
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F061"]
+			description: [
+				"The §cSlider§r is the boss of the §6Bronze Dungeon§r — a massive stone cube that charges across the room at lethal speed."
+				""
+				"Its only weakness: hit it continuously §ewhile it slides§r — it takes damage on each impact as it moves. Dodge its charges by sidestepping just before contact."
+				""
+				"Defeating the Slider opens the Bronze Dungeon's main chest and rewards the §6Gravitite Sword§r — powerful enough for the Silver Dungeon ahead."
+			]
+			id: "F062"
+			rewards: [
+				{
+					id: "F262"
+					item: "aether:bronze_dungeon_key"
+					type: "item"
+				}
+				{
+					id: "F362"
+					item: "aether:gravitite_sword"
+					type: "item"
+				}
+			]
+			subtitle: "Stop the cube"
+			tasks: [{
+				entity: "aether:slider"
+				id: "F162"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Slider"
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F062"]
+			description: [
+				"The §cValkyrie Queen§r rules the §6Silver Dungeon§r. She is swift, wields a powerful lance, and is protected by Valkyrie warriors throughout the dungeon."
+				""
+				"Clear her Valkyrie guards before facing the Queen — otherwise they interrupt the fight and extend it indefinitely. Use AoE weapons like a War Scythe or Claymore."
+				""
+				"The §6Valkyrie Lance§r she drops is one of the finest thrusting weapons in the Aether — fast, long-reaching, and effective against her own kin."
+			]
+			id: "F063"
+			rewards: [
+				{
+					id: "F263"
+					item: "aether:silver_dungeon_key"
+					type: "item"
+				}
+				{
+					id: "F363"
+					item: "aether:valkyrie_lance"
+					type: "item"
+				}
+			]
+			subtitle: "She doesn't fall alone"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "F163"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Valkyrie Queen"
+			x: 21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F063"]
+			description: [
+				"The §6Sun Spirit§r is the §4immortal§r final boss of the Aether, sealed inside the §6Gold Dungeon§r."
+				""
+				"It fills the room with sweeping light beams and cyclical attack patterns. Cold-damage weapons deal bonus damage — equip §eFrostfall§r from Simply Swords if you have one."
+				""
+				"Defeating it ends your Aether journey. The §6Agility Cape§r grants a double-jump and faster movement in all dimensions — one of the best mobility items in the game."
+			]
+			id: "F064"
+			rewards: [
+				{
+					id: "F264"
+					item: "aether:gold_dungeon_key"
+					type: "item"
+				}
+				{
+					id: "F364"
+					item: "aether:agility_cape"
+					type: "item"
+				}
+			]
+			subtitle: "The Aether's eternal guardian"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "F164"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sun Spirit"
+			x: 24.0d
+			y: -5.0d
+		}
 	]
-	subtitle: "Explore dungeons, fight bosses, and uncover hidden dimensions."
-	title: "Adventure \& Exploration"
+	subtitle: "Gear up, face every threat, and conquer the world's most fearsome foes."
+	title: "§6⚔ Combat & Adventure"
 }

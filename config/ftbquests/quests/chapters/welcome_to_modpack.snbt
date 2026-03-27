@@ -469,7 +469,7 @@
 				{
 					count: 8
 					id: "B21F"
-					item: "minecraft:nether_quartz"
+					item: "minecraft:quartz"
 					type: "item"
 				}
 			]

@@ -7,27 +7,28 @@ const INTEREST_TIMER = 36000 // ticks — 30 minutes at 20 tps
 const INTEREST_RATE = 1.005 // 0.5% per period
 
 function depositEmeralds(player, depositAmount) {
-  const bankData = player.persistentData
+  const balance = Number(player.persistentData.PersonalBank) || 0
 
-  if (depositAmount === 0) {
-    player.statusMessage = Text.green(`You have ${bankData.PersonalBank} Emerald${bankData.PersonalBank !== 1 ? 's' : ''}.`)
+  if (!(depositAmount > 0)) {
+    player.statusMessage = Text.green(`You have ${balance} Emerald${balance !== 1 ? 's' : ''}.`)
     return
   }
 
-  bankData.PersonalBank = (bankData.PersonalBank || 0) + depositAmount
+  const newBalance = balance + depositAmount
+  player.persistentData.PersonalBank = newBalance
   player.inventory.clear('minecraft:emerald')
   player.inventory.clear('minecraft:emerald_block')
 
-  player.statusMessage = Text.green(`Deposited ${depositAmount} Emerald${depositAmount > 1 ? 's' : ''}! Balance: ${bankData.PersonalBank}.`)
+  player.statusMessage = Text.green(`Deposited ${depositAmount} Emerald${depositAmount !== 1 ? 's' : ''}! Balance: ${newBalance}.`)
 }
 
 function withdrawEmeralds(player, bankAmount) {
-  if (bankAmount === 0) {
+  if (!(bankAmount > 0)) {
     player.statusMessage = Text.of('§7Your wallet is empty.')
     return 0
   }
 
-  let amount = Math.min(bankAmount, MAX_WITHDRAWAL_AMOUNT)
+  const amount = Math.min(bankAmount, MAX_WITHDRAWAL_AMOUNT)
   const blocks = Math.floor(amount / 9)
   const singles = amount % 9
   const actual = singles + blocks * 9
@@ -35,14 +36,13 @@ function withdrawEmeralds(player, bankAmount) {
   if (blocks > 0) player.give(Item.of('minecraft:emerald_block', blocks))
   if (singles > 0) player.give(Item.of('minecraft:emerald', singles))
 
-  player.statusMessage = Text.green(`Withdrew ${actual} Emerald${actual !== 1 ? 's' : ''}. Balance: ${bankAmount - actual}.`)
-  return bankAmount - actual
+  const newBalance = bankAmount - actual
+  player.statusMessage = Text.green(`Withdrew ${actual} Emerald${actual !== 1 ? 's' : ''}. Balance: ${newBalance}.`)
+  return newBalance
 }
 
 ItemEvents.rightClicked('kubejs:wallet', (e) => {
   const { player } = e
-  const bankData = player.persistentData
-  if (bankData.PersonalBank == undefined) bankData.PersonalBank = 0
 
   const { x, y, z } = player
   player.server.runCommandSilent(`playsound minecraft:block.amethyst_block.hit master @p ${x} ${y} ${z}`)
@@ -50,10 +50,11 @@ ItemEvents.rightClicked('kubejs:wallet', (e) => {
   if (!player.isCrouching()) {
     const emeraldCount = player.inventory.count('minecraft:emerald')
     const emeraldBlockCount = player.inventory.count('minecraft:emerald_block')
-    const depositAmount = emeraldCount + emeraldBlockCount * 9
+    const depositAmount = (Number(emeraldCount) || 0) + (Number(emeraldBlockCount) || 0) * 9
     depositEmeralds(player, depositAmount)
   } else {
-    bankData.PersonalBank = withdrawEmeralds(player, bankData.PersonalBank || 0)
+    const balance = Number(player.persistentData.PersonalBank) || 0
+    player.persistentData.PersonalBank = withdrawEmeralds(player, balance)
   }
 })
 
@@ -65,14 +66,13 @@ ServerEvents.tick((e) => {
   tick = 0
 
   e.server.players.forEach((player) => {
-    const bankData = player.persistentData
-    const balance = bankData.PersonalBank || 0
+    const balance = Number(player.persistentData.PersonalBank) || 0
     if (balance < 24) return // no interest on tiny balances
 
     const interest = Math.floor(balance * INTEREST_RATE) - balance
     if (interest > 0) {
-      bankData.PersonalBank += interest
-      player.statusMessage = Text.green(`+${interest} Emerald${interest !== 1 ? 's' : ''} interest! Balance: ${bankData.PersonalBank}.`)
+      player.persistentData.PersonalBank = balance + interest
+      player.statusMessage = Text.green(`+${interest} Emerald${interest !== 1 ? 's' : ''} interest! Balance: ${balance + interest}.`)
     }
   })
 })

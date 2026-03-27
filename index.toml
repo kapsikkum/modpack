@@ -78,7 +78,7 @@ hash = "178c5b3df50c785309adfbcd016b93c92d927064a842030b8fa8fee0807d3b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "21b182b301c72a012c72e5281fd7a69a42e354776d41b781a38e516c24b64c84"
+hash = "6228787c1e9b1bde385ec1e760d345e977e705842c6d935bdc1cf693dc542612"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -91,10 +91,6 @@ hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
 hash = "48217071a5edfe9dae381587da303e0fbe889ce51608ccc8684c5ae506fa990b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "dc078e12bf8c95e397d356f0043fb7317c8522ed1ff2d29feb9818e411793efa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -114,7 +110,7 @@ hash = "40be291267948a4f5c63b9a6ab4e3f022e833ecf23fa2fe20a5efa885d8052e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "5288b9d95ce260b823f2510e95cbe325cec3a9c25c575ae85429290230089e88"
+hash = "c4b9aa80bfaef1c8b302e1f3a874d06eaf13f0715bdaab92f86213fbc9d570e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -122,7 +118,7 @@ hash = "6e615bbfc7b6df3c7f3954243ba9e9bfd396e5c4fa408a1ec476eaf3ccc86a4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
-hash = "f8c554814f3b41bb1c36726b2a939435214e8bf8867af946ec3d56b6f2a7da4b"
+hash = "d50c894acaebfefb5733f96c42c3d01495a08ef23883f7f0ebc1ac29fc8827d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
@@ -134,7 +130,7 @@ hash = "9783a5e37e8bc072e81bb57c05b52398a151d03811ff0cfba5f7e9bd70b2eb6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "fde643728e9f5fd9ae89c6ed3c65ab9dcfd72256588e4eb94fdcfa08a2b94be0"
+hash = "420ae4561f42249932fc4c8e3e3437b850286aba5cf13d0c699f60c4f8af4961"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -579,7 +575,7 @@ hash = "3dadc8d2598f5b743f7b8d29b24a40cd87afb7505433f45b18679e94574fa676"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
-hash = "2c7eabf5fb160f123d815819e3fb0ff0f670a146efaae408a226ce564479b2ff"
+hash = "e6bf5c81de1d5f85acb880368d906347e0cf1daec08aa66357b4ff4c612227cb"
 
 [[files]]
 file = "kubejs/server_scripts/wallet_recipe.js"
@@ -1902,6 +1898,11 @@ metafile = true
 [[files]]
 file = "mods/refined-storage-curios-integration.pw.toml"
 hash = "ce6f405d86fa560f11825b1c92ac8ffe27e5d8b5e1e576ca9b464bb35bbe6c7a"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-emi-integration.pw.toml"
+hash = "4a5af515250fbde913593346d51b2c4ac8f660e71ba21f65f49a02209bb65509"
 metafile = true
 
 [[files]]

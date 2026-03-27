@@ -15,9 +15,9 @@
 			id: "6010"
 			rewards: [
 				{
-					count: 8
+					count: 16
 					id: "6210"
-					item: "mekanism:ingot_osmium"
+					item: "minecraft:redstone"
 					type: "item"
 				}
 			]
@@ -39,9 +39,9 @@
 			id: "6011"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "6211"
-					item: "mekanism:ingot_osmium"
+					item: "mekanism:alloy_infused"
 					type: "item"
 				}
 			]
@@ -63,9 +63,15 @@
 			id: "6012"
 			rewards: [
 				{
-					count: 4
+					count: 16
 					id: "6212"
-					item: "mekanism:ingot_osmium"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6212b"
+					item: "mekanism:basic_mechanical_pipe"
 					type: "item"
 				}
 			]
@@ -87,9 +93,15 @@
 			id: "6013"
 			rewards: [
 				{
-					count: 4
+					count: 16
 					id: "6213"
 					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6213b"
+					item: "mekanism:ingot_steel"
 					type: "item"
 				}
 			]
@@ -110,8 +122,9 @@
 			id: "6014"
 			rewards: [
 				{
+					count: 16
 					id: "6214"
-					item: "mekanism:heat_generator"
+					item: "mekanism:basic_universal_cable"
 					type: "item"
 				}
 			]
@@ -133,9 +146,8 @@
 			id: "6015"
 			rewards: [
 				{
-					count: 4
 					id: "6215"
-					item: "mekanism:ingot_steel"
+					item: "mekanism:advanced_energy_cube"
 					type: "item"
 				}
 			]
@@ -159,7 +171,7 @@
 				{
 					count: 8
 					id: "6216"
-					item: "mekanism:ingot_steel"
+					item: "mekanism:alloy_infused"
 					type: "item"
 				}
 			]
@@ -181,9 +193,9 @@
 			id: "6017"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "6217"
-					item: "mekanism:alloy_infused"
+					item: "mekanism:basic_control_circuit"
 					type: "item"
 				}
 			]
@@ -205,9 +217,15 @@
 			id: "6018"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "6218"
-					item: "mekanism:alloy_advanced"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6218b"
+					item: "mekanism:advanced_control_circuit"
 					type: "item"
 				}
 			]
@@ -231,7 +249,13 @@
 				{
 					count: 4
 					id: "6219"
-					item: "mekanism:alloy_elite"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6219b"
+					item: "mekanism:upgrade_speed"
 					type: "item"
 				}
 			]
@@ -253,9 +277,9 @@
 			id: "601A"
 			rewards: [
 				{
-					count: 8
+					count: 16
 					id: "621A"
-					item: "mekanism:ingot_osmium"
+					item: "mekanism:basic_pressurized_tube"
 					type: "item"
 				}
 			]
@@ -277,9 +301,9 @@
 			id: "601B"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "621B"
-					item: "mekanism:yellow_cake_uranium"
+					item: "mekanism:basic_chemical_tank"
 					type: "item"
 				}
 			]
@@ -301,9 +325,14 @@
 			id: "601C"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "621C"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					id: "621Cb"
+					item: "mekanism:solar_neutron_activator"
 					type: "item"
 				}
 			]
@@ -324,9 +353,9 @@
 			id: "601D"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "621D"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:advanced_control_circuit"
 					type: "item"
 				}
 			]
@@ -347,9 +376,15 @@
 			id: "601E"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "621E"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "621Eb"
+					item: "mekanism:upgrade_energy"
 					type: "item"
 				}
 			]
@@ -372,7 +407,7 @@
 				{
 					count: 8
 					id: "621F"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:radioactive_waste_barrel"
 					type: "item"
 				}
 			]
@@ -393,9 +428,13 @@
 			id: "6020"
 			rewards: [
 				{
-					count: 4
 					id: "6220"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "6220b"
+					item: "mekanism:hazmat_gown"
 					type: "item"
 				}
 			]
@@ -416,9 +455,15 @@
 			id: "6021"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "6221"
 					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6221b"
+					item: "mekanism:upgrade_speed"
 					type: "item"
 				}
 			]
@@ -439,9 +484,8 @@
 			id: "6022"
 			rewards: [
 				{
-					count: 8
 					id: "6222"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:quantum_entangloporter"
 					type: "item"
 				}
 			]
@@ -491,9 +535,8 @@
 			id: "6023"
 			rewards: [
 				{
-					count: 16
 					id: "6223"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:meka_tool"
 					type: "item"
 				}
 			]
@@ -521,9 +564,9 @@
 			id: "6030"
 			rewards: [
 				{
-					count: 4
+					count: 16
 					id: "6230"
-					item: "mekanism:ingot_steel"
+					item: "mekanism:basic_universal_cable"
 					type: "item"
 				}
 			]
@@ -554,7 +597,7 @@
 				{
 					count: 8
 					id: "6231"
-					item: "mekanism:basic_universal_cable"
+					item: "mekanism:advanced_universal_cable"
 					type: "item"
 				}
 			]
@@ -583,8 +626,9 @@
 			id: "6033"
 			rewards: [
 				{
+					count: 8
 					id: "6233"
-					item: "mekanism:configurator"
+					item: "mekanism:basic_logistical_transporter"
 					type: "item"
 				}
 			]
@@ -613,9 +657,9 @@
 			id: "6032"
 			rewards: [
 				{
-					count: 4
+					count: 16
 					id: "6232"
-					item: "mekanism:alloy_infused"
+					item: "mekanism:basic_pressurized_tube"
 					type: "item"
 				}
 			]
@@ -643,9 +687,15 @@
 			id: "6034"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "6234"
 					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6234b"
+					item: "mekanism:upgrade_filter"
 					type: "item"
 				}
 			]
@@ -676,7 +726,7 @@
 				{
 					count: 4
 					id: "6237"
-					item: "mekanism:alloy_reinforced"
+					item: "mekanism:energy_tablet"
 					type: "item"
 				}
 			]
@@ -706,7 +756,13 @@
 				{
 					count: 4
 					id: "6236"
-					item: "mekanism:ingot_steel"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6236b"
+					item: "mekanism:basic_pressurized_tube"
 					type: "item"
 				}
 			]
@@ -735,9 +791,9 @@
 			id: "6038"
 			rewards: [
 				{
-					count: 4
+					count: 32
 					id: "6238"
-					item: "mekanism:alloy_infused"
+					item: "minecraft:redstone"
 					type: "item"
 				}
 			]
@@ -767,9 +823,9 @@
 			id: "6039"
 			rewards: [
 				{
-					count: 8
+					count: 16
 					id: "6239"
-					item: "mekanism:basic_control_circuit"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 			]
@@ -801,9 +857,15 @@
 			id: "603A"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "623A"
-					item: "mekanism:alloy_infused"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "623Ab"
+					item: "mekanism:advanced_tier_installer"
 					type: "item"
 				}
 			]
@@ -835,7 +897,7 @@
 				{
 					count: 4
 					id: "623B"
-					item: "mekanism:alloy_reinforced"
+					item: "minecraft:diamond"
 					type: "item"
 				}
 			]
@@ -865,9 +927,9 @@
 			id: "603C"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "623C"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:elite_control_circuit"
 					type: "item"
 				}
 			]
@@ -899,9 +961,8 @@
 			id: "603D"
 			rewards: [
 				{
-					count: 4
 					id: "623D"
-					item: "mekanism:ingot_steel"
+					item: "mekanism:free_runners"
 					type: "item"
 				}
 			]
@@ -935,9 +996,8 @@
 			id: "603E"
 			rewards: [
 				{
-					count: 4
 					id: "623E"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:modification_station"
 					type: "item"
 				}
 			]
@@ -969,7 +1029,7 @@
 			id: "603F"
 			rewards: [
 				{
-					count: 1
+					count: 4
 					id: "623F"
 					item: "mekanism:qio_drive_base"
 					type: "item"
@@ -1003,9 +1063,18 @@
 			id: "6040"
 			rewards: [
 				{
-					count: 1
 					id: "6240"
 					item: "mekanism:geiger_counter"
+					type: "item"
+				}
+				{
+					id: "6240b"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "6240c"
+					item: "mekanism:hazmat_boots"
 					type: "item"
 				}
 			]
