@@ -1932,7 +1932,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "f8e01ce25bef36e58c37cebf878b2cc078a5bf34d734a33f00da4691b7698d0c"
+hash = "552d9382c7e6707c9ef02cfae39b725f5cf254262547aa5ad10ee74edaa8a2e8"
 metafile = true
 
 [[files]]
