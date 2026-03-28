@@ -1,0 +1,13 @@
+name = "Luminous: Nether"
+filename = "Luminous Nether V1.3.2 - NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2CL6BDdJ/versions/3t8THncN/Luminous%20Nether%20V1.3.2%20-%20NeoForge%201.21.1.jar"
+hash-format = "sha512"
+hash = "086ab759c8e45c94180780ee1a4ca5f90b10657ec14c79b41ecbae430a928393bb9dd72694657f7daedd34fcb89ba7de99ab4053af240573909d3d49eb4ecbb5"
+
+[update]
+[update.modrinth]
+mod-id = "2CL6BDdJ"
+version = "3t8THncN"

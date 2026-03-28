@@ -894,6 +894,646 @@
 			x: 24.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["F020"]
+			description: [
+				"§bLuminous: Nether§r adds powerful boss mobs to each Nether biome."
+				""
+				"§cThe Furnace§r is a living furnace construct found in Nether Wastes. It hurls blazing projectiles and is immune to fire damage — bring your best weapons."
+				""
+				"Defeating it drops the §6Furnace Trophy§r — a rare decorative item unique to this boss."
+			]
+			id: "F070"
+			rewards: [{
+				id: "F270"
+				item: "luminous_nether:furnace_trophy"
+				type: "item"
+			}]
+			subtitle: "Born in the Nether's fires"
+			tasks: [{
+				advancement: "luminous_nether:kill_furnace"
+				criterion: "kill_furnace_0"
+				id: "F170"
+				type: "advancement"
+			}]
+			title: "The Furnace"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F070"]
+			description: [
+				"§cThe Soul Furnace§r is the evolved, soul-infused form of The Furnace — encountered in Soul Sand Valleys."
+				""
+				"Soul fire fuels its attacks, inflicting the Wither effect on direct hits. Bring Milk and resist fire as standard."
+				""
+				"Defeating it drops the §6Soul Furnace Trophy§r."
+			]
+			id: "F071"
+			rewards: [{
+				id: "F271"
+				item: "luminous_nether:soul_furnace_trophy"
+				type: "item"
+			}]
+			subtitle: "Soul-fire incarnate"
+			tasks: [{
+				advancement: "luminous_nether:kill_soul_furnace"
+				criterion: "kill_soul_furnace_0"
+				id: "F171"
+				type: "advancement"
+			}]
+			title: "The Soul Furnace"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F020"]
+			description: [
+				"§cThe Mushlin King§r lurks in the Crimson Forest, commanding hordes of fungal creatures."
+				""
+				"It hurls spores that slow movement and then rushes in with heavy melee attacks. Clear the surrounding mob pack before engaging the King itself."
+				""
+				"Defeating it drops the §6Mushlin Spewer Trophy§r."
+			]
+			id: "F072"
+			rewards: [{
+				id: "F272"
+				item: "luminous_nether:mushlin_spewer_trophy"
+				type: "item"
+			}]
+			subtitle: "King of the Crimson Forest"
+			tasks: [{
+				advancement: "luminous_nether:kill_mushlin_spewer"
+				criterion: "kill_mushlin_spewer_0"
+				id: "F172"
+				type: "advancement"
+			}]
+			title: "Mushlin King"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F072"]
+			description: [
+				"§cThe Warped Spewer King§r is the apex predator of Warped Forests, spitting streams of corrosive fluid at range."
+				""
+				"It is fast, aggressive, and can hit through partial cover. Use high-reach weapons like a Longsword or War Scythe to attack between its ranged bursts."
+				""
+				"Defeating it drops the §6Warped Spewer Trophy§r."
+			]
+			id: "F073"
+			rewards: [{
+				id: "F273"
+				item: "luminous_nether:warped_spewer_trophy"
+				type: "item"
+			}]
+			subtitle: "It spits acid"
+			tasks: [{
+				advancement: "luminous_nether:kill_warped_spitter"
+				criterion: "kill_warped_spitter_0"
+				id: "F173"
+				type: "advancement"
+			}]
+			title: "Warped Spewer King"
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F020"]
+			description: [
+				"§cThe Basalt Executioner§r guards Basalt Deltas — a towering sentinel with heavy stone armour and devastating slam attacks."
+				""
+				"Its melee hits are slow but sweep a wide arc. Strafe around it and punish after each missed slam."
+				""
+				"Defeating it drops the §6Basalt Executioner Trophy§r."
+			]
+			id: "F074"
+			rewards: [{
+				id: "F274"
+				item: "luminous_nether:basalt_exectioner_trophy"
+				type: "item"
+			}]
+			subtitle: "Carved from Basalt Delta stone"
+			tasks: [{
+				advancement: "luminous_nether:kill_basalt_executioner"
+				criterion: "kill_basalt_executioner_0"
+				id: "F174"
+				type: "advancement"
+			}]
+			title: "Basalt Executioner"
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F020"]
+			description: [
+				"§cThe Piglin Executioner§r is the Piglin warband's champion — heavily armoured, relentless, and seemingly immune to being bartered with."
+				""
+				"It hits fast and calls nearby Piglins to assist. §eGolden armour§r does not pacify it. Use area-denial tactics to manage the pack."
+				""
+				"Defeating it drops the §6Executioner Trophy§r."
+			]
+			id: "F075"
+			rewards: [{
+				id: "F275"
+				item: "luminous_nether:executioner_trophy"
+				type: "item"
+			}]
+			subtitle: "The Piglin warband's champion"
+			tasks: [{
+				advancement: "luminous_nether:kill_piglin_executioner"
+				criterion: "kill_piglin_executioner_0"
+				id: "F175"
+				type: "advancement"
+			}]
+			title: "Piglin Executioner"
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"§bLuminous Overworld§r scatters powerful boss mobs across biomes — living trophies of the world's most dangerous corners."
+				""
+				"§cThe Tree Ent§r is an ancient forest guardian — a walking tree that shakes the ground with root slams and hurls boulders at range."
+				""
+				"Defeating it drops the §6Tree Ent Trophy§r."
+			]
+			id: "F080"
+			rewards: [{
+				id: "F280"
+				item: "luminousworld:tree_ent_trophy"
+				type: "item"
+			}]
+			subtitle: "The forest fights back"
+			tasks: [{
+				advancement: "luminousworld:kill_treent"
+				criterion: "kill_treent_0"
+				id: "F180"
+				type: "advancement"
+			}]
+			title: "Tree Ent"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F080"]
+			description: [
+				"§cThe Cherry Tree Ent§r is a rare blossoming variant of the Tree Ent, found in Cherry Grove biomes."
+				""
+				"It scatters petal explosions that deal area damage in addition to its standard club attacks. Watch the ground — the petals linger."
+				""
+				"Defeating it drops the §6Cherry Tree Ent Trophy§r."
+			]
+			id: "F081"
+			rewards: [{
+				id: "F281"
+				item: "luminousworld:cherry_tree_ent_trophy"
+				type: "item"
+			}]
+			subtitle: "Beauty hides beastly strength"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_treeent"
+				criterion: "kill_rare_treeent_0"
+				id: "F181"
+				type: "advancement"
+			}]
+			title: "Cherry Tree Ent"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Bone Stalker§r is a skeletal predator that stalks players across barren and dry biomes."
+				""
+				"It is fast, pounces at gap-closing range, and hits hard despite its skeletal frame. Keep moving and use sweeping weapons to catch it mid-lunge."
+				""
+				"Defeating it drops the §6Bone Stalker Trophy§r."
+			]
+			id: "F082"
+			rewards: [{
+				id: "F282"
+				item: "luminousworld:bone_stalker_trophy"
+				type: "item"
+			}]
+			subtitle: "It doesn't stop"
+			tasks: [{
+				advancement: "luminousworld:kill_bone_stalker"
+				criterion: "kill_bone_stalker_0"
+				id: "F182"
+				type: "advancement"
+			}]
+			title: "Bone Stalker"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F082"]
+			description: [
+				"§cThe Bogged Bone Stalker§r is a swamp-dwelling rare variant — its bones soaked in bog water and overgrown with moss."
+				""
+				"Unlike its dry-land cousin, it applies Poison on each hit. Engage it on land and use Smite-enchanted weapons to exploit its undead nature."
+				""
+				"Defeating it drops the §6Rare Bone Stalker Trophy§r."
+			]
+			id: "F083"
+			rewards: [{
+				id: "F283"
+				item: "luminousworld:rare_bone_stalker_trophy"
+				type: "item"
+			}]
+			subtitle: "The bog has a predator"
+			tasks: [{
+				advancement: "luminousworld:k_ill_bogged_bone_stalker"
+				criterion: "k_ill_bogged_bone_stalker_0"
+				id: "F183"
+				type: "advancement"
+			}]
+			title: "Bogged Bone Stalker"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cMummies§r haunt desert temples and dry biomes, rising from sand to ambush explorers."
+				""
+				"They inflict Slowness and Poison on hit. Bring Milk — extended fights will drain your health through debuffs alone."
+				""
+				"Defeating one drops the §6Mummy Trophy§r."
+			]
+			id: "F084"
+			rewards: [{
+				id: "F284"
+				item: "luminousworld:mummy_trophy"
+				type: "item"
+			}]
+			subtitle: "The desert's ancient dead"
+			tasks: [{
+				advancement: "luminousworld:kill_mummy"
+				criterion: "kill_mummy_0"
+				id: "F184"
+				type: "advancement"
+			}]
+			title: "Mummy"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F084"]
+			description: [
+				"§cThe Red Mummy§r is a more powerful, crimson-wrapped variant of the Mummy found deep in desert structures."
+				""
+				"It is faster and hits harder than a standard Mummy, and inflicts Blindness in addition to Poison. Bring Night Vision potions."
+				""
+				"Defeating it drops the §6Red Mummy Trophy§r."
+			]
+			id: "F085"
+			rewards: [{
+				id: "F285"
+				item: "luminousworld:red_mummy_trophy"
+				type: "item"
+			}]
+			subtitle: "The desert's elite undead"
+			tasks: [{
+				advancement: "luminousworld:kill_red_mummy"
+				criterion: "kill_red_mummy_0"
+				id: "F185"
+				type: "advancement"
+			}]
+			title: "Red Mummy"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Phoenix§r soars over savanna and badlands biomes. It swoops in with fire dive-attacks and leaves burning trails on the ground."
+				""
+				"Fire Resistance is essential. Ground it with ranged attacks — once low on health it lands and fights in melee."
+				""
+				"Defeating it drops the §6Phoenix Trophy§r."
+			]
+			id: "F086"
+			rewards: [{
+				id: "F286"
+				item: "luminousworld:pheonix_trophy"
+				type: "item"
+			}]
+			subtitle: "Fire from above"
+			tasks: [{
+				advancement: "luminousworld:kill_pheonix"
+				criterion: "kill_pheonix_0"
+				id: "F186"
+				type: "advancement"
+			}]
+			title: "Phoenix"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F086"]
+			description: [
+				"§cThe Wind Phoenix§r is a rare, sky-blue variant of the Phoenix that commands storm winds alongside fire."
+				""
+				"It creates updrafts that throw players into the air, combining fall damage with fire attacks. §eSlow Falling§r potions are essential."
+				""
+				"Defeating it drops the §6Wind Phoenix Trophy§r."
+			]
+			id: "F087"
+			rewards: [{
+				id: "F287"
+				item: "luminousworld:wind_phoenix_trophy"
+				type: "item"
+			}]
+			subtitle: "Wind and fire combined"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_phoenix"
+				criterion: "kill_rare_phoenix_0"
+				id: "F187"
+				type: "advancement"
+			}]
+			title: "Wind Phoenix"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Vile Gator§r lurks in swamp and jungle water. It is deceptively fast in water, sluggish on land — lure it ashore before engaging."
+				""
+				"It snaps with a wide jaw strike that sends targets flying. Depth Strider and aquatic gear make water encounters more manageable."
+				""
+				"Defeating it drops the §6Vile Gator Trophy§r."
+			]
+			id: "F088"
+			rewards: [{
+				id: "F288"
+				item: "luminousworld:croc_trophy"
+				type: "item"
+			}]
+			subtitle: "Lurking in the shallows"
+			tasks: [{
+				advancement: "luminousworld:kill_gator"
+				criterion: "kill_gator_0"
+				id: "F188"
+				type: "advancement"
+			}]
+			title: "Vile Gator"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F088"]
+			description: [
+				"§cThe Frigid Gator§r is a frozen variant of the Vile Gator found in cold rivers and icy biomes."
+				""
+				"It applies Slowness and Freeze on hit — being caught in melee for long is lethal. Bring Fire Resistance and attack from the edge of its range."
+				""
+				"Defeating it drops the §6Frozen Vile Gator Trophy§r."
+			]
+			id: "F089"
+			rewards: [{
+				id: "F289"
+				item: "luminousworld:frozen_vile_gator_trophy"
+				type: "item"
+			}]
+			subtitle: "Cold and relentless"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_vile_gator"
+				criterion: "kill_rare_vile_gator_0"
+				id: "F189"
+				type: "advancement"
+			}]
+			title: "Frigid Gator"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Sea Viper§r coils in coastal waters and ocean biomes. It constricts players caught at range and delivers poisoned strikes up close."
+				""
+				"Poison Resistance or Milk is necessary. It is vulnerable to fire damage on land but nearly invincible underwater."
+				""
+				"Defeating it drops the §6Sea Viper Plaque§r."
+			]
+			id: "F08A"
+			rewards: [{
+				id: "F28A"
+				item: "luminousworld:viper_plaque"
+				type: "item"
+			}]
+			subtitle: "The ocean has a new apex"
+			tasks: [{
+				advancement: "luminousworld:kill_viper"
+				criterion: "kill_viper_0"
+				id: "F18A"
+				type: "advancement"
+			}]
+			title: "Sea Viper"
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F08A"]
+			description: [
+				"§cThe Coral Sea Viper§r is a rare, brightly-patterned variant found near coral reefs and warm ocean floor."
+				""
+				"It is more venomous than its standard counterpart and moves faster underwater. Fight it at the water surface to reduce its speed advantage."
+				""
+				"Defeating it drops the §6Coral Viper Trophy§r."
+			]
+			id: "F08B"
+			rewards: [{
+				id: "F28B"
+				item: "luminousworld:coral_viper_trophy"
+				type: "item"
+			}]
+			subtitle: "Beautiful and deadly"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_viper"
+				criterion: "kill_rare_viper_0"
+				id: "F18B"
+				type: "advancement"
+			}]
+			title: "Coral Sea Viper"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Hermit King§r is a colossal crustacean boss that defends coastal and ocean-floor territories."
+				""
+				"It burrows into the seafloor between attacks and erupts underneath players. Bring Depth Strider and use a strong ranged weapon to damage it while it surfaces."
+				""
+				"Defeating it drops the §6King Crab Plaque§r."
+			]
+			id: "F08C"
+			rewards: [{
+				id: "F28C"
+				item: "luminousworld:king_crab_plaque"
+				type: "item"
+			}]
+			subtitle: "King of the ocean floor"
+			tasks: [{
+				advancement: "luminousworld:kill_king_crab"
+				criterion: "kill_king_crab_0"
+				id: "F18C"
+				type: "advancement"
+			}]
+			title: "Hermit King"
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F08C"]
+			description: [
+				"§cThe Golden Hermit King§r is a gilded variant of the Hermit King, found in deep warm-ocean trenches."
+				""
+				"It is significantly tankier and has a lunge attack that deals massive damage. Aqua Affinity and Depth Strider III are mandatory — match its mobility."
+				""
+				"Defeating it drops the §6Golden King Hermit Trophy§r."
+			]
+			id: "F08D"
+			rewards: [{
+				id: "F28D"
+				item: "luminousworld:golden_king_hermit_trophy"
+				type: "item"
+			}]
+			subtitle: "The deep's gilded tyrant"
+			tasks: [{
+				advancement: "luminousworld:kill_golden_king_crab"
+				criterion: "kill_golden_king_crab_0"
+				id: "F18D"
+				type: "advancement"
+			}]
+			title: "Golden Hermit King"
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Witch Doctor§r is a powerful jungle shaman who hurls cursed projectiles and summons minion waves throughout the fight."
+				""
+				"Prioritise killing minions — they apply debuffs that make the Witch Doctor harder to hit. Once minions are cleared, close in fast and use high-burst damage weapons."
+				""
+				"Defeating it drops the §6Witch Doctor Trophy§r."
+			]
+			id: "F08E"
+			rewards: [{
+				id: "F28E"
+				item: "luminousworld:witch_doctor_trophy"
+				type: "item"
+			}]
+			subtitle: "The jungle's dark shaman"
+			tasks: [{
+				advancement: "luminousworld:kill_witch_doctor"
+				criterion: "kill_witch_doctor_0"
+				id: "F18E"
+				type: "advancement"
+			}]
+			title: "Witch Doctor"
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F08E"]
+			description: [
+				"§cThe Rare Witch Doctor§r is an elder shaman variant with far greater power than the common Witch Doctor."
+				""
+				"It calls in additional minion waves and applies a slow multi-stage curse that escalates if not cleansed with Milk. Keep healing accessible at all times."
+				""
+				"Defeating it drops the §6Rare Witch Doctor Trophy§r."
+			]
+			id: "F08F"
+			rewards: [{
+				id: "F28F"
+				item: "luminousworld:rare_witch_doctor_trophy"
+				type: "item"
+			}]
+			subtitle: "Elder shaman of the deep jungle"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_witch_doctor"
+				criterion: "kill_rare_witch_doctor_0"
+				id: "F18F"
+				type: "advancement"
+			}]
+			title: "Rare Witch Doctor"
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Yeti§r is a massive ice-fur beast found in snowy and frozen biomes. Its ground slams create ice patches that slow movement and its roar stuns at close range."
+				""
+				"Fire damage cuts through its thick hide. Keep your distance and punish after each ground slam with a bow or heavy crossbow."
+				""
+				"Defeating it drops the §6Yeti Trophy§r."
+			]
+			id: "F090"
+			rewards: [{
+				id: "F290"
+				item: "luminousworld:yeti_trophy"
+				type: "item"
+			}]
+			subtitle: "The frozen giant"
+			tasks: [{
+				advancement: "luminousworld:kill_frost_golem"
+				criterion: "kill_frost_golem_0"
+				id: "F190"
+				type: "advancement"
+			}]
+			title: "Yeti"
+			x: 24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F090"]
+			description: [
+				"§cThe Arid Yeti§r is a sun-bleached desert variant of the Yeti, found in badlands and extreme mesa biomes."
+				""
+				"Unlike its snow cousin, it kicks up sun-baked sand clouds that apply Blindness instead of creating ice patches. Keep Milk close."
+				""
+				"Defeating it drops the §6Arid Yeti Trophy§r."
+			]
+			id: "F091"
+			rewards: [{
+				id: "F291"
+				item: "luminousworld:arid_yeti_trophy"
+				type: "item"
+			}]
+			subtitle: "The desert's hidden colossus"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_yeti"
+				criterion: "kill_rare_yeti_0"
+				id: "F191"
+				type: "advancement"
+			}]
+			title: "Arid Yeti"
+			x: 24.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"§cThe Gilded Tree Ent§r is a rare, gold-infused variant of the Tree Ent found in badlands and sparse jungle fringe biomes."
+				""
+				"It is tougher and faster than a standard Tree Ent, with additional golden-projectile ranged attacks. Bring strong armour with Blast Protection."
+				""
+				"Defeating it drops the §6Gilded Tree Ent Trophy§r."
+			]
+			id: "F092"
+			rewards: [{
+				id: "F292"
+				item: "luminousworld:gilded_tree_ent_trophy"
+				type: "item"
+			}]
+			subtitle: "Gold veins, iron will"
+			tasks: [{
+				advancement: "luminousworld:kill_gilded_tree_ent"
+				criterion: "kill_gilded_tree_ent_0"
+				id: "F192"
+				type: "advancement"
+			}]
+			title: "Gilded Tree Ent"
+			x: 27.0d
+			y: -7.0d
+		}
 	]
 	subtitle: "Gear up, face every threat, and conquer the world's most fearsome foes."
 	title: "§6⚔ Combat & Adventure"

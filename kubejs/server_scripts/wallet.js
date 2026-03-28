@@ -6,25 +6,37 @@ const MAX_WITHDRAWAL_AMOUNT = 5184 // 576 blocks worth (9×576 = 5184 emeralds m
 const INTEREST_TIMER = 36000 // ticks — 30 minutes at 20 tps
 const INTEREST_RATE = 1.005 // 0.5% per period
 
+function getBalance(player) {
+  return player.persistentData.getInt('PersonalBank')
+}
+
+function setBalance(player, value) {
+  player.persistentData.putInt('PersonalBank', value)
+}
+
+function msg(player, text) {
+  player.tell(Text.of(text))
+}
+
 function depositEmeralds(player, depositAmount) {
-  const balance = Number(player.persistentData.PersonalBank) || 0
+  const balance = getBalance(player)
 
   if (!(depositAmount > 0)) {
-    player.statusMessage = Text.green(`You have ${balance} Emerald${balance !== 1 ? 's' : ''}.`)
+    msg(player, `§aYou have §e${balance}§a Emerald${balance !== 1 ? 's' : ''}.`)
     return
   }
 
   const newBalance = balance + depositAmount
-  player.persistentData.PersonalBank = newBalance
+  setBalance(player, newBalance)
   player.inventory.clear('minecraft:emerald')
   player.inventory.clear('minecraft:emerald_block')
 
-  player.statusMessage = Text.green(`Deposited ${depositAmount} Emerald${depositAmount !== 1 ? 's' : ''}! Balance: ${newBalance}.`)
+  msg(player, `§aDeposited §e${depositAmount}§a Emerald${depositAmount !== 1 ? 's' : ''}! Balance: §e${newBalance}§a.`)
 }
 
 function withdrawEmeralds(player, bankAmount) {
   if (!(bankAmount > 0)) {
-    player.statusMessage = Text.of('§7Your wallet is empty.')
+    msg(player, '§7Your wallet is empty.')
     return 0
   }
 
@@ -37,7 +49,8 @@ function withdrawEmeralds(player, bankAmount) {
   if (singles > 0) player.give(Item.of('minecraft:emerald', singles))
 
   const newBalance = bankAmount - actual
-  player.statusMessage = Text.green(`Withdrew ${actual} Emerald${actual !== 1 ? 's' : ''}. Balance: ${newBalance}.`)
+  setBalance(player, newBalance)
+  msg(player, `§aWithdrew §e${actual}§a Emerald${actual !== 1 ? 's' : ''}. Balance: §e${newBalance}§a.`)
   return newBalance
 }
 
@@ -53,8 +66,7 @@ ItemEvents.rightClicked('kubejs:wallet', (e) => {
     const depositAmount = (Number(emeraldCount) || 0) + (Number(emeraldBlockCount) || 0) * 9
     depositEmeralds(player, depositAmount)
   } else {
-    const balance = Number(player.persistentData.PersonalBank) || 0
-    player.persistentData.PersonalBank = withdrawEmeralds(player, balance)
+    withdrawEmeralds(player, getBalance(player))
   }
 })
 
@@ -66,13 +78,13 @@ ServerEvents.tick((e) => {
   tick = 0
 
   e.server.players.forEach((player) => {
-    const balance = Number(player.persistentData.PersonalBank) || 0
+    const balance = getBalance(player)
     if (balance < 24) return // no interest on tiny balances
 
     const interest = Math.floor(balance * INTEREST_RATE) - balance
     if (interest > 0) {
-      player.persistentData.PersonalBank = balance + interest
-      player.statusMessage = Text.green(`+${interest} Emerald${interest !== 1 ? 's' : ''} interest! Balance: ${balance + interest}.`)
+      setBalance(player, balance + interest)
+      msg(player, `§a+${interest} Emerald${interest !== 1 ? 's' : ''} interest! Balance: §e${balance + interest}§a.`)
     }
   })
 })

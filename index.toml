@@ -78,7 +78,7 @@ hash = "178c5b3df50c785309adfbcd016b93c92d927064a842030b8fa8fee0807d3b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "6228787c1e9b1bde385ec1e760d345e977e705842c6d935bdc1cf693dc542612"
+hash = "9f6739912d079c7ae5571f766f87cacba69f887cf20347f2d190043cb45f1782"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -118,7 +118,7 @@ hash = "6e615bbfc7b6df3c7f3954243ba9e9bfd396e5c4fa408a1ec476eaf3ccc86a4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
-hash = "d50c894acaebfefb5733f96c42c3d01495a08ef23883f7f0ebc1ac29fc8827d6"
+hash = "4a075e6e7e40b24eb3a4ff7397aee5af92d5a45daf7792d9fad4bb7241922b5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
@@ -575,7 +575,7 @@ hash = "3dadc8d2598f5b743f7b8d29b24a40cd87afb7505433f45b18679e94574fa676"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
-hash = "e6bf5c81de1d5f85acb880368d906347e0cf1daec08aa66357b4ff4c612227cb"
+hash = "11ded53c8e309d021db9ea16d2256f6724346d8c5f0dc5d6f2e874ff60382e43"
 
 [[files]]
 file = "kubejs/server_scripts/wallet_recipe.js"
@@ -1556,6 +1556,16 @@ hash = "114b4f1097f17b916cc5df3334aa57e34c6f4a108b87cb911e29134dd5ff980d"
 metafile = true
 
 [[files]]
+file = "mods/luminous-nether.pw.toml"
+hash = "6daa7593f7c084d59b72a8459ca20fef6b10a1abc7294b85d8eafe49d04f6cd1"
+metafile = true
+
+[[files]]
+file = "mods/luminous-tag.pw.toml"
+hash = "ecab559e0ba32b904622ba4d4f8190d440a9ff888843057cdf0b730488f19b7e"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "0c961c709297bcc89f2f07e1eb1049e4d21a331adb020f1786e5a9a0883e037c"
 metafile = true
@@ -1978,6 +1988,11 @@ metafile = true
 [[files]]
 file = "mods/rogues-and-warriors.pw.toml"
 hash = "e35cf7c4bfef1d4cf8158c4df9134b93bce4f99e00829aa3d48912b7beffc0b7"
+metafile = true
+
+[[files]]
+file = "mods/rsinfinitybooster.pw.toml"
+hash = "235ff3215c33cedf10466ed239f584ff2684fd1a835baeb80ae27f9f214a7f22"
 metafile = true
 
 [[files]]

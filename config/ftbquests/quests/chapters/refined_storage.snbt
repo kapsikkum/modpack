@@ -663,6 +663,341 @@
 			x: 18.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["D019"]
+			description: [
+				"§eExtra Disks§r extends the storage disk progression well beyond the 64K cap."
+				""
+				"The larger disks require an §eAdvanced Machine Casing§r — a beefed-up version of the standard Machine Casing built from Gold Blocks and Iron Blocks."
+				""
+				"§7Tip:§r The Advanced Machine Casing is also used in the §eAdvanced Storage Housing§r, which replaces the standard Storage Housing for all Extra Disks recipes."
+			]
+			icon: "extradisks:advanced_machine_casing"
+			id: "D024"
+			rewards: [
+				{
+					count: 2
+					id: "D224"
+					item: "extradisks:advanced_machine_casing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D125"
+					item: "extradisks:advanced_machine_casing"
+					type: "item"
+				}
+			]
+			title: "Advanced Machine Casing"
+			subtitle: "Craft an Advanced Machine Casing — the foundation of every Extra Disk."
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D024"]
+			description: [
+				"The §eWithering Processor§r is the high-end processor required for all Extra Disks. Like base RS processors it's a two-step process — craft a §7Raw Withering Processor§r first, then §7smelt it§r in a furnace."
+				""
+				"§7Key ingredient:§r The raw form requires a §eNether Star§r — head to the Nether and defeat the Wither. Worth it: one Withering Processor unlocks the entire large disk chain."
+			]
+			icon: "extradisks:withering_processor"
+			id: "D025"
+			rewards: [
+				{
+					count: 2
+					id: "D225"
+					item: "extradisks:withering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D126"
+					item: "extradisks:withering_processor"
+					type: "item"
+				}
+			]
+			title: "Withering Processor"
+			subtitle: "Smelt a Raw Withering Processor — the special component for massive storage disks."
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D025"]
+			description: [
+				"A §e256K Storage Disk§r holds §7262,144 unique item types§r — 4× the 64K vanilla cap."
+				""
+				"§7Recipe:§r Advanced Storage Housing + 256K Storage Part + Withering Processor."
+				""
+				"From here the tier progression is: §7256K → 1024K → 4096K → 16384K → 65536K → 262m → 1048m → Infinite§r. Each tier is crafted by upgrading the previous disk in the same way you upgrade vanilla storage parts."
+			]
+			icon: "extradisks:256k_item_storage_disk"
+			id: "D026"
+			rewards: [
+				{
+					count: 2
+					id: "D226"
+					item: "extradisks:256k_item_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D127"
+					item: "extradisks:256k_item_storage_disk"
+					type: "item"
+				}
+			]
+			title: "256K Storage Disk"
+			subtitle: "Craft a 256K Storage Disk — 4× the 64K vanilla ceiling."
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D026"]
+			description: [
+				"A §e1024K Storage Disk§r holds §71,048,576 item types§r — over a million."
+				""
+				"§7How to upgrade:§r Craft a 1024K Storage Part the same way as the 256K part but with more materials. Combine it with an Advanced Storage Housing and a Withering Processor."
+				""
+				"§7Pro tip:§r For most bases, 2–3 disks at this tier store everything comfortably. The tiers beyond this (4096K and up) are for truly massive automated bases or packrat hoarding."
+			]
+			icon: "extradisks:1024k_item_storage_disk"
+			id: "D027"
+			rewards: [
+				{
+					count: 2
+					id: "D227"
+					item: "extradisks:1024k_item_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D128"
+					item: "extradisks:1024k_item_storage_disk"
+					type: "item"
+				}
+			]
+			title: "1024K Storage Disk"
+			subtitle: "Craft a 1024K Storage Disk — over a million item types in one drive."
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D027"]
+			description: [
+				"The §eInfinite Storage Disk§r has no item type limit — it holds everything."
+				""
+				"§7Recipe:§r Advanced Storage Housing + Infinite Storage Part + Withering Processor. The Infinite Storage Part requires near-endgame materials."
+				""
+				"§a§lDone. You are done storing items. Forever.§r"
+			]
+			icon: "extradisks:infinite_item_storage_disk"
+			id: "D028"
+			rewards: [
+				{
+					count: 1
+					id: "D228"
+					item: "extradisks:infinite_item_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D129"
+					item: "extradisks:infinite_item_storage_disk"
+					type: "item"
+				}
+			]
+			title: "§dInfinite Storage"
+			subtitle: "Craft the Infinite Storage Disk — literally unlimited item type capacity."
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D01E"]
+			description: [
+				"§eExtraStorage§r adds tiered Autocrafters with more pattern slots and faster crafting speeds — a significant upgrade over the basic Autocrafter."
+				""
+				"The §eIron Autocrafter§r is the first tier — it has §74 pattern slots§r and processes requests faster than the basic model."
+				""
+				"§7Recipe:§r Wrap a standard Autocrafter in Iron Ingots with additional Machine Casings."
+			]
+			icon: "extrastorage:iron_crafter"
+			id: "D029"
+			rewards: [
+				{
+					count: 1
+					id: "D229"
+					item: "extrastorage:iron_crafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12A"
+					item: "extrastorage:iron_crafter"
+					type: "item"
+				}
+			]
+			title: "Iron Autocrafter"
+			subtitle: "Build an Iron Autocrafter — more pattern slots and faster than the basic model."
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["D029"]
+			description: [
+				"The §eGold Autocrafter§r has §79 pattern slots§r — enough to run an entire material processing chain from a single block."
+				""
+				"§7Use case:§r Dedicated autocrafters per material type — one Gold Autocrafter for all your ore processing recipes, another for tools, another for food.\""
+			]
+			icon: "extrastorage:gold_crafter"
+			id: "D02A"
+			rewards: [
+				{
+					count: 1
+					id: "D22A"
+					item: "extrastorage:gold_crafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12B"
+					item: "extrastorage:gold_crafter"
+					type: "item"
+				}
+			]
+			title: "Gold Autocrafter"
+			subtitle: "Upgrade to a Gold Autocrafter — 9 pattern slots for complex crafting chains."
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["D02A"]
+			description: [
+				"The §eDiamond Autocrafter§r has §716 pattern slots§r and noticeably faster processing — the practical endgame autocrafter for most bases."
+				""
+				"§7Suggestion:§r Set up one Diamond Autocrafter per mod's output chain. One for Mekanism processors, one for RS components, one for Create gears — request once, everything autocrafts down the tree automatically."
+			]
+			icon: "extrastorage:diamond_crafter"
+			id: "D02B"
+			rewards: [
+				{
+					count: 1
+					id: "D22B"
+					item: "extrastorage:diamond_crafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12C"
+					item: "extrastorage:diamond_crafter"
+					type: "item"
+				}
+			]
+			title: "Diamond Autocrafter"
+			subtitle: "Craft a Diamond Autocrafter — 16 pattern slots, the go-to for large automation setups."
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["D02B"]
+			description: [
+				"The §eNetherite Autocrafter§r is the highest tier — §725 pattern slots§r and the fastest crafting speed."
+				""
+				"§7One is (probably) enough.§r A single Netherite Autocrafter with a deep pattern tree handles almost any base's full automation requirements. The limiting factor becomes network cable bandwidth, not autocrafter speed."
+			]
+			icon: "extrastorage:netherite_crafter"
+			id: "D02C"
+			rewards: [
+				{
+					count: 1
+					id: "D22C"
+					item: "extrastorage:netherite_crafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12D"
+					item: "extrastorage:netherite_crafter"
+					type: "item"
+				}
+			]
+			title: "Netherite Autocrafter"
+			subtitle: "Craft the Netherite Autocrafter — 25 pattern slots, maximum crafting speed."
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["D020"]
+			description: [
+				"The §eInfinity Range Booster§r is a card you insert into a §eWireless Transmitter§r to give it §a§linfinite range§r — within the same dimension."
+				""
+				"§7No more Range Upgrades:§r A single Infinity Range Booster replaces every range upgrade you've ever placed. Insert it into any Wireless Transmitter and your Wireless Grid works anywhere in the dimension."
+				""
+				"§7Recipe:§r 3 Netherite Ingots on the bottom row, Range Upgrade + Nether Star in the middle row, Eyes of Ender on the corners."
+			]
+			icon: "rsinfinitybooster:infinity_card"
+			id: "D02D"
+			rewards: [
+				{
+					count: 4
+					id: "D22D"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12E"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+			]
+			title: "Infinity Range Booster"
+			subtitle: "Insert the Infinity Range Booster into a Wireless Transmitter — infinite range in your dimension."
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["D02D"]
+			description: [
+				"The §eDimension Card§r upgrades the Infinity Range Booster to work across §adimensions§r — Overworld, Nether, End, and any modded dimension."
+				""
+				"§7Usage:§r Insert it into your Wireless Transmitter in place of the Infinity Range Booster. Your Wireless Grid now connects to your home network from §aanywhere in any dimension§r."
+				""
+				"§7Recipe:§r Wrap an Infinity Range Booster in Nether Stars and Eyes of Ender. Expensive, but the result is permanent cross-dimensional network access."
+				""
+				"§7Pro tip:§r Carry your Wireless Grid on expeditions to the Nether or End — access your full item storage and request autocrafts from anywhere."
+			]
+			icon: "rsinfinitybooster:dimension_card"
+			id: "D02E"
+			rewards: [
+				{
+					count: 1
+					id: "D22E"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D12F"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			title: "Dimension Card"
+			subtitle: "Insert the Dimension Card — access your RS network from any dimension, anywhere."
+			x: 16.0d
+			y: 4.0d
+		}
 	]
 	subtitle: "Build a digital item storage and autocrafting network."
 	title: "§6Refined Storage"

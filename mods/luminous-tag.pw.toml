@@ -1,0 +1,13 @@
+name = "Luminous Tag"
+filename = "Luminous Tag V1.1 - NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uX4Rl6YL/versions/ksV9kNVX/Luminous%20Tag%20V1.1%20-%20NeoForge%201.21.1.jar"
+hash-format = "sha512"
+hash = "1841f9746d82be0449ec74c9f7db76a4d089ec07639aacdeac393f677abc49a6d8744b2a4ea775517a769db207cd611c4a3430a8661c2e3db452d2554271281e"
+
+[update]
+[update.modrinth]
+mod-id = "uX4Rl6YL"
+version = "ksV9kNVX"
