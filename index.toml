@@ -871,6 +871,11 @@ hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
+file = "mods/configurable.pw.toml"
+hash = "ffa515adf829a46c5a7fc33d74e780b80852f5654a4a448a363e09e3ed792c74"
+metafile = true
+
+[[files]]
 file = "mods/configured.pw.toml"
 hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
@@ -1766,6 +1771,11 @@ hash = "e5c9d8b97345998f99cf6da31b41c5cf4875361bc94c3354be2299730b7acb04"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+hash = "00fbbbb3eaad8978de7c6ac048ad8e3ba21dbb626ae00c1d471be2b2e8fe92da"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
@@ -1932,7 +1942,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "552d9382c7e6707c9ef02cfae39b725f5cf254262547aa5ad10ee74edaa8a2e8"
+hash = "f8e01ce25bef36e58c37cebf878b2cc078a5bf34d734a33f00da4691b7698d0c"
 metafile = true
 
 [[files]]

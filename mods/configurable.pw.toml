@@ -1,0 +1,13 @@
+name = "Configurable"
+filename = "configurable-3.3.2+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lGffrQ3O/versions/orsct6Yu/configurable-3.3.2%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "48867d26b3b03b69ccfb14ddc0bad3b0c6536b9e78be788b7f01376b0c8ee86824d00d6012f88e19ab2c89cc98c2f679c34251f3f7b2a06206c29b6e7b0dbb14"
+
+[update]
+[update.modrinth]
+mod-id = "lGffrQ3O"
+version = "orsct6Yu"
