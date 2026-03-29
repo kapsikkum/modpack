@@ -2372,16 +2372,6 @@ hash = "4fe6cc0f09a168ed71d96a30f67570ce76e0c3fa668adde71bd216cfd2b0541f"
 metafile = true
 
 [[files]]
-file = "mods/worldweaver-neoforge.pw.toml"
-hash = "a7875aa3ef2af3c850115cbf19cd0d7f79ef15eca5191f11735257e2490995b1"
-metafile = true
-
-[[files]]
-file = "mods/wunderlib-neoforge.pw.toml"
-hash = "be9540e46f1fb23ecc35d79b468480558924c518f759e46783f9d9de68b772f3"
-metafile = true
-
-[[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
