@@ -62,7 +62,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/dailyshop/daily_shop.json"
-hash = "f09ea7d76ae70657d6bd31c1c36713a2c786b5112e154f2b98cad6d4164af37f"
+hash = "af6663a4454cdc2e85cc8fde1e84aa70a32e5e03047dfd4e993bcca340b779b7"
 
 [[files]]
 file = "config/dailyshop/trade_tables/cobblemon_healing.json"
