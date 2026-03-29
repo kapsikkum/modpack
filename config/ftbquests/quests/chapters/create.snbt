@@ -480,6 +480,455 @@
 			x: 26.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2010"]
+			description: [
+				"Wearing §6Engineer's Goggles§r shows the §6Speed§r (RPM) and §6Stress§r of any shaft network you look at."
+				""
+				"§aGreen§r = capacity available. §eYellow§r = near the stress limit. §cRed§r = overloaded — machines will stop."
+				""
+				"Always wear your goggles when diagnosing why a machine isn't spinning!"
+			]
+			id: "C001"
+			rewards: [{
+				count: 4
+				id: "E001"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "See rotation speed and stress at a glance"
+			tasks: [{
+				id: "D001"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Engineer's Goggles"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2010"]
+			description: [
+				"Before you've set up a water source, the §6Hand Crank§r lets you apply rotational force manually."
+				""
+				"§7Right-click§r to spin connected shafts. Useful for bootstrapping early machines like the §6Millstone§r before your Water Wheel is built."
+				""
+				"§7Tip:§r It only spins while you're holding right-click — automation comes later!"
+			]
+			id: "C002"
+			rewards: [{
+				count: 4
+				id: "E002"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			subtitle: "Manual rotation before automation"
+			tasks: [{
+				id: "D002"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Hand Crank"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2012"]
+			description: [
+				"The §6Large Water Wheel§r generates significantly more §aSU§r than a standard Water Wheel."
+				""
+				"It occupies a 5×5 area and requires flowing water around its rim for maximum output."
+				""
+				"§7Tip:§r Build a channel with water sources feeding from both ends to keep flow consistent around the entire wheel."
+			]
+			id: "C003"
+			rewards: [{
+				count: 4
+				id: "E003"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Your first real power upgrade"
+			tasks: [{
+				id: "D003"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Large Water Wheel"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2012"]
+			description: [
+				"The §6Millstone§r grinds items into powder using rotational force from above or the side."
+				""
+				"Grind §6ores§r into §acrushed ore§r — smelt it for §a2 ingots§r per ore, doubling your metal yield."
+				""
+				"Also turns wheat into flour, bones into bone meal, and more."
+				""
+				"§7Tip:§r Drop items into the top manually, or use a §6Funnel§r to automate input."
+			]
+			id: "C004"
+			rewards: [{
+				count: 16
+				id: "E004"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			subtitle: "Early ore doubling"
+			tasks: [{
+				id: "D004"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Millstone"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2013"]
+			description: [
+				"The §6Basin§r holds ingredients for the §6Mechanical Mixer§r and accepts heat from a §6Blaze Burner§r below."
+				""
+				"Place it directly beneath a §6Mechanical Mixer§r to enable mixing recipes. It can hold both solid items and fluids simultaneously."
+				""
+				"§7Tip:§r Use a §6Funnel§r on the side of the Basin to automatically output finished products onto a belt."
+			]
+			id: "C005"
+			rewards: [{
+				count: 8
+				id: "E005"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "The mixing bowl of the factory"
+			tasks: [{
+				id: "D005"
+				item: "create:basin"
+				type: "item"
+			}]
+			title: "The Basin"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2014"]
+			description: [
+				"§6Andesite Casing§r is crafted by §7right-clicking any §6Log§r with §6Andesite Alloy§r in your hand§r."
+				""
+				"It encases rotating shafts and is required to build most Andesite-tier machines: Millstone, Mechanical Press, Mechanical Saw, Encased Fan, and more."
+				""
+				"§7Tip:§r Hold a stack of Alloys and right-click a log repeatedly to quickly produce many casings at once."
+			]
+			id: "C006"
+			rewards: [{
+				count: 8
+				id: "E006"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Right-click a log with Andesite Alloy"
+			tasks: [{
+				count: 8L
+				id: "D006"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Andesite Casing"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2013"]
+			description: [
+				"§6Mechanical Belts§r transport items between machines placed up to a few blocks apart."
+				""
+				"§6Funnels§r load items onto belts from inventories on the side, and pull items off belts into chests."
+				""
+				"Combine a belt with a §6Millstone§r or §6Mechanical Press§r and two Funnels for your first fully automated processing line."
+				""
+				"§7Tip:§r Belts inherit the speed of their driving shaft — faster belts move items quicker and can affect recipe output!"
+			]
+			id: "C007"
+			rewards: [{
+				count: 16
+				id: "E007"
+				item: "create:belt"
+				type: "item"
+			}]
+			subtitle: "The backbone of every factory"
+			tasks: [
+				{
+					count: 1L
+					id: "D007"
+					item: "create:belt"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "D008"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "Belts & Funnels"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C006"]
+			description: [
+				"Two §6Crushing Wheels§r placed side by side and rotating §ctowards each other§r crush items dropped between them."
+				""
+				"This is §aore doubling§r without a Millstone — some ores give bonus outputs like nuggets, flint, or gravel."
+				""
+				"§7Setup:§r Drive one wheel with a shaft, connect a large cogwheel to mesh rotation into the other wheel so they turn inward."
+				""
+				"§7Tip:§r Run a belt above to feed items in and a belt below to collect output."
+			]
+			id: "C008"
+			rewards: [{
+				count: 8
+				id: "E008"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			subtitle: "Ore doubling, the loud way"
+			tasks: [{
+				count: 2L
+				id: "D009"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C006"]
+			description: [
+				"The §6Encased Fan§r blows a column of air in the direction it faces."
+				""
+				"§eSmelting§r — point at §6fire or lava§r: items on a belt passing through the airstream get smelted."
+				""
+				"§bWashing§r — point at §9water§r: converts crushed ores into nuggets and bonus drops."
+				""
+				"§dHaunting§r — point at §5Soul Fire§r: transforms items into their soul-sand equivalents."
+				""
+				"§7Tip:§r The fan must be powered by rotation facing toward the heat/water source."
+			]
+			id: "C009"
+			rewards: [{
+				count: 6
+				id: "E009"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Smelt, wash, or haunt items on a belt"
+			tasks: [{
+				id: "D00A"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Encased Fan"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C006"]
+			description: [
+				"The §6Mechanical Saw§r cuts logs into planks and stone into slabs or stonecutting recipes."
+				""
+				"§7Stationary:§r Place items on top to process them — great for automated sawmills."
+				""
+				"§7On a contraption:§r Mounted on a moving structure, it automatically chops down trees it contacts."
+				""
+				"§7Tip:§r Combine with a §6Mechanical Bearing§r and some logs for a self-harvesting tree farm!"
+			]
+			id: "C00A"
+			rewards: [{
+				count: 32
+				id: "E00A"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			subtitle: "Automated lumber and stonecutting"
+			tasks: [{
+				id: "D00B"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Mechanical Saw"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C00A"]
+			description: [
+				"The §6Mechanical Drill§r breaks blocks it contacts when mounted on a moving contraption."
+				""
+				"Build it onto a §6Mechanical Piston§r or §6Rope Pulley§r platform to create tunnel borers, mining rigs, or automatic quarries."
+				""
+				"§7Tip:§r Add a §6Chest§r to the contraption to collect mined items automatically as the rig moves."
+			]
+			id: "C00B"
+			rewards: [{
+				count: 8
+				id: "E00B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Mount it and start boring"
+			tasks: [{
+				id: "D00C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Mechanical Drill"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2014"]
+			description: [
+				"The §6Blaze Burner§r provides heat for the §6Basin§r, enabling heated and superheated mixing recipes."
+				""
+				"Feed it §6Blaze Cakes§r for standard heat. Place it on §6Soul Sand§r with Soul Fire for §eSuperheating§r."
+				""
+				"§6Superheated§r mixing is required for smelting §6Brass§r (Zinc Dust + Copper Dust in a Basin) — the key to mid-game progression."
+				""
+				"§7Tip:§r A single Blaze Burner serves multiple Basins if they're on the same shaft network."
+			]
+			id: "C00C"
+			rewards: [{
+				count: 16
+				id: "E00C"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "Heat for the Basin"
+			tasks: [{
+				id: "D00D"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Blaze Burner"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2017", "C00C"]
+			description: [
+				"The §6Steam Engine§r is the highest-output power source in base Create."
+				""
+				"Place a fuel-stocked §6Blaze Burner§r inside it, then connect it to a §6Flywheel§r to output massive §aSU§r."
+				""
+				"Multiple Steam Engines on the same Flywheel stack their output — two fully fuelled engines comfortably power a large automated factory."
+				""
+				"§7Tip:§r Use a §6Mechanical Arm§r to automatically refuel the Blaze Burner with Blaze Cakes."
+			]
+			id: "C00D"
+			rewards: [{
+				count: 8
+				id: "E00D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Unlimited power (almost)"
+			tasks: [{
+				id: "D00E"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam Engine"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["201F"]
+			description: [
+				"The §6Mechanical Piston§r pushes and pulls a connected structure of blocks when driven by rotational force."
+				""
+				"Combine with §6Linear Chassis§r to move wider structures at once."
+				""
+				"§7Uses:§r sliding doors, drawbridges, piston-powered mining rigs, automated assembly platforms."
+				""
+				"§7Tip:§r The distance it travels is controlled by the rotation applied — use a §6Sequenced Gearshift§r for precise movements."
+			]
+			id: "C00E"
+			rewards: [{
+				count: 4
+				id: "E00E"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			subtitle: "Push and pull the world"
+			tasks: [{
+				id: "D00F"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			title: "Mechanical Piston"
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["201F"]
+			description: [
+				"The §6Rope Pulley§r lowers a suspended platform using rotational force."
+				""
+				"§7Uses:§r elevators, descending safely into caves, mining platforms that drop to ore level."
+				""
+				"The platform can carry blocks, chests, and even entities — making it perfect for a mobile mining base."
+				""
+				"§7Tip:§r Reverse the rotation to bring the platform back up. Use a §6Rotation Speed Controller§r to control its speed."
+			]
+			id: "C00F"
+			rewards: [{
+				count: 8
+				id: "E00F"
+				item: "create:belt"
+				type: "item"
+			}]
+			subtitle: "Up, up, and away"
+			tasks: [{
+				id: "D010"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Rope Pulley"
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"The §6Sequenced Gearshift§r lets you program a series of timed rotation pulses using Brass."
+				""
+				"§7Example:§r run a Mechanical Piston forward for 2 seconds, pause, then retract — all automatically."
+				""
+				"Essential for building timed contraptions like automated crafting rigs, gantry positioners, or repeating harvesters."
+				""
+				"§7Tip:§r Pair with a §6Mechanical Arm§r or §6Deployer§r to create fully hands-free crafting sequences."
+			]
+			id: "C010"
+			rewards: [{
+				count: 4
+				id: "E010"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Timing is everything"
+			tasks: [{
+				id: "D011"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "Sequenced Gearshift"
+			x: 16.0d
+			y: 4.0d
+		}
 	]
 	subtitle: "Harness the power of Rotational Force."
 	title: "Create: Rotational Force"
