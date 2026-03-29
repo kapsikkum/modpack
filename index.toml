@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "22a17b5a108b360fccd8306eae07b1aea6c9eb3684b692414e2d1081b0830d98"
+hash = "5c62ce70523d7af709be87c3ff8881fb125caf06eaa85d753deca751c5a2638a"
 metafile = true
 
 [[files]]
@@ -913,6 +913,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
 metafile = true
 
 [[files]]
@@ -1503,6 +1508,11 @@ metafile = true
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "789d147b03cb1fc88b920fd2e6e540021c75531d29b3823faf05877354120532"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "502d4ba2ca8c7f6f52830cfc43fc12b567023266f2b557ee2b8eea737b58f8ea"
 metafile = true
 
 [[files]]
@@ -2286,6 +2296,11 @@ hash = "6910872a2662cdc05acd0c3fb435855fe171c69629b68b2e72f69695e2428d4b"
 metafile = true
 
 [[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
+metafile = true
+
+[[files]]
 file = "mods/when-dungeons-arise-seven-seas.pw.toml"
 hash = "6817acd8f1a98c3e7c00e61507a9178fa9c7398b356f6e92704656a712157dcd"
 metafile = true
@@ -2364,6 +2379,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "805170d8fa7b1140a0963589a458aca8462144980e308a6b0a2b62eb0d94ed3f"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "682adfe4fefce3a21dbe25736170b70d946686ddae15fdd622dafefc2555882b"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
