@@ -1,5 +1,5 @@
 {
-  "roll": 12,
+  "roll": {"type": "constant", "count": 12},
   "pool": [
     {"value": "pokeballs",          "weight": 3.0},
     {"value": "cobblemon_healing",  "weight": 2.5},
@@ -12,6 +12,10 @@
     {"value": "oritech_materials",  "weight": 1.5},
     {"value": "refined_storage",    "weight": 1.5},
     {"value": "plushies",           "weight": 2.0},
-    {"value": "decorations",        "weight": 2.0}
+    {"value": "decorations",        "weight": 2.0},
+    {"value": "saplings",           "weight": 2.0},
+    {"value": "spawn_eggs",         "weight": 1.5},
+    {"value": "seeds_and_produce",  "weight": 2.5},
+    {"value": "spawners",           "weight": 0.5}
   ]
 }

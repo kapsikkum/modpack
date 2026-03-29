@@ -1,0 +1,19 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 4}},
+  "output": [
+    {"item": "cobblemon:potion",       "count": {"type": "constant", "count": 8},  "weight": 4.0},
+    {"item": "cobblemon:super_potion", "count": {"type": "constant", "count": 6},  "weight": 3.5},
+    {"item": "cobblemon:hyper_potion", "count": {"type": "constant", "count": 4},  "weight": 3.0},
+    {"item": "cobblemon:full_restore", "count": {"type": "constant", "count": 2},  "weight": 1.5},
+    {"item": "cobblemon:revive",       "count": {"type": "constant", "count": 5},  "weight": 3.0},
+    {"item": "cobblemon:max_revive",   "count": {"type": "constant", "count": 2},  "weight": 2.0},
+    {"item": "cobblemon:full_heal",    "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:antidote",     "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:awakening",    "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:burn_heal",    "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:ice_heal",     "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:paralyze_heal","count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:rare_candy",   "count": {"type": "constant", "count": 1},  "weight": 0.8}
+  ]
+}

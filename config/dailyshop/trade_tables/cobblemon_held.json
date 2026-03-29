@@ -1,0 +1,17 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 12}},
+  "output": [
+    {"item": "cobblemon:exp_share",    "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "cobblemon:lucky_egg",    "count": {"type": "constant", "count": 1}, "weight": 1.5},
+    {"item": "cobblemon:choice_band",  "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "cobblemon:choice_specs", "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "cobblemon:choice_scarf", "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "cobblemon:leftovers",    "count": {"type": "constant", "count": 1}, "weight": 2.5},
+    {"item": "cobblemon:life_orb",     "count": {"type": "constant", "count": 1}, "weight": 1.5},
+    {"item": "cobblemon:assault_vest", "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "cobblemon:eviolite",     "count": {"type": "constant", "count": 1}, "weight": 1.5},
+    {"item": "cobblemon:rocky_helmet", "count": {"type": "constant", "count": 1}, "weight": 1.5},
+    {"item": "cobblemon:focus_sash",   "count": {"type": "constant", "count": 1}, "weight": 1.5}
+  ]
+}
