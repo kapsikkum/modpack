@@ -1,0 +1,27 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 6}},
+  "output": [
+    {"item": "cobblemon:repeat_ball",              "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "cobblemon:timer_ball",               "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "cobblemon:lure_ball",                "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "cobblemon:moon_ball",                "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "cobblemon:friend_ball",              "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "cobblemon:love_ball",                "count": {"type": "constant", "count": 3}, "weight": 2.0},
+    {"item": "cobblemon:fast_ball",                "count": {"type": "constant", "count": 3}, "weight": 2.0},
+    {"item": "cobblemon:heavy_ball",               "count": {"type": "constant", "count": 3}, "weight": 2.0},
+    {"item": "cobblemon:luxury_ball",              "count": {"type": "constant", "count": 3}, "weight": 2.0},
+    {"item": "cobblemon:level_ball",               "count": {"type": "constant", "count": 3}, "weight": 2.0},
+    {"item": "a_man_with_plushies:allay_plush",    "count": {"type": "constant", "count": 1}, "weight": 2.5},
+    {"item": "a_man_with_plushies:chicken_plush",  "count": {"type": "constant", "count": 1}, "weight": 2.5},
+    {"item": "a_man_with_plushies:cow_plush",      "count": {"type": "constant", "count": 1}, "weight": 2.5},
+    {"item": "a_man_with_plushies:pig_plush",      "count": {"type": "constant", "count": 1}, "weight": 2.5},
+    {"item": "a_man_with_plushies:moai_plush",     "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "a_man_with_plushies:moobloom_plush", "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "create:super_glue",                  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "create:andesite_casing",             "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "create:brass_casing",                "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "create:copper_casing",               "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "exposure:camera",                    "count": {"type": "constant", "count": 1}, "weight": 1}
+  ]
+}

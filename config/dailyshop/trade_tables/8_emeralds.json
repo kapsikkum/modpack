@@ -1,0 +1,32 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 8}},
+  "output": [
+    {"item": "create:brass_ingot",                   "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "create:zinc_ingot",                    "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "create:andesite_alloy",                "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "create:copper_sheet",                  "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "create:iron_sheet",                    "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "create:brass_sheet",                   "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "create:golden_sheet",                  "count": {"type": "constant", "count": 2}, "weight": 2.0},
+    {"item": "create:electron_tube",                 "count": {"type": "constant", "count": 2}, "weight": 2.5},
+    {"item": "create:rose_quartz",                   "count": {"type": "constant", "count": 4}, "weight": 2.0},
+    {"item": "create:cogwheel",                      "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "oritech:steel_ingot",                  "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "oritech:silicon",                      "count": {"type": "constant", "count": 4}, "weight": 3.0},
+    {"item": "oritech:electrum_ingot",               "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "oritech:energite_ingot",               "count": {"type": "constant", "count": 2}, "weight": 2.0},
+    {"item": "oritech:duratium_ingot",               "count": {"type": "constant", "count": 2}, "weight": 2.0},
+    {"item": "oritech:fluxite",                      "count": {"type": "constant", "count": 4}, "weight": 2.5},
+    {"item": "oritech:carbon_fibre_strands",         "count": {"type": "constant", "count": 4}, "weight": 2.0},
+    {"item": "minecraft:pig_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:cow_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:sheep_spawn_egg",            "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:chicken_spawn_egg",          "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:rabbit_spawn_egg",           "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:wolf_spawn_egg",             "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:cat_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:bee_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "immersive_aircraft:improved_landing_gear", "count": {"type": "constant", "count": 1}, "weight": 1}
+  ]
+}

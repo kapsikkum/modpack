@@ -65,72 +65,112 @@ file = "config/dailyshop/daily_shop.json"
 hash = "af6663a4454cdc2e85cc8fde1e84aa70a32e5e03047dfd4e993bcca340b779b7"
 
 [[files]]
-file = "config/dailyshop/trade_tables/cobblemon_healing.json"
-hash = "d4b1b4ac5620c16a88bbb5e72231244597f86f74df1365dabd33a0cd611632f7"
+file = "config/dailyshop/trade_tables/10_emeralds.json"
+hash = "b8105e10b864e79eea3258bba4d442cd849d83770e23e7c5bb4c131683a01eca"
 
 [[files]]
-file = "config/dailyshop/trade_tables/cobblemon_held.json"
-hash = "3cb27c1913ba7b28223405b97ee40f85ec8c4e34ce7078faec84ad05fe40342a"
+file = "config/dailyshop/trade_tables/11_emeralds.json"
+hash = "be987872f95b31521daf6d5074042621ac559f01280929dd9daba08c753fa6cf"
 
 [[files]]
-file = "config/dailyshop/trade_tables/create_materials.json"
-hash = "209c1972891b75426773572bf17ed3bf39782c2a09a4db51c1df501fb254e1f7"
+file = "config/dailyshop/trade_tables/12_emerald_blocks.json"
+hash = "6768008f9553b7379669c8ae07eeadc808ec4158e464d08b9fdf1d09fb165a73"
+
+[[files]]
+file = "config/dailyshop/trade_tables/12_emeralds.json"
+hash = "64cf5b9f48b4aaedf75fe680e09a639a7b0f05e134736796c90331c8ce96ab7f"
+
+[[files]]
+file = "config/dailyshop/trade_tables/13_emeralds.json"
+hash = "36ad68aa41bc7f21885dd089806df6b800e16e05f61ace2f821a2a3a24e92d74"
+
+[[files]]
+file = "config/dailyshop/trade_tables/14_emeralds.json"
+hash = "323d92fa269981c18569e0978a18a357abdac719fc3a180079c71712071738f9"
+
+[[files]]
+file = "config/dailyshop/trade_tables/15_emeralds.json"
+hash = "3527213ba36d9b02f3b9b6f8f1a2fd86c0a09baa182559519e74ee11bd90586c"
+
+[[files]]
+file = "config/dailyshop/trade_tables/16_emerald_blocks.json"
+hash = "6c418526390ab7f8d409a9df493cfbb08ca87f404c36f43be66217127a16773a"
+
+[[files]]
+file = "config/dailyshop/trade_tables/16_emeralds.json"
+hash = "31baa41be4cc29a9d30342995a3250ca0ca817684d3863af3f26b8702d6e77eb"
+
+[[files]]
+file = "config/dailyshop/trade_tables/1_emerald.json"
+hash = "b10c3bd24f017f03f177f16115173924efa6214adb823e9b0cbae6cc00eaffcc"
+
+[[files]]
+file = "config/dailyshop/trade_tables/20_emeralds.json"
+hash = "9212f53ac10b8f9f383ac8009cadcd3b0577d1090152865a230a29e29a3f8b33"
+
+[[files]]
+file = "config/dailyshop/trade_tables/24_emerald_blocks.json"
+hash = "9ad53edad9bdd0a77030cfb9620f9ca5306606e99109cb7a4ab0531e2f3f9a7a"
+
+[[files]]
+file = "config/dailyshop/trade_tables/2_emeralds.json"
+hash = "41c08ef4eb90f110589dbc717527455c38cc8326f92b88bad143a66b502153e2"
+
+[[files]]
+file = "config/dailyshop/trade_tables/32_emerald_blocks.json"
+hash = "f4f0e3ea4c8f0cec333d9e16d1b463305612feeffba8f83e48030c7439ee221b"
+
+[[files]]
+file = "config/dailyshop/trade_tables/32_emeralds.json"
+hash = "ea2d9fd229547cde494da7912b4b3199ade52ad3d8ce902abeefaee67dbd12fd"
+
+[[files]]
+file = "config/dailyshop/trade_tables/3_emeralds.json"
+hash = "9c582b44051e6370d07b57f74262d96d10ac38a73bf522c81635037db132fd3c"
+
+[[files]]
+file = "config/dailyshop/trade_tables/48_emerald_blocks.json"
+hash = "aa69aff0c1009e3001549cf0363884af55b6fa96dad67429ce5faa68c4fd4097"
+
+[[files]]
+file = "config/dailyshop/trade_tables/48_emeralds.json"
+hash = "248bd204bdf36a6aa0a86ceef571714e0d0480270e8688334ee892a2a1fa1ac3"
+
+[[files]]
+file = "config/dailyshop/trade_tables/4_emeralds.json"
+hash = "8d637b81071be836b6bc34bf5622fd6473c9604b3806aad99f83e1fd1984086e"
+
+[[files]]
+file = "config/dailyshop/trade_tables/5_emeralds.json"
+hash = "a7546646a47676abb2687d880080ce02c76223896bb6d90d1c003c2f5c9860e4"
+
+[[files]]
+file = "config/dailyshop/trade_tables/64_emerald_blocks.json"
+hash = "cb1fe2c4f28f76ea4ce14288eb75a70fbc5f2f6d43d4e08699f70f03f8c8d8fc"
+
+[[files]]
+file = "config/dailyshop/trade_tables/64_emeralds.json"
+hash = "3080e47dc8d4dddfc13870fefa57504888e131629fc3230683f26a25d0f1cc46"
+
+[[files]]
+file = "config/dailyshop/trade_tables/6_emeralds.json"
+hash = "062217e5eecf4fa7d2dae889cda2a44bd8b0672f4907c8c7a8087dbe247ae164"
+
+[[files]]
+file = "config/dailyshop/trade_tables/7_emeralds.json"
+hash = "b657fa0364ace8d4db664e6429c11ae506af92d34a6baa49434aa021242facda"
+
+[[files]]
+file = "config/dailyshop/trade_tables/8_emeralds.json"
+hash = "6d4547e2672f88da0afdde88b910ec09e1606136d652afb52b4caa3de27a3d31"
+
+[[files]]
+file = "config/dailyshop/trade_tables/9_emeralds.json"
+hash = "5e63101185681b6b0bdee0f36b32171d86b4d7318edb5ac0b6ccdb52941322da"
 
 [[files]]
 file = "config/dailyshop/trade_tables/daily_shop.json"
-hash = "cddafdd8b37717c2cc2fc3d57aff47662bb64af02b8e1c84a95da4ab083c0dfb"
-
-[[files]]
-file = "config/dailyshop/trade_tables/decorations.json"
-hash = "f1d93bc6ec46f95d1749db0926d9505770c7315adaf8fa3964bb6d39d8380a41"
-
-[[files]]
-file = "config/dailyshop/trade_tables/food_and_cooking.json"
-hash = "7e3e873d72e5b8722e0dd1901b7745881826f725a1f1d29c0e528d0167e191b7"
-
-[[files]]
-file = "config/dailyshop/trade_tables/magic_supplies.json"
-hash = "abb009381e445757519c6e880e742a3fc4ef4295f5929494f7db67c9ab026a86"
-
-[[files]]
-file = "config/dailyshop/trade_tables/mekanism_materials.json"
-hash = "34631c609f0871f99f64eec3a3ecc5f51f9831d8baef18a2a406413c9e8422ea"
-
-[[files]]
-file = "config/dailyshop/trade_tables/oritech_materials.json"
-hash = "fe5b8547d7c0149e34410ca1dfb5afa62b849a87923c3ce75ceafcb627d982c4"
-
-[[files]]
-file = "config/dailyshop/trade_tables/plushies.json"
-hash = "57ea90ef874e4fcfaba513d1005bddb18e5c111283f1ee8febd44ef9960391fa"
-
-[[files]]
-file = "config/dailyshop/trade_tables/pokeballs.json"
-hash = "7ed4ff1b40d9309c9aa796cf192f05fae923225b1436b6e3d28d520d0ed60d40"
-
-[[files]]
-file = "config/dailyshop/trade_tables/rare_drops.json"
-hash = "580227aa69c390bd1bd2f27fb73ee778afa3de93755254ddf0481906a810d56c"
-
-[[files]]
-file = "config/dailyshop/trade_tables/refined_storage.json"
-hash = "31f8d5b113fee4ead4786f21280fd06b88d598e0956310be70b64203accece37"
-
-[[files]]
-file = "config/dailyshop/trade_tables/saplings.json"
-hash = "25f841ad0ac053dee75ff962a8b3b97db7abd5ea48dac98eb7e33c864e0217f0"
-
-[[files]]
-file = "config/dailyshop/trade_tables/seeds_and_produce.json"
-hash = "5de9d4cfc9e78f9ccacb158630d121d747c8504b4746366c769973a98e078a96"
-
-[[files]]
-file = "config/dailyshop/trade_tables/spawn_eggs.json"
-hash = "f43efd4e16bd6e943b5eac38442f7becc74052b153d167df46ee05beae15a7e6"
-
-[[files]]
-file = "config/dailyshop/trade_tables/spawners.json"
-hash = "144991684aed4c587c31f4f56360cb6c7d2e73cf4938f90d02402252fdba6c52"
+hash = "419323d9a59cfb2e602b0473cdbe628dd170afebb686c380b9005fb020cf8fb1"
 
 [[files]]
 file = "config/defaultoptions/options.txt"

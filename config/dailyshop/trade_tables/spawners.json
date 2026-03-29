@@ -1,7 +1,0 @@
-{
-  "roll": {"type": "constant", "count": 1},
-  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 18}},
-  "output": [
-    {"item": "minecraft:spawner", "count": {"type": "constant", "count": 1}, "weight": 1.0}
-  ]
-}

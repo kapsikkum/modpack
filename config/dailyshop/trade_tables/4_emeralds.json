@@ -1,0 +1,31 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 4}},
+  "output": [
+    {"item": "cobblemon:potion",                      "count": {"type": "constant", "count": 8},  "weight": 4.0},
+    {"item": "cobblemon:super_potion",                "count": {"type": "constant", "count": 6},  "weight": 3.5},
+    {"item": "cobblemon:hyper_potion",                "count": {"type": "constant", "count": 4},  "weight": 3.0},
+    {"item": "cobblemon:full_restore",                "count": {"type": "constant", "count": 2},  "weight": 1.5},
+    {"item": "cobblemon:revive",                      "count": {"type": "constant", "count": 5},  "weight": 3.0},
+    {"item": "cobblemon:max_revive",                  "count": {"type": "constant", "count": 2},  "weight": 2.0},
+    {"item": "cobblemon:full_heal",                   "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:antidote",                    "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:awakening",                   "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:burn_heal",                   "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:ice_heal",                    "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:paralyze_heal",               "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "cobblemon:rare_candy",                  "count": {"type": "constant", "count": 1},  "weight": 0.8},
+    {"item": "farmersdelight:tomato_sauce",           "count": {"type": "constant", "count": 4},  "weight": 1},
+    {"item": "farmersdelight:pasta_with_meatballs",   "count": {"type": "constant", "count": 3},  "weight": 1},
+    {"item": "farmersdelight:roasted_mutton_chops",   "count": {"type": "constant", "count": 4},  "weight": 1},
+    {"item": "farmersdelight:apple_cider",            "count": {"type": "constant", "count": 3},  "weight": 1},
+    {"item": "farmersdelight:cooked_rice",            "count": {"type": "constant", "count": 6},  "weight": 1},
+    {"item": "farmersdelight:noodle_soup",            "count": {"type": "constant", "count": 3},  "weight": 1},
+    {"item": "farmersdelight:cabbage_rolls",          "count": {"type": "constant", "count": 4},  "weight": 1},
+    {"item": "farmersdelight:pie_crust",              "count": {"type": "constant", "count": 4},  "weight": 1},
+    {"item": "minecraft:cake",                        "count": {"type": "constant", "count": 1},  "weight": 1},
+    {"item": "minecraft:pumpkin_pie",                 "count": {"type": "constant", "count": 3},  "weight": 1},
+    {"item": "minecraft:cookie",                      "count": {"type": "constant", "count": 8},  "weight": 1},
+    {"item": "minecraft:honey_bottle",                "count": {"type": "constant", "count": 4},  "weight": 1}
+  ]
+}

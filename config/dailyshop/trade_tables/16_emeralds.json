@@ -1,0 +1,25 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 16}},
+  "output": [
+    {"item": "expandeddelight:asparagus_seeds",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "expandeddelight:chili_pepper_seeds","count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "expandeddelight:sweet_potato",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "farmersdelight:cabbage_seeds",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "farmersdelight:onion",              "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "farmersdelight:tomato_seeds",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:beetroot_seeds",          "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:carrot",                  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:melon_seeds",             "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:pumpkin_seeds",           "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:potato",                  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:sweet_berries",           "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:torchflower_seeds",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:wheat_seeds",             "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_longsword",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_rapier",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_twinblade",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_greatsword",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_katana",       "count": {"type": "constant", "count": 1}, "weight": 1}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 5}},
+  "output": [
+    {"item": "cobblemon:poke_ball",          "count": {"type": "constant", "count": 10}, "weight": 5.0},
+    {"item": "cobblemon:great_ball",         "count": {"type": "constant", "count": 6},  "weight": 4.0},
+    {"item": "cobblemon:ultra_ball",         "count": {"type": "constant", "count": 3},  "weight": 3.0},
+    {"item": "cobblemon:net_ball",           "count": {"type": "constant", "count": 4},  "weight": 3.5},
+    {"item": "cobblemon:dive_ball",          "count": {"type": "constant", "count": 4},  "weight": 3.5},
+    {"item": "cobblemon:dusk_ball",          "count": {"type": "constant", "count": 4},  "weight": 3.5},
+    {"item": "cobblemon:heal_ball",          "count": {"type": "constant", "count": 4},  "weight": 3.5},
+    {"item": "cobblemon:quick_ball",         "count": {"type": "constant", "count": 4},  "weight": 3.5},
+    {"item": "ars_nouveau:source_gem",       "count": {"type": "constant", "count": 6},  "weight": 3.0},
+    {"item": "ars_nouveau:blank_parchment",  "count": {"type": "constant", "count": 3},  "weight": 3.0},
+    {"item": "ars_nouveau:mana_fiber",       "count": {"type": "constant", "count": 4},  "weight": 2.5},
+    {"item": "ars_nouveau:earth_essence",    "count": {"type": "constant", "count": 3},  "weight": 2.0},
+    {"item": "ars_nouveau:fire_essence",     "count": {"type": "constant", "count": 3},  "weight": 2.0},
+    {"item": "ars_nouveau:water_essence",    "count": {"type": "constant", "count": 3},  "weight": 2.0},
+    {"item": "ars_nouveau:air_essence",      "count": {"type": "constant", "count": 3},  "weight": 2.0},
+    {"item": "minecraft:experience_bottle",  "count": {"type": "constant", "count": 8},  "weight": 3.0},
+    {"item": "minecraft:golden_apple",       "count": {"type": "constant", "count": 2},  "weight": 2.0},
+    {"item": "minecraft:enchanted_golden_apple", "count": {"type": "constant", "count": 1}, "weight": 0.4}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald_block", "count": {"type": "constant", "count": 12}},
+  "output": [
+    {"item": "mega_showdown:raw_aerodactylite",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_alakazite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_beedrillite",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_blastoisinite",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_charizarditex",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_charizarditey",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_gengarite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_gyaradosite",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_kangaskhanite",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_mewtwonitex",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_mewtwonitey",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_pidgeotite",     "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_pinsirite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_slowbronite",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_venusaurite",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_ampharosite",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_scizorite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_steelixite",     "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_tyranitarite",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_banettite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_gardevoirite",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_glalitite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_mawilite",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_sablenite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_sharpedonite",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_galladite",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "mega_showdown:raw_garchompite",    "count": {"type": "constant", "count": 1}, "weight": 1}
+  ]
+}
