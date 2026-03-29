@@ -29,6 +29,12 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
+			rewards: [{
+				count: 1
+				id: "A1B2C3D4E5F60024"
+				item: "dailyshop:daily_shop"
+				type: "item"
+			}]
 			title: "§6The Economy"
 			x: 0.0d
 			y: 0.0d
@@ -211,6 +217,64 @@
 			title: "§6Emerald Tycoon"
 			x: 2.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60002"]
+			description: [
+				"The §6Selling Bin§r is your passive income machine."
+				""
+				"Drop items on top of it to auto-sell them for emeralds — no GUI needed."
+				""
+				"Crops, logs, mob drops, fish, apricorns, and more all have sell prices. Upgrade from Wood → Redstone → Iron for more inventory rows."
+				""
+				"§7Recipe§r: Check your recipe book — it uses planks, chests, and a hopper."
+			]
+			id: "A1B2C3D4E5F60025"
+			rewards: [{
+				count: 10
+				id: "A1B2C3D4E5F60027"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Your passive income machine"
+			tasks: [{
+				id: "A1B2C3D4E5F60026"
+				item: "sellingbin:selling_bin"
+				consume_items: false
+				type: "item"
+			}]
+			title: "Craft a Selling Bin"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F60002"]
+			description: [
+				"The §6Daily Shop§r refreshes its stock every 24 hours with a random assortment of items."
+				""
+				"Place it down and right-click to browse — you'll find everything from food and resources to rare loot."
+				""
+				"§aTip:§r You received one free in your intro reward! Place it somewhere central."
+				""
+				"§7Recipe§r: Red & white carpet on top, sticks flanking an emerald in the middle, planks on the bottom."
+			]
+			id: "A1B2C3D4E5F60028"
+			rewards: [{
+				count: 20
+				id: "A1B2C3D4E5F60030"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Fresh deals, every day"
+			tasks: [{
+				id: "A1B2C3D4E5F60029"
+				item: "dailyshop:daily_shop"
+				consume_items: false
+				type: "item"
+			}]
+			title: "Open the Daily Shop"
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "§aEconomy"

@@ -210,7 +210,7 @@ hash = "bed424f26b0ce6a925a4779d7c893f6481e6ccebda5a48cd1bccce1dae938df5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "13c880e92eaaeb3a35764497056ad0b3fcc73576222a7ba22d3da313d0ecff7c"
+hash = "de7f445cae5c907c9f4bca82997ccf6b3b6b5cdfca696af23e747c7f9dd03079"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
@@ -680,6 +680,10 @@ hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
 [[files]]
 file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
+
+[[files]]
+file = "kubejs/server_scripts/daily_shop_recipe.js"
+hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
