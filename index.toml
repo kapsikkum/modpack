@@ -62,7 +62,7 @@ hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "3e47eb2b042950658ff231ac1153ed452d9b790750e06674dab8042b90639f77"
+hash = "56853c5b03e7d5c2e96d45e0ea8fbab9a5068704d14f02a505dacbb79b83ccbc"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -539,7 +539,7 @@ hash = "c7bbd8058a083df80c26b5c089a96eee0dffd492d86fc565deb86ab9e2df8422"
 
 [[files]]
 file = "keybind_bundles.json"
-hash = "0a0387b3048fa7427b67a1ece61c84a14a0b4b202bc1a5a23a4d7ab0b630c5da"
+hash = "7c02f9dc781fbf149d9ae2677dbad89c60e23a8f86e1ff449703820d52773353"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
@@ -1506,11 +1506,6 @@ hash = "789d147b03cb1fc88b920fd2e6e540021c75531d29b3823faf05877354120532"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "502d4ba2ca8c7f6f52830cfc43fc12b567023266f2b557ee2b8eea737b58f8ea"
-metafile = true
-
-[[files]]
 file = "mods/lavender.pw.toml"
 hash = "0964a3bb4a804f0829eba55c68a312d7bd6f0eb2095049b7140dbb8ff81f2498"
 metafile = true
@@ -2071,6 +2066,11 @@ hash = "808327462f45aac576ab825b328b3e1b0222e11d0852be4244c612fbedc93989"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extras.pw.toml"
 hash = "30a2c4efcf1622516a41808d945fe415c0e3c5e58e8364c506d6b38774663e06"
 metafile = true
@@ -2364,10 +2364,6 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "805170d8fa7b1140a0963589a458aca8462144980e308a6b0a2b62eb0d94ed3f"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "328061ca998a6df48b675fa187913420b6d5baeaa549c76f9c6247cf4ec4e6ad"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"

@@ -1,93 +1,69 @@
 [
   {
     "id": "a1b2c3d4-0000-4000-8000-000000000010",
-    "name": "Pokemon",
+    "name": "Mekanism",
     "entries": [
       {
-        "key": "key.fightorflight.cmdmode.attack",
-        "title": "Attack!",
+        "key": "key.mekanism.mode",
+        "title": "Item Mode",
         "icon": {
-          "id": "minecraft:iron_sword",
+          "id": "mekanism:atomic_disassembler",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.move_attack",
-        "title": "Move + Attack",
+        "key": "key.mekanism.head_mode",
+        "title": "Head Mode",
         "icon": {
-          "id": "minecraft:shield",
+          "id": "mekanism:free_runners",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.move",
-        "title": "Just Move",
+        "key": "key.mekanism.chest_mode",
+        "title": "Chest Mode",
         "icon": {
-          "id": "minecraft:leather_boots",
+          "id": "mekanism:jetpack",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.stay",
-        "title": "Stay",
+        "key": "key.mekanism.legs_mode",
+        "title": "Legs Mode",
         "icon": {
-          "id": "minecraft:lead",
+          "id": "minecraft:iron_leggings",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.nocmd",
-        "title": "No Command",
+        "key": "key.mekanism.feet_mode",
+        "title": "Feet Mode",
         "icon": {
-          "id": "minecraft:barrier",
+          "id": "mekanism:free_runners",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.attack_position",
-        "title": "Attack Position",
+        "key": "key.mekanism.module_tweaker",
+        "title": "Module Tweaker",
         "icon": {
-          "id": "minecraft:crossbow",
+          "id": "mekanism:module_base",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.cmdmode.clear",
-        "title": "Clear Commands",
+        "key": "key.mekanism.key_boost",
+        "title": "Boost",
         "icon": {
-          "id": "minecraft:bucket",
+          "id": "minecraft:firework_rocket",
           "count": 1
         }
       },
       {
-        "key": "key.fightorflight.moveslot1",
-        "title": "Move 1",
+        "key": "key.mekanism.key_hud",
+        "title": "Toggle HUD",
         "icon": {
-          "id": "minecraft:red_dye",
-          "count": 1
-        }
-      },
-      {
-        "key": "key.fightorflight.moveslot2",
-        "title": "Move 2",
-        "icon": {
-          "id": "minecraft:blue_dye",
-          "count": 1
-        }
-      },
-      {
-        "key": "key.fightorflight.moveslot3",
-        "title": "Move 3",
-        "icon": {
-          "id": "minecraft:green_dye",
-          "count": 1
-        }
-      },
-      {
-        "key": "key.fightorflight.moveslot4",
-        "title": "Move 4",
-        "icon": {
-          "id": "minecraft:yellow_dye",
+          "id": "minecraft:map",
           "count": 1
         }
       }
@@ -187,14 +163,6 @@
         }
       },
       {
-        "key": "key.mekanism.head_mode",
-        "title": "Mekanism Head",
-        "icon": {
-          "id": "minecraft:blaze_rod",
-          "count": 1
-        }
-      },
-      {
         "key": "key.aether.invisibility_toggle.desc",
         "title": "Aether Invisible",
         "icon": {
@@ -274,26 +242,18 @@
     "name": "Utility",
     "entries": [
       {
-        "key": "key.ae2.wireless_terminal",
-        "title": "AE2 Terminal",
+        "key": "key.refinedstorage.open_wireless_grid",
+        "title": "RS Terminal",
         "icon": {
-          "id": "minecraft:compass",
+          "id": "refinedstorage:wireless_grid",
           "count": 1
         }
       },
       {
-        "key": "key.ae2.portable_item_cell",
-        "title": "Portable Items",
+        "key": "key.refinedstorage.open_portable_grid",
+        "title": "Portable Grid",
         "icon": {
-          "id": "minecraft:chest",
-          "count": 1
-        }
-      },
-      {
-        "key": "key.ae2.portable_fluid_cell",
-        "title": "Portable Fluids",
-        "icon": {
-          "id": "minecraft:bucket",
+          "id": "refinedstorage:portable_grid",
           "count": 1
         }
       },

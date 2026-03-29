@@ -110,9 +110,11 @@ These mods are locked at specific versions and **must not be updated** without c
 <summary>Click to expand</summary>
 
 ### Core & APIs
+- Accessories Compatibility Layer
 - Architectury API
 - AttributeFix
 - AzureLib
+- AzureLib Armor
 - Balm
 - Bookshelf
 - Caelus API
@@ -159,6 +161,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Connectivity
 - FerriteCore
 - Forgified Fabric API
+- ImmediatelyFast
 - KryptonFoxified
 - Lithium
 - ModernFix
@@ -221,7 +224,12 @@ These mods are locked at specific versions and **must not be updated** without c
 - Cobbreeding
 - HiddenMons [Cobblemon]
 - MoreCobblemonTweaks
+- Sniffer Archaeology (Cobblemon)
+- TDmon
 - Tomtaru's Cobblemon and Farmer's Delight Tweaks
+- Cobblemon additions
+- Cobblemon: Aether Expansion
+- CR - Biome Expanded Spawns
 
 ### Ars Nouveau & Magic
 - Ars Nouveau
@@ -232,6 +240,9 @@ These mods are locked at specific versions and **must not be updated** without c
 - Relics: Artifacts Compat
 - Reliquified Ars Nouveau
 - Reliquified L_Ender's Cataclysm
+- Runes
+- Spell Engine
+- Spell Power Attributes
 - StarbuncleMania
 - Things
 
@@ -250,9 +261,11 @@ These mods are locked at specific versions and **must not be updated** without c
 ### Refined Storage
 - Refined Storage
 - Refined Storage - Curios Integration
+- Refined Storage - EMI Integration
 - Refined Storage - Mekanism Integration
 - Extra Disks
 - ExtraStorage
+- RSInfinityBooster
 
 ### Food & Farming
 - Aether's Delight
@@ -314,6 +327,7 @@ These mods are locked at specific versions and **must not be updated** without c
 ### Mobs & Combat
 - Artifacts
 - Better Combat
+- BetterCombat x L_Ender's Cataclysm
 - Creeper Overhaul
 - Cut Through
 - Dragonkind Evolved (End Battle Reborn)
@@ -323,12 +337,24 @@ These mods are locked at specific versions and **must not be updated** without c
 - Immersive Armors
 - L_Ender's Cataclysm
 - Musket Mod
+- MusketMod x Better Combat
 - Mutant Monsters
 - Mythic Metals
 - Nyf's Spiders
 - Ribbits
 - Simply Swords
 - YDM's Weapon Master
+
+### RPG Series
+- Archers (RPG Series)
+- Arsenal (RPG Series)
+- Gazebos (RPG Series)
+- Jewelry (RPG Series)
+- Paladins & Priests (RPG Series)
+- Pufferfish's Skills
+- Relics (RPG Series)
+- Rogues & Warriors (RPG Series)
+- Wizards (RPG Series)
 
 ### Building & Decoration
 - A Man With Plushies
@@ -375,6 +401,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - AppleSkin
 - Boat Item View
 - Carry On
+- Nameless Trinkets
 - Chat Heads
 - Clumps
 - Comforts
@@ -405,9 +432,12 @@ These mods are locked at specific versions and **must not be updated** without c
 - You're in Grave Danger
 
 ### Maps & Info
+- BlueMap
 - Distant Horizons
+- GuideME
 - JourneyMap
 - JourneyMap Integration
+- Maxi's JourneyMap Cobblemon Minimap Icons
 - Modopedia
 - ProbeJS
 - spark
@@ -432,11 +462,12 @@ These mods are locked at specific versions and **must not be updated** without c
 - Leaves Be Gone
 - Load My F***ing Tags
 - Moyai
+- Configurable
 - Particular ✨ Reforged
 - Ping Wheel
 - Ponder for KubeJS
-- Seamless Loading Screen
 - ServerCore
+- Show Me Your Payload Name
 - Sit
 - Subtle Effects
 - Tree Harvester
@@ -446,6 +477,7 @@ These mods are locked at specific versions and **must not be updated** without c
 ### Visual & Audio
 - AmbientSounds
 - Chat Animation [Smooth Chat]
+- Colourful containers Dark Mode GUI
 - Continuity
 - Cubes Without Borders
 - [EMF] Entity Model Features
@@ -453,12 +485,44 @@ These mods are locked at specific versions and **must not be updated** without c
 - [ETF] Entity Texture Features
 - Exposure
 - First-person Model
+- Fresh Animations
+- Fresh Animations: Extensions
+- Fresh Animations: Objects
 - Iris Shaders
 - LambDynamicLights
 - Luminous
+- Luminous Tag
+- Luminous: Nether
+- Miku Totem
+- Motschen's Better Leaves
 - Not Enough Animations
 - Particle Rain
 - Sound Physics Remastered
+
+### Resource Packs
+- AllTheMons x Mega Showdown
+- BoniMons
+- CavsCobbleMons
+- CobbleMotion
+- DeCubes MoMons Addon
+- Muskets 3D Wild West for Ewewkek's
+- Nadymons3
+- Whimscape
+- Whimscape + Exploration
+- Whimscape Leaves
+- Whimscape Leaves x Cobblemon
+- Whimscape Mods
+- Whimscape x Cobblemon
+- Whimscape x Create
+- Whimscape x Curios
+- Whimscape X Easy Anvils
+- Whimscape X Easy Magic
+- Whimscape x Fresh Animations
+- Whimscape x RPG Series
+- Doc's Whimscape Additions - Even More Delight
+- Doc's Whimscape Additions: Friends & Foes
+- Simply Swords Whimscape add-on
+- Refined Storage - ReCreated
 
 ### Tech & Scripting
 - Almost Unified
@@ -491,11 +555,15 @@ Quest chapters are in `config/ftbquests/quests/chapters/`.
 | Create: Rotational Force | Create mod, Steam 'n' Rails, Deployer, fluid handling, contraptions |
 | Cobblemon | Catching, breeding, Mega Evolution, evolution stones, held items, shinies |
 | Ars Nouveau: Arcane Arts | Spellcasting, Source relays, Wilden Ritual, Bookwyrm, Spell Turrets |
-| Applied Energistics 2 | ME network, autocrafting, wireless, P2P tunnels, Quantum Bridge |
 | Mekanism | Ore processing, nuclear power |
 | Food & Farming | Farmer's Delight, Cooking Pot, Skillet, Brewin' & Chewin', Compost |
 | Adventure & Exploration | Bosses, Deep Dark, Aether trilogy, full L_Ender's Cataclysm boss chain |
+| Economy | Emerald selling, Wallet banking, Goblin Traders, Waystones trading |
+| Travel | Waystones, Traveler's Backpack, Hang Gliders, Air Balloons, Immersive Aircraft |
+| Building & Decoration | Chipped, Rechiseled, Macaw's suite, Handcrafted, Supplementaries, Items Displayed |
 | Simply Swords | All 14 weapon types × 3 tiers + 18 unique legendary swords |
+| Refined Storage | ME networks, digital item storage, drives, autocrafting |
+| Oritech | FE energy, ore processing, electronics manufacturing |
 
 ---
 
@@ -512,9 +580,9 @@ Most non-standard keybinds are grouped into three radial menus via [KeyBind Bund
 
 | Key | Bundle | Contents |
 |-----|--------|----------|
-| **Z** | Pokemon | Battle commands (Attack, Move+Attack, Move, Stay, No Command, Attack Position, Clear) + Move slots 1–4 |
-| **X** | Abilities | Artifacts toggles · Ars Nouveau (familiar, spellbook, spell HUD) · Cataclysm helmet/boots abilities · Mekanism head mode · Aether invisibility · PneumaticCraft armor upgrades (jet boots, hover, magnet, night vision, trackers, charging, scuba) |
-| **G** | Utility | AE2 terminals · Create tools · Building Wands · Traveler's Backpack · JourneyMap (waypoints, zoom, minimap toggle) |
+| **Z** | Mekanism | Item mode switch · Head/Chest/Legs/Feet armor modes · Module Tweaker · Boost · Toggle HUD |
+| **X** | Abilities | Artifacts toggles · Ars Nouveau (familiar, spellbook, spell HUD) · Cataclysm helmet/boots abilities · Aether invisibility · PneumaticCraft armor upgrades (jet boots, hover, magnet, night vision, trackers, charging, scuba) |
+| **G** | Utility | Create tools · Building Wands · Traveler's Backpack · JourneyMap (waypoints, zoom, minimap toggle) |
 | **V** | Settings | Shader Pack selection · Reload Shaders · Entity Culling toggle · Jade Config |
 
 ### Other Notable Binds
