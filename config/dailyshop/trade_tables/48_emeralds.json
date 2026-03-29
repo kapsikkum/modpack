@@ -54,6 +54,7 @@
     {"item": "simplehats:teddy_bear",         "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplehats:twilight_doll",      "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "refinedstorage:64k_storage_disk",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "refinedstorage:256k_storage_disk", "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "refinedstorage:portable_grid",     "count": {"type": "constant", "count": 1}, "weight": 1}
   ]
 }

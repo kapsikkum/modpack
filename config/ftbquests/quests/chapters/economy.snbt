@@ -12,11 +12,11 @@
 			description: [
 				"Emeralds are the currency of this world."
 				""
-				"You can earn them by selling items with §b/sell hand§r or §b/sell all§r. Crops, mob drops, logs, metals, fish, &2Cobblemon apricorns&r, and &2Farmer's Delight&r crops all have sell prices."
+				"Earn them by placing items in a §6Selling Bin§r — a block that automatically converts sellable goods into emeralds. Crops, mob drops, logs, metals, fish, §aCobblemon apricorns§r, and §2Farmer's Delight§r crops all have sell prices."
 				""
 				"Use the §6Wallet§r to bank your emeralds — right-click to deposit, sneak+right-click to withdraw. Your balance earns §a0.5% interest§r every 30 minutes!"
 				""
-				"Spend your emeralds trading with villagers, Goblin Traders, or Waystones."
+				"Spend your emeralds at the §6Daily Shop§r, trading with villagers, Goblin Traders, or Waystones."
 			]
 			icon: "minecraft:emerald"
 			id: "A1B2C3D4E5F60002"
@@ -25,8 +25,9 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "A1B2C3D4E5F60003"
-				title: "The Emerald Economy"
-				type: "checkmark"
+				count: 1
+				item: "minecraft:emerald"
+				type: "item"
 			}]
 			title: "§6The Economy"
 			x: 0.0d
@@ -63,13 +64,13 @@
 		{
 			dependencies: ["A1B2C3D4E5F60002"]
 			description: [
-				"Grow some crops and use §b/sell hand§r to sell them for emeralds!"
+				"Grow some crops and drop them into a §6Selling Bin§r to earn emeralds!"
 				""
-				"Sellable crops include wheat, potatoes, carrots, melons, pumpkins, beetroot, cocoa beans, bamboo, sugar cane, and kelp."
+				"Sellable crops include wheat, potatoes, carrots, melons, pumpkins, beetroot, cocoa beans, sugar cane, and kelp."
 				""
-				"§2Farmer's Delight§r crops — tomatoes, onions, rice, and cabbage — also sell well. So do §aCobblemon apricorns§r!"
+				"§2Farmer's Delight§r crops — tomatoes, onions, rice, and cabbage — also sell well. So do §aCobblemon apricorns§r and all types of §6logs§r!"
 				""
-				"Tip: grow lots and use §b/sell all§r to cash out your whole inventory at once."
+				"Tip: the Selling Bin works automatically — just keep it stocked and collect your emeralds."
 			]
 			id: "A1B2C3D4E5F60007"
 			rewards: [{
@@ -92,9 +93,9 @@
 		{
 			dependencies: ["A1B2C3D4E5F60007"]
 			description: [
-				"Mob drops sell well too! Feathers, leather, blaze rods (and more) all have sell prices."
+				"Mob drops sell well in a §6Selling Bin§r too! Feathers, leather, blaze rods, ender pearls, ghast tears, and more all have sell prices."
 				""
-				"Try setting up a mob farm to earn passive income. Ender pearls, ghast tears, and blaze rods are especially valuable."
+				"Try setting up a mob farm and pipe the drops directly into a Selling Bin for fully passive emerald income."
 			]
 			id: "A1B2C3D4E5F60010"
 			rewards: [{
@@ -117,9 +118,9 @@
 		{
 			dependencies: ["A1B2C3D4E5F60004"]
 			description: [
-				"Deposit at least §a100 Emeralds§r into your Wallet and let your savings grow."
+				"Collect §a100 Emeralds§r and let your savings grow."
 				""
-				"Every 30 minutes, your balance earns §a0.5% interest§r automatically. §9I love compounding interest!§r"
+				"Deposit them in your §6Wallet§r — every 30 minutes your balance earns §a0.5% interest§r automatically. §9I love compounding interest!§r"
 				""
 				"Keep your balance above 24 emeralds to qualify for interest payments."
 			]
@@ -141,8 +142,9 @@
 			subtitle: "Compound interest is the eighth wonder"
 			tasks: [{
 				id: "A1B2C3D4E5F60016"
-				title: "Bank 100 Emeralds"
-				type: "checkmark"
+				count: 100
+				item: "minecraft:emerald"
+				type: "item"
 			}]
 			title: "Savvy Investor"
 			x: -2.0d
@@ -169,8 +171,9 @@
 			subtitle: "The market is yours"
 			tasks: [{
 				id: "A1B2C3D4E5F60019"
-				title: "Reach 500 Emeralds saved"
-				type: "checkmark"
+				count: 500
+				item: "minecraft:emerald"
+				type: "item"
 			}]
 			title: "Market Mogul"
 			x: 0.0d

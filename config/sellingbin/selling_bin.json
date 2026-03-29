@@ -62,7 +62,28 @@
     { "input": { "filter": "cobblemon:pink_apricorn",  "count":  4 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "ars_nouveau:mana_fiber",   "count":  4 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "ars_nouveau:source_gem",   "count":  3 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:blaze_powder",   "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:nether_wart",    "count": 10 }, "output": { "item": "minecraft:emerald", "count": 1 } }
+    { "input": { "filter": "minecraft:blaze_powder",      "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:nether_wart",       "count": 10 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+
+    { "input": { "filter": "minecraft:oak_log",           "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:spruce_log",        "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:birch_log",         "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:acacia_log",        "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:jungle_log",        "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:dark_oak_log",      "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cherry_log",        "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:mangrove_log",      "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:crimson_stem",      "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:warped_stem",       "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+
+    { "input": { "filter": "minecraft:blaze_rod",         "count":  4 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:ender_pearl",       "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:ghast_tear",        "count":  4 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:phantom_membrane",  "count":  4 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:prismarine_shard",  "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:magma_cream",       "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:arrow",             "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:ink_sac",           "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:wither_skeleton_skull", "count": 1 }, "output": { "item": "minecraft:emerald", "count": 3 } }
   ]
 }

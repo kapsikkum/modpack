@@ -134,7 +134,7 @@ hash = "aa69aff0c1009e3001549cf0363884af55b6fa96dad67429ce5faa68c4fd4097"
 
 [[files]]
 file = "config/dailyshop/trade_tables/48_emeralds.json"
-hash = "248bd204bdf36a6aa0a86ceef571714e0d0480270e8688334ee892a2a1fa1ac3"
+hash = "af6670aff73e6024575d24aedccf1df4a80baf4120986e9eddfdf65b46dab2c2"
 
 [[files]]
 file = "config/dailyshop/trade_tables/4_emeralds.json"
@@ -210,7 +210,7 @@ hash = "bed424f26b0ce6a925a4779d7c893f6481e6ccebda5a48cd1bccce1dae938df5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "445325f4dd053784eebbda784b32f6c867b98c7d207f7dc4a90c63e6c2ebfea0"
+hash = "13c880e92eaaeb3a35764497056ad0b3fcc73576222a7ba22d3da313d0ecff7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
@@ -286,7 +286,7 @@ hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
 
 [[files]]
 file = "config/sellingbin/selling_bin.json"
-hash = "6daabdc139b036e1ce007fe3c3fe3d0f754e3df50177fcf2bfdbac44245e4986"
+hash = "5925e0c24fc118f7fd42f11367e03e05b5c9ac52f714a22f19984b7a82513135"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -683,7 +683,7 @@ hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
-hash = "3dadc8d2598f5b743f7b8d29b24a40cd87afb7505433f45b18679e94574fa676"
+hash = "045fe093e78aa8ca5e7b48445565bc1792b672ea08dc92e82ad63a5236e128a0"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
