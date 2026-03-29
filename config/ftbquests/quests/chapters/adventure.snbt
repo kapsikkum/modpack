@@ -29,10 +29,10 @@
 			subtitle: "Click to learn more"
 			tasks: [{
 				id: "F100"
-				title: "Combat & Adventure Overview"
+				title: "Combat \& Adventure Overview"
 				type: "checkmark"
 			}]
-			title: "§6⚔ Combat & Adventure"
+			title: "§6⚔ Combat \& Adventure"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1536,5 +1536,5 @@
 		}
 	]
 	subtitle: "Gear up, face every threat, and conquer the world's most fearsome foes."
-	title: "§6⚔ Combat & Adventure"
+	title: "§6⚔ Combat \& Adventure"
 }
