@@ -1,0 +1,13 @@
+name = "BetterNether Neoforge"
+filename = "BetterNether-21.0.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fxX3RlL5/versions/zjCPvMgN/BetterNether-21.0.19.jar"
+hash-format = "sha512"
+hash = "f0564043fd7da679f82daaa2c3baded09513b63e90513ad1e66efdbb22f56deab7fc5cc4cb62654e09c659b9be3f8b9b40617258f486c207479850b63328344e"
+
+[update]
+[update.modrinth]
+mod-id = "fxX3RlL5"
+version = "zjCPvMgN"

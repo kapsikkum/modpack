@@ -1,0 +1,8 @@
+{
+  "default": {
+    "startEpoch": 0,
+    "refreshDelay": 86400000,
+    "trades": "daily_shop"
+  },
+  "custom": {}
+}

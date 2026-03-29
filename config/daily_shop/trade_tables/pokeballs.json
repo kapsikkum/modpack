@@ -1,0 +1,25 @@
+{
+  "roll": 1,
+  "input1": {"filter": "minecraft:emerald", "count": 5},
+  "output": [
+    {"item": "cobblemon:poke_ball",    "count": 10, "weight": 5.0},
+    {"item": "cobblemon:great_ball",   "count": 6,  "weight": 4.0},
+    {"item": "cobblemon:ultra_ball",   "count": 3,  "weight": 3.0},
+    {"item": "cobblemon:net_ball",     "count": 4,  "weight": 3.5},
+    {"item": "cobblemon:dive_ball",    "count": 4,  "weight": 3.5},
+    {"item": "cobblemon:dusk_ball",    "count": 4,  "weight": 3.5},
+    {"item": "cobblemon:heal_ball",    "count": 4,  "weight": 3.5},
+    {"item": "cobblemon:quick_ball",   "count": 4,  "weight": 3.5},
+    {"item": "cobblemon:repeat_ball",  "count": 4,  "weight": 3.0},
+    {"item": "cobblemon:timer_ball",   "count": 4,  "weight": 3.0},
+    {"item": "cobblemon:lure_ball",    "count": 4,  "weight": 3.0},
+    {"item": "cobblemon:moon_ball",    "count": 4,  "weight": 3.0},
+    {"item": "cobblemon:friend_ball",  "count": 4,  "weight": 3.0},
+    {"item": "cobblemon:love_ball",    "count": 3,  "weight": 2.0},
+    {"item": "cobblemon:fast_ball",    "count": 3,  "weight": 2.0},
+    {"item": "cobblemon:heavy_ball",   "count": 3,  "weight": 2.0},
+    {"item": "cobblemon:luxury_ball",  "count": 3,  "weight": 2.0},
+    {"item": "cobblemon:level_ball",   "count": 3,  "weight": 2.0},
+    {"item": "cobblemon:master_ball",  "count": 1,  "weight": 0.3}
+  ]
+}

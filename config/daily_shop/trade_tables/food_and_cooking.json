@@ -1,0 +1,20 @@
+{
+  "roll": 1,
+  "input1": {"filter": "minecraft:emerald", "count": 4},
+  "output": [
+    {"item": "farmersdelight:tomato_sauce",    "count": 4, "weight": 3.0},
+    {"item": "farmersdelight:pasta_with_meatballs", "count": 3, "weight": 2.5},
+    {"item": "farmersdelight:stuffed_pumpkin", "count": 2, "weight": 2.0},
+    {"item": "farmersdelight:roasted_mutton_chops", "count": 4, "weight": 2.5},
+    {"item": "farmersdelight:glow_berry_custard_tart", "count": 3, "weight": 2.0},
+    {"item": "farmersdelight:apple_cider",     "count": 3, "weight": 2.5},
+    {"item": "farmersdelight:cooked_rice",     "count": 6, "weight": 3.5},
+    {"item": "farmersdelight:noodle_soup",     "count": 3, "weight": 2.5},
+    {"item": "farmersdelight:cabbage_rolls",   "count": 4, "weight": 2.5},
+    {"item": "farmersdelight:pie_crust",       "count": 4, "weight": 3.0},
+    {"item": "minecraft:cake",                 "count": 1, "weight": 1.5},
+    {"item": "minecraft:pumpkin_pie",          "count": 3, "weight": 2.5},
+    {"item": "minecraft:cookie",               "count": 8, "weight": 3.0},
+    {"item": "minecraft:honey_bottle",         "count": 4, "weight": 3.0}
+  ]
+}

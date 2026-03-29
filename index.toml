@@ -61,6 +61,38 @@ file = "config/comforts-server.toml"
 hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
+file = "config/daily_shop/daily_shop.json"
+hash = "af6663a4454cdc2e85cc8fde1e84aa70a32e5e03047dfd4e993bcca340b779b7"
+
+[[files]]
+file = "config/daily_shop/trade_tables/cobblemon_healing.json"
+hash = "020135fb971aee960bc824ebc305a036a9f8b9e58394c86f55788451e4d07593"
+
+[[files]]
+file = "config/daily_shop/trade_tables/cobblemon_held.json"
+hash = "9d0b52f963ff2488ce8f28d6eed8e93ad9e3919e28aa707103f51af30040f0c0"
+
+[[files]]
+file = "config/daily_shop/trade_tables/daily_shop.json"
+hash = "204c52fd4e9b8f1d9f2ee32c1441089546be692bb8d2357c7a7e92d1f1b6684a"
+
+[[files]]
+file = "config/daily_shop/trade_tables/food_and_cooking.json"
+hash = "6f25432c73ffea0fc47728c62f8da4ffe19dca8b9c1ff2526ba397f60d4131c1"
+
+[[files]]
+file = "config/daily_shop/trade_tables/magic_supplies.json"
+hash = "9f3798c13556186d218312f687525ff0b659449812b7f0df0a3c7f1a23789338"
+
+[[files]]
+file = "config/daily_shop/trade_tables/pokeballs.json"
+hash = "82c7677fbe4c4334b048f2d2c5806712b00b331cc04f15ab8b0046bb70bb5c2e"
+
+[[files]]
+file = "config/daily_shop/trade_tables/rare_drops.json"
+hash = "fbac059d191702f9b1c5ebd7386b06eaaa6780905c9cb4ca661f2ce52cb2cf55"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "56853c5b03e7d5c2e96d45e0ea8fbab9a5068704d14f02a505dacbb79b83ccbc"
 
@@ -171,6 +203,10 @@ hash = "d4ce880dadf49ce7784292ea742f4681ef25b3ca778dfa5ae4e19661885fc958"
 [[files]]
 file = "config/mutantmonsters-common.toml"
 hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
+
+[[files]]
+file = "config/sellingbin/selling_bin.json"
+hash = "3a6261ab183b92a0254c8431fa5e763d9527e1846129eb2afdf1c98a8185a7e7"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -566,10 +602,6 @@ file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
-file = "kubejs/server_scripts/loot_tables.js"
-hash = "f9bc2fbedfae6e254669db02ed8e578959418ea8e2a526d5392eb61ebaf28341"
-
-[[files]]
 file = "kubejs/server_scripts/sell.js"
 hash = "3dadc8d2598f5b743f7b8d29b24a40cd87afb7505433f45b18679e94574fa676"
 
@@ -691,6 +723,11 @@ hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
 metafile = true
 
 [[files]]
+file = "mods/bclib-neoforge.pw.toml"
+hash = "39c7121302c1a21c0db0080a3abffd379af36930465fcbe4bd6682881c1d8203"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "904407c261f70fd20bedccc8dbf788f527e87629feaa9a25ee9b1fe91e14a975"
 metafile = true
@@ -701,8 +738,18 @@ hash = "2b75c579e6dec00700a1a8407769020370b9ba11d52bacd0ea893d564d91b965"
 metafile = true
 
 [[files]]
+file = "mods/betterend-neoforge.pw.toml"
+hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
+metafile = true
+
+[[files]]
+file = "mods/betternether-neoforge.pw.toml"
+hash = "43134a3540381f63a02cb99d3019283d4a1f5b6b91f54b66eaa8d869bfa7a71b"
 metafile = true
 
 [[files]]
@@ -1118,6 +1165,11 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
+metafile = true
+
+[[files]]
+file = "mods/daily-shop.pw.toml"
+hash = "48be01ca2ce191e18d3002cb84d3662f2a0cc88b417fc4d2c44ef718ced22985"
 metafile = true
 
 [[files]]
@@ -2031,6 +2083,11 @@ hash = "143324f103b28e6f799e808ce1ff20eab1aea7485be406c3ff95d7f007920e84"
 metafile = true
 
 [[files]]
+file = "mods/selling-bin.pw.toml"
+hash = "e7a51da746ad837f91e6fb3b430f26ef62a39140fd8e36f141b6b9c944b173d9"
+metafile = true
+
+[[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "8dab125751a015fc1d1692ff652f379e49aa105e8093f9282cc0f673d1203c23"
 metafile = true
@@ -2073,11 +2130,6 @@ metafile = true
 [[files]]
 file = "mods/smypn.pw.toml"
 hash = "808327462f45aac576ab825b328b3e1b0222e11d0852be4244c612fbedc93989"
-metafile = true
-
-[[files]]
-file = "mods/sodium-dynamic-lights.pw.toml"
-hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]
@@ -2311,6 +2363,16 @@ hash = "4fe6cc0f09a168ed71d96a30f67570ce76e0c3fa668adde71bd216cfd2b0541f"
 metafile = true
 
 [[files]]
+file = "mods/worldweaver-neoforge.pw.toml"
+hash = "a7875aa3ef2af3c850115cbf19cd0d7f79ef15eca5191f11735257e2490995b1"
+metafile = true
+
+[[files]]
+file = "mods/wunderlib-neoforge.pw.toml"
+hash = "be9540e46f1fb23ecc35d79b468480558924c518f759e46783f9d9de68b772f3"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
@@ -2383,6 +2445,11 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "682adfe4fefce3a21dbe25736170b70d946686ddae15fdd622dafefc2555882b"
+
+[[files]]
+file = "resourcepacks/bcg-x-whimscape.pw.toml"
+hash = "f17806fe2b2c6c55005044bcb3a0a3a5a4a066a51633b5e3febbe5c945043af8"
+metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"

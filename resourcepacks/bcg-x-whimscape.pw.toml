@@ -1,0 +1,13 @@
+name = "BCG x Whimscape"
+filename = "Mayview x Whimscape 1.0.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "36ed4909d64e50e0e4be59a30e4b3a52ad3f5d05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6607766
+project-id = 987429

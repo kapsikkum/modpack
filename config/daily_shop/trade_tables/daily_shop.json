@@ -1,0 +1,11 @@
+{
+  "roll": 12,
+  "pool": [
+    {"value": "pokeballs",        "weight": 3.0},
+    {"value": "cobblemon_healing","weight": 2.5},
+    {"value": "cobblemon_held",   "weight": 1.5},
+    {"value": "rare_drops",       "weight": 2.5},
+    {"value": "magic_supplies",   "weight": 2.0},
+    {"value": "food_and_cooking", "weight": 2.5}
+  ]
+}
