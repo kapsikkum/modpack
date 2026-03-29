@@ -747,11 +747,6 @@ hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
 metafile = true
 
 [[files]]
-file = "mods/bclib-neoforge.pw.toml"
-hash = "39c7121302c1a21c0db0080a3abffd379af36930465fcbe4bd6682881c1d8203"
-metafile = true
-
-[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "904407c261f70fd20bedccc8dbf788f527e87629feaa9a25ee9b1fe91e14a975"
 metafile = true
@@ -762,18 +757,8 @@ hash = "2b75c579e6dec00700a1a8407769020370b9ba11d52bacd0ea893d564d91b965"
 metafile = true
 
 [[files]]
-file = "mods/betterend-neoforge.pw.toml"
-hash = "bc792ba30b8b96a4451720488348b375d5eccdcd6d83f7527f960a1ea552f251"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
-metafile = true
-
-[[files]]
-file = "mods/betternether-neoforge.pw.toml"
-hash = "43134a3540381f63a02cb99d3019283d4a1f5b6b91f54b66eaa8d869bfa7a71b"
 metafile = true
 
 [[files]]
