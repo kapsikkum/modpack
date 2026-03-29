@@ -1,0 +1,22 @@
+{
+  "roll": 1,
+  "input1": {"filter": "minecraft:emerald", "count": 10},
+  "output": [
+    {"item": "mekanism:ingot_osmium",              "count": 4, "weight": 3.0},
+    {"item": "mekanism:raw_osmium",                "count": 4, "weight": 2.5},
+    {"item": "mekanism:ingot_tin",                 "count": 4, "weight": 3.0},
+    {"item": "mekanism:raw_tin",                   "count": 4, "weight": 2.5},
+    {"item": "mekanism:ingot_lead",                "count": 4, "weight": 2.5},
+    {"item": "mekanism:raw_lead",                  "count": 4, "weight": 2.5},
+    {"item": "mekanism:ingot_steel",               "count": 2, "weight": 2.5},
+    {"item": "mekanism:basic_control_circuit",     "count": 2, "weight": 2.0},
+    {"item": "mekanism:advanced_control_circuit",  "count": 1, "weight": 1.5},
+    {"item": "mekanism:alloy_infused",             "count": 2, "weight": 2.0},
+    {"item": "mekanism:alloy_reinforced",          "count": 2, "weight": 1.5},
+    {"item": "mekanism:alloy_atomic",              "count": 1, "weight": 0.5},
+    {"item": "mekanism:dust_osmium",               "count": 8, "weight": 2.0},
+    {"item": "mekanism:dust_lead",                 "count": 8, "weight": 1.5},
+    {"item": "mekanism:dust_tin",                  "count": 8, "weight": 1.5},
+    {"item": "mekanism:dust_fluorite",             "count": 8, "weight": 2.0}
+  ]
+}

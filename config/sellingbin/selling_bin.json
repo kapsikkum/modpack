@@ -7,6 +7,17 @@
     "NETHERITE": { "updateDelayTicks": 24000, "inventoryRows": 6 }
   },
   "trades": [
+    { "input": { "filter": "minecraft:dirt",           "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cobblestone",   "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:gravel",        "count": 24 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:sand",          "count": 24 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:netherrack",    "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:andesite",      "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:diorite",       "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:granite",       "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:tuff",          "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:calcite",       "count": 24 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cobbled_deepslate", "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:wheat",         "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:carrot",         "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:potato",         "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },

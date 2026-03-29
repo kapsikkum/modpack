@@ -73,8 +73,16 @@ file = "config/daily_shop/trade_tables/cobblemon_held.json"
 hash = "9d0b52f963ff2488ce8f28d6eed8e93ad9e3919e28aa707103f51af30040f0c0"
 
 [[files]]
+file = "config/daily_shop/trade_tables/create_materials.json"
+hash = "40441c86aed990ec369019c3f096cdfc188fcb07f58c4aeea2f8bebd3c545560"
+
+[[files]]
 file = "config/daily_shop/trade_tables/daily_shop.json"
-hash = "204c52fd4e9b8f1d9f2ee32c1441089546be692bb8d2357c7a7e92d1f1b6684a"
+hash = "db25846ccc5a7549fa0c43a6bc6a1cc14f3d4dc33963dc05b816fb3bb3a61e65"
+
+[[files]]
+file = "config/daily_shop/trade_tables/decorations.json"
+hash = "1ebd47ee188b5b6495d54daf54ea70150a369210069a5751eaa3679d70fcc6cb"
 
 [[files]]
 file = "config/daily_shop/trade_tables/food_and_cooking.json"
@@ -85,12 +93,28 @@ file = "config/daily_shop/trade_tables/magic_supplies.json"
 hash = "9f3798c13556186d218312f687525ff0b659449812b7f0df0a3c7f1a23789338"
 
 [[files]]
+file = "config/daily_shop/trade_tables/mekanism_materials.json"
+hash = "0022ce98996f2356bfb11035aab26127b87d4a4ab88429ea3cf57e163c1d9869"
+
+[[files]]
+file = "config/daily_shop/trade_tables/oritech_materials.json"
+hash = "b1ef06c1da2b982a2ab27883b320059581789d45d829bae3b06986725bbe33a5"
+
+[[files]]
+file = "config/daily_shop/trade_tables/plushies.json"
+hash = "17601bc6e87320c48a33a76863ef8b2bd96f1496ae3ccc126b8291772e029339"
+
+[[files]]
 file = "config/daily_shop/trade_tables/pokeballs.json"
 hash = "82c7677fbe4c4334b048f2d2c5806712b00b331cc04f15ab8b0046bb70bb5c2e"
 
 [[files]]
 file = "config/daily_shop/trade_tables/rare_drops.json"
 hash = "fbac059d191702f9b1c5ebd7386b06eaaa6780905c9cb4ca661f2ce52cb2cf55"
+
+[[files]]
+file = "config/daily_shop/trade_tables/refined_storage.json"
+hash = "71baca1695e0363c739591810ddf3df5f80372df8519f1a2d60172e3eb809e49"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -206,7 +230,7 @@ hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
 
 [[files]]
 file = "config/sellingbin/selling_bin.json"
-hash = "3a6261ab183b92a0254c8431fa5e763d9527e1846129eb2afdf1c98a8185a7e7"
+hash = "6daabdc139b036e1ce007fe3c3fe3d0f754e3df50177fcf2bfdbac44245e4986"
 
 [[files]]
 file = "config/servercore/config.yml"
