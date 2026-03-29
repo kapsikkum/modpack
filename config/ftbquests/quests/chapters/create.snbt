@@ -929,6 +929,671 @@
 			x: 16.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["C00D"]
+			description: [
+				"§6Create Crafts & Additions§r bridges Create and tech mods by adding §6electrical§r counterparts to rotational machines."
+				""
+				"The §6Electric Motor§r converts §aRF/FE§r energy into §aRotational Force§r. The §6Alternator§r does the reverse — turning rotation into electricity."
+				""
+				"§7Tip:§r Pair alternators with your steam engines to generate RF for other tech mods, or use electric motors to integrate Create with magic mod power sources."
+			]
+			id: "A001"
+			rewards: [{
+				count: 2
+				id: "I001"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			subtitle: "Rotation meets electricity"
+			tasks: [{
+				id: "B001"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "Crafts & Additions"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["C00D"]
+			description: [
+				"§6Create: Fuel Motor§r is a compact motor that runs on §6furnace fuel§r — lava, coal, blaze rods, anything burnable."
+				""
+				"It's a great alternative when you don't have an electrical infrastructure or need a portable SU source for remote contraptions."
+				""
+				"§7Tip:§r Automate fuel delivery with a §6Mechanical Arm§r to keep it running indefinitely without manual refuelling."
+			]
+			id: "A002"
+			rewards: [{
+				count: 8
+				id: "I002"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "Burn fuel, gain rotational force"
+			tasks: [{
+				id: "B002"
+				item: "create_fuel_motor:fuel_motor"
+				type: "item"
+			}]
+			title: "Fuel Motor"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["C004"]
+			description: [
+				"§6Create Sifting§r adds a §6Mechanical Sieve§r that automatically sifts bulk materials for valuable drops."
+				""
+				"Feed §6Gravel, Sand, or Dirt§r in via a funnel; collect ore chunks, gems, seeds, and other surprises from the sides."
+				""
+				"§7Tip:§r Gravel yields the best odds for ore chunks. Run multiple Sieves in parallel off the same belt for high throughput."
+			]
+			id: "A003"
+			rewards: [{
+				count: 8
+				id: "I003"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			subtitle: "Sift dirt into treasure"
+			tasks: [{
+				id: "B003"
+				item: "createsifter:mechanical_sieve"
+				type: "item"
+			}]
+			title: "Create Sifting"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Renewable Netherite§r lets you produce §6Ancient Debris§r entirely through Create's automation — no nether mining required."
+				""
+				"Processing specific materials through Create machines yields §6Netherite Chunks§r that can be smelted into Ancient Debris."
+				""
+				"§7Tip:§r Check JEI for the full processing chain. This opens a completely renewable source of the game's most powerful material."
+			]
+			id: "A004"
+			icon: "minecraft:netherite_ingot"
+			rewards: [{
+				count: 4
+				id: "I004"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Netherite without the nether mining"
+			tasks: [{
+				id: "B004"
+				title: "Process materials for Renewable Netherite"
+				type: "checkmark"
+			}]
+			title: "Renewable Netherite"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2018"]
+			description: [
+				"§6Create: Mechanical Spawner§r automates mob spawning using rotational force — no dark room, no player proximity needed."
+				""
+				"Insert a §6Spawn Egg§r and provide sufficient SU to spawn mobs automatically for their drops."
+				""
+				"§7Tip:§r Combine with a §6Mechanical Harvester§r on a contraption or §6Deployer§r with a sword to fully automate mob farm output."
+			]
+			id: "A005"
+			rewards: [{
+				count: 4
+				id: "I005"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Automate the mob farm"
+			tasks: [{
+				id: "B005"
+				item: "create_mechanical_spawner:mechanical_spawner"
+				type: "item"
+			}]
+			title: "Mechanical Spawner"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Power Loader§r keeps chunks loaded while your machines run — even when you're in a different dimension."
+				""
+				"Place it near your factory and power it with rotation to maintain chunk loading for your contraptions and farms."
+				""
+				"§7Tip:§r Essential for keeping your §6Blaze Burner§r supply chain, crop farms, or train network running 24/7 without you nearby."
+			]
+			id: "A006"
+			rewards: [{
+				count: 2
+				id: "I006"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Keep the factory ticking"
+			tasks: [{
+				id: "B006"
+				item: "create_power_loader:power_loader"
+				type: "item"
+			}]
+			title: "Power Loader"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Enchantment Industry§r liquefies enchantment power into §6Liquid Experience§r that can be pumped, stored, and automated."
+				""
+				"The §6Experience Nozzle§r fills XP bottles or directly enchants items from fluid pipes."
+				""
+				"§7Full pipeline:§r XP farm → tank of Liquid XP → §6Enchanting Apparatus§r → automated enchanted gear, at scale."
+			]
+			id: "A007"
+			rewards: [{
+				count: 8
+				id: "I007"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Automate enchanting with liquid XP"
+			tasks: [{
+				id: "B007"
+				item: "create_enchantment_industry:experience_nozzle"
+				type: "item"
+			}]
+			title: "Enchantment Industry"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A007"]
+			description: [
+				"§6Create: Enchantable Machinery§r lets you apply §6enchantments directly to Create machine components§r for bonus effects."
+				""
+				"Efficiency accelerates processing, Fortune improves ore output, and Unbreaking reduces wear — all on your shafts, belts, and cogwheels."
+				""
+				"§7Tip:§r Use §6Enchantment Industry§r to liquid-enchant components in bulk once you've identified your preferred enchantments."
+			]
+			id: "A008"
+			icon: "create:cogwheel"
+			rewards: [{
+				count: 4
+				id: "I008"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			subtitle: "Enchant your machines"
+			tasks: [{
+				id: "B008"
+				title: "Enchant a Create machine component"
+				type: "checkmark"
+			}]
+			title: "Enchantable Machinery"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A007"]
+			description: [
+				"§6Create: Enchantment Industry Plus§r extends CEI with additional apparatus for §6disenchanting, curse removal, and book sorting§r."
+				""
+				"Salvage enchantments from unwanted loot back into §6Liquid XP§r, and strip curses from your best equipment."
+				""
+				"§7Tip:§r Set up an automated §6disenchanting line§r fed from your mob spawner output to recycle all that enchanted junk into useful XP."
+			]
+			id: "A009"
+			icon: "minecraft:enchanted_book"
+			rewards: [{
+				count: 4
+				id: "I009"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			subtitle: "More enchanting options"
+			tasks: [{
+				id: "B009"
+				title: "Use a Create: Enchantment Industry Plus machine"
+				type: "checkmark"
+			}]
+			title: "Enchantment Industry Plus"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Dreams & Desires§r is a major expansion adding §6new machines, casing variants, and contraption components§r not found in base Create."
+				""
+				"Explore new clockwork blocks, advanced processing machines, and unique decorative builds."
+				""
+				"§7Tip:§r Open JEI and browse the §6Dreams & Desires§r creative tab to discover everything available — there's a lot!"
+			]
+			id: "A00A"
+			icon: "create:brass_ingot"
+			rewards: [{
+				count: 4
+				id: "I00A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "A major Create expansion"
+			tasks: [{
+				id: "B00A"
+				title: "Craft a Dreams & Desires block"
+				type: "checkmark"
+			}]
+			title: "Dreams & Desires"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Central Kitchen§r integrates food processing into your Create factory, adding machines for §6automated cooking and food preparation§r."
+				""
+				"Use Create machines to process §6Farmer's Delight§r ingredients, bake bread at scale, and run fully automated kitchen lines."
+				""
+				"§7Tip:§r Feed your kitchen line from a §6Mechanical Harvester§r crop farm for a fully closed-loop automated food system."
+			]
+			id: "A00B"
+			icon: "minecraft:cooked_beef"
+			rewards: [{
+				count: 8
+				id: "I00B"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "Industrial-scale cooking"
+			tasks: [{
+				id: "B00B"
+				title: "Process food with Create: Central Kitchen"
+				type: "checkmark"
+			}]
+			title: "Central Kitchen"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["201D"]
+			description: [
+				"§6Create: Integrated Farming§r adds §6dedicated farming machines§r for true end-to-end crop automation."
+				""
+				"Plant, grow, and harvest automatically without relying on contraption-mounted harvesters."
+				""
+				"§7Tip:§r Pair with §6Central Kitchen§r outputs downstream to complete a farm-to-table automation pipeline."
+			]
+			id: "A00C"
+			icon: "minecraft:wheat"
+			rewards: [{
+				count: 16
+				id: "I00C"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			subtitle: "Fully automated farming"
+			tasks: [{
+				id: "B00C"
+				title: "Set up a Create: Integrated Farming machine"
+				type: "checkmark"
+			}]
+			title: "Integrated Farming"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2020"]
+			description: [
+				"§6Create: Winery§r automates the entire wine-making process using Create's rotation and fluid systems."
+				""
+				"Crush grapes with a §6Mechanical Press§r, ferment in barrels, then age and bottle automatically using §6Spouts§r and §6Fluid Pipes§r."
+				""
+				"§7Tip:§r Different grape varieties produce wines with different effects. Check JEI for the full recipe tree."
+			]
+			id: "A00D"
+			icon: "minecraft:glass_bottle"
+			rewards: [{
+				count: 4
+				id: "I00D"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "Automate the vineyard"
+			tasks: [{
+				id: "B00D"
+				title: "Ferment a Create: Winery product"
+				type: "checkmark"
+			}]
+			title: "Winery"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Fishery Industry§r adds a §6Mechanical Fisher§r that automatically catches fish, treasure, and aquatic drops."
+				""
+				"Place it over water, power it with rotation, and collect fish (and the occasional enchanted book) automatically."
+				""
+				"§7Tip:§r Apply Luck of the Sea to the Mechanical Fisher via §6Enchantment Industry§r to dramatically improve loot quality."
+			]
+			id: "A00E"
+			rewards: [{
+				count: 4
+				id: "I00E"
+				item: "minecraft:fishing_rod"
+				type: "item"
+			}]
+			subtitle: "Automate your fishing trips"
+			tasks: [{
+				id: "B00E"
+				item: "createfisheryindustry:mechanical_fisher"
+				type: "item"
+			}]
+			title: "Fishery Industry"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A00D"]
+			description: [
+				"§6Create: Confectionery§r adds sweets and desserts you can produce through Create's processing chains."
+				""
+				"Craft chocolate, candies, and confections using the §6Mechanical Mixer§r, §6Basin§r, and §6Spout§r with ingredients from your automated farms."
+				""
+				"§7Tip:§r Some confectionery items grant positive §6status effects§r — automate production for a steady supply of factory-made buffs."
+			]
+			id: "A00F"
+			icon: "minecraft:cookie"
+			rewards: [{
+				count: 4
+				id: "I00F"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			subtitle: "Sweet factory automation"
+			tasks: [{
+				id: "B00F"
+				title: "Craft a Create: Confectionery item"
+				type: "checkmark"
+			}]
+			title: "Confectionery"
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C006"]
+			description: [
+				"§6Create: Connected§r adds §6cover and pole§r blocks that snap onto your Create machines for a clean, finished look."
+				""
+				"§6Shaft Covers§r hide exposed shaft ends. §6Pole Covers§r extend visual shafts decoratively through walls without transmitting rotation."
+				""
+				"§7Tip:§r Purely cosmetic, but these make the difference between a working contraption and a factory that looks like it belongs in an industrial district."
+			]
+			id: "A010"
+			icon: "create:shaft"
+			rewards: [{
+				count: 4
+				id: "I010"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Cover the ugly bits"
+			tasks: [{
+				id: "B010"
+				title: "Place a Create: Connected cover or pole"
+				type: "checkmark"
+			}]
+			title: "Connected"
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C006"]
+			description: [
+				"§6Create Encased§r adds new §6casing and decorative block variants§r in wood, stone, copper, zinc, and brass styles."
+				""
+				"Encase your shafts and machines to match any factory aesthetic — rustic wood, industrial copper, or polished brass."
+				""
+				"§7Tip:§r Encased shaft blocks are decorative and let you route 'fake' shaft lines cleanly through walls and floors."
+			]
+			id: "A011"
+			icon: "create:andesite_casing"
+			rewards: [{
+				count: 8
+				id: "I011"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "More casings, more style"
+			tasks: [{
+				id: "B011"
+				title: "Craft a Create Encased block"
+				type: "checkmark"
+			}]
+			title: "Create Encased"
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2023"]
+			description: [
+				"§6Create: Ultimate Factory§r pushes automation to the extreme with §6high-throughput processing machines§r that dwarf vanilla Create's output."
+				""
+				"These advanced machines handle larger batch sizes and more complex recipes for late-game mass production."
+				""
+				"§7Tip:§r Build out a full §6Brass Age§r factory first — these machines are powerful investments that pay off at scale."
+			]
+			id: "A012"
+			icon: "create:brass_ingot"
+			rewards: [{
+				count: 8
+				id: "I012"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Peak automation"
+			tasks: [{
+				id: "B012"
+				title: "Build a Create: Ultimate Factory machine"
+				type: "checkmark"
+			}]
+			title: "Ultimate Factory"
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C008"]
+			description: [
+				"§6Create: Stones§r adds processing recipes for §6natural stone variants§r — andesite, diorite, granite, deepslate, and more."
+				""
+				"Send surplus stone blocks through your §6Crushing Wheels§r to produce usable building materials and resource byproducts."
+				""
+				"§7Tip:§r Great for converting excess Andesite from terrain into §6Gravel§r for your Sieve setup — nothing goes to waste."
+			]
+			id: "A013"
+			icon: "minecraft:andesite"
+			rewards: [{
+				count: 8
+				id: "I013"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			subtitle: "Stone processing recipes"
+			tasks: [{
+				id: "B013"
+				title: "Process stone with Create: Stones recipes"
+				type: "checkmark"
+			}]
+			title: "Create: Stones"
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create Stuff 'N Additions§r adds a wide collection of §6new machines and components§r that expand Create's automation toolkit."
+				""
+				"Includes additional funnel types, processing machines, and unique contraption components not found in base Create."
+				""
+				"§7Tip:§r Filter JEI to §6'Stuff 'N Additions'§r to browse everything. Many items fill gaps in Create's automation coverage."
+			]
+			id: "A014"
+			icon: "create:andesite_alloy"
+			rewards: [{
+				count: 4
+				id: "I014"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "A toolkit of new machines"
+			tasks: [{
+				id: "B014"
+				title: "Craft a Create: Stuff 'N Additions block"
+				type: "checkmark"
+			}]
+			title: "Stuff 'N Additions"
+			x: 26.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Teleporters§r adds §6Brass-powered teleportation§r anchors you can link and travel between instantly."
+				""
+				"Craft two Teleporters, link them with a §6Teleporter Link§r item, and travel between distant locations — no ender pearls needed."
+				""
+				"§7Tip:§r Teleporters consume §6Rotational Force§r proportional to distance. Higher RPM networks can service longer-range teleports."
+			]
+			id: "A015"
+			rewards: [{
+				count: 2
+				id: "I015"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Point-to-point teleportation"
+			tasks: [{
+				id: "B015"
+				item: "createteleporters:teleporter"
+				type: "item"
+			}]
+			title: "Teleporters"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2023"]
+			description: [
+				"§6Create: Vibrant Vaults§r adds §6decorated vault and display§r block variants that integrate with Create's aesthetic."
+				""
+				"Available in Andesite, Brass, Copper, Zinc, and other material styles — use them as both functional storage and factory decoration."
+				""
+				"§7Tip:§r Line output walls with §6Vibrant Vaults§r of matching materials for a polished, themed factory interior."
+			]
+			id: "A016"
+			rewards: [{
+				count: 4
+				id: "I016"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Stylish storage solutions"
+			tasks: [{
+				id: "B016"
+				item: "create_vibrant_vaults:vibrant_vault"
+				type: "item"
+			}]
+			title: "Vibrant Vaults"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Trading Floor§r automates §6villager trading§r by integrating villagers into your Create item network."
+				""
+				"Build a Trading Floor, populate it with villagers, and connect it to your factory to automatically buy and sell trade offers."
+				""
+				"§7Tip:§r Add a villager breeder nearby so new villagers are always available, and a §6Mechanical Arm§r to keep trade input/output automated."
+			]
+			id: "A017"
+			rewards: [{
+				count: 8
+				id: "I017"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Automate the villager trade"
+			tasks: [{
+				id: "B017"
+				item: "trading_floor:trading_floor"
+				type: "item"
+			}]
+			title: "Trading Floor"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2017"]
+			description: [
+				"§6Create: Cobblemon Balls Overhaul§r lets you §6automate Pokéball crafting§r using Create's factory machines."
+				""
+				"Process §6Apricorns§r and crafting materials through §6Crushing Wheels§r, §6Presses§r, and §6Basins§r to produce Pokéballs at scale."
+				""
+				"§7Tip:§r Set up a §6Mechanical Arm§r chain to pass materials through each stage automatically — produce hundreds of Pokéballs hands-free."
+			]
+			id: "A018"
+			icon: "cobblemon:poke_ball"
+			rewards: [{
+				count: 4
+				id: "I018"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Factory-made Pokéballs"
+			tasks: [{
+				id: "B018"
+				title: "Automate Pokéball production with Create"
+				type: "checkmark"
+			}]
+			title: "Cobblemon Balls Overhaul"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2021"]
+			description: [
+				"§6Create: Bells & Whistles§r adds §6decorative and functional accessories§r for trains and Create contraptions."
+				""
+				"Brass Seats, Chain Conveyors, Engine Cowls, bogey props, and other decorative pieces make your locomotives and factories look the part."
+				""
+				"§7Tip:§r Most Bells & Whistles pieces are crafted from existing Create materials — no new resource grind required to get started decorating."
+			]
+			id: "A019"
+			icon: "bellsandwhistles:brass_seat"
+			rewards: [{
+				count: 4
+				id: "I019"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Dress up your trains and factories"
+			tasks: [{
+				id: "B019"
+				title: "Place a Create: Bells & Whistles decorative block"
+				type: "checkmark"
+			}]
+			title: "Bells & Whistles"
+			x: 20.0d
+			y: -4.0d
+		}
 	]
 	subtitle: "Harness the power of Rotational Force."
 	title: "Create: Rotational Force"
