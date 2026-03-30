@@ -41,6 +41,10 @@ file = "config/bettercombat/fallback_compatibility.json"
 hash = "449e25470f97905142f313bc2319512dcd874216e3e1604bb4739c7937555fc0"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "8bdd8e3d59714ef0833423193a6ea793276b6def81251fa7c6eaf0a498f68d3e"
+
+[[files]]
 file = "config/chunky/config.json"
 hash = "0f8ef592c97e22697cc41a86a5a0476c6d53518d916530b7f6ff9aa548c1dd28"
 
@@ -74,7 +78,7 @@ hash = "be987872f95b31521daf6d5074042621ac559f01280929dd9daba08c753fa6cf"
 
 [[files]]
 file = "config/dailyshop/trade_tables/12_emerald_blocks.json"
-hash = "6768008f9553b7379669c8ae07eeadc808ec4158e464d08b9fdf1d09fb165a73"
+hash = "c0da33d581e65fd4965afbbd859710163a4881a4555592e4bd5f81038e856d85"
 
 [[files]]
 file = "config/dailyshop/trade_tables/12_emeralds.json"
