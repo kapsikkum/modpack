@@ -150,11 +150,11 @@ hash = "a7546646a47676abb2687d880080ce02c76223896bb6d90d1c003c2f5c9860e4"
 
 [[files]]
 file = "config/dailyshop/trade_tables/64_emerald_blocks.json"
-hash = "cb1fe2c4f28f76ea4ce14288eb75a70fbc5f2f6d43d4e08699f70f03f8c8d8fc"
+hash = "a4d51ca8da0d5f7ddb2c418664f00f924ce7f2b1497f677e6092fb3127dd52ad"
 
 [[files]]
 file = "config/dailyshop/trade_tables/64_emeralds.json"
-hash = "3080e47dc8d4dddfc13870fefa57504888e131629fc3230683f26a25d0f1cc46"
+hash = "926035b48c709464ba03b7f7004ac96c8e38efc767aedc3e3a653c57965903c9"
 
 [[files]]
 file = "config/dailyshop/trade_tables/6_emeralds.json"

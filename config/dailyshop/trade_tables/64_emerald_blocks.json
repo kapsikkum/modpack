@@ -8,6 +8,9 @@
     {"item": "friendsandfoes:iceologer_spawn_egg",         "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "friendsandfoes:illusioner_spawn_egg",        "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "minecraft:evoker_spawn_egg",                 "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "minecraft:guardian_spawn_egg",               "count": {"type": "constant", "count": 1}, "weight": 1}
+    {"item": "minecraft:guardian_spawn_egg",               "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:elytra",                           "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "minecraft:nether_star",                      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "cobblemon:master_ball",                      "count": {"type": "constant", "count": 1}, "weight": 1}
   ]
 }

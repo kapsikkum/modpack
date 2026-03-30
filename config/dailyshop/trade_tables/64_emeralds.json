@@ -2,10 +2,7 @@
   "roll": {"type": "constant", "count": 1},
   "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 64}},
   "output": [
-    {"item": "minecraft:elytra",                    "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "minecraft:nether_star",               "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "minecraft:trident",                   "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "cobblemon:master_ball",               "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "mekanism:alloy_atomic",               "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "mekanism:ultimate_control_circuit",   "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "oritech:adamant_ingot",               "count": {"type": "constant", "count": 1}, "weight": 1},
