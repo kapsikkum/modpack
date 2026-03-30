@@ -20,7 +20,7 @@
 				"§6Cobblemon§r: Encounter, battle, and catch Pok\u00e9mon in the wild"
 				"§6Create§r: Clockwork machines, trains, and rotational engineering"
 				"§6Mekanism§r: Industrial ore processing, chemicals, and nuclear power"
-				"§6Applied Energistics 2§r: Digital item storage and autocrafting networks"
+				"§6Refined Storage§r: Digital item storage and autocrafting networks"
 				"§6Ars Nouveau§r: Arcane spell weaving and magical automation"
 				"§6The Aether§r: A sky dimension full of treasure and deadly bosses"
 				"§6PneumaticCraft§r: Pressure-powered automation and advanced logistics"
@@ -484,7 +484,7 @@
 			title: "Digitise Your Storage"
 			subtitle: "Craft Quartz Enriched Iron \u2014 your first step into Refined Storage."
 			x: 2.0d
-			y: 14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["B011"]
@@ -530,12 +530,12 @@
 				""
 				"See the §bCobblemon§r tab for the full Pok\u00e9mon progression guide."
 			]
-			icon: "cobblemon:pokedex"
+			icon: "cobblemon:pokedex_red"
 			id: "B058"
 			rewards: [
 				{
 					id: "B25A"
-					item: "cobblemon:pokedex"
+					item: "cobblemon:pokedex_red"
 					type: "item"
 				}
 			]
@@ -925,7 +925,7 @@
 			title: "The Controller"
 			subtitle: "Build the Refined Storage Controller \u2014 your digital network is live!"
 			x: 4.0d
-			y: 14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["B010"]
@@ -959,7 +959,7 @@
 			title: "Oritech Awakens"
 			subtitle: "Mine Raw Nickel \u2014 your entry point into Oritech's industrial age. See the Oritech chapter for the full guide."
 			x: 2.0d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["B030"]
@@ -976,7 +976,7 @@
 				{
 					count: 8
 					id: "B231"
-					item: "oritech:machine_plating"
+					item: "oritech:machine_plating_block"
 					type: "item"
 				}
 			]
@@ -990,7 +990,7 @@
 			title: "Power On"
 			subtitle: "Build an Oritech Basic Generator and connect it to your first machines via Energy Pipes."
 			x: 4.0d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["B021"]
@@ -1193,7 +1193,7 @@
 			title: "Refined Storage Toolkit"
 			subtitle: "Claim a free RS Wrench \u2014 safely rotate and dismantle Refined Storage components."
 			x: 6.0d
-			y: 14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["B010"]
@@ -1226,7 +1226,7 @@
 			title: "Build Your Network"
 			subtitle: "Craft a Waystone and start your fast-travel network. Receive a free Warp Stone!"
 			x: 2.0d
-			y: 18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["B010"]
@@ -1268,7 +1268,7 @@
 			title: "A Taste of Adventure"
 			subtitle: "Discover Farmer's Delight \u2014 claim a Flint Knife and Skillet to start cooking properly."
 			x: 2.0d
-			y: 20.0d
+			y: 18.0d
 		}
 	]
 	subtitle: "Your first step into every mod in the pack."

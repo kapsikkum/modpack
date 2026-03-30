@@ -190,15 +190,15 @@ hash = "178c5b3df50c785309adfbcd016b93c92d927064a842030b8fa8fee0807d3b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "55599cda2d7f130e8558ded44cf972e924f1349326e8b8285b74f10575d6ee99"
+hash = "73c70d3706af966ea12bc86eef5e0f1e929041e026089d31a3a541e593728a1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "4481511414ea226cbb6f4b017b5e4c2c94851fb57064a058e049e195ae23ed2d"
+hash = "a79eb4252d3b9b8d05c9b5e7e8a8830d304a1125142d2129069ec39d7612af72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
-hash = "eee809dee1e6fd9977a2b3db0efd6cc15d6a47cb2c9992703748ca774069b429"
+hash = "96ebcdd5dd5a6bb6035fe699bcbd01bd2b1391a39152bb0dfa30cab93dbabb5e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
@@ -206,7 +206,7 @@ hash = "a5c4f48b8599a0af3712d1332df661e343dbf4a59cd4d451d8f4c63e9c9a7a49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "c9c5edd64f4f482a79ad9ecd13335453ab57be01381f833cc3e4c5e689b0d03d"
+hash = "74ac1d037f8a7b3c946b2e74a6c0b07e6666a1b31ec06c3a5dab9698f2e89520"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
@@ -226,7 +226,7 @@ hash = "c6b1b810d3b5d63bf1d6fccc52da75be5df772b1e9d3be0bcb971d7af9746a96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "3d793f250cf84254264b5534253dfabca36385d2c4dcf8f3da771331fcd7ab80"
+hash = "4ea5355c6b6e8f42f5e2b69251490640c9ae0a81916944497e89d77cb5f230ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
@@ -242,7 +242,7 @@ hash = "27c0735d4afb34dfbb68d3be25f78c8505c158626f7561c2627918b65e4cc266"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "cf8a3baedf2c97c5bb8493d22e2e56963438832da255d235e8478b1553b21164"
+hash = "1c127fe0644934ae65d0a6c8622dac0bca4efa0222d699a8c034383ea4091a3d"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -696,6 +696,10 @@ hash = "0e970c7b19c52a00e1602d02713e3f45969732ecb9403fc68963ad933d2fbf28"
 [[files]]
 file = "kubejs/startup_scripts/wallet.js"
 hash = "545d02512d3a0cd20597d19312ac85fb3ef6b1d52187be391046ab1ed6ec5577"
+
+[[files]]
+file = "list_items.py"
+hash = "348b79ea4bf4cc365966697b17442631a60cbd0ee0bf1e8439a801b77621d80d"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"

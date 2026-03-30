@@ -143,12 +143,12 @@
 				""
 				"Spider Jockeys spawn infrequently with a Skeleton rider. Night fights near cave entrances can get messy fast."
 				""
-				"Equip a §aSpider Necklace§r (found in dungeons) to negate spider venom entirely \u2014 a strong early-game trinket."
+				"Equip a §aCross Necklace§r (found in dungeons) to survive otherwise lethal hits \u2014 a strong early-game Artifact trinket."
 			]
 			id: "F010"
 			rewards: [{
 				id: "F210"
-				item: "artifacts:spider_necklace"
+				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
 			subtitle: "Eight legs, no mercy"

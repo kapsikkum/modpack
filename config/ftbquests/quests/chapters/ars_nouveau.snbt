@@ -132,7 +132,7 @@
 				{
 					count: 4
 					id: "4215"
-					item: "ars_nouveau:mage_fiber"
+					item: "ars_nouveau:magebloom_fiber"
 					type: "item"
 				}
 			]
@@ -162,7 +162,7 @@
 			tasks: [
 				{
 					id: "4116"
-					item: "ars_nouveau:novice_robes_body"
+					item: "ars_nouveau:sorcerer_robes"
 					type: "item"
 				}
 			]
@@ -185,12 +185,12 @@
 			tasks: [
 				{
 					id: "4117"
-					item: "ars_creo:source_cogwheel"
+					item: "ars_creo:starbuncle_wheel"
 					type: "item"
 				}
 			]
 			title: "Magic Meets Machinery"
-			subtitle: "Ars Creo bridges Ars Nouveau and Create. A Source Cogwheel converts Source into Rotational Force!"
+			subtitle: "Ars Creo bridges Ars Nouveau and Create. A Starbuncle Wheel converts Rotational Force into Source!"
 			x: 10.0d
 			y: -2.0d
 		}

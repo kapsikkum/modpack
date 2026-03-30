@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	disable_toast: false
 	filename: "building_and_decoration"
-	icon: "chipped:carpenters_workbench"
+	icon: "chipped:carpenters_table"
 	id: "3F2E3D4C5B6A7890"
 	order_index: 12
 	quest_links: []
@@ -18,7 +18,7 @@
 				""
 				"§bHandcrafted§r, §bSupplementaries§r, and §bItems Displayed§r round out your interior decorating toolkit."
 			]
-			icon: "chipped:carpenters_workbench"
+			icon: "chipped:carpenters_table"
 			id: "3F2E3D4C5B6A78A1"
 			optional: true
 			size: 1.5d
@@ -51,7 +51,7 @@
 			subtitle: "So many block variants"
 			tasks: [{
 				id: "3F2E3D4C5B6A78B2"
-				item: "chipped:carpenters_workbench"
+				item: "chipped:carpenters_table"
 				type: "item"
 			}]
 			title: "The Carpenter's Workshop"
@@ -103,7 +103,7 @@
 			subtitle: "Make it cosy"
 			tasks: [{
 				id: "3F2E3D4C5B6A78B4"
-				item: "handcrafted:oak_sofa"
+				item: "handcrafted:oak_couch"
 				type: "item"
 			}]
 			title: "Home Furnishing"
@@ -129,7 +129,7 @@
 			subtitle: "Small details, big impact"
 			tasks: [{
 				id: "3F2E3D4C5B6A78B5"
-				item: "supplementaries:sign_post"
+				item: "supplementaries:way_sign_oak"
 				type: "item"
 			}]
 			title: "Signs of Life"

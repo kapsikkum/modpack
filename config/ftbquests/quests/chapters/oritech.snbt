@@ -82,7 +82,7 @@
 				{
 					count: 4
 					id: "E212"
-					item: "oritech:machine_plating"
+					item: "oritech:machine_plating_block"
 					type: "item"
 				}
 			]
