@@ -868,6 +868,11 @@ hash = "cb8a41809bf6773c3259df1cee6041bce1719ca46fa9295d21288887f4ebc781"
 metafile = true
 
 [[files]]
+file = "mods/camol.pw.toml"
+hash = "7d7b50bca4c32bf627530df6c9990112dba2dd2afe96463d7a4db8b6c7447be9"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
 metafile = true
@@ -1755,11 +1760,6 @@ metafile = true
 [[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "00aaaccc129531ff41b2b4091d77ef99e097c414603be23db40000338c20d396"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-covers.pw.toml"
-hash = "8330f1d99526fb1952ca5bc3b524f65bf12295a7795803e4c7024d51dbe21df1"
 metafile = true
 
 [[files]]
