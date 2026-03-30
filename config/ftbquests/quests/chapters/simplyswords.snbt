@@ -281,7 +281,7 @@
 				}
 			]
 			title: "The Cutlass"
-			subtitle: "Pirate's blade with a looting bonus — enemies drop extra loot when killed with it."
+			subtitle: "Pirate's blade with a looting bonus \u2014 enemies drop extra loot when killed with it."
 			x: 22.0d
 			y: 0.0d
 		}
@@ -442,7 +442,7 @@
 				}
 			]
 			title: "Diamond Glaive"
-			subtitle: "Diamond reach + polearm range — mobs can barely touch you before they're dead."
+			subtitle: "Diamond reach + polearm range \u2014 mobs can barely touch you before they're dead."
 			x: 8.0d
 			y: 2.0d
 		}
@@ -580,7 +580,7 @@
 				}
 			]
 			title: "Diamond Sai"
-			subtitle: "The diamond Sai deflects and ripostes in one fluid motion — a duelist's dream."
+			subtitle: "The diamond Sai deflects and ripostes in one fluid motion \u2014 a duelist's dream."
 			x: 20.0d
 			y: 2.0d
 		}
@@ -603,7 +603,7 @@
 				}
 			]
 			title: "Diamond Cutlass"
-			subtitle: "Diamond Cutlass looting rivals a Looting III sword — perfect for boss farming runs."
+			subtitle: "Diamond Cutlass looting rivals a Looting III sword \u2014 perfect for boss farming runs."
 			x: 22.0d
 			y: 2.0d
 		}
@@ -856,7 +856,7 @@
 				}
 			]
 			title: "Netherite Chakram"
-			subtitle: "A netherite Chakram throw barely needs to connect — its return arc finishes the job."
+			subtitle: "A netherite Chakram throw barely needs to connect \u2014 its return arc finishes the job."
 			x: 16.0d
 			y: 4.0d
 		}
@@ -1040,7 +1040,7 @@
 				}
 			]
 			title: "Livyatan"
-			subtitle: "A blade forged from ocean dread. Hurl it forward like a harpoon — it returns with Loyalty, dealing damage on the way back."
+			subtitle: "A blade forged from ocean dread. Hurl it forward like a harpoon \u2014 it returns with Loyalty, dealing damage on the way back."
 			x: 4.0d
 			y: -2.0d
 		}
@@ -1063,7 +1063,7 @@
 				}
 			]
 			title: "Mjolnir"
-			subtitle: "The legendary thunder hammer. Only the worthy may wield it — and those who do command lightning."
+			subtitle: "The legendary thunder hammer. Only the worthy may wield it \u2014 and those who do command lightning."
 			x: 6.0d
 			y: -2.0d
 		}
@@ -1201,7 +1201,7 @@
 				}
 			]
 			title: "Wickpiercer"
-			subtitle: "Throw it to build Flicker Fury stacks — each stack grants attack speed and a double hit. Melee and ranged in one terrifying package."
+			subtitle: "Throw it to build Flicker Fury stacks \u2014 each stack grants attack speed and a double hit. Melee and ranged in one terrifying package."
 			x: 18.0d
 			y: -2.0d
 		}
@@ -1316,7 +1316,7 @@
 				}
 			]
 			title: "Slumbering Lichblade"
-			subtitle: "An ancient blade in deep sleep. Its power is dormant — but something stirs within it when blood is spilled."
+			subtitle: "An ancient blade in deep sleep. Its power is dormant \u2014 but something stirs within it when blood is spilled."
 			x: 6.0d
 			y: -4.0d
 		}
@@ -1362,7 +1362,7 @@
 				}
 			]
 			title: "Waking Lichblade"
-			subtitle: "Fully awakened. The Lichblade is now alive with lich energy — each strike ages its victims."
+			subtitle: "Fully awakened. The Lichblade is now alive with lich energy \u2014 each strike ages its victims."
 			x: 10.0d
 			y: -4.0d
 		}
@@ -1385,7 +1385,7 @@
 				}
 			]
 			title: "Harbinger"
-			subtitle: "The blade of death made manifest. Enemies struck by it are marked — the killing blow deals double damage."
+			subtitle: "The blade of death made manifest. Enemies struck by it are marked \u2014 the killing blow deals double damage."
 			x: 14.0d
 			y: -4.0d
 		}
@@ -1408,7 +1408,7 @@
 				}
 			]
 			title: "Enigma"
-			subtitle: "A blade of pure mystery. Its damage type shifts with each swing — fire, ice, void, or lightning."
+			subtitle: "A blade of pure mystery. Its damage type shifts with each swing \u2014 fire, ice, void, or lightning."
 			x: 16.0d
 			y: -4.0d
 		}
@@ -1459,6 +1459,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: "14 weapon types across all material tiers — plus legendary unique swords."
+	subtitle: "14 weapon types across all material tiers \u2014 plus legendary unique swords."
 	title: "Simply Swords"
 }

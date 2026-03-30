@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"This world is huge — and you don't have to walk all of it."
+				"This world is huge \u2014 and you don't have to walk all of it."
 				""
 				"§bWaystones§r let you build a fast-travel network you can access from anywhere in the world."
 				""
@@ -37,7 +37,7 @@
 			description: [
 				"§bWaystones§r are craftable structures that let you teleport between named locations."
 				""
-				"Place one down and right-click to name it and add it to your network. You can then warp to it from any other Waystone — or by holding the §eReturn Scroll§r."
+				"Place one down and right-click to name it and add it to your network. You can then warp to it from any other Waystone \u2014 or by holding the §eReturn Scroll§r."
 				""
 				"Craft a §eWaystone§r with chiseled stone bricks, a lodestone, and an ender pearl in the recipe."
 			]
@@ -63,7 +63,7 @@
 			description: [
 				"With multiple named Waystones in your network, fast travel becomes trivial."
 				""
-				"§eTip§r: Name your Waystones clearly — base, mine, farm, nether portal — for a clean network."
+				"§eTip§r: Name your Waystones clearly \u2014 base, mine, farm, nether portal \u2014 for a clean network."
 				""
 				"You can also carry a §ePocket Warpstone§r to teleport to any Waystone without needing to stand on one."
 			]
@@ -91,7 +91,7 @@
 				""
 				"Equip it on your back (sneak + right-click) and access it by right-clicking with an empty hand. You can also open it by pressing a bound key."
 				""
-				"It keeps its inventory when removed — and you can pick up fluid in the tanks with a bucket. Great for long expeditions."
+				"It keeps its inventory when removed \u2014 and you can pick up fluid in the tanks with a bucket. Great for long expeditions."
 			]
 			id: "2F2E3D4C5B6A78A4"
 			rewards: [{
@@ -115,7 +115,7 @@
 			description: [
 				"The §bHang Glider§r lets you launch from any height and glide long distances without consuming hunger or fuel."
 				""
-				"Craft it and hold it in your hand. Jump off a high point to deploy — you glide forward while slowly descending."
+				"Craft it and hold it in your hand. Jump off a high point to deploy \u2014 you glide forward while slowly descending."
 				""
 				"Sneak while gliding to angle downward faster. Look up to slow your descent and extend your flight time."
 			]
@@ -167,9 +167,9 @@
 			description: [
 				"§bImmersive Aircraft§r adds full pilotable vehicles: biplanes, helicopters, and more."
 				""
-				"Craft a §6Biplane§r for fast horizontal flight. The §6Gyrodyne§r (helicopter) can hover and ascend vertically — perfect for landing anywhere."
+				"Craft a §6Biplane§r for fast horizontal flight. The §6Gyrodyne§r (helicopter) can hover and ascend vertically \u2014 perfect for landing anywhere."
 				""
-				"Aircraft run on fuel — keep §ebuckets of fuel§r on hand. They take damage from crashes, so learn their handling before flying over lava."
+				"Aircraft run on fuel \u2014 keep §ebuckets of fuel§r on hand. They take damage from crashes, so learn their handling before flying over lava."
 			]
 			id: "2F2E3D4C5B6A78A7"
 			rewards: [{

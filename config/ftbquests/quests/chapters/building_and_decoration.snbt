@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"Vanilla blocks are a foundation — this modpack builds on them with hundreds of decorative options."
+				"Vanilla blocks are a foundation \u2014 this modpack builds on them with hundreds of decorative options."
 				""
 				"§bChipped§r lets you craft 588 block variants from any workbench type. §bRechiseled§r lets you re-texture blocks mid-placement."
 				""
@@ -39,7 +39,7 @@
 				""
 				"Craft a §3Carpenter's Workbench§r (requires 4 planks, 2 sticks, and 2 slabs), then open it and place any wooden block inside to see all of its variants."
 				""
-				"Every workbench type works on a different material category — the §3Mason's Workbench§r handles stone, the §3Glassblower's Workbench§r handles glass, and so on."
+				"Every workbench type works on a different material category \u2014 the §3Mason's Workbench§r handles stone, the §3Glassblower's Workbench§r handles glass, and so on."
 			]
 			id: "3F2E3D4C5B6A78A2"
 			rewards: [{
@@ -63,7 +63,7 @@
 			description: [
 				"§bMacaw's Windows§r gives you wooden framed glass panes, shutters, and stained variants in every wood type."
 				""
-				"Combine them with §bMacaw's Doors§r and §bMacaw's Trapdoors§r for a coherent look — all available in matching wood and stone pairings."
+				"Combine them with §bMacaw's Doors§r and §bMacaw's Trapdoors§r for a coherent look \u2014 all available in matching wood and stone pairings."
 				""
 				"Macaw's blocks are crafted in vanilla-style recipes and fit seamlessly into any building style."
 			]
@@ -87,7 +87,7 @@
 		{
 			dependencies: ["3F2E3D4C5B6A78A1"]
 			description: [
-				"§bHandcrafted§r adds furniture you can actually sit in — sofas, armchairs, benches, tables, and shelves."
+				"§bHandcrafted§r adds furniture you can actually sit in \u2014 sofas, armchairs, benches, tables, and shelves."
 				""
 				"All furniture comes in every vanilla wood type and can be mixed to match any interior. Sofas and chairs have sit-on functionality."
 				""
@@ -113,9 +113,9 @@
 		{
 			dependencies: ["3F2E3D4C5B6A78A1"]
 			description: [
-				"§bSupplementaries§r adds dozens of small utility and decoration blocks — sign posts, rope, jars, lanterns, flags, candles, and much more."
+				"§bSupplementaries§r adds dozens of small utility and decoration blocks \u2014 sign posts, rope, jars, lanterns, flags, candles, and much more."
 				""
-				"The §eSign Post§r lets you place directional signs pointing to multiple locations at once — great for road networks and bases."
+				"The §eSign Post§r lets you place directional signs pointing to multiple locations at once \u2014 great for road networks and bases."
 				""
 				"§eTip§r: jars can store small items, rope bridges can be strung between posts, and wall lanterns add atmospheric lighting."
 			]
@@ -139,11 +139,11 @@
 		{
 			dependencies: ["3F2E3D4C5B6A78A2"]
 			description: [
-				"§bRechiseled§r lets you swap the texture of any supported block to any other supported texture — without replacing the block."
+				"§bRechiseled§r lets you swap the texture of any supported block to any other supported texture \u2014 without replacing the block."
 				""
 				"Craft a §eChisel§r, then right-click any Rechiseled-compatible block while holding it to open the texture selector."
 				""
-				"§bRechiseled: Chipped§r extends this to all Chipped block variants — combine both mods for near-infinite visual combinations."
+				"§bRechiseled: Chipped§r extends this to all Chipped block variants \u2014 combine both mods for near-infinite visual combinations."
 			]
 			id: "3F2E3D4C5B6A78A6"
 			rewards: [{
@@ -168,7 +168,7 @@
 			description: [
 				"§bImmersive Paintings§r lets you hang real images as paintings in your world."
 				""
-				"Craft an §eEmpty Canvas§r and place it on a wall. You'll then be prompted to paste an image URL — any web-hosted image will work."
+				"Craft an §eEmpty Canvas§r and place it on a wall. You'll then be prompted to paste an image URL \u2014 any web-hosted image will work."
 				""
 				"Scale and position the painting freely, and frame it with a variety of border styles. Perfect for galleries, taverns, or personalised home decor."
 			]
@@ -193,7 +193,7 @@
 			dependencies: ["3F2E3D4C5B6A78A5", "3F2E3D4C5B6A78A6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"§bItems Displayed§r lets you show off any item as a 3D display on surfaces — walls, floors, shelves, and ceilings."
+				"§bItems Displayed§r lets you show off any item as a 3D display on surfaces \u2014 walls, floors, shelves, and ceilings."
 				""
 				"Right-click a surface with the item you want to display, then use the placement tool to adjust position, rotation, and scale."
 				""

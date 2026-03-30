@@ -14,13 +14,13 @@
 			description: [
 				"Vanilla combat is just the start."
 				""
-				"§bSimply Swords§r adds over a dozen new weapon types — Longswords, Claymores, War Scythes, Katanas, Chakrams and more. Craft them like vanilla swords using the same material tiers: Iron → Diamond → Netherite → Runic."
+				"§bSimply Swords§r adds over a dozen new weapon types \u2014 Longswords, Claymores, War Scythes, Katanas, Chakrams and more. Craft them like vanilla swords using the same material tiers: Iron \u2192 Diamond \u2192 Netherite \u2192 Runic."
 				""
 				"§bBetter Combat§r overhauls attack animations and lets you dual-wield any two weapons. Put a weapon in your offhand and attack to combo with both."
 				""
 				"§6Relics§r and §6Artifacts§r provide passive and active powers found in dungeon loot and mob drops."
 				""
-				"Face every threat — overworld mobs, Nether bosses, the End, Cataclysm, and the Aether's dungeons."
+				"Face every threat \u2014 overworld mobs, Nether bosses, the End, Cataclysm, and the Aether's dungeons."
 			]
 			icon: "minecraft:netherite_sword"
 			id: "F000"
@@ -32,7 +32,7 @@
 				title: "Combat \& Adventure Overview"
 				type: "checkmark"
 			}]
-			title: "§6⚔ Combat \& Adventure"
+			title: "§6\u2694 Combat \& Adventure"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -41,9 +41,9 @@
 			description: [
 				"§bSimply Swords§r adds a range of weapon types beyond the vanilla sword."
 				""
-				"The §9Longsword§r has excellent reach. The §9Claymore§r is a heavy two-hander. The §9War Scythe§r sweeps wide — great against crowds."
+				"The §9Longsword§r has excellent reach. The §9Claymore§r is a heavy two-hander. The §9War Scythe§r sweeps wide \u2014 great against crowds."
 				""
-				"Craft them exactly like a vanilla sword — same recipe shape, same material tiers. The §aRunic§r tier is the highest craftable tier."
+				"Craft them exactly like a vanilla sword \u2014 same recipe shape, same material tiers. The §aRunic§r tier is the highest craftable tier."
 			]
 			id: "F001"
 			rewards: [{
@@ -66,7 +66,7 @@
 			description: [
 				"§bBetter Combat§r lets you put a weapon in your offhand and attack with both hands in sequence."
 				""
-				"Different weapon combos play differently — try a sword in your main hand and a shorter weapon offhand for rapid alternating hits."
+				"Different weapon combos play differently \u2014 try a sword in your main hand and a shorter weapon offhand for rapid alternating hits."
 				""
 				"Blocking now has a cooldown, so good offence matters far more than shield-spam."
 			]
@@ -91,7 +91,7 @@
 			description: [
 				"§6Relics§r are magical items found in dungeon loot, mob drops, or crafted via special recipes."
 				""
-				"Each Relic has a unique ability — some grant passive stat boosts, others have active skills triggered by right-clicking."
+				"Each Relic has a unique ability \u2014 some grant passive stat boosts, others have active skills triggered by right-clicking."
 				""
 				"Some Relics require researching before their powers unlock. Open the Relics menu to track your collection and research progress."
 			]
@@ -116,7 +116,7 @@
 			description: [
 				"§6Artifacts§r are rare trinkets found in dungeon chests, mineshafts, strongholds, and structures."
 				""
-				"Unlike Relics, Artifacts are purely passive — equip them in a §bCurios§r slot and their effect activates automatically."
+				"Unlike Relics, Artifacts are purely passive \u2014 equip them in a §bCurios§r slot and their effect activates automatically."
 				""
 				"Look for §aFeral Claws§r (faster attack speed), §aCloud in a Bottle§r (double jump), or §aFire Gauntlet§r (ignite enemies on hit)."
 			]
@@ -139,11 +139,11 @@
 		{
 			dependencies: ["F000"]
 			description: [
-				"Spiders are common but don't underestimate them — they climb walls, move fast, and inflict Poison in caves."
+				"Spiders are common but don't underestimate them \u2014 they climb walls, move fast, and inflict Poison in caves."
 				""
 				"Spider Jockeys spawn infrequently with a Skeleton rider. Night fights near cave entrances can get messy fast."
 				""
-				"Equip a §aSpider Necklace§r (found in dungeons) to negate spider venom entirely — a strong early-game trinket."
+				"Equip a §aSpider Necklace§r (found in dungeons) to negate spider venom entirely \u2014 a strong early-game trinket."
 			]
 			id: "F010"
 			rewards: [{
@@ -165,11 +165,11 @@
 		{
 			dependencies: ["F010"]
 			description: [
-				"Zombies are relentless — they call for reinforcements when hit and break down doors at night."
+				"Zombies are relentless \u2014 they call for reinforcements when hit and break down doors at night."
 				""
 				"Husks in desert biomes inflict Hunger on hit. Drowned in water can throw Tridents. Keep your hunger bar full."
 				""
-				"Smite enchantments on Simply Swords weapons deal bonus damage to all undead — craft a Longsword for extended reach."
+				"Smite enchantments on Simply Swords weapons deal bonus damage to all undead \u2014 craft a Longsword for extended reach."
 			]
 			id: "F011"
 			rewards: [{
@@ -191,7 +191,7 @@
 		{
 			dependencies: ["F011"]
 			description: [
-				"Skeletons are accurate at range — close the distance fast or fight them from cover."
+				"Skeletons are accurate at range \u2014 close the distance fast or fight them from cover."
 				""
 				"§bArchers§r mod adds new bow and crossbow variants with different range, reload speed, and damage profiles. Outrange them with a Composite Longbow."
 				""
@@ -217,11 +217,11 @@
 		{
 			dependencies: ["F012"]
 			description: [
-				"Drowned lurk in rivers, oceans, and flooded ruins. Those with Tridents will throw them — watch for the wind-up before they release."
+				"Drowned lurk in rivers, oceans, and flooded ruins. Those with Tridents will throw them \u2014 watch for the wind-up before they release."
 				""
 				"Underwater combat is slowed without Aqua Affinity and Depth Strider. Fight on the surface edge where possible."
 				""
-				"§aAqua Dashers§r grant superior underwater movement — essential for ocean monuments, shipwrecks, and any deep-water fight."
+				"§aAqua Dashers§r grant superior underwater movement \u2014 essential for ocean monuments, shipwrecks, and any deep-water fight."
 			]
 			id: "F013"
 			rewards: [{
@@ -245,7 +245,7 @@
 			description: [
 				"Blazes guard Nether Fortresses with relentless fireball barrages."
 				""
-				"Use a Composite Longbow or Heavy Crossbow from §bArchers§r to fight them from range. Alternatively — close in fast with a two-handed weapon to interrupt their attack charge."
+				"Use a Composite Longbow or Heavy Crossbow from §bArchers§r to fight them from range. Alternatively \u2014 close in fast with a two-handed weapon to interrupt their attack charge."
 				""
 				"Blaze Rods are essential: brew potions, craft Eyes of Ender, and fuel the §6Infernal Forge§r later."
 			]
@@ -271,9 +271,9 @@
 			description: [
 				"Ghasts wander open Nether skies and lob explosive fireballs at anything they spot."
 				""
-				"Their fireballs can be knocked back with a hit — deflecting one back into the Ghast kills it in one shot. A longbow is more reliable for consistent range kills."
+				"Their fireballs can be knocked back with a hit \u2014 deflecting one back into the Ghast kills it in one shot. A longbow is more reliable for consistent range kills."
 				""
-				"Ghast Tears drop rarely and are irreplaceable — needed for Potions of Regeneration and End Crystals."
+				"Ghast Tears drop rarely and are irreplaceable \u2014 needed for Potions of Regeneration and End Crystals."
 			]
 			id: "F021"
 			rewards: [{
@@ -295,11 +295,11 @@
 		{
 			dependencies: ["F021"]
 			description: [
-				"Wither Skeletons are the most dangerous guards of the Nether Fortress. Their Wither effect keeps draining health long after the hit — always bring Milk."
+				"Wither Skeletons are the most dangerous guards of the Nether Fortress. Their Wither effect keeps draining health long after the hit \u2014 always bring Milk."
 				""
 				"They move fast and carry stone swords. The §9Diamond Greataxe§r has enough reach and raw damage to clear groups in tight corridors."
 				""
-				"Wither Skeleton Skulls are needed to summon The Wither — you'll need three. The drop rate is low, so budget extra time."
+				"Wither Skeleton Skulls are needed to summon The Wither \u2014 you'll need three. The drop rate is low, so budget extra time."
 			]
 			id: "F022"
 			rewards: [{
@@ -323,7 +323,7 @@
 			description: [
 				"The §4Wither§r is a three-headed flying boss summoned by stacking three §4Wither Skeleton Skulls§r on Soul Sand."
 				""
-				"Phase 1: hovers and fires projectiles that inflict the Wither effect. Hit it relentlessly — it heals fast if you stop."
+				"Phase 1: hovers and fires projectiles that inflict the Wither effect. Hit it relentlessly \u2014 it heals fast if you stop."
 				""
 				"Phase 2 below half health: becomes immune to ranged attacks and summons Wither Skeletons. Switch to your heaviest melee weapon and finish it before reinforcements pile up."
 			]
@@ -356,7 +356,7 @@
 			description: [
 				"The §4Ender Dragon§r circles the obsidian pillar arena in The End, regenerating from §4End Crystals§r on top of each pillar."
 				""
-				"Destroy all End Crystals first — use a bow or longbow to pop them safely from range before engaging the dragon."
+				"Destroy all End Crystals first \u2014 use a bow or longbow to pop them safely from range before engaging the dragon."
 				""
 				"Bait it to perch on the central fountain, then unleash your strongest melee combo. Runic weapons from Simply Swords hit especially hard here."
 			]
@@ -389,9 +389,9 @@
 			description: [
 				"§cIgnis§r is a towering fire giant from §bL_Ender's Cataclysm§r. Summon it at the §6Altar of Fire§r found deep in the Nether."
 				""
-				"Ignis attacks with sweeping fire slams, ranged lava projectiles, and a devastating ground stomp. §eFire Resistance§r is not optional — bring multiple potions."
+				"Ignis attacks with sweeping fire slams, ranged lava projectiles, and a devastating ground stomp. §eFire Resistance§r is not optional \u2014 bring multiple potions."
 				""
-				"Defeating Ignis drops Ignitium Ingots — a rare Cataclysm material used to forge Ignitium Armour and upgrade Cataclysm weapons."
+				"Defeating Ignis drops Ignitium Ingots \u2014 a rare Cataclysm material used to forge Ignitium Armour and upgrade Cataclysm weapons."
 			]
 			id: "F030"
 			rewards: [
@@ -423,9 +423,9 @@
 			description: [
 				"The §cNetherite Monstrosity§r is an armour-plated titan of the Nether. Summon it at the §6Iron Altar§r."
 				""
-				"It is slow but devastatingly powerful — a single hit can one-shot you without fully upgraded armour. Bait its slams then counterattack in the brief window after impact."
+				"It is slow but devastatingly powerful \u2014 a single hit can one-shot you without fully upgraded armour. Bait its slams then counterattack in the brief window after impact."
 				""
-				"Defeating it drops the §6Infernal Forge§r — a unique upgrade station for crafting exceptional Cataclysm-tier equipment."
+				"Defeating it drops the §6Infernal Forge§r \u2014 a unique upgrade station for crafting exceptional Cataclysm-tier equipment."
 			]
 			id: "F031"
 			rewards: [
@@ -457,7 +457,7 @@
 			description: [
 				"The §cEnder Guardian§r lurks in End structures. Summon it at the §6Void Altar§r found in the outer End islands."
 				""
-				"It teleports, fires void projectiles, and creates damaging zones underfoot. Bring §eSlow Falling§r potions — falling into the void during this fight ends it permanently."
+				"It teleports, fires void projectiles, and creates damaging zones underfoot. Bring §eSlow Falling§r potions \u2014 falling into the void during this fight ends it permanently."
 				""
 				"The §6Gauntlet of Guard§r it rewards is one of the strongest defensive accessories in Cataclysm, blocking a portion of incoming damage on a timed parry."
 			]
@@ -491,9 +491,9 @@
 			description: [
 				"§cThe Leviathan§r is a colossal ocean serpent from Cataclysm. Summon it at the §6Aquatic Altar§r found deep underwater."
 				""
-				"The fight takes place in open water — it will drag you under if you stay still. §bAqua Dashers§r or Depth Strider III let you keep pace as it circles."
+				"The fight takes place in open water \u2014 it will drag you under if you stay still. §bAqua Dashers§r or Depth Strider III let you keep pace as it circles."
 				""
-				"Defeat it to claim the §6Tidal Claws§r — gauntlets that power up your attacks underwater and grant enhanced swimming speed."
+				"Defeat it to claim the §6Tidal Claws§r \u2014 gauntlets that power up your attacks underwater and grant enhanced swimming speed."
 			]
 			id: "F033"
 			rewards: [
@@ -525,7 +525,7 @@
 			description: [
 				"The §cAncient Remnant§r is a towering stone colossus risen from desert sands. Summon it at the §6Desert Altar§r found in desert structures."
 				""
-				"It attacks with sweeping stone fists and sand explosions. Fire damage is ineffective — use lightning, slashing, or piercing damage instead."
+				"It attacks with sweeping stone fists and sand explosions. Fire damage is ineffective \u2014 use lightning, slashing, or piercing damage instead."
 				""
 				"The §6Necklace of the Desert§r it rewards resists sand traps and reflects a portion of physical damage back to attackers."
 			]
@@ -557,9 +557,9 @@
 		{
 			dependencies: ["F013"]
 			description: [
-				"The §bDeep Dark§r biome forms deep underground, below Y=-40, growing around §4Ancient Cities§r — massive structures with rare loot."
+				"The §bDeep Dark§r biome forms deep underground, below Y=-40, growing around §4Ancient Cities§r \u2014 massive structures with rare loot."
 				""
-				"§4Sculk Sensors§r detect vibrations and trigger §4Sculk Shriekers§r. Three shrieks summon a §4Warden§r — the most dangerous mob in the game."
+				"§4Sculk Sensors§r detect vibrations and trigger §4Sculk Shriekers§r. Three shrieks summon a §4Warden§r \u2014 the most dangerous mob in the game."
 				""
 				"Move slowly, sneak constantly, never sprint near a Shrieker. §eWool blocks§r muffle vibrations. Night Vision Goggles help navigate the pitch-black corridors."
 			]
@@ -585,7 +585,7 @@
 			description: [
 				"§4Ancient Cities§r are built around a central §6Sculk Catalyst§r altar, with enormous corridors leading to a chest room with some of the best loot in vanilla."
 				""
-				"The §6Echo Shard§r is used to craft a Recovery Compass — it points to where you last died. Keep one on you in high-stakes areas."
+				"The §6Echo Shard§r is used to craft a Recovery Compass \u2014 it points to where you last died. Keep one on you in high-stakes areas."
 				""
 				"Getting there without triggering a Warden is the real challenge. Wool carpets on the floor and Sneak enchantments on armour help greatly."
 			]
@@ -608,11 +608,11 @@
 		{
 			dependencies: ["F041"]
 			description: [
-				"The §4Warden§r cannot see — but it has perfect hearing and detects vibrations through the ground."
+				"The §4Warden§r cannot see \u2014 but it has perfect hearing and detects vibrations through the ground."
 				""
-				"Move slowly, sneak constantly, never sprint near it. Its §4Sonic Boom§r bypasses all armour entirely — there is no tanking it."
+				"Move slowly, sneak constantly, never sprint near it. Its §4Sonic Boom§r bypasses all armour entirely \u2014 there is no tanking it."
 				""
-				"Bring Milk to cure Weakness. Hit-and-run in short bursts. If things go badly, just run — the exit is worth more than the kill."
+				"Bring Milk to cure Weakness. Hit-and-run in short bursts. If things go badly, just run \u2014 the exit is worth more than the kill."
 			]
 			id: "F042"
 			rewards: [
@@ -646,7 +646,7 @@
 				""
 				"A §cMutant Zombie§r hits hard, regenerates health between attacks, and hurls smaller zombies at you like living projectiles."
 				""
-				"It drops §6Chemical X§r (used to craft Mutant Serums) and the rare §6Hulk Hammer§r — a devastating two-handed weapon that sends enemies flying skyward."
+				"It drops §6Chemical X§r (used to craft Mutant Serums) and the rare §6Hulk Hammer§r \u2014 a devastating two-handed weapon that sends enemies flying skyward."
 			]
 			id: "F050"
 			rewards: [{
@@ -668,11 +668,11 @@
 		{
 			dependencies: ["F050"]
 			description: [
-				"The §cMutant Skeleton§r teleports when threatened and unleashes volleys of arrows — including a spread shot that is nearly impossible to dodge in open space."
+				"The §cMutant Skeleton§r teleports when threatened and unleashes volleys of arrows \u2014 including a spread shot that is nearly impossible to dodge in open space."
 				""
 				"Corner it in tight corridors to limit its teleport range. Open fields are a death sentence against its barrage."
 				""
-				"The §6Shadow Glaive§r is a Relic weapon that fires shadow projectiles on hit — effective at mid-range and against armoured targets."
+				"The §6Shadow Glaive§r is a Relic weapon that fires shadow projectiles on hit \u2014 effective at mid-range and against armoured targets."
 			]
 			id: "F051"
 			rewards: [{
@@ -694,11 +694,11 @@
 		{
 			dependencies: ["F013"]
 			description: [
-				"The §cMutant Creeper§r detonates in a chain of explosions far larger than a normal creeper — and can summon §4Charged Creepers§r mid-fight."
+				"The §cMutant Creeper§r detonates in a chain of explosions far larger than a normal creeper \u2014 and can summon §4Charged Creepers§r mid-fight."
 				""
 				"Keep your distance at all times. Use ranged weapons: a Composite Longbow or Heavy Crossbow from §bArchers§r works well from range."
 				""
-				"Defeating it drops §6Creeper Shards§r and rewards the §6Flame Eye§r — a key component for summoning Ignis, a Cataclysm boss."
+				"Defeating it drops §6Creeper Shards§r and rewards the §6Flame Eye§r \u2014 a key component for summoning Ignis, a Cataclysm boss."
 			]
 			id: "F052"
 			rewards: [{
@@ -724,7 +724,7 @@
 				""
 				"It hurls blocks at full force, teleports relentlessly, and spawns smaller Endermen to assist it. Never make direct eye contact."
 				""
-				"It drops the §6Endersoul Hand§r — a magical fist weapon that fires soul projectiles capable of bypassing armour."
+				"It drops the §6Endersoul Hand§r \u2014 a magical fist weapon that fires soul projectiles capable of bypassing armour."
 			]
 			id: "F053"
 			rewards: [{
@@ -748,9 +748,9 @@
 			description: [
 				"The §bAether§r is a sky dimension accessed by pouring Water onto a §eGlowstone§r Nether Portal frame."
 				""
-				"It is a floating island paradise full of unique mobs, ores, and three boss dungeons. Bring plenty of food — falls from Aether islands are lethal."
+				"It is a floating island paradise full of unique mobs, ores, and three boss dungeons. Bring plenty of food \u2014 falls from Aether islands are lethal."
 				""
-				"Build a §eSkyroot Pickaxe§r from Skyroot Wood found in the Aether to mine Zanite and Gravitite — the core progression materials of the dimension."
+				"Build a §eSkyroot Pickaxe§r from Skyroot Wood found in the Aether to mine Zanite and Gravitite \u2014 the core progression materials of the dimension."
 			]
 			id: "F060"
 			rewards: [{
@@ -772,11 +772,11 @@
 		{
 			dependencies: ["F060"]
 			description: [
-				"§eZanite Ore§r glows in the Aether's island caves. Its unique property: the §eZanite Pickaxe§r mines faster the lower your health is — high risk, high reward."
+				"§eZanite Ore§r glows in the Aether's island caves. Its unique property: the §eZanite Pickaxe§r mines faster the lower your health is \u2014 high risk, high reward."
 				""
 				"Zanite tools can mine all Aether ores. The §eZanite Sword§r hits reliably early in the Aether and scales well for the dungeon bosses ahead."
 				""
-				"Stock up on Zanite Gemstones before entering Bronze Dungeons — the Slider can be lethal without solid gear."
+				"Stock up on Zanite Gemstones before entering Bronze Dungeons \u2014 the Slider can be lethal without solid gear."
 			]
 			id: "F061"
 			rewards: [{
@@ -798,11 +798,11 @@
 		{
 			dependencies: ["F061"]
 			description: [
-				"The §cSlider§r is the boss of the §6Bronze Dungeon§r — a massive stone cube that charges across the room at lethal speed."
+				"The §cSlider§r is the boss of the §6Bronze Dungeon§r \u2014 a massive stone cube that charges across the room at lethal speed."
 				""
-				"Its only weakness: hit it continuously §ewhile it slides§r — it takes damage on each impact as it moves. Dodge its charges by sidestepping just before contact."
+				"Its only weakness: hit it continuously §ewhile it slides§r \u2014 it takes damage on each impact as it moves. Dodge its charges by sidestepping just before contact."
 				""
-				"Defeating the Slider opens the Bronze Dungeon's main chest and rewards the §6Gravitite Sword§r — powerful enough for the Silver Dungeon ahead."
+				"Defeating the Slider opens the Bronze Dungeon's main chest and rewards the §6Gravitite Sword§r \u2014 powerful enough for the Silver Dungeon ahead."
 			]
 			id: "F062"
 			rewards: [
@@ -833,9 +833,9 @@
 			description: [
 				"The §cValkyrie Queen§r rules the §6Silver Dungeon§r. She is swift, wields a powerful lance, and is protected by Valkyrie warriors throughout the dungeon."
 				""
-				"Clear her Valkyrie guards before facing the Queen — otherwise they interrupt the fight and extend it indefinitely. Use AoE weapons like a War Scythe or Claymore."
+				"Clear her Valkyrie guards before facing the Queen \u2014 otherwise they interrupt the fight and extend it indefinitely. Use AoE weapons like a War Scythe or Claymore."
 				""
-				"The §6Valkyrie Lance§r she drops is one of the finest thrusting weapons in the Aether — fast, long-reaching, and effective against her own kin."
+				"The §6Valkyrie Lance§r she drops is one of the finest thrusting weapons in the Aether \u2014 fast, long-reaching, and effective against her own kin."
 			]
 			id: "F063"
 			rewards: [
@@ -866,9 +866,9 @@
 			description: [
 				"The §6Sun Spirit§r is the §4immortal§r final boss of the Aether, sealed inside the §6Gold Dungeon§r."
 				""
-				"It fills the room with sweeping light beams and cyclical attack patterns. Cold-damage weapons deal bonus damage — equip §eFrostfall§r from Simply Swords if you have one."
+				"It fills the room with sweeping light beams and cyclical attack patterns. Cold-damage weapons deal bonus damage \u2014 equip §eFrostfall§r from Simply Swords if you have one."
 				""
-				"Defeating it ends your Aether journey. The §6Agility Cape§r grants a double-jump and faster movement in all dimensions — one of the best mobility items in the game."
+				"Defeating it ends your Aether journey. The §6Agility Cape§r grants a double-jump and faster movement in all dimensions \u2014 one of the best mobility items in the game."
 			]
 			id: "F064"
 			rewards: [
@@ -899,9 +899,9 @@
 			description: [
 				"§bLuminous: Nether§r adds powerful boss mobs to each Nether biome."
 				""
-				"§cThe Furnace§r is a living furnace construct found in Nether Wastes. It hurls blazing projectiles and is immune to fire damage — bring your best weapons."
+				"§cThe Furnace§r is a living furnace construct found in Nether Wastes. It hurls blazing projectiles and is immune to fire damage \u2014 bring your best weapons."
 				""
-				"Defeating it drops the §6Furnace Trophy§r — a rare decorative item unique to this boss."
+				"Defeating it drops the §6Furnace Trophy§r \u2014 a rare decorative item unique to this boss."
 			]
 			id: "F070"
 			rewards: [{
@@ -923,7 +923,7 @@
 		{
 			dependencies: ["F070"]
 			description: [
-				"§cThe Soul Furnace§r is the evolved, soul-infused form of The Furnace — encountered in Soul Sand Valleys."
+				"§cThe Soul Furnace§r is the evolved, soul-infused form of The Furnace \u2014 encountered in Soul Sand Valleys."
 				""
 				"Soul fire fuels its attacks, inflicting the Wither effect on direct hits. Bring Milk and resist fire as standard."
 				""
@@ -1001,7 +1001,7 @@
 		{
 			dependencies: ["F020"]
 			description: [
-				"§cThe Basalt Executioner§r guards Basalt Deltas — a towering sentinel with heavy stone armour and devastating slam attacks."
+				"§cThe Basalt Executioner§r guards Basalt Deltas \u2014 a towering sentinel with heavy stone armour and devastating slam attacks."
 				""
 				"Its melee hits are slow but sweep a wide arc. Strafe around it and punish after each missed slam."
 				""
@@ -1027,7 +1027,7 @@
 		{
 			dependencies: ["F020"]
 			description: [
-				"§cThe Piglin Executioner§r is the Piglin warband's champion — heavily armoured, relentless, and seemingly immune to being bartered with."
+				"§cThe Piglin Executioner§r is the Piglin warband's champion \u2014 heavily armoured, relentless, and seemingly immune to being bartered with."
 				""
 				"It hits fast and calls nearby Piglins to assist. §eGolden armour§r does not pacify it. Use area-denial tactics to manage the pack."
 				""
@@ -1052,9 +1052,9 @@
 		}
 		{
 			description: [
-				"§bLuminous Overworld§r scatters powerful boss mobs across biomes — living trophies of the world's most dangerous corners."
+				"§bLuminous Overworld§r scatters powerful boss mobs across biomes \u2014 living trophies of the world's most dangerous corners."
 				""
-				"§cThe Tree Ent§r is an ancient forest guardian — a walking tree that shakes the ground with root slams and hurls boulders at range."
+				"§cThe Tree Ent§r is an ancient forest guardian \u2014 a walking tree that shakes the ground with root slams and hurls boulders at range."
 				""
 				"Defeating it drops the §6Tree Ent Trophy§r."
 			]
@@ -1080,7 +1080,7 @@
 			description: [
 				"§cThe Cherry Tree Ent§r is a rare blossoming variant of the Tree Ent, found in Cherry Grove biomes."
 				""
-				"It scatters petal explosions that deal area damage in addition to its standard club attacks. Watch the ground — the petals linger."
+				"It scatters petal explosions that deal area damage in addition to its standard club attacks. Watch the ground \u2014 the petals linger."
 				""
 				"Defeating it drops the §6Cherry Tree Ent Trophy§r."
 			]
@@ -1129,7 +1129,7 @@
 		{
 			dependencies: ["F082"]
 			description: [
-				"§cThe Bogged Bone Stalker§r is a swamp-dwelling rare variant — its bones soaked in bog water and overgrown with moss."
+				"§cThe Bogged Bone Stalker§r is a swamp-dwelling rare variant \u2014 its bones soaked in bog water and overgrown with moss."
 				""
 				"Unlike its dry-land cousin, it applies Poison on each hit. Engage it on land and use Smite-enchanted weapons to exploit its undead nature."
 				""
@@ -1156,7 +1156,7 @@
 			description: [
 				"§cMummies§r haunt desert temples and dry biomes, rising from sand to ambush explorers."
 				""
-				"They inflict Slowness and Poison on hit. Bring Milk — extended fights will drain your health through debuffs alone."
+				"They inflict Slowness and Poison on hit. Bring Milk \u2014 extended fights will drain your health through debuffs alone."
 				""
 				"Defeating one drops the §6Mummy Trophy§r."
 			]
@@ -1207,7 +1207,7 @@
 			description: [
 				"§cThe Phoenix§r soars over savanna and badlands biomes. It swoops in with fire dive-attacks and leaves burning trails on the ground."
 				""
-				"Fire Resistance is essential. Ground it with ranged attacks — once low on health it lands and fights in melee."
+				"Fire Resistance is essential. Ground it with ranged attacks \u2014 once low on health it lands and fights in melee."
 				""
 				"Defeating it drops the §6Phoenix Trophy§r."
 			]
@@ -1256,7 +1256,7 @@
 		}
 		{
 			description: [
-				"§cThe Vile Gator§r lurks in swamp and jungle water. It is deceptively fast in water, sluggish on land — lure it ashore before engaging."
+				"§cThe Vile Gator§r lurks in swamp and jungle water. It is deceptively fast in water, sluggish on land \u2014 lure it ashore before engaging."
 				""
 				"It snaps with a wide jaw strike that sends targets flying. Depth Strider and aquatic gear make water encounters more manageable."
 				""
@@ -1284,7 +1284,7 @@
 			description: [
 				"§cThe Frigid Gator§r is a frozen variant of the Vile Gator found in cold rivers and icy biomes."
 				""
-				"It applies Slowness and Freeze on hit — being caught in melee for long is lethal. Bring Fire Resistance and attack from the edge of its range."
+				"It applies Slowness and Freeze on hit \u2014 being caught in melee for long is lethal. Bring Fire Resistance and attack from the edge of its range."
 				""
 				"Defeating it drops the §6Frozen Vile Gator Trophy§r."
 			]
@@ -1386,7 +1386,7 @@
 			description: [
 				"§cThe Golden Hermit King§r is a gilded variant of the Hermit King, found in deep warm-ocean trenches."
 				""
-				"It is significantly tankier and has a lunge attack that deals massive damage. Aqua Affinity and Depth Strider III are mandatory — match its mobility."
+				"It is significantly tankier and has a lunge attack that deals massive damage. Aqua Affinity and Depth Strider III are mandatory \u2014 match its mobility."
 				""
 				"Defeating it drops the §6Golden King Hermit Trophy§r."
 			]
@@ -1411,7 +1411,7 @@
 			description: [
 				"§cThe Witch Doctor§r is a powerful jungle shaman who hurls cursed projectiles and summons minion waves throughout the fight."
 				""
-				"Prioritise killing minions — they apply debuffs that make the Witch Doctor harder to hit. Once minions are cleared, close in fast and use high-burst damage weapons."
+				"Prioritise killing minions \u2014 they apply debuffs that make the Witch Doctor harder to hit. Once minions are cleared, close in fast and use high-burst damage weapons."
 				""
 				"Defeating it drops the §6Witch Doctor Trophy§r."
 			]
@@ -1536,5 +1536,5 @@
 		}
 	]
 	subtitle: "Gear up, face every threat, and conquer the world's most fearsome foes."
-	title: "§6⚔ Combat \& Adventure"
+	title: "§6\u2694 Combat \& Adventure"
 }

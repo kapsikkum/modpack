@@ -190,59 +190,59 @@ hash = "178c5b3df50c785309adfbcd016b93c92d927064a842030b8fa8fee0807d3b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "6fe7addd4f80a40c1d083a68b2d75691b35a727fac39df97081d9fabdae360d2"
+hash = "55599cda2d7f130e8558ded44cf972e924f1349326e8b8285b74f10575d6ee99"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "dd22b3043f4db9fb2f4372c091854f9acf4ceb4806d22aae20f7ad35ce93d9ac"
+hash = "4481511414ea226cbb6f4b017b5e4c2c94851fb57064a058e049e195ae23ed2d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_and_decoration.snbt"
-hash = "421412b9807c232a06ccd8f7922c72e3eabef312e3f51920d7c9d0134412a3a7"
+hash = "eee809dee1e6fd9977a2b3db0efd6cc15d6a47cb2c9992703748ca774069b429"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "48217071a5edfe9dae381587da303e0fbe889ce51608ccc8684c5ae506fa990b"
+hash = "a5c4f48b8599a0af3712d1332df661e343dbf4a59cd4d451d8f4c63e9c9a7a49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "87f3b90b44e58264e0ce9b68615ec2f116ba4ab079e3a7969fdc995f1e71da05"
+hash = "c9c5edd64f4f482a79ad9ecd13335453ab57be01381f833cc3e4c5e689b0d03d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "de7f445cae5c907c9f4bca82997ccf6b3b6b5cdfca696af23e747c7f9dd03079"
+hash = "c949b3e04364f12e7de044396b6eeaee8f9626e762fc61e7ce957c66b732f04b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
-hash = "583181a52dda95fc4d158d05782617641818d708b2329e0bfc8b74db066d9ec9"
+hash = "16f5eed2aff82c2439e0c0fb03eea02d448a3b5b66a524c605bbb79ef012f1bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "40be291267948a4f5c63b9a6ab4e3f022e833ecf23fa2fe20a5efa885d8052e0"
+hash = "86880a3dc26a5add93117d0846ff592e2d3ae0b725a7305098b02031d60dadc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "c4b9aa80bfaef1c8b302e1f3a874d06eaf13f0715bdaab92f86213fbc9d570e9"
+hash = "c6b1b810d3b5d63bf1d6fccc52da75be5df772b1e9d3be0bcb971d7af9746a96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "6e615bbfc7b6df3c7f3954243ba9e9bfd396e5c4fa408a1ec476eaf3ccc86a4f"
+hash = "3d793f250cf84254264b5534253dfabca36385d2c4dcf8f3da771331fcd7ab80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
-hash = "4a075e6e7e40b24eb3a4ff7397aee5af92d5a45daf7792d9fad4bb7241922b5c"
+hash = "d49e4f4d6a9871e1162481cca485306240dc310974aeb47eb0ab17e5aa88e5cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
-hash = "7ae24cd466079e7e8dce65988ade52f8332d9be9e4f24d999b7d6a55f8e78364"
+hash = "634c10a7e2ac9fdcbbe59c966a83b0c5fa1a711148d834b453241d1ba46a63fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
-hash = "9783a5e37e8bc072e81bb57c05b52398a151d03811ff0cfba5f7e9bd70b2eb6d"
+hash = "27c0735d4afb34dfbb68d3be25f78c8505c158626f7561c2627918b65e4cc266"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
-hash = "420ae4561f42249932fc4c8e3e3437b850286aba5cf13d0c699f60c4f8af4961"
+hash = "cf8a3baedf2c97c5bb8493d22e2e56963438832da255d235e8478b1553b21164"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -355,6 +355,10 @@ hash = "e7a5ab2364e8b33b35a91f5c926072ffc8ef1d8c1bda6e7aac2c2cd390f98b26"
 [[files]]
 file = "crash.log"
 hash = "c279f12fff2d31717e5e2eff929238982f68570b9b0a9490226393ef3b11e203"
+
+[[files]]
+file = "fix_snbt.py"
+hash = "0e9940c570ea8a69411c2ac5833466519a62342d778bdb3f5da1df25a0208eb0"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"

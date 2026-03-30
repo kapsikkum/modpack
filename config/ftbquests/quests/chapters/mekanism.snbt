@@ -30,7 +30,7 @@
 				}
 			]
 			title: "Osmium Dawn"
-			subtitle: "Mine Osmium Ore — it generates between y=-15 and y=60. This is the backbone of Mekanism."
+			subtitle: "Mine Osmium Ore \u2014 it generates between y=-15 and y=60. This is the backbone of Mekanism."
 			x: 0.0d
 			y: 0.0d
 		}
@@ -84,7 +84,7 @@
 				}
 			]
 			title: "Enrichment Chamber"
-			subtitle: "The Enrichment Chamber doubles ore yield by turning ores into 2× dust. Your first ore doubler!"
+			subtitle: "The Enrichment Chamber doubles ore yield by turning ores into 2\u00d7 dust. Your first ore doubler!"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -113,7 +113,7 @@
 				}
 			]
 			title: "Crush It"
-			subtitle: "The Crusher grinds materials into dust — required for ore tripling later with a Purification Chamber."
+			subtitle: "The Crusher grinds materials into dust \u2014 required for ore tripling later with a Purification Chamber."
 			x: 6.0d
 			y: 0.0d
 		}
@@ -238,7 +238,7 @@
 				}
 			]
 			title: "Factory Line"
-			subtitle: "Basic Factories process 3 items simultaneously — a massive throughput increase over single machines."
+			subtitle: "Basic Factories process 3 items simultaneously \u2014 a massive throughput increase over single machines."
 			x: 12.0d
 			y: 0.0d
 		}
@@ -292,7 +292,7 @@
 				}
 			]
 			title: "Gas Turbine"
-			subtitle: "The Gas-Burning Generator runs on Hydrogen or Ethylene — far more power than a Heat Generator."
+			subtitle: "The Gas-Burning Generator runs on Hydrogen or Ethylene \u2014 far more power than a Heat Generator."
 			x: 14.0d
 			y: 0.0d
 		}
@@ -316,7 +316,7 @@
 				}
 			]
 			title: "Yellow Cake"
-			subtitle: "Mine Uranium Ore and process it in the Chemical Dissolution Chamber to get Yellow Cake Uranium — the start of nuclear fuel production."
+			subtitle: "Mine Uranium Ore and process it in the Chemical Dissolution Chamber to get Yellow Cake Uranium \u2014 the start of nuclear fuel production."
 			x: 16.0d
 			y: 0.0d
 		}
@@ -344,7 +344,7 @@
 				}
 			]
 			title: "Fissile Fuel"
-			subtitle: "Process Yellow Cake → UF6 → U-235 → UF6 again → Fissile Fuel through the isotopic centrifuge and enrichment chain."
+			subtitle: "Process Yellow Cake \u2192 UF6 \u2192 U-235 \u2192 UF6 again \u2192 Fissile Fuel through the isotopic centrifuge and enrichment chain."
 			x: 18.0d
 			y: 0.0d
 		}
@@ -367,7 +367,7 @@
 				}
 			]
 			title: "Going Nuclear"
-			subtitle: "Craft Fission Reactor Casing — the structural block of the most powerful energy source in Mekanism. The minimum reactor is 3×4×3 (interior)."
+			subtitle: "Craft Fission Reactor Casing \u2014 the structural block of the most powerful energy source in Mekanism. The minimum reactor is 3\u00d74\u00d73 (interior)."
 			x: 20.0d
 			y: 0.0d
 		}
@@ -396,7 +396,7 @@
 				}
 			]
 			title: "Control Rod Assembly"
-			subtitle: "Craft a Control Rod Assembly — a structural component of the Fission Reactor that regulates the reaction. ALWAYS connect a Logic Adapter for SCRAM automation."
+			subtitle: "Craft a Control Rod Assembly \u2014 a structural component of the Fission Reactor that regulates the reaction. ALWAYS connect a Logic Adapter for SCRAM automation."
 			x: 22.0d
 			y: 0.0d
 		}
@@ -446,7 +446,7 @@
 				}
 			]
 			title: "Nuclear Waste Management"
-			subtitle: "Fission Reactors produce Spent Nuclear Waste. Store it in Radioactive Waste Barrels — never let it overflow or it will irradiate the area."
+			subtitle: "Fission Reactors produce Spent Nuclear Waste. Store it in Radioactive Waste Barrels \u2014 never let it overflow or it will irradiate the area."
 			x: 22.0d
 			y: 2.0d
 		}
@@ -548,7 +548,7 @@
 				}
 			]
 			title: "Fusion Power"
-			subtitle: "The Fusion Reactor is the ultimate endgame power source — it runs on D-T Fuel (Deuterium + Tritium), produces no waste, and outputs staggering amounts of energy. Requires a laser ignition system."
+			subtitle: "The Fusion Reactor is the ultimate endgame power source \u2014 it runs on D-T Fuel (Deuterium + Tritium), produces no waste, and outputs staggering amounts of energy. Requires a laser ignition system."
 			x: 26.0d
 			y: 0.0d
 		}
@@ -557,7 +557,7 @@
 			description: [
 				"The §eWind Generator§r is a free passive power source that produces more energy the higher it is placed."
 				""
-				"§7Output:§r Performance scales significantly above y=100. Place it on a rooftop or tower — at max height it produces substantially more than a Heat Generator."
+				"§7Output:§r Performance scales significantly above y=100. Place it on a rooftop or tower \u2014 at max height it produces substantially more than a Heat Generator."
 				""
 				"§7Setup:§r No fuel input required. Connect to Universal Cables and it generates power day and night, wind or calm. Wind Generators make excellent supplemental power for your early machine network."
 			]
@@ -579,18 +579,18 @@
 				}
 			]
 			title: "Wind Power"
-			subtitle: "Craft a Wind Generator — free passive RF that scales with altitude. Place it high for best output."
+			subtitle: "Craft a Wind Generator \u2014 free passive RF that scales with altitude. Place it high for best output."
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6015"]
 			description: [
-				"§eUniversal Cables§r are Mekanism's power distribution cables — they carry FE energy between generators and machines."
+				"§eUniversal Cables§r are Mekanism's power distribution cables \u2014 they carry FE energy between generators and machines."
 				""
 				"§7Setup:§r Cables connect automatically to adjacent machines when placed. For more complex routing, use the §eConfigurator§r to set input/output sides on machine faces."
 				""
-				"§7Tiers:§r Basic → Advanced → Elite → Ultimate — higher tiers carry more power per tick. Basic cables are sufficient early on, but upgrade as your power demands grow."
+				"§7Tiers:§r Basic \u2192 Advanced \u2192 Elite \u2192 Ultimate \u2014 higher tiers carry more power per tick. Basic cables are sufficient early on, but upgrade as your power demands grow."
 			]
 			id: "6031"
 			rewards: [
@@ -617,7 +617,7 @@
 		{
 			dependencies: ["6031"]
 			description: [
-				"The §eConfigurator§r is the essential Mekanism hand tool — use it to configure machine sides, cable interactions, and pipe colour-coding."
+				"The §eConfigurator§r is the essential Mekanism hand tool \u2014 use it to configure machine sides, cable interactions, and pipe colour-coding."
 				""
 				"§7Machine sides:§r Each side can be set to: §7Dark Blue§r (item input), §7Dark Red§r (item output), §7Dark Green§r (energy input), §7Cyan§r (extra), or §7Grey§r (disable). Shift+right-click a machine face to cycle through modes."
 				""
@@ -641,7 +641,7 @@
 				}
 			]
 			title: "Configurator"
-			subtitle: "Craft the Configurator — the essential Mekanism tool for configuring machine I/O sides."
+			subtitle: "Craft the Configurator \u2014 the essential Mekanism tool for configuring machine I/O sides."
 			x: 6.0d
 			y: -6.0d
 		}
@@ -671,14 +671,14 @@
 				}
 			]
 			title: "Electrolytic Separator"
-			subtitle: "Build the Electrolytic Separator — split water into Hydrogen (fuel) and Oxygen (ore tripling)."
+			subtitle: "Build the Electrolytic Separator \u2014 split water into Hydrogen (fuel) and Oxygen (ore tripling)."
 			x: 12.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6018"]
 			description: [
-				"The §eDigital Miner§r is Mekanism's automated mining machine — it mines a 32-block radius sphere filtered by ore type, automatically, while you do other things."
+				"The §eDigital Miner§r is Mekanism's automated mining machine \u2014 it mines a 32-block radius sphere filtered by ore type, automatically, while you do other things."
 				""
 				"§7Configuration:§r Open the GUI, set filters (§7Oredict Filter§r with tag like §7c:ores/iron§r catches every mod's iron ore, §7Material Filter§r targets specific blocks like Ancient Debris). Set the Y-level range and hit start."
 				""
@@ -715,9 +715,9 @@
 		{
 			dependencies: ["6030"]
 			description: [
-				"The §eAdvanced Solar Generator§r produces roughly 3× the power of the basic Solar Generator in the same horizontal footprint."
+				"The §eAdvanced Solar Generator§r produces roughly 3\u00d7 the power of the basic Solar Generator in the same horizontal footprint."
 				""
-				"§7Output:§r Up to 300 FE/t in direct sunlight. Requires clear sky above — any block overhead cuts output."
+				"§7Output:§r Up to 300 FE/t in direct sunlight. Requires clear sky above \u2014 any block overhead cuts output."
 				""
 				"§7Array tip:§r Build a platform above y=100, place a row of Advanced Solars, and connect them via Universal Cables. A 4-wide array provides solid daytime power for an entire mid-game machine setup. Pair with Wind Generators for 24/7 power coverage."
 			]
@@ -738,7 +738,7 @@
 				}
 			]
 			title: "Advanced Solar"
-			subtitle: "Build an Advanced Solar Generator — 3× the output of the basic model, same footprint."
+			subtitle: "Build an Advanced Solar Generator \u2014 3\u00d7 the output of the basic model, same footprint."
 			x: 4.0d
 			y: -8.0d
 		}
@@ -747,7 +747,7 @@
 			description: [
 				"The §eBio-Generator§r burns §eBioethanol§r for steady mid-game power output."
 				""
-				"§7Fuel chain:§r Crops (wheat, potatoes, saplings) → §ePressurized Reaction Chamber§r (with water + Ethylene) → §eBioethanol§r → §eBio-Generator§r."
+				"§7Fuel chain:§r Crops (wheat, potatoes, saplings) \u2192 §ePressurized Reaction Chamber§r (with water + Ethylene) \u2192 §eBioethanol§r \u2192 §eBio-Generator§r."
 				""
 				"§7Why bother:§r A fully-fed Bio-Generator produces significantly more power than the Heat or Wind Generators and runs 24/7. With a modest automated crop farm supplying the PRC, this provides reliable power between your current setup and a full fission reactor."
 			]
@@ -774,18 +774,18 @@
 				}
 			]
 			title: "Bio-Generator"
-			subtitle: "Build a Bio-Generator — burns bioethanol from fermented crops for reliable mid-game power."
+			subtitle: "Build a Bio-Generator \u2014 burns bioethanol from fermented crops for reliable mid-game power."
 			x: 14.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6011"]
 			description: [
-				"§eInfused Alloy§r is the first alloy tier in Mekanism — craft it in the §eMetallurgical Infuser§r by infusing §eIron Ingots§r with §eRedstone§r."
+				"§eInfused Alloy§r is the first alloy tier in Mekanism \u2014 craft it in the §eMetallurgical Infuser§r by infusing §eIron Ingots§r with §eRedstone§r."
 				""
-				"§7Why it matters:§r Infused Alloy is the foundation of every Mekanism alloy tier. It unlocks §eBasic Control Circuits§r, machine upgrading, and all higher alloys (Reinforced → Atomic)."
+				"§7Why it matters:§r Infused Alloy is the foundation of every Mekanism alloy tier. It unlocks §eBasic Control Circuits§r, machine upgrading, and all higher alloys (Reinforced \u2192 Atomic)."
 				""
-				"§7Recipe:§r Metallurgical Infuser + Redstone → Iron Ingot = Infused Alloy."
+				"§7Recipe:§r Metallurgical Infuser + Redstone \u2192 Iron Ingot = Infused Alloy."
 			]
 			icon: "mekanism:alloy_infused"
 			id: "6038"
@@ -806,18 +806,18 @@
 				}
 			]
 			title: "Infused Alloy"
-			subtitle: "Craft your first Infused Alloy — the foundation of every machine tier, circuit, and upgrade."
+			subtitle: "Craft your first Infused Alloy \u2014 the foundation of every machine tier, circuit, and upgrade."
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6038"]
 			description: [
-				"§eBasic Control Circuits§r are the core logic component of every Mekanism machine — nearly every recipe requires at least one."
+				"§eBasic Control Circuits§r are the core logic component of every Mekanism machine \u2014 nearly every recipe requires at least one."
 				""
 				"§7Recipe:§r Metallurgical Infuser: infuse a §eGold Ingot§r with §eInfused Alloy§r dust."
 				""
-				"§7Tip:§r Craft 16+ circuits immediately. You'll consume them constantly as you unlock new machines. The higher circuit tiers (Advanced, Elite, Ultimate) use Reinforced and Atomic Alloy respectively — start the alloy chain early."
+				"§7Tip:§r Craft 16+ circuits immediately. You'll consume them constantly as you unlock new machines. The higher circuit tiers (Advanced, Elite, Ultimate) use Reinforced and Atomic Alloy respectively \u2014 start the alloy chain early."
 			]
 			icon: "mekanism:basic_control_circuit"
 			id: "6039"
@@ -838,20 +838,20 @@
 				}
 			]
 			title: "Basic Control Circuit"
-			subtitle: "Craft a Basic Control Circuit — every Mekanism machine needs these in bulk."
+			subtitle: "Craft a Basic Control Circuit \u2014 every Mekanism machine needs these in bulk."
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6038"]
 			description: [
-				"Mekanism machines can be §eupgraded in place§r — hold the appropriate alloy tier and right-click any machine to instantly convert it to the next tier."
+				"Mekanism machines can be §eupgraded in place§r \u2014 hold the appropriate alloy tier and right-click any machine to instantly convert it to the next tier."
 				""
-				"§7Upgrade path:§r §7Basic§r → §6Advanced§r (Infused Alloy) → §aElite§r (Reinforced Alloy) → §dUltimate§r (Atomic Alloy)."
+				"§7Upgrade path:§r §7Basic§r \u2192 §6Advanced§r (Infused Alloy) \u2192 §aElite§r (Reinforced Alloy) \u2192 §dUltimate§r (Atomic Alloy)."
 				""
 				"§7How to upgrade:§r Hold an Infused Alloy and right-click a Basic machine. The machine converts instantly and keeps all its contents. No dismantling required."
 				""
-				"§7Priority:§r Upgrade your Enrichment Chamber and Factories first — they produce the largest throughput gain per tier."
+				"§7Priority:§r Upgrade your Enrichment Chamber and Factories first \u2014 they produce the largest throughput gain per tier."
 			]
 			icon: "mekanism:alloy_infused"
 			id: "603A"
@@ -885,11 +885,11 @@
 		{
 			dependencies: ["6039"]
 			description: [
-				"§eReinforced Alloy§r is the mid-tier alloy — crafted by infusing §eInfused Alloy§r with §eDiamond Dust§r in the Metallurgical Infuser."
+				"§eReinforced Alloy§r is the mid-tier alloy \u2014 crafted by infusing §eInfused Alloy§r with §eDiamond Dust§r in the Metallurgical Infuser."
 				""
 				"§7Why it matters:§r Required for §eElite§r machines, §eAdvanced Control Circuits§r, the §eDigital Miner§r, and the §eJetpack§r. It's the gateway to automating ore collection and running larger factory setups."
 				""
-				"§7Diamond Dust:§r Run Diamonds through your §eCrusher§r. Keep a supply of Diamond Dust ready — you'll need it for both Reinforced Alloy and later chemical processes."
+				"§7Diamond Dust:§r Run Diamonds through your §eCrusher§r. Keep a supply of Diamond Dust ready \u2014 you'll need it for both Reinforced Alloy and later chemical processes."
 			]
 			icon: "mekanism:alloy_reinforced"
 			id: "603B"
@@ -910,14 +910,14 @@
 				}
 			]
 			title: "Reinforced Alloy"
-			subtitle: "Craft Reinforced Alloy — unlocks Elite machines, the Digital Miner, and the Jetpack."
+			subtitle: "Craft Reinforced Alloy \u2014 unlocks Elite machines, the Digital Miner, and the Jetpack."
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["603B"]
 			description: [
-				"§eAtomic Alloy§r is the ultimate alloy tier — crafted by infusing §eReinforced Alloy§r with §eRefined Obsidian Dust§r in the Metallurgical Infuser."
+				"§eAtomic Alloy§r is the ultimate alloy tier \u2014 crafted by infusing §eReinforced Alloy§r with §eRefined Obsidian Dust§r in the Metallurgical Infuser."
 				""
 				"§7Why it matters:§r Unlocks §eUltimate§r machines, the §eMekaSuit§r armor, the §eAtomic Disassembler§r, and the §eQuantum Entangloporter§r (wireless energy and item transfer)."
 				""
@@ -942,14 +942,14 @@
 				}
 			]
 			title: "Atomic Alloy"
-			subtitle: "Craft Atomic Alloy — the pinnacle of Mekanism materials. Unlocks Ultimate machines and endgame gear."
+			subtitle: "Craft Atomic Alloy \u2014 the pinnacle of Mekanism materials. Unlocks Ultimate machines and endgame gear."
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["603B"]
 			description: [
-				"The §eHydrogen Jetpack§r is Mekanism's gas-powered flight device — fill it with §eHydrogen§r from the Electrolytic Separator and hold Jump to ascend."
+				"The §eHydrogen Jetpack§r is Mekanism's gas-powered flight device \u2014 fill it with §eHydrogen§r from the Electrolytic Separator and hold Jump to ascend."
 				""
 				"§7Controls:§r Hold Space to activate hover mode (suspends at current height). Hold Jump to ascend. Equipped jetpack cushions all fall damage."
 				""
@@ -975,14 +975,14 @@
 				}
 			]
 			title: "Jetpack!"
-			subtitle: "Craft the Mekanism Hydrogen Jetpack and take to the skies — fuelled by free electrolytic hydrogen."
+			subtitle: "Craft the Mekanism Hydrogen Jetpack and take to the skies \u2014 fuelled by free electrolytic hydrogen."
 			x: 8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["603C"]
 			description: [
-				"The §eMekaSuit§r is Mekanism's ultimate modular armor — built from Atomic Alloy and Refined Obsidian. It has 0 base armor but is upgraded with §eModules§r at the §eModification Station§r."
+				"The §eMekaSuit§r is Mekanism's ultimate modular armor \u2014 built from Atomic Alloy and Refined Obsidian. It has 0 base armor but is upgraded with §eModules§r at the §eModification Station§r."
 				""
 				"§7Key modules:§r"
 				"§eJet Unit§r: Built-in flight (replaces Jetpack)"
@@ -1010,18 +1010,18 @@
 				}
 			]
 			title: "MekaSuit"
-			subtitle: "Craft the full MekaSuit armor set — Mekanism's ultimate modular powersuit. Customize with modules."
+			subtitle: "Craft the full MekaSuit armor set \u2014 Mekanism's ultimate modular powersuit. Customize with modules."
 			x: 10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["603C"]
 			description: [
-				"The §eQIO Dashboard§r is Mekanism's mass digital item storage system — holding billions of items across §eQIO Drives§r, all searchable from one interface."
+				"The §eQIO Dashboard§r is Mekanism's mass digital item storage system \u2014 holding billions of items across §eQIO Drives§r, all searchable from one interface."
 				""
-				"§7Build chain:§r §eQIO Drive Array§r (3×3 multiblock) + §eQIO Drives§r (inserted into Array) + §eQIO Dashboard§r (the access terminal)."
+				"§7Build chain:§r §eQIO Drive Array§r (3\u00d73 multiblock) + §eQIO Drives§r (inserted into Array) + §eQIO Dashboard§r (the access terminal)."
 				""
-				"§7Drive capacities:§r Basic Drive → 8M items. Advanced → 128M. Elite → 2B. Ultimate → 32B per drive."
+				"§7Drive capacities:§r Basic Drive \u2192 8M items. Advanced \u2192 128M. Elite \u2192 2B. Ultimate \u2192 32B per drive."
 				""
 				"§7vs Refined Storage:§r QIO is pure bulk item storage with no autocrafting. Use Refined Storage for crafting networks; QIO for unlimited raw material stockpiles."
 			]
@@ -1044,20 +1044,20 @@
 				}
 			]
 			title: "QIO Mass Storage"
-			subtitle: "Build a QIO Dashboard — Mekanism's digital storage holding billions of items across QIO drives."
+			subtitle: "Build a QIO Dashboard \u2014 Mekanism's digital storage holding billions of items across QIO drives."
 			x: 10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6020"]
 			description: [
-				"Congratulations — you have been irradiated by your own nuclear material!"
+				"Congratulations \u2014 you have been irradiated by your own nuclear material!"
 				""
 				"§7How radiation works:§r Radioactive items and waste that overflow from barrels emit radiation. It spreads through the air. At high enough levels it deals continuous damage and is difficult to remove."
 				""
 				"§7Immediate treatment:§r Craft and drink §eRad Removal§r (Mekanism antidote). A bucket of milk reduces levels slightly. If exposure is extreme, dying in an open area away from your base disperses it."
 				""
-				"§7Prevention:§r Store ALL nuclear waste in §eRadioactive Waste Barrels§r immediately after it is produced — never let reactors or processing chains overflow. Wear §eMekaSuit§r with the Radiation Shielding Unit for full immunity."
+				"§7Prevention:§r Store ALL nuclear waste in §eRadioactive Waste Barrels§r immediately after it is produced \u2014 never let reactors or processing chains overflow. Wear §eMekaSuit§r with the Radiation Shielding Unit for full immunity."
 			]
 			icon: "mekanism:geiger_counter"
 			id: "6040"

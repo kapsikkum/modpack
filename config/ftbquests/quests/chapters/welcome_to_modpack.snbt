@@ -14,10 +14,10 @@
 			description: [
 				"Welcome to §6Modpack§r!"
 				""
-				"This pack weaves together technology, magic, exploration, combat, and Pokémon into one cohesive adventure. There's no single 'correct' path — start with whatever catches your eye."
+				"This pack weaves together technology, magic, exploration, combat, and Pok\u00e9mon into one cohesive adventure. There's no single 'correct' path \u2014 start with whatever catches your eye."
 				""
 				"§b--- Mod Overview ---§r"
-				"§6Cobblemon§r: Encounter, battle, and catch Pokémon in the wild"
+				"§6Cobblemon§r: Encounter, battle, and catch Pok\u00e9mon in the wild"
 				"§6Create§r: Clockwork machines, trains, and rotational engineering"
 				"§6Mekanism§r: Industrial ore processing, chemicals, and nuclear power"
 				"§6Applied Energistics 2§r: Digital item storage and autocrafting networks"
@@ -64,13 +64,13 @@
 		{
 			dependencies: ["B010"]
 			description: [
-				"§bCobblemon§r brings Pokémon to life as real mobs in the Minecraft world."
+				"§bCobblemon§r brings Pok\u00e9mon to life as real mobs in the Minecraft world."
 				""
-				"Pokémon spawn in biomes appropriate to their type — look for Water types near rivers, Fire types near deserts and volcanoes, and Grass types in forests."
+				"Pok\u00e9mon spawn in biomes appropriate to their type \u2014 look for Water types near rivers, Fire types near deserts and volcanoes, and Grass types in forests."
 				""
-				"§ePokéballs§r are crafted from §7Apricorns§r (coloured berries on Apricorn trees), §7aluminium ingots§r, and §7rubber§r from frog spawn. Collect all three from the overworld."
+				"§ePok\u00e9balls§r are crafted from §7Apricorns§r (coloured berries on Apricorn trees), §7aluminium ingots§r, and §7rubber§r from frog spawn. Collect all three from the overworld."
 				""
-				"See the §bCobblemon§r tab for the full Pokémon progression guide."
+				"See the §bCobblemon§r tab for the full Pok\u00e9mon progression guide."
 			]
 			id: "B011"
 			rewards: [
@@ -89,7 +89,7 @@
 				}
 			]
 			title: "Gotta Craft Some!"
-			subtitle: "Craft your first Poké Ball and begin your Cobblemon journey."
+			subtitle: "Craft your first Pok\u00e9 Ball and begin your Cobblemon journey."
 			x: 2.0d
 			y: -12.0d
 		}
@@ -100,7 +100,7 @@
 				""
 				"Waterwheels, windmills, and steam engines generate rotation, which is transmitted through Shafts and Gearboxes to power machines like the Mechanical Press, Mixer, and Saw."
 				""
-				"The §eHand Crank§r is your very first source of rotation — place it on a shaft and right-click to spin it manually."
+				"The §eHand Crank§r is your very first source of rotation \u2014 place it on a shaft and right-click to spin it manually."
 				""
 				"See the §bCreate: Rotational Force§r tab for the full engineering guide, including trains!"
 			]
@@ -121,7 +121,7 @@
 				}
 			]
 			title: "Crank It Up"
-			subtitle: "Craft a Hand Crank — your very first source of rotational force in Create."
+			subtitle: "Craft a Hand Crank \u2014 your very first source of rotational force in Create."
 			x: 2.0d
 			y: -10.0d
 		}
@@ -130,7 +130,7 @@
 			description: [
 				"§bMekanism§r is an industrial tech mod focused on ore processing, chemical engineering, and large-scale energy production."
 				""
-				"§eOsmium Ore§r generates between y=-15 and y=60 — it is the backbone of nearly every Mekanism machine and required in almost every recipe."
+				"§eOsmium Ore§r generates between y=-15 and y=60 \u2014 it is the backbone of nearly every Mekanism machine and required in almost every recipe."
 				""
 				"Your early goals: build a §eMetallurgical Infuser§r (infuses metals with carbon/redstone) and an §eEnrichment Chamber§r (doubles ore output). Both run on §eFE§r power."
 				""
@@ -154,7 +154,7 @@
 				}
 			]
 			title: "Osmium Dawn"
-			subtitle: "Mine Osmium Ore — the foundational resource of all Mekanism machines."
+			subtitle: "Mine Osmium Ore \u2014 the foundational resource of all Mekanism machines."
 			x: 2.0d
 			y: -8.0d
 		}
@@ -163,9 +163,9 @@
 			description: [
 				"§bArs Nouveau§r is a magic mod built around composing and casting §6spells§r using §6Source§r energy."
 				""
-				"The §eWorn Notebook§r is your in-game guide to every glyph, apparatus, and ritual — §7craft it with Paper + Lapis Lazuli§r."
+				"The §eWorn Notebook§r is your in-game guide to every glyph, apparatus, and ritual \u2014 §7craft it with Paper + Lapis Lazuli§r."
 				""
-				"Explore an §eArchwood Forest§r to gather Source Berries, find colourful Archwood trees, and encounter §eWilden§r — magical beasts whose parts power higher-tier magic."
+				"Explore an §eArchwood Forest§r to gather Source Berries, find colourful Archwood trees, and encounter §eWilden§r \u2014 magical beasts whose parts power higher-tier magic."
 				""
 				"See the §bArs Nouveau: Arcane Arts§r tab for the full magic progression."
 			]
@@ -186,7 +186,7 @@
 				}
 			]
 			title: "The Worn Notebook"
-			subtitle: "Craft the Ars Nouveau guidebook — Paper + Lapis Lazuli. Your magical journey begins."
+			subtitle: "Craft the Ars Nouveau guidebook \u2014 Paper + Lapis Lazuli. Your magical journey begins."
 			x: 2.0d
 			y: -4.0d
 		}
@@ -197,7 +197,7 @@
 				""
 				"To open an Aether Portal: §7build a gold block frame§r the same shape as a Nether Portal, then pour §7Water§r into it."
 				""
-				"The §eBook of Lore§r is the Aether's in-game encyclopedia — §7craft it with any Skyroot Plank + Paper§r. It describes every mob, dungeon, boss, and item in the sky."
+				"The §eBook of Lore§r is the Aether's in-game encyclopedia \u2014 §7craft it with any Skyroot Plank + Paper§r. It describes every mob, dungeon, boss, and item in the sky."
 				""
 				"See the §bAdventure \& Exploration§r tab for Aether boss encounters."
 			]
@@ -218,7 +218,7 @@
 				}
 			]
 			title: "Clouds Above"
-			subtitle: "Craft the Aether Book of Lore — your guide to the sky dimension."
+			subtitle: "Craft the Aether Book of Lore \u2014 your guide to the sky dimension."
 			x: 2.0d
 			y: -2.0d
 		}
@@ -229,7 +229,7 @@
 				""
 				"The §ePneumaticCraft Manual§r is your in-game guide. §7Craft it with a Book§r to get started."
 				""
-				"Your first machine is an §eAir Compressor§r — it burns fuel to produce pressure. Connect machines with §ePressure Tubes§r. Don't exceed machine pressure limits or they §cexplode§r!"
+				"Your first machine is an §eAir Compressor§r \u2014 it burns fuel to produce pressure. Connect machines with §ePressure Tubes§r. Don't exceed machine pressure limits or they §cexplode§r!"
 				""
 				"Advanced PneumaticCraft includes drone programming, GPS tools, and fully automated logistics systems."
 			]
@@ -250,14 +250,14 @@
 				}
 			]
 			title: "Under Pressure"
-			subtitle: "Craft the PneumaticCraft Manual — your guide to compressed air engineering."
+			subtitle: "Craft the PneumaticCraft Manual \u2014 your guide to compressed air engineering."
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["B010"]
 			description: [
-				"§bSimply Swords§r expands your weapon options with §614 distinct weapon types§r — each with unique reach, combo, and special behaviour."
+				"§bSimply Swords§r expands your weapon options with §614 distinct weapon types§r \u2014 each with unique reach, combo, and special behaviour."
 				""
 				"§eLongsword§r: extended reach. §eRapier§r: fast crits, ignores armour. §eClaymore§r: wide arc sweep."
 				"§eSpear§r: bonus charge damage. §eChakram§r: thrown and returns. §eGreathammer§r: stuns armoured foes."
@@ -283,7 +283,7 @@
 				}
 			]
 			title: "Simply Sharp"
-			subtitle: "Craft an Iron Longsword — your introduction to Simply Swords' extended weapon roster."
+			subtitle: "Craft an Iron Longsword \u2014 your introduction to Simply Swords' extended weapon roster."
 			x: 2.0d
 			y: 2.0d
 		}
@@ -292,9 +292,9 @@
 			description: [
 				"§bRelics§r are magical trinkets with passive or active abilities. They're found in dungeon chests, dropped by mobs, or unlocked via special research."
 				""
-				"§bArtifacts§r are rarer permanent trinkets found in vanilla structures — dungeons, mineshafts, strongholds. They cannot be crafted, only found."
+				"§bArtifacts§r are rarer permanent trinkets found in vanilla structures \u2014 dungeons, mineshafts, strongholds. They cannot be crafted, only found."
 				""
-				"Both mods' items equip in §eCurios§r slots — press §6U§r to open your curios inventory. Some pieces require §eresearching§r in the Relics UI before their powers activate."
+				"Both mods' items equip in §eCurios§r slots \u2014 press §6U§r to open your curios inventory. Some pieces require §eresearching§r in the Relics UI before their powers activate."
 				""
 				"§eFeral Claws§r: +10% attack speed. §eCrystal Heart§r: +2 max hearts. §eCloud in a Bottle§r: double jump."
 			]
@@ -315,7 +315,7 @@
 				}
 			]
 			title: "Finding Relics"
-			subtitle: "Obtain a Leather Belt — a starter Relic dropped by mobs and found in dungeon chests."
+			subtitle: "Obtain a Leather Belt \u2014 a starter Relic dropped by mobs and found in dungeon chests."
 			x: 2.0d
 			y: 4.0d
 		}
@@ -324,9 +324,9 @@
 			description: [
 				"§cL_Ender's Cataclysm§r adds powerful boss encounters with unique loot and material chains."
 				""
-				"Bosses are summoned using their §eAltar§r structures found across the world. Each boss requires specific gear to survive — early fights need at least §7Black Steel§r weapons and armour."
+				"Bosses are summoned using their §eAltar§r structures found across the world. Each boss requires specific gear to survive \u2014 early fights need at least §7Black Steel§r weapons and armour."
 				""
-				"§eBlack Steel§r is the entry Cataclysm material — craft §7Obsidian§r and §7Soul Sand§r into an §eInfernal Forge§r, then use it to produce Black Steel Ingots."
+				"§eBlack Steel§r is the entry Cataclysm material \u2014 craft §7Obsidian§r and §7Soul Sand§r into an §eInfernal Forge§r, then use it to produce Black Steel Ingots."
 				""
 				"See the §bAdventure \& Exploration§r tab for all Cataclysm boss encounter quests."
 			]
@@ -348,21 +348,21 @@
 				}
 			]
 			title: "Ancient Evil Stirs"
-			subtitle: "Smelt your first Black Steel Ingots — the entry material for Cataclysm progression."
+			subtitle: "Smelt your first Black Steel Ingots \u2014 the entry material for Cataclysm progression."
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["B010"]
 			description: [
-				"§bArtifacts§r trinkets are hidden in chest loot across the world — dungeons, mineshafts, jungle temples, desert temples, woodland mansions, and strongholds."
+				"§bArtifacts§r trinkets are hidden in chest loot across the world \u2014 dungeons, mineshafts, jungle temples, desert temples, woodland mansions, and strongholds."
 				""
-				"They provide permanent passive effects when worn in §eCurios§r slots. No crafting required — only exploration."
+				"They provide permanent passive effects when worn in §eCurios§r slots. No crafting required \u2014 only exploration."
 				""
 				"§eFeral Claws§r: faster attacks. §eCrystal Heart§r: extra hearts. §eCloud in a Bottle§r: double jump."
 				"§eWarp Drive§r: short-range blink. §eVampiric Glove§r: lifesteal on hit. §eUniversal Attractor§r: magnet effect."
 				""
-				"§7Tip§r: loot every structure you find — Artifact rarity is high but the reward is worth it."
+				"§7Tip§r: loot every structure you find \u2014 Artifact rarity is high but the reward is worth it."
 			]
 			id: "B01B"
 			rewards: [
@@ -381,7 +381,7 @@
 				}
 			]
 			title: "What's in the Chest?"
-			subtitle: "Find a pair of Feral Claws — an Artifact lurking in dungeon loot."
+			subtitle: "Find a pair of Feral Claws \u2014 an Artifact lurking in dungeon loot."
 			x: 2.0d
 			y: 8.0d
 		}
@@ -390,13 +390,13 @@
 			description: [
 				"§bImmersive Aircraft§r adds fully pilotable vehicles to the sky."
 				""
-				"§6Biplane§r: fast horizontal flight, has a minimum speed to stay airborne — don't stall!"
+				"§6Biplane§r: fast horizontal flight, has a minimum speed to stay airborne \u2014 don't stall!"
 				"§6Gyrodyne§r (helicopter): vertical take-off and hovering, slower but lands anywhere."
 				"§6Airship§r: large and slow, great for hauling cargo."
 				""
 				"All aircraft run on §efuel§r (produced in a Refinery from coal or blaze rods). Use WASD to steer, Space to ascend, Shift to descend."
 				""
-				"§7Tip§r: the Gyrodyne is by far the most practical — you can land in any clearing without a runway."
+				"§7Tip§r: the Gyrodyne is by far the most practical \u2014 you can land in any clearing without a runway."
 			]
 			id: "B01C"
 			rewards: [
@@ -415,7 +415,7 @@
 				}
 			]
 			title: "Take to the Skies"
-			subtitle: "Craft an Airship hull — your first Immersive Aircraft vehicle component."
+			subtitle: "Craft an Airship hull \u2014 your first Immersive Aircraft vehicle component."
 			x: 2.0d
 			y: 10.0d
 		}
@@ -428,7 +428,7 @@
 				""
 				"Balloons drift with wind direction. Dye your Balloon Block any colour for a personal touch."
 				""
-				"§6Pro tip§r: When your balloon pops — either by flying too high or by enemy fire — it drops §6treasure§r! Rare items, modded materials, and enchanted gear all fall out."
+				"§6Pro tip§r: When your balloon pops \u2014 either by flying too high or by enemy fire \u2014 it drops §6treasure§r! Rare items, modded materials, and enchanted gear all fall out."
 			]
 			id: "B01D"
 			rewards: [
@@ -459,7 +459,7 @@
 				""
 				"Unlike chest rooms and barrels, your entire base inventory becomes one searchable pool. Autocraft items on demand, import from machines automatically, and access storage wirelessly from anywhere."
 				""
-				"§7First step:§r craft §eQuartz Enriched Iron§r — surround an Iron Ingot with 4 Nether Quartz in a + pattern."
+				"§7First step:§r craft §eQuartz Enriched Iron§r \u2014 surround an Iron Ingot with 4 Nether Quartz in a + pattern."
 				""
 				"See the §bRefined Storage§r tab for the full network and autocrafting guide."
 			]
@@ -482,16 +482,16 @@
 				}
 			]
 			title: "Digitise Your Storage"
-			subtitle: "Craft Quartz Enriched Iron — your first step into Refined Storage."
+			subtitle: "Craft Quartz Enriched Iron \u2014 your first step into Refined Storage."
 			x: 2.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["B011"]
 			description: [
-				"§eGreat Balls§r have a higher catch rate than standard Poké Balls — essential for catching rarer or higher-level Pokémon."
+				"§eGreat Balls§r have a higher catch rate than standard Pok\u00e9 Balls \u2014 essential for catching rarer or higher-level Pok\u00e9mon."
 				""
-				"§7Crafting:§r Cyan Apricorn + Aluminium Ingot + Rubber → Great Ball Disc → Great Ball. Cyan Apricorns grow on trees found in forests and plains biomes."
+				"§7Crafting:§r Cyan Apricorn + Aluminium Ingot + Rubber \u2192 Great Ball Disc \u2192 Great Ball. Cyan Apricorns grow on trees found in forests and plains biomes."
 				""
 				"From here, experiment with other Apricorn colours for different effects: Ultra Balls require Yellow Apricorns, and rarer balls need multiple types."
 			]
@@ -513,22 +513,22 @@
 				}
 			]
 			title: "Greater Catch Rate"
-			subtitle: "Craft a Great Ball — needed to catch tougher Pokémon in the wild."
+			subtitle: "Craft a Great Ball \u2014 needed to catch tougher Pok\u00e9mon in the wild."
 			x: 4.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["B020"]
 			description: [
-				"The §ePokédex§r is your encyclopaedia of every Pokémon species — right-click any Pokémon with it equipped to register and scan them."
+				"The §ePok\u00e9dex§r is your encyclopaedia of every Pok\u00e9mon species \u2014 right-click any Pok\u00e9mon with it equipped to register and scan them."
 				""
-				"§7What it shows:§r Species name, type(s), base stats, possible moves, habitat, and evolution conditions. It's the fastest way to check what a Pokémon needs to evolve."
+				"§7What it shows:§r Species name, type(s), base stats, possible moves, habitat, and evolution conditions. It's the fastest way to check what a Pok\u00e9mon needs to evolve."
 				""
 				"§7How to craft:§r Combine an §eAluminium Ingot§r, §eRubber§r, and a §eGlass Pane§r. Check JEI for the exact recipe shape. It requires §eApricorn§r materials to complete."
 				""
-				"§7Tip:§r The §ePokéNav§r (a craftable upgrade) shows nearby Pokémon species on a live radar. Crafting the PokéNav requires a Pokédex — so make one early."
+				"§7Tip:§r The §ePok\u00e9Nav§r (a craftable upgrade) shows nearby Pok\u00e9mon species on a live radar. Crafting the Pok\u00e9Nav requires a Pok\u00e9dex \u2014 so make one early."
 				""
-				"See the §bCobblemon§r tab for the full Pokémon progression guide."
+				"See the §bCobblemon§r tab for the full Pok\u00e9mon progression guide."
 			]
 			icon: "cobblemon:pokedex"
 			id: "B058"
@@ -542,19 +542,19 @@
 			tasks: [
 				{
 					id: "B158"
-					title: "Craft your Pokédex"
+					title: "Craft your Pok\u00e9dex"
 					type: "checkmark"
 				}
 			]
-			title: "Your Pokédex"
-			subtitle: "Craft a Pokédex — your personal Pokémon encyclopaedia. Carry it always."
+			title: "Your Pok\u00e9dex"
+			subtitle: "Craft a Pok\u00e9dex \u2014 your personal Pok\u00e9mon encyclopaedia. Carry it always."
 			x: 6.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["B012"]
 			description: [
-				"A §eWater Wheel§r generates rotation passively from flowing water — no fuel required."
+				"A §eWater Wheel§r generates rotation passively from flowing water \u2014 no fuel required."
 				""
 				"§7Setup:§r Place the Water Wheel flat over a water source or flowing stream. Flowing water on the paddles spins it continuously. Connect to a shaft network to distribute the power."
 				""
@@ -578,7 +578,7 @@
 				}
 			]
 			title: "Harness the Flow"
-			subtitle: "Build a Water Wheel — your first passive source of rotational force."
+			subtitle: "Build a Water Wheel \u2014 your first passive source of rotational force."
 			x: 4.0d
 			y: -10.0d
 		}
@@ -587,7 +587,7 @@
 			description: [
 				"The §eEnrichment Chamber§r doubles ore output: it processes ores into two dusts, which you then smelt for two ingots per ore mined."
 				""
-				"§7Power:§r The Enrichment Chamber runs on §eFE§r. Connect it to any power source — even a Basic Energy Generator from Mekanism running on coal works early game."
+				"§7Power:§r The Enrichment Chamber runs on §eFE§r. Connect it to any power source \u2014 even a Basic Energy Generator from Mekanism running on coal works early game."
 				""
 				"Doubling ores is one of the biggest early-game boosts in Mekanism. Get this running as soon as possible and never smelt raw ores directly again."
 			]
@@ -609,18 +609,18 @@
 				}
 			]
 			title: "Double Your Ores"
-			subtitle: "Build an Enrichment Chamber — doubles ore output to 2 ingots per ore."
+			subtitle: "Build an Enrichment Chamber \u2014 doubles ore output to 2 ingots per ore."
 			x: 4.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["B015"]
 			description: [
-				"The §eNovice Spell Book§r is your first grimoire — it holds one spell slot and lets you cast the spell you've assembled from Glyphs."
+				"The §eNovice Spell Book§r is your first grimoire \u2014 it holds one spell slot and lets you cast the spell you've assembled from Glyphs."
 				""
 				"§7Glyphs§r are acquired at the §eScribes' Table§r: combine Source (from a Sourcelink) and Magical Clay to inscribe new glyphs onto blank parchment."
 				""
-				"A basic starter spell: §eTouch → Ignite§r — sets a target on fire. Experiment with Projectile, AOE, and Amplify modifiers to build more powerful combinations."
+				"A basic starter spell: §eTouch \u2192 Ignite§r \u2014 sets a target on fire. Experiment with Projectile, AOE, and Amplify modifiers to build more powerful combinations."
 			]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "B024"
@@ -647,9 +647,9 @@
 		{
 			dependencies: ["B016"]
 			description: [
-				"The §bAether§r is accessed through a §eGolden Portal§r — a frame of §7Gold Blocks§r shaped like a Nether Portal, activated by pouring §7Water§r into the frame."
+				"The §bAether§r is accessed through a §eGolden Portal§r \u2014 a frame of §7Gold Blocks§r shaped like a Nether Portal, activated by pouring §7Water§r into the frame."
 				""
-				"Once through, you'll find yourself on floating islands above the clouds. Everything here is silver-white and hostile — explore carefully."
+				"Once through, you'll find yourself on floating islands above the clouds. Everything here is silver-white and hostile \u2014 explore carefully."
 				""
 				"§7First goals:§r collect Skyroot Wood (needed for Aether tools), find Blue Aercloud to begin your exploration, and locate a §eBronze Dungeon§r for your first boss fight."
 			]
@@ -678,7 +678,7 @@
 		{
 			dependencies: ["B017"]
 			description: [
-				"The §eAir Compressor§r is your first PneumaticCraft machine — it burns fuel to compress air into §ePressure§r and distributes it through §ePressure Tubes§r."
+				"The §eAir Compressor§r is your first PneumaticCraft machine \u2014 it burns fuel to compress air into §ePressure§r and distributes it through §ePressure Tubes§r."
 				""
 				"§7Warning:§r Every PneumaticCraft machine has a maximum pressure rating. If you exceed it, the machine §cexplodes§r. Monitor your gauges using §ePressure Gauges§r on tubes."
 				""
@@ -702,7 +702,7 @@
 				}
 			]
 			title: "First Pressure"
-			subtitle: "Build an Air Compressor — your first compressed air generator."
+			subtitle: "Build an Air Compressor \u2014 your first compressed air generator."
 			x: 4.0d
 			y: 0.0d
 		}
@@ -711,7 +711,7 @@
 			description: [
 				"§eDiamond§r tier Simply Swords weapons deal significantly more damage and have greater durability than iron."
 				""
-				"All weapon types follow the same tier upgrade path: §7Iron → Diamond → Netherite§r. The crafting shape is the same as vanilla swords — two material items stacked vertically with a stick, plus any additional material the weapon type requires."
+				"All weapon types follow the same tier upgrade path: §7Iron \u2192 Diamond \u2192 Netherite§r. The crafting shape is the same as vanilla swords \u2014 two material items stacked vertically with a stick, plus any additional material the weapon type requires."
 				""
 				"Diamond also unlocks runic enchanting on Simply Swords weapons. Check the §bSimply Swords§r tab for all weapon types and their unique mechanics."
 			]
@@ -733,7 +733,7 @@
 				}
 			]
 			title: "Diamond Edge"
-			subtitle: "Craft a Diamond Longsword — upgrade to the mid-tier Simply Swords weapon."
+			subtitle: "Craft a Diamond Longsword \u2014 upgrade to the mid-tier Simply Swords weapon."
 			x: 4.0d
 			y: 2.0d
 		}
@@ -744,7 +744,7 @@
 				""
 				"Relics are found in §7dungeon chests, mob drops, and structure loot§r. Some require §eResearching§r in the Relics interface (press §6R§r) before their passive abilities activate."
 				""
-				"§7Tip:§r Equip Relic trinkets in §eCurios§r slots — press §6U§r to open your curios inventory."
+				"§7Tip:§r Equip Relic trinkets in §eCurios§r slots \u2014 press §6U§r to open your curios inventory."
 			]
 			icon: "relics:scarab_talisman"
 			id: "B028"
@@ -764,18 +764,18 @@
 				}
 			]
 			title: "Relic Hunter"
-			subtitle: "Find a Relic trinket — powerful accessories found in dungeons and mob drops."
+			subtitle: "Find a Relic trinket \u2014 powerful accessories found in dungeons and mob drops."
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["B01A"]
 			description: [
-				"The §eInfernal Forge§r is Cataclysm's primary workstation — it smelts §eBlack Steel Ingots§r and processes other Cataclysm materials."
+				"The §eInfernal Forge§r is Cataclysm's primary workstation \u2014 it smelts §eBlack Steel Ingots§r and processes other Cataclysm materials."
 				""
 				"§7Recipe:§r Built from Obsidian, Soul Sand, and Black Steel Ingots in a shaped crafting recipe."
 				""
-				"All progression in Cataclysm runs through the Infernal Forge: §7Black Steel → Igneous Rock → Cataclysm-tier gear§r. It's the gateway to every boss fight from the Ender Golem onward."
+				"All progression in Cataclysm runs through the Infernal Forge: §7Black Steel \u2192 Igneous Rock \u2192 Cataclysm-tier gear§r. It's the gateway to every boss fight from the Ender Golem onward."
 			]
 			icon: "cataclysm:infernal_forge"
 			id: "B029"
@@ -795,18 +795,18 @@
 				}
 			]
 			title: "Infernal Forge"
-			subtitle: "Build the Infernal Forge — Cataclysm's gateway workstation for all boss tiers."
+			subtitle: "Build the Infernal Forge \u2014 Cataclysm's gateway workstation for all boss tiers."
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["B01B"]
 			description: [
-				"A §eCloud in a Bottle§r is an Artifact trinket that grants a §edouble jump§r — tap Jump a second time while airborne to gain extra height."
+				"A §eCloud in a Bottle§r is an Artifact trinket that grants a §edouble jump§r \u2014 tap Jump a second time while airborne to gain extra height."
 				""
 				"Equip it in a §eCurios§r slot for a permanent passive effect. No charges, durability, or upkeep required."
 				""
-				"§7Tip:§r Double jump stacks well with Elytra and various magic spell movement abilities — combine with Ars Nouveau's §eWing§r glyph for triple-air mobility."
+				"§7Tip:§r Double jump stacks well with Elytra and various magic spell movement abilities \u2014 combine with Ars Nouveau's §eWing§r glyph for triple-air mobility."
 			]
 			icon: "artifacts:cloud_in_a_bottle"
 			id: "B02A"
@@ -826,16 +826,16 @@
 				}
 			]
 			title: "Bottled Cloud"
-			subtitle: "Find a Cloud in a Bottle Artifact — grants double jump when equipped."
+			subtitle: "Find a Cloud in a Bottle Artifact \u2014 grants double jump when equipped."
 			x: 4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["B01C"]
 			description: [
-				"The §eBiplane§r is the fastest Immersive Aircraft vehicle — a fixed-wing aircraft that requires forward speed to stay airborne."
+				"The §eBiplane§r is the fastest Immersive Aircraft vehicle \u2014 a fixed-wing aircraft that requires forward speed to stay airborne."
 				""
-				"§7Controls:§r WASD to steer, Space to ascend, Shift to descend. §cDon't stall§r — fall below minimum speed and it drops like a rock."
+				"§7Controls:§r WASD to steer, Space to ascend, Shift to descend. §cDon't stall§r \u2014 fall below minimum speed and it drops like a rock."
 				""
 				"§7Fuel:§r Refined fuel produced in an Immersive Aircraft Refinery (coalcoke, blaze rods, or liquid fuel). Keep a fuel supply in the aircraft's tank before long flights."
 			]
@@ -857,16 +857,16 @@
 				}
 			]
 			title: "Full Speed Ahead"
-			subtitle: "Build a Biplane — the fastest Immersive Aircraft vehicle."
+			subtitle: "Build a Biplane \u2014 the fastest Immersive Aircraft vehicle."
 			x: 4.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["B01D"]
 			description: [
-				"§bAir Balloons§r are steered by the wind — ascend with §7Space§r, descend with §7Shift§r, and drift with the direction you're facing."
+				"§bAir Balloons§r are steered by the wind \u2014 ascend with §7Space§r, descend with §7Shift§r, and drift with the direction you're facing."
 				""
-				"When a balloon is §cpunched§r or §cshot§r, it pops and drops its §6treasure§r — rare items, modded materials, and enchanted gear fall out. The higher you fly, the more dangerous but lucrative the contents."
+				"When a balloon is §cpunched§r or §cshot§r, it pops and drops its §6treasure§r \u2014 rare items, modded materials, and enchanted gear fall out. The higher you fly, the more dangerous but lucrative the contents."
 				""
 				"§7Tip:§r Dye your Balloon Block with any dye for a custom colour. Place the Balloon Block above a Basket and right-click to board."
 			]
@@ -903,7 +903,7 @@
 				"- At least one Disk Drive + Storage Disk"
 				"- One Grid to view your inventory"
 				""
-				"Once it glows blue and the Grid shows your items — §a§lyour Refined Storage network is live!§r"
+				"Once it glows blue and the Grid shows your items \u2014 §a§lyour Refined Storage network is live!§r"
 			]
 			icon: "refinedstorage:controller"
 			id: "B02D"
@@ -923,7 +923,7 @@
 				}
 			]
 			title: "The Controller"
-			subtitle: "Build the Refined Storage Controller — your digital network is live!"
+			subtitle: "Build the Refined Storage Controller \u2014 your digital network is live!"
 			x: 4.0d
 			y: 14.0d
 		}
@@ -932,9 +932,9 @@
 			description: [
 				"§bOritech§r is an industrial tech mod focused on §6electronics§r, §6ore processing§r, and §6nuclear power§r."
 				""
-				"§eNickel Ore§r generates in the overworld and is your entry point — mine it and smelt it into §eNickel Ingots§r to craft your first Machine Frame and Basic Generator."
+				"§eNickel Ore§r generates in the overworld and is your entry point \u2014 mine it and smelt it into §eNickel Ingots§r to craft your first Machine Frame and Basic Generator."
 				""
-				"§7The Oritech chain:§r Nickel + Copper → §eMachine Frame§r → §eBasic Generator§r → §ePulverizer§r (doubles ores) → §eSilicon§r → §eElectronics§r → Advanced Machines → §eNuclear Reactor§r."
+				"§7The Oritech chain:§r Nickel + Copper \u2192 §eMachine Frame§r \u2192 §eBasic Generator§r \u2192 §ePulverizer§r (doubles ores) \u2192 §eSilicon§r \u2192 §eElectronics§r \u2192 Advanced Machines \u2192 §eNuclear Reactor§r."
 				""
 				"See the §bOritech§r chapter for the full industrial progression guide."
 			]
@@ -957,14 +957,14 @@
 				}
 			]
 			title: "Oritech Awakens"
-			subtitle: "Mine Raw Nickel — your entry point into Oritech's industrial age. See the Oritech chapter for the full guide."
+			subtitle: "Mine Raw Nickel \u2014 your entry point into Oritech's industrial age. See the Oritech chapter for the full guide."
 			x: 2.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["B030"]
 			description: [
-				"The §eBasic Generator§r burns coal, wood, and charcoal to produce FE — the power currency for all Oritech machines."
+				"The §eBasic Generator§r burns coal, wood, and charcoal to produce FE \u2014 the power currency for all Oritech machines."
 				""
 				"§7Immediately connect:§r Your §ePowered Furnace§r (faster electric smelting) and §ePulverizer§r (doubles ore output) via §eEnergy Pipes§r. These two machines give an immediate and permanent resource advantage over vanilla processing."
 				""
@@ -995,7 +995,7 @@
 		{
 			dependencies: ["B021"]
 			description: [
-				"The §eWrench§r is §bCreate§r's most important tool — right-click any machine or shaft block to rotate it, and Shift + right-click to safely dismantle and pick it up without losing the block."
+				"The §eWrench§r is §bCreate§r's most important tool \u2014 right-click any machine or shaft block to rotate it, and Shift + right-click to safely dismantle and pick it up without losing the block."
 				""
 				"§7What the Wrench does:§r"
 				"§eRotate§r: Change the facing direction of any Create block (shaft, cog, machine, etc.)"
@@ -1022,16 +1022,16 @@
 				}
 			]
 			title: "Create Toolkit"
-			subtitle: "Claim a free Wrench — Create's essential tool for rotating and dismantling machines."
+			subtitle: "Claim a free Wrench \u2014 Create's essential tool for rotating and dismantling machines."
 			x: 6.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["B022"]
 			description: [
-				"The §eMekanism Configurator§r is the essential tool for setting up machine automation — Shift + right-click any face of a machine to cycle its I/O mode."
+				"The §eMekanism Configurator§r is the essential tool for setting up machine automation \u2014 Shift + right-click any face of a machine to cycle its I/O mode."
 				""
-				"§7I/O modes:§r §7None§r → §bInput§r → §6Output§r → §eExtra§r. Colour-coded on the machine face."
+				"§7I/O modes:§r §7None§r \u2192 §bInput§r \u2192 §6Output§r \u2192 §eExtra§r. Colour-coded on the machine face."
 				"§bBlue§r = input side (items/fluids enter here)."
 				"§6Orange§r = output side (items/fluids leave here)."
 				""
@@ -1055,18 +1055,18 @@
 				}
 			]
 			title: "Mekanism Toolkit"
-			subtitle: "Claim a free Configurator — the essential tool for setting machine I/O modes."
+			subtitle: "Claim a free Configurator \u2014 the essential tool for setting machine I/O modes."
 			x: 6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["B024"]
 			description: [
-				"The §eSource Jar§r is §bArs Nouveau§r's primary energy container — it stores §eSource§r, the magical fuel consumed by spells, the Scribe's Table, and magical automation."
+				"The §eSource Jar§r is §bArs Nouveau§r's primary energy container \u2014 it stores §eSource§r, the magical fuel consumed by spells, the Scribe's Table, and magical automation."
 				""
 				"§7How to fill it:§r Place any §eSourcelink§r (Allay, Amethyst, etc.) nearby and it passively harvests Source from the environment. Place §eSource Berry Bushes§r next to it to accelerate filling."
 				""
-				"§7Where to place them:§r Next to your §eScribe's Table§r and §eEnchanting Apparatus§r — they auto-draw from adjacent Source Jars when performing operations."
+				"§7Where to place them:§r Next to your §eScribe's Table§r and §eEnchanting Apparatus§r \u2014 they auto-draw from adjacent Source Jars when performing operations."
 				""
 				"§7Tip:§r You'll need multiple Source Jars as your magical infrastructure grows. Start with at least two."
 			]
@@ -1088,20 +1088,20 @@
 				}
 			]
 			title: "Ars Nouveau Toolkit"
-			subtitle: "Claim a free Source Jar — the magical energy storage for all Ars Nouveau operations."
+			subtitle: "Claim a free Source Jar \u2014 the magical energy storage for all Ars Nouveau operations."
 			x: 6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["B025"]
 			description: [
-				"The §eGolden Dart Shooter§r is one of the most effective ranged weapons in §bThe Aether§r — fires §eGolden Darts§r or §ePoisoned Darts§r from a distance."
+				"The §eGolden Dart Shooter§r is one of the most effective ranged weapons in §bThe Aether§r \u2014 fires §eGolden Darts§r or §ePoisoned Darts§r from a distance."
 				""
-				"§7Why it matters:§r Many Aether mobs — §eSilver Monsters§r, §eZephyrs§r, and dungeon golems — resist melee damage heavily but are vulnerable to projectiles. The dart shooter lets you safely kite them."
+				"§7Why it matters:§r Many Aether mobs \u2014 §eSilver Monsters§r, §eZephyrs§r, and dungeon golems \u2014 resist melee damage heavily but are vulnerable to projectiles. The dart shooter lets you safely kite them."
 				""
 				"§7Crafting more darts:§r Golden Darts need golden nuggets and feathers. Poisoned Darts require Skyroot Poison Buckets (found in Aether dungeons)."
 				""
-				"§7Tip:§r Save a full stack of §ePoisoned Darts§r for the §eSun Spirit§r final boss fight — it's much harder without them."
+				"§7Tip:§r Save a full stack of §ePoisoned Darts§r for the §eSun Spirit§r final boss fight \u2014 it's much harder without them."
 			]
 			icon: "aether:golden_dart_shooter"
 			id: "B053"
@@ -1127,14 +1127,14 @@
 				}
 			]
 			title: "Aether Arsenal"
-			subtitle: "Claim a Golden Dart Shooter and 32 Golden Darts — the Aether's best ranged weapon."
+			subtitle: "Claim a Golden Dart Shooter and 32 Golden Darts \u2014 the Aether's best ranged weapon."
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["B026"]
 			description: [
-				"The §ePressure Gauge§r attaches to §ePressure Tubes§r and gives you a live readout of the network's current pressure — essential for catching over-pressure before it causes an explosion."
+				"The §ePressure Gauge§r attaches to §ePressure Tubes§r and gives you a live readout of the network's current pressure \u2014 essential for catching over-pressure before it causes an explosion."
 				""
 				"§7How to use:§r Right-click a Pressure Tube with the gauge to attach it. You'll see the bar fill as pressure builds. Watch for it approaching the §cdangerous pressure§r threshold."
 				""
@@ -1160,7 +1160,7 @@
 				}
 			]
 			title: "PneumaticCraft Toolkit"
-			subtitle: "Claim 2 free Pressure Gauges — monitor pressure to prevent machine explosions."
+			subtitle: "Claim 2 free Pressure Gauges \u2014 monitor pressure to prevent machine explosions."
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1191,18 +1191,18 @@
 				}
 			]
 			title: "Refined Storage Toolkit"
-			subtitle: "Claim a free RS Wrench — safely rotate and dismantle Refined Storage components."
+			subtitle: "Claim a free RS Wrench \u2014 safely rotate and dismantle Refined Storage components."
 			x: 6.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["B010"]
 			description: [
-				"§bWaystones§r let you build a fast-travel network across the world — place one, name it, and you can teleport to it from any other Waystone or from the §eWarp Stone§r in your pocket."
+				"§bWaystones§r let you build a fast-travel network across the world \u2014 place one, name it, and you can teleport to it from any other Waystone or from the §eWarp Stone§r in your pocket."
 				""
 				"§7Craft a Waystone:§r Chiselled Stone Bricks + Lodestone + Ender Pearl. Place it at your base and right-click to name it."
 				""
-				"§7Warp Stone:§r The pocket §eWarp Stone§r lets you teleport to any named Waystone without standing on one — keep it in your hotbar for instant escapes."
+				"§7Warp Stone:§r The pocket §eWarp Stone§r lets you teleport to any named Waystone without standing on one \u2014 keep it in your hotbar for instant escapes."
 				""
 				"§7Tip:§r Place named Waystones at your base, your mine entrance, your Nether portal, and any distant biome camps. See the §bTravel§r tab for the full Waystones guide."
 			]
@@ -1234,7 +1234,7 @@
 				"§bFarmer's Delight§r expands cooking with dedicated food processing tools and dozens of new recipes that give powerful buff effects."
 				""
 				"§7Three key tools:§r"
-				"§eCutting Board§r + §eKnife§r: Slice raw ingredients into new items (chicken → strips, logs → sticks, etc.)"
+				"§eCutting Board§r + §eKnife§r: Slice raw ingredients into new items (chicken \u2192 strips, logs \u2192 sticks, etc.)"
 				"§eCooking Pot§r: Cook multi-ingredient meals over a heat source for high-saturation buff food"
 				"§eSkillet§r: Place on a lit campfire or stove to quickly fry single ingredients"
 				""
@@ -1266,7 +1266,7 @@
 				}
 			]
 			title: "A Taste of Adventure"
-			subtitle: "Discover Farmer's Delight — claim a Flint Knife and Skillet to start cooking properly."
+			subtitle: "Discover Farmer's Delight \u2014 claim a Flint Knife and Skillet to start cooking properly."
 			x: 2.0d
 			y: 20.0d
 		}

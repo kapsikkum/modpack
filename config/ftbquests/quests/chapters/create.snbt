@@ -30,7 +30,7 @@
 				}
 			]
 			title: "A Shaft for Progress"
-			subtitle: "Craft 4 Shafts — the simplest rotating component in Create."
+			subtitle: "Craft 4 Shafts \u2014 the simplest rotating component in Create."
 			x: 0.0d
 			y: 0.0d
 		}
@@ -77,7 +77,7 @@
 				}
 			]
 			title: "Water Power"
-			subtitle: "Place a Water Wheel in flowing water — your first free source of Rotational Force."
+			subtitle: "Place a Water Wheel in flowing water \u2014 your first free source of Rotational Force."
 			x: 4.0d
 			y: 0.0d
 		}
@@ -485,7 +485,7 @@
 			description: [
 				"Wearing §6Engineer's Goggles§r shows the §6Speed§r (RPM) and §6Stress§r of any shaft network you look at."
 				""
-				"§aGreen§r = capacity available. §eYellow§r = near the stress limit. §cRed§r = overloaded — machines will stop."
+				"§aGreen§r = capacity available. §eYellow§r = near the stress limit. §cRed§r = overloaded \u2014 machines will stop."
 				""
 				"Always wear your goggles when diagnosing why a machine isn't spinning!"
 			]
@@ -513,7 +513,7 @@
 				""
 				"§7Right-click§r to spin connected shafts. Useful for bootstrapping early machines like the §6Millstone§r before your Water Wheel is built."
 				""
-				"§7Tip:§r It only spins while you're holding right-click — automation comes later!"
+				"§7Tip:§r It only spins while you're holding right-click \u2014 automation comes later!"
 			]
 			id: "C002"
 			rewards: [{
@@ -537,7 +537,7 @@
 			description: [
 				"The §6Large Water Wheel§r generates significantly more §aSU§r than a standard Water Wheel."
 				""
-				"It occupies a 5×5 area and requires flowing water around its rim for maximum output."
+				"It occupies a 5\u00d75 area and requires flowing water around its rim for maximum output."
 				""
 				"§7Tip:§r Build a channel with water sources feeding from both ends to keep flow consistent around the entire wheel."
 			]
@@ -563,7 +563,7 @@
 			description: [
 				"The §6Millstone§r grinds items into powder using rotational force from above or the side."
 				""
-				"Grind §6ores§r into §acrushed ore§r — smelt it for §a2 ingots§r per ore, doubling your metal yield."
+				"Grind §6ores§r into §acrushed ore§r \u2014 smelt it for §a2 ingots§r per ore, doubling your metal yield."
 				""
 				"Also turns wheat into flour, bones into bone meal, and more."
 				""
@@ -648,7 +648,7 @@
 				""
 				"Combine a belt with a §6Millstone§r or §6Mechanical Press§r and two Funnels for your first fully automated processing line."
 				""
-				"§7Tip:§r Belts inherit the speed of their driving shaft — faster belts move items quicker and can affect recipe output!"
+				"§7Tip:§r Belts inherit the speed of their driving shaft \u2014 faster belts move items quicker and can affect recipe output!"
 			]
 			id: "C007"
 			rewards: [{
@@ -672,7 +672,7 @@
 					type: "item"
 				}
 			]
-			title: "Belts & Funnels"
+			title: "Belts \u0026 Funnels"
 			x: 10.0d
 			y: 2.0d
 		}
@@ -681,7 +681,7 @@
 			description: [
 				"Two §6Crushing Wheels§r placed side by side and rotating §ctowards each other§r crush items dropped between them."
 				""
-				"This is §aore doubling§r without a Millstone — some ores give bonus outputs like nuggets, flint, or gravel."
+				"This is §aore doubling§r without a Millstone \u2014 some ores give bonus outputs like nuggets, flint, or gravel."
 				""
 				"§7Setup:§r Drive one wheel with a shaft, connect a large cogwheel to mesh rotation into the other wheel so they turn inward."
 				""
@@ -710,11 +710,11 @@
 			description: [
 				"The §6Encased Fan§r blows a column of air in the direction it faces."
 				""
-				"§eSmelting§r — point at §6fire or lava§r: items on a belt passing through the airstream get smelted."
+				"§eSmelting§r \u2014 point at §6fire or lava§r: items on a belt passing through the airstream get smelted."
 				""
-				"§bWashing§r — point at §9water§r: converts crushed ores into nuggets and bonus drops."
+				"§bWashing§r \u2014 point at §9water§r: converts crushed ores into nuggets and bonus drops."
 				""
-				"§dHaunting§r — point at §5Soul Fire§r: transforms items into their soul-sand equivalents."
+				"§dHaunting§r \u2014 point at §5Soul Fire§r: transforms items into their soul-sand equivalents."
 				""
 				"§7Tip:§r The fan must be powered by rotation facing toward the heat/water source."
 			]
@@ -740,7 +740,7 @@
 			description: [
 				"The §6Mechanical Saw§r cuts logs into planks and stone into slabs or stonecutting recipes."
 				""
-				"§7Stationary:§r Place items on top to process them — great for automated sawmills."
+				"§7Stationary:§r Place items on top to process them \u2014 great for automated sawmills."
 				""
 				"§7On a contraption:§r Mounted on a moving structure, it automatically chops down trees it contacts."
 				""
@@ -796,7 +796,7 @@
 				""
 				"Feed it §6Blaze Cakes§r for standard heat. Place it on §6Soul Sand§r with Soul Fire for §eSuperheating§r."
 				""
-				"§6Superheated§r mixing is required for smelting §6Brass§r (Zinc Dust + Copper Dust in a Basin) — the key to mid-game progression."
+				"§6Superheated§r mixing is required for smelting §6Brass§r (Zinc Dust + Copper Dust in a Basin) \u2014 the key to mid-game progression."
 				""
 				"§7Tip:§r A single Blaze Burner serves multiple Basins if they're on the same shaft network."
 			]
@@ -824,7 +824,7 @@
 				""
 				"Place a fuel-stocked §6Blaze Burner§r inside it, then connect it to a §6Flywheel§r to output massive §aSU§r."
 				""
-				"Multiple Steam Engines on the same Flywheel stack their output — two fully fuelled engines comfortably power a large automated factory."
+				"Multiple Steam Engines on the same Flywheel stack their output \u2014 two fully fuelled engines comfortably power a large automated factory."
 				""
 				"§7Tip:§r Use a §6Mechanical Arm§r to automatically refuel the Blaze Burner with Blaze Cakes."
 			]
@@ -854,7 +854,7 @@
 				""
 				"§7Uses:§r sliding doors, drawbridges, piston-powered mining rigs, automated assembly platforms."
 				""
-				"§7Tip:§r The distance it travels is controlled by the rotation applied — use a §6Sequenced Gearshift§r for precise movements."
+				"§7Tip:§r The distance it travels is controlled by the rotation applied \u2014 use a §6Sequenced Gearshift§r for precise movements."
 			]
 			id: "C00E"
 			rewards: [{
@@ -880,7 +880,7 @@
 				""
 				"§7Uses:§r elevators, descending safely into caves, mining platforms that drop to ore level."
 				""
-				"The platform can carry blocks, chests, and even entities — making it perfect for a mobile mining base."
+				"The platform can carry blocks, chests, and even entities \u2014 making it perfect for a mobile mining base."
 				""
 				"§7Tip:§r Reverse the rotation to bring the platform back up. Use a §6Rotation Speed Controller§r to control its speed."
 			]
@@ -906,7 +906,7 @@
 			description: [
 				"The §6Sequenced Gearshift§r lets you program a series of timed rotation pulses using Brass."
 				""
-				"§7Example:§r run a Mechanical Piston forward for 2 seconds, pause, then retract — all automatically."
+				"§7Example:§r run a Mechanical Piston forward for 2 seconds, pause, then retract \u2014 all automatically."
 				""
 				"Essential for building timed contraptions like automated crafting rigs, gantry positioners, or repeating harvesters."
 				""
@@ -932,9 +932,9 @@
 		{
 			dependencies: ["C00D"]
 			description: [
-				"§6Create Crafts & Additions§r bridges Create and tech mods by adding §6electrical§r counterparts to rotational machines."
+				"§6Create Crafts \u0026 Additions§r bridges Create and tech mods by adding §6electrical§r counterparts to rotational machines."
 				""
-				"The §6Electric Motor§r converts §aRF/FE§r energy into §aRotational Force§r. The §6Alternator§r does the reverse — turning rotation into electricity."
+				"The §6Electric Motor§r converts §aRF/FE§r energy into §aRotational Force§r. The §6Alternator§r does the reverse \u2014 turning rotation into electricity."
 				""
 				"§7Tip:§r Pair alternators with your steam engines to generate RF for other tech mods, or use electric motors to integrate Create with magic mod power sources."
 			]
@@ -951,14 +951,14 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			title: "Crafts & Additions"
+			title: "Crafts \u0026 Additions"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["C00D"]
 			description: [
-				"§6Create: Fuel Motor§r is a compact motor that runs on §6furnace fuel§r — lava, coal, blaze rods, anything burnable."
+				"§6Create: Fuel Motor§r is a compact motor that runs on §6furnace fuel§r \u2014 lava, coal, blaze rods, anything burnable."
 				""
 				"It's a great alternative when you don't have an electrical infrastructure or need a portable SU source for remote contraptions."
 				""
@@ -1010,7 +1010,7 @@
 		{
 			dependencies: ["2017"]
 			description: [
-				"§6Create: Renewable Netherite§r lets you produce §6Ancient Debris§r entirely through Create's automation — no nether mining required."
+				"§6Create: Renewable Netherite§r lets you produce §6Ancient Debris§r entirely through Create's automation \u2014 no nether mining required."
 				""
 				"Processing specific materials through Create machines yields §6Netherite Chunks§r that can be smelted into Ancient Debris."
 				""
@@ -1037,7 +1037,7 @@
 		{
 			dependencies: ["2018"]
 			description: [
-				"§6Create: Mechanical Spawner§r automates mob spawning using rotational force — no dark room, no player proximity needed."
+				"§6Create: Mechanical Spawner§r automates mob spawning using rotational force \u2014 no dark room, no player proximity needed."
 				""
 				"Insert a §6Spawn Egg§r and provide sufficient SU to spawn mobs automatically for their drops."
 				""
@@ -1063,7 +1063,7 @@
 		{
 			dependencies: ["2017"]
 			description: [
-				"§6Create: Power Loader§r keeps chunks loaded while your machines run — even when you're in a different dimension."
+				"§6Create: Power Loader§r keeps chunks loaded while your machines run \u2014 even when you're in a different dimension."
 				""
 				"Place it near your factory and power it with rotation to maintain chunk loading for your contraptions and farms."
 				""
@@ -1093,7 +1093,7 @@
 				""
 				"The §6Experience Nozzle§r fills XP bottles or directly enchants items from fluid pipes."
 				""
-				"§7Full pipeline:§r XP farm → tank of Liquid XP → §6Enchanting Apparatus§r → automated enchanted gear, at scale."
+				"§7Full pipeline:§r XP farm \u2192 tank of Liquid XP \u2192 §6Enchanting Apparatus§r \u2192 automated enchanted gear, at scale."
 			]
 			id: "A007"
 			rewards: [{
@@ -1117,7 +1117,7 @@
 			description: [
 				"§6Create: Enchantable Machinery§r lets you apply §6enchantments directly to Create machine components§r for bonus effects."
 				""
-				"Efficiency accelerates processing, Fortune improves ore output, and Unbreaking reduces wear — all on your shafts, belts, and cogwheels."
+				"Efficiency accelerates processing, Fortune improves ore output, and Unbreaking reduces wear \u2014 all on your shafts, belts, and cogwheels."
 				""
 				"§7Tip:§r Use §6Enchantment Industry§r to liquid-enchant components in bulk once you've identified your preferred enchantments."
 			]
@@ -1169,11 +1169,11 @@
 		{
 			dependencies: ["2017"]
 			description: [
-				"§6Create: Dreams & Desires§r is a major expansion adding §6new machines, casing variants, and contraption components§r not found in base Create."
+				"§6Create: Dreams \u0026 Desires§r is a major expansion adding §6new machines, casing variants, and contraption components§r not found in base Create."
 				""
 				"Explore new clockwork blocks, advanced processing machines, and unique decorative builds."
 				""
-				"§7Tip:§r Open JEI and browse the §6Dreams & Desires§r creative tab to discover everything available — there's a lot!"
+				"§7Tip:§r Open JEI and browse the §6Dreams \u0026 Desires§r creative tab to discover everything available \u2014 there's a lot!"
 			]
 			id: "A00A"
 			icon: "create:brass_ingot"
@@ -1186,10 +1186,10 @@
 			subtitle: "A major Create expansion"
 			tasks: [{
 				id: "B00A"
-				title: "Craft a Dreams & Desires block"
+				title: "Craft a Dreams \u0026 Desires block"
 				type: "checkmark"
 			}]
-			title: "Dreams & Desires"
+			title: "Dreams \u0026 Desires"
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1307,7 +1307,7 @@
 				""
 				"Craft chocolate, candies, and confections using the §6Mechanical Mixer§r, §6Basin§r, and §6Spout§r with ingredients from your automated farms."
 				""
-				"§7Tip:§r Some confectionery items grant positive §6status effects§r — automate production for a steady supply of factory-made buffs."
+				"§7Tip:§r Some confectionery items grant positive §6status effects§r \u2014 automate production for a steady supply of factory-made buffs."
 			]
 			id: "A00F"
 			icon: "minecraft:cookie"
@@ -1359,7 +1359,7 @@
 			description: [
 				"§6Create Encased§r adds new §6casing and decorative block variants§r in wood, stone, copper, zinc, and brass styles."
 				""
-				"Encase your shafts and machines to match any factory aesthetic — rustic wood, industrial copper, or polished brass."
+				"Encase your shafts and machines to match any factory aesthetic \u2014 rustic wood, industrial copper, or polished brass."
 				""
 				"§7Tip:§r Encased shaft blocks are decorative and let you route 'fake' shaft lines cleanly through walls and floors."
 			]
@@ -1388,7 +1388,7 @@
 				""
 				"These advanced machines handle larger batch sizes and more complex recipes for late-game mass production."
 				""
-				"§7Tip:§r Build out a full §6Brass Age§r factory first — these machines are powerful investments that pay off at scale."
+				"§7Tip:§r Build out a full §6Brass Age§r factory first \u2014 these machines are powerful investments that pay off at scale."
 			]
 			id: "A012"
 			icon: "create:brass_ingot"
@@ -1411,11 +1411,11 @@
 		{
 			dependencies: ["C008"]
 			description: [
-				"§6Create: Stones§r adds processing recipes for §6natural stone variants§r — andesite, diorite, granite, deepslate, and more."
+				"§6Create: Stones§r adds processing recipes for §6natural stone variants§r \u2014 andesite, diorite, granite, deepslate, and more."
 				""
 				"Send surplus stone blocks through your §6Crushing Wheels§r to produce usable building materials and resource byproducts."
 				""
-				"§7Tip:§r Great for converting excess Andesite from terrain into §6Gravel§r for your Sieve setup — nothing goes to waste."
+				"§7Tip:§r Great for converting excess Andesite from terrain into §6Gravel§r for your Sieve setup \u2014 nothing goes to waste."
 			]
 			id: "A013"
 			icon: "minecraft:andesite"
@@ -1467,7 +1467,7 @@
 			description: [
 				"§6Create: Teleporters§r adds §6Brass-powered teleportation§r anchors you can link and travel between instantly."
 				""
-				"Craft two Teleporters, link them with a §6Teleporter Link§r item, and travel between distant locations — no ender pearls needed."
+				"Craft two Teleporters, link them with a §6Teleporter Link§r item, and travel between distant locations \u2014 no ender pearls needed."
 				""
 				"§7Tip:§r Teleporters consume §6Rotational Force§r proportional to distance. Higher RPM networks can service longer-range teleports."
 			]
@@ -1493,7 +1493,7 @@
 			description: [
 				"§6Create: Vibrant Vaults§r adds §6decorated vault and display§r block variants that integrate with Create's aesthetic."
 				""
-				"Available in Andesite, Brass, Copper, Zinc, and other material styles — use them as both functional storage and factory decoration."
+				"Available in Andesite, Brass, Copper, Zinc, and other material styles \u2014 use them as both functional storage and factory decoration."
 				""
 				"§7Tip:§r Line output walls with §6Vibrant Vaults§r of matching materials for a polished, themed factory interior."
 			]
@@ -1543,11 +1543,11 @@
 		{
 			dependencies: ["2017"]
 			description: [
-				"§6Create: Cobblemon Balls Overhaul§r lets you §6automate Pokéball crafting§r using Create's factory machines."
+				"§6Create: Cobblemon Balls Overhaul§r lets you §6automate Pok\u00e9ball crafting§r using Create's factory machines."
 				""
-				"Process §6Apricorns§r and crafting materials through §6Crushing Wheels§r, §6Presses§r, and §6Basins§r to produce Pokéballs at scale."
+				"Process §6Apricorns§r and crafting materials through §6Crushing Wheels§r, §6Presses§r, and §6Basins§r to produce Pok\u00e9balls at scale."
 				""
-				"§7Tip:§r Set up a §6Mechanical Arm§r chain to pass materials through each stage automatically — produce hundreds of Pokéballs hands-free."
+				"§7Tip:§r Set up a §6Mechanical Arm§r chain to pass materials through each stage automatically \u2014 produce hundreds of Pok\u00e9balls hands-free."
 			]
 			id: "A018"
 			icon: "cobblemon:poke_ball"
@@ -1557,10 +1557,10 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			subtitle: "Factory-made Pokéballs"
+			subtitle: "Factory-made Pok\u00e9balls"
 			tasks: [{
 				id: "B018"
-				title: "Automate Pokéball production with Create"
+				title: "Automate Pok\u00e9ball production with Create"
 				type: "checkmark"
 			}]
 			title: "Cobblemon Balls Overhaul"
@@ -1570,11 +1570,11 @@
 		{
 			dependencies: ["2021"]
 			description: [
-				"§6Create: Bells & Whistles§r adds §6decorative and functional accessories§r for trains and Create contraptions."
+				"§6Create: Bells \u0026 Whistles§r adds §6decorative and functional accessories§r for trains and Create contraptions."
 				""
 				"Brass Seats, Chain Conveyors, Engine Cowls, bogey props, and other decorative pieces make your locomotives and factories look the part."
 				""
-				"§7Tip:§r Most Bells & Whistles pieces are crafted from existing Create materials — no new resource grind required to get started decorating."
+				"§7Tip:§r Most Bells \u0026 Whistles pieces are crafted from existing Create materials \u2014 no new resource grind required to get started decorating."
 			]
 			id: "A019"
 			icon: "bellsandwhistles:brass_seat"
@@ -1587,10 +1587,10 @@
 			subtitle: "Dress up your trains and factories"
 			tasks: [{
 				id: "B019"
-				title: "Place a Create: Bells & Whistles decorative block"
+				title: "Place a Create: Bells \u0026 Whistles decorative block"
 				type: "checkmark"
 			}]
-			title: "Bells & Whistles"
+			title: "Bells \u0026 Whistles"
 			x: 20.0d
 			y: -4.0d
 		}

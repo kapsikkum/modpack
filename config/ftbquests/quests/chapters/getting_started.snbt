@@ -52,7 +52,7 @@
 				}
 			]
 			title: "Tools of the Trade"
-			subtitle: "Craft a Crafting Table — the foundation of everything."
+			subtitle: "Craft a Crafting Table \u2014 the foundation of everything."
 			x: 2.0d
 			y: 0.0d
 		}
@@ -196,7 +196,7 @@
 				}
 			]
 			title: "Welcome to Hell"
-			subtitle: "Build a frame of obsidian (4×5 minimum) and light it with Flint \& Steel."
+			subtitle: "Build a frame of obsidian (4\u00d75 minimum) and light it with Flint \& Steel."
 			x: 14.0d
 			y: 0.0d
 		}
@@ -310,7 +310,7 @@
 				}
 			]
 			title: "First Fire"
-			subtitle: "Craft a Furnace — smelt ores, cook food, and make charcoal for torches."
+			subtitle: "Craft a Furnace \u2014 smelt ores, cook food, and make charcoal for torches."
 			x: 6.0d
 			y: 2.0d
 		}
@@ -333,7 +333,7 @@
 				}
 			]
 			title: "Sleep Through the Night"
-			subtitle: "Craft a Bed — sleep to skip the night and set your respawn point."
+			subtitle: "Craft a Bed \u2014 sleep to skip the night and set your respawn point."
 			x: 8.0d
 			y: 2.0d
 		}
@@ -356,7 +356,7 @@
 				}
 			]
 			title: "Shoot First"
-			subtitle: "Craft a Bow — essential for fighting Skeletons and kiting dangerous mobs at range."
+			subtitle: "Craft a Bow \u2014 essential for fighting Skeletons and kiting dangerous mobs at range."
 			x: 10.0d
 			y: 2.0d
 		}
@@ -378,7 +378,7 @@
 				}
 			]
 			title: "Hold the Line"
-			subtitle: "Craft a Shield — right-click to block incoming attacks. Essential against Pillagers and Blazes."
+			subtitle: "Craft a Shield \u2014 right-click to block incoming attacks. Essential against Pillagers and Blazes."
 			x: 12.0d
 			y: 2.0d
 		}
@@ -401,7 +401,7 @@
 				}
 			]
 			title: "Brew Master"
-			subtitle: "Craft a Brewing Stand — brew potions using Nether Wart and Blaze Powder."
+			subtitle: "Craft a Brewing Stand \u2014 brew potions using Nether Wart and Blaze Powder."
 			x: 16.0d
 			y: 2.0d
 		}
@@ -431,7 +431,7 @@
 				}
 			]
 			title: "The Wither"
-			subtitle: "Summon and defeat the Wither to earn a Nether Star — needed to craft a Beacon."
+			subtitle: "Summon and defeat the Wither to earn a Nether Star \u2014 needed to craft a Beacon."
 			x: 22.0d
 			y: 2.0d
 		}

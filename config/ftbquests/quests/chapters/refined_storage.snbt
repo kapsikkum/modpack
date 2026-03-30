@@ -12,11 +12,11 @@
 		{
 			dependencies: []
 			description: [
-				"§bRefined Storage§r is a digital item storage and automation mod built around §6ME Networks§r — interconnected machines that pool all your items into searchable virtual drives."
+				"§bRefined Storage§r is a digital item storage and automation mod built around §6ME Networks§r \u2014 interconnected machines that pool all your items into searchable virtual drives."
 				""
 				"Unlike §bApplied Energistics 2§r, Refined Storage uses straightforward crafting rather than inscribers, making it simpler to get started while remaining highly powerful."
 				""
-				"§7First material:§r §eSilicon§r — smelt any Sand in a furnace with Coal or Charcoal as fuel. One sand produces one Silicon."
+				"§7First material:§r §eSilicon§r \u2014 smelt any Sand in a furnace with Coal or Charcoal as fuel. One sand produces one Silicon."
 				""
 				"You'll need Silicon for every processor, so make at least 16 before you start."
 			]
@@ -39,7 +39,7 @@
 				}
 			]
 			title: "§6Sand and Coal, Refined"
-			subtitle: "Smelt Sand with Coal to create Silicon — the foundation of all RS processors."
+			subtitle: "Smelt Sand with Coal to create Silicon \u2014 the foundation of all RS processors."
 			x: 0.0d
 			y: 0.0d
 		}
@@ -50,7 +50,7 @@
 				""
 				"§7Recipe:§r Surround an Iron Ingot with 4 Nether Quartz in a + shape in the crafting grid."
 				""
-				"Build a generous supply early — Machine Casings alone consume 8 Quartz Enriched Iron each, and you'll need several."
+				"Build a generous supply early \u2014 Machine Casings alone consume 8 Quartz Enriched Iron each, and you'll need several."
 			]
 			icon: "refinedstorage:quartz_enriched_iron"
 			id: "D011"
@@ -71,7 +71,7 @@
 				}
 			]
 			title: "Quartz Enriched Iron"
-			subtitle: "Craft Quartz Enriched Iron — used in every Refined Storage component."
+			subtitle: "Craft Quartz Enriched Iron \u2014 used in every Refined Storage component."
 			x: 2.0d
 			y: 0.0d
 		}
@@ -82,7 +82,7 @@
 				""
 				"§7Two-step process:§r"
 				"1. Craft a §7Raw Basic Processor§r from Quartz Enriched Iron + Redstone + Silicon"
-				"2. §7Smelt§r the raw processor in a furnace — this produces the finished §eBasic Processor§r"
+				"2. §7Smelt§r the raw processor in a furnace \u2014 this produces the finished §eBasic Processor§r"
 				""
 				"Make at least 4. You'll need them for the Machine Casing, Controller, Disk Drive, and Grid."
 			]
@@ -114,7 +114,7 @@
 			description: [
 				"§eMachine Casings§r are the structural housing used in almost every Refined Storage block."
 				""
-				"§7Recipe:§r Iron Ingots in the corners, Quartz Enriched Iron on the four sides, centre empty — shaped like a border in the 3×3 crafting grid."
+				"§7Recipe:§r Iron Ingots in the corners, Quartz Enriched Iron on the four sides, centre empty \u2014 shaped like a border in the 3\u00d73 crafting grid."
 				""
 				"Craft at least 4. You'll burn through them rapidly as you build your network components."
 			]
@@ -137,7 +137,7 @@
 				}
 			]
 			title: "Structure of the Network"
-			subtitle: "Craft Machine Casings — the housing required by every RS block."
+			subtitle: "Craft Machine Casings \u2014 the housing required by every RS block."
 			x: 6.0d
 			y: 0.0d
 		}
@@ -151,7 +151,7 @@
 				"- Without power the entire network goes offline"
 				"- One Controller per subnet (subnets can be linked via Network Cards)"
 				""
-				"Place the Controller, connect it to a power source, and it will glow — your network is forming!"
+				"Place the Controller, connect it to a power source, and it will glow \u2014 your network is forming!"
 			]
 			icon: "refinedstorage:controller"
 			id: "D014"
@@ -171,7 +171,7 @@
 				}
 			]
 			title: "Power the Network"
-			subtitle: "Build the Controller — the heart of every Refined Storage network."
+			subtitle: "Build the Controller \u2014 the heart of every Refined Storage network."
 			x: 8.0d
 			y: 0.0d
 		}
@@ -182,7 +182,7 @@
 				""
 				"Connect the Disk Drive to your Controller with §eCables§r or by placing it adjacent. Items stored on disks inside become accessible from any Grid on the network."
 				""
-				"§7Tip:§r You can place multiple Disk Drives on one network — storage capacity scales linearly with your drives."
+				"§7Tip:§r You can place multiple Disk Drives on one network \u2014 storage capacity scales linearly with your drives."
 			]
 			icon: "refinedstorage:disk_drive"
 			id: "D015"
@@ -202,18 +202,18 @@
 				}
 			]
 			title: "The Disk Drive"
-			subtitle: "Build the Disk Drive — the block that holds your storage disks."
+			subtitle: "Build the Disk Drive \u2014 the block that holds your storage disks."
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D015"]
 			description: [
-				"A §e1K Storage Disk§r stores up to §71,024 unique item types§r — the entry-level disk."
+				"A §e1K Storage Disk§r stores up to §71,024 unique item types§r \u2014 the entry-level disk."
 				""
 				"§7Crafting:§r Storage Housing + 1K Storage Part + Basic Processor."
 				""
-				"Insert the finished disk into your Disk Drive, then open a Grid — all your items appear in the searchable interface. Congratulations, your first RS network is alive!"
+				"Insert the finished disk into your Disk Drive, then open a Grid \u2014 all your items appear in the searchable interface. Congratulations, your first RS network is alive!"
 			]
 			icon: "refinedstorage:1k_storage_disk"
 			id: "D016"
@@ -240,7 +240,7 @@
 		{
 			dependencies: ["D016"]
 			description: [
-				"The §eGrid§r is your primary interface with the network — it displays all stored items and lets you insert or extract them with a click."
+				"The §eGrid§r is your primary interface with the network \u2014 it displays all stored items and lets you insert or extract them with a click."
 				""
 				"§7Controls:§r"
 				"- §7Left-click§r an item: extract one stack"
@@ -268,18 +268,18 @@
 				}
 			]
 			title: "§aNetwork Online!"
-			subtitle: "Build a Grid connected to your Controller — your ME network is live!"
+			subtitle: "Build a Grid connected to your Controller \u2014 your ME network is live!"
 			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D017"]
 			description: [
-				"A §e4K Storage Disk§r holds §74,096 unique item types§r — a substantial upgrade over the 1K disk."
+				"A §e4K Storage Disk§r holds §74,096 unique item types§r \u2014 a substantial upgrade over the 1K disk."
 				""
 				"§7Recipe:§r Storage Housing + 4K Storage Part + Improved Processor."
 				""
-				"As your collection grows, upgrade your disks to reduce the number of Disk Drive blocks you need. Progression: 1K → 4K → 16K → 64K."
+				"As your collection grows, upgrade your disks to reduce the number of Disk Drive blocks you need. Progression: 1K \u2192 4K \u2192 16K \u2192 64K."
 			]
 			icon: "refinedstorage:4k_storage_disk"
 			id: "D018"
@@ -299,14 +299,14 @@
 				}
 			]
 			title: "More Space"
-			subtitle: "Upgrade to a 4K Storage Disk — 4x the item types of the 1K disk."
+			subtitle: "Upgrade to a 4K Storage Disk \u2014 4x the item types of the 1K disk."
 			x: 16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D018"]
 			description: [
-				"A §e16K Storage Disk§r holds §716,384 unique item types§r — the sweet spot between the 4K starter disk and the expensive 64K endgame disk."
+				"A §e16K Storage Disk§r holds §716,384 unique item types§r \u2014 the sweet spot between the 4K starter disk and the expensive 64K endgame disk."
 				""
 				"§7Recipe:§r Storage Housing + 16K Storage Part + Improved Processor."
 				""
@@ -330,14 +330,14 @@
 				}
 			]
 			title: "Roomier Storage"
-			subtitle: "Craft a 16K Storage Disk — the mid-tier disk, using Improved Processors."
+			subtitle: "Craft a 16K Storage Disk \u2014 the mid-tier disk, using Improved Processors."
 			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D023"]
 			description: [
-				"A §e64K Storage Disk§r holds §765,536 unique item types§r — enough for an entire mega-base in one small disk."
+				"A §e64K Storage Disk§r holds §765,536 unique item types§r \u2014 enough for an entire mega-base in one small disk."
 				""
 				"§7Recipe:§r Storage Housing + 64K Storage Part + Advanced Processor."
 				""
@@ -361,20 +361,20 @@
 				}
 			]
 			title: "Mass Storage"
-			subtitle: "Craft a 64K Storage Disk — near-limitless item type storage in one drive."
+			subtitle: "Craft a 64K Storage Disk \u2014 near-limitless item type storage in one drive."
 			x: 20.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D012"]
 			description: [
-				"§eImproved Processors§r unlock mid-tier RS components — including the Crafting Grid, Wireless Transmitter, and 4K/16K disk parts."
+				"§eImproved Processors§r unlock mid-tier RS components \u2014 including the Crafting Grid, Wireless Transmitter, and 4K/16K disk parts."
 				""
 				"§7Two-step process:§r"
 				"1. Craft a §7Raw Improved Processor§r from Quartz Enriched Iron + Gold Ingot + Glowstone Dust"
 				"2. §7Smelt§r the raw processor in a furnace"
 				""
-				"Craft 2–4 now to carry you through the mid-game."
+				"Craft 2\u20134 now to carry you through the mid-game."
 			]
 			icon: "refinedstorage:improved_processor"
 			id: "D01A"
@@ -395,7 +395,7 @@
 				}
 			]
 			title: "Improved Processor"
-			subtitle: "Smelt Raw Improved Processors — unlock mid-tier RS components."
+			subtitle: "Smelt Raw Improved Processors \u2014 unlock mid-tier RS components."
 			x: 4.0d
 			y: -2.0d
 		}
@@ -408,7 +408,7 @@
 				"1. Craft a §7Raw Advanced Processor§r from Quartz Enriched Iron + Diamond + Nether Quartz"
 				"2. §7Smelt§r the raw processor in a furnace"
 				""
-				"Advanced Processors are expensive but you only need a few — 2–4 will take you to full automation."
+				"Advanced Processors are expensive but you only need a few \u2014 2\u20134 will take you to full automation."
 			]
 			icon: "refinedstorage:advanced_processor"
 			id: "D01B"
@@ -429,16 +429,16 @@
 				}
 			]
 			title: "Advanced Processor"
-			subtitle: "Craft Advanced Processors — the premium component for RS automation."
+			subtitle: "Craft Advanced Processors \u2014 the premium component for RS automation."
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["D01B", "D017"]
 			description: [
-				"The §eCrafting Grid§r fuses the crafting table with your network storage — all items in the network are available directly in the crafting slots."
+				"The §eCrafting Grid§r fuses the crafting table with your network storage \u2014 all items in the network are available directly in the crafting slots."
 				""
-				"Open it and place a recipe, or §7right-click a recipe in JEI§r to transfer it automatically. Materials are pulled from the network — no need to move items around."
+				"Open it and place a recipe, or §7right-click a recipe in JEI§r to transfer it automatically. Materials are pulled from the network \u2014 no need to move items around."
 				""
 				"§7Pro tip:§r The Crafting Grid remembers the last recipe you placed. Clear it to free up network items. Pair it with the Autocrafter for fully automated crafting."
 			]
@@ -460,14 +460,14 @@
 				}
 			]
 			title: "Crafting Grid"
-			subtitle: "Build the Crafting Grid — craft directly from your network storage."
+			subtitle: "Build the Crafting Grid \u2014 craft directly from your network storage."
 			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["D015"]
 			description: [
-				"§eImporters§r and §eExporters§r are the workhorses of RS automation — they move items between the network and adjacent inventories."
+				"§eImporters§r and §eExporters§r are the workhorses of RS automation \u2014 they move items between the network and adjacent inventories."
 				""
 				"§6Importer§r: Pulls items FROM an adjacent inventory INTO the network."
 				"§6Exporter§r: Pushes items FROM the network INTO an adjacent inventory."
@@ -509,9 +509,9 @@
 				"§7How it works:§r"
 				"1. Encode a recipe into a §ePattern§r (using the Pattern Grid)"
 				"2. Insert the Pattern into the Autocrafter"
-				"3. Request an item from your Grid — if a matching pattern exists, it will be crafted and returned automatically"
+				"3. Request an item from your Grid \u2014 if a matching pattern exists, it will be crafted and returned automatically"
 				""
-				"§7Chain Autocrafters§r to automate multi-step crafting trees — request a complex item and RS handles the entire dependency chain."
+				"§7Chain Autocrafters§r to automate multi-step crafting trees \u2014 request a complex item and RS handles the entire dependency chain."
 			]
 			icon: "refinedstorage:autocrafter"
 			id: "D01E"
@@ -531,7 +531,7 @@
 				}
 			]
 			title: "The Autocrafter"
-			subtitle: "Build an Autocrafter — automated crafting on demand from your Grid."
+			subtitle: "Build an Autocrafter \u2014 automated crafting on demand from your Grid."
 			x: 14.0d
 			y: -2.0d
 		}
@@ -543,10 +543,10 @@
 				"§7Step by step:§r"
 				"1. Insert a blank §ePattern§r item"
 				"2. Place a recipe in the crafting slots (or use JEI to fill them)"
-				"3. Click §7Encode§r — the pattern is now stored"
+				"3. Click §7Encode§r \u2014 the pattern is now stored"
 				"4. Place the encoded Pattern inside an §eAutocrafter§r"
 				""
-				"§7Pro tip:§r Chain patterns for multi-step recipes — e.g. autocraft iron ingots from raw ore, then automatically use those ingots in further crafting."
+				"§7Pro tip:§r Chain patterns for multi-step recipes \u2014 e.g. autocraft iron ingots from raw ore, then automatically use those ingots in further crafting."
 			]
 			icon: "refinedstorage:pattern_grid"
 			id: "D01F"
@@ -577,7 +577,7 @@
 				""
 				"§7Setup:§r Place the Wireless Transmitter anywhere connected to the network and provide it with §eFE§r power."
 				""
-				"Default range is §716 blocks§r. Insert §eRange Upgrades§r to extend the radius — stack multiple upgrades to reach across a large base."
+				"Default range is §716 blocks§r. Insert §eRange Upgrades§r to extend the radius \u2014 stack multiple upgrades to reach across a large base."
 			]
 			icon: "refinedstorage:wireless_transmitter"
 			id: "D020"
@@ -597,7 +597,7 @@
 				}
 			]
 			title: "Wireless Transmitter"
-			subtitle: "Build a Wireless Transmitter — enable wireless access to your network."
+			subtitle: "Build a Wireless Transmitter \u2014 enable wireless access to your network."
 			x: 14.0d
 			y: 2.0d
 		}
@@ -628,16 +628,16 @@
 				}
 			]
 			title: "Wireless Grid"
-			subtitle: "Craft a Wireless Grid — access your entire network from anywhere within range."
+			subtitle: "Craft a Wireless Grid \u2014 access your entire network from anywhere within range."
 			x: 16.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["D021"]
 			description: [
-				"The §ePortable Grid§r is a self-contained storage device — insert §eStorage Disks§r directly into it and carry a fully searchable inventory in your pocket, with no network required."
+				"The §ePortable Grid§r is a self-contained storage device \u2014 insert §eStorage Disks§r directly into it and carry a fully searchable inventory in your pocket, with no network required."
 				""
-				"§7How to use:§r Insert disks directly into the Portable Grid. It behaves exactly like a Grid but works completely offline — perfect for long expeditions away from base."
+				"§7How to use:§r Insert disks directly into the Portable Grid. It behaves exactly like a Grid but works completely offline \u2014 perfect for long expeditions away from base."
 				""
 				"§7Tip:§r Bring a disk loaded with tools, resources, and food. Access everything with one right-click, wherever you are."
 			]
@@ -659,7 +659,7 @@
 				}
 			]
 			title: "Portable Grid"
-			subtitle: "Craft a Portable Grid — carry searchable storage as a handheld device."
+			subtitle: "Craft a Portable Grid \u2014 carry searchable storage as a handheld device."
 			x: 18.0d
 			y: 2.0d
 		}
@@ -668,7 +668,7 @@
 			description: [
 				"§eExtra Disks§r extends the storage disk progression well beyond the 64K cap."
 				""
-				"The larger disks require an §eAdvanced Machine Casing§r — a beefed-up version of the standard Machine Casing built from Gold Blocks and Iron Blocks."
+				"The larger disks require an §eAdvanced Machine Casing§r \u2014 a beefed-up version of the standard Machine Casing built from Gold Blocks and Iron Blocks."
 				""
 				"§7Tip:§r The Advanced Machine Casing is also used in the §eAdvanced Storage Housing§r, which replaces the standard Storage Housing for all Extra Disks recipes."
 			]
@@ -690,16 +690,16 @@
 				}
 			]
 			title: "Advanced Machine Casing"
-			subtitle: "Craft an Advanced Machine Casing — the foundation of every Extra Disk."
+			subtitle: "Craft an Advanced Machine Casing \u2014 the foundation of every Extra Disk."
 			x: 22.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D024"]
 			description: [
-				"The §eWithering Processor§r is the high-end processor required for all Extra Disks. Like base RS processors it's a two-step process — craft a §7Raw Withering Processor§r first, then §7smelt it§r in a furnace."
+				"The §eWithering Processor§r is the high-end processor required for all Extra Disks. Like base RS processors it's a two-step process \u2014 craft a §7Raw Withering Processor§r first, then §7smelt it§r in a furnace."
 				""
-				"§7Key ingredient:§r The raw form requires a §eNether Star§r — head to the Nether and defeat the Wither. Worth it: one Withering Processor unlocks the entire large disk chain."
+				"§7Key ingredient:§r The raw form requires a §eNether Star§r \u2014 head to the Nether and defeat the Wither. Worth it: one Withering Processor unlocks the entire large disk chain."
 			]
 			icon: "extradisks:withering_processor"
 			id: "D025"
@@ -719,18 +719,18 @@
 				}
 			]
 			title: "Withering Processor"
-			subtitle: "Smelt a Raw Withering Processor — the special component for massive storage disks."
+			subtitle: "Smelt a Raw Withering Processor \u2014 the special component for massive storage disks."
 			x: 24.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D025"]
 			description: [
-				"A §e256K Storage Disk§r holds §7262,144 unique item types§r — 4× the 64K vanilla cap."
+				"A §e256K Storage Disk§r holds §7262,144 unique item types§r \u2014 4\u00d7 the 64K vanilla cap."
 				""
 				"§7Recipe:§r Advanced Storage Housing + 256K Storage Part + Withering Processor."
 				""
-				"From here the tier progression is: §7256K → 1024K → 4096K → 16384K → 65536K → 262m → 1048m → Infinite§r. Each tier is crafted by upgrading the previous disk in the same way you upgrade vanilla storage parts."
+				"From here the tier progression is: §7256K \u2192 1024K \u2192 4096K \u2192 16384K \u2192 65536K \u2192 262m \u2192 1048m \u2192 Infinite§r. Each tier is crafted by upgrading the previous disk in the same way you upgrade vanilla storage parts."
 			]
 			icon: "extradisks:256k_item_storage_disk"
 			id: "D026"
@@ -750,18 +750,18 @@
 				}
 			]
 			title: "256K Storage Disk"
-			subtitle: "Craft a 256K Storage Disk — 4× the 64K vanilla ceiling."
+			subtitle: "Craft a 256K Storage Disk \u2014 4\u00d7 the 64K vanilla ceiling."
 			x: 26.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D026"]
 			description: [
-				"A §e1024K Storage Disk§r holds §71,048,576 item types§r — over a million."
+				"A §e1024K Storage Disk§r holds §71,048,576 item types§r \u2014 over a million."
 				""
 				"§7How to upgrade:§r Craft a 1024K Storage Part the same way as the 256K part but with more materials. Combine it with an Advanced Storage Housing and a Withering Processor."
 				""
-				"§7Pro tip:§r For most bases, 2–3 disks at this tier store everything comfortably. The tiers beyond this (4096K and up) are for truly massive automated bases or packrat hoarding."
+				"§7Pro tip:§r For most bases, 2\u20133 disks at this tier store everything comfortably. The tiers beyond this (4096K and up) are for truly massive automated bases or packrat hoarding."
 			]
 			icon: "extradisks:1024k_item_storage_disk"
 			id: "D027"
@@ -781,14 +781,14 @@
 				}
 			]
 			title: "1024K Storage Disk"
-			subtitle: "Craft a 1024K Storage Disk — over a million item types in one drive."
+			subtitle: "Craft a 1024K Storage Disk \u2014 over a million item types in one drive."
 			x: 28.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D027"]
 			description: [
-				"The §eInfinite Storage Disk§r has no item type limit — it holds everything."
+				"The §eInfinite Storage Disk§r has no item type limit \u2014 it holds everything."
 				""
 				"§7Recipe:§r Advanced Storage Housing + Infinite Storage Part + Withering Processor. The Infinite Storage Part requires near-endgame materials."
 				""
@@ -812,16 +812,16 @@
 				}
 			]
 			title: "§dInfinite Storage"
-			subtitle: "Craft the Infinite Storage Disk — literally unlimited item type capacity."
+			subtitle: "Craft the Infinite Storage Disk \u2014 literally unlimited item type capacity."
 			x: 30.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["D01E"]
 			description: [
-				"§eExtraStorage§r adds tiered Autocrafters with more pattern slots and faster crafting speeds — a significant upgrade over the basic Autocrafter."
+				"§eExtraStorage§r adds tiered Autocrafters with more pattern slots and faster crafting speeds \u2014 a significant upgrade over the basic Autocrafter."
 				""
-				"The §eIron Autocrafter§r is the first tier — it has §74 pattern slots§r and processes requests faster than the basic model."
+				"The §eIron Autocrafter§r is the first tier \u2014 it has §74 pattern slots§r and processes requests faster than the basic model."
 				""
 				"§7Recipe:§r Wrap a standard Autocrafter in Iron Ingots with additional Machine Casings."
 			]
@@ -843,16 +843,16 @@
 				}
 			]
 			title: "Iron Autocrafter"
-			subtitle: "Build an Iron Autocrafter — more pattern slots and faster than the basic model."
+			subtitle: "Build an Iron Autocrafter \u2014 more pattern slots and faster than the basic model."
 			x: 14.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["D029"]
 			description: [
-				"The §eGold Autocrafter§r has §79 pattern slots§r — enough to run an entire material processing chain from a single block."
+				"The §eGold Autocrafter§r has §79 pattern slots§r \u2014 enough to run an entire material processing chain from a single block."
 				""
-				"§7Use case:§r Dedicated autocrafters per material type — one Gold Autocrafter for all your ore processing recipes, another for tools, another for food.\""
+				"§7Use case:§r Dedicated autocrafters per material type \u2014 one Gold Autocrafter for all your ore processing recipes, another for tools, another for food.\""
 			]
 			icon: "extrastorage:gold_crafter"
 			id: "D02A"
@@ -872,16 +872,16 @@
 				}
 			]
 			title: "Gold Autocrafter"
-			subtitle: "Upgrade to a Gold Autocrafter — 9 pattern slots for complex crafting chains."
+			subtitle: "Upgrade to a Gold Autocrafter \u2014 9 pattern slots for complex crafting chains."
 			x: 16.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["D02A"]
 			description: [
-				"The §eDiamond Autocrafter§r has §716 pattern slots§r and noticeably faster processing — the practical endgame autocrafter for most bases."
+				"The §eDiamond Autocrafter§r has §716 pattern slots§r and noticeably faster processing \u2014 the practical endgame autocrafter for most bases."
 				""
-				"§7Suggestion:§r Set up one Diamond Autocrafter per mod's output chain. One for Mekanism processors, one for RS components, one for Create gears — request once, everything autocrafts down the tree automatically."
+				"§7Suggestion:§r Set up one Diamond Autocrafter per mod's output chain. One for Mekanism processors, one for RS components, one for Create gears \u2014 request once, everything autocrafts down the tree automatically."
 			]
 			icon: "extrastorage:diamond_crafter"
 			id: "D02B"
@@ -901,14 +901,14 @@
 				}
 			]
 			title: "Diamond Autocrafter"
-			subtitle: "Craft a Diamond Autocrafter — 16 pattern slots, the go-to for large automation setups."
+			subtitle: "Craft a Diamond Autocrafter \u2014 16 pattern slots, the go-to for large automation setups."
 			x: 18.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["D02B"]
 			description: [
-				"The §eNetherite Autocrafter§r is the highest tier — §725 pattern slots§r and the fastest crafting speed."
+				"The §eNetherite Autocrafter§r is the highest tier \u2014 §725 pattern slots§r and the fastest crafting speed."
 				""
 				"§7One is (probably) enough.§r A single Netherite Autocrafter with a deep pattern tree handles almost any base's full automation requirements. The limiting factor becomes network cable bandwidth, not autocrafter speed."
 			]
@@ -930,14 +930,14 @@
 				}
 			]
 			title: "Netherite Autocrafter"
-			subtitle: "Craft the Netherite Autocrafter — 25 pattern slots, maximum crafting speed."
+			subtitle: "Craft the Netherite Autocrafter \u2014 25 pattern slots, maximum crafting speed."
 			x: 20.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["D020"]
 			description: [
-				"The §eInfinity Range Booster§r is a card you insert into a §eWireless Transmitter§r to give it §a§linfinite range§r — within the same dimension."
+				"The §eInfinity Range Booster§r is a card you insert into a §eWireless Transmitter§r to give it §a§linfinite range§r \u2014 within the same dimension."
 				""
 				"§7No more Range Upgrades:§r A single Infinity Range Booster replaces every range upgrade you've ever placed. Insert it into any Wireless Transmitter and your Wireless Grid works anywhere in the dimension."
 				""
@@ -961,20 +961,20 @@
 				}
 			]
 			title: "Infinity Range Booster"
-			subtitle: "Insert the Infinity Range Booster into a Wireless Transmitter — infinite range in your dimension."
+			subtitle: "Insert the Infinity Range Booster into a Wireless Transmitter \u2014 infinite range in your dimension."
 			x: 14.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["D02D"]
 			description: [
-				"The §eDimension Card§r upgrades the Infinity Range Booster to work across §adimensions§r — Overworld, Nether, End, and any modded dimension."
+				"The §eDimension Card§r upgrades the Infinity Range Booster to work across §adimensions§r \u2014 Overworld, Nether, End, and any modded dimension."
 				""
 				"§7Usage:§r Insert it into your Wireless Transmitter in place of the Infinity Range Booster. Your Wireless Grid now connects to your home network from §aanywhere in any dimension§r."
 				""
 				"§7Recipe:§r Wrap an Infinity Range Booster in Nether Stars and Eyes of Ender. Expensive, but the result is permanent cross-dimensional network access."
 				""
-				"§7Pro tip:§r Carry your Wireless Grid on expeditions to the Nether or End — access your full item storage and request autocrafts from anywhere."
+				"§7Pro tip:§r Carry your Wireless Grid on expeditions to the Nether or End \u2014 access your full item storage and request autocrafts from anywhere."
 			]
 			icon: "rsinfinitybooster:dimension_card"
 			id: "D02E"
@@ -994,7 +994,7 @@
 				}
 			]
 			title: "Dimension Card"
-			subtitle: "Insert the Dimension Card — access your RS network from any dimension, anywhere."
+			subtitle: "Insert the Dimension Card \u2014 access your RS network from any dimension, anywhere."
 			x: 16.0d
 			y: 4.0d
 		}

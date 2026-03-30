@@ -36,7 +36,7 @@
 				}
 			]
 			title: "Humble Harvest"
-			subtitle: "Find and harvest Tomatoes — they grow wild in plains, savanna, and sunflower plains biomes."
+			subtitle: "Find and harvest Tomatoes \u2014 they grow wild in plains, savanna, and sunflower plains biomes."
 			x: 0.0d
 			y: 0.0d
 		}
@@ -154,7 +154,7 @@
 				}
 			]
 			title: "Cooking for Blockheads"
-			subtitle: "Place a Cooking Table alongside chests of ingredients — it auto-fills recipes with available items."
+			subtitle: "Place a Cooking Table alongside chests of ingredients \u2014 it auto-fills recipes with available items."
 			x: 10.0d
 			y: 0.0d
 		}

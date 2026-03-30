@@ -30,7 +30,7 @@
 				}
 			]
 			title: "Source of Power"
-			subtitle: "Collect Source Berries — they grow in Archwood Forests and are your first source of magical energy."
+			subtitle: "Collect Source Berries \u2014 they grow in Archwood Forests and are your first source of magical energy."
 			x: 0.0d
 			y: 0.0d
 		}
@@ -315,7 +315,7 @@
 				}
 			]
 			title: "Bookwyrm Familiar"
-			subtitle: "The Bookwyrm Familiar floats by your side and automatically picks up Source Berries nearby — handy!"
+			subtitle: "The Bookwyrm Familiar floats by your side and automatically picks up Source Berries nearby \u2014 handy!"
 			x: 14.0d
 			y: -2.0d
 		}

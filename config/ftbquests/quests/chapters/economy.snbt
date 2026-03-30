@@ -12,9 +12,9 @@
 			description: [
 				"Emeralds are the currency of this world."
 				""
-				"Earn them by placing items in a §6Selling Bin§r — a block that automatically converts sellable goods into emeralds. Crops, mob drops, logs, metals, fish, §aCobblemon apricorns§r, and §2Farmer's Delight§r crops all have sell prices."
+				"Earn them by placing items in a §6Selling Bin§r \u2014 a block that automatically converts sellable goods into emeralds. Crops, mob drops, logs, metals, fish, §aCobblemon apricorns§r, and §2Farmer's Delight§r crops all have sell prices."
 				""
-				"Use the §6Wallet§r to bank your emeralds — right-click to deposit, sneak+right-click to withdraw. Your balance earns §a0.5% interest§r every 30 minutes!"
+				"Use the §6Wallet§r to bank your emeralds \u2014 right-click to deposit, sneak+right-click to withdraw. Your balance earns §a0.5% interest§r every 30 minutes!"
 				""
 				"Spend your emeralds at the §6Daily Shop§r, trading with villagers, Goblin Traders, or Waystones."
 			]
@@ -42,14 +42,14 @@
 		{
 			dependencies: ["A1B2C3D4E5F60002"]
 			description: [
-				"Craft a §6Wallet§r — your personal piggy bank."
+				"Craft a §6Wallet§r \u2014 your personal piggy bank."
 				""
 				"§7Recipe: §rSurround a §6Gold Ingot§r with §6Leather§r in a crafting table."
 				""
 				"§7Right-click§r to deposit all emeralds from your inventory into your wallet."
 				"§7Sneak + Right-click§r to withdraw up to 576 emerald blocks worth."
 				""
-				"Your wallet balance is stored safely — you won't lose it on death!"
+				"Your wallet balance is stored safely \u2014 you won't lose it on death!"
 			]
 			id: "A1B2C3D4E5F60004"
 			rewards: [{
@@ -74,9 +74,9 @@
 				""
 				"Sellable crops include wheat, potatoes, carrots, melons, pumpkins, beetroot, cocoa beans, sugar cane, and kelp."
 				""
-				"§2Farmer's Delight§r crops — tomatoes, onions, rice, and cabbage — also sell well. So do §aCobblemon apricorns§r and all types of §6logs§r!"
+				"§2Farmer's Delight§r crops \u2014 tomatoes, onions, rice, and cabbage \u2014 also sell well. So do §aCobblemon apricorns§r and all types of §6logs§r!"
 				""
-				"Tip: the Selling Bin works automatically — just keep it stocked and collect your emeralds."
+				"Tip: the Selling Bin works automatically \u2014 just keep it stocked and collect your emeralds."
 			]
 			id: "A1B2C3D4E5F60007"
 			rewards: [{
@@ -126,7 +126,7 @@
 			description: [
 				"Collect §a100 Emeralds§r and let your savings grow."
 				""
-				"Deposit them in your §6Wallet§r — every 30 minutes your balance earns §a0.5% interest§r automatically. §9I love compounding interest!§r"
+				"Deposit them in your §6Wallet§r \u2014 every 30 minutes your balance earns §a0.5% interest§r automatically. §9I love compounding interest!§r"
 				""
 				"Keep your balance above 24 emeralds to qualify for interest payments."
 			]
@@ -161,9 +161,9 @@
 			description: [
 				"You've become a proper merchant! Goblin Traders, wandering traders, and villagers all accept emeralds."
 				""
-				"Visit a village and use your emeralds to unlock rare trades — or build a villager hall and cure zombie villagers for §adiscounted prices§r."
+				"Visit a village and use your emeralds to unlock rare trades \u2014 or build a villager hall and cure zombie villagers for §adiscounted prices§r."
 				""
-				"Waystones also cost emeralds to use globally — so a fat wallet means free fast travel!"
+				"Waystones also cost emeralds to use globally \u2014 so a fat wallet means free fast travel!"
 			]
 			id: "A1B2C3D4E5F60017"
 			rewards: [
@@ -223,11 +223,11 @@
 			description: [
 				"The §6Selling Bin§r is your passive income machine."
 				""
-				"Drop items on top of it to auto-sell them for emeralds — no GUI needed."
+				"Drop items on top of it to auto-sell them for emeralds \u2014 no GUI needed."
 				""
-				"Crops, logs, mob drops, fish, apricorns, and more all have sell prices. Upgrade from Wood → Redstone → Iron for more inventory rows."
+				"Crops, logs, mob drops, fish, apricorns, and more all have sell prices. Upgrade from Wood \u2192 Redstone \u2192 Iron for more inventory rows."
 				""
-				"§7Recipe§r: Check your recipe book — it uses planks, chests, and a hopper."
+				"§7Recipe§r: Check your recipe book \u2014 it uses planks, chests, and a hopper."
 			]
 			id: "A1B2C3D4E5F60025"
 			rewards: [{
@@ -252,11 +252,11 @@
 			description: [
 				"The §6Daily Shop§r refreshes its stock every 24 hours with a random assortment of items."
 				""
-				"Place it down and right-click to browse — you'll find everything from food and resources to rare loot."
+				"Place it down and right-click to browse \u2014 you'll find everything from food and resources to rare loot."
 				""
 				"§aTip:§r You received one free in your intro reward! Place it somewhere central."
 				""
-				"§7Recipe§r: Red & white carpet on top, sticks flanking an emerald in the middle, planks on the bottom."
+				"§7Recipe§r: Red \u0026 white carpet on top, sticks flanking an emerald in the middle, planks on the bottom."
 			]
 			id: "A1B2C3D4E5F60028"
 			rewards: [{
