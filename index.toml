@@ -686,6 +686,10 @@ file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
+file = "kubejs/server_scripts/sell.js"
+hash = "7109e5da00988a6ba44d0f7ab1229f8848797648e7394392c901f82f75327444"
+
+[[files]]
 file = "kubejs/server_scripts/wallet.js"
 hash = "11ded53c8e309d021db9ea16d2256f6724346d8c5f0dc5d6f2e874ff60382e43"
 
