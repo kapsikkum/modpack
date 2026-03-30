@@ -84,6 +84,36 @@
     { "input": { "filter": "minecraft:magma_cream",       "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:arrow",             "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:ink_sac",           "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:wither_skeleton_skull", "count": 1 }, "output": { "item": "minecraft:emerald", "count": 3 } }
+    { "input": { "filter": "minecraft:wither_skeleton_skull", "count": 1 }, "output": { "item": "minecraft:emerald", "count": 3 } },
+
+    { "input": { "filter": "minecraft:bamboo",          "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:glow_berries",    "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cactus",          "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:apple",           "count": 32 }, "output": { "item": "minecraft:emerald", "count": 6 } },
+    { "input": { "filter": "minecraft:paper",           "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:sugar",           "count": 16 }, "output": { "item": "minecraft:emerald", "count": 2 } },
+
+    { "input": { "filter": "minecraft:blackstone",      "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:soul_sand",       "count": 16 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+
+    { "input": { "filter": "brewinandchewin:hops",      "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "brewinandchewin:barley",    "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+
+    { "input": { "filter": "minecraft:diamond",         "count":  2 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+
+    { "input": { "filter": "minecraft:cod",             "count": 10 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_cod",      "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:salmon",          "count": 10 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_salmon",   "count":  8 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:chicken",         "count": 12 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_chicken",  "count": 10 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:porkchop",        "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_porkchop", "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:beef",            "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_beef",     "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:mutton",          "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_mutton",   "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:rabbit",          "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
+    { "input": { "filter": "minecraft:cooked_rabbit",   "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } }
   ]
 }

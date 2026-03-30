@@ -286,7 +286,7 @@ hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
 
 [[files]]
 file = "config/sellingbin/selling_bin.json"
-hash = "5925e0c24fc118f7fd42f11367e03e05b5c9ac52f714a22f19984b7a82513135"
+hash = "e42b084dd0e29abfd64535de3560f347cc50b5a8265df1ca6c6ff10b013744f2"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -687,7 +687,7 @@ hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
 file = "kubejs/server_scripts/sell.js"
-hash = "045fe093e78aa8ca5e7b48445565bc1792b672ea08dc92e82ad63a5236e128a0"
+hash = "7109e5da00988a6ba44d0f7ab1229f8848797648e7394392c901f82f75327444"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
