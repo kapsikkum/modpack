@@ -357,10 +357,6 @@ file = "crash.log"
 hash = "c279f12fff2d31717e5e2eff929238982f68570b9b0a9490226393ef3b11e203"
 
 [[files]]
-file = "fix_snbt.py"
-hash = "0e9940c570ea8a69411c2ac5833466519a62342d778bdb3f5da1df25a0208eb0"
-
-[[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
 hash = "52b2775c0cb5ea1423deef3465430ef555b65eeaf0a2a6aa693c7262118ac2cf"
 
