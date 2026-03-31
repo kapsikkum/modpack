@@ -138,7 +138,7 @@ hash = "aa69aff0c1009e3001549cf0363884af55b6fa96dad67429ce5faa68c4fd4097"
 
 [[files]]
 file = "config/dailyshop/trade_tables/48_emeralds.json"
-hash = "af6670aff73e6024575d24aedccf1df4a80baf4120986e9eddfdf65b46dab2c2"
+hash = "84eedcc50447a29545ee9f046036073abc93b75f5937a686db3a6a2608bc326a"
 
 [[files]]
 file = "config/dailyshop/trade_tables/4_emeralds.json"
@@ -170,7 +170,7 @@ hash = "6d4547e2672f88da0afdde88b910ec09e1606136d652afb52b4caa3de27a3d31"
 
 [[files]]
 file = "config/dailyshop/trade_tables/9_emeralds.json"
-hash = "5e63101185681b6b0bdee0f36b32171d86b4d7318edb5ac0b6ccdb52941322da"
+hash = "3b728c8012e2a6edbd99d19fbfec213bf577d6717b1ac0e5448f4edb94a4b4fd"
 
 [[files]]
 file = "config/dailyshop/trade_tables/daily_shop.json"
@@ -688,6 +688,10 @@ hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 [[files]]
 file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
+
+[[files]]
+file = "kubejs/server_scripts/gravel_sifting.js"
+hash = "18e96f988ee84af01e6899ef9c3ffc747f17f69cdfbdde2a377a16023f9acab0"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
