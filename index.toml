@@ -679,7 +679,7 @@ hash = "452f7e55e74092ae9ad0565c49211dae43d5d98d48a5074c940181348bbd5f6e"
 
 [[files]]
 file = "kubejs/data/oritechoilcompat.zip"
-hash = "048cf60948f0235ab59fa305f08276045415557a5836d61b7b86ffe94ba28307"
+hash = "37866a8e7a7c351a1a46261f1a2b9fc0f292896057b48869d21faffb07beb0a1"
 
 [[files]]
 file = "kubejs/data/worldgen_removals.zip"
@@ -2239,11 +2239,6 @@ metafile = true
 [[files]]
 file = "mods/spell-power.pw.toml"
 hash = "2c6eb75d262805c3a7e4d7ccb0a964c67511206fbdd1711504f41d538c62c237"
-metafile = true
-
-[[files]]
-file = "mods/splinecart.pw.toml"
-hash = "a9345e349d4aedab0eb4705d37e4e59d53f5fa19c3ce0effcbef35db9380da68"
 metafile = true
 
 [[files]]
