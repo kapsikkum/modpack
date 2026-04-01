@@ -341,6 +341,10 @@ file = "config/subtle_effects/items.toml"
 hash = "abc9ad4c4178e9b47d663c8e3e19fe8312abbbedc655a5236a58b029ae359333"
 
 [[files]]
+file = "config/supplementaries-client.toml"
+hash = "4256505b6a24536adc7d2547336670eee3590ecaa5f374d11f01b02661fcf2ed"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "58885c2913047cc79133097d12344c9d718f9dd1d0437e0a3793322cb59cecdb"
 
@@ -712,7 +716,7 @@ hash = "d7965973c8c996d620666076bae7177e3ee47ea1f3ff83b4162d781f020c2f6d"
 
 [[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
-hash = "18e96f988ee84af01e6899ef9c3ffc747f17f69cdfbdde2a377a16023f9acab0"
+hash = "9b2143f9aebb3feb77611d35eb35651f5902ec22d82358e8209814fc2fab25fe"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
