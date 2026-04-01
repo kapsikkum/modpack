@@ -42,7 +42,7 @@ hash = "449e25470f97905142f313bc2319512dcd874216e3e1604bb4739c7937555fc0"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "8bdd8e3d59714ef0833423193a6ea793276b6def81251fa7c6eaf0a498f68d3e"
+hash = "eab21373100470b3f545217cfb936b1d442689f50c1f5129a84e11a2e00ef56b"
 
 [[files]]
 file = "config/chunky/config.json"
@@ -393,6 +393,18 @@ file = "global_packs/required_data/accessories-slots/data/accessories/accessorie
 hash = "254599fb8336cd30b8d9cf6102151a22f8eb2423a3fe10ae277cbef81b6e0dab"
 
 [[files]]
+file = "global_packs/required_data/accessories-slots/data/curios/curios/slots/necklace.json"
+hash = "debd47238088fe77f60e38fd30887289ce3bf7fef10c4c9bfa16d2e2d3707de0"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/curios/curios/slots/ring.json"
+hash = "47f62d49d487d5dc935c6b72bd60301bb5122086e0ee9e614858c30194f16ac9"
+
+[[files]]
+file = "global_packs/required_data/accessories-slots/data/nameless_trinkets/curios/slots/trinket.json"
+hash = "098cf88120a6ebc1b1d832159f64b29ce8ffb4cc8b13f31aceda622cb424470e"
+
+[[files]]
 file = "global_packs/required_data/accessories-slots/pack.mcmeta"
 hash = "f7be8d58c001781848c02ccd817f3333a39903ae8c0d22103f7c32d378a38290"
 
@@ -469,6 +481,11 @@ metafile = true
 [[files]]
 file = "global_packs/required_resources/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "07972d854d922401ef9a1fd6f1bf8aed5fe7e085a8602639ce8a42b680c5fac6"
+metafile = true
+
+[[files]]
+file = "global_packs/required_resources/bcg-x-whimscape.pw.toml"
+hash = "f17806fe2b2c6c55005044bcb3a0a3a5a4a066a51633b5e3febbe5c945043af8"
 metafile = true
 
 [[files]]
@@ -688,6 +705,10 @@ hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 [[files]]
 file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
+
+[[files]]
+file = "kubejs/server_scripts/flint_crushing.js"
+hash = "d7965973c8c996d620666076bae7177e3ee47ea1f3ff83b4162d781f020c2f6d"
 
 [[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
@@ -1068,6 +1089,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "ac4d934d395dd4422d14cfc2f90670896ada7cb2d97fe078706e93a9de1b45a9"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "693cd91c93dd402b03efb5dfc76eee3ad01099b20b9a2cfdf72c26277bc7bba9"
 metafile = true
 
 [[files]]
@@ -2503,11 +2529,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "682adfe4fefce3a21dbe25736170b70d946686ddae15fdd622dafefc2555882b"
-
-[[files]]
-file = "resourcepacks/bcg-x-whimscape.pw.toml"
-hash = "f17806fe2b2c6c55005044bcb3a0a3a5a4a066a51633b5e3febbe5c945043af8"
-metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
