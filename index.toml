@@ -45,10 +45,6 @@ file = "config/carryon-common.toml"
 hash = "eab21373100470b3f545217cfb936b1d442689f50c1f5129a84e11a2e00ef56b"
 
 [[files]]
-file = "config/chunky/config.json"
-hash = "0f8ef592c97e22697cc41a86a5a0476c6d53518d916530b7f6ff9aa548c1dd28"
-
-[[files]]
 file = "config/cobbleloots/cobbleloots.yaml"
 hash = "8940c64f98faf8b3ef8d6be253ca4adc4b6eda99cc35d53fde1a6be9ab410b65"
 
@@ -290,7 +286,7 @@ hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
 
 [[files]]
 file = "config/sellingbin/selling_bin.json"
-hash = "e42b084dd0e29abfd64535de3560f347cc50b5a8265df1ca6c6ff10b013744f2"
+hash = "61fb6cff435f78d72252eb2bfb6fad54485f6d6717952026627cf5edcd62c7fd"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -318,7 +314,7 @@ hash = "f1c2a77525e353753cee096d562820840c6a5cdb4f97e4c3981fd16332d26736"
 
 [[files]]
 file = "config/spawn_notification.json"
-hash = "9e18a5a5c71f8543095c3d3d66d635a204206d18d145513fe11e3e7df03b45ea"
+hash = "71443244f5a40516adc2eefa231cb6785da8407a3a597a1edae554346b31d6a4"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
@@ -711,12 +707,8 @@ file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
-file = "kubejs/server_scripts/flint_crushing.js"
-hash = "d7965973c8c996d620666076bae7177e3ee47ea1f3ff83b4162d781f020c2f6d"
-
-[[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
-hash = "9b2143f9aebb3feb77611d35eb35651f5902ec22d82358e8209814fc2fab25fe"
+hash = "927b0b0ecf660aabe9d92eb99385237bb6651790faab79b9128303a76df51d36"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"

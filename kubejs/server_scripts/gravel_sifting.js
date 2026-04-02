@@ -1,7 +1,35 @@
 ServerEvents.recipes(event => {
-  // Replace the built-in gravel+andesite_mesh recipe with a comprehensive multimod version
+  // Replace the built-in recipes with comprehensive multimod versions
   event.remove({ id: 'createsifter:sifting/gravel_andesite' })
+  event.remove({ id: 'createsifter:sifting/gravel_brass' })
 
+  // ── Brass mesh: sift gravel → crushed ores ───────────────────────────────
+  event.recipes.createsifter.sifting(
+    [
+      // ── Vanilla / Create ─────────────────────────────────────────────────
+      Output.of('create:crushed_raw_iron',    0.50),
+      Output.of('create:crushed_raw_gold',    0.20),
+      Output.of('create:crushed_raw_copper',  0.40),
+      Output.of('create:crushed_raw_zinc',    0.40),
+
+      // ── Mekanism ─────────────────────────────────────────────────────────
+      Output.of('create:crushed_raw_tin',     0.30),
+      Output.of('create:crushed_raw_lead',    0.25),
+      Output.of('create:crushed_raw_osmium',  0.20),
+      Output.of('create:crushed_raw_uranium', 0.05),
+
+      // ── Oritech ──────────────────────────────────────────────────────────
+      Output.of('create:crushed_raw_nickel',  0.30),
+
+      // ── Mythic Metals ─────────────────────────────────────────────────────
+      Output.of('create:crushed_raw_silver',   0.15),
+      Output.of('create:crushed_raw_platinum', 0.10),
+    ],
+    'minecraft:gravel',
+    'createsifter:brass_mesh'
+  )
+
+  // ── Andesite mesh: sift gravel ────────────────────────────────────────────
   event.recipes.createsifter.sifting(
     [
       // ── Vanilla / Create ─────────────────────────────────────────────────

@@ -1,10 +1,10 @@
 {
   "settings": {
-    "WOOD":      { "updateDelayTicks": 24000, "inventoryRows": 1 },
-    "REDSTONE":  { "updateDelayTicks": 24000, "inventoryRows": 2 },
+    "WOOD":      { "updateDelayTicks": 48000, "inventoryRows": 1 },
+    "REDSTONE":  { "updateDelayTicks": 36000, "inventoryRows": 2 },
     "IRON":      { "updateDelayTicks": 24000, "inventoryRows": 3 },
-    "DIAMOND":   { "updateDelayTicks": 24000, "inventoryRows": 4 },
-    "NETHERITE": { "updateDelayTicks": 24000, "inventoryRows": 6 }
+    "DIAMOND":   { "updateDelayTicks": 12000, "inventoryRows": 4 },
+    "NETHERITE": { "updateDelayTicks":  6000, "inventoryRows": 6 }
   },
   "trades": [
     { "input": { "filter": "minecraft:dirt",           "count": 32 }, "output": { "item": "minecraft:emerald", "count": 1 } },
@@ -112,8 +112,6 @@
     { "input": { "filter": "minecraft:beef",            "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:cooked_beef",     "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } },
     { "input": { "filter": "minecraft:mutton",          "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:cooked_mutton",   "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:rabbit",          "count":  6 }, "output": { "item": "minecraft:emerald", "count": 1 } },
-    { "input": { "filter": "minecraft:cooked_rabbit",   "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } }
+    { "input": { "filter": "minecraft:cooked_mutton",   "count":  5 }, "output": { "item": "minecraft:emerald", "count": 1 } }
   ]
 }
