@@ -679,6 +679,14 @@ file = "keybind_bundles.json"
 hash = "7c02f9dc781fbf149d9ae2677dbad89c60e23a8f86e1ff449703820d52773353"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/crushed_exp_quartz.png"
+hash = "7de8b42a50c98ed699d8a4d2803afef34e557f9b5c4577ec66fdb1e5efa4830e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/exp_quartz.png"
+hash = "226cef491770527e7f0e0bfddaf5b6681f2bf6dcb33d62c522b6494e68ff38aa"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
 hash = "7aae5a29d7e750839170563d09842b7333b156ae74e10474643156ca646c203f"
 
@@ -707,6 +715,10 @@ file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
+file = "kubejs/server_scripts/exp_quartz_candy.js"
+hash = "3e55c480d65547d830c1f3f49b9c4a1599b3db0e218edbcdb821be8ede67569e"
+
+[[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
 hash = "927b0b0ecf660aabe9d92eb99385237bb6651790faab79b9128303a76df51d36"
 
@@ -717,6 +729,10 @@ hash = "11ded53c8e309d021db9ea16d2256f6724346d8c5f0dc5d6f2e874ff60382e43"
 [[files]]
 file = "kubejs/server_scripts/wallet_recipe.js"
 hash = "0e970c7b19c52a00e1602d02713e3f45969732ecb9403fc68963ad933d2fbf28"
+
+[[files]]
+file = "kubejs/startup_scripts/exp_quartz.js"
+hash = "9c4f3f85ea6cb04af668271ff8ef7a892808ca55f7878268ba3dff92a105a946"
 
 [[files]]
 file = "kubejs/startup_scripts/wallet.js"
@@ -1650,6 +1666,11 @@ metafile = true
 [[files]]
 file = "mods/krypton-foxified.pw.toml"
 hash = "e196c28489d168c6987fb3fc5ada3001d154b204b51d1a89f015f9da96bb86bf"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 metafile = true
 
 [[files]]
