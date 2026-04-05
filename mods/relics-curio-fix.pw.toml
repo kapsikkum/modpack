@@ -1,0 +1,8 @@
+name = "Relics Curio Fix"
+filename = "relics-curio-fix-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://github.com/kapsikkum/relics-curio-fix/releases/download/v1.0.0/relics-curio-fix-1.0.0.jar"
+hash-format = "sha256"
+hash = "2e9e803cb7d22d20f38d218525199146bb0bd2a1ea6be0f7a2ad68b6c1236436"

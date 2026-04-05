@@ -2093,6 +2093,11 @@ hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
 metafile = true
 
 [[files]]
+file = "mods/relics-curio-fix.pw.toml"
+hash = "de76d7eac2959dcbf5c4a1b85a9e52600ff7fb12af989e2c250e279fa7b4039b"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "f8e01ce25bef36e58c37cebf878b2cc078a5bf34d734a33f00da4691b7698d0c"
 metafile = true
