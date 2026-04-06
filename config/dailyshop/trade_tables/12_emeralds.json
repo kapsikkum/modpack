@@ -22,6 +22,6 @@
     {"item": "minecraft:oak_sapling",            "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "minecraft:spruce_sapling",         "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "aether:golden_oak_sapling",        "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "aether:crystal_tree_sapling",      "count": {"type": "constant", "count": 1}, "weight": 1}
+    {"item": "aether:skyroot_sapling",           "count": {"type": "constant", "count": 1}, "weight": 1}
   ]
 }

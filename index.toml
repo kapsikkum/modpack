@@ -26,11 +26,11 @@ hash = "4424dfd535cbd14528a6be6e1cffbe9b2f6d190caec82829e5f608aa05f60d1f"
 
 [[files]]
 file = "config/almostunified/tags.json"
-hash = "8585b5a6338b3eecbc4d2f59087ec7e0ec02cbdb16de36bdf64415966ee5b9e5"
+hash = "40c17cba4fdc57a90d22a4bd905fd3d3593ccffa70979efa50f231c4d878fcf5"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "7b6e892194f72b5d9e964c7bf2670903e3f817efd2a0198e46d63b5dc1578429"
+hash = "52477907012aeb492a221e4d3da9a44c573b0e1b1e0662f9b0f9d4ed25127bdf"
 
 [[files]]
 file = "config/ambientsounds-client.json"
@@ -66,7 +66,7 @@ hash = "af6663a4454cdc2e85cc8fde1e84aa70a32e5e03047dfd4e993bcca340b779b7"
 
 [[files]]
 file = "config/dailyshop/trade_tables/10_emeralds.json"
-hash = "b8105e10b864e79eea3258bba4d442cd849d83770e23e7c5bb4c131683a01eca"
+hash = "caaf4024a6ce5a2dc4b8e6c3ecc112f15dfa4d1705346cbb30579d294ab02e59"
 
 [[files]]
 file = "config/dailyshop/trade_tables/11_emeralds.json"
@@ -78,11 +78,11 @@ hash = "c0da33d581e65fd4965afbbd859710163a4881a4555592e4bd5f81038e856d85"
 
 [[files]]
 file = "config/dailyshop/trade_tables/12_emeralds.json"
-hash = "64cf5b9f48b4aaedf75fe680e09a639a7b0f05e134736796c90331c8ce96ab7f"
+hash = "5eda415e87c23ec8f7af6318b716fc683e088735e4e1eb29de9a01f5d2453e0b"
 
 [[files]]
 file = "config/dailyshop/trade_tables/13_emeralds.json"
-hash = "36ad68aa41bc7f21885dd089806df6b800e16e05f61ace2f821a2a3a24e92d74"
+hash = "8fcd375c5b7186b3ee445c16ca46c2362ed6da63c9121b9edc6e9d4c2beb5a33"
 
 [[files]]
 file = "config/dailyshop/trade_tables/14_emeralds.json"
@@ -98,11 +98,15 @@ hash = "6c418526390ab7f8d409a9df493cfbb08ca87f404c36f43be66217127a16773a"
 
 [[files]]
 file = "config/dailyshop/trade_tables/16_emeralds.json"
-hash = "31baa41be4cc29a9d30342995a3250ca0ca817684d3863af3f26b8702d6e77eb"
+hash = "6cd5dcbdc0d1b75a98a333b67316876326c1e0cae37df815d4784cd57c156468"
 
 [[files]]
 file = "config/dailyshop/trade_tables/1_emerald.json"
 hash = "b10c3bd24f017f03f177f16115173924efa6214adb823e9b0cbae6cc00eaffcc"
+
+[[files]]
+file = "config/dailyshop/trade_tables/1_emerald_block.json"
+hash = "83fb9f7285de4f2f75ea544b3ba5acd7a2c00bbde6867546ebb1c3b42deb8eab"
 
 [[files]]
 file = "config/dailyshop/trade_tables/20_emeralds.json"
@@ -134,7 +138,7 @@ hash = "aa69aff0c1009e3001549cf0363884af55b6fa96dad67429ce5faa68c4fd4097"
 
 [[files]]
 file = "config/dailyshop/trade_tables/48_emeralds.json"
-hash = "84eedcc50447a29545ee9f046036073abc93b75f5937a686db3a6a2608bc326a"
+hash = "c6744a1ccc87a0b5e63f6b70fc95a46329207883e47e3c0fd1e31cd667638f46"
 
 [[files]]
 file = "config/dailyshop/trade_tables/4_emeralds.json"
@@ -142,7 +146,7 @@ hash = "8d637b81071be836b6bc34bf5622fd6473c9604b3806aad99f83e1fd1984086e"
 
 [[files]]
 file = "config/dailyshop/trade_tables/5_emeralds.json"
-hash = "a7546646a47676abb2687d880080ce02c76223896bb6d90d1c003c2f5c9860e4"
+hash = "c5b6b54101f5b0b6555b55ffaaaf6664767d985034f00d3e42e6bd43ec785381"
 
 [[files]]
 file = "config/dailyshop/trade_tables/64_emerald_blocks.json"
@@ -154,7 +158,7 @@ hash = "926035b48c709464ba03b7f7004ac96c8e38efc767aedc3e3a653c57965903c9"
 
 [[files]]
 file = "config/dailyshop/trade_tables/6_emeralds.json"
-hash = "062217e5eecf4fa7d2dae889cda2a44bd8b0672f4907c8c7a8087dbe247ae164"
+hash = "c5a2f5cb118d6992d2677dc84c108da870c9987a72b2b1981d70bcd839fbb4b0"
 
 [[files]]
 file = "config/dailyshop/trade_tables/7_emeralds.json"
@@ -166,11 +170,11 @@ hash = "6d4547e2672f88da0afdde88b910ec09e1606136d652afb52b4caa3de27a3d31"
 
 [[files]]
 file = "config/dailyshop/trade_tables/9_emeralds.json"
-hash = "3b728c8012e2a6edbd99d19fbfec213bf577d6717b1ac0e5448f4edb94a4b4fd"
+hash = "e54986666c9f52cf357face9b9f9cb31c18f31a78fc70f22bdb826fcd9d8245e"
 
 [[files]]
 file = "config/dailyshop/trade_tables/daily_shop.json"
-hash = "419323d9a59cfb2e602b0473cdbe628dd170afebb686c380b9005fb020cf8fb1"
+hash = "a6e446f794b09fbea4c21c4bb7a84c118956fc59f04dc3084354d88b54aafe7e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -211,6 +215,10 @@ hash = "74ac1d037f8a7b3c946b2e74a6c0b07e6666a1b31ec06c3a5dab9698f2e89520"
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
 hash = "c949b3e04364f12e7de044396b6eeaee8f9626e762fc61e7ce957c66b732f04b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/end_remastered.snbt"
+hash = "20654a4c51cdd2e152ca285954c7cfe4b3da800b47bcfdbf9fa6496fca0b275f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
@@ -355,10 +363,6 @@ hash = "bb585fccfc3d0d18a1a32f690c29a5bdceee9bc77e637e2fe7c58b6e3135925c"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "e7a5ab2364e8b33b35a91f5c926072ffc8ef1d8c1bda6e7aac2c2cd390f98b26"
-
-[[files]]
-file = "crash.log"
-hash = "c279f12fff2d31717e5e2eff929238982f68570b9b0a9490226393ef3b11e203"
 
 [[files]]
 file = "global_packs/required_data/AetherMon-1.21.1.zip"
@@ -716,7 +720,7 @@ hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
 file = "kubejs/server_scripts/exp_quartz_candy.js"
-hash = "3e55c480d65547d830c1f3f49b9c4a1599b3db0e218edbcdb821be8ede67569e"
+hash = "64b784dd07cbc2f706a0a32195b5ce7295bab4bd9819f52037010a8eff20a1f1"
 
 [[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
@@ -1674,6 +1678,11 @@ hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-mekanism.pw.toml"
+hash = "828f12a754a929bf2e955cf9d0acca4cbe305f172e94c556fe9b0704bcaff7e0"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
 metafile = true
@@ -2266,6 +2275,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "c04ad2e883943640d5bc8e519c0b90e6cdd11e5b5a6d095b5838c477021771a0"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "d652962f148a1140bc5462dc226e86b84f01421b9dfa791c5a1ef4cdceb002ff"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "06bbebf42e3628ea6052ef584b5915eb78146728ccd43408e9a965c23a3621ec"
 metafile = true
 
 [[files]]

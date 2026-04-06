@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: ""
+	icon: "minecraft:end_portal_frame"
+	id: "EA000001"
+	images: []
+	order_index: 14
+	quest_links: []
+	quests: [
+		{
+			description: [
+				"§bEnd Remastered§r overhauls the End Portal. Instead of 12 identical Eyes of Ender, the portal now requires §c16 unique eyes§r \u2014 each tied to a different challenge across the world."
+				""
+				"No two eyes come from the same place. You'll need to face the Wither, storm Ocean Monuments, explore Ancient Cities, trade with Piglins, and more."
+				""
+				"Each quest below rewards one eye when you complete its challenge. Together, they map out your entire progression from Nether entry to End gateway."
+				""
+				"§7The portal won't open by chance. You'll have to earn it."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "EA000002"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "EA000003"
+				title: "End Remastered \u2014 Sixteen Eyes, One Portal"
+				type: "checkmark"
+			}]
+			title: "§6\u25C6 Gateway to the End"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oIt was lost by a demon in the battle between the Aether and the Nether.§r"
+				""
+				"The Nether Eye was carried by a demon slain long ago, its power scattered through the burning fortresses."
+				""
+				"Slay §cBlazes§r deep in Nether Fortresses. Collect their powder as proof you've stood in the fire."
+			]
+			icon: "endrem:nether_eye"
+			id: "EA000011"
+			rewards: [{
+				id: "EA000013"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			subtitle: "Lost in the flames"
+			tasks: [{
+				count: 8L
+				id: "EA000012"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "The Demon's Eye"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oA powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives.§r"
+				""
+				"§cPiglin Brutes§r guard the bastions of the Nether with golden axes and no fear. They cannot be distracted by gold and will not bargain."
+				""
+				"Defeat three of them to claim what they were sworn to keep."
+			]
+			icon: "endrem:cursed_eye"
+			id: "EA000021"
+			rewards: [{
+				id: "EA000023"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			subtitle: "Sworn in gold"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "EA000022"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Piglin's Bargain"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oHas witnessed destruction. Maybe it also witnessed your stuff disappear.§r"
+				""
+				"This eye has watched the end of countless things. Claim it by defeating the Wither \u2014 the very embodiment of wanton destruction."
+				""
+				"Summon the Wither by placing three §4Wither Skeleton Skulls§r on §8Soul Sand§r or §8Soul Soil§r in a T-shape. Then survive what comes next."
+			]
+			icon: "endrem:wither_eye"
+			id: "EA000031"
+			rewards: [{
+				id: "EA000033"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			subtitle: "Three heads, one death"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "EA000032"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Witnessed Devastation"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oRemembrance of the past lives of those who live in death.§r"
+				""
+				"§8Wither Skeletons§r carry memory of every soul they've ended. They roam Nether Fortresses in packs and inflict the Wither effect on hit."
+				""
+				"Bring Milk Buckets. Hunt 20 of them to uncover what they collectively remember."
+			]
+			icon: "endrem:undead_eye"
+			id: "EA000041"
+			rewards: [{
+				id: "EA000043"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			subtitle: "Memory of the fallen"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "EA000042"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Among the Dead"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oIt has seen many warriors drown into the depths of the sea.§r"
+				""
+				"§bGuardians§r patrol the waters surrounding Ocean Monuments, launching laser beams at any intruder."
+				""
+				"Equip §aDepth Strider§r boots and §aAqua Affinity§r on your helmet. Fight from the monument's walls where you can surface between waves."
+			]
+			icon: "endrem:guardian_eye"
+			id: "EA000051"
+			rewards: [{
+				id: "EA000053"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			subtitle: "Warriors drown here"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "EA000052"
+				type: "kill"
+				value: 10L
+			}]
+			title: "The Deep Wardens"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oThose who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying.§r"
+				""
+				"The §bElder Guardian§r rules the heart of each Ocean Monument. Three chambers, one Elder Guardian each. It inflicts Mining Fatigue and hits hard in open water."
+				""
+				"You only need to slay one. Whether you drain the monument or dive straight in is your call."
+			]
+			icon: "endrem:exotic_eye"
+			id: "EA000061"
+			rewards: [{
+				id: "EA000063"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			subtitle: "Lost city beneath the waves"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "EA000062"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Atlantis Calling"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oPirates say it gave sight to the legendary Black Pearl.§r"
+				""
+				"Buried treasure hides beneath beaches and ocean floors, each chest sealed with a §eHeart of the Sea§r. Follow §eTreasure Maps§r found in shipwreck chests to locate them."
+				""
+				"Mark the X. Dig straight down. Don't lose the map."
+			]
+			icon: "endrem:black_eye"
+			id: "EA000071"
+			rewards: [{
+				id: "EA000073"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			subtitle: "X marks the spot"
+			tasks: [{
+				id: "EA000072"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Black Pearl's Sight"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oOne of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world.§r"
+				""
+				"§bIceologers§r from §bFriends and Foes§r lurk in frozen mountain peaks, hurling blocks of ice with devastating force. They are rare and spread out."
+				""
+				"Seek them in §bFrozen Peaks§r and §bJagged Peaks§r biomes. Eliminate five to claim this frozen relic."
+			]
+			icon: "endrem:cold_eye"
+			id: "EA000081"
+			rewards: [{
+				id: "EA000083"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			subtitle: "Frozen and forgotten"
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				id: "EA000082"
+				type: "kill"
+				value: 5L
+			}]
+			title: "The Iceologer's Legacy"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oWithout this eye, the Evoker has no power.§r"
+				""
+				"§cEvokers§r command Vexes and fangs from the depths of §cWoodland Mansions§r. Stripping them of this eye removes their greatest source of power."
+				""
+				"Mansions are rare \u2014 buy a Woodland Exploration Map from a Cartographer Villager, or use §b/locate structure minecraft:mansion§r."
+			]
+			icon: "endrem:magical_eye"
+			id: "EA000091"
+			rewards: [{
+				id: "EA000093"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			subtitle: "Power stripped away"
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "EA000092"
+				type: "kill"
+				value: 3L
+			}]
+			title: "The Evoker's Secret"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oA holy talisman said to protect its owner from bad luck.§r"
+				""
+				"§cPillager Outpost§r Raid Captains are identified by the §cOminous Banner§r on their back. Slay one \u2014 they drop an §cOminous Bottle§r."
+				""
+				"You don't have to drink it. But the eye will know if you do."
+			]
+			icon: "endrem:evil_eye"
+			id: "EA0000A1"
+			rewards: [{
+				id: "EA0000A3"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			subtitle: "Court your bad luck"
+			tasks: [{
+				id: "EA0000A2"
+				item: "minecraft:ominous_bottle"
+				type: "item"
+			}]
+			title: "Ill Omen"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oThe eye of a greedy king that faded in solitude; legend says it will bring infinite fortune to its owner.§r"
+				""
+				"The §cAncient City§r lies deep in the Deepslate layer, warded by the §8Warden§r. Its chests hold §bEcho Shards§r \u2014 remnants of a fortune hoarded and lost."
+				""
+				"Move silently. Crouch between sprints. Bring a Silk Touch pickaxe to clear Sculk Sensors quietly. Find five shards."
+			]
+			icon: "endrem:corrupted_eye"
+			id: "EA0000B1"
+			rewards: [{
+				id: "EA0000B3"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			subtitle: "Fortune buried beneath the deep"
+			tasks: [{
+				count: 5L
+				id: "EA0000B2"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "The Greedy King"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§o§khttps://www.youtube.com/watch?v=dQw4w9WgXcQ§r"
+				""
+				"The lore of this eye is illegible. Something encoded in a language older than language itself."
+				""
+				"You've stared at it long enough."
+				""
+				"§7§oThat's probably what it needed."
+			]
+			icon: "endrem:cryptic_eye"
+			id: "EA0000C1"
+			rewards: [{
+				id: "EA0000C3"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			subtitle: "You already know"
+			tasks: [{
+				id: "EA0000C2"
+				title: "Decipher the Cryptic Eye's lore"
+				type: "checkmark"
+			}]
+			title: "???"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oIt is told that it was forged by the first blacksmiths of time.§r"
+				""
+				"To earn the trust of the ancient smiths, forge what they would have spent a lifetime perfecting: §6Netherite§r."
+				""
+				"Combine 4 §oNetherite Scraps§r and 4 §oGold Ingots§r into a Netherite Ingot, then use a §oSmithing Table§r to upgrade any Diamond tool or armour piece."
+			]
+			icon: "endrem:lost_eye"
+			id: "EA0000D1"
+			rewards: [{
+				id: "EA0000D3"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			subtitle: "The pinnacle of craft"
+			tasks: [{
+				id: "EA0000D2"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "First Forged"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oLegends say this eye once belonged to one of the great Sandworms.§r"
+				""
+				"Ancient creatures once ruled the deserts. §eDesert Temples§r hide their greatest treasures \u2014 but also a pressure-plate trap that will destroy everything inside."
+				""
+				"Find the hidden chamber. §4Don't step on the pressure plate.§r Claim the Golden Apples buried within."
+			]
+			icon: "endrem:old_eye"
+			id: "EA0000E1"
+			rewards: [{
+				id: "EA0000E3"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			subtitle: "Ancient desert relic"
+			tasks: [{
+				count: 2L
+				id: "EA0000E2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "Sandworm's Gaze"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oThis eye is believed to have given our ancestors the knowledge of Redstone.§r"
+				""
+				"§bObservers§r detect block state changes and emit a Redstone pulse \u2014 they are the eyes of Redstone itself, watching and reacting to the world."
+				""
+				"Craft four of them and let the ancient knowledge flow through your hands."
+			]
+			icon: "endrem:rogue_eye"
+			id: "EA0000F1"
+			rewards: [{
+				id: "EA0000F3"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			subtitle: "The eyes of Redstone"
+			tasks: [{
+				count: 4L
+				id: "EA0000F2"
+				item: "minecraft:observer"
+				type: "item"
+			}]
+			title: "Redstone Insight"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["EA000002"]
+			description: [
+				"§7§oThis pupil is believed to have seen the ancient brewing recipes that were lost in time.§r"
+				""
+				"To claim the Witch Eye, replicate the craft of the ancient brewers. Build a §bBrewing Stand§r \u2014 the foundation of all alchemical knowledge in Minecraft."
+				""
+				"Craft one with a §oBlaze Rod§r and three §oCobblestone§r. Then use it to brew something worthy."
+			]
+			icon: "endrem:witch_eye"
+			id: "EA000101"
+			rewards: [{
+				id: "EA000103"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			subtitle: "The lost recipes"
+			tasks: [{
+				id: "EA000102"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Ancient Brew"
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

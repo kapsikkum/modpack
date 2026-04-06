@@ -19,7 +19,9 @@
     {"item": "simplyswords:diamond_longsword",    "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplyswords:diamond_rapier",       "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplyswords:diamond_twinblade",    "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "simplyswords:diamond_greatsword",   "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "simplyswords:diamond_katana",       "count": {"type": "constant", "count": 1}, "weight": 1}
+    {"item": "simplyswords:diamond_claymore",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:diamond_katana",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "sophisticatedstorage:iron_chest",     "count": {"type": "constant", "count": 1}, "weight": 1.0},
+    {"item": "sophisticatedstorage:iron_barrel",   "count": {"type": "constant", "count": 1}, "weight": 1.0}
   ]
 }

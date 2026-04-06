@@ -3,9 +3,9 @@
   "input1": {"filter": "minecraft:emerald", "count": {"type": "constant", "count": 9}},
   "output": [
     {"item": "waystones:waystone",            "count": {"type": "constant", "count": 1}, "weight": 3.0},
-    {"item": "waystones:sharestone",           "count": {"type": "constant", "count": 1}, "weight": 2.0},
+    {"item": "waystones:blue_sharestone",     "count": {"type": "constant", "count": 1}, "weight": 2.0},
     {"item": "waystones:warp_stone",          "count": {"type": "constant", "count": 1}, "weight": 2.5},
-    {"item": "waystones:portstone",           "count": {"type": "constant", "count": 1}, "weight": 1.5},
+    {"item": "waystones:white_portstone",     "count": {"type": "constant", "count": 1}, "weight": 1.5},
     {"item": "exposure:black_and_white_film", "count": {"type": "constant", "count": 1}, "weight": 2.0},
     {"item": "exposure:color_film",           "count": {"type": "constant", "count": 1}, "weight": 2.0}
   ]

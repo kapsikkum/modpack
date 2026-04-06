@@ -29,7 +29,7 @@
     {"item": "simplyswords:iron_longsword",                   "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplyswords:iron_rapier",                      "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplyswords:iron_twinblade",                   "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "simplyswords:iron_greatsword",                  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "simplyswords:iron_claymore",                    "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "simplyswords:iron_katana",                      "count": {"type": "constant", "count": 1}, "weight": 1}
   ]
 }

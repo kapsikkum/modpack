@@ -6,9 +6,13 @@
     "mekanism",
     "mythicmetals",
     "oritech",
-    "chipped"
+    "chipped",
+    "extrastorage",
+    "extradisks"
   ],
-  "priority_overrides": {},
+  "priority_overrides": {
+    "uranium": ["oritech", "mekanism"]
+  },
   "stone_variants": [
     "stone",
     "andesite",

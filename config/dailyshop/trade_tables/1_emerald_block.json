@@ -1,0 +1,22 @@
+{
+  "roll": {"type": "constant", "count": 1},
+  "input1": {"filter": "minecraft:emerald_block", "count": {"type": "constant", "count": 1}},
+  "output": [
+    {"item": "endrem:black_eye",     "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:cold_eye",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:corrupted_eye", "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:cryptic_eye",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:cursed_eye",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:evil_eye",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:exotic_eye",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:guardian_eye",  "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:lost_eye",      "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:magical_eye",   "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:nether_eye",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:old_eye",       "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:rogue_eye",     "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:undead_eye",    "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:witch_eye",     "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "endrem:wither_eye",    "count": {"type": "constant", "count": 1}, "weight": 1}
+  ]
+}
