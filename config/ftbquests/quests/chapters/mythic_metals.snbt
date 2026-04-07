@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "mythic_metals"
+	group: ""
+	icon: "mythicmetals:mythril_ingot"
+	id: "9D01"
+	images: []
+	index: 19
+	order_index: 19
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"§bMythic Metals§r adds over a dozen new metallic ores across all three dimensions, each with unique properties and progression paths."
+				""
+				"Ore tiers follow this rough order:"
+				"\u2022 §eEarly§r: §6Bronze§r (alloy), §6Carmot§r, §6Aquarium§r (Nether)"
+				"\u2022 §eMid§r: §bMythril§r, §bOrichalcum§r, §2Platinum§r"
+				"\u2022 §cLate§r: §4Adamantite§r, §dHallowed§r, §fCelestium§r (End)"
+				"\u2022 §0Unique§r: §6Prometheum§r (armor grows stronger on kills), §5Stormyx§r (Nether), §eMidas Gold§r"
+				""
+				"§bAlloy Forgery§r adds the §6Alloy Forge§r multiblock, which is required to smelt alloy metals (Bronze, Durasteel, Quadrillum, etc.) that cannot be smelted in a standard furnace."
+				""
+				"Most metals use standard furnaces or blast furnaces. Alloys require the Alloy Forge."
+			]
+			icon: "mythicmetals:mythril_ingot"
+			id: "9D00"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "9E00"
+				title: "Mythic Metals Overview"
+				type: "checkmark"
+			}]
+			title: "\u2694 Mythic Metals"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9D00"]
+			description: [
+				"§6Carmot§r is one of the earliest Mythic Metals ores, found at diamond level in the overworld."
+				""
+				"Smelt it in any furnace or blast furnace to get §6Carmot Ingots§r. Carmot tools and armor are stronger than iron but lighter \u2014 excellent as an early-mid upgrade before reaching diamond."
+				""
+				"Carmot ore generates in the overworld at layers Y=64 to Y=-64, with highest density around Y=0. It has a glowing appearance in the world, making it visible at range."
+			]
+			icon: "mythicmetals:carmot_ingot"
+			id: "9D02"
+			tasks: [{
+				id: "9E02"
+				item: "mythicmetals:carmot_ingot"
+				type: "item"
+			}]
+			title: "Carmot"
+			subtitle: "Your first mythic metal"
+			rewards: [{
+				id: "9F02"
+				item: "mythicmetals:carmot_ingot"
+				count: 4
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9D00"]
+			description: [
+				"§6Bronze§r is an alloy of §eCopper§r and §eTin§r, and one of the first metals you can craft using the §bAlloy Forgery§r multiblock."
+				""
+				"To smelt Bronze, you first need to build an §6Alloy Forge§r \u2014 a multiblock structure made from any type of Forge Controller block (craft with stone bricks) surrounded by specific bricks."
+				""
+				"Place the §6Forge Controller§r, surround it with §eBricks§r or other valid forge materials, then power it with fuel to begin alloying."
+				""
+				"Bronze tools and armor sit between stone and iron \u2014 a great early alloy."
+			]
+			icon: "mythicmetals:bronze_ingot"
+			id: "9D03"
+			tasks: [{
+				id: "9E03"
+				item: "mythicmetals:bronze_ingot"
+				type: "item"
+			}]
+			title: "Bronze Alloy"
+			subtitle: "Your first alloy forge output"
+			rewards: [{
+				id: "9F03"
+				item: "alloy_forgery:bricks_forge_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9D03"]
+			description: [
+				"The §6Alloy Forge§r is a multiblock structure from §bAlloy Forgery§r used to smelt alloy metals that cannot be made in a standard furnace."
+				""
+				"Build it by placing a §6Forge Controller§r block (crafted with Bricks) and surrounding it with valid forge materials. Different controller materials unlock different alloy recipes."
+				""
+				"Alloys available include: §eBronze§r (Copper + Tin), §eDurasteel§r (Iron + Manganese), §eQuadrillum§r (multiple metals), and others."
+				""
+				"The §6Adamantite Block Forge Controller§r is the highest-tier controller, enabling the most powerful alloy recipes."
+			]
+			icon: "alloy_forgery:bricks_forge_controller"
+			id: "9D04"
+			tasks: [{
+				id: "9E04"
+				item: "alloy_forgery:bricks_forge_controller"
+				type: "item"
+			}]
+			title: "Alloy Forge"
+			subtitle: "Smelt what furnaces cannot"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9D02"]
+			description: [
+				"§bMythril§r is a mid-game metal found in the overworld at Y=-16 to Y=-64. It generates as small veins in deepslate."
+				""
+				"Smelt §6Deepslate Mythril Ore§r in a blast furnace to obtain §6Mythril Ingots§r. Mythril tools and weapons are significantly sharper than diamond \u2014 the sword deals more damage per hit than a Netherite Sword."
+				""
+				"Mythril armor is lighter than diamond and provides equivalent protection with a subtle agility bonus. It is the recommended mid-game progression metal before reaching Adamantite."
+			]
+			icon: "mythicmetals:mythril_ingot"
+			id: "9D05"
+			tasks: [{
+				id: "9E05"
+				item: "mythicmetals:mythril_ingot"
+				type: "item"
+			}]
+			title: "Mythril"
+			subtitle: "Sharper than diamond"
+			rewards: [{
+				id: "9F05"
+				item: "mythicmetals:mythril_ingot"
+				count: 4
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9D05"]
+			description: [
+				"§bOrichalcum§r is a late-mid game metal found at Y=-40 to Y=-64 in the overworld, typically in deepslate."
+				""
+				"Smelt it in a blast furnace to obtain §6Orichalcum Ingots§r. Orichalcum is primarily used for armor \u2014 the full set provides exceptional protection and grants Haste when all four pieces are worn."
+				""
+				"Orichalcum tools are competent but the armor is the standout feature. It is an excellent armor tier between Mythril and Adamantite."
+			]
+			icon: "mythicmetals:orichalcum_ingot"
+			id: "9D06"
+			tasks: [{
+				id: "9E06"
+				item: "mythicmetals:orichalcum_ingot"
+				type: "item"
+			}]
+			title: "Orichalcum"
+			subtitle: "The haste-granting armor"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["9D06"]
+			description: [
+				"§bAdamantite§r is the hardest overworld metal in §bMythic Metals§r, found at Y=-60 to Y=-80 in the deepest layers of the world."
+				""
+				"Mine it with a diamond or better pickaxe. Smelt in a blast furnace. The §6Adamantite Sword§r is one of the strongest melee weapons in the pack, outdamaging Netherite significantly."
+				""
+				"Adamantite armor provides maximum physical protection. It is the strongest overworld tier before entering the Nether or End for Hallowed and Celestium."
+				""
+				"An §6Adamantite Anvil§r is also available \u2014 it functions as a regular anvil but doesn\u2019t lose durability per use."
+			]
+			icon: "mythicmetals:adamantite_ingot"
+			id: "9D07"
+			tasks: [{
+				id: "9E07"
+				item: "mythicmetals:adamantite_ingot"
+				type: "item"
+			}]
+			title: "Adamantite"
+			subtitle: "The hardest of overworld metals"
+			rewards: [{
+				id: "9F07"
+				item: "mythicmetals:adamantite_ingot"
+				count: 4
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["9D05"]
+			description: [
+				"§6Prometheum§r is a unique metal whose armor improves §lpassively§r as you kill enemies while wearing it."
+				""
+				"The armor starts at modest protection and grows stronger with each kill. It tracks your combat experience permanently, making it the ideal long-term progression armor for an aggressive playstyle."
+				""
+				"Prometheum ore is found in the overworld at mid-depths. Mine it and smelt it in a blast furnace. The full armor set grows into one of the strongest armor options available."
+			]
+			icon: "mythicmetals:prometheum_ingot"
+			id: "9D08"
+			tasks: [{
+				id: "9E08"
+				item: "mythicmetals:prometheum_ingot"
+				type: "item"
+			}]
+			title: "Prometheum"
+			subtitle: "Armor that grows with combat"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9D07"]
+			description: [
+				"§bHallowed§r metal comes from §eHallowed Ore§r found in the Nether. It is brighter and more powerful than Adamantite."
+				""
+				"Smelt Hallowed Ore in a blast furnace. §6Hallowed Ingots§r are used to craft armor and tools that absorb the radiant energy of the Nether."
+				""
+				"Hallowed armor provides excellent protection and grants the wearer bonus fire resistance. It is one of the highest-tier metals available before reaching Celestium (End)."
+			]
+			icon: "mythicmetals:hallowed_ingot"
+			id: "9D09"
+			tasks: [{
+				id: "9E09"
+				item: "mythicmetals:hallowed_ingot"
+				type: "item"
+			}]
+			title: "Hallowed"
+			subtitle: "Radiant Nether metal"
+			rewards: [{
+				id: "9F09"
+				item: "mythicmetals:hallowed_ingot"
+				count: 4
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["9D09"]
+			description: [
+				"§6Celestium§r is the ultimate metal in §bMythic Metals§r, found only in the §5End§r dimension as §6End Stone Starrite Ore§r (which yields Celestium)."
+				""
+				"Smelt it in a blast furnace. §6Celestium Ingots§r produce the highest-stat armor and weapons in the Mythic Metals progression, surpassing Hallowed and Adamantite."
+				""
+				"Celestium armor provides resistance to all damage types and has innate Knockback resistance. The Celestium Sword is the strongest sword in the Mythic Metals line."
+			]
+			icon: "mythicmetals:celestium_ingot"
+			id: "9D0A"
+			tasks: [{
+				id: "9E0A"
+				item: "mythicmetals:celestium_ingot"
+				type: "item"
+			}]
+			title: "Celestium"
+			subtitle: "The metal of the End"
+			rewards: [{
+				id: "9F0A"
+				item: "mythicmetals:celestium_ingot"
+				count: 4
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+	]
+	subtitle: "New ores across all dimensions \u2014 forge your path from bronze to celestium."
+	title: "\u2694 Mythic Metals"
+}

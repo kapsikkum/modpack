@@ -194,7 +194,7 @@ hash = "178c5b3df50c785309adfbcd016b93c92d927064a842030b8fa8fee0807d3b3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "73c70d3706af966ea12bc86eef5e0f1e929041e026089d31a3a541e593728a1d"
+hash = "a7b634ac72c35f130452969068f33d20b776d0efccc70aa05193cf5e2f4dd1ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -210,11 +210,15 @@ hash = "a5c4f48b8599a0af3712d1332df661e343dbf4a59cd4d451d8f4c63e9c9a7a49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "74ac1d037f8a7b3c946b2e74a6c0b07e6666a1b31ec06c3a5dab9698f2e89520"
+hash = "8114a18fbc2607c27045daa520fe1f7710e16f41efaef603827d861952f06b1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
 hash = "c949b3e04364f12e7de044396b6eeaee8f9626e762fc61e7ce957c66b732f04b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/enchanted_witchcraft.snbt"
+hash = "a768befb824be99742a775295fadfd4590df83842f5855f91eff32df634e1066"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/end_remastered.snbt"
@@ -222,7 +226,7 @@ hash = "20654a4c51cdd2e152ca285954c7cfe4b3da800b47bcfdbf9fa6496fca0b275f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
-hash = "16f5eed2aff82c2439e0c0fb03eea02d448a3b5b66a524c605bbb79ef012f1bc"
+hash = "baeef9f16beceabd81202f15dcacf3df8d08cc33c911b4c8e8f1676fac89123b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -233,20 +237,32 @@ file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "c6b1b810d3b5d63bf1d6fccc52da75be5df772b1e9d3be0bcb971d7af9746a96"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/mythic_metals.snbt"
+hash = "fc0d3645b50c67757fd9fbcaf8dfb5625c48a82c2449bfbeb032d697bd8ed7df"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "4ea5355c6b6e8f42f5e2b69251490640c9ae0a81916944497e89d77cb5f230ef"
+hash = "657dff808217aa17324fb90c8f590405a601142af6692e6f4102a69304a7885a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
 hash = "d49e4f4d6a9871e1162481cca485306240dc310974aeb47eb0ab17e5aa88e5cc"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/rpg_classes.snbt"
+hash = "7eadf2bee519536d05496d880b47cffdcb25c6435f617b5af9f255c4f743c531"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/simplyswords.snbt"
 hash = "634c10a7e2ac9fdcbbe59c966a83b0c5fa1a711148d834b453241d1ba46a63fb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
+hash = "f67bdb4887b14469cd49afa10b1b45cca9c9b7e8a1f9fa8e0f0b78ac30210d18"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/travel.snbt"
-hash = "27c0735d4afb34dfbb68d3be25f78c8505c158626f7561c2627918b65e4cc266"
+hash = "fca0bc4c9cec64bed49a5ed9545b9527f336e054f5f93efcdfc8e67041764fc9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_to_modpack.snbt"
@@ -715,6 +731,14 @@ file = "kubejs/data/worldgen_removals.zip"
 hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
+file = "kubejs/server_scripts/ccbo_fixes.js"
+hash = "aedaf381110435fe7f25676369654c13fbf76248cf4c999bbd31aed246e157da"
+
+[[files]]
+file = "kubejs/server_scripts/createteleporters_fixes.js"
+hash = "e6ebf28aa271687c96b26c2632bb5c24dc42545e79a9fea943b80db87865bbfd"
+
+[[files]]
 file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
@@ -725,6 +749,10 @@ hash = "64b784dd07cbc2f706a0a32195b5ce7295bab4bd9819f52037010a8eff20a1f1"
 [[files]]
 file = "kubejs/server_scripts/gravel_sifting.js"
 hash = "927b0b0ecf660aabe9d92eb99385237bb6651790faab79b9128303a76df51d36"
+
+[[files]]
+file = "kubejs/server_scripts/hide_extradisks.js"
+hash = "6f8d0f2c20281f9a8de622a226cccb4088c89fd3bab048fcc5b334c314f21389"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
@@ -2188,6 +2216,11 @@ hash = "e35cf7c4bfef1d4cf8158c4df9134b93bce4f99e00829aa3d48912b7beffc0b7"
 metafile = true
 
 [[files]]
+file = "mods/rs-polymorph.pw.toml"
+hash = "829927bf4e0bc851f57bb641ce9262a27f719402d73667b3edb1dd9062abd029"
+metafile = true
+
+[[files]]
 file = "mods/rsinfinitybooster.pw.toml"
 hash = "235ff3215c33cedf10466ed239f584ff2684fd1a835baeb80ae27f9f214a7f22"
 metafile = true
@@ -2245,6 +2278,11 @@ metafile = true
 [[files]]
 file = "mods/size-rayguns.pw.toml"
 hash = "ead8878970c8b6a00c7bdb282d6f722746f74c7ca2f7992e0fd3b96716918c0c"
+metafile = true
+
+[[files]]
+file = "mods/skill-tree.pw.toml"
+hash = "24cb3b9895dc5026be8c92177cb0d90a843c00ea29782ce5ff63766360e3a57d"
 metafile = true
 
 [[files]]

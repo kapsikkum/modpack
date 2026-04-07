@@ -1,0 +1,13 @@
+name = "RS Polymorph"
+filename = "rspolymorph-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8f0e9f0afce04f58383f5a97ae55c13ea05f237"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7881038
+project-id = 1492934

@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: ""
+	icon: "sophisticatedstorage:iron_chest"
+	id: "9501"
+	images: []
+	index: 17
+	order_index: 17
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"§bSophisticated Storage§r is a tiered storage mod adding chests, barrels, and shulker boxes with an extensive upgrade system."
+				""
+				"Storage comes in six tiers: §8Base§r \u2192 §6Copper§r \u2192 §7Iron§r \u2192 §eGold§r \u2192 §bDiamond§r \u2192 §5Netherite§r. Each tier increases the number of inventory slots and the stack size limit."
+				""
+				"Tiers are upgraded by right-clicking the storage block with a §6Tier Upgrade§r item \u2014 no need to break and replace. Your items stay inside."
+				""
+				"§6Upgrades§r are the key feature: slots inside each storage block can hold upgrade items that grant special abilities. A single chest can smelt, filter, auto-input, and more simultaneously."
+				""
+				"The §6Controller§r links all Sophisticated Storage blocks within a 15-block radius into a single unified inventory."
+			]
+			icon: "sophisticatedstorage:iron_chest"
+			id: "9500"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "9600"
+				title: "Sophisticated Storage Overview"
+				type: "checkmark"
+			}]
+			title: "\ud83d\udce6 Sophisticated Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9500"]
+			description: [
+				"The §6Copper Barrel§r is the first Sophisticated Storage tier you can build, requiring only Copper Ingots."
+				""
+				"Barrels function like vanilla barrels but with more slots and upgrade capability. The §eLimited Barrel§r variant has only 1\u20134 slots but allows stack sizes up to 16\u00d7 the normal maximum \u2014 perfect for bulk storage of a single item type."
+				""
+				"Upgrade barrels to Iron, Gold, Diamond, and Netherite tiers by right-clicking them with a §6Tier Upgrade§r item while they contain items."
+			]
+			icon: "sophisticatedstorage:copper_barrel"
+			id: "9502"
+			tasks: [{
+				id: "9602"
+				item: "sophisticatedstorage:copper_barrel"
+				type: "item"
+			}]
+			title: "First Barrel"
+			subtitle: "Bulk storage, from the start"
+			rewards: [{
+				id: "9702"
+				item: "sophisticatedstorage:copper_barrel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9502"]
+			description: [
+				"The §6Iron Barrel§r and §6Iron Chest§r are your mid-early Sophisticated Storage options. More slots, larger stacks, and full upgrade support."
+				""
+				"§6Chests§r offer a traditional double-column layout, while §6Barrels§r offer a scrollable single-column interface. Both accept all upgrades."
+				""
+				"Right-click an existing Copper Barrel or Chest with an §6Iron Tier Upgrade§r to promote it instantly without moving items."
+			]
+			icon: "sophisticatedstorage:iron_barrel"
+			id: "9503"
+			tasks: [{
+				id: "9603"
+				item: "sophisticatedstorage:iron_barrel"
+				type: "item"
+			}]
+			title: "Iron Tier"
+			subtitle: "Upgrade without emptying"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9500"]
+			description: [
+				"The §6Hopper Upgrade§r allows a Sophisticated Storage block to automatically take items from a block above it (like a hopper from below)."
+				""
+				"Combined with a §6Filter Upgrade§r, you can restrict which items are accepted, creating automated, sorted storage pipelines without any external automation mod."
+				""
+				"Other automation upgrades include the §6Magnet Upgrade§r (draws nearby item drops in) and the §6Pickup Upgrade§r (picks up items when you walk near)."
+			]
+			icon: "sophisticatedstorage:hopper_upgrade"
+			id: "9504"
+			tasks: [{
+				id: "9604"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			title: "Hopper Upgrade"
+			subtitle: "Automate item intake"
+			rewards: [{
+				id: "9704"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9504"]
+			description: [
+				"The §6Smelting Upgrade§r turns any Sophisticated Storage block into a built-in furnace."
+				""
+				"Items placed into the storage are automatically smelted. A single chest can store raw ore AND hold a smelting upgrade \u2014 ore goes in one side, ingots come out the sorted slots on the other."
+				""
+				"Stack multiple Smelting Upgrades in one block to smelt faster. Combine with a §6Pickup Upgrade§r and §6Magnet Upgrade§r for a fully automatic ore smelting station."
+			]
+			icon: "sophisticatedstorage:smelting_upgrade"
+			id: "9505"
+			tasks: [{
+				id: "9605"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Smelting Upgrade"
+			subtitle: "Storage that smells your ore"
+			rewards: [{
+				id: "9705"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9504"]
+			description: [
+				"The §6Stack Upgrade§r multiplies the maximum stack size of all items in the block: Tier 1 doubles it, higher tiers go up to 16\u00d7 normal."
+				""
+				"This is the most efficient upgrade for bulk storage of common resources like cobblestone, dirt, gravel, and logs \u2014 a single Iron Chest with a Stack Upgrade Tier 4 holds millions of items."
+				""
+				"Stack Upgrades are particularly powerful in §eLimited Barrels§r, which are purpose-built for single-item mass storage."
+			]
+			icon: "sophisticatedstorage:stack_upgrade_tier_1"
+			id: "9506"
+			tasks: [{
+				id: "9606"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Stack Upgrade"
+			subtitle: "Millions of cobblestone. Finally."
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9503", "9505", "9506"]
+			description: [
+				"The §6Controller§r is the centrepiece of a Sophisticated Storage network. It connects all Sophisticated Storage blocks within a §e15-block radius§r into a single unified inventory."
+				""
+				"Access the entire network from the Controller\u2019s interface \u2014 search across all connected blocks, deposit directly, and pull items remotely."
+				""
+				"The §6Storage Link§r block extends the network range when placed between the Controller and storage blocks. Use it to bridge across rooms or floors."
+				""
+				"Each storage block in the network must have a §6Storage Link§r or be within 15 blocks of the Controller or another linked block."
+			]
+			icon: "sophisticatedstorage:controller"
+			id: "9507"
+			tasks: [{
+				id: "9607"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			title: "Unified Network"
+			subtitle: "One interface, all your storage"
+			rewards: [{
+				id: "9707"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	subtitle: "Tiered storage with an upgrade system that grows with you."
+	title: "\ud83d\udce6 Sophisticated Storage"
+}

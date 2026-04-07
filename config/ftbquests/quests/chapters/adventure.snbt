@@ -1437,7 +1437,7 @@
 			description: [
 				"§cThe Rare Witch Doctor§r is an elder shaman variant with far greater power than the common Witch Doctor."
 				""
-				"It calls in additional minion waves and applies a slow multi-stage curse that escalates if not cleansed with Milk. Keep healing accessible at all times."
+				"It calls in additional minion waves and applies a slow multi-stage curse that escalates if not cleansed with Milk. Keep Milk close."
 				""
 				"Defeating it drops the §6Rare Witch Doctor Trophy§r."
 			]
@@ -1533,6 +1533,147 @@
 			title: "Gilded Tree Ent"
 			x: 27.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["F000"]
+			description: [
+				"§bMusket Mod§r adds three distinct black-powder firearms to the game, each with unique characteristics."
+				""
+				"\u2022 §6Musket§r \u2014 16 damage, 250 durability. Long range, single shot. Supports §5Knockback§r enchantment. Right-click to load, right-click again to fire."
+				"\u2022 §6Blunderbuss§r \u2014 21 damage total across 9 pellets. Short range spread weapon. Supports §5Flame§r enchantment."
+				"\u2022 §6Pistol§r \u2014 12 damage. Can be §ldual-wielded§r. Faster reload than the Musket. Supports §5Quick Charge§r enchantment."
+				""
+				"All firearms use §6Paper Cartridges§r as ammunition, crafted shapelessy from §ePaper§r + §eGunpowder§r."
+				""
+				"§lHeadshots§r deal §e+30%§r bonus damage. About §e20%§r of Pillagers and §e5%§r of Skeletons can spawn already carrying firearms."
+			]
+			icon: "musketmod:musket"
+			id: "F0A0"
+			tasks: [{
+				id: "F1A0"
+				item: "musketmod:musket"
+				type: "item"
+			}]
+			title: "Black Powder"
+			subtitle: "Firearms come to Minecraft"
+			rewards: [{
+				id: "F2A0"
+				item: "musketmod:cartridge"
+				count: 16
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F0A0"]
+			description: [
+				"The §6Musket with Scope§r adds a §e3\u00d7 zoom§r to the standard Musket for improved accuracy at long range."
+				""
+				"To upgrade a Musket to the Scoped Musket, you need a §6Musket Upgrade Smithing Template§r found in §eStronghold§r and §eWoodland Mansion§r loot chests."
+				""
+				"Apply it at a Smithing Table: §eMusket§r + §eMusket Upgrade Template§r + §eScope material§r \u2192 §6Scoped Musket§r."
+				""
+				"The §6Musket with Bayonet§r is a separate variant that adds a melee blade to the musket barrel. Craft it by combining a Musket with a Sword at a crafting table."
+			]
+			icon: "musketmod:musket_with_scope"
+			id: "F0A1"
+			tasks: [{
+				id: "F1A1"
+				item: "musketmod:musket_with_scope"
+				type: "item"
+			}]
+			title: "Scoped Musket"
+			subtitle: "Three times the range"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["F0A0"]
+			description: [
+				"The §6Blunderbuss§r fires a wide spread of 9 pellets in a cone, dealing up to §e21 total damage§r at close range."
+				""
+				"It is the premier close-quarters firearm \u2014 devastating against mobs attempting to melee you. Back up a few blocks, wait for the enemy to close in, then fire."
+				""
+				"The §5Flame§r enchantment ignites all pellet hit targets simultaneously, making it exceptionally strong against groups."
+				""
+				"The §6Pistol§r is your mobility option: lighter, faster to reload, and uniquely §ldual-wieldable§r. Keep one in your offhand and alternate shots while reloading."
+			]
+			icon: "musketmod:blunderbuss"
+			id: "F0A2"
+			tasks: [{
+				id: "F1A2"
+				item: "musketmod:blunderbuss"
+				type: "item"
+			}]
+			title: "Blunderbuss"
+			subtitle: "Up close and personal"
+			rewards: [{
+				id: "F2A2"
+				item: "musketmod:pistol"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F000"]
+			description: [
+				"§bDeeper and Darker§r adds new content to the §eDeep Dark§r dimension focused on Sculk-based exploration."
+				""
+				"The mod introduces §6Resonarium§r \u2014 a new end-game material mined only from the Deep Dark. It can be used to craft powerful armor and tools that rival Netherite."
+				""
+				"§6Cobbled Sculk Stone§r is a new building block added by the mod, found in the Deep Dark alongside Sculk formations."
+				""
+				"The §6Heart of the Deep§r is a key crafting material dropped in the Deep Dark \u2014 used to craft Resonarium gear and is central to the Deeper and Darker progression."
+				""
+				"Approach the Deep Dark carefully \u2014 the §cWarden§r homes in on vibrations. Sneak throughout, place Wool to deaden footsteps, and avoid sprinting."
+			]
+			icon: "deeperdarker:resonarium"
+			id: "F0A3"
+			tasks: [{
+				id: "F1A3"
+				item: "deeperdarker:resonarium"
+				type: "item"
+			}]
+			title: "Deeper and Darker"
+			subtitle: "The Deep Dark has more secrets"
+			rewards: [{
+				id: "F2A3"
+				item: "deeperdarker:cobbled_sculk_stone"
+				count: 16
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F0A3"]
+			description: [
+				"The §6Heart of the Deep§r is the primary crafting material from §bDeeper and Darker§r, obtained from the Deep Dark."
+				""
+				"It is used to craft §6Resonarium§r gear and is a prerequisite for higher-tier Deeper and Darker crafting. Collect several before attempting any serious Resonarium progression."
+				""
+				"The §6Resonarium Axe§r is one of the strongest weapons available from the mod \u2014 combine the Resonarium material tier with the raw damage of an axe for massive hits."
+				""
+				"§6Resonarium Boots§r grant the wearer enhanced mobility and resistance when moving through Sculk patches in the Deep Dark."
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "F0A4"
+			tasks: [{
+				id: "F1A4"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "Heart of the Deep"
+			subtitle: "The Deep Dark's greatest secret"
+			rewards: [{
+				id: "F2A4"
+				item: "deeperdarker:resonarium_boots"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
 		}
 	]
 	subtitle: "Gear up, face every threat, and conquer the world's most fearsome foes."

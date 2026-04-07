@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "rpg_classes"
+	group: ""
+	icon: "wizards:wand_novice"
+	id: "9001"
+	images: []
+	index: 16
+	order_index: 16
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"This pack includes a suite of RPG class mods centered on the §6Arsenal RPG Series§r."
+				""
+				"§bWizards§r cast elemental spells using wands and staves. §bPaladins \u0026 Priests§r wield divine power through hammers, maces, and holy wands. §bRogues \u0026 Warriors§r master agile and crushing combat styles. §bArchers§r unlock a full archery skill tree usable with any bow or crossbow."
+				""
+				"All classes require a §6Spell Binding Table§r to unlock their skill books. These tables are found in §eGazebo§r structures \u2014 open-air village structures added by the §bGazebos§r mod. Each class has its own village structure type: Wizard Towers, Sanctuaries, Archery Ranges, and Barracks."
+				""
+				"§6Runes§r (added by the §bRunes§r mod) act as ammunition for spells \u2014 like arrows for bows. Stock them before casting."
+				""
+				"§bJewelry§r adds gem-set rings and necklaces found in the world or crafted at a Jeweler's Kit. §bArsenal§r adds 40+ legendary weapons that only drop from end-game bosses."
+			]
+			icon: "wizards:wand_novice"
+			id: "9000"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "9100"
+				title: "RPG Classes Overview"
+				type: "checkmark"
+			}]
+			title: "\u2764 RPG Classes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9000"]
+			description: [
+				"§bGazebos§r adds open-air village structures that contain §6Spell Binding Tables§r for all RPG class mods."
+				""
+				"Different village types house different classes:"
+				"\u2022 §eArchery Range§r \u2014 Archers"
+				"\u2022 §eSanctuary / Temple§r \u2014 Paladins \u0026 Priests"
+				"\u2022 §eWizard Tower§r \u2014 Wizards"
+				"\u2022 §eBarracks§r \u2014 Rogues \u0026 Warriors"
+				""
+				"Finding one of these structures and interacting with the Spell Binding Table inside is the first step to unlocking any class skill book."
+			]
+			icon: "archers:archers_workbench"
+			id: "9002"
+			tasks: [{
+				id: "9102"
+				title: "Find a Gazebo village structure"
+				type: "checkmark"
+			}]
+			title: "The Village Specialist"
+			subtitle: "Every class begins in a village"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9000"]
+			description: [
+				"§bRunes§r are the ammunition for all class spell casting in the §6Arsenal RPG Series§r."
+				""
+				"Just as bows require arrows, wands and spell books require Runes to cast. Craft them early and keep a stock in your inventory at all times."
+				""
+				"Without Runes, your spell abilities will fizzle regardless of what skill book or wand you carry. The §6Spell Infinity§r enchantment (Wizards) eliminates this cost once unlocked."
+			]
+			id: "9003"
+			tasks: [{
+				id: "9103"
+				title: "Craft some Runes to use as spell ammunition"
+				type: "checkmark"
+			}]
+			title: "Runic Fuel"
+			subtitle: "The currency of power"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9000"]
+			description: [
+				"§bJewelry§r adds over 25 rings and necklaces crafted from gemstones and precious metals."
+				""
+				"§6Gem Veins§r spawn at diamond depth \u2014 roughly half as common as diamonds. Gems come in six varieties:"
+				"\u2022 §cRuby§r \u2022 §aJade§r \u2022 §6Citrine§r \u2022 §9Sapphire§r \u2022 §eTopaz§r \u2022 §5Tanzanite§r"
+				""
+				"Mine a gem vein underground to collect your first gem. The §6Jeweler\u2019s Kit§r is needed to craft rings and necklaces."
+			]
+			icon: "jewelry:ruby"
+			id: "9004"
+			tasks: [{
+				id: "9104"
+				item: "jewelry:ruby"
+				type: "item"
+			}]
+			title: "First Gem"
+			subtitle: "Something precious from the deep"
+			rewards: [{
+				id: "9204"
+				item: "jewelry:jewelers_kit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9004"]
+			description: [
+				"Craft rings and necklaces at the §6Jeweler\u2019s Kit§r by combining gems with Gold or Netherite ingots."
+				""
+				"Each piece provides unique stat bonuses \u2014 attack damage, speed, defense, and more. Higher-tier gems and materials yield stronger bonuses."
+				""
+				"§eJeweler§r villagers (found in villages) sell low-to-mid tier pieces. Unique, powerful pieces can be found in §cEnd City§r and §cAncient City§r loot."
+			]
+			icon: "jewelry:copper_ring"
+			id: "9005"
+			tasks: [{
+				id: "9105"
+				item: "jewelry:copper_ring"
+				type: "item"
+			}]
+			title: "A Ring of Your Own"
+			subtitle: "Craft your first piece of jewelry"
+			rewards: [{
+				id: "9205"
+				item: "jewelry:jade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9005"]
+			description: [
+				"Gold rings set with gems provide meaningful stat bonuses. The §6Gold Ring§r offers stronger effects than iron or copper variants."
+				""
+				"Combine a §eGold Ingot§r with any gem at the §6Jeweler\u2019s Kit§r to craft a gold gem ring. Each gem type provides a different stat effect \u2014 experiment to find combinations that suit your playstyle."
+				""
+				"Netherite rings are the top tier, found in end-game loot or crafted with Netherite Ingots."
+			]
+			icon: "jewelry:gold_ring"
+			id: "9006"
+			tasks: [{
+				id: "9106"
+				item: "jewelry:gold_ring"
+				type: "item"
+			}]
+			title: "Gold-Set Gem"
+			subtitle: "Upgrade your jewelry"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["9002"]
+			description: [
+				"§bWizards§r is an RPG class mod focused on elemental spell casting through wands and staves."
+				""
+				"Pick up any §6Novice Wand§r to begin your wizard progression. Wands come pre-loaded with a basic spell."
+				""
+				"To unlock the full spell library, find a §6Wizard Tower§r in a village (added by §bGazebos§r) and use the §6Spell Binding Table§r to obtain your Spellbook."
+				""
+				"§eWizard§r villagers in these towers also sell wands and spell tomes."
+			]
+			icon: "wizards:wand_novice"
+			id: "9010"
+			tasks: [{
+				id: "9110"
+				item: "wizards:wand_novice"
+				type: "item"
+			}]
+			title: "Arcane Initiate"
+			subtitle: "Pick up your first wand"
+			rewards: [{
+				id: "9210"
+				item: "wizards:wand_novice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9010"]
+			description: [
+				"The §6Tome of Arcane§r is the Wizards\u2019 core spellbook, focused on precise, single-target arcane spells."
+				""
+				"Unlock it at the §6Spell Binding Table§r in a §eWizard Tower§r village structure. Once you have the Tome equipped, you can bind specific arcane spells to your wand."
+				""
+				"Spells are cast using §6Runes§r as ammunition. The §6Spell Infinity§r enchantment removes the Rune cost once unlocked."
+			]
+			icon: "wizards:arcane_scroll"
+			id: "9011"
+			tasks: [{
+				id: "9111"
+				item: "wizards:arcane_scroll"
+				type: "item"
+			}]
+			title: "Tome of Arcane"
+			subtitle: "Your first spellbook"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9011"]
+			description: [
+				"The §6Tome of Fire§r unlocks area-of-effect fire damage spells \u2014 ideal for clearing groups of enemies."
+				""
+				"Obtain it from the §6Spell Binding Table§r in a §eWizard Tower§r or trade with a §eWizard§r villager."
+				""
+				"Fire spells deal high burst damage but require careful positioning to avoid self-ignition. Equip §6Fire Resistance§r when experimenting with new fire spell combinations."
+				""
+				"The §6Spell Power§r enchantment increases fire spell damage, and §6Spell Haste§r improves cast speed."
+			]
+			icon: "wizards:wand_fire"
+			id: "9012"
+			tasks: [{
+				id: "9112"
+				item: "wizards:fire_scroll"
+				type: "item"
+			}]
+			title: "Tome of Fire"
+			subtitle: "Let the world burn"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9011"]
+			description: [
+				"The §6Tome of Frost§r unlocks ice and chill spells that hinder enemy movement and shield the caster."
+				""
+				"Frost spells are excellent for crowd control \u2014 slowing enemies with Slowness effects and creating ice barriers. They are particularly powerful in combination with faster weapons, giving you time to strike while the enemy is chilled."
+				""
+				"The §6Arcane Staff§r boosts spell range and power compared to standard wands. Seek one out from Wizard villagers or dungeon chests."
+			]
+			icon: "wizards:wand_frost"
+			id: "9013"
+			tasks: [{
+				id: "9113"
+				item: "wizards:frost_scroll"
+				type: "item"
+			}]
+			title: "Tome of Frost"
+			subtitle: "Chill, hinder, and shield"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["9013"]
+			description: [
+				"The §6Arcane Staff§r is the wizard\u2019s long-range casting tool, providing greater power and range than wands."
+				""
+				"Craft or obtain it from §eWizard§r villagers or dungeon loot. Equipping it in your main hand allows you to use all unlocked spells with enhanced effect."
+				""
+				"The §6Wizard\u2019s Robes§r (chest armor) increase spell effectiveness further and are the recommended armor for full wizard builds."
+			]
+			icon: "wizards:staff_arcane"
+			id: "9014"
+			tasks: [{
+				id: "9114"
+				item: "wizards:staff_arcane"
+				type: "item"
+			}]
+			title: "Arcane Staff"
+			subtitle: "Full wizard kit"
+			rewards: [{
+				id: "9214"
+				item: "wizards:wizard_robe_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["9002"]
+			description: [
+				"§bPaladins \u0026 Priests§r adds two divine warrior classes powered by holy spells and runes."
+				""
+				"The §6Paladin§r class begins by picking up a §eMace§r, §eClaymore§r, or §eGreat Hammer§r. Paladin spells focus on protection and burst damage, and pair best with heavy melee weapons."
+				""
+				"The §6Priest§r class starts with a §eHoly Wand§r or §eHoly Staff§r. Priest spells focus on healing allies and smiting undead enemies."
+				""
+				"Find village §eSanctuaries§r (added by §bGazebos§r) to access the Spell Binding Table and purchase scroll books from §eMonk§r villagers."
+			]
+			icon: "paladins:iron_mace"
+			id: "9020"
+			tasks: [{
+				id: "9120"
+				item: "paladins:iron_mace"
+				type: "item"
+			}]
+			title: "Paladin\u2019s Oath"
+			subtitle: "Pick up the mace and begin"
+			rewards: [{
+				id: "9220"
+				item: "paladins:iron_mace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9020"]
+			description: [
+				"The §6Paladin Libram§r is the Paladin\u2019s spellbook, unlocked at the §6Spell Binding Table§r in a village §eSanctuary§r."
+				""
+				"It grants access to Paladin spells: protection auras, shielding strikes, and heavy damage abilities. These spells work best when paired with the heaviest weapons \u2014 Claymores, Great Hammers, and Maces."
+				""
+				"§6Runes§r are required as ammunition for every Paladin spell cast. The §6Paladin\u2019s Shield§r (Kite Shield variant) is the recommended off-hand for defensive Paladin builds."
+			]
+			icon: "paladins:paladin_scroll"
+			id: "9021"
+			tasks: [{
+				id: "9121"
+				item: "paladins:paladin_scroll"
+				type: "item"
+			}]
+			title: "Paladin Libram"
+			subtitle: "The book of divine power"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9020"]
+			description: [
+				"The §6Priest§r class uses §eHoly Wands§r and §eHoly Staves§r to channel healing and smiting spells."
+				""
+				"Pick up a §6Holy Wand§r to begin Priest progression. Holy spells excel against undead enemies and provide powerful healing and support effects."
+				""
+				"Obtain the §6Holy Book§r spellbook from the §6Spell Binding Table§r in a §eSanctuary§r. The §6Monk Workbench§r in the Sanctuary allows crafting class-specific items."
+			]
+			icon: "paladins:holy_wand"
+			id: "9022"
+			tasks: [{
+				id: "9122"
+				item: "paladins:holy_wand"
+				type: "item"
+			}]
+			title: "Holy Ministry"
+			subtitle: "The healing path"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9022"]
+			description: [
+				"The §6Priest\u2019s Scroll§r (Holy Book) is the Priest class spellbook, unlocked at the §6Spell Binding Table§r in a village §eSanctuary§r."
+				""
+				"Healing spells restore HP to you and nearby allies. Smiting spells deal amplified damage against undead and demons."
+				""
+				"The §6Holy Staff§r provides superior reach and power compared to Holy Wands, and is the recommended primary weapon for a full Priest build. Seek one from §eMonk§r villagers or dungeon loot."
+			]
+			icon: "paladins:priest_scroll"
+			id: "9023"
+			tasks: [{
+				id: "9123"
+				item: "paladins:priest_scroll"
+				type: "item"
+			}]
+			title: "Priest\u2019s Prayer"
+			subtitle: "Unlock the Holy Book"
+			rewards: [{
+				id: "9223"
+				item: "paladins:holy_staff"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9002"]
+			description: [
+				"§bRogues \u0026 Warriors§r adds two melee combat classes with distinct playstyles."
+				""
+				"The §6Rogue§r class focuses on evasion and deception, dealing rapid bursts of damage from the shadows. It plays best with dual Daggers or Sickles. The §6Rogue Manual§r spellbook unlocks evasive skills and deception techniques."
+				""
+				"The §6Warrior§r class focuses on crushing and weakening enemies with heavy two-handed weapons. Double Axes, Glaives, and Claymores are the top choices. The §6Warrior Codex§r unlocks powerful debuffing and smashing abilities."
+				""
+				"Find §eBarracks§r village structures (added by §bGazebos§r) to access the Spell Binding Table and buy equipment from §eBlacksmith§r villagers inside."
+			]
+			icon: "rogues:iron_dagger"
+			id: "9030"
+			tasks: [{
+				id: "9130"
+				item: "rogues:iron_dagger"
+				type: "item"
+			}]
+			title: "The Rogue\u2019s Edge"
+			subtitle: "Precise, fast, lethal"
+			rewards: [{
+				id: "9230"
+				item: "rogues:iron_dagger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9030"]
+			description: [
+				"The §6Rogue Manual§r is the Rogue class spellbook, unlocked at the §6Spell Binding Table§r in a village §eBarracks§r."
+				""
+				"It grants skills focused on evasion, concealment, and burst damage. Rogues excel in one-on-one fights by avoiding damage and striking when enemies are off balance."
+				""
+				"Dual-wielding two Daggers or a Dagger and Sickle maximises Rogue effectiveness. The §6Assassin\u2019s Armor§r set provides bonuses specific to Rogue abilities."
+			]
+			icon: "rogues:flint_dagger"
+			id: "9031"
+			tasks: [{
+				id: "9131"
+				title: "Unlock the Rogue Manual at a Spell Binding Table"
+				type: "checkmark"
+			}]
+			title: "Rogue Manual"
+			subtitle: "Masters of evasion"
+			rewards: [{
+				id: "9231"
+				item: "rogues:assassin_armor_chest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9030"]
+			description: [
+				"The §6Warrior§r class wields crushing power through two-handed heavy weapons."
+				""
+				"The §6Double Axe§r is a dual-bladed weapon that deals heavy damage per swing. The §6Glaive§r has excellent reach for keeping enemies at distance. The §6Iron Claymore§r is the balanced choice for Warriors."
+				""
+				"Craft the §6Double Axe§r to begin the Warrior path. The §6Warrior Codex§r spellbook unlocks smashing and weakening skills. The §6Warrior\u2019s Armor§r set provides bonuses specific to Warrior abilities. Sharpness is rebalanced to +8% per level for these weapons."
+			]
+			icon: "rogues:iron_double_axe"
+			id: "9032"
+			tasks: [{
+				id: "9132"
+				item: "rogues:iron_double_axe"
+				type: "item"
+			}]
+			title: "Warrior\u2019s Charge"
+			subtitle: "Crush and weaken"
+			rewards: [{
+				id: "9232"
+				item: "rogues:iron_double_axe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9032"]
+			description: [
+				"The §6Warrior Codex§r is the Warrior class spellbook, unlocked at the §6Spell Binding Table§r in a village §eBarracks§r."
+				""
+				"Warrior skills focus on§e debuffing§r enemies (Weakness, Slowness, Bleeding) and enhancing your own damage output through temporary buffs."
+				""
+				"Pair the Warrior Codex with an §6Iron Glaive§r for maximum reach or a §6Double Axe§r for maximum burst. The §6Warrior\u2019s Armor§r set is the recommended armor for full Warrior builds."
+			]
+			icon: "rogues:iron_glaive"
+			id: "9033"
+			tasks: [{
+				id: "9133"
+				title: "Unlock the Warrior Codex at a Spell Binding Table"
+				type: "checkmark"
+			}]
+			title: "Warrior Codex"
+			subtitle: "Debuff and dominate"
+			rewards: [{
+				id: "9233"
+				item: "rogues:warrior_armor_chest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9002"]
+			description: [
+				"§bArchers§r overhauls the ranged combat system with a full archery skill tree usable with any bow or crossbow."
+				""
+				"Start by finding a §eArchery Range§r village structure (added by §bGazebos§r) and using the §6Spell Binding Table§r to unlock the §6Archery Manual§r skill book."
+				""
+				"New weapons include: §6Longbows§r (high power, slow draw), §6Heavy Crossbows§r (massive damage, very slow), and §6Spears§r (throwable melee/ranged hybrid)."
+				""
+				"The §6Auto-Fire Hook§r attaches to any bow or crossbow and triggers automatic arrow release \u2014 hold the fire button and let it do the work."
+				""
+				"§5Power§r enchantment is rebalanced to +8% per level. §5Quick Draw§r is +10% per level."
+			]
+			icon: "archers:composite_longbow"
+			id: "9040"
+			tasks: [{
+				id: "9140"
+				item: "archers:iron_spear"
+				type: "item"
+			}]
+			title: "Draw!"
+			subtitle: "Unlock ranged mastery"
+			rewards: [{
+				id: "9240"
+				item: "archers:iron_spear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9040"]
+			description: [
+				"The §6Archery Manual§r is the Archers class spellbook, unlocked at the §6Spell Binding Table§r in an §eArchery Range§r village structure."
+				""
+				"It grants archery skills that work with §lany§r bow or crossbow \u2014 vanilla or modded. Skills include burst shots, precision boosts, evasive rolls while drawing, and more."
+				""
+				"§eArchery villagers§r at the Range also sell archery equipment and high-quality bows. Dungeon loot includes archery-class gear."
+			]
+			icon: "archers:auto_fire_hook"
+			id: "9041"
+			tasks: [{
+				id: "9141"
+				title: "Unlock the Archery Manual at a Spell Binding Table"
+				type: "checkmark"
+			}]
+			title: "Archery Manual"
+			subtitle: "The skill book of the bowyer"
+			rewards: [{
+				id: "9241"
+				item: "archers:auto_fire_hook"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9040"]
+			description: [
+				"The §6Heavy Crossbow§r is the most powerful ranged weapon in the §bArchers§r mod, dealing extreme single-shot damage at the cost of a very slow reload time."
+				""
+				"Craft it using iron and a crossbow as the base. It benefits from all vanilla crossbow enchantments as well as the new Archery class enchantments."
+				""
+				"Best used as a high-burst opener against tough enemies. Keep a sword in your offhand for follow-up melee after firing."
+			]
+			icon: "archers:heavy_crossbow"
+			id: "9042"
+			tasks: [{
+				id: "9142"
+				item: "archers:heavy_crossbow"
+				type: "item"
+			}]
+			title: "Heavy Crossbow"
+			subtitle: "One shot, one kill"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["9021", "9023", "9031", "9033", "9041"]
+			description: [
+				"§bArsenal§r (part of the RPG Series) adds over 40 legendary weapons across 15 different weapon types."
+				""
+				"These weapons are §c§lNOT craftable§r \u2014 they only drop from end-game bosses and dungeon chests:"
+				"\u2022 §cEnder Dragon§r, §cWither§r, §cWarden§r"
+				"\u2022 Modded bosses: §cBoss of the Cataclysm§r, §cAether bosses§r, §cLuminous World bosses§r"
+				"\u2022 §cEnd-game dungeon chests§r (End City, Ancient City)"
+				""
+				"Each weapon has 20+ passive spell effects inspired by §bMinecraft Dungeons§r. The rarest weapons can only be found in the most dangerous locations."
+			]
+			icon: "minecraft:netherite_sword"
+			id: "9050"
+			tasks: [{
+				id: "9150"
+				title: "Obtain an Arsenal legendary weapon from a boss drop"
+				type: "checkmark"
+			}]
+			title: "Arsenal Legendary"
+			subtitle: "Only the strongest deserve these"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	subtitle: "Master a combat class \u2014 Wizard, Paladin, Priest, Rogue, Warrior, or Archer."
+	title: "\u2764 RPG Classes"
+}

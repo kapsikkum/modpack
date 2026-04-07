@@ -217,6 +217,68 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A2"]
+			description: [
+				"The §bPocket Warpstone§r lets you teleport to any Waystone in your personal network without standing on one first."
+				""
+				"§7How to use:§r Keep it in your hotbar. Right-click to open the Waystone list and select your destination. Works from anywhere in the overworld."
+				""
+				"§7Difference from Return Scroll:§r The Return Scroll takes you to the last-used Waystone. The Pocket Warpstone lets you choose freely from your entire network."
+				""
+				"§7Tip:§r Once you have one, long-distance travel becomes instant from anywhere. It's the most useful Waystones item for day-to-day use."
+			]
+			id: "2F2E3D4C5B6A78A9"
+			rewards: [
+				{
+					count: 2
+					id: "2F2E3D4C5B6A78C9"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F2E3D4C5B6A78B9"
+				item: "waystones:warp_stone"
+				type: "item"
+			}]
+			title: "Pocket Warpstone"
+			subtitle: "Craft a Pocket Warpstone to teleport to any Waystone in your network from anywhere."
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2E3D4C5B6A78A5"]
+			description: [
+				"The §bElytra Slot§r mod adds a dedicated equipment slot for the Elytra \u2014 separate from your Chestplate slot."
+				""
+				"§7How to use:§r Open your inventory and look for the Elytra slot in the equipment panel. Drag your Elytra there to equip it without removing your Chestplate."
+				""
+				"§7Why it matters:§r You no longer need to choose between protection and flight. Wear your best Chestplate AND the Elytra simultaneously \u2014 a major quality-of-life upgrade for late-game exploration."
+				""
+				"§7Fireworks:§r Use Firework Rockets in your off-hand to boost while gliding. Combine with a Mending-enchanted Elytra for near-unlimited flight."
+				""
+				"§7Key binding:§r Check Controls to see if the Elytra Slot key needs manual binding."
+			]
+			id: "2F2E3D4C5B6A78AA"
+			rewards: [
+				{
+					count: 4
+					id: "2F2E3D4C5B6A78CA"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F2E3D4C5B6A78BA"
+				title: "Equip an Elytra in the dedicated Elytra Slot"
+				type: "checkmark"
+			}]
+			title: "Wings of the Wild"
+			subtitle: "The Elytra Slot mod lets you wear both a Chestplate and Elytra simultaneously."
+			x: 2.0d
+			y: -4.0d
+		}
 	]
 	title: "§bTravel"
 }

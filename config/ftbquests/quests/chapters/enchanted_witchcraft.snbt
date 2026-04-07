@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: 0b
+	default_quest_shape: ""
+	filename: "enchanted_witchcraft"
+	group: ""
+	icon: "enchanted:broom"
+	id: "9A01"
+	images: []
+	index: 18
+	order_index: 18
+	quest_links: []
+	quests: [
+		{
+			dependencies: []
+			description: [
+				"§bEnchanted: Witchcraft§r is a witchcraft-themed magic mod covering four core disciplines:"
+				""
+				"\u2022 §bHerbology§r \u2014 grow a witch\u2019s garden of magical herbs, trees, and plants"
+				"\u2022 §bCircle Magic§r \u2014 draw chalk ritual circles to perform 45+ rites on the world"
+				"\u2022 §bBrewing§r \u2014 craft potions in the Witch\u2019s Cauldron or Kettle using herbs and ingredients"
+				"\u2022 §bPoppetry§r \u2014 craft protective poppets to shield from death, or voodoo poppets to inflict status effects"
+				""
+				"Start by crafting the §6Art of Witchcraft§r guidebook: combine a §eBook§r, §eInk Sac§r, §eFeather§r, and §eBelladonna Seeds§r in your crafting grid. Belladonna seeds drop from breaking grass."
+			]
+			icon: "enchanted:broom"
+			id: "9A00"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more"
+			tasks: [{
+				id: "9B00"
+				title: "Enchanted: Witchcraft Overview"
+				type: "checkmark"
+			}]
+			title: "\u2728 Witchcraft"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9A00"]
+			description: [
+				"§6Belladonna Seeds§r are the starting ingredient for the §bEnchanted: Witchcraft§r mod. They drop from breaking grass, just like wheat seeds."
+				""
+				"Collect a few and combine them with a §eBook§r, §eInk Sac§r, and §eFeather§r in your crafting grid to create the §6Art of Witchcraft§r \u2014 the in-game guidebook for the mod."
+				""
+				"The guidebook explains every recipe, ritual, and mechanic in the mod with illustrated pages. Keep it in your inventory whenever you are experimenting."
+				""
+				"You can also grow Belladonna plants as part of your §eHerbology§r garden \u2014 they are ingredients in several brewing recipes."
+			]
+			icon: "enchanted:belladonna_seeds"
+			id: "9A02"
+			tasks: [{
+				id: "9B02"
+				item: "enchanted:belladonna_seeds"
+				type: "item"
+			}]
+			title: "Belladonna"
+			subtitle: "The first herb"
+			rewards: [{
+				id: "9C02"
+				item: "enchanted:belladonna_seeds"
+				count: 8
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9A02"]
+			description: [
+				"Craft the §6Art of Witchcraft§r guidebook using §eBelladonna Seeds§r + §eBook§r + §eInk Sac§r + §eFeather§r in any crafting grid arrangement."
+				""
+				"This book is your primary reference for all §bEnchanted: Witchcraft§r content. It documents every ritual, brewing recipe, poppet type, and herb in the mod."
+				""
+				"Read through the Herbology chapter first \u2014 growing your own ingredient garden makes all other disciplines much easier to progress through."
+			]
+			icon: "minecraft:book"
+			id: "9A03"
+			tasks: [{
+				id: "9B03"
+				title: "Craft the Art of Witchcraft guidebook"
+				type: "checkmark"
+			}]
+			title: "Art of Witchcraft"
+			subtitle: "Your guide to the dark arts"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9A00"]
+			description: [
+				"§bHerbology§r is the discipline of growing and harvesting magical plants for use as ingredients across all other Witchcraft disciplines."
+				""
+				"The §bEnchanted: Witchcraft§r mod adds new trees, flowers, and herbs that spawn in the world and can be cultivated in your own witch\u2019s garden."
+				""
+				"Many potions, rituals, and poppets require specific herbs. Setting up a dedicated garden near your base ensures a reliable ingredient supply."
+				""
+				"The §6Witch\u2019s Oven§r is used to dry and process herbs for use in more advanced recipes."
+			]
+			icon: "enchanted:witch_oven"
+			id: "9A04"
+			tasks: [{
+				id: "9B04"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			title: "The Witch\u2019s Garden"
+			subtitle: "Grow your own ingredients"
+			rewards: [{
+				id: "9C04"
+				item: "enchanted:belladonna_seeds"
+				count: 16
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9A00"]
+			description: [
+				"§bBrewing§r in §bEnchanted: Witchcraft§r uses the §6Witch\u2019s Cauldron§r and §6Witch\u2019s Kettle§r to create unique potions and concoctions."
+				""
+				"The Cauldron accepts herbs, mushrooms, and magical ingredients. Add items one at a time and stir with a wooden spoon. The recipe book in the §6Art of Witchcraft§r lists all available brews."
+				""
+				"Witchcraft brews go beyond vanilla potions \u2014 some grant animal forms, alter weather, or create magical effects not available through the standard Brewing Stand."
+				""
+				"The §6Witch\u2019s Oven§r is used to prepare dried herbs needed in many cauldron recipes."
+			]
+			icon: "enchanted:witch_cauldron"
+			id: "9A05"
+			tasks: [{
+				id: "9B05"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			title: "The Witch\u2019s Cauldron"
+			subtitle: "Bubble, bubble, toil and trouble"
+			rewards: [{
+				id: "9C05"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9A00"]
+			description: [
+				"§bCircle Magic§r uses §6Ritual Chalk§r drawn in specific patterns on the ground to perform rites."
+				""
+				"There are 45+ rituals available: from cursing nearby enemies, to protecting crops from trampling, summoning familiars, calling lightning, and more."
+				""
+				"To perform a rite:"
+				"1. Draw the correct chalk circle pattern on the ground"
+				"2. Place the required ingredient items in the center"
+				"3. Activate with a right-click"
+				""
+				"The §6Art of Witchcraft§r guidebook documents all ritual patterns and ingredient requirements. §6Golden Chalk§r creates permanent circles; §6Ritual Chalk§r creates single-use ones."
+			]
+			icon: "enchanted:ritual_chalk"
+			id: "9A06"
+			tasks: [{
+				id: "9B06"
+				item: "enchanted:ritual_chalk"
+				type: "item"
+			}]
+			title: "Circle Magic"
+			subtitle: "Draw the ritual, activate the rite"
+			rewards: [{
+				id: "9C06"
+				item: "enchanted:ritual_chalk"
+				count: 4
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9A00"]
+			description: [
+				"§bPoppetry§r lets you craft poppets \u2014 small cloth dolls with magical properties."
+				""
+				"Two types exist:"
+				"\u2022 §6Protective Poppets§r \u2014 placed in your inventory or on a stand, they absorb lethal damage on your behalf and save your life. They are consumed in the process."
+				"\u2022 §6Voodoo Poppets§r \u2014 requires a piece of the target\u2019s hair or blood. Used to inflict status effects on a specific entity at range."
+				""
+				"Protective poppets are earned through the Witchcraft progression. They require specific herbs and magical items to craft \u2014 consult the §6Art of Witchcraft§r for recipes."
+			]
+			icon: "enchanted:broom"
+			id: "9A07"
+			tasks: [{
+				id: "9B07"
+				title: "Craft a protective poppet"
+				type: "checkmark"
+			}]
+			title: "Poppetry"
+			subtitle: "Dolls of life and death"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9A05", "9A06"]
+			description: [
+				"The §6Broom§r allows you to fly freely in the overworld \u2014 no fuel, no limits."
+				""
+				"Craft the §6Broom§r at a crafting table using wood, string, and sticks. Right-click to mount and press Jump to ascend. Sneak to dismount."
+				""
+				"The §6Enchanted Broomstick§r is an upgraded variant with greater speed and altitude. It is obtained by enchanting a regular broom at the §6Witch\u2019s Altar§r \u2014 a multiblock structure built as part of the witchcraft progression."
+				""
+				"Both brooms move faster in rain and are slowed by direct sunlight."
+			]
+			icon: "enchanted:enchanted_broomstick"
+			id: "9A08"
+			tasks: [{
+				id: "9B08"
+				item: "enchanted:broom"
+				type: "item"
+			}]
+			title: "On a Broomstick"
+			subtitle: "Witches fly"
+			rewards: [{
+				id: "9C08"
+				item: "enchanted:broom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["9A07", "9A08"]
+			description: [
+				"The §6Witch\u2019s Altar§r is the endgame multiblock structure for §bEnchanted: Witchcraft§r."
+				""
+				"It allows you to enchant items with witch-specific enchantments (unavailable through an Enchanting Table), upgrade your §eBroom§r to the §6Enchanted Broomstick§r, and perform high-level ritual work."
+				""
+				"Build the Altar using the §6Art of Witchcraft§r guidebook schematic. Once active, the altar glows and accepts offerings of herbs, gems, and magical items to power rituals."
+			]
+			icon: "enchanted:altar"
+			id: "9A09"
+			tasks: [{
+				id: "9B09"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			title: "Witch\u2019s Altar"
+			subtitle: "The heart of witchcraft"
+			rewards: [{
+				id: "9C09"
+				item: "enchanted:enchanted_broomstick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	subtitle: "Herbology, circle magic, brewing, and poppetry."
+	title: "\u2728 Witchcraft"
+}

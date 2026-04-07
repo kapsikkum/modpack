@@ -511,6 +511,185 @@
 			x: 20.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["E01A"]
+			description: [
+				"The §eFoundry§r is Oritech's dedicated alloy-smelting machine, consuming §e128 RF/t§r and requiring §e3 Machine Cores§r to activate."
+				""
+				"§7Alloys available in the Foundry:§r"
+				"§eSteel§r \u2014 Iron + Coal \u2014 the foundation of mid-tier machines"
+				"§eElectrum§r \u2014 Gold + Nickel/Silver \u2014 advanced circuits and plating"
+				"§eBiosteel§r \u2014 Biopolymer + Steel \u2014 organic machine components"
+				"§eDuratium§r \u2014 Iron + Titanite \u2014 hardened machine casings"
+				"§eAdamant§r \u2014 the highest-tier Oritech alloy"
+				""
+				"§7Core requirement:§r Right-click the Foundry to highlight the 3 core positions. If you don't plan on many addons, the cheapest tier-1 cores work fine."
+				""
+				"§7Tip:§r If you are still hand-crafting alloys, the Foundry pays for itself immediately \u2014 it uses significantly fewer resources per alloy than hand-crafting."
+			]
+			id: "E021"
+			rewards: [
+				{
+					count: 8
+					id: "E221"
+					item: "oritech:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E121"
+					item: "oritech:foundry_block"
+					type: "item"
+				}
+			]
+			title: "The Foundry"
+			subtitle: "Build Oritech's alloy furnace \u2014 the gateway to Steel, Electrum, Biosteel, Duratium, and Adamant."
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E021"]
+			description: [
+				"§eSteel§r is Oritech's first important alloy, produced in the Foundry from §7Iron Dust + Coal§r."
+				""
+				"§7Why Steel matters:§r It is required for §eBiosteel§r, advanced machine casings, gantry components, and numerous mid-tier parts. Establish a steady supply early."
+				""
+				"§7Beyond Steel:§r The Foundry unlocks §eElectrum§r (Gold + Nickel), §eBiosteel§r (Biopolymer + Steel), §eEnergite§r, §eDuratium§r (Iron + Titanite), and §eAdamant§r in a full alloy cascade."
+				""
+				"§7Production tip:§r Run Iron Ore through the Pulverizer first for 2\u00d7 Iron Dust per ore, then process in the Foundry with Coal for maximum Steel yield."
+			]
+			id: "E022"
+			rewards: [
+				{
+					count: 4
+					id: "E222"
+					item: "oritech:electrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "E122"
+					item: "oritech:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "First Steel"
+			subtitle: "Smelt Steel in the Foundry \u2014 Iron + Coal, the backbone of mid-tier Oritech machines."
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E01C"]
+			description: [
+				"§eMachine Addons§r are upgrade blocks that attach to a machine's marked surfaces (or to §eMachine Extenders§r) and dramatically boost performance."
+				""
+				"§7Available addons:§r"
+				"§eSpeed Addon§r \u2014 faster processing"
+				"§eEfficiency Addon§r \u2014 lower RF/t consumption"
+				"§eBurst Addon§r \u2014 occasional processing speed spikes"
+				"§eFluid Addon§r \u2014 adds fluid I/O to the machine"
+				"§eSynergy Matrix§r \u2014 the ultimate high-end upgrade"
+				""
+				"§7Connection indicator:§r §ablue§r = connected, §dpink§r = disconnected. If an addon is pink, it has no valid machine attachment."
+				""
+				"§7Machine Cores:§r Right-click a machine to open the Core slot. Higher-tier cores increase §emachine quality§r, which controls how many addon slots are available. §eMachine Extenders§r add more addon surface, with layers capped by machine quality."
+			]
+			id: "E023"
+			rewards: [
+				{
+					count: 1
+					id: "E223"
+					item: "oritech:machine_speed_addon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E123"
+					item: "oritech:machine_extender"
+					type: "item"
+				}
+			]
+			title: "Machine Addons"
+			subtitle: "Attach addon blocks and upgrade Machine Cores to dramatically boost your Oritech machines."
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E018"]
+			description: [
+				"The §eEnderic Laser§r fires at §eAmethyst Clusters§r to slowly extract §eFluxite§r crystals \u2014 a key late-game material."
+				""
+				"§7Key mechanic:§r The laser does §cnot§r destroy the §7Budding Amethyst§r block beneath the cluster. It accelerates amethyst growth, so clusters regenerate over time for a renewable Fluxite supply."
+				""
+				"§7Alternative source:§r Fluxite is also a byproduct of the §ePlatinum§r ore processing chain through the Centrifuge."
+				""
+				"§7Why you need it:§r Fluxite is required for §eEnergite§r alloy (in the Foundry), which gates the highest-tier Oritech machines, the Atomic Forge, and late-game processors."
+				""
+				"§7Tip:§r Remember which Amethyst Geodes you passed during caving. Building a laser array above a geode gives you a passive, renewable Fluxite farm."
+			]
+			id: "E024"
+			rewards: [
+				{
+					count: 8
+					id: "E224"
+					item: "oritech:fluxite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E124"
+					item: "oritech:laser_arm_block"
+					type: "item"
+				}
+			]
+			title: "Enderic Laser"
+			subtitle: "Aim the Enderic Laser at Amethyst Clusters to harvest Fluxite \u2014 the gateway to late-game Oritech machines."
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["E020"]
+			description: [
+				"The §eParticle Accelerator§r uses a ring of §eGuide Rings§r and §eAccelerator Motors§r to accelerate a particle to high speed, then collides it to synthesize new materials."
+				""
+				"§7Building the ring:§r"
+				"1. Place the §eParticle Accelerator Controller§r at one point on the ring"
+				"2. Lay §eGuide Ring§r blocks in a loop \u2014 right-click to bend 45\u00b0 at corners"
+				"3. Place §eAccelerator Motors§r along the ring \u2014 each pass adds 1 m/s (cost = current_speed \u00d7 10 RF per motor)"
+				"4. Use a §eParticle Speed Sensor§r + comparator to monitor speed"
+				""
+				"§7Collision:§r Insert a second particle in the opposing direction. Collision energy = sum of both speeds. Larger rings allow higher speeds and tighter corner spacing."
+				""
+				"§7Tachyon recovery:§r High-energy collisions emit §eTachyons§r. Surround the collision point with §eTachyon Collectors§r to recoup up to 4\u00d7 the energy spent on acceleration."
+				""
+				"§cDimensional Incursions:§r At extreme energies (5000+ J), collisions with Fire Charges or Ender Pearls can rip open dimensional rifts. Researchers who tried this have not returned."
+			]
+			id: "E025"
+			rewards: [
+				{
+					count: 4
+					id: "E225"
+					item: "oritech:uranium_pellet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E125"
+					title: "Build and fire a Particle Accelerator"
+					type: "checkmark"
+				}
+			]
+			title: "Particle Accelerator"
+			subtitle: "Build a Particle Accelerator ring to collide particles and synthesize new materials."
+			x: 22.0d
+			y: 0.0d
+		}
 	]
 	subtitle: "Electronics, ore processing, and nuclear power."
 	title: "Oritech"

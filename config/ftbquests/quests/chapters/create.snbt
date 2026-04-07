@@ -952,7 +952,7 @@
 				type: "item"
 			}]
 			title: "Crafts \u0026 Additions"
-			x: 0.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -978,7 +978,7 @@
 				type: "item"
 			}]
 			title: "Fuel Motor"
-			x: 2.0d
+			x: 16.0d
 			y: 6.0d
 		}
 		{
@@ -1000,7 +1000,7 @@
 			subtitle: "Sift dirt into treasure"
 			tasks: [{
 				id: "B003"
-				item: "createsifter:mechanical_sieve"
+				item: "createsifter:sifter"
 				type: "item"
 			}]
 			title: "Create Sifting"
@@ -1031,7 +1031,7 @@
 				type: "checkmark"
 			}]
 			title: "Renewable Netherite"
-			x: 6.0d
+			x: 24.0d
 			y: 6.0d
 		}
 		{
@@ -1057,7 +1057,7 @@
 				type: "item"
 			}]
 			title: "Mechanical Spawner"
-			x: 8.0d
+			x: 26.0d
 			y: 6.0d
 		}
 		{
@@ -1079,11 +1079,11 @@
 			subtitle: "Keep the factory ticking"
 			tasks: [{
 				id: "B006"
-				item: "create_power_loader:power_loader"
+				item: "create_power_loader:brass_chunk_loader"
 				type: "item"
 			}]
 			title: "Power Loader"
-			x: 10.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -1105,11 +1105,11 @@
 			subtitle: "Automate enchanting with liquid XP"
 			tasks: [{
 				id: "B007"
-				item: "create_enchantment_industry:experience_nozzle"
+				item: "create_enchantment_industry:experience_hatch"
 				type: "item"
 			}]
 			title: "Enchantment Industry"
-			x: 0.0d
+			x: 12.0d
 			y: 8.0d
 		}
 		{
@@ -1136,7 +1136,7 @@
 				type: "checkmark"
 			}]
 			title: "Enchantable Machinery"
-			x: 2.0d
+			x: 14.0d
 			y: 8.0d
 		}
 		{
@@ -1163,7 +1163,7 @@
 				type: "checkmark"
 			}]
 			title: "Enchantment Industry Plus"
-			x: 4.0d
+			x: 16.0d
 			y: 8.0d
 		}
 		{
@@ -1190,7 +1190,7 @@
 				type: "checkmark"
 			}]
 			title: "Dreams \u0026 Desires"
-			x: 6.0d
+			x: 18.0d
 			y: 8.0d
 		}
 		{
@@ -1217,7 +1217,7 @@
 				type: "checkmark"
 			}]
 			title: "Central Kitchen"
-			x: 8.0d
+			x: 20.0d
 			y: 8.0d
 		}
 		{
@@ -1244,7 +1244,7 @@
 				type: "checkmark"
 			}]
 			title: "Integrated Farming"
-			x: 10.0d
+			x: 26.0d
 			y: 8.0d
 		}
 		{
@@ -1271,7 +1271,7 @@
 				type: "checkmark"
 			}]
 			title: "Winery"
-			x: 12.0d
+			x: 28.0d
 			y: 8.0d
 		}
 		{
@@ -1293,11 +1293,11 @@
 			subtitle: "Automate your fishing trips"
 			tasks: [{
 				id: "B00E"
-				item: "createfisheryindustry:mechanical_fisher"
+				item: "createfisheryindustry:frame_trap"
 				type: "item"
 			}]
 			title: "Fishery Industry"
-			x: 14.0d
+			x: 22.0d
 			y: 8.0d
 		}
 		{
@@ -1324,7 +1324,7 @@
 				type: "checkmark"
 			}]
 			title: "Confectionery"
-			x: 16.0d
+			x: 32.0d
 			y: 8.0d
 		}
 		{
@@ -1351,8 +1351,8 @@
 				type: "checkmark"
 			}]
 			title: "Connected"
-			x: 18.0d
-			y: 8.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["C006"]
@@ -1378,8 +1378,8 @@
 				type: "checkmark"
 			}]
 			title: "Create Encased"
-			x: 20.0d
-			y: 8.0d
+			x: 14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2023"]
@@ -1405,8 +1405,8 @@
 				type: "checkmark"
 			}]
 			title: "Ultimate Factory"
-			x: 22.0d
-			y: 8.0d
+			x: 30.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["C008"]
@@ -1432,7 +1432,7 @@
 				type: "checkmark"
 			}]
 			title: "Create: Stones"
-			x: 24.0d
+			x: 30.0d
 			y: 8.0d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				type: "checkmark"
 			}]
 			title: "Stuff 'N Additions"
-			x: 26.0d
+			x: 24.0d
 			y: 8.0d
 		}
 		{
@@ -1485,7 +1485,7 @@
 				type: "item"
 			}]
 			title: "Teleporters"
-			x: 12.0d
+			x: 18.0d
 			y: 6.0d
 		}
 		{
@@ -1507,11 +1507,11 @@
 			subtitle: "Stylish storage solutions"
 			tasks: [{
 				id: "B016"
-				item: "create_vibrant_vaults:vibrant_vault"
+				item: "create_vibrant_vaults:shipping_container"
 				type: "item"
 			}]
 			title: "Vibrant Vaults"
-			x: 14.0d
+			x: 28.0d
 			y: 6.0d
 		}
 		{
@@ -1533,11 +1533,11 @@
 			subtitle: "Automate the villager trade"
 			tasks: [{
 				id: "B017"
-				item: "trading_floor:trading_floor"
+				item: "trading_floor:trading_depot"
 				type: "item"
 			}]
 			title: "Trading Floor"
-			x: 16.0d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
@@ -1564,7 +1564,7 @@
 				type: "checkmark"
 			}]
 			title: "Cobblemon Balls Overhaul"
-			x: 18.0d
+			x: 22.0d
 			y: 6.0d
 		}
 		{
@@ -1572,12 +1572,12 @@
 			description: [
 				"§6Create: Bells \u0026 Whistles§r adds §6decorative and functional accessories§r for trains and Create contraptions."
 				""
-				"Brass Seats, Chain Conveyors, Engine Cowls, bogey props, and other decorative pieces make your locomotives and factories look the part."
+				"Brass Pilots, Chain Conveyors, Engine Cowls, bogey props, and other decorative pieces make your locomotives and factories look the part."
 				""
 				"§7Tip:§r Most Bells \u0026 Whistles pieces are crafted from existing Create materials \u2014 no new resource grind required to get started decorating."
 			]
 			id: "A019"
-			icon: "bellsandwhistles:brass_seat"
+			icon: "bellsandwhistles:brass_pilot"
 			rewards: [{
 				count: 4
 				id: "I019"

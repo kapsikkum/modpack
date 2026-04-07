@@ -386,6 +386,166 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7010"]
+			description: [
+				"The Farming for Blockheads §eMarket§r lets you buy seeds, saplings, and crop produce for §6Emeralds§r \u2014 no more hunting rare biomes for seeds."
+				""
+				"§7How it works:§r Place the Market in or near your farm. It stocks a catalog of purchasable crops, saplings, and farming items. Pay with Emeralds to get anything you're missing."
+				""
+				"§7Emerald sources:§r Trade with villagers, loot structures, or mine Emerald Ore in mountain biomes. A few stacks of Emeralds goes a long way."
+				""
+				"§7Tip:§r The Market is especially valuable early for hard-to-find Farmer's Delight seeds like Tomatoes, Onions, and Rice."
+			]
+			id: "7020"
+			rewards: [
+				{
+					count: 16
+					id: "7220"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7120"
+					item: "farmingforblockheads:market"
+					type: "item"
+				}
+			]
+			title: "Farmer's Market"
+			subtitle: "Use the Farming for Blockheads Market to purchase seeds and crop produce for Emeralds."
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["701F"]
+			description: [
+				"§bChef's Delight§r is a Farmer's Delight expansion adding professional kitchen recipes and specialty dishes with exceptional saturation and food buffs."
+				""
+				"§7Finding recipes:§r Browse §6Chef's Delight§r recipes in JEI or REI. Many meals use Farmer's Delight base ingredients combined in extra steps for superior results."
+				""
+				"§7Highlights:§r Chef's Delight dishes often stack saturation higher than anything else in the pack, making them worth the ingredient investment for long combat or mining sessions."
+				""
+				"§7Tip:§r Use the Cooking Pot and Skillet you already have. Chef's Delight builds on existing Farmer's Delight tools rather than requiring new equipment."
+			]
+			id: "7021"
+			rewards: [
+				{
+					count: 4
+					id: "7221"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7121"
+					title: "Cook a Chef's Delight dish"
+					type: "checkmark"
+				}
+			]
+			title: "Chef's Table"
+			subtitle: "Explore Chef's Delight for high-saturation specialty dishes built on Farmer's Delight tools."
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["701F"]
+			description: [
+				"§bAether's Delight§r brings sky-island cuisine to your kitchen \u2014 golden confections, celestial fruits, and cloud-light snacks from the §eAether§r dimension."
+				""
+				"§7Getting ingredients:§r Visit the §eAether§r and collect Aether-specific crops, fruits, and plant drops. Bring them back to prepare sky-themed meals."
+				""
+				"§7Golden food lore:§r The Aether is a land of gold and ambrosium \u2014 and its cuisine carries that theme. Expect rarer ingredients but buffed regeneration and saturation from the finished dishes."
+				""
+				"§7Tip:§r Some Aether's Delight recipes use vanilla Stove and Cutting Board. Others combine Aether materials with standard Farmer's Delight components. Check JEI for the full recipe list."
+			]
+			id: "7022"
+			rewards: [
+				{
+					count: 4
+					id: "7222"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7122"
+					title: "Cook a dish from Aether's Delight"
+					type: "checkmark"
+				}
+			]
+			title: "Aether Cuisine"
+			subtitle: "Cook sky-island dishes from Aether's Delight using ingredients found in the Aether dimension."
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["701F"]
+			description: [
+				"§bEnds Delight§r adds food and recipes themed around the §bEnd dimension§r \u2014 Chorus-based dishes, Shulker-inspired broths, and otherworldly confections."
+				""
+				"§7Gathering ingredients:§r Travel to the End and collect §eChorus Fruits§r, §eChorus Flowers§r, Shulker drinkables, and other End-biome materials for cooking."
+				""
+				"§7Unique effects:§r End-themed foods often carry effects fitting for Chorus-based ingredients \u2014 some enhance night vision or ender affinity."
+				""
+				"§7Tip:§r Ends Delight pairs well with an organised End raid. Stock up on materials during your Ender Dragon run and bring extras back for the kitchen."
+			]
+			id: "7023"
+			rewards: [
+				{
+					count: 4
+					id: "7223"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7123"
+					title: "Cook a dish from Ends Delight"
+					type: "checkmark"
+				}
+			]
+			title: "From the End"
+			subtitle: "Cook End-dimension cuisine using Chorus and Shulker ingredients from Ends Delight."
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7021"]
+			description: [
+				"§bFrights' Delight§r adds Halloween-themed seasonal foods: pumpkin soups, candy treats, spider-web pasta, bat stews, and more."
+				""
+				"§7Finding recipes:§r Check JEI or REI for the §6Frights' Delight§r recipe category. Many use common mob drops, Pumpkins, and dark biome materials like Spider Eyes."
+				""
+				"§7Seasonal flavour:§r Frights' Delight recipes are spooky-themed but available year-round. Perfect for variety beyond standard Farmer's Delight cuisine."
+				""
+				"§7Situational buffs:§r Some Frights' Delight dishes grant unusual effects like Invisibility, Swiftness, or Strength alongside saturation \u2014 keep a few on hand for specific encounters."
+			]
+			id: "7024"
+			rewards: [
+				{
+					count: 4
+					id: "7224"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7124"
+					title: "Cook a spooky dish from Frights' Delight"
+					type: "checkmark"
+				}
+			]
+			title: "Spooky Feast"
+			subtitle: "Cook Halloween-themed seasonal dishes from Frights' Delight."
+			x: 22.0d
+			y: 0.0d
+		}
 	]
 	subtitle: "From humble harvests to gourmet cuisine."
 	title: "Food \& Farming"
