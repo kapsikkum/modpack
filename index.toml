@@ -732,7 +732,7 @@ hash = "e285d2f0aa76a50322eb9fea80153e00aeffc3788802f7f9c1743c206ce980cf"
 
 [[files]]
 file = "kubejs/server_scripts/ccbo_fixes.js"
-hash = "aedaf381110435fe7f25676369654c13fbf76248cf4c999bbd31aed246e157da"
+hash = "137efa7b5b56ce56594729ef4f20171d89a75b384d834a84ef088be7e597a131"
 
 [[files]]
 file = "kubejs/server_scripts/createteleporters_fixes.js"
@@ -753,6 +753,10 @@ hash = "927b0b0ecf660aabe9d92eb99385237bb6651790faab79b9128303a76df51d36"
 [[files]]
 file = "kubejs/server_scripts/hide_extradisks.js"
 hash = "6f8d0f2c20281f9a8de622a226cccb4088c89fd3bab048fcc5b334c314f21389"
+
+[[files]]
+file = "kubejs/server_scripts/tag_fixes.js"
+hash = "fd56f4b97a9e3b96541de7672d01a035ed5610626b5944a7dddf3eafaf0b2ab2"
 
 [[files]]
 file = "kubejs/server_scripts/wallet.js"
@@ -1416,6 +1420,11 @@ hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
+file = "mods/etched.pw.toml"
+hash = "1f8bf41d4500de0b9acb68034929a969e6f147f95e501b2a7596b16609258493"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "72fffb9b0d2143b2a479d2ccb7c0a257c739d23b356255da552010de04f26abb"
 metafile = true
@@ -1773,6 +1782,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "114b4f1097f17b916cc5df3334aa57e34c6f4a108b87cb911e29134dd5ff980d"
+metafile = true
+
+[[files]]
+file = "mods/lootrmon.pw.toml"
+hash = "fe566b5e7f0bda72789fe5b1ff8925535d5791c7c0e197fe398521666242b7bf"
 metafile = true
 
 [[files]]

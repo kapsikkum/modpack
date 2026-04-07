@@ -49,6 +49,15 @@ ServerEvents.recipes(event => {
   event.recipes.create.filling('createmonballsoverhaul:dense_coated_black_ball_lid',  ['createmonballsoverhaul:black_ball_lid',  Fluid.of(dens, 200)])
   event.recipes.create.filling('createmonballsoverhaul:light_coated_blue_ball_lid',   ['createmonballsoverhaul:blue_ball_lid',   Fluid.of(lite, 200)])
 
+  // --- Bootstrap fix: blank_ball_lid (mod bug — circular dependency) ---
+  // blank_ball_lid can only be made by blasting colored lids, but colored lids require blank_ball_lid.
+  // apricorn_ball_lid IS reachable (rubber_stamp_lid → deploy on stripped_apricorn_log → cut → 4x apricorn_ball_lid)
+  // so pressing apricorn_ball_lid → blank_ball_lid provides a valid entry point.
+  event.recipes.create.pressing(
+    'createmonballsoverhaul:blank_ball_lid',
+    'createmonballsoverhaul:apricorn_ball_lid'
+  )
+
   // --- Sequenced Assembly: ancient_origin_ball_lid ---
   // Input: red_ball_lid → 6 steps × 2 loops → ancient_origin_ball_lid
   const trans = 'createmonballsoverhaul:unfinished_ancient_origin_ball_lid'
