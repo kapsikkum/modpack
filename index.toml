@@ -166,7 +166,7 @@ hash = "b657fa0364ace8d4db664e6429c11ae506af92d34a6baa49434aa021242facda"
 
 [[files]]
 file = "config/dailyshop/trade_tables/8_emeralds.json"
-hash = "6d4547e2672f88da0afdde88b910ec09e1606136d652afb52b4caa3de27a3d31"
+hash = "934603523291c29418dff316b2d76a280474d19122251b4069efbf69c64c775a"
 
 [[files]]
 file = "config/dailyshop/trade_tables/9_emeralds.json"
@@ -707,6 +707,10 @@ file = "kubejs/assets/kubejs/textures/item/exp_quartz.png"
 hash = "226cef491770527e7f0e0bfddaf5b6681f2bf6dcb33d62c522b6494e68ff38aa"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/vinyl_compound.png"
+hash = "3e27f1e7032b37d9f4e5e132efa158833996fe2674ec2ca8287366d741b5d8dd"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/wallet.png"
 hash = "7aae5a29d7e750839170563d09842b7333b156ae74e10474643156ca646c203f"
 
@@ -743,6 +747,10 @@ file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
+file = "kubejs/server_scripts/etched_vinyl.js"
+hash = "3d60d8b537ea1de9fca97b5abaf6217f12ee71a61a44af6b469519c74023d23f"
+
+[[files]]
 file = "kubejs/server_scripts/exp_quartz_candy.js"
 hash = "64b784dd07cbc2f706a0a32195b5ce7295bab4bd9819f52037010a8eff20a1f1"
 
@@ -769,6 +777,10 @@ hash = "0e970c7b19c52a00e1602d02713e3f45969732ecb9403fc68963ad933d2fbf28"
 [[files]]
 file = "kubejs/startup_scripts/exp_quartz.js"
 hash = "9c4f3f85ea6cb04af668271ff8ef7a892808ca55f7878268ba3dff92a105a946"
+
+[[files]]
+file = "kubejs/startup_scripts/vinyl_compound.js"
+hash = "63173dc812529a2225f54c73dc53862f4b5d811e35ffff2d824eb12119162f11"
 
 [[files]]
 file = "kubejs/startup_scripts/wallet.js"

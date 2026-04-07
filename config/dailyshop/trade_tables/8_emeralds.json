@@ -27,6 +27,7 @@
     {"item": "minecraft:wolf_spawn_egg",             "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "minecraft:cat_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
     {"item": "minecraft:bee_spawn_egg",              "count": {"type": "constant", "count": 1}, "weight": 1},
-    {"item": "immersive_aircraft:improved_landing_gear", "count": {"type": "constant", "count": 1}, "weight": 1}
+    {"item": "immersive_aircraft:improved_landing_gear", "count": {"type": "constant", "count": 1}, "weight": 1},
+    {"item": "etched:blank_music_disc",                  "count": {"type": "constant", "count": 1}, "weight": 0.8}
   ]
 }
