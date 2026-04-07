@@ -350,7 +350,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["E01A"]
+			dependencies: ["E022"]
 			description: [
 				"§eElectrum§r is Oritech's first alloy \u2014 an equal mix of Gold Dust and Silver (or Nickel) Dust, smelted in the Foundry."
 				""
@@ -377,7 +377,7 @@
 			]
 			title: "Electrum Alloy"
 			subtitle: "Smelt Electrum in the Foundry \u2014 key alloy for advanced circuits and mid-tier machine components."
-			x: 14.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -440,7 +440,7 @@
 			]
 			title: "Assembler"
 			subtitle: "Build the Assembler \u2014 automates crafting recipes from connected inventories."
-			x: 16.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -472,7 +472,7 @@
 			]
 			title: "Exo Armour"
 			subtitle: "Craft the Exo Chestplate \u2014 powered modular armour with augment slots. The pinnacle of Oritech protection."
-			x: 18.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -508,7 +508,7 @@
 			]
 			title: "Nuclear Reactor"
 			subtitle: "Build the Nuclear Reactor Control Panel \u2014 Oritech's ultimate power source running on Uranium fuel rods."
-			x: 20.0d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
@@ -649,7 +649,7 @@
 			]
 			title: "Enderic Laser"
 			subtitle: "Aim the Enderic Laser at Amethyst Clusters to harvest Fluxite \u2014 the gateway to late-game Oritech machines."
-			x: 18.0d
+			x: 20.0d
 			y: -2.0d
 		}
 		{
@@ -687,7 +687,7 @@
 			]
 			title: "Particle Accelerator"
 			subtitle: "Build a Particle Accelerator ring to collide particles and synthesize new materials."
-			x: 22.0d
+			x: 26.0d
 			y: 0.0d
 		}
 	]

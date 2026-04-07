@@ -222,7 +222,7 @@ hash = "a768befb824be99742a775295fadfd4590df83842f5855f91eff32df634e1066"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/end_remastered.snbt"
-hash = "20654a4c51cdd2e152ca285954c7cfe4b3da800b47bcfdbf9fa6496fca0b275f"
+hash = "88859307cfbe1693532f99b7542db0c2d879ac3e56eaba8c0cc25e13cbad9fa6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_farming.snbt"
@@ -242,7 +242,7 @@ hash = "fc0d3645b50c67757fd9fbcaf8dfb5625c48a82c2449bfbeb032d697bd8ed7df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "657dff808217aa17324fb90c8f590405a601142af6692e6f4102a69304a7885a"
+hash = "cb6c6ed1aa2bbd7323f2ad59e0bc0d369ae274ea8037a873058675118a8797a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
