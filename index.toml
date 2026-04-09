@@ -297,6 +297,10 @@ file = "config/jade/plugins.json"
 hash = "f866f4c2174aac7a8213d43e9022246d3f8a0f59ff16c8cc729366c0a36c06fe"
 
 [[files]]
+file = "config/logbegone.json"
+hash = "0b8a1c64b9aac2eacea1571a490c747063729a7ebb4122cfb551a5605b91bda6"
+
+[[files]]
 file = "config/lootr-client.toml"
 hash = "af23f503a8066f161a069d1409a41289afea1e0ac4d37d270c2d45f94cca287c"
 
@@ -748,7 +752,7 @@ hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
 file = "kubejs/server_scripts/etched_vinyl.js"
-hash = "3d60d8b537ea1de9fca97b5abaf6217f12ee71a61a44af6b469519c74023d23f"
+hash = "714f9084cfbdd270367f0c47c1e8e03cd4aaf0365959453083cad259cc6fdc8c"
 
 [[files]]
 file = "kubejs/server_scripts/exp_quartz_candy.js"

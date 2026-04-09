@@ -1,0 +1,21 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "add_player wand",
+      "remove player wand",
+      "player_data {}",
+      "Channel update:",
+      "Priority overwritten for player",
+      "Could not determine spawn bucket",
+      "Player [",
+      "Sending item configs to client"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "Tried to load invalid item: "
+    ]
+  }
+}

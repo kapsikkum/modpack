@@ -19,13 +19,11 @@
 // bypassing both chains.
 
 ServerEvents.recipes(event => {
-  // --- Remove vanilla shortcut ---
-  event.remove({ id: 'etched:blank_music_disc' })
-
-  // --- Route A: pneumaticcraft:plastic pressed into a blank disc ---
+  // --- Route A: pneumaticcraft:plastic (solid item) pressed into a blank disc ---
+  // Must use Item.of() to disambiguate from the pneumaticcraft:plastic fluid
   event.recipes.create.pressing(
     'etched:blank_music_disc',
-    'pneumaticcraft:plastic'
+    Item.of('pneumaticcraft:plastic')
   )
 
   // --- Route B step 1: HDPE sheet + coal dust mixed into vinyl compound ---
