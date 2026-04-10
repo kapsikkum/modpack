@@ -6,7 +6,7 @@ pin = true
 [download]
 url = "https://cdn.modrinth.com/data/rlloIFEV/versions/jOUBFX2f/travelersbackpack-neoforge-1.21.1-10.1.33.jar"
 hash-format = "sha512"
-hash = "2cf76ec5731ba3c8564ba38bfa7de9c6adf436b01be33c03e0f216572855d6a48686290552632b37b87e3ab63e69cf936a236975547a8278920e16222ba651"
+hash = "2cf76ec5731ba3c8564ba38bfa7de99c6adf436b01be33c03e0f216572855d6a48686290552632b37b87e3ab63e69cf936a236975547a8c278920e16222ba651"
 
 [update]
 [update.modrinth]
