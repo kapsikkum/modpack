@@ -42,7 +42,7 @@ hash = "449e25470f97905142f313bc2319512dcd874216e3e1604bb4739c7937555fc0"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "eab21373100470b3f545217cfb936b1d442689f50c1f5129a84e11a2e00ef56b"
+hash = "ab948262cf45764799209a68d5e5fab90c8c6c53675374574d20203b72a9077a"
 
 [[files]]
 file = "config/cobbleloots/cobbleloots.yaml"
@@ -752,11 +752,11 @@ hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
 
 [[files]]
 file = "kubejs/server_scripts/dirt_cycle.js"
-hash = "cc128a9bc685606400038578e3cda2c39408b2042bc5aa9a9e780cf37cc5919a"
+hash = "69f81e0d94c8a598e3bb24a3ec296df39fd9f9083916625abec2bc2b061e2beb"
 
 [[files]]
 file = "kubejs/server_scripts/etched_vinyl.js"
-hash = "714f9084cfbdd270367f0c47c1e8e03cd4aaf0365959453083cad259cc6fdc8c"
+hash = "1d9fc9bf71aa49196c272b8b6aaa7b1e385953662ef1fd87be64e7873dbaa822"
 
 [[files]]
 file = "kubejs/server_scripts/exp_quartz_candy.js"
@@ -769,6 +769,10 @@ hash = "927b0b0ecf660aabe9d92eb99385237bb6651790faab79b9128303a76df51d36"
 [[files]]
 file = "kubejs/server_scripts/hide_extradisks.js"
 hash = "6f8d0f2c20281f9a8de622a226cccb4088c89fd3bab048fcc5b334c314f21389"
+
+[[files]]
+file = "kubejs/server_scripts/rpg_series_smithing_fix.js"
+hash = "ca12dc23f4fe80c826c652f54e2c30b8dd0c71d7dbbd7dd9acd91558c4e424f1"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fixes.js"
@@ -2330,11 +2334,6 @@ hash = "96d2169c9e4e943f21ed9861275baae9e6b5f7ec7249fa4e063708538dc40088"
 metafile = true
 
 [[files]]
-file = "mods/smypn.pw.toml"
-hash = "808327462f45aac576ab825b328b3e1b0222e11d0852be4244c612fbedc93989"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extras.pw.toml"
 hash = "30a2c4efcf1622516a41808d945fe415c0e3c5e58e8364c506d6b38774663e06"
 metafile = true
@@ -2511,7 +2510,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
-hash = "93c6836527aaf36bcae2619268d73271b81b053a92e8c043c7963d4bf24af22c"
+hash = "06c4aaad4458f57a7a7df4aa16e7e3dd42abf1070191a13d18d99b7a6d649724"
 metafile = true
 
 [[files]]

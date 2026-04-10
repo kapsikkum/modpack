@@ -96,7 +96,7 @@ These mods are locked at specific versions and **must not be updated** without c
 | **Relics: Artifacts Compat** | `0.9.7` | Last version supporting Relics 0.10.x — v1.0 requires Relics ≥ 0.11.8, causes crash on launch |
 | **Reliquified Ars Nouveau** | `0.6.1` | Newer versions require Relics ≥ 0.11.8 |
 | **Reliquified L_Ender's Cataclysm** | `0.1.1` | Newer versions require Relics ≥ 0.11.8 |
-| **Sinytra Connector** | `2.0.0-beta.8` | beta.9+ broke Cardinal Components API classloading through Connector — causes `things` to crash the server with `NoClassDefFoundError: org/ladysnake/cca/api/v3/entity/EntityComponentInitializer` at startup |
+| **Sinytra Connector** | `2.0.0-beta.12` | CCA classloader regression in beta.9+ causes `things` to crash the server with `NoClassDefFoundError: org/ladysnake/cca/api/v3/entity/EntityComponentInitializer` at startup — bump only after verifying CCA-dependent Fabric mods load on the server |
 
 > **Warning:** Do NOT unpin or update any of the above without also updating Relics to ≥ 0.11.8 and verifying all four are mutually compatible.
 
@@ -117,10 +117,13 @@ These mods are locked at specific versions and **must not be updated** without c
 - AzureLib Armor
 - Balm
 - Bookshelf
+- Bundle API
 - Caelus API
+- Camol
 - Cardinal Components API
 - Cloth Config API
 - Collective
+- CoroUtil
 - CreativeCore
 - Cristel Lib
 - Cupboard
@@ -145,12 +148,15 @@ These mods are locked at specific versions and **must not be updated** without c
 - playerAnimator
 - Prickle
 - Puzzles Lib
+- Ranged Weapon API
 - Resourceful Config
 - Resourceful Lib
 - Rhino
+- Shield API
 - ShatterLib / OctoLib
 - StateObserver
 - Stitch (formerly Athena)
+- Structure Pool API
 - SuperMartijn642's Config Lib
 - SuperMartijn642's Core Lib
 - TerraBlender
@@ -165,6 +171,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - KryptonFoxified
 - Lithium
 - ModernFix
+- Neruina - Ticking Entity Fixer
 - Not Enough Crashes
 - ScalableLux
 - Sinytra Connector
@@ -181,6 +188,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Create: Cobblemon Balls Overhaul
 - Create Confectionery
 - Create: Connected
+- Create: Diesel Generators
 - Create: Copycats+
 - Create Crafts & Additions
 - Create: Dragons Plus
@@ -223,6 +231,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Cobblemon Tim Core
 - Cobbreeding
 - HiddenMons [Cobblemon]
+- Lootrmon: Lootr & Cobblemon Compatibility
 - MoreCobblemonTweaks
 - Sniffer Archaeology (Cobblemon)
 - TDmon
@@ -258,14 +267,17 @@ These mods are locked at specific versions and **must not be updated** without c
 - Just Enough Mekanism Multiblocks
 - More Mekanism Processing
 
-### Refined Storage
+### Storage
+- Extra Disks
+- ExtraStorage
 - Refined Storage
 - Refined Storage - Curios Integration
 - Refined Storage - EMI Integration
 - Refined Storage - Mekanism Integration
-- Extra Disks
-- ExtraStorage
+- RS Polymorph
 - RSInfinityBooster
+- Sophisticated Core
+- Sophisticated Storage
 
 ### Food & Farming
 - Aether's Delight
@@ -354,6 +366,7 @@ These mods are locked at specific versions and **must not be updated** without c
 - Pufferfish's Skills
 - Relics (RPG Series)
 - Rogues & Warriors (RPG Series)
+- Skill Tree (RPG Series)
 - Wizards (RPG Series)
 
 ### Building & Decoration
@@ -448,7 +461,6 @@ These mods are locked at specific versions and **must not be updated** without c
 - Bridging Mod
 - Building Wands
 - Cherished Worlds
-- Chunky
 - Configured
 - Crawl
 - Default Options
@@ -467,12 +479,12 @@ These mods are locked at specific versions and **must not be updated** without c
 - Ping Wheel
 - Ponder for KubeJS
 - ServerCore
-- Show Me Your Payload Name
 - Sit
 - Subtle Effects
 - Tree Harvester
 - Undertale Death Screen
 - Villager Names
+- What Are They Up To (Watut)
 
 ### Visual & Audio
 - AmbientSounds
@@ -501,6 +513,7 @@ These mods are locked at specific versions and **must not be updated** without c
 
 ### Resource Packs
 - AllTheMons x Mega Showdown
+- BCG x Whimscape
 - BoniMons
 - CavsCobbleMons
 - CobbleMotion
@@ -524,10 +537,17 @@ These mods are locked at specific versions and **must not be updated** without c
 - Simply Swords Whimscape add-on
 - Refined Storage - ReCreated
 
+### Economy
+- Daily Shop
+- Selling Bin
+
 ### Tech & Scripting
 - Almost Unified
 - Alloy Forgery
+- Etched
 - KubeJS
+- KubeJS Create
+- KubeJS Mekanism
 - LootJS: KubeJS Addon
 - Oritech
 - PneumaticCraft: Repressurized
