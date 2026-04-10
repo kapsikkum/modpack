@@ -378,7 +378,7 @@ hash = "f1feb3902e55464a2c4d3c0efb2c50a0f7398701b323bce0a926c35a7e456524"
 
 [[files]]
 file = "config/villagernames/customnames.txt"
-hash = "bb585fccfc3d0d18a1a32f690c29a5bdceee9bc77e637e2fe7c58b6e3135925c"
+hash = "74a52ef3a7822e40f06edebba1439c5c440fa5f9b4f04e5744c31b611875f0aa"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -749,6 +749,10 @@ hash = "e6ebf28aa271687c96b26c2632bb5c24dc42545e79a9fea943b80db87865bbfd"
 [[files]]
 file = "kubejs/server_scripts/daily_shop_recipe.js"
 hash = "87c3e5f81faed45b22bff21dda8d85b8354a4664fb25a719dadab32e5f11630e"
+
+[[files]]
+file = "kubejs/server_scripts/dirt_cycle.js"
+hash = "cc128a9bc685606400038578e3cda2c39408b2042bc5aa9a9e780cf37cc5919a"
 
 [[files]]
 file = "kubejs/server_scripts/etched_vinyl.js"

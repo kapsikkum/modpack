@@ -1,40 +1,36 @@
-// Etched blank music disc production chains
+// Etched blank music disc production chain
 //
-// Two parallel routes, both end at etched:blank_music_disc via a Create Mechanical Press:
+// Two parallel mixing inputs both feed into a single heated compacting step:
 //
-// Route A — PneumaticCraft (plastic focus):
-//   biodiesel + charcoal → [Thermopneumatic Plant] → liquid plastic
-//   liquid plastic → [Heat Frame, ≤ 0°C] → pneumaticcraft:plastic
-//   pneumaticcraft:plastic → [Create Press] → etched:blank_music_disc
+// Route A — PneumaticCraft plastic sheet:
+//   pneumaticcraft:plastic + mekanism:dust_coal → [Mixer] → kubejs:vinyl_compound
 //
-// Route B — Mekanism (polymer focus):
-//   biofuel → [Chemical Oxidizer] → bio gas
-//   bio gas + substrate + water → [PRC] → ethene fluid
-//   ethene + substrate + oxygen → [PRC] → mekanism:hdpe_pellet
-//   3× hdpe_pellet → [Enrichment Chamber] → mekanism:hdpe_sheet
-//   mekanism:hdpe_sheet + mekanism:dust_coal → [Create Mixer] → kubejs:vinyl_compound
-//   kubejs:vinyl_compound → [Create Press] → etched:blank_music_disc
+// Route B — Mekanism HDPE sheet:
+//   mekanism:hdpe_sheet + mekanism:dust_coal → [Mixer] → kubejs:vinyl_compound
+//
+// Final step (both routes):
+//   kubejs:vinyl_compound → [Heated Compacting] → etched:blank_music_disc
 //
 // The vanilla smelting recipe (any music disc → blank disc) is removed to prevent
-// bypassing both chains.
+// bypassing the chain.
 
 ServerEvents.recipes(event => {
-  // --- Route A: pneumaticcraft:plastic (solid item) pressed into a blank disc ---
-  // Must use Item.of() to disambiguate from the pneumaticcraft:plastic fluid
-  event.recipes.create.pressing(
-    'etched:blank_music_disc',
-    Item.of('pneumaticcraft:plastic')
+  // --- Route A: PneumaticCraft plastic sheet + coal dust → vinyl compound ---
+  // Item.of() disambiguates from the pneumaticcraft:plastic fluid
+  event.recipes.create.mixing(
+    'kubejs:vinyl_compound',
+    [Item.of('pneumaticcraft:plastic'), 'mekanism:dust_coal']
   )
 
-  // --- Route B step 1: HDPE sheet + coal dust mixed into vinyl compound ---
+  // --- Route B: Mekanism HDPE sheet + coal dust → vinyl compound ---
   event.recipes.create.mixing(
     'kubejs:vinyl_compound',
     ['mekanism:hdpe_sheet', 'mekanism:dust_coal']
   )
 
-  // --- Route B step 2: vinyl compound pressed into a blank disc ---
-  event.recipes.create.pressing(
+  // --- Final step: heated compacting (Press + Basin + Blaze Burner) → blank disc ---
+  event.recipes.create.compacting(
     'etched:blank_music_disc',
-    'kubejs:vinyl_compound'
-  )
+    ['kubejs:vinyl_compound']
+  ).heated()
 })
