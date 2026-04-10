@@ -772,7 +772,7 @@ hash = "6f8d0f2c20281f9a8de622a226cccb4088c89fd3bab048fcc5b334c314f21389"
 
 [[files]]
 file = "kubejs/server_scripts/rpg_series_smithing_fix.js"
-hash = "ca12dc23f4fe80c826c652f54e2c30b8dd0c71d7dbbd7dd9acd91558c4e424f1"
+hash = "d2fcef6fc26df2be66a00775d445db1c440eef1bb38a401a4e225e272ad45ba9"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fixes.js"
@@ -2510,7 +2510,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
-hash = "06c4aaad4458f57a7a7df4aa16e7e3dd42abf1070191a13d18d99b7a6d649724"
+hash = "bac102b2761386ad8ff1e4ece5a6a6b72fd7fa9735f41e28f0986234eafe8d26"
 metafile = true
 
 [[files]]

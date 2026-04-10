@@ -10,14 +10,16 @@
 // Fix: remove the original recipes and re-register them via KubeJS, which creates
 // plain ItemIngredient objects (type-check only, no component comparison).
 //
-// Covers: rogues (berserker + assassin armour, rogue weapons + ruby tier)
-//         paladins (crusader + prior_robe armour, paladin weapons + ruby tier)
+// Covers: rogues (berserker + assassin armour, rogue weapons — netherite tier only)
+//         paladins (crusader + prior_robe armour, paladin weapons — netherite tier only)
 //         wizards (arcane + fire + frost robes, staves + wands)
+//
+// Note: ruby-tier recipes (rogues:ruby_* / paladins:ruby_*) are omitted because
+// betternether:nether_ruby and the ruby result items do not exist in this pack.
 
 ServerEvents.recipes(event => {
   const TEMPLATE = 'minecraft:netherite_upgrade_smithing_template'
   const NETH = 'minecraft:netherite_ingot'
-  const RUBY = 'betternether:nether_ruby'
 
   const recipes = [
     // ── Rogues ───────────────────────────────────────────────────────────────
@@ -33,10 +35,6 @@ ServerEvents.recipes(event => {
     ['rogues:netherite_double_axe_smithing',           'rogues:diamond_double_axe',     'rogues:netherite_double_axe',            TEMPLATE, NETH],
     ['rogues:netherite_glaive_smithing',               'rogues:diamond_glaive',         'rogues:netherite_glaive',                TEMPLATE, NETH],
     ['rogues:netherite_sickle_smithing',               'rogues:diamond_sickle',         'rogues:netherite_sickle',                TEMPLATE, NETH],
-    ['rogues:ruby_dagger_smithing',                    'rogues:netherite_dagger',       'rogues:ruby_dagger',                     TEMPLATE, RUBY],
-    ['rogues:ruby_double_axe_smithing',                'rogues:netherite_double_axe',   'rogues:ruby_double_axe',                 TEMPLATE, RUBY],
-    ['rogues:ruby_glaive_smithing',                    'rogues:netherite_glaive',       'rogues:ruby_glaive',                     TEMPLATE, RUBY],
-    ['rogues:ruby_sickle_smithing',                    'rogues:netherite_sickle',       'rogues:ruby_sickle',                     TEMPLATE, RUBY],
 
     // ── Paladins ─────────────────────────────────────────────────────────────
     ['paladins:netherite_claymore_smithing',            'paladins:diamond_claymore',      'paladins:netherite_claymore',            TEMPLATE, NETH],
@@ -53,10 +51,6 @@ ServerEvents.recipes(event => {
     ['paladins:netherite_prior_robe_feet_smithing',     'paladins:prior_robe_feet',      'paladins:netherite_prior_robe_feet',      TEMPLATE, NETH],
     ['paladins:netherite_prior_robe_head_smithing',     'paladins:prior_robe_head',      'paladins:netherite_prior_robe_head',      TEMPLATE, NETH],
     ['paladins:netherite_prior_robe_legs_smithing',     'paladins:prior_robe_legs',      'paladins:netherite_prior_robe_legs',      TEMPLATE, NETH],
-    ['paladins:ruby_claymore_smithing',                 'paladins:netherite_claymore',   'paladins:ruby_claymore',                  TEMPLATE, RUBY],
-    ['paladins:ruby_great_hammer_smithing',             'paladins:netherite_great_hammer','paladins:ruby_great_hammer',             TEMPLATE, RUBY],
-    ['paladins:ruby_kite_shield_smithing',              'paladins:netherite_kite_shield','paladins:ruby_kite_shield',               TEMPLATE, RUBY],
-    ['paladins:ruby_mace_smithing',                     'paladins:netherite_mace',       'paladins:ruby_mace',                      TEMPLATE, RUBY],
 
     // ── Wizards ──────────────────────────────────────────────────────────────
     ['wizards:netherite_arcane_robe_chest_smithing',    'wizards:arcane_robe_chest',     'wizards:netherite_arcane_robe_chest',     TEMPLATE, NETH],
@@ -89,3 +83,4 @@ ServerEvents.recipes(event => {
     )
   }
 })
+
