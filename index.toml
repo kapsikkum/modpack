@@ -313,6 +313,10 @@ file = "config/mutantmonsters-common.toml"
 hash = "8b5d8c14971018eb875067724678a3cc026893cce45d6fd12e0d1a04b44288a0"
 
 [[files]]
+file = "config/neruina.json5"
+hash = "2787193073c065d0e911393edc20df9e502064ee52e1803f3b0a82fe7e1c0836"
+
+[[files]]
 file = "config/sellingbin/selling_bin.json"
 hash = "61fb6cff435f78d72252eb2bfb6fad54485f6d6717952026627cf5edcd62c7fd"
 
