@@ -321,6 +321,10 @@ file = "config/refinedstorage-common.toml"
 hash = "a3553f98377224bef9a0bffe6fbc2a4b7987d2c6a66689492a4b7950902ed9c3"
 
 [[files]]
+file = "config/rsinfinitybooster-server.toml"
+hash = "8599312e2538c1fc2a33f916b83a6630cdf9d4d1e83b5f9d75392cb0c77569fc"
+
+[[files]]
 file = "config/sellingbin/selling_bin.json"
 hash = "61fb6cff435f78d72252eb2bfb6fad54485f6d6717952026627cf5edcd62c7fd"
 
