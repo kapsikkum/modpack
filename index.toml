@@ -61,6 +61,14 @@ file = "config/comforts-server.toml"
 hash = "38e8d15601de1e3b7ff41b637b039caee15cb95638c17be32a80adff3c361265"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "88a83d6808d0bc0b24475f63e11b652bc9d98821025852e51d91804b36c87a33"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "d6d6c010d897a1caea576526f2b37fdadcf01e9dd6b0a17704a1c4c741723ce8"
+
+[[files]]
 file = "config/dailyshop/daily_shop.json"
 hash = "af6663a4454cdc2e85cc8fde1e84aa70a32e5e03047dfd4e993bcca340b779b7"
 
