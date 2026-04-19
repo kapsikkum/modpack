@@ -2299,11 +2299,6 @@ hash = "a8ac5ced9cafa5cf53d9f4d0cb61df06729d1a7b66b88d6b5a2e609b1ca26fa0"
 metafile = true
 
 [[files]]
-file = "mods/scalablelux.pw.toml"
-hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "c150b2a60128cad4bd32ea0d3106502241ad234f1ad355ad3b98d0ac82324589"
 metafile = true
