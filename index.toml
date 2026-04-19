@@ -2215,7 +2215,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-curio-fix.pw.toml"
-hash = "f57d8532f5664624fdcfabcca5ff66226836971362623f23d625fdd2280ac3c8"
+hash = "ebec85c6e2f1d7f9136665f8fb4ba1fedb1662fa9ea6583606dd3691c32e628e"
 metafile = true
 
 [[files]]
