@@ -1164,6 +1164,11 @@ hash = "23c7ebe6390facfe4102be7f0a3cd9d6125ef40b59465a49e649a555d0f8ef73"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "21110f3cc2edf33c680d3c8a680813288bcbd41122f2385ac976619dc37d7979"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "841520a74c765cb9aef0cc35ec3f9ea3bef68b47eca8ed2643abacee6961c2ff"
 metafile = true
@@ -2286,6 +2291,11 @@ metafile = true
 [[files]]
 file = "mods/runes.pw.toml"
 hash = "2b20f4d643cad01eaffaeb1602d9af25195e133e9b94ac96d1a3a0bed2c83086"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "a8ac5ced9cafa5cf53d9f4d0cb61df06729d1a7b66b88d6b5a2e609b1ca26fa0"
 metafile = true
 
 [[files]]
